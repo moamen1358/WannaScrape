@@ -5,7 +5,7 @@
     },
     "browser": {
         "headless": false,
-        "slow_mo": 100,
+        "slow_mo": 50,
         "timeout": 30000
     },
     "retry": {

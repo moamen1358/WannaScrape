@@ -961,8 +961,10 @@ class WebScraper:
 
             try:
                 with sync_playwright() as p:
-                    slow_mo = random.randint(150, 300)
-                    
+                    # Use config slow_mo with small variation (±20%)
+                    base_slow_mo = self.config.get("browser", {}).get("slow_mo", 100)
+                    slow_mo = random.randint(int(base_slow_mo * 0.8), int(base_slow_mo * 1.2))
+
                     browser = p.chromium.launch(
                         headless=headless,
                         slow_mo=slow_mo,
