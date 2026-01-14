@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+
+# Project Specific
+.cache/
+logs/
+screenshots/
+config/config.json
+config/proxies.txt
+SCRAPER_EXPLANATION.md
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Executables
+nohup.out
+api_startup_*.log
+
+logs/api_startup.log
+logs/scraper.log
+logs/search.log
+logs/
+config/config.json
+config/proxies.txt
+SCRAPER_EXPLANATION.md
+.cache/
