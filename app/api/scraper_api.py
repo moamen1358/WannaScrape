@@ -110,10 +110,13 @@ class ArticleResponse(BaseModel):
     source: Optional[str] = None
     text: Optional[str] = None
     error: Optional[str] = None
-    # New fields for enhanced tracking
+    error_type: Optional[str] = None
+    # Enhanced tracking fields
     scrape_duration: Optional[float] = None
     user_agent_used: Optional[str] = None
     location_used: Optional[str] = None
+    final_url: Optional[str] = None
+    screenshot_path: Optional[str] = None
 
 
 @app.get("/health")
@@ -192,6 +195,8 @@ def scrape_article(req: ScrapeRequest):
             likely_ban = article_raw.get("likely_ban", False)
             user_agent = article_raw.get("user_agent_used", "unknown")
             location = article_raw.get("location_used", "unknown")
+            final_url = article_raw.get("final_url", url)
+            screenshot = article_raw.get("screenshot_path", "")
 
             # Enterprise logging for failed scrape
             enterprise_logger.scrape.log_scrape_failed(
@@ -205,9 +210,12 @@ def scrape_article(req: ScrapeRequest):
 
             return [ArticleResponse(
                 error=article_raw["error"],
+                error_type=error_type,
                 scrape_duration=duration_s,
                 user_agent_used=user_agent,
-                location_used=location
+                location_used=location,
+                final_url=final_url,
+                screenshot_path=screenshot
             )]
 
         # Extract metadata from successful scrape
@@ -240,7 +248,8 @@ def scrape_article(req: ScrapeRequest):
             text=text_content,
             scrape_duration=duration_s,
             user_agent_used=user_agent,
-            location_used=location
+            location_used=location,
+            final_url=article_raw.get("final_url", url)
         )]
 
     except Exception as e:

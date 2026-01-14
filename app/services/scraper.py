@@ -222,143 +222,129 @@ def _ease_out_quad(t: float) -> float:
     return 1 - (1 - t) ** 2
 
 
-def _simulate_mouse_movement(page, num_movements: int = None, timeout_checker=None):
+def _simulate_mouse_movement(page, num_movements: int = None, config: dict = None):
     """
     Simulate realistic human mouse movements with natural patterns.
-    Always runs at least minimal movements regardless of timeout.
+    Optimized for speed while maintaining human-like behavior.
     """
     try:
+        # Get config values or defaults
+        hb_config = config.get("human_behavior", {}) if config else {}
+        movement_speed = hb_config.get("movement_speed", 0.008)
+        pause_config = hb_config.get("pause_between_actions", {"min": 0.1, "max": 0.3})
+
         viewport = page.viewport_size
         if not viewport:
-            # Try to get viewport from page evaluation as fallback
             try:
                 width = page.evaluate("window.innerWidth") or 1920
                 height = page.evaluate("window.innerHeight") or 1080
-                logger.info(f"🖱️ Viewport fallback: {width}x{height}")
             except:
                 width, height = 1920, 1080
-                logger.info(f"🖱️ Using default viewport: {width}x{height}")
         else:
             width, height = viewport['width'], viewport['height']
 
-        # Always do at least 2 movements
-        num_movements = num_movements or random.randint(3, 5)
-        num_movements = max(2, num_movements)
+        # Use config for movement count or defaults (2-3 is fast but human-like)
+        if num_movements is None:
+            mv_config = hb_config.get("mouse_movements", {"min": 2, "max": 3})
+            num_movements = random.randint(mv_config.get("min", 2), mv_config.get("max", 3))
 
-        logger.info(f"🖱️ Mouse simulation: {num_movements} movements in {width}x{height} viewport")
+        logger.info(f"🖱️ Mouse: {num_movements} moves in {width}x{height}")
 
-        # Start from a realistic position
+        # Start position
         current_x = random.randint(100, min(width // 3, width - 100))
         current_y = random.randint(100, min(height // 3, height - 100))
-
-        # Move to initial position
         page.mouse.move(current_x, current_y)
-        time.sleep(random.uniform(0.05, 0.15))
 
         for move_idx in range(num_movements):
-            # Target selection - prefer content areas
+            # Target in content area
             target_x = random.randint(100, max(200, width - 100))
             target_y = random.randint(150, max(200, height - 150))
 
-            # Calculate distance and steps
-            distance = math.sqrt((target_x - current_x)**2 + (target_y - current_y)**2)
-            steps = max(5, int(distance / 50))
+            # Fewer steps for speed (10-15 instead of distance-based)
+            steps = random.randint(10, 15)
 
             for i in range(steps + 1):
                 t = i / steps
-                # Simple curved movement
-                curve = math.sin(t * math.pi) * 15
-                x = current_x + (target_x - current_x) * t + curve
-                y = current_y + (target_y - current_y) * t
-
-                # Keep within viewport
-                x = max(10, min(width - 10, x))
-                y = max(10, min(height - 10, y))
-
+                curve = math.sin(t * math.pi) * 10
+                x = max(10, min(width - 10, current_x + (target_x - current_x) * t + curve))
+                y = max(10, min(height - 10, current_y + (target_y - current_y) * t))
                 page.mouse.move(x, y)
-                time.sleep(0.015)  # ~60fps movement
+                time.sleep(movement_speed)
 
             current_x, current_y = target_x, target_y
+            time.sleep(random.uniform(pause_config.get("min", 0.1), pause_config.get("max", 0.3)))
 
-            # Brief pause between movements
-            time.sleep(random.uniform(0.08, 0.2))
-
-        logger.info(f"🖱️ Mouse simulation completed: {num_movements} movements")
+        logger.info(f"🖱️ Mouse completed: {num_movements} moves")
     except Exception as e:
-        logger.warning(f"🖱️ Mouse simulation error: {e}")
+        logger.warning(f"🖱️ Mouse error: {e}")
 
 
-def _simulate_scroll(page, scroll_down: bool = True, timeout_checker=None):
+def _simulate_scroll(page, scroll_down: bool = True, config: dict = None):
     """
     Simulate realistic human scrolling behavior.
-    Always runs at least minimal scrolling regardless of timeout.
+    Optimized for speed while maintaining human-like patterns.
     """
     try:
-        # Get page dimensions
+        # Get config values or defaults
+        hb_config = config.get("human_behavior", {}) if config else {}
+        scroll_config = hb_config.get("scroll_actions", {"min": 2, "max": 3})
+        pause_config = hb_config.get("pause_between_actions", {"min": 0.1, "max": 0.3})
+
         page_height = page.evaluate("document.body.scrollHeight") or 2000
         viewport_height = page.evaluate("window.innerHeight") or 800
 
-        logger.info(f"📜 Scroll simulation: page={page_height}px, viewport={viewport_height}px")
+        logger.info(f"📜 Scroll: page={page_height}px, viewport={viewport_height}px")
 
         if scroll_down:
-            # Always do at least 2 scroll actions
-            scroll_count = random.randint(2, 4)
-            max_scroll = min(page_height - viewport_height, page_height * 0.6)
-            max_scroll = max(max_scroll, 300)  # Always scroll at least 300px
+            scroll_count = random.randint(scroll_config.get("min", 2), scroll_config.get("max", 3))
+            max_scroll = min(page_height - viewport_height, page_height * 0.5)
+            max_scroll = max(max_scroll, 300)
             current_pos = 0
 
             for i in range(scroll_count):
-                # Variable scroll amounts
-                scroll_amount = random.randint(200, 500)
+                scroll_amount = random.randint(250, 450)
                 target_pos = min(current_pos + scroll_amount, max_scroll)
-
-                # Smooth scroll
                 page.evaluate(f"window.scrollTo({{top: {target_pos}, behavior: 'smooth'}})")
                 current_pos = target_pos
+                time.sleep(random.uniform(pause_config.get("min", 0.1), pause_config.get("max", 0.3)))
 
-                # Brief reading pause
-                time.sleep(random.uniform(0.3, 0.8))
-
-            # Sometimes scroll back up
-            if random.random() < 0.3:
-                back_amount = random.randint(100, 300)
+            # Occasionally scroll back (20% chance)
+            if random.random() < 0.2:
+                back_amount = random.randint(100, 200)
                 page.evaluate(f"window.scrollTo({{top: {max(0, current_pos - back_amount)}, behavior: 'smooth'}})")
-                time.sleep(random.uniform(0.2, 0.5))
+                time.sleep(random.uniform(0.1, 0.2))
 
-            logger.info(f"📜 Scroll simulation completed: {scroll_count} scrolls, reached {current_pos}px")
+            logger.info(f"📜 Scroll completed: {scroll_count} scrolls, reached {current_pos}px")
     except Exception as e:
-        logger.warning(f"📜 Scroll simulation error: {e}")
+        logger.warning(f"📜 Scroll error: {e}")
 
 
-def _simulate_human_behavior(page, timeout_checker=None):
+def _simulate_human_behavior(page, config: dict = None):
     """
     Combined human behavior simulation that mimics real user interaction.
-    Always runs mouse movements and scrolling regardless of timeout.
+    Optimized for speed (~2-4 seconds total) while maintaining human-like behavior.
     """
     try:
-        logger.info("🧑 Starting human behavior simulation...")
+        logger.info("🧑 Human behavior simulation...")
+        start_time = time.time()
 
-        # Brief initial pause (page just loaded)
-        time.sleep(random.uniform(0.3, 0.6))
+        # Brief initial pause
+        time.sleep(random.uniform(0.1, 0.2))
 
-        # Always run mouse movements
-        logger.info("🧑 Running mouse movements...")
-        _simulate_mouse_movement(page, num_movements=random.randint(3, 5), timeout_checker=timeout_checker)
+        # Mouse movements (uses config for speed/count)
+        _simulate_mouse_movement(page, config=config)
 
-        # Brief pause between mouse and scroll
-        time.sleep(random.uniform(0.2, 0.4))
+        # Brief pause between actions
+        time.sleep(random.uniform(0.1, 0.2))
 
-        # Always run scrolling
-        logger.info("🧑 Running scroll simulation...")
-        _simulate_scroll(page, timeout_checker=timeout_checker)
+        # Scroll simulation (uses config for speed/count)
+        _simulate_scroll(page, config=config)
 
-        # Brief final pause
-        time.sleep(random.uniform(0.2, 0.4))
-
-        logger.info("🧑 Human behavior simulation completed ✓")
+        elapsed = time.time() - start_time
+        logger.info(f"🧑 Human behavior completed in {elapsed:.1f}s ✓")
 
     except Exception as e:
-        logger.warning(f"🧑 Human behavior simulation error: {e}")
+        logger.warning(f"🧑 Human behavior error: {e}")
 
 
 # ============================================================================
@@ -1269,12 +1255,12 @@ class WebScraper:
                                 except Exception:
                                     pass
 
-                            # Human-like delay (normal distribution instead of fixed)
-                            time.sleep(_human_delay(strategy["sleep"] - 1, strategy["sleep"] + 2))
+                            # Brief human-like delay after page load
+                            time.sleep(random.uniform(0.5, 1.0))
 
-                            # Simulate human behavior (mouse movement, scrolling)
-                            _simulate_human_behavior(page, timeout_checker)
-                            self.adv_logger.log_human_behavior(session, mouse_moves=random.randint(3, 6), scrolls=random.randint(2, 5))
+                            # Simulate human behavior (mouse movement, scrolling) - uses config for timing
+                            _simulate_human_behavior(page, config=self.config)
+                            self.adv_logger.log_human_behavior(session, mouse_moves=random.randint(2, 3), scrolls=random.randint(2, 3))
 
                             # Check timeout after human behavior simulation
                             timeout_checker.check("human_behavior")

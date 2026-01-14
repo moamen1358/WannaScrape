@@ -2198,5 +2198,109 @@
       "domcontentloaded"
     ],
     "cloudflare_detected": false
+  },
+  {
+    "session_id": "SCRAPE_20260114_172023_0001",
+    "url": "https://betakit.com/inside-ottawas-cautious-experiment-with-an-ai-powered-digital-help-desk/",
+    "timestamp": "2026-01-14T17:20:23.703619",
+    "attempt": 1,
+    "max_attempts": 3,
+    "status": "success",
+    "anti_detection": {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "browser": "chrome",
+      "os": "windows",
+      "browser_version": "120",
+      "viewport_width": 1536,
+      "viewport_height": 864,
+      "location_name": "Dublin, Ireland",
+      "timezone": "Europe/Dublin",
+      "locale": "en-IE",
+      "geolocation": {
+        "latitude": 53.3498,
+        "longitude": -6.2603
+      },
+      "proxy_server": "",
+      "proxy_masked": "",
+      "referrer": "https://www.google.com/search?q=betakit+com",
+      "sec_ch_ua": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\""
+    },
+    "timing": {
+      "start_time": 1768404023.7036896,
+      "browser_launch_time": 0.7433881759643555,
+      "page_load_time": 3.143455743789673,
+      "cloudflare_wait_time": 0,
+      "human_behavior_time": 16.414843559265137,
+      "content_extraction_time": 3.214329957962036,
+      "total_time": 19.72188377380371
+    },
+    "content": {
+      "html_length": 158615,
+      "text_length": 7751,
+      "title": "Inside Ottawa\u2019s cautious experiment with an AI-powered digital help desk | BetaKit",
+      "final_url": "https://betakit.com/inside-ottawas-cautious-experiment-with-an-ai-powered-digital-help-desk/",
+      "extraction_method": "fallback:article",
+      "has_article": true,
+      "word_count": 12
+    },
+    "error_type": "",
+    "error_message": "",
+    "likely_ban": false,
+    "strategies_tried": [
+      "domcontentloaded"
+    ],
+    "cloudflare_detected": false
+  },
+  {
+    "session_id": "SCRAPE_20260114_172151_0001",
+    "url": "https://betakit.com/inside-ottawas-cautious-experiment-with-an-ai-powered-digital-help-desk/",
+    "timestamp": "2026-01-14T17:21:51.790730",
+    "attempt": 1,
+    "max_attempts": 3,
+    "status": "success",
+    "anti_detection": {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+      "browser": "chrome",
+      "os": "windows",
+      "browser_version": "119",
+      "viewport_width": 1920,
+      "viewport_height": 1080,
+      "location_name": "Houston, USA",
+      "timezone": "America/Chicago",
+      "locale": "en-US",
+      "geolocation": {
+        "latitude": 29.7604,
+        "longitude": -95.3698
+      },
+      "proxy_server": "",
+      "proxy_masked": "",
+      "referrer": "https://www.google.com/search?q=betakit+com",
+      "sec_ch_ua": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"119\", \"Google Chrome\";v=\"119\""
+    },
+    "timing": {
+      "start_time": 1768404111.790775,
+      "browser_launch_time": 0.7822456359863281,
+      "page_load_time": 2.2115609645843506,
+      "cloudflare_wait_time": 0,
+      "human_behavior_time": 15.661529541015625,
+      "content_extraction_time": 2.30468487739563,
+      "total_time": 18.12426519393921
+    },
+    "content": {
+      "html_length": 157779,
+      "text_length": 7751,
+      "title": "Inside Ottawa\u2019s cautious experiment with an AI-powered digital help desk | BetaKit",
+      "final_url": "https://betakit.com/inside-ottawas-cautious-experiment-with-an-ai-powered-digital-help-desk/",
+      "extraction_method": "fallback:article",
+      "has_article": true,
+      "word_count": 12
+    },
+    "error_type": "",
+    "error_message": "",
+    "likely_ban": false,
+    "strategies_tried": [
+      "domcontentloaded"
+    ],
+    "cloudflare_detected": false
   }
 ]

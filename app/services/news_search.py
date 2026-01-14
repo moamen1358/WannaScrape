@@ -132,25 +132,53 @@ def _get_proxies(config):
         pass
     return proxies
 
-def search_google_news_rss(query, limit=10):
-    """Search Google News RSS feed with detailed logging for debugging."""
+def search_google_news_rss(query, limit=10, user_agent: str = None, location: dict = None):
+    """Search Google News RSS feed with detailed logging for debugging.
+
+    Args:
+        query: Search query string
+        limit: Max number of results
+        user_agent: Optional user agent string (if not provided, uses config)
+        location: Optional location dict with 'locale', 'geo' keys for geo-targeting
+    """
     start_time = time.time()
 
     # Load config and prepare request
     config = _load_config()
     proxies = _get_proxies(config)
 
-    # Select random proxy and user agent
+    # Select random proxy
     proxy = random.choice(proxies) if proxies else None
-    user_agent = "Mozilla/5.0"  # Default
-    if config and config.get("user_agents"):
-        user_agent = random.choice(config["user_agents"])
 
-    headers = {"User-Agent": user_agent}
+    # Use provided user agent or get from config
+    if not user_agent:
+        user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+        if config and config.get("user_agents"):
+            user_agent = random.choice(config["user_agents"])
 
-    # Encode the query for the URL
+    headers = {
+        "User-Agent": user_agent,
+        "Accept": "application/rss+xml, application/xml, text/xml, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Cache-Control": "no-cache",
+    }
+
+    # Encode the query for the URL with location-based targeting
     encoded_query = urllib.parse.quote(query)
-    rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
+
+    # Use location for geo-targeting if provided
+    hl = "en-US"
+    gl = "US"
+    ceid = "US:en"
+    if location:
+        locale = location.get("locale", "en-US")
+        hl = locale
+        # Extract country code from locale (e.g., en-US -> US, en-GB -> GB)
+        if "-" in locale:
+            gl = locale.split("-")[1]
+            ceid = f"{gl}:{locale.split('-')[0]}"
+
+    rss_url = f"https://news.google.com/rss/search?q={encoded_query}&hl={hl}&gl={gl}&ceid={ceid}"
 
     logger.info(f"Fetching RSS Feed for query: '{query}'")
     logger.debug(f"RSS URL: {rss_url}")

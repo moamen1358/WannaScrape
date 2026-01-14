@@ -111,7 +111,13 @@ def search(req: SearchRequest):
             logger.info(f"    ⏳ Delaying search by {req.delay}s...")
             time.sleep(req.delay)
 
-        raw = search_google_news_rss(req.query, limit=req.limit)
+        # Pass user agent and location for better anti-detection
+        raw = search_google_news_rss(
+            req.query,
+            limit=req.limit,
+            user_agent=profile.user_agent,
+            location=location
+        )
 
         duration = time.time() - start_time
         count = len(raw)
