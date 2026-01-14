@@ -9,7 +9,7 @@
         "timeout": 60000
     },
     "retry": {
-        "max_attempts": 3,
+        "max_attempts": 2,
         "min_wait": 2,
         "max_wait": 10
     },
@@ -91,5 +91,6 @@
         "min_proxy_interval": 30,
         "max_failures_before_cooldown": 3,
         "cooldown_seconds": 120
-    }
+    },
+    "max_scrape_timeout": 20
 }

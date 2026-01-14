@@ -481,10 +481,145 @@ class AdvancedScrapeLogger:
 
 
 # ============================================================================
-# GLOBAL INSTANCE
+# PER-SCRAPE FILE LOGGER
+# ============================================================================
+
+class ScrapeFileLogger:
+    """
+    Creates individual log files for each scrape operation.
+    Captures all DEBUG level messages for detailed troubleshooting.
+    """
+
+    def __init__(self, log_dir: str = "logs/scrapes", retention_days: int = 7):
+        self.log_dir = Path(log_dir)
+        self.log_dir.mkdir(parents=True, exist_ok=True)
+        self.retention_days = retention_days
+        self.current_handler: Optional[logging.FileHandler] = None
+        self.current_file: Optional[Path] = None
+        self.scrape_logger = logging.getLogger("scraper")
+
+        # Run cleanup on init
+        self._cleanup_old_logs()
+
+    def _sanitize_domain(self, url: str) -> str:
+        """Extract and sanitize domain from URL for filename."""
+        try:
+            from urllib.parse import urlparse
+            parsed = urlparse(url)
+            domain = parsed.netloc or parsed.path.split('/')[0]
+            # Remove www. prefix and sanitize
+            domain = domain.replace('www.', '')
+            # Replace invalid filename chars
+            sanitized = ''.join(c if c.isalnum() or c in '-_.' else '-' for c in domain)
+            return sanitized[:50]  # Limit length
+        except Exception:
+            return "unknown-domain"
+
+    def _cleanup_old_logs(self):
+        """Delete log files older than retention_days."""
+        try:
+            import time as time_module
+            cutoff_time = time_module.time() - (self.retention_days * 24 * 60 * 60)
+
+            for log_file in self.log_dir.glob("*.log"):
+                if log_file.stat().st_mtime < cutoff_time:
+                    log_file.unlink()
+                    logging.debug(f"Deleted old scrape log: {log_file.name}")
+        except Exception as e:
+            logging.warning(f"Failed to cleanup old logs: {e}")
+
+    def start_scrape_log(self, url: str, session_id: str = None) -> Path:
+        """
+        Start logging for a new scrape. Creates a dedicated log file.
+
+        Args:
+            url: The URL being scraped
+            session_id: Optional session ID for reference
+
+        Returns:
+            Path to the log file
+        """
+        # Close any existing handler
+        self.close_scrape_log()
+
+        # Generate filename
+        timestamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
+        domain = self._sanitize_domain(url)
+        filename = f"{timestamp}_{domain}.log"
+        self.current_file = self.log_dir / filename
+
+        # Create file handler
+        self.current_handler = logging.FileHandler(self.current_file, mode='w', encoding='utf-8')
+        self.current_handler.setLevel(logging.DEBUG)
+
+        # Custom format for scrape logs
+        formatter = logging.Formatter(
+            '[%(asctime)s.%(msecs)03d] [%(levelname)-5s] %(message)s',
+            datefmt='%H:%M:%S'
+        )
+        self.current_handler.setFormatter(formatter)
+
+        # Add handler to scraper logger
+        self.scrape_logger.addHandler(self.current_handler)
+
+        # Write header
+        header = f"""{'='*80}
+SCRAPE LOG: {url}
+Started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+Session ID: {session_id or 'N/A'}
+{'='*80}
+"""
+        self.current_handler.stream.write(header)
+        self.current_handler.flush()
+
+        return self.current_file
+
+    def close_scrape_log(self, status: str = None, total_time: float = None):
+        """
+        Close the current scrape log file.
+
+        Args:
+            status: Final status (success/failed/banned)
+            total_time: Total scrape duration in seconds
+        """
+        if self.current_handler:
+            # Write footer
+            footer_lines = ["\n" + "="*80]
+            if status:
+                footer_lines.append(f"STATUS: {status.upper()}")
+            if total_time:
+                footer_lines.append(f"TOTAL TIME: {total_time:.2f}s")
+            footer_lines.append("END OF SCRAPE LOG")
+            footer_lines.append("="*80 + "\n")
+
+            try:
+                self.current_handler.stream.write("\n".join(footer_lines))
+                self.current_handler.flush()
+            except Exception:
+                pass
+
+            # Remove handler from logger
+            self.scrape_logger.removeHandler(self.current_handler)
+            self.current_handler.close()
+            self.current_handler = None
+
+            # Print log file location
+            if self.current_file:
+                print(f"📄 Debug log saved: {self.current_file}")
+
+            self.current_file = None
+
+    def get_current_log_path(self) -> Optional[Path]:
+        """Get the path to the current log file."""
+        return self.current_file
+
+
+# ============================================================================
+# GLOBAL INSTANCES
 # ============================================================================
 
 _advanced_logger: Optional[AdvancedScrapeLogger] = None
+_scrape_file_logger: Optional[ScrapeFileLogger] = None
 
 def get_advanced_logger() -> AdvancedScrapeLogger:
     """Get or create the advanced logger instance."""
@@ -492,3 +627,11 @@ def get_advanced_logger() -> AdvancedScrapeLogger:
     if _advanced_logger is None:
         _advanced_logger = AdvancedScrapeLogger()
     return _advanced_logger
+
+
+def get_scrape_file_logger() -> ScrapeFileLogger:
+    """Get or create the per-scrape file logger instance."""
+    global _scrape_file_logger
+    if _scrape_file_logger is None:
+        _scrape_file_logger = ScrapeFileLogger()
+    return _scrape_file_logger

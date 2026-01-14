@@ -21,7 +21,7 @@ from fake_useragent import UserAgent
 from app.services.user_agents import UserAgentManager, LOCATION_PROFILES as EXTENDED_LOCATION_PROFILES
 
 # Import advanced logging system
-from app.services.advanced_logging import get_advanced_logger, AdvancedScrapeLogger
+from app.services.advanced_logging import get_advanced_logger, AdvancedScrapeLogger, get_scrape_file_logger
 
 # Import advanced anti-detection suite
 from app.services.advanced_anti_detection import (
@@ -222,270 +222,130 @@ def _ease_out_quad(t: float) -> float:
     return 1 - (1 - t) ** 2
 
 
-def _simulate_mouse_movement(page, num_movements: int = None):
+def _simulate_mouse_movement(page, num_movements: int = None, timeout_checker=None):
     """
-    Simulate highly realistic human mouse movements using bezier curves,
-    variable speeds, micro-jitter, and natural pausing behavior.
+    Simulate fast but realistic human mouse movements.
     """
     try:
         viewport = page.viewport_size
         if not viewport:
             return
+        
+        # Check timeout at start
+        if timeout_checker and timeout_checker.remaining() < 1:
+            return
 
         width, height = viewport['width'], viewport['height']
-        num_movements = num_movements or random.randint(4, 8)
+        # Fewer movements when timeout is tight
+        if timeout_checker:
+            max_moves = min(3, int(timeout_checker.remaining() * 0.5))
+            num_movements = num_movements or max_moves
+        else:
+            num_movements = num_movements or random.randint(2, 4)
 
-        # Start position (center-ish, like where eyes naturally look)
-        current_x = width * random.uniform(0.3, 0.7)
-        current_y = height * random.uniform(0.2, 0.4)
+        # Start position
+        current_x = width * random.uniform(0.4, 0.6)
+        current_y = height * random.uniform(0.3, 0.5)
 
         for move_idx in range(num_movements):
-            # Determine movement type (affects target selection)
-            movement_type = random.choices(
-                ['explore', 'read_area', 'check_sidebar', 'hover_link'],
-                weights=[40, 30, 15, 15]
-            )[0]
+            if timeout_checker and timeout_checker.remaining() < 0.5:
+                break
+                
+            # Simple target selection
+            target_x = random.randint(100, width - 100)
+            target_y = random.randint(100, height - 100)
 
-            # Select target based on movement type
-            if movement_type == 'explore':
-                target_x = random.randint(100, width - 100)
-                target_y = random.randint(100, height - 100)
-            elif movement_type == 'read_area':
-                # Stay in main content area (center)
-                target_x = width * random.uniform(0.2, 0.8)
-                target_y = current_y + random.randint(50, 200)
-                target_y = min(target_y, height - 100)
-            elif movement_type == 'check_sidebar':
-                # Move to sidebar area
-                target_x = random.choice([width * 0.1, width * 0.9])
-                target_y = random.randint(150, height - 150)
-            else:  # hover_link
-                # Random spot that could be a link
-                target_x = random.randint(150, width - 150)
-                target_y = random.randint(100, height - 200)
-
-            # Generate bezier control points for natural curve
-            # Control points are offset from straight line for organic movement
-            dx = target_x - current_x
-            dy = target_y - current_y
-            distance = (dx**2 + dy**2) ** 0.5
-
-            # More curve for longer distances
-            curve_intensity = min(80, distance * 0.15)
-            ctrl1_x = current_x + dx * 0.25 + random.uniform(-curve_intensity, curve_intensity)
-            ctrl1_y = current_y + dy * 0.25 + random.uniform(-curve_intensity, curve_intensity)
-            ctrl2_x = current_x + dx * 0.75 + random.uniform(-curve_intensity, curve_intensity)
-            ctrl2_y = current_y + dy * 0.75 + random.uniform(-curve_intensity, curve_intensity)
-
-            # Variable duration based on distance (longer = slower, more natural)
-            base_duration = 0.2 + (distance / 1000) * 0.5
-            duration = base_duration * random.uniform(0.8, 1.4)
-
-            # Number of steps (more for longer movements)
-            steps = max(15, int(distance / 8))
-
-            # Execute movement with variable speed (ease-out)
+            # Fast, simple movement (no complex bezier curves)
+            steps = 5  # Much fewer steps
             for i in range(steps + 1):
-                # Use easing for natural deceleration
-                t = _ease_out_quad(i / steps)
-
-                # Calculate position on bezier curve
-                x = _bezier_curve(t, current_x, ctrl1_x, ctrl2_x, target_x)
-                y = _bezier_curve(t, current_y, ctrl1_y, ctrl2_y, target_y)
-
-                # Add micro-jitter (human hands aren't perfectly steady)
-                if random.random() < 0.3:
-                    x += random.uniform(-1.5, 1.5)
-                    y += random.uniform(-1.5, 1.5)
-
+                if timeout_checker and timeout_checker.remaining() < 0.1:
+                    break
+                    
+                t = i / steps
+                x = current_x + (target_x - current_x) * t
+                y = current_y + (target_y - current_y) * t
+                
                 page.mouse.move(x, y)
+                time.sleep(0.02)  # Very short delay
 
-                # Variable step delay (slower at start and end)
-                step_delay = (duration / steps)
-                if i < steps * 0.1 or i > steps * 0.9:
-                    step_delay *= 1.3  # Slower at edges
-                time.sleep(step_delay)
-
-            # Update current position
             current_x, current_y = target_x, target_y
+            
+            # Minimal pause
+            if timeout_checker and timeout_checker.remaining() > 0.2:
+                time.sleep(0.05)
 
-            # Natural pause after movement
-            pause_type = random.choices(
-                ['micro', 'short', 'reading', 'none'],
-                weights=[30, 25, 15, 30]
-            )[0]
-
-            if pause_type == 'micro':
-                time.sleep(random.uniform(0.05, 0.15))
-            elif pause_type == 'short':
-                time.sleep(random.uniform(0.2, 0.5))
-            elif pause_type == 'reading':
-                time.sleep(random.uniform(0.8, 2.0))
-
-            # Occasional hover behavior (slight movement while "reading")
-            if pause_type == 'reading' and random.random() < 0.4:
-                for _ in range(random.randint(2, 4)):
-                    hover_x = current_x + random.uniform(-3, 3)
-                    hover_y = current_y + random.uniform(-3, 3)
-                    page.mouse.move(hover_x, hover_y)
-                    time.sleep(random.uniform(0.1, 0.3))
-
-        logger.debug(f"Simulated {num_movements} natural mouse movements with bezier curves")
+        logger.debug(f"Simulated {num_movements} fast mouse movements")
     except Exception as e:
         logger.debug(f"Mouse simulation skipped: {e}")
 
 
-def _simulate_scroll(page, scroll_down: bool = True):
+def _simulate_scroll(page, scroll_down: bool = True, timeout_checker=None):
     """
-    Simulate highly realistic human scrolling behavior with variable patterns,
-    reading pauses, micro-adjustments, and natural rhythm.
+    Fast scroll simulation with timeout awareness.
     """
     try:
+        if timeout_checker and timeout_checker.remaining() < 1:
+            return
+        
         # Get page dimensions
         page_height = page.evaluate("document.body.scrollHeight")
-        viewport_height = page.viewport_size['height'] if page.viewport_size else 900
-
-        if not scroll_down:
+        if not page_height or not scroll_down:
             return
 
-        current_position = 0
-        max_scroll = min(page_height * random.uniform(0.5, 0.75), 4000)
-
-        # Determine reader "personality" for this session
-        reader_type = random.choices(
-            ['skimmer', 'careful_reader', 'scanner', 'mixed'],
-            weights=[25, 30, 20, 25]
-        )[0]
-
-        scroll_count = 0
-        last_pause_was_long = False
-
-        while current_position < max_scroll:
-            scroll_count += 1
-
-            # Determine scroll behavior based on reader type and context
-            if reader_type == 'skimmer':
-                # Fast scrolling with occasional stops
-                scroll_amount = random.randint(250, 500)
-                pause_duration = random.uniform(0.15, 0.4) if random.random() < 0.7 else random.uniform(0.8, 1.5)
-            elif reader_type == 'careful_reader':
-                # Slow, methodical scrolling
-                scroll_amount = random.randint(80, 200)
-                pause_duration = random.uniform(0.8, 2.5)
-            elif reader_type == 'scanner':
-                # Variable - sometimes fast, sometimes stops to read
-                if random.random() < 0.6:
-                    scroll_amount = random.randint(300, 600)
-                    pause_duration = random.uniform(0.1, 0.3)
-                else:
-                    scroll_amount = random.randint(100, 200)
-                    pause_duration = random.uniform(1.0, 3.0)
-            else:  # mixed
-                scroll_amount = random.randint(100, 400)
-                pause_duration = random.uniform(0.3, 1.5)
-
-            # Avoid two long pauses in a row (unnatural)
-            if last_pause_was_long and pause_duration > 1.5:
-                pause_duration = random.uniform(0.2, 0.6)
-            last_pause_was_long = pause_duration > 1.5
-
-            # Execute scroll with variable smoothness
-            scroll_style = random.choices(
-                ['smooth', 'stepped', 'instant'],
-                weights=[60, 30, 10]
-            )[0]
-
-            target_position = current_position + scroll_amount
-
-            if scroll_style == 'smooth':
-                # Browser smooth scroll
-                page.evaluate(f"window.scrollTo({{top: {target_position}, behavior: 'smooth'}})")
-                time.sleep(random.uniform(0.2, 0.4))  # Wait for smooth scroll
-            elif scroll_style == 'stepped':
-                # Simulate mouse wheel (multiple small scrolls)
-                steps = random.randint(3, 6)
-                step_amount = scroll_amount / steps
-                for _ in range(steps):
-                    current_position += step_amount
-                    page.evaluate(f"window.scrollTo({{top: {current_position}, behavior: 'auto'}})")
-                    time.sleep(random.uniform(0.03, 0.08))
-            else:  # instant
-                page.evaluate(f"window.scrollTo({{top: {target_position}, behavior: 'auto'}})")
-
-            current_position = target_position
-
-            # Reading pause
-            time.sleep(pause_duration)
-
-            # Micro-adjustments while "reading" (subtle scroll corrections)
-            if pause_duration > 1.0 and random.random() < 0.4:
-                micro_scroll = random.randint(-30, 50)
-                page.evaluate(f"window.scrollBy({{top: {micro_scroll}, behavior: 'smooth'}})")
-                current_position += micro_scroll
-                time.sleep(random.uniform(0.3, 0.8))
-
-            # Occasional scroll back up (re-reading something)
-            if scroll_count > 2 and random.random() < 0.15:
-                scroll_back = random.randint(100, 350)
-                page.evaluate(f"window.scrollBy({{top: -{scroll_back}, behavior: 'smooth'}})")
-                current_position -= scroll_back
-                time.sleep(random.uniform(0.3, 0.5))
-
-                # Read the section again
-                time.sleep(random.uniform(0.8, 2.0))
-
-                # Then continue scrolling down
-                scroll_forward = random.randint(scroll_back, scroll_back + 150)
-                page.evaluate(f"window.scrollBy({{top: {scroll_forward}, behavior: 'smooth'}})")
-                current_position += scroll_forward
-                time.sleep(random.uniform(0.2, 0.4))
-
-            # Random longer pause (found something interesting)
-            if random.random() < 0.08:
-                time.sleep(random.uniform(2.0, 4.0))
-
-            # Occasional fast skip (boring section)
-            if random.random() < 0.05 and reader_type != 'careful_reader':
-                skip_amount = random.randint(400, 800)
-                page.evaluate(f"window.scrollBy({{top: {skip_amount}, behavior: 'smooth'}})")
-                current_position += skip_amount
-                time.sleep(random.uniform(0.2, 0.4))
-
-        # End behavior: sometimes scroll back to top/middle
-        end_behavior = random.choices(
-            ['stay', 'scroll_up_slightly', 'back_to_top'],
-            weights=[60, 30, 10]
-        )[0]
-
-        if end_behavior == 'scroll_up_slightly':
-            scroll_back = random.randint(200, 500)
-            page.evaluate(f"window.scrollBy({{top: -{scroll_back}, behavior: 'smooth'}})")
-            time.sleep(random.uniform(0.3, 0.6))
-        elif end_behavior == 'back_to_top':
-            page.evaluate("window.scrollTo({top: 0, behavior: 'smooth'})")
-            time.sleep(random.uniform(0.5, 1.0))
-
-        logger.debug(f"Simulated {scroll_count} scroll actions ({reader_type} pattern)")
+        # Fast scrolling - just 2-4 quick scrolls
+        max_scrolls = min(3, int(timeout_checker.remaining() * 0.5)) if timeout_checker else 3
+        scroll_amount = min(300, page_height // 4)
+        
+        for i in range(max_scrolls):
+            if timeout_checker and timeout_checker.remaining() < 0.3:
+                break
+                
+            position = scroll_amount * (i + 1)
+            page.evaluate(f"window.scrollTo({{top: {position}, behavior: 'auto'}})")
+            
+            # Very short pause
+            time.sleep(0.1)
+        
+        logger.debug(f"Simulated {max_scrolls} fast scroll actions")
     except Exception as e:
         logger.debug(f"Scroll simulation skipped: {e}")
 
 
-def _simulate_human_behavior(page):
-    """Combined human behavior simulation."""
-    # Random initial pause (like page is loading/rendering)
-    time.sleep(_human_delay(0.5, 1.5))
-
-    # Mouse movement
-    _simulate_mouse_movement(page)
-
-    # Short pause
-    time.sleep(_human_delay(0.3, 0.8))
-
-    # Scroll behavior
-    _simulate_scroll(page)
-
-    # Final pause before extraction
-    time.sleep(_human_delay(0.5, 1.0))
+def _simulate_human_behavior(page, timeout_checker=None):
+    """Combined human behavior simulation with timeout awareness."""
+    try:
+        # Check if we have enough time for simulation
+        if timeout_checker and timeout_checker.remaining() < 3:
+            logger.debug("⚡ Skipping human behavior - insufficient time remaining")
+            return
+        
+        # Shorter delays when timeout is tight
+        max_time = timeout_checker.remaining() - 1 if timeout_checker else 10
+        total_time_budget = min(max_time, 8)  # Cap at 8 seconds
+        
+        # Quick initial pause
+        time.sleep(min(0.3, total_time_budget * 0.1))
+        
+        if timeout_checker:
+            timeout_checker.check("human_behavior_start")
+        
+        # Quick mouse movement
+        _simulate_mouse_movement(page, num_movements=2, timeout_checker=timeout_checker)
+        
+        if timeout_checker and timeout_checker.remaining() < 2:
+            return
+        
+        # Short pause
+        time.sleep(min(0.2, total_time_budget * 0.05))
+        
+        # Quick scroll behavior
+        _simulate_scroll(page, timeout_checker=timeout_checker)
+        
+        # Final minimal pause
+        time.sleep(min(0.1, total_time_budget * 0.02))
+        
+    except Exception as e:
+        logger.debug(f"Human behavior simulation error: {e}")
 
 
 # ============================================================================
@@ -880,12 +740,67 @@ def _save_failure_screenshot(page, url: str, error_type: str, error_msg: str) ->
         with open(metadata_path, "w") as f:
             json.dump(metadata, f, indent=2)
 
-        logger.info(f"Screenshot saved: {screenshot_path}")
+        logger.info(f"📸 Screenshot saved: {screenshot_path}")
         return screenshot_path
 
     except Exception as e:
         logger.warning(f"Failed to save screenshot: {e}")
         return None
+
+
+class ScrapeTimeoutError(Exception):
+    """Raised when scrape operation exceeds maximum timeout."""
+    def __init__(self, message: str, elapsed_time: float, screenshot_path: str = None):
+        super().__init__(message)
+        self.elapsed_time = elapsed_time
+        self.screenshot_path = screenshot_path
+
+
+class TimeoutChecker:
+    """
+    Tracks elapsed time and raises exception when timeout is exceeded.
+    Takes screenshot before raising timeout error.
+    """
+
+    def __init__(self, max_timeout: int, url: str):
+        self.max_timeout = max_timeout
+        self.url = url
+        self.start_time = time.time()
+        self.page = None  # Set when browser context is ready
+
+    def set_page(self, page):
+        """Set the page reference for screenshot capture."""
+        self.page = page
+
+    def elapsed(self) -> float:
+        """Get elapsed time in seconds."""
+        return time.time() - self.start_time
+
+    def remaining(self) -> float:
+        """Get remaining time in seconds."""
+        return max(0, self.max_timeout - self.elapsed())
+
+    def check(self, stage: str = ""):
+        """
+        Check if timeout exceeded. If so, raise exception without screenshot.
+        Screenshots will only be taken on final failure.
+
+        Args:
+            stage: Current stage for logging (e.g., "popup_handling", "page_load")
+        """
+        elapsed = self.elapsed()
+        if elapsed >= self.max_timeout:
+            logger.error(f"⏰ TIMEOUT after {elapsed:.1f}s at stage: {stage}")
+            
+            raise ScrapeTimeoutError(
+                f"Scrape timed out after {elapsed:.1f}s at stage: {stage}",
+                elapsed_time=elapsed,
+                screenshot_path=None  # No screenshot here
+            )
+
+        # Log progress periodically
+        if elapsed > 30 and int(elapsed) % 30 == 0:
+            logger.debug(f"⏱️ Scrape in progress: {elapsed:.0f}s elapsed, {self.remaining():.0f}s remaining ({stage})")
 
 
 class WebScraper:
@@ -963,7 +878,8 @@ class WebScraper:
                     {"wait": "domcontentloaded", "timeout": 40000, "sleep": 4},
                     {"wait": "load", "timeout": 60000, "sleep": 3},
                     {"wait": "networkidle", "timeout": 80000, "sleep": 2}
-                ]
+                ],
+                "max_scrape_timeout": 120  # Global timeout in seconds - screenshot taken if exceeded
             }
 
     @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10))
@@ -1010,7 +926,13 @@ class WebScraper:
         final_url = url
         proxy = None
         session = None  # Advanced logging session
-        
+        scrape_start_time = time.time()  # Track total scrape time
+
+        # Initialize per-scrape file logging
+        scrape_file_logger = get_scrape_file_logger()
+        scrape_log_path = scrape_file_logger.start_scrape_log(url)
+        logger.info(f"📝 Scrape log: {scrape_log_path}")
+
         # Track profile for API response
         used_browser_profile = None
         used_location = None
@@ -1032,6 +954,11 @@ class WebScraper:
 
             # Start advanced logging session
             session = self.adv_logger.start_session(url, attempt + 1, max_retries)
+
+            # Initialize timeout checker for this attempt
+            max_timeout = self.config.get("max_scrape_timeout", 120)
+            timeout_checker = TimeoutChecker(max_timeout, url)
+            logger.debug(f"⏱️ Timeout set to {max_timeout}s for this scrape")
 
             try:
                 with sync_playwright() as p:
@@ -1127,6 +1054,13 @@ class WebScraper:
                     
                     page = context.new_page()
 
+                    # Store page reference for final failure screenshot
+                    self._last_page = page
+
+                    # Set page for timeout checker (enables screenshot on timeout)
+                    timeout_checker.set_page(page)
+                    timeout_checker.check("browser_setup")
+
                     # Apply stealth mode (patches navigator, webdriver, etc.)
                     stealth = Stealth()
                     stealth.apply_stealth_sync(page)
@@ -1161,13 +1095,26 @@ class WebScraper:
                             
                             page.goto(url, wait_until=strategy["wait"], timeout=strategy["timeout"])
                             final_url = page.url
-                            
+
                             # Log page loaded
                             self.adv_logger.log_page_loaded(session, final_url, page.title())
-                            
+
+                            # Check timeout after page load
+                            timeout_checker.check("page_loaded")
+
+                            # Immediate popup scan (quick check for popups that appear instantly)
+                            page.wait_for_timeout(1000)  # Give popups time to appear
+                            timeout_checker.check("popup_scan")
+
                             # Popup dismissal
                             try:
                                 popup_selectors = [
+                                    # Egyptian government site specific selectors FIRST
+                                    "#btnAcceptCookie",  # Egyptian gov cookie accept button
+                                    ".btnAcceptCookie.desktop",  # Egyptian gov cookie accept (desktop)
+                                    ".cookies-disclaimer button",  # Any button in cookie disclaimer
+                                    ".cookies-disclaimer a",  # Any link in cookie disclaimer
+                                    # Standard selectors
                                     "button:has-text('Accept all cookies')",
                                     "button:has-text('Accept All Cookies')",
                                     "#credential_picker_container",
@@ -1202,6 +1149,24 @@ class WebScraper:
                                     "button:has-text('Decline all cookies')",
                                     "button:has-text('ACT NOW')",
                                     "a:has-text('ACT NOW')",
+                                    # Arabic language popups
+                                    "button:has-text('موافق')",  # Arabic for OK/Agree
+                                    "button:has-text('قبول')",   # Arabic for Accept
+                                    "button:has-text('إغلاق')",  # Arabic for Close
+                                    "button:has-text('متابعة')", # Arabic for Continue
+                                    ".modal button",
+                                    ".popup button",
+                                    ".overlay button",
+                                    "[role='dialog'] button",
+                                    "[role='alert'] button",
+                                    ".swal-button",  # SweetAlert buttons
+                                    ".swal-button--confirm",
+                                    "button.btn-primary",
+                                    "button.btn-success",
+                                    "input[type='button'][value*='OK']",
+                                    "input[type='button'][value*='Accept']",
+                                    "input[type='button'][value*='Close']",
+                                    "input[type='submit'][value*='Continue']",
                                 ]
                                 
                                 for selector in popup_selectors:
@@ -1214,6 +1179,31 @@ class WebScraper:
                                             break
                                     except Exception:
                                         continue
+                                
+                                # Fallback: Try pressing Escape key to close stubborn popups
+                                try:
+                                    page.keyboard.press("Escape")
+                                    page.wait_for_timeout(500)
+                                except Exception:
+                                    pass
+                                
+                                # Egyptian government site specific: Force hide cookie disclaimer
+                                try:
+                                    cookie_disclaimer = page.locator(".cookies-disclaimer").first
+                                    if cookie_disclaimer.is_visible(timeout=1000):
+                                        self.adv_logger.log_popup_dismissed(session, "force_hide:cookies-disclaimer")
+                                        # Try to hide it with JavaScript
+                                        page.evaluate("""
+                                            const disclaimer = document.querySelector('.cookies-disclaimer');
+                                            if (disclaimer) {
+                                                disclaimer.style.display = 'none';
+                                                disclaimer.style.visibility = 'hidden';
+                                                disclaimer.remove();
+                                            }
+                                        """)
+                                        page.wait_for_timeout(1000)
+                                except Exception:
+                                    pass
                                         
                                 # Restore iframe handling for cookie banners
                                 try:
@@ -1237,12 +1227,18 @@ class WebScraper:
                                 except Exception:
                                     pass
 
+                                # Check timeout after popup handling
+                                timeout_checker.check("popup_handling")
+
                                 # Enhanced Cloudflare handling with longer timeout
                                 cf_start = time.time()
-                                cf_passed = _wait_for_cloudflare(page, max_wait=45)
+                                cf_passed = _wait_for_cloudflare(page, max_wait=min(45, int(timeout_checker.remaining())))
                                 cf_time = time.time() - cf_start
                                 if cf_time > 1:  # Only log if we actually waited
                                     self.adv_logger.log_cloudflare_detected(session, cf_time)
+
+                                # Check timeout after Cloudflare
+                                timeout_checker.check("cloudflare_handling")
 
                                 page.evaluate("""
                                     () => {
@@ -1264,9 +1260,12 @@ class WebScraper:
                             time.sleep(_human_delay(strategy["sleep"] - 1, strategy["sleep"] + 2))
 
                             # Simulate human behavior (mouse movement, scrolling)
-                            _simulate_human_behavior(page)
+                            _simulate_human_behavior(page, timeout_checker)
                             self.adv_logger.log_human_behavior(session, mouse_moves=random.randint(3, 6), scrolls=random.randint(2, 5))
-                            
+
+                            # Check timeout after human behavior simulation
+                            timeout_checker.check("human_behavior")
+
                             # Access Denied / Ban check with SMART detection
                             # Only trigger on real error pages, not articles about security
                             page_content_raw = page.content()
@@ -1352,9 +1351,21 @@ class WebScraper:
                                 raise
                             continue
 
-                    # Capture screenshot if content extraction failed (before browser closes)
+                    # Take screenshot before browser closes if this is the final attempt and content extraction failed
+                    screenshot_path = None
                     if not content or len(content) < 1000:
-                        screenshot_path = _save_failure_screenshot(page, url, "extraction_failed", f"Content too short or empty (len={len(content) if content else 0})")
+                        # Take screenshot while browser is still alive to see what's blocking
+                        if attempt == max_retries - 1 and hasattr(self, '_last_page') and self._last_page:
+                            try:
+                                screenshot_path = _save_failure_screenshot(
+                                    self._last_page, url, "extraction_failed",
+                                    f"Final attempt - no content extracted (len={len(content) if content else 0})"
+                                )
+                                if screenshot_path:
+                                    self._final_screenshot_path = screenshot_path
+                            except Exception as screenshot_error:
+                                logger.warning(f"Failed to capture final extraction failure screenshot: {screenshot_error}")
+                        
                         self.adv_logger.log_session_failed(
                             session,
                             error_type="extraction_failed",
@@ -1379,10 +1390,54 @@ class WebScraper:
                     browser.close()
                     if content and len(content) > 1000:
                         break
+
+            except ScrapeTimeoutError as timeout_err:
+                # Handle global timeout - screenshot already taken
+                last_error = str(timeout_err)
+                logger.error(f"⏰ Scrape timeout: {timeout_err}")
+
+                # Log failure with timeout type
+                if session:
+                    self.adv_logger.log_session_failed(
+                        session,
+                        error_type="timeout",
+                        error_message=str(timeout_err)[:200],
+                        likely_ban=False,
+                        screenshot_path=timeout_err.screenshot_path
+                    )
+
+                # Close per-scrape log with timeout status
+                total_time = time.time() - scrape_start_time
+                scrape_file_logger.close_scrape_log(status="timeout", total_time=total_time)
+
+                return {
+                    "error": f"Scrape timed out after {timeout_err.elapsed_time:.1f}s",
+                    "error_type": "timeout",
+                    "likely_ban": False,
+                    "recommendation": "Increase max_scrape_timeout in config or check if site has blocking popups",
+                    "final_url": url,
+                    "screenshot_path": timeout_err.screenshot_path or "",
+                    "user_agent_used": f"{used_browser_profile.browser}/{used_browser_profile.version}" if used_browser_profile else "unknown",
+                    "location_used": used_location.get("name", "unknown") if used_location else "unknown"
+                }
+
             except Exception as e:
                 last_error = str(e)
                 error_classification = _classify_error(last_error)
-                
+
+                # Take screenshot on each error to see what's blocking (captcha, popup, etc.)
+                screenshot_path = None
+                if hasattr(self, '_last_page') and self._last_page:
+                    try:
+                        screenshot_path = _save_failure_screenshot(
+                            self._last_page, url, error_classification['type'],
+                            f"Attempt {attempt + 1} error: {str(e)[:100]}"
+                        )
+                        if screenshot_path:
+                            self._final_screenshot_path = screenshot_path
+                    except Exception as screenshot_error:
+                        logger.warning(f"Failed to capture error screenshot: {screenshot_error}")
+
                 # Log failure with advanced logger
                 if session:
                     self.adv_logger.log_session_failed(
@@ -1391,17 +1446,32 @@ class WebScraper:
                         error_message=str(e)[:200],
                         likely_ban=error_classification['likely_ban']
                     )
-                
+
                 if attempt == max_retries - 1:
                     break
                 continue
         
         if not content:
             error_classification = _classify_error(last_error)
-            
+
+            # Take screenshot if no content extracted and page is still available
+            screenshot_path = getattr(self, '_final_screenshot_path', None)
+            if not screenshot_path and hasattr(self, '_last_page') and self._last_page:
+                try:
+                    screenshot_path = _save_failure_screenshot(
+                        self._last_page, url, "extraction_failed",
+                        f"No content extracted: {last_error[:100]}"
+                    )
+                except Exception as screenshot_error:
+                    logger.warning(f"Failed to capture extraction failure screenshot: {screenshot_error}")
+
             # Log overall stats after complete failure
             self.adv_logger.log_overall_stats()
-            
+
+            # Close per-scrape log
+            total_time = time.time() - scrape_start_time
+            scrape_file_logger.close_scrape_log(status="failed", total_time=total_time)
+
             return {
                 "error": f"Failed after {max_retries} attempts. Last error: {last_error}",
                 "error_type": error_classification["type"],
@@ -1409,11 +1479,14 @@ class WebScraper:
                 "recommendation": error_classification["details"],
                 "final_url": url,
                 "user_agent_used": f"{used_browser_profile.browser}/{used_browser_profile.version}" if used_browser_profile else "unknown",
-                "location_used": used_location.get("name", "unknown") if used_location else "unknown"
+                "location_used": used_location.get("name", "unknown") if used_location else "unknown",
+                "screenshot_path": screenshot_path
             }
             
         content_lower = content.lower()
         if "this feed is not available" in content_lower or "news:unfepa" in content:
+            total_time = time.time() - scrape_start_time
+            scrape_file_logger.close_scrape_log(status="expired", total_time=total_time)
             return {
                 "error": "Google News article link expired or unavailable.",
                 "final_url": final_url,
@@ -1436,6 +1509,8 @@ class WebScraper:
             text = parsed_result.get('text', '')
             
             if len(text) < 100:
+                total_time = time.time() - scrape_start_time
+                scrape_file_logger.close_scrape_log(status="insufficient_content", total_time=total_time)
                 return {
                     "error": "Insufficient content extracted. The page may be an error page, paywall, or require login.",
                     "final_url": final_url,
@@ -1448,9 +1523,15 @@ class WebScraper:
             parsed_result['final_url'] = final_url
             parsed_result['user_agent_used'] = f"{used_browser_profile.browser}/{used_browser_profile.version}" if used_browser_profile else "unknown"
             parsed_result['location_used'] = used_location.get("name", "unknown") if used_location else "unknown"
+
+            # Close per-scrape log with success
+            total_time = time.time() - scrape_start_time
+            scrape_file_logger.close_scrape_log(status="success", total_time=total_time)
             return parsed_result
         elif simple_text and len(simple_text) > 500:
             logger.warning("⚠️ Trafilatura failed to extract content. Falling back to raw text.")
+            total_time = time.time() - scrape_start_time
+            scrape_file_logger.close_scrape_log(status="fallback", total_time=total_time)
             return {
                 "title": "Extracted Content (Fallback)",
                 "date": None,
@@ -1461,6 +1542,8 @@ class WebScraper:
                 "location_used": used_location.get("name", "unknown") if used_location else "unknown"
             }
         else:
+            total_time = time.time() - scrape_start_time
+            scrape_file_logger.close_scrape_log(status="no_content", total_time=total_time)
             return {
                 "error": "Could not extract content from the page.",
                 "final_url": final_url,

@@ -1,0 +1,9 @@
+{
+  "url": "https://jsonplaceholder.typicode.com/posts/999999",
+  "final_url": "https://jsonplaceholder.typicode.com/posts/999999",
+  "page_title": "",
+  "error_type": "extraction_failed",
+  "error_message": "Final attempt - no content extracted (len=165)",
+  "timestamp": "2026-01-14T15:41:19.010003",
+  "screenshot_file": "154118_extraction_failed_jsonplaceholder.typicode.com_posts_999999.png"
+}

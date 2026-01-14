@@ -431,6 +431,62 @@ print(response.impersonation)  # "chrome120"
 - Files now saved as proper JSON arrays with indentation
 - Easier to view and parse
 
+### 11.3 Per-Scrape Debug Logging (Latest)
+
+**Files Modified:**
+| File | Change |
+|------|--------|
+| `app/services/advanced_logging.py` | Added `ScrapeFileLogger` class |
+| `app/services/scraper.py` | Integrated per-scrape file logging |
+
+**New Feature:**
+Individual log files for each scrape operation with full debug output.
+
+**Log Location:**
+```
+logs/scrapes/
+├── 2026-01-14_140139_example-com.log
+├── 2026-01-14_140245_another-site-org.log
+└── ...
+```
+
+**What Gets Logged:**
+- TLS fingerprint used
+- Browser profile (user agent, viewport, location)
+- Proxy configuration
+- Navigation strategy attempts
+- Cloudflare detection status
+- Mouse movements and scroll actions
+- Popup/cookie banner dismissals
+- Content extraction details
+- Timing for each phase
+- Final status (success/failed/banned)
+
+**Log File Format:**
+```
+================================================================================
+SCRAPE LOG: https://example.com/article/123
+Started: 2026-01-14 14:01:39
+Session ID: SCRAPE_20260114_140139_0001
+================================================================================
+
+[14:01:39.123] [DEBUG] TLS fingerprint: chrome120
+[14:01:39.456] [DEBUG] Browser profile: Chrome 120 on Windows
+[14:01:40.012] [INFO]  Browser launched (headless=True)
+...
+[14:02:00.678] [INFO]  SUCCESS - Total time: 21.34s
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 21.34s
+END OF SCRAPE LOG
+================================================================================
+```
+
+**Auto-Cleanup:**
+- Files older than 7 days are automatically deleted
+- Cleanup runs on logger initialization
+
 ---
 
 ## 12. What's NOT Implemented

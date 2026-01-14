@@ -1,0 +1,379 @@
+================================================================================
+SCRAPE LOG: https://httpstat.us/500
+Started: 2026-01-14 15:37:49
+Session ID: N/A
+================================================================================
+[15:37:49.513] [INFO ] 📝 Scrape log: logs/scrapes/2026-01-14_153749_httpstat.us.log
+[15:37:49.513] [DEBUG] ⏱️ Timeout set to 20s for this scrape
+[15:37:50.454] [INFO ] 
+    🚀 BROWSER LAUNCHED
+    ├─ Mode:       Headless
+    ├─ Slow Mo:    233ms
+    ├─ Launch Time: 0.94s
+    └─ Args:       Anti-automation flags enabled
+[15:37:50.457] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-AU, tz=Australia/Melbourne
+[15:37:50.457] [INFO ] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  📋 SESSION: SCRAPE_20260114_153749_0001
+║  🌐 URL: https://httpstat.us/500
+║  🔄 ATTEMPT: 1/3
+║  ⏰ STARTED: 2026-01-14T15:37:49.513450
+╠══════════════════════════════════════════════════════════════════════════╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     FIREFOX v120 on WINDOWS
+    │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Fir...
+    │ Viewport:    1680x1050
+    │ Sec-CH-UA:   (not applicable)...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    Melbourne, Australia
+    │ Timezone:    Australia/Melbourne
+    │ Locale:      en-AU
+    │ Geo:         -37.8136, 144.9631
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://news.google.com/
+    └──────────────────────────────────────────────────────────────┘
+╚══════════════════════════════════════════════════════════════════════════╝
+[15:37:50.514] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[15:37:50.515] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[15:37:50.525] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[15:37:51.579] [INFO ] 
+    🥷 STEALTH MODE APPLIED
+    ├─ Navigator patches (webdriver, plugins, languages)
+    ├─ Chrome runtime patches
+    ├─ Console patches  
+    └─ Permission patches
+[15:37:51.595] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[15:37:51.596] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[15:37:51.601] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[15:37:51.608] [DEBUG] Enabled resource blocking (images, media, fonts)
+[15:37:51.608] [INFO ] 
+    🔗 NAVIGATING TO URL
+    ├─ Strategy:   domcontentloaded
+    ├─ Timeout:    40.0s
+    └─ Sleep:      4s after load
+[15:37:52.516] [INFO ] 
+    🔗 NAVIGATING TO URL
+    ├─ Strategy:   load
+    ├─ Timeout:    60.0s
+    └─ Sleep:      3s after load
+[15:37:53.436] [INFO ] 
+    🔗 NAVIGATING TO URL
+    ├─ Strategy:   networkidle
+    ├─ Timeout:    80.0s
+    └─ Sleep:      2s after load
+[15:37:54.565] [ERROR] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  ❌ SCRAPE FAILED - SCRAPE_20260114_153749_0001
+╠══════════════════════════════════════════════════════════════════════════╣
+║  🚫 ERROR DETAILS
+║  ├─ Type:        extraction_failed
+║  ├─ Message:     Content too short or empty (len=0)
+║  ├─ Likely Ban:  🟢 NO
+║  └─ Screenshot:  Not saved
+╠──────────────────────────────────────────────────────────────────────────╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     FIREFOX v120 on WINDOWS
+    │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Fir...
+    │ Viewport:    1680x1050
+    │ Sec-CH-UA:   (not applicable)...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    Melbourne, Australia
+    │ Timezone:    Australia/Melbourne
+    │ Locale:      en-AU
+    │ Geo:         -37.8136, 144.9631
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://news.google.com/
+    └──────────────────────────────────────────────────────────────┘
+
+    ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+    │ Browser Launch:      0.94s
+    │ Page Load:           0.00s
+    │ Cloudflare Wait:     0.00s
+    │ Human Simulation:    0.00s
+    │ Content Extraction:  0.00s
+    │ ─────────────────────────────────────────────────────────────
+    │ TOTAL TIME:          5.05s
+    └──────────────────────────────────────────────────────────────┘
+╠──────────────────────────────────────────────────────────────────────────╣
+║  📊 SESSION STATS
+║  ├─ Attempt:            1/3
+║  ├─ Strategies Tried:   domcontentloaded, load, networkidle
+║  └─ Proxy Used:         Direct
+╚══════════════════════════════════════════════════════════════════════════╝
+[15:37:54.656] [INFO ]   🔄 Retry attempt 2/3...
+[15:38:02.276] [DEBUG] ⏱️ Timeout set to 20s for this scrape
+[15:38:03.151] [INFO ] 
+    🚀 BROWSER LAUNCHED
+    ├─ Mode:       Headless
+    ├─ Slow Mo:    202ms
+    ├─ Launch Time: 0.87s
+    └─ Args:       Anti-automation flags enabled
+[15:38:03.152] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-US, tz=America/Denver
+[15:38:03.152] [INFO ] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  📋 SESSION: SCRAPE_20260114_153802_0002
+║  🌐 URL: https://httpstat.us/500
+║  🔄 ATTEMPT: 2/3
+║  ⏰ STARTED: 2026-01-14T15:38:02.276552
+╠══════════════════════════════════════════════════════════════════════════╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     CHROME v120 on LINUX
+    │ User-Agent:  Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, lik...
+    │ Viewport:    1920x1080
+    │ Sec-CH-UA:   "Not_A Brand";v="8", "Chromium";v="120", "Google C...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    Denver, USA
+    │ Timezone:    America/Denver
+    │ Locale:      en-US
+    │ Geo:         39.7392, -104.9903
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://www.google.com/
+    └──────────────────────────────────────────────────────────────┘
+╚══════════════════════════════════════════════════════════════════════════╝
+[15:38:03.183] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[15:38:03.183] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[15:38:03.185] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[15:38:04.122] [INFO ] 
+    🥷 STEALTH MODE APPLIED
+    ├─ Navigator patches (webdriver, plugins, languages)
+    ├─ Chrome runtime patches
+    ├─ Console patches  
+    └─ Permission patches
+[15:38:04.145] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[15:38:04.145] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[15:38:04.155] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[15:38:04.162] [DEBUG] Enabled resource blocking (images, media, fonts)
+[15:38:04.163] [INFO ] 
+    🔗 NAVIGATING TO URL
+    ├─ Strategy:   domcontentloaded
+    ├─ Timeout:    40.0s
+    └─ Sleep:      4s after load
+[15:38:05.088] [INFO ] 
+    🔗 NAVIGATING TO URL
+    ├─ Strategy:   load
+    ├─ Timeout:    60.0s
+    └─ Sleep:      3s after load
+[15:38:06.002] [INFO ] 
+    🔗 NAVIGATING TO URL
+    ├─ Strategy:   networkidle
+    ├─ Timeout:    80.0s
+    └─ Sleep:      2s after load
+[15:38:06.722] [ERROR] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  ❌ SCRAPE FAILED - SCRAPE_20260114_153802_0002
+╠══════════════════════════════════════════════════════════════════════════╣
+║  🚫 ERROR DETAILS
+║  ├─ Type:        extraction_failed
+║  ├─ Message:     Content too short or empty (len=0)
+║  ├─ Likely Ban:  🟢 NO
+║  └─ Screenshot:  Not saved
+╠──────────────────────────────────────────────────────────────────────────╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     CHROME v120 on LINUX
+    │ User-Agent:  Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, lik...
+    │ Viewport:    1920x1080
+    │ Sec-CH-UA:   "Not_A Brand";v="8", "Chromium";v="120", "Google C...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    Denver, USA
+    │ Timezone:    America/Denver
+    │ Locale:      en-US
+    │ Geo:         39.7392, -104.9903
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://www.google.com/
+    └──────────────────────────────────────────────────────────────┘
+
+    ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+    │ Browser Launch:      0.87s
+    │ Page Load:           0.00s
+    │ Cloudflare Wait:     0.00s
+    │ Human Simulation:    0.00s
+    │ Content Extraction:  0.00s
+    │ ─────────────────────────────────────────────────────────────
+    │ TOTAL TIME:          4.45s
+    └──────────────────────────────────────────────────────────────┘
+╠──────────────────────────────────────────────────────────────────────────╣
+║  📊 SESSION STATS
+║  ├─ Attempt:            2/3
+║  ├─ Strategies Tried:   domcontentloaded, load, networkidle
+║  └─ Proxy Used:         Direct
+╚══════════════════════════════════════════════════════════════════════════╝
+[15:38:06.817] [INFO ]   🔄 Retry attempt 3/3...
+[15:38:12.468] [DEBUG] ⏱️ Timeout set to 20s for this scrape
+[15:38:13.301] [INFO ] 
+    🚀 BROWSER LAUNCHED
+    ├─ Mode:       Headless
+    ├─ Slow Mo:    207ms
+    ├─ Launch Time: 0.83s
+    └─ Args:       Anti-automation flags enabled
+[15:38:13.302] [DEBUG] Browser profile: viewport={'width': 1440, 'height': 900}, locale=en-GB, tz=Europe/London
+[15:38:13.302] [INFO ] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  📋 SESSION: SCRAPE_20260114_153812_0003
+║  🌐 URL: https://httpstat.us/500
+║  🔄 ATTEMPT: 3/3
+║  ⏰ STARTED: 2026-01-14T15:38:12.468503
+╠══════════════════════════════════════════════════════════════════════════╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     CHROME v121 on MACOS
+    │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+    │ Viewport:    1440x900
+    │ Sec-CH-UA:   "Not_A Brand";v="8", "Chromium";v="121", "Google C...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    London, UK
+    │ Timezone:    Europe/London
+    │ Locale:      en-GB
+    │ Geo:         51.5074, -0.1278
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://www.google.com/search?q=httpstat+us
+    └──────────────────────────────────────────────────────────────┘
+╚══════════════════════════════════════════════════════════════════════════╝
+[15:38:13.351] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[15:38:13.352] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[15:38:13.362] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[15:38:14.236] [INFO ] 
+    🥷 STEALTH MODE APPLIED
+    ├─ Navigator patches (webdriver, plugins, languages)
+    ├─ Chrome runtime patches
+    ├─ Console patches  
+    └─ Permission patches
+[15:38:14.253] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[15:38:14.253] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[15:38:14.261] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[15:38:14.267] [DEBUG] Enabled resource blocking (images, media, fonts)
+[15:38:14.267] [INFO ] 
+    🔗 NAVIGATING TO URL
+    ├─ Strategy:   domcontentloaded
+    ├─ Timeout:    40.0s
+    └─ Sleep:      4s after load
+[15:38:15.125] [INFO ] 
+    🔗 NAVIGATING TO URL
+    ├─ Strategy:   load
+    ├─ Timeout:    60.0s
+    └─ Sleep:      3s after load
+[15:38:15.937] [INFO ] 
+    🔗 NAVIGATING TO URL
+    ├─ Strategy:   networkidle
+    ├─ Timeout:    80.0s
+    └─ Sleep:      2s after load
+[15:38:16.898] [INFO ] 📸 Screenshot saved: screenshots/2026-01-14/153816_extraction_failed_httpstat.us_500.png
+[15:38:16.898] [ERROR] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  ❌ SCRAPE FAILED - SCRAPE_20260114_153812_0003
+╠══════════════════════════════════════════════════════════════════════════╣
+║  🚫 ERROR DETAILS
+║  ├─ Type:        extraction_failed
+║  ├─ Message:     Content too short or empty (len=0)
+║  ├─ Likely Ban:  🟢 NO
+║  └─ Screenshot:  screenshots/2026-01-14/153816_extraction_failed_httpstat.us_500.png
+╠──────────────────────────────────────────────────────────────────────────╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     CHROME v121 on MACOS
+    │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+    │ Viewport:    1440x900
+    │ Sec-CH-UA:   "Not_A Brand";v="8", "Chromium";v="121", "Google C...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    London, UK
+    │ Timezone:    Europe/London
+    │ Locale:      en-GB
+    │ Geo:         51.5074, -0.1278
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://www.google.com/search?q=httpstat+us
+    └──────────────────────────────────────────────────────────────┘
+
+    ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+    │ Browser Launch:      0.83s
+    │ Page Load:           0.00s
+    │ Cloudflare Wait:     0.00s
+    │ Human Simulation:    0.00s
+    │ Content Extraction:  0.00s
+    │ ─────────────────────────────────────────────────────────────
+    │ TOTAL TIME:          4.43s
+    └──────────────────────────────────────────────────────────────┘
+╠──────────────────────────────────────────────────────────────────────────╣
+║  📊 SESSION STATS
+║  ├─ Attempt:            3/3
+║  ├─ Strategies Tried:   domcontentloaded, load, networkidle
+║  └─ Proxy Used:         Direct
+╚══════════════════════════════════════════════════════════════════════════╝
+[15:38:16.992] [INFO ] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  📊 OVERALL SCRAPING STATISTICS
+╠══════════════════════════════════════════════════════════════════════════╣
+║  Total Scrapes:    3
+║  Successful:       0 (0.0%)
+║  Failed:           3
+║  Banned/Blocked:   0
+║  Avg Time:         0.00s
+╚══════════════════════════════════════════════════════════════════════════╝
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 27.48s
+END OF SCRAPE LOG
+================================================================================
