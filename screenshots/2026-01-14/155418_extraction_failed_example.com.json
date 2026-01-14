@@ -1,0 +1,9 @@
+{
+  "url": "https://example.com",
+  "final_url": "https://example.com/",
+  "page_title": "Example Domain",
+  "error_type": "extraction_failed",
+  "error_message": "Final attempt - no content extracted (len=528)",
+  "timestamp": "2026-01-14T15:54:18.641793",
+  "screenshot_file": "155418_extraction_failed_example.com.png"
+}

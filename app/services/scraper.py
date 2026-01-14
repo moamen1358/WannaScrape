@@ -224,125 +224,191 @@ def _ease_out_quad(t: float) -> float:
 
 def _simulate_mouse_movement(page, num_movements: int = None, timeout_checker=None):
     """
-    Simulate fast but realistic human mouse movements.
+    Simulate realistic human mouse movements with natural patterns.
     """
     try:
         viewport = page.viewport_size
         if not viewport:
             return
         
-        # Check timeout at start
-        if timeout_checker and timeout_checker.remaining() < 1:
+        # Less aggressive timeout checking - allow at least basic movements
+        if timeout_checker and timeout_checker.remaining() < 0.5:
             return
 
         width, height = viewport['width'], viewport['height']
-        # Fewer movements when timeout is tight
-        if timeout_checker:
-            max_moves = min(3, int(timeout_checker.remaining() * 0.5))
-            num_movements = num_movements or max_moves
-        else:
-            num_movements = num_movements or random.randint(2, 4)
+        # More consistent movements, less dependent on timeout
+        num_movements = num_movements or random.randint(3, 6)
+        if timeout_checker and timeout_checker.remaining() < 3:
+            num_movements = min(num_movements, 2)  # Still do some movement
 
-        # Start position
-        current_x = width * random.uniform(0.4, 0.6)
-        current_y = height * random.uniform(0.3, 0.5)
+        # Start from a more realistic position (near top-left, like coming from browser UI)
+        current_x = random.randint(50, 200)
+        current_y = random.randint(50, 150)
+        
+        # Move to initial position
+        page.mouse.move(current_x, current_y)
+        time.sleep(random.uniform(0.1, 0.2))
 
         for move_idx in range(num_movements):
-            if timeout_checker and timeout_checker.remaining() < 0.5:
+            # Early exit only if severely time constrained
+            if timeout_checker and timeout_checker.remaining() < 0.2:
                 break
                 
-            # Simple target selection
-            target_x = random.randint(100, width - 100)
-            target_y = random.randint(100, height - 100)
+            # More realistic target selection - prefer center areas
+            center_x, center_y = width // 2, height // 2
+            # Add randomness around center
+            target_x = center_x + random.randint(-200, 200)
+            target_y = center_y + random.randint(-150, 150)
+            # Keep within bounds
+            target_x = max(50, min(width - 50, target_x))
+            target_y = max(50, min(height - 50, target_y))
 
-            # Fast, simple movement (no complex bezier curves)
-            steps = 5  # Much fewer steps
+            # More natural movement with slight curve
+            distance = math.sqrt((target_x - current_x)**2 + (target_y - current_y)**2)
+            steps = max(8, int(distance / 30))  # More steps for smoother movement
+            
             for i in range(steps + 1):
-                if timeout_checker and timeout_checker.remaining() < 0.1:
+                # Less frequent timeout checks during movement
+                if i % 3 == 0 and timeout_checker and timeout_checker.remaining() < 0.1:
                     break
                     
                 t = i / steps
-                x = current_x + (target_x - current_x) * t
-                y = current_y + (target_y - current_y) * t
+                # Add slight curve to movement
+                curve_offset = math.sin(t * math.pi) * random.uniform(-20, 20)
+                x = current_x + (target_x - current_x) * t + curve_offset * 0.3
+                y = current_y + (target_y - current_y) * t + curve_offset * 0.2
+                
+                # Keep within viewport
+                x = max(0, min(width, x))
+                y = max(0, min(height, y))
                 
                 page.mouse.move(x, y)
-                time.sleep(0.02)  # Very short delay
+                time.sleep(random.uniform(0.01, 0.03))  # Variable delay
 
             current_x, current_y = target_x, target_y
             
-            # Minimal pause
-            if timeout_checker and timeout_checker.remaining() > 0.2:
-                time.sleep(0.05)
+            # Natural pause between movements
+            time.sleep(random.uniform(0.1, 0.3))
 
-        logger.debug(f"Simulated {num_movements} fast mouse movements")
+        logger.debug(f"Simulated {num_movements} natural mouse movements")
     except Exception as e:
         logger.debug(f"Mouse simulation skipped: {e}")
 
 
 def _simulate_scroll(page, scroll_down: bool = True, timeout_checker=None):
     """
-    Fast scroll simulation with timeout awareness.
+    Simulate realistic human scrolling behavior.
     """
     try:
-        if timeout_checker and timeout_checker.remaining() < 1:
+        if timeout_checker and timeout_checker.remaining() < 0.5:
             return
         
         # Get page dimensions
         page_height = page.evaluate("document.body.scrollHeight")
-        if not page_height or not scroll_down:
+        viewport_height = page.evaluate("window.innerHeight")
+        if not page_height or not viewport_height:
             return
 
-        # Fast scrolling - just 2-4 quick scrolls
-        max_scrolls = min(3, int(timeout_checker.remaining() * 0.5)) if timeout_checker else 3
-        scroll_amount = min(300, page_height // 4)
-        
-        for i in range(max_scrolls):
-            if timeout_checker and timeout_checker.remaining() < 0.3:
-                break
-                
-            position = scroll_amount * (i + 1)
-            page.evaluate(f"window.scrollTo({{top: {position}, behavior: 'auto'}})")
+        scroll_sessions = 0  # Initialize for logging
+        # More realistic scrolling pattern
+        if scroll_down:
+            # Scroll in multiple stages like humans do
+            scroll_sessions = random.randint(2, 4)
+            total_scroll = min(page_height - viewport_height, page_height * 0.7)
             
-            # Very short pause
-            time.sleep(0.1)
+            current_position = 0
+            for session in range(scroll_sessions):
+                if timeout_checker and timeout_checker.remaining() < 0.2:
+                    break
+                
+                # Variable scroll amounts - some small, some larger
+                if session == 0:
+                    # Initial small scroll to "test" the page
+                    scroll_amount = random.randint(150, 300)
+                else:
+                    # Larger scrolls as user reads
+                    scroll_amount = random.randint(400, 800)
+                
+                target_position = min(current_position + scroll_amount, total_scroll)
+                
+                # Smooth scroll with easing
+                page.evaluate(f"""
+                    window.scrollTo({
+                        top: {target_position},
+                        behavior: 'smooth'
+                    });
+                """)
+                
+                current_position = target_position
+                
+                # Natural reading pause
+                time.sleep(random.uniform(0.5, 1.2))
+                
+                # Sometimes scroll back up a little (like re-reading)
+                if random.random() < 0.3 and session > 0:
+                    back_scroll = random.randint(50, 150)
+                    page.evaluate(f"""
+                        window.scrollTo({
+                            top: {max(0, current_position - back_scroll)},
+                            behavior: 'smooth'
+                        });
+                    """)
+                    time.sleep(random.uniform(0.3, 0.6))
+            
+            # Sometimes scroll to top (like going back to beginning)
+            if random.random() < 0.2:
+                time.sleep(random.uniform(0.3, 0.7))
+                page.evaluate("window.scrollTo({top: 0, behavior: 'smooth'});")
+                time.sleep(random.uniform(0.5, 1.0))
         
-        logger.debug(f"Simulated {max_scrolls} fast scroll actions")
+        logger.debug(f"Simulated realistic scrolling behavior ({scroll_sessions} sessions)")
     except Exception as e:
         logger.debug(f"Scroll simulation skipped: {e}")
 
 
 def _simulate_human_behavior(page, timeout_checker=None):
-    """Combined human behavior simulation with timeout awareness."""
+    """Combined human behavior simulation that mimics real user interaction."""
     try:
-        # Check if we have enough time for simulation
-        if timeout_checker and timeout_checker.remaining() < 3:
+        # Only skip if severely time constrained
+        if timeout_checker and timeout_checker.remaining() < 1:
             logger.debug("⚡ Skipping human behavior - insufficient time remaining")
             return
         
-        # Shorter delays when timeout is tight
-        max_time = timeout_checker.remaining() - 1 if timeout_checker else 10
-        total_time_budget = min(max_time, 8)  # Cap at 8 seconds
+        # Determine available time budget
+        available_time = timeout_checker.remaining() - 2 if timeout_checker else 15
+        time_budget = min(available_time, 12)  # Allow more time for realistic behavior
         
-        # Quick initial pause
-        time.sleep(min(0.3, total_time_budget * 0.1))
+        logger.debug(f"🧑 Starting human behavior simulation with {time_budget:.1f}s budget")
         
+        # Initial page arrival pause (like humans do when page loads)
+        initial_pause = min(random.uniform(0.5, 1.5), time_budget * 0.2)
+        time.sleep(initial_pause)
+        
+        # Early timeout check
         if timeout_checker:
             timeout_checker.check("human_behavior_start")
         
-        # Quick mouse movement
-        _simulate_mouse_movement(page, num_movements=2, timeout_checker=timeout_checker)
+        # Mouse movement phase (explore the page)
+        mouse_time_budget = time_budget * 0.4
+        if mouse_time_budget > 1:
+            _simulate_mouse_movement(page, num_movements=random.randint(3, 5), timeout_checker=timeout_checker)
         
-        if timeout_checker and timeout_checker.remaining() < 2:
-            return
+        # Brief pause (like reading/scanning)
+        if time_budget > 3:
+            scan_pause = min(random.uniform(0.3, 0.8), time_budget * 0.1)
+            time.sleep(scan_pause)
         
-        # Short pause
-        time.sleep(min(0.2, total_time_budget * 0.05))
+        # Scrolling phase (reading behavior)
+        scroll_time_budget = time_budget * 0.5
+        if scroll_time_budget > 1.5 and (not timeout_checker or timeout_checker.remaining() > 2):
+            _simulate_scroll(page, timeout_checker=timeout_checker)
         
-        # Quick scroll behavior
-        _simulate_scroll(page, timeout_checker=timeout_checker)
+        # Final brief pause (like finishing reading)
+        if time_budget > 2:
+            final_pause = min(random.uniform(0.2, 0.6), time_budget * 0.05)
+            time.sleep(final_pause)
         
-        # Final minimal pause
-        time.sleep(min(0.1, total_time_budget * 0.02))
+        logger.debug("🧑 Human behavior simulation completed")
         
     except Exception as e:
         logger.debug(f"Human behavior simulation error: {e}")

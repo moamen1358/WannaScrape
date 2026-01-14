@@ -1508,5 +1508,377 @@
       "networkidle"
     ],
     "cloudflare_detected": false
+  },
+  {
+    "session_id": "SCRAPE_20260114_154314_0001",
+    "url": "https://sis.gov.eg/en/media-center/news/distinguished-egyptian-participation-in-the-brussels-international-bus-show/",
+    "timestamp": "2026-01-14T15:43:14.428884",
+    "attempt": 1,
+    "max_attempts": 3,
+    "status": "success",
+    "anti_detection": {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0",
+      "browser": "opera",
+      "os": "windows",
+      "browser_version": "120",
+      "viewport_width": 1920,
+      "viewport_height": 1080,
+      "location_name": "Sydney, Australia",
+      "timezone": "Australia/Sydney",
+      "locale": "en-AU",
+      "geolocation": {
+        "latitude": -33.8688,
+        "longitude": 151.2093
+      },
+      "proxy_server": "",
+      "proxy_masked": "",
+      "referrer": "https://www.google.com/search?q=sis+gov+eg",
+      "sec_ch_ua": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Opera\";v=\"106\""
+    },
+    "timing": {
+      "start_time": 1768398194.4289286,
+      "browser_launch_time": 1.37827730178833,
+      "page_load_time": 5.145750045776367,
+      "cloudflare_wait_time": 0,
+      "human_behavior_time": 10.013768911361694,
+      "content_extraction_time": 5.236116647720337,
+      "total_time": 15.268916845321655
+    },
+    "content": {
+      "html_length": 128966,
+      "text_length": 5516,
+      "title": "Distinguished Egyptian Participation in the Brussels International Bus Show",
+      "final_url": "https://sis.gov.eg/en/media-center/news/distinguished-egyptian-participation-in-the-brussels-international-bus-show/",
+      "extraction_method": "fallback:main",
+      "has_article": true,
+      "word_count": 9
+    },
+    "error_type": "",
+    "error_message": "",
+    "likely_ban": false,
+    "strategies_tried": [
+      "domcontentloaded"
+    ],
+    "cloudflare_detected": false
+  },
+  {
+    "session_id": "SCRAPE_20260114_154629_0001",
+    "url": "https://httpbin.org/html",
+    "timestamp": "2026-01-14T15:46:29.098154",
+    "attempt": 1,
+    "max_attempts": 3,
+    "status": "success",
+    "anti_detection": {
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36",
+      "browser": "chrome",
+      "os": "macos",
+      "browser_version": "119",
+      "viewport_width": 1680,
+      "viewport_height": 1050,
+      "location_name": "Singapore",
+      "timezone": "Asia/Singapore",
+      "locale": "en-SG",
+      "geolocation": {
+        "latitude": 1.3521,
+        "longitude": 103.8198
+      },
+      "proxy_server": "",
+      "proxy_masked": "",
+      "referrer": "https://www.google.com/search?q=httpbin+org",
+      "sec_ch_ua": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"119\", \"Google Chrome\";v=\"119\""
+    },
+    "timing": {
+      "start_time": 1768398389.0982108,
+      "browser_launch_time": 1.5286226272583008,
+      "page_load_time": 2.010563850402832,
+      "cloudflare_wait_time": 0,
+      "human_behavior_time": 12.919663190841675,
+      "content_extraction_time": 2.1098620891571045,
+      "total_time": 15.045498132705688
+    },
+    "content": {
+      "html_length": 3735,
+      "text_length": 3595,
+      "title": "",
+      "final_url": "https://httpbin.org/html",
+      "extraction_method": "fallback:body",
+      "has_article": true,
+      "word_count": 0
+    },
+    "error_type": "",
+    "error_message": "",
+    "likely_ban": false,
+    "strategies_tried": [
+      "domcontentloaded"
+    ],
+    "cloudflare_detected": false
+  },
+  {
+    "session_id": "SCRAPE_20260114_155144_0001",
+    "url": "https://example.com",
+    "timestamp": "2026-01-14T15:51:44.031714",
+    "attempt": 1,
+    "max_attempts": 3,
+    "status": "failed",
+    "anti_detection": {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "browser": "chrome",
+      "os": "windows",
+      "browser_version": "126",
+      "viewport_width": 1920,
+      "viewport_height": 1080,
+      "location_name": "Phoenix, USA",
+      "timezone": "America/Phoenix",
+      "locale": "en-US",
+      "geolocation": {
+        "latitude": 33.4484,
+        "longitude": -112.074
+      },
+      "proxy_server": "",
+      "proxy_masked": "",
+      "referrer": "https://www.google.com/search?q=example+com",
+      "sec_ch_ua": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\""
+    },
+    "timing": {
+      "start_time": 1768398704.0318148,
+      "browser_launch_time": 1.410438060760498,
+      "page_load_time": 46.31444835662842,
+      "cloudflare_wait_time": 0,
+      "human_behavior_time": 19.159509897232056,
+      "content_extraction_time": 1.550581932067871,
+      "total_time": 47.725621461868286
+    },
+    "content": {
+      "html_length": 528,
+      "text_length": 0,
+      "title": "Example Domain",
+      "final_url": "https://example.com/",
+      "extraction_method": "trafilatura",
+      "has_article": false,
+      "word_count": 0
+    },
+    "error_type": "extraction_failed",
+    "error_message": "Content too short or empty (len=528)",
+    "likely_ban": false,
+    "strategies_tried": [
+      "domcontentloaded",
+      "load",
+      "networkidle"
+    ],
+    "cloudflare_detected": false
+  },
+  {
+    "session_id": "SCRAPE_20260114_155238_0002",
+    "url": "https://example.com",
+    "timestamp": "2026-01-14T15:52:38.376812",
+    "attempt": 2,
+    "max_attempts": 3,
+    "status": "failed",
+    "anti_detection": {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+      "browser": "chrome",
+      "os": "windows",
+      "browser_version": "125",
+      "viewport_width": 1536,
+      "viewport_height": 864,
+      "location_name": "Los Angeles, USA",
+      "timezone": "America/Los_Angeles",
+      "locale": "en-US",
+      "geolocation": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "proxy_server": "",
+      "proxy_masked": "",
+      "referrer": null,
+      "sec_ch_ua": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"125\", \"Google Chrome\";v=\"125\""
+    },
+    "timing": {
+      "start_time": 1768398758.376856,
+      "browser_launch_time": 1.266338586807251,
+      "page_load_time": 43.01906442642212,
+      "cloudflare_wait_time": 0,
+      "human_behavior_time": 19.80690908432007,
+      "content_extraction_time": 23.54793906211853,
+      "total_time": 45.29513621330261
+    },
+    "content": {
+      "html_length": 528,
+      "text_length": 0,
+      "title": "Example Domain",
+      "final_url": "https://example.com/",
+      "extraction_method": "trafilatura",
+      "has_article": false,
+      "word_count": 0
+    },
+    "error_type": "extraction_failed",
+    "error_message": "Content too short or empty (len=528)",
+    "likely_ban": false,
+    "strategies_tried": [
+      "domcontentloaded",
+      "load",
+      "networkidle"
+    ],
+    "cloudflare_detected": false
+  },
+  {
+    "session_id": "SCRAPE_20260114_155330_0003",
+    "url": "https://example.com",
+    "timestamp": "2026-01-14T15:53:30.975641",
+    "attempt": 3,
+    "max_attempts": 3,
+    "status": "failed",
+    "anti_detection": {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 OPR/105.0.0.0",
+      "browser": "opera",
+      "os": "windows",
+      "browser_version": "119",
+      "viewport_width": 1536,
+      "viewport_height": 864,
+      "location_name": "New York, USA",
+      "timezone": "America/New_York",
+      "locale": "en-US",
+      "geolocation": {
+        "latitude": 40.7128,
+        "longitude": -74.006
+      },
+      "proxy_server": "",
+      "proxy_masked": "",
+      "referrer": "https://news.google.com/",
+      "sec_ch_ua": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"119\", \"Opera\";v=\"105\""
+    },
+    "timing": {
+      "start_time": 1768398810.9756882,
+      "browser_launch_time": 1.2946524620056152,
+      "page_load_time": 46.17448711395264,
+      "cloudflare_wait_time": 0,
+      "human_behavior_time": 24.41648030281067,
+      "content_extraction_time": 1.4812710285186768,
+      "total_time": 47.666544914245605
+    },
+    "content": {
+      "html_length": 528,
+      "text_length": 0,
+      "title": "Example Domain",
+      "final_url": "https://example.com/",
+      "extraction_method": "trafilatura",
+      "has_article": false,
+      "word_count": 0
+    },
+    "error_type": "extraction_failed",
+    "error_message": "Content too short or empty (len=528)",
+    "likely_ban": false,
+    "strategies_tried": [
+      "domcontentloaded",
+      "load",
+      "networkidle"
+    ],
+    "cloudflare_detected": false
+  },
+  {
+    "session_id": "SCRAPE_20260114_155444_0001",
+    "url": "https://example.com",
+    "timestamp": "2026-01-14T15:54:44.513340",
+    "attempt": 1,
+    "max_attempts": 3,
+    "status": "failed",
+    "anti_detection": {
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "browser": "chrome",
+      "os": "macos",
+      "browser_version": "120",
+      "viewport_width": 1680,
+      "viewport_height": 1050,
+      "location_name": "Birmingham, UK",
+      "timezone": "Europe/London",
+      "locale": "en-GB",
+      "geolocation": {
+        "latitude": 52.4862,
+        "longitude": -1.8904
+      },
+      "proxy_server": "",
+      "proxy_masked": "",
+      "referrer": "https://www.google.com/search?q=example+com",
+      "sec_ch_ua": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"120\", \"Google Chrome\";v=\"120\""
+    },
+    "timing": {
+      "start_time": 1768398884.5133734,
+      "browser_launch_time": 1.402583360671997,
+      "page_load_time": 1.4583425521850586,
+      "cloudflare_wait_time": 0,
+      "human_behavior_time": 9.882540464401245,
+      "content_extraction_time": 0,
+      "total_time": 11.367508888244629
+    },
+    "content": {
+      "html_length": 0,
+      "text_length": 0,
+      "title": "Example Domain",
+      "final_url": "https://example.com/",
+      "extraction_method": "",
+      "has_article": false,
+      "word_count": 0
+    },
+    "error_type": "extraction_failed",
+    "error_message": "Content too short or empty (len=0)",
+    "likely_ban": false,
+    "strategies_tried": [
+      "domcontentloaded",
+      "load",
+      "networkidle"
+    ],
+    "cloudflare_detected": false
+  },
+  {
+    "session_id": "SCRAPE_20260114_155543_0001",
+    "url": "https://sis.gov.eg/en/media-center/news/distinguished-egyptian-participation-in-the-brussels-international-bus-show/",
+    "timestamp": "2026-01-14T15:55:43.092333",
+    "attempt": 1,
+    "max_attempts": 3,
+    "status": "success",
+    "anti_detection": {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0",
+      "browser": "firefox",
+      "os": "windows",
+      "browser_version": "125",
+      "viewport_width": 1366,
+      "viewport_height": 768,
+      "location_name": "Miami, USA",
+      "timezone": "America/New_York",
+      "locale": "en-US",
+      "geolocation": {
+        "latitude": 25.7617,
+        "longitude": -80.1918
+      },
+      "proxy_server": "",
+      "proxy_masked": "",
+      "referrer": "https://www.google.com/",
+      "sec_ch_ua": ""
+    },
+    "timing": {
+      "start_time": 1768398943.0924006,
+      "browser_launch_time": 1.2913718223571777,
+      "page_load_time": 5.070493936538696,
+      "cloudflare_wait_time": 0,
+      "human_behavior_time": 25.50160527229309,
+      "content_extraction_time": 5.17149806022644,
+      "total_time": 30.688008546829224
+    },
+    "content": {
+      "html_length": 128966,
+      "text_length": 5516,
+      "title": "Distinguished Egyptian Participation in the Brussels International Bus Show",
+      "final_url": "https://sis.gov.eg/en/media-center/news/distinguished-egyptian-participation-in-the-brussels-international-bus-show/",
+      "extraction_method": "fallback:main",
+      "has_article": true,
+      "word_count": 9
+    },
+    "error_type": "",
+    "error_message": "",
+    "likely_ban": false,
+    "strategies_tried": [
+      "domcontentloaded"
+    ],
+    "cloudflare_detected": false
   }
 ]
