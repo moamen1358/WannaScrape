@@ -1880,5 +1880,323 @@
       "domcontentloaded"
     ],
     "cloudflare_detected": false
+  },
+  {
+    "session_id": "SCRAPE_20260114_155748_0001",
+    "url": "https://www.sustainable-bus.com/cng-lng-bus/geyushi-conversion-project-buses-cng-egypt/",
+    "timestamp": "2026-01-14T15:57:48.850356",
+    "attempt": 1,
+    "max_attempts": 3,
+    "status": "success",
+    "anti_detection": {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+      "browser": "chrome",
+      "os": "windows",
+      "browser_version": "122",
+      "viewport_width": 1600,
+      "viewport_height": 900,
+      "location_name": "Miami, USA",
+      "timezone": "America/New_York",
+      "locale": "en-US",
+      "geolocation": {
+        "latitude": 25.7617,
+        "longitude": -80.1918
+      },
+      "proxy_server": "",
+      "proxy_masked": "",
+      "referrer": null,
+      "sec_ch_ua": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"122\", \"Google Chrome\";v=\"122\""
+    },
+    "timing": {
+      "start_time": 1768399068.850382,
+      "browser_launch_time": 1.2322704792022705,
+      "page_load_time": 2.032582998275757,
+      "cloudflare_wait_time": 0,
+      "human_behavior_time": 19.818582773208618,
+      "content_extraction_time": 2.113809108734131,
+      "total_time": 21.94290518760681
+    },
+    "content": {
+      "html_length": 164912,
+      "text_length": 2366,
+      "title": "+2,000-units diesel-to-CNG retrofitting project in Egypt, by Geyushi - Sustainable Bus",
+      "final_url": "https://www.sustainable-bus.com/cng-lng-bus/geyushi-conversion-project-buses-cng-egypt/",
+      "extraction_method": "fallback:article",
+      "has_article": true,
+      "word_count": 11
+    },
+    "error_type": "",
+    "error_message": "",
+    "likely_ban": false,
+    "strategies_tried": [
+      "domcontentloaded"
+    ],
+    "cloudflare_detected": false
+  },
+  {
+    "session_id": "SCRAPE_20260114_160453_0001",
+    "url": "https://betakit.com/inside-ottawas-cautious-experiment-with-an-ai-powered-digital-help-desk/",
+    "timestamp": "2026-01-14T16:04:53.374980",
+    "attempt": 1,
+    "max_attempts": 3,
+    "status": "success",
+    "anti_detection": {
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+      "browser": "chrome",
+      "os": "macos",
+      "browser_version": "123",
+      "viewport_width": 1728,
+      "viewport_height": 1117,
+      "location_name": "Brisbane, Australia",
+      "timezone": "Australia/Brisbane",
+      "locale": "en-AU",
+      "geolocation": {
+        "latitude": -27.4698,
+        "longitude": 153.0251
+      },
+      "proxy_server": "",
+      "proxy_masked": "",
+      "referrer": null,
+      "sec_ch_ua": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"123\", \"Google Chrome\";v=\"123\""
+    },
+    "timing": {
+      "start_time": 1768399493.375024,
+      "browser_launch_time": 1.3516745567321777,
+      "page_load_time": 3.722970962524414,
+      "cloudflare_wait_time": 0,
+      "human_behavior_time": 34.190712690353394,
+      "content_extraction_time": 3.7737598419189453,
+      "total_time": 38.459967851638794
+    },
+    "content": {
+      "html_length": 166803,
+      "text_length": 7751,
+      "title": "Inside Ottawa\u2019s cautious experiment with an AI-powered digital help desk | BetaKit",
+      "final_url": "https://betakit.com/inside-ottawas-cautious-experiment-with-an-ai-powered-digital-help-desk/",
+      "extraction_method": "fallback:article",
+      "has_article": true,
+      "word_count": 12
+    },
+    "error_type": "",
+    "error_message": "",
+    "likely_ban": false,
+    "strategies_tried": [
+      "domcontentloaded"
+    ],
+    "cloudflare_detected": false
+  },
+  {
+    "session_id": "SCRAPE_20260114_170828_0001",
+    "url": "https://betakit.com/inside-ottawas-cautious-experiment-with-an-ai-powered-digital-help-desk/",
+    "timestamp": "2026-01-14T17:08:28.860630",
+    "attempt": 1,
+    "max_attempts": 3,
+    "status": "failed",
+    "anti_detection": {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+      "browser": "chrome",
+      "os": "windows",
+      "browser_version": "123",
+      "viewport_width": 1280,
+      "viewport_height": 720,
+      "location_name": "Seattle, USA",
+      "timezone": "America/Los_Angeles",
+      "locale": "en-US",
+      "geolocation": {
+        "latitude": 47.6062,
+        "longitude": -122.3321
+      },
+      "proxy_server": "",
+      "proxy_masked": "",
+      "referrer": "https://www.google.com/",
+      "sec_ch_ua": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"123\", \"Google Chrome\";v=\"123\""
+    },
+    "timing": {
+      "start_time": 1768403308.8607063,
+      "browser_launch_time": 1.5481064319610596,
+      "page_load_time": 31.479239463806152,
+      "cloudflare_wait_time": 0,
+      "human_behavior_time": 24.765050888061523,
+      "content_extraction_time": 0,
+      "total_time": 33.02764081954956
+    },
+    "content": {
+      "html_length": 0,
+      "text_length": 0,
+      "title": "Inside Ottawa\u2019s cautious experiment with an AI-powered digital help desk | BetaKit",
+      "final_url": "https://betakit.com/inside-ottawas-cautious-experiment-with-an-ai-powered-digital-help-desk/",
+      "extraction_method": "",
+      "has_article": false,
+      "word_count": 0
+    },
+    "error_type": "extraction_failed",
+    "error_message": "Content too short or empty (len=0)",
+    "likely_ban": false,
+    "strategies_tried": [
+      "domcontentloaded",
+      "load",
+      "networkidle"
+    ],
+    "cloudflare_detected": false
+  },
+  {
+    "session_id": "SCRAPE_20260114_170908_0002",
+    "url": "https://betakit.com/inside-ottawas-cautious-experiment-with-an-ai-powered-digital-help-desk/",
+    "timestamp": "2026-01-14T17:09:08.121497",
+    "attempt": 2,
+    "max_attempts": 3,
+    "status": "failed",
+    "anti_detection": {
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15",
+      "browser": "safari",
+      "os": "macos",
+      "browser_version": "605",
+      "viewport_width": 1680,
+      "viewport_height": 1050,
+      "location_name": "Melbourne, Australia",
+      "timezone": "Australia/Melbourne",
+      "locale": "en-AU",
+      "geolocation": {
+        "latitude": -37.8136,
+        "longitude": 144.9631
+      },
+      "proxy_server": "",
+      "proxy_masked": "",
+      "referrer": "https://www.google.com/search?q=betakit+com",
+      "sec_ch_ua": ""
+    },
+    "timing": {
+      "start_time": 1768403348.1215334,
+      "browser_launch_time": 0.8296506404876709,
+      "page_load_time": 33.56894779205322,
+      "cloudflare_wait_time": 0,
+      "human_behavior_time": 27.682217597961426,
+      "content_extraction_time": 0,
+      "total_time": 34.398855209350586
+    },
+    "content": {
+      "html_length": 0,
+      "text_length": 0,
+      "title": "Inside Ottawa\u2019s cautious experiment with an AI-powered digital help desk | BetaKit",
+      "final_url": "https://betakit.com/inside-ottawas-cautious-experiment-with-an-ai-powered-digital-help-desk/",
+      "extraction_method": "",
+      "has_article": false,
+      "word_count": 0
+    },
+    "error_type": "extraction_failed",
+    "error_message": "Content too short or empty (len=0)",
+    "likely_ban": false,
+    "strategies_tried": [
+      "domcontentloaded",
+      "load",
+      "networkidle"
+    ],
+    "cloudflare_detected": false
+  },
+  {
+    "session_id": "SCRAPE_20260114_170948_0003",
+    "url": "https://betakit.com/inside-ottawas-cautious-experiment-with-an-ai-powered-digital-help-desk/",
+    "timestamp": "2026-01-14T17:09:48.986443",
+    "attempt": 3,
+    "max_attempts": 3,
+    "status": "failed",
+    "anti_detection": {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "browser": "chrome",
+      "os": "windows",
+      "browser_version": "126",
+      "viewport_width": 1600,
+      "viewport_height": 900,
+      "location_name": "London, UK",
+      "timezone": "Europe/London",
+      "locale": "en-GB",
+      "geolocation": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
+      "proxy_server": "",
+      "proxy_masked": "",
+      "referrer": "https://www.google.com/search?q=betakit+com",
+      "sec_ch_ua": "\"Not_A Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Google Chrome\";v=\"126\""
+    },
+    "timing": {
+      "start_time": 1768403388.986467,
+      "browser_launch_time": 0.7672035694122314,
+      "page_load_time": 30.80762791633606,
+      "cloudflare_wait_time": 0,
+      "human_behavior_time": 24.600900173187256,
+      "content_extraction_time": 0,
+      "total_time": 32.45668840408325
+    },
+    "content": {
+      "html_length": 0,
+      "text_length": 0,
+      "title": "Inside Ottawa\u2019s cautious experiment with an AI-powered digital help desk | BetaKit",
+      "final_url": "https://betakit.com/inside-ottawas-cautious-experiment-with-an-ai-powered-digital-help-desk/",
+      "extraction_method": "",
+      "has_article": false,
+      "word_count": 0
+    },
+    "error_type": "extraction_failed",
+    "error_message": "Content too short or empty (len=0)",
+    "likely_ban": false,
+    "strategies_tried": [
+      "domcontentloaded",
+      "load",
+      "networkidle"
+    ],
+    "cloudflare_detected": false
+  },
+  {
+    "session_id": "SCRAPE_20260114_171345_0001",
+    "url": "https://betakit.com/inside-ottawas-cautious-experiment-with-an-ai-powered-digital-help-desk/",
+    "timestamp": "2026-01-14T17:13:45.743464",
+    "attempt": 1,
+    "max_attempts": 3,
+    "status": "success",
+    "anti_detection": {
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
+      "browser": "safari",
+      "os": "macos",
+      "browser_version": "605",
+      "viewport_width": 2560,
+      "viewport_height": 1440,
+      "location_name": "Houston, USA",
+      "timezone": "America/Chicago",
+      "locale": "en-US",
+      "geolocation": {
+        "latitude": 29.7604,
+        "longitude": -95.3698
+      },
+      "proxy_server": "",
+      "proxy_masked": "",
+      "referrer": "https://www.google.com/search?q=betakit+com",
+      "sec_ch_ua": ""
+    },
+    "timing": {
+      "start_time": 1768403625.7435021,
+      "browser_launch_time": 0.7516493797302246,
+      "page_load_time": 2.2555651664733887,
+      "cloudflare_wait_time": 0,
+      "human_behavior_time": 25.478152751922607,
+      "content_extraction_time": 2.3099873065948486,
+      "total_time": 27.91854763031006
+    },
+    "content": {
+      "html_length": 158649,
+      "text_length": 7751,
+      "title": "Inside Ottawa\u2019s cautious experiment with an AI-powered digital help desk | BetaKit",
+      "final_url": "https://betakit.com/inside-ottawas-cautious-experiment-with-an-ai-powered-digital-help-desk/",
+      "extraction_method": "fallback:article",
+      "has_article": true,
+      "word_count": 12
+    },
+    "error_type": "",
+    "error_message": "",
+    "likely_ban": false,
+    "strategies_tried": [
+      "domcontentloaded"
+    ],
+    "cloudflare_detected": false
   }
 ]

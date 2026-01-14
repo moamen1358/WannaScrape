@@ -92,5 +92,5 @@
         "max_failures_before_cooldown": 3,
         "cooldown_seconds": 120
     },
-    "max_scrape_timeout": 45
+    "max_scrape_timeout": 60
 }
