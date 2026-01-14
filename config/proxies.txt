@@ -1,0 +1,10 @@
+142.111.48.253:7030:kucyzrje:tx90fzqo0mpy
+31.59.20.176:6754:kucyzrje:tx90fzqo0mpy
+23.95.150.145:6114:kucyzrje:tx90fzqo0mpy
+198.23.239.134:6540:kucyzrje:tx90fzqo0mpy
+107.172.163.27:6543:kucyzrje:tx90fzqo0mpy
+198.105.121.200:6462:kucyzrje:tx90fzqo0mpy
+64.137.96.74:6641:kucyzrje:tx90fzqo0mpy
+84.247.60.125:6095:kucyzrje:tx90fzqo0mpy
+216.10.27.159:6837:kucyzrje:tx90fzqo0mpy
+142.111.67.146:5611:kucyzrje:tx90fzqo0mpy
