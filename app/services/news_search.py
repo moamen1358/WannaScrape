@@ -6,9 +6,14 @@ from datetime import datetime
 import time
 import logging
 
-import requests
 import random
 from pathlib import Path
+
+# Use TLS fingerprint client for anti-detection
+from app.services.tls_client import tls_get, is_tls_client_available, TLSHTTPError
+
+# Fallback to requests if needed
+import requests
 
 # Configure logger
 logger = logging.getLogger("news_search")
@@ -153,13 +158,21 @@ def search_google_news_rss(query, limit=10):
     logger.debug(f"User-Agent: {user_agent}")
 
     response = None
+    tls_impersonation = None
     try:
-        # Fetch with requests to use proxy/headers
-        response = requests.get(rss_url, headers=headers, proxies=proxy, timeout=30)
+        # Use TLS fingerprint client for anti-detection (impersonates real browser TLS)
+        if is_tls_client_available():
+            response = tls_get(rss_url, headers=headers, proxies=proxy, timeout=30)
+            tls_impersonation = response.impersonation
+            logger.debug(f"Using TLS fingerprint: {tls_impersonation}")
+        else:
+            # Fallback to standard requests (more detectable)
+            response = requests.get(rss_url, headers=headers, proxies=proxy, timeout=30)
+
         response.raise_for_status()
         content = response.content
-        logger.debug(f"Response status: {response.status_code}, Content-Length: {len(content)}")
-    except requests.exceptions.HTTPError as e:
+        logger.debug(f"Response status: {response.status_code}, Content-Length: {len(content)}, TLS: {tls_impersonation or 'standard'}")
+    except (requests.exceptions.HTTPError, TLSHTTPError) as e:
         status_code = response.status_code if response else None
         response_text = response.text[:500] if response else ""
         error_classification = _classify_search_error(str(e), status_code, response_text)
@@ -170,6 +183,7 @@ Query: {query}
 RSS URL: {rss_url}
 Proxy: {_mask_proxy_url(proxy)}
 User-Agent: {user_agent}
+TLS Fingerprint: {tls_impersonation or 'standard'}
 Status Code: {status_code}
 Error: {e}
 Error Type: {error_classification['type']}
@@ -189,6 +203,7 @@ Query: {query}
 RSS URL: {rss_url}
 Proxy: {_mask_proxy_url(proxy)}
 User-Agent: {user_agent}
+TLS Fingerprint: {tls_impersonation or 'standard'}
 Error: {e}
 Error Type: {error_classification['type']}
 Likely Ban: {error_classification['likely_ban']}
@@ -204,6 +219,7 @@ Query: {query}
 RSS URL: {rss_url}
 Proxy: {_mask_proxy_url(proxy)}
 User-Agent: {user_agent}
+TLS Fingerprint: {tls_impersonation or 'standard'}
 Error: {e}
 Error Type: {type(e).__name__}
 Duration: {time.time() - start_time:.2f}s
