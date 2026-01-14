@@ -136,22 +136,69 @@ Adds +/- 0.005 noise to bounding box coordinates to prevent fingerprinting.
 
 ## 4. Human Behavior Simulation
 
-### 4.1 Mouse Movement
-**File:** `app/services/scraper.py` & `app/services/advanced_anti_detection.py`
-
-- 3-6 random mouse movements per page
-- Bezier curve paths (natural movement)
-- 15-40 steps per movement
-- 50-300ms micro-pauses
-- Avoids page edges (100px margin)
-
-### 4.2 Scroll Behavior
+### 4.1 Mouse Movement (Enhanced)
 **File:** `app/services/scraper.py`
 
-- Scrolls in 100-400px chunks (reading pattern)
-- 300-1200ms pauses between scrolls
-- 40% chance to scroll back up
-- Max scroll: 60% of page or 3000px
+**Bezier Curve Movement:**
+- Cubic bezier curves for organic, non-linear paths
+- Ease-out timing (fast start, slow deceleration)
+- 4-8 movements per page session
+
+**Movement Types (Weighted):**
+| Type | Weight | Description |
+|------|--------|-------------|
+| Explore | 40% | Random positions across page |
+| Read Area | 30% | Follows content down the page |
+| Check Sidebar | 15% | Moves to left/right edges |
+| Hover Link | 15% | Targets link-like positions |
+
+**Micro-Behaviors:**
+- 30% chance of micro-jitter (+/- 1.5px) per step
+- Variable curve intensity based on distance
+- Slower movement at start/end of path (1.3x delay)
+
+**Pause Types After Movement:**
+| Pause Type | Weight | Duration |
+|------------|--------|----------|
+| None | 30% | 0ms |
+| Micro | 30% | 50-150ms |
+| Short | 25% | 200-500ms |
+| Reading | 15% | 800-2000ms |
+
+**Hover Behavior:**
+- 40% chance of subtle hover movement while "reading"
+- 2-4 micro-movements (+/- 3px)
+
+### 4.2 Scroll Behavior (Enhanced)
+**File:** `app/services/scraper.py`
+
+**Reader Personality Types:**
+| Type | Weight | Behavior |
+|------|--------|----------|
+| Skimmer | 25% | Fast scrolls (250-500px), short pauses |
+| Careful Reader | 30% | Slow scrolls (80-200px), long pauses (0.8-2.5s) |
+| Scanner | 20% | Variable - fast then stops to read |
+| Mixed | 25% | Balanced behavior |
+
+**Scroll Styles:**
+| Style | Weight | Description |
+|-------|--------|-------------|
+| Smooth | 60% | Browser smooth scroll animation |
+| Stepped | 30% | Multiple small scrolls (mouse wheel simulation) |
+| Instant | 10% | Immediate jump |
+
+**Advanced Behaviors:**
+- Micro-adjustments while reading (40% chance, +/- 30-50px)
+- Scroll back up to re-read (15% chance after 2+ scrolls)
+- Random long pause when "interested" (8% chance, 2-4s)
+- Fast skip of "boring" sections (5% chance, 400-800px)
+
+**End Behaviors:**
+| Behavior | Weight |
+|----------|--------|
+| Stay at position | 60% |
+| Scroll up slightly | 30% |
+| Back to top | 10% |
 
 ### 4.3 Typing Simulation
 **File:** `app/services/advanced_anti_detection.py`
@@ -339,7 +386,7 @@ print(response.impersonation)  # "chrome120"
 
 ## 11. Recent Changes
 
-### 11.1 TLS/JA3 Fingerprint Implementation (Latest)
+### 11.1 TLS/JA3 Fingerprint Implementation
 
 **Files Modified:**
 | File | Change |
@@ -353,6 +400,36 @@ print(response.impersonation)  # "chrome120"
 - HTTP requests now use browser-like TLS fingerprints
 - Significantly reduces detection by advanced anti-bot systems
 - Automatic rotation between Chrome, Edge, Safari fingerprints
+
+### 11.2 Enhanced Human Behavior Simulation (Latest)
+
+**Files Modified:**
+| File | Change |
+|------|--------|
+| `app/services/scraper.py` | Improved mouse & scroll functions |
+| `app/services/advanced_logging.py` | Changed .jsonl to .json format |
+| `REPORT.md` | Updated documentation |
+
+**Mouse Movement Improvements:**
+- Bezier curve paths for organic movement
+- Ease-out timing (natural deceleration)
+- 4 movement types: explore, read_area, check_sidebar, hover_link
+- Micro-jitter simulation (human hand tremor)
+- Variable pauses: micro, short, reading, none
+- Hover behavior while "reading"
+
+**Scroll Behavior Improvements:**
+- 4 reader personalities: skimmer, careful_reader, scanner, mixed
+- 3 scroll styles: smooth, stepped (mouse wheel), instant
+- Micro-adjustments while reading
+- Scroll back up to re-read (15% chance)
+- Fast skip of boring sections (5% chance)
+- End behaviors: stay, scroll up, back to top
+
+**Logging Change:**
+- Changed from `.jsonl` (line-delimited) to `.json` (array format)
+- Files now saved as proper JSON arrays with indentation
+- Easier to view and parse
 
 ---
 

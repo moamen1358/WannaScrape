@@ -459,10 +459,23 @@ class AdvancedScrapeLogger:
         """Save session data to JSON file for analysis."""
         try:
             date_str = datetime.now().strftime("%Y-%m-%d")
-            log_file = self.log_dir / f"scrape_sessions_{date_str}.jsonl"
-            
-            with open(log_file, "a") as f:
-                f.write(json.dumps(session.to_dict()) + "\n")
+            log_file = self.log_dir / f"scrape_sessions_{date_str}.json"
+
+            # Load existing sessions or create new list
+            sessions = []
+            if log_file.exists():
+                try:
+                    with open(log_file, "r") as f:
+                        sessions = json.load(f)
+                except (json.JSONDecodeError, Exception):
+                    sessions = []
+
+            # Append new session
+            sessions.append(session.to_dict())
+
+            # Write back as formatted JSON
+            with open(log_file, "w") as f:
+                json.dump(sessions, f, indent=2)
         except Exception as e:
             self.logger.warning(f"Failed to save session log: {e}")
 

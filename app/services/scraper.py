@@ -211,63 +211,261 @@ def _human_delay(min_sec: float = 2.0, max_sec: float = 6.0) -> float:
     return max(min_sec * 0.5, min(max_sec * 1.5, delay))
 
 
+def _bezier_curve(t: float, p0: float, p1: float, p2: float, p3: float) -> float:
+    """Calculate point on cubic bezier curve at parameter t (0-1)."""
+    u = 1 - t
+    return u**3 * p0 + 3 * u**2 * t * p1 + 3 * u * t**2 * p2 + t**3 * p3
+
+
+def _ease_out_quad(t: float) -> float:
+    """Easing function for natural deceleration."""
+    return 1 - (1 - t) ** 2
+
+
 def _simulate_mouse_movement(page, num_movements: int = None):
-    """Simulate natural mouse movements across the page."""
+    """
+    Simulate highly realistic human mouse movements using bezier curves,
+    variable speeds, micro-jitter, and natural pausing behavior.
+    """
     try:
         viewport = page.viewport_size
         if not viewport:
             return
 
         width, height = viewport['width'], viewport['height']
-        num_movements = num_movements or random.randint(3, 6)
+        num_movements = num_movements or random.randint(4, 8)
 
-        for _ in range(num_movements):
-            # Random target position (avoid edges)
-            x = random.randint(100, width - 100)
-            y = random.randint(100, height - 100)
+        # Start position (center-ish, like where eyes naturally look)
+        current_x = width * random.uniform(0.3, 0.7)
+        current_y = height * random.uniform(0.2, 0.4)
 
-            # Random movement speed (steps)
-            steps = random.randint(15, 40)
-            page.mouse.move(x, y, steps=steps)
+        for move_idx in range(num_movements):
+            # Determine movement type (affects target selection)
+            movement_type = random.choices(
+                ['explore', 'read_area', 'check_sidebar', 'hover_link'],
+                weights=[40, 30, 15, 15]
+            )[0]
 
-            # Micro-pause between movements
-            time.sleep(random.uniform(0.05, 0.3))
+            # Select target based on movement type
+            if movement_type == 'explore':
+                target_x = random.randint(100, width - 100)
+                target_y = random.randint(100, height - 100)
+            elif movement_type == 'read_area':
+                # Stay in main content area (center)
+                target_x = width * random.uniform(0.2, 0.8)
+                target_y = current_y + random.randint(50, 200)
+                target_y = min(target_y, height - 100)
+            elif movement_type == 'check_sidebar':
+                # Move to sidebar area
+                target_x = random.choice([width * 0.1, width * 0.9])
+                target_y = random.randint(150, height - 150)
+            else:  # hover_link
+                # Random spot that could be a link
+                target_x = random.randint(150, width - 150)
+                target_y = random.randint(100, height - 200)
 
-        logger.debug(f"Simulated {num_movements} mouse movements")
+            # Generate bezier control points for natural curve
+            # Control points are offset from straight line for organic movement
+            dx = target_x - current_x
+            dy = target_y - current_y
+            distance = (dx**2 + dy**2) ** 0.5
+
+            # More curve for longer distances
+            curve_intensity = min(80, distance * 0.15)
+            ctrl1_x = current_x + dx * 0.25 + random.uniform(-curve_intensity, curve_intensity)
+            ctrl1_y = current_y + dy * 0.25 + random.uniform(-curve_intensity, curve_intensity)
+            ctrl2_x = current_x + dx * 0.75 + random.uniform(-curve_intensity, curve_intensity)
+            ctrl2_y = current_y + dy * 0.75 + random.uniform(-curve_intensity, curve_intensity)
+
+            # Variable duration based on distance (longer = slower, more natural)
+            base_duration = 0.2 + (distance / 1000) * 0.5
+            duration = base_duration * random.uniform(0.8, 1.4)
+
+            # Number of steps (more for longer movements)
+            steps = max(15, int(distance / 8))
+
+            # Execute movement with variable speed (ease-out)
+            for i in range(steps + 1):
+                # Use easing for natural deceleration
+                t = _ease_out_quad(i / steps)
+
+                # Calculate position on bezier curve
+                x = _bezier_curve(t, current_x, ctrl1_x, ctrl2_x, target_x)
+                y = _bezier_curve(t, current_y, ctrl1_y, ctrl2_y, target_y)
+
+                # Add micro-jitter (human hands aren't perfectly steady)
+                if random.random() < 0.3:
+                    x += random.uniform(-1.5, 1.5)
+                    y += random.uniform(-1.5, 1.5)
+
+                page.mouse.move(x, y)
+
+                # Variable step delay (slower at start and end)
+                step_delay = (duration / steps)
+                if i < steps * 0.1 or i > steps * 0.9:
+                    step_delay *= 1.3  # Slower at edges
+                time.sleep(step_delay)
+
+            # Update current position
+            current_x, current_y = target_x, target_y
+
+            # Natural pause after movement
+            pause_type = random.choices(
+                ['micro', 'short', 'reading', 'none'],
+                weights=[30, 25, 15, 30]
+            )[0]
+
+            if pause_type == 'micro':
+                time.sleep(random.uniform(0.05, 0.15))
+            elif pause_type == 'short':
+                time.sleep(random.uniform(0.2, 0.5))
+            elif pause_type == 'reading':
+                time.sleep(random.uniform(0.8, 2.0))
+
+            # Occasional hover behavior (slight movement while "reading")
+            if pause_type == 'reading' and random.random() < 0.4:
+                for _ in range(random.randint(2, 4)):
+                    hover_x = current_x + random.uniform(-3, 3)
+                    hover_y = current_y + random.uniform(-3, 3)
+                    page.mouse.move(hover_x, hover_y)
+                    time.sleep(random.uniform(0.1, 0.3))
+
+        logger.debug(f"Simulated {num_movements} natural mouse movements with bezier curves")
     except Exception as e:
         logger.debug(f"Mouse simulation skipped: {e}")
 
 
 def _simulate_scroll(page, scroll_down: bool = True):
-    """Simulate natural scrolling behavior like reading a page."""
+    """
+    Simulate highly realistic human scrolling behavior with variable patterns,
+    reading pauses, micro-adjustments, and natural rhythm.
+    """
     try:
         # Get page dimensions
         page_height = page.evaluate("document.body.scrollHeight")
         viewport_height = page.viewport_size['height'] if page.viewport_size else 900
 
-        if scroll_down:
-            # Scroll down in chunks (like reading)
-            current_position = 0
-            max_scroll = min(page_height * 0.6, 3000)  # Don't scroll too far
+        if not scroll_down:
+            return
 
-            while current_position < max_scroll:
-                # Random scroll amount (100-400 pixels, like mouse wheel)
-                scroll_amount = random.randint(150, 400)
-                current_position += scroll_amount
+        current_position = 0
+        max_scroll = min(page_height * random.uniform(0.5, 0.75), 4000)
 
-                # Smooth scroll
-                page.evaluate(f"window.scrollTo({{top: {current_position}, behavior: 'smooth'}})")
+        # Determine reader "personality" for this session
+        reader_type = random.choices(
+            ['skimmer', 'careful_reader', 'scanner', 'mixed'],
+            weights=[25, 30, 20, 25]
+        )[0]
 
-                # Reading pause (varies by "content density")
-                time.sleep(random.uniform(0.3, 1.2))
+        scroll_count = 0
+        last_pause_was_long = False
 
-            # Sometimes scroll back up a bit (like re-reading)
-            if random.random() > 0.6:
-                scroll_back = random.randint(100, 300)
+        while current_position < max_scroll:
+            scroll_count += 1
+
+            # Determine scroll behavior based on reader type and context
+            if reader_type == 'skimmer':
+                # Fast scrolling with occasional stops
+                scroll_amount = random.randint(250, 500)
+                pause_duration = random.uniform(0.15, 0.4) if random.random() < 0.7 else random.uniform(0.8, 1.5)
+            elif reader_type == 'careful_reader':
+                # Slow, methodical scrolling
+                scroll_amount = random.randint(80, 200)
+                pause_duration = random.uniform(0.8, 2.5)
+            elif reader_type == 'scanner':
+                # Variable - sometimes fast, sometimes stops to read
+                if random.random() < 0.6:
+                    scroll_amount = random.randint(300, 600)
+                    pause_duration = random.uniform(0.1, 0.3)
+                else:
+                    scroll_amount = random.randint(100, 200)
+                    pause_duration = random.uniform(1.0, 3.0)
+            else:  # mixed
+                scroll_amount = random.randint(100, 400)
+                pause_duration = random.uniform(0.3, 1.5)
+
+            # Avoid two long pauses in a row (unnatural)
+            if last_pause_was_long and pause_duration > 1.5:
+                pause_duration = random.uniform(0.2, 0.6)
+            last_pause_was_long = pause_duration > 1.5
+
+            # Execute scroll with variable smoothness
+            scroll_style = random.choices(
+                ['smooth', 'stepped', 'instant'],
+                weights=[60, 30, 10]
+            )[0]
+
+            target_position = current_position + scroll_amount
+
+            if scroll_style == 'smooth':
+                # Browser smooth scroll
+                page.evaluate(f"window.scrollTo({{top: {target_position}, behavior: 'smooth'}})")
+                time.sleep(random.uniform(0.2, 0.4))  # Wait for smooth scroll
+            elif scroll_style == 'stepped':
+                # Simulate mouse wheel (multiple small scrolls)
+                steps = random.randint(3, 6)
+                step_amount = scroll_amount / steps
+                for _ in range(steps):
+                    current_position += step_amount
+                    page.evaluate(f"window.scrollTo({{top: {current_position}, behavior: 'auto'}})")
+                    time.sleep(random.uniform(0.03, 0.08))
+            else:  # instant
+                page.evaluate(f"window.scrollTo({{top: {target_position}, behavior: 'auto'}})")
+
+            current_position = target_position
+
+            # Reading pause
+            time.sleep(pause_duration)
+
+            # Micro-adjustments while "reading" (subtle scroll corrections)
+            if pause_duration > 1.0 and random.random() < 0.4:
+                micro_scroll = random.randint(-30, 50)
+                page.evaluate(f"window.scrollBy({{top: {micro_scroll}, behavior: 'smooth'}})")
+                current_position += micro_scroll
+                time.sleep(random.uniform(0.3, 0.8))
+
+            # Occasional scroll back up (re-reading something)
+            if scroll_count > 2 and random.random() < 0.15:
+                scroll_back = random.randint(100, 350)
                 page.evaluate(f"window.scrollBy({{top: -{scroll_back}, behavior: 'smooth'}})")
-                time.sleep(random.uniform(0.2, 0.5))
+                current_position -= scroll_back
+                time.sleep(random.uniform(0.3, 0.5))
 
-        logger.debug(f"Simulated scroll behavior")
+                # Read the section again
+                time.sleep(random.uniform(0.8, 2.0))
+
+                # Then continue scrolling down
+                scroll_forward = random.randint(scroll_back, scroll_back + 150)
+                page.evaluate(f"window.scrollBy({{top: {scroll_forward}, behavior: 'smooth'}})")
+                current_position += scroll_forward
+                time.sleep(random.uniform(0.2, 0.4))
+
+            # Random longer pause (found something interesting)
+            if random.random() < 0.08:
+                time.sleep(random.uniform(2.0, 4.0))
+
+            # Occasional fast skip (boring section)
+            if random.random() < 0.05 and reader_type != 'careful_reader':
+                skip_amount = random.randint(400, 800)
+                page.evaluate(f"window.scrollBy({{top: {skip_amount}, behavior: 'smooth'}})")
+                current_position += skip_amount
+                time.sleep(random.uniform(0.2, 0.4))
+
+        # End behavior: sometimes scroll back to top/middle
+        end_behavior = random.choices(
+            ['stay', 'scroll_up_slightly', 'back_to_top'],
+            weights=[60, 30, 10]
+        )[0]
+
+        if end_behavior == 'scroll_up_slightly':
+            scroll_back = random.randint(200, 500)
+            page.evaluate(f"window.scrollBy({{top: -{scroll_back}, behavior: 'smooth'}})")
+            time.sleep(random.uniform(0.3, 0.6))
+        elif end_behavior == 'back_to_top':
+            page.evaluate("window.scrollTo({top: 0, behavior: 'smooth'})")
+            time.sleep(random.uniform(0.5, 1.0))
+
+        logger.debug(f"Simulated {scroll_count} scroll actions ({reader_type} pattern)")
     except Exception as e:
         logger.debug(f"Scroll simulation skipped: {e}")
 
