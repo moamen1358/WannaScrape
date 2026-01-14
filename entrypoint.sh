@@ -1,17 +1,30 @@
 #!/bin/bash
 
-# Set default service type if not provided
+# =============================================================================
+# Docker Entrypoint
+# =============================================================================
+# Enterprise logging writes to /app/logs/ automatically
+# Set SERVICE_TYPE=scraper or SERVICE_TYPE=search
+# =============================================================================
+
+set -e
+
 SERVICE_TYPE=${SERVICE_TYPE:-scraper}
+ENVIRONMENT=${ENVIRONMENT:-production}
+LOG_LEVEL=${LOG_LEVEL:-INFO}
+
+export ENVIRONMENT
+export LOG_LEVEL
+
+mkdir -p /app/logs
+
+echo "Starting $SERVICE_TYPE service (env: $ENVIRONMENT)"
 
 if [ "$SERVICE_TYPE" = "scraper" ]; then
-    echo "Starting Scraper API on port 8000..."
-    # Run uvicorn and pipe output to both stdout (for docker logs) and the log file
-    uvicorn app.api.scraper_api:app --host 0.0.0.0 --port 8000 2>&1 | tee -a /app/logs/scraper.log
+    exec uvicorn app.api.scraper_api:app --host 0.0.0.0 --port 8000
 elif [ "$SERVICE_TYPE" = "search" ]; then
-    echo "Starting Search API on port 8001..."
-    # Run uvicorn and pipe output to both stdout (for docker logs) and the log file
-    uvicorn app.api.search_api:app --host 0.0.0.0 --port 8001 2>&1 | tee -a /app/logs/search.log
+    exec uvicorn app.api.search_api:app --host 0.0.0.0 --port 8001
 else
-    echo "Unknown SERVICE_TYPE: $SERVICE_TYPE"
+    echo "Unknown SERVICE_TYPE: $SERVICE_TYPE (use 'scraper' or 'search')"
     exit 1
 fi

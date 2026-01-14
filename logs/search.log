@@ -1,5 +1,0 @@
-2026-01-14 12:42:22 [INFO] [user_agents] 🌐 UserAgentManager initialized with 55 user agents
-INFO:     Started server process [303097]
-INFO:     Waiting for application startup.
-INFO:     Application startup complete.
-INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
