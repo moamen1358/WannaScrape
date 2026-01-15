@@ -98,5 +98,16 @@
         "max_failures_before_cooldown": 3,
         "cooldown_seconds": 60
     },
-    "max_scrape_timeout": 45
+    "max_scrape_timeout": 45,
+    "captcha": {
+        "enabled": true,
+        "service": "2captcha",
+        "api_key": "",
+        "timeout": 120,
+        "solve_recaptcha": true,
+        "solve_hcaptcha": true,
+        "solve_image_captcha": true,
+        "solve_turnstile": true,
+        "max_retries": 3
+    }
 }

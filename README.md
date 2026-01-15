@@ -1,103 +1,186 @@
-# Website Scraper & API (Ultimate Anti-Detection Edition)
+# Web Scraper
 
-Production-ready article scraper and FastAPI service designed to extract clean content from dynamic websites while avoiding bot detection. Features **comprehensive anti-detection suite**, **advanced fingerprint spoofing**, **intelligent human behavior simulation**, **domain-level rate limiting**, **session persistence**, and **advanced proxy management**.
+Production-ready web scraper with advanced anti-detection features. Extract clean article content from any website while bypassing bot detection systems.
 
-## 🆕 Latest Updates (January 14, 2026)
+## Features
 
-### 🛡️ Advanced Anti-Detection Suite (NEW)
-- **Audio Fingerprint Spoofing**: Defeats AudioContext-based fingerprinting
-- **Font Enumeration Spoofing**: Randomizes detected system fonts
-- **ClientRects Noise**: Adds imperceptible noise to element measurements
-- **Performance API Noise**: Defeats timing-based detection methods
-- **Date/Time Precision Reduction**: Prevents high-resolution timing attacks
-- **Permissions API Spoofing**: Returns realistic permission states
-- **Media Devices Spoofing**: Fake camera/microphone enumeration
-- **Document Visibility Spoofing**: Always reports as visible (not hidden/automated)
+- **50+ User Agents**: Rotating browser fingerprints (Chrome, Firefox, Safari, Edge)
+- **30+ Locations**: Geographic profiles with matching timezones and locales
+- **Anti-Detection Suite**: Canvas noise, WebGL spoofing, WebRTC protection
+- **CAPTCHA Solving**: Support for 2captcha and Capsolver services
+- **Proxy Rotation**: Smart proxy management with health tracking
+- **Human Behavior**: Realistic mouse movements and scrolling
+- **Session Persistence**: Cookie management for returning visitor simulation
+- **Dual Interface**: CLI + REST API
 
-### 🚦 Domain-Level Rate Limiting (NEW)
-- **Per-Domain Tracking**: Monitors requests per domain per hour (default: 30/hr)
-- **Auto-Throttling**: Automatically delays when approaching limits
-- **Smart Delays**: Scales delay based on request frequency
-- **Prevents IP Blocks**: Avoids triggering server-side rate limiting
+## Quick Start
 
-### 🍪 Session Persistence (NEW)
-- **Cookie Management**: Saves/restores browser sessions per domain
-- **localStorage Persistence**: Maintains client-side storage
-- **Returning Visitor Simulation**: Appears as legitimate returning user
-- **Sessions Directory**: All sessions saved in `/sessions/` folder
+### Installation
 
-### 🔄 Enhanced Proxy Management (NEW)
-- **Retry with Rotation**: Automatically switches proxy on failure
-- **Health Tracking**: Advanced failure counting with cooldown periods
-- **Success Marking**: Resets failure count on successful requests
-- **Smart Selection**: Avoids recently used and failed proxies
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/website_scraper.git
+cd website_scraper
 
-### 🧪 Anti-Detection Testing (NEW)
-- **Bot Detection Test Suite**: Automated testing against detection services
-- **Challenging Sites Testing**: Tests against Cloudflare, DataDome, PerimeterX
-- **Fingerprint Validation**: Verifies canvas, WebGL, and other fingerprints
-- **Success Rate Monitoring**: Tracks effectiveness over time
+# Install dependencies
+pip install -r requirements.txt
 
-### 🎭 Enhanced User Agent System
-- **55+ Modern User Agents**: Chrome, Firefox, Safari, Edge across Windows/Mac/Linux
-- **Consistent Fingerprinting**: Matching viewport, headers, and capabilities
-- **OS-Specific Profiles**: Realistic combinations of OS and browser versions
-- **Geographic Profiles**: 30+ global locations with matching timezones/locales
+# Install Playwright browsers
+playwright install chromium
+```
 
-## Key Features
+### CLI Usage
 
-### 🛡️ Ultimate Anti-Detection Protection
-| Feature | Status | Impact | Description |
-|---------|--------|--------|-------------|
-| Canvas Fingerprint Noise | ✅ | **Critical** | Injects imperceptible noise to randomize fingerprint |
-| WebGL Vendor/Renderer Spoof | ✅ | **Critical** | Spoofs GPU info (NVIDIA/Intel/AMD) |
-| Audio Context Spoofing | ✅ **NEW** | **High** | Defeats audio fingerprinting |
-| Font Enumeration Spoofing | ✅ **NEW** | **High** | Randomizes detected fonts |
-| ClientRects Noise | ✅ **NEW** | **Medium** | Adds noise to element measurements |
-| Performance API Noise | ✅ **NEW** | **Medium** | Prevents timing-based detection |
-| User-Agent Rotation | ✅ | **High** | 55+ modern browser fingerprints |
-| Human Behavior Simulation | ✅ | **Critical** | Mouse, scroll, realistic delays |
-| Stealth Mode | ✅ | **Critical** | Playwright-stealth integration |
-| Session Persistence | ✅ **NEW** | **High** | Cookie/localStorage management |
+```bash
+# Scrape an article
+python main.py scrape https://example.com/article
 
-### 🚦 Smart Request Management
-| Feature | Status | Description |
-|---------|--------|-------------|
-| Domain-Level Rate Limiting | ✅ **NEW** | Tracks requests per domain (30/hr default) |
-| Proxy Health Tracking | ✅ | Auto-cooldown for failed proxies |
-| Retry with Rotation | ✅ **NEW** | Switches proxy on failure |
-| Smart Delays | ✅ | Bell-curve distribution, scales with frequency |
-| Resource Blocking | ✅ | Blocks images/media to save bandwidth |
+# Scrape with visible browser (for debugging)
+python main.py scrape https://example.com/article --no-headless
 
-### 🔍 Advanced Debugging & Monitoring
-| Feature | Status | Description |
-|---------|--------|-------------|
-| Screenshot on Failure | ✅ | PNG + JSON metadata capture |
-| Error Classification | ✅ | Identifies ban types and provides recommendations |
-| Success Rate Tracking | ✅ | Monitors effectiveness over time |
-| Anti-Detection Testing | ✅ **NEW** | Test suite against bot detection services |
-| Detailed Logging | ✅ | Comprehensive session logs with context |
+# Search for text source
+python main.py search "Breaking news about technology"
+
+# Start API server
+python main.py serve --port 8000
+
+# Show help
+python main.py --help
+```
+
+### API Usage
+
+```bash
+# Start the server
+python main.py serve
+
+# Scrape an article
+curl -X POST http://localhost:8000/scrape \
+  -H "Content-Type: application/json" \
+  -d '{"url": "https://example.com/article"}'
+
+# Check health
+curl http://localhost:8000/health
+
+# Get statistics
+curl http://localhost:8000/stats
+```
+
+## Configuration
+
+Copy `.env.example` to `.env` and customize:
+
+```bash
+cp .env.example .env
+```
+
+Key settings:
+
+| Setting | Default | Description |
+|---------|---------|-------------|
+| `SCRAPER_HEADLESS` | `true` | Run browser in headless mode |
+| `SCRAPER_CAPTCHA_ENABLED` | `false` | Enable CAPTCHA solving |
+| `SCRAPER_PROXY_ENABLED` | `false` | Enable proxy rotation |
+| `SCRAPER_MAX_REQUESTS_PER_HOUR` | `60` | Rate limit per domain |
 
 ## Project Structure
 
 ```
 website_scraper/
 ├── app/
-│   ├── services/
-│   │   ├── scraper.py                  # Core scraper with anti-detection suite
-│   │   ├── advanced_anti_detection.py  # 🆕 Advanced fingerprint spoofing
-│   │   ├── user_agents.py              # 🆕 55+ user agent profiles
-│   │   ├── advanced_logging.py         # 🆕 Comprehensive session logging
-│   │   └── news_search.py              # Google News RSS searcher
-│   └── api/
-│       ├── scraper_api.py              # FastAPI endpoint for scraping
-│       └── search_api.py               # FastAPI endpoint for news search
+│   ├── core/                   # Core scraping logic
+│   │   ├── scraper.py          # Main WebScraper class
+│   │   ├── captcha_solver.py   # CAPTCHA detection and solving
+│   │   ├── browser_manager.py  # Browser setup and anti-detection
+│   │   └── content_extractor.py # Article extraction
+│   ├── api/                    # REST API
+│   │   └── scraper_api.py      # FastAPI endpoints
+│   ├── cli/                    # Command-line interface
+│   │   └── commands.py         # Typer CLI commands
+│   ├── config/                 # Configuration
+│   │   ├── settings.py         # Pydantic settings
+│   │   └── constants.py        # Anti-detection scripts
+│   ├── logging/                # Logging system
+│   │   └── logger.py           # Unified logging
+│   ├── services/               # Advanced features
+│   │   ├── user_agents.py      # User agent profiles
+│   │   └── advanced_anti_detection.py
+│   └── utils/                  # Utilities
+│       ├── cloudflare.py       # Cloudflare bypass
+│       ├── human_behavior.py   # Human simulation
+│       ├── proxy_manager.py    # Proxy management
+│       └── helpers.py          # Helper functions
 ├── config/
-│   ├── config.json                     # Your configuration (gitignored)
-│   ├── config.json.example             # Example configuration
-│   └── proxies.txt                     # Your proxy list (gitignored)
-├── sessions/                           # 🆕 Saved browser sessions (gitignored)
-├── logs/                               # Log files (gitignored)
+│   ├── config.json.example     # Example configuration
+│   └── proxies.txt             # Proxy list (one per line)
+├── data/                       # Runtime data (gitignored)
+│   ├── logs/                   # Log files
+│   ├── screenshots/            # Failure screenshots
+│   └── sessions/               # Browser sessions
+├── main.py                     # Entry point
+├── requirements.txt
+├── Dockerfile
+└── docker-compose.yml
+```
+
+## Docker
+
+```bash
+# Build and run
+docker-compose up --build
+
+# Or manually
+docker build -t web-scraper .
+docker run -p 8000:8000 web-scraper
+```
+
+## API Endpoints
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/health` | GET | Health check with feature list |
+| `/stats` | GET | Scraping statistics |
+| `/scrape` | POST | Scrape an article |
+| `/search` | POST | Search for text source |
+
+### Request Examples
+
+**Scrape Article:**
+```json
+POST /scrape
+{
+  "url": "https://example.com/article",
+  "headless": true
+}
+```
+
+**Search Source:**
+```json
+POST /search
+{
+  "text": "Article text to find source",
+  "num_results": 5
+}
+```
+
+## Anti-Detection Features
+
+| Feature | Description |
+|---------|-------------|
+| Canvas Fingerprint Noise | Randomizes canvas fingerprint |
+| WebGL Spoofing | Spoofs GPU vendor/renderer |
+| WebRTC Protection | Prevents IP leaks |
+| Navigator Patches | Hardware/memory spoofing |
+| Stealth Mode | Hides automation indicators |
+| Human Behavior | Realistic mouse and scroll |
+
+## License
+
+MIT License
+
+## Contributing
+
+Contributions are welcome! Please read the contributing guidelines first.
 ├── screenshots/                        # Failure screenshots (gitignored)
 ├── test_antidetection.py               # 🆕 Anti-detection test suite
 ├── test_single_url.py                  # Single URL testing script

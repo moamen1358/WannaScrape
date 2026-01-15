@@ -1,62 +1,46 @@
-import argparse
-import json
-import logging
+#!/usr/bin/env python3
+"""
+Web Scraper - Production-Ready Article Extraction
+
+A professional web scraper with advanced anti-detection features.
+
+Usage:
+    python main.py scrape <url>              # Scrape a single URL
+    python main.py scrape <url> --no-headless   # Visible browser mode
+    python main.py search "<text>"           # Find source of text
+    python main.py serve                     # Start API server
+    python main.py serve --port 8080         # Custom port
+    python main.py stats                     # Show statistics
+    python main.py version                   # Show version
+
+For more help:
+    python main.py --help
+    python main.py scrape --help
+"""
+
 import sys
 import os
-from app.services.scraper import WebScraper
 
-# Ensure logs directory exists
-os.makedirs("logs", exist_ok=True)
+# Ensure the app package is importable
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-# Configure logging for CLI
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-    handlers=[
-        logging.StreamHandler(sys.stdout),
-        logging.FileHandler("logs/scraper.log")
-    ]
-)
-logger = logging.getLogger("cli")
+# Ensure directories exist
+os.makedirs("data/logs", exist_ok=True)
+os.makedirs("data/screenshots", exist_ok=True)
+os.makedirs("data/sessions", exist_ok=True)
+
 
 def main():
-    parser = argparse.ArgumentParser(description="Professional Web Scraper & Article Extractor")
-    
-    parser.add_argument("--url", help="The URL of the article to scrape")
-    parser.add_argument("--text", help="Text snippet to search for the original source")
-    parser.add_argument("--visible", action="store_true", help="Run browser in visible mode (headless=False)")
-    
-    args = parser.parse_args()
-    
-    if not args.url and not args.text:
-        parser.print_help()
-        return
-    
-    scraper = WebScraper()
-    
-    if args.url:
-        logger.info(f"🚀 Starting scrape for URL: {args.url}")
-        result = scraper.extract_article(args.url, headless=not args.visible)
-        
-        if "error" in result:
-            logger.error("❌ Scrape failed:")
-            print(json.dumps(result, indent=4, ensure_ascii=False))
-        else:
-            logger.info("✅ Scrape successful:")
-            # Filter result to focus on main text and key metadata
-            filtered_result = {
-                "title": result.get("title"),
-                "date": result.get("date"),
-                "source": result.get("source"),
-                "text": result.get("text")
-            }
-            print(json.dumps(filtered_result, indent=4, ensure_ascii=False))
-        
-    if args.text:
-        logger.info(f"🔎 Searching for source of text: '{args.text[:50]}...'")
-        results = scraper.find_source_from_text(args.text)
-        print(json.dumps(results, indent=4, ensure_ascii=False))
+    """Main entry point."""
+    try:
+        from app.cli.commands import app
+        app()
+    except ImportError as e:
+        # Fallback for missing dependencies
+        print(f"Error: Missing dependencies. {e}")
+        print("Please run: pip install -r requirements.txt")
+        sys.exit(1)
+
 
 if __name__ == "__main__":
     main()
