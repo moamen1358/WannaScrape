@@ -1,8 +1,8 @@
 services:
-  scraper-api:
+  wannascrape:
     build: .
-    image: moamen1358/website-scrapper:latest
-    container_name: scraper-api
+    image: moamen1358/wannascrape:latest
+    container_name: wannascrape
     ports:
       - "8000:8000"
     volumes:
@@ -12,4 +12,12 @@ services:
       - SCRAPER_HEADLESS=true
       - SCRAPER_PROXY_ENABLED=false
       - SCRAPER_CAPTCHA_ENABLED=false
+      - SCRAPER_API_KEY=${SCRAPER_API_KEY:-}
+      - LOG_LEVEL=INFO
     restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s

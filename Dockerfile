@@ -1,19 +1,30 @@
-# Use official Playwright Python image
+# wannaScrape - Stealth Web Scraper API
+# Production-ready with anti-detection features
+
 FROM mcr.microsoft.com/playwright/python:v1.49.1-jammy
+
+# Metadata
+LABEL org.opencontainers.image.title="wannaScrape"
+LABEL org.opencontainers.image.description="Production-ready web scraper with anti-detection features"
+LABEL org.opencontainers.image.version="2.0.0"
+LABEL org.opencontainers.image.vendor="moamen1358"
+LABEL org.opencontainers.image.source="https://github.com/moamen1358/Search_news_and_scrape_them"
 
 # Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 ENV PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
+ENV APP_NAME=wannascrape
+ENV APP_VERSION=2.0.0
 
 # Set work directory
 WORKDIR /app
 
-# Install Python dependencies
+# Install Python dependencies first (for better caching)
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Install Playwright Chromium (dependencies are already in the base image)
+# Install Playwright Chromium
 RUN playwright install chromium
 
 # Copy application code
@@ -21,6 +32,10 @@ COPY . .
 
 # Create data directories
 RUN mkdir -p data/logs/scrapes data/screenshots data/sessions
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost:8000/health || exit 1
 
 # Expose port
 EXPOSE 8000

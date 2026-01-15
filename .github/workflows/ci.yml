@@ -81,7 +81,8 @@ jobs:
         context: .
         push: true
         tags: |
-          ${{ secrets.DOCKER_USERNAME }}/website-scrapper:latest
-          ${{ secrets.DOCKER_USERNAME }}/website-scrapper:${{ github.sha }}
+          ${{ secrets.DOCKER_USERNAME }}/wannascrape:latest
+          ${{ secrets.DOCKER_USERNAME }}/wannascrape:${{ github.sha }}
+          ${{ secrets.DOCKER_USERNAME }}/wannascrape:2.0.0
         cache-from: type=gha
         cache-to: type=gha,mode=max
