@@ -1,26 +1,39 @@
-# Web Scraper
+# 🕷️ Web Scraper
+
+[![CI](https://github.com/moamen1358/Search_news_and_scrape_them/actions/workflows/ci.yml/badge.svg)](https://github.com/moamen1358/Search_news_and_scrape_them/actions/workflows/ci.yml)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Production-ready web scraper with advanced anti-detection features. Extract clean article content from any website while bypassing bot detection systems.
 
-## Features
+## ✨ Features
 
-- **50+ User Agents**: Rotating browser fingerprints (Chrome, Firefox, Safari, Edge)
-- **30+ Locations**: Geographic profiles with matching timezones and locales
-- **Anti-Detection Suite**: Canvas noise, WebGL spoofing, WebRTC protection
-- **CAPTCHA Solving**: Support for 2captcha and Capsolver services
-- **Proxy Rotation**: Smart proxy management with health tracking
-- **Human Behavior**: Realistic mouse movements and scrolling
-- **Session Persistence**: Cookie management for returning visitor simulation
-- **Dual Interface**: CLI + REST API
+| Feature | Description |
+|---------|-------------|
+| 🎭 **55+ User Agents** | Rotating browser fingerprints (Chrome, Firefox, Safari, Edge, Opera) |
+| 🌍 **30+ Locations** | Geographic profiles with matching timezones and locales |
+| 🛡️ **Anti-Detection** | Canvas noise, WebGL spoofing, WebRTC protection |
+| 🤖 **Human Behavior** | Bezier curve mouse movements, variable scrolling (1-3 actions) |
+| 🔐 **CAPTCHA Solving** | Support for 2captcha and Capsolver services |
+| 🔄 **Proxy Rotation** | Smart proxy management with health tracking |
+| 💾 **Session Persistence** | Cookie management for returning visitor simulation |
+| 📡 **Dual Interface** | CLI + REST API |
+| 🔑 **API Authentication** | Optional API key protection |
+| 📊 **Structured Logging** | JSON format option for production |
 
-## Quick Start
+## 🚀 Quick Start
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/website_scraper.git
-cd website_scraper
+git clone https://github.com/moamen1358/Search_news_and_scrape_them.git
+cd Search_news_and_scrape_them
+
+# Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# or: conda activate scraper_env
 
 # Install dependencies
 pip install -r requirements.txt
@@ -29,19 +42,22 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
-### Configuration
+### Docker
 
 ```bash
-# Copy environment example
-cp .env.example .env
+# Build and run
+docker compose up -d
 
-# Copy config example
-cp config/config.json.example config/config.json
+# View logs
+docker compose logs -f
 
-# Edit settings as needed
+# Stop
+docker compose down
 ```
 
-### CLI Usage
+## 📖 Usage
+
+### CLI Commands
 
 ```bash
 # Scrape an article
@@ -59,172 +75,177 @@ python main.py serve --port 8000
 # Show statistics
 python main.py stats
 
-# Show help
-python main.py --help
+# Show version
+python main.py version
 ```
 
-### API Usage
+### REST API
 
 ```bash
 # Start the server
 python main.py serve
 
-# Scrape an article
+# Health check (no auth required)
+curl http://localhost:8000/health
+
+# Scrape an article (with API key if configured)
 curl -X POST http://localhost:8000/scrape \
   -H "Content-Type: application/json" \
-  -d '{"url": "https://example.com/article"}'
+  -H "X-API-Key: your-api-key" \
+  -d '{"url": "https://example.com/article", "company_name": "Example Corp"}'
 
-# Check health
-curl http://localhost:8000/health
+# Search for text source
+curl -X POST http://localhost:8000/search \
+  -H "Content-Type: application/json" \
+  -H "X-API-Key: your-api-key" \
+  -d '{"text": "sample text to find source", "num_results": 3}'
 
 # Get statistics
 curl http://localhost:8000/stats
 ```
 
-### Test Script
+### API Response Example
 
-```bash
-# Quick test
-python test_scrape.py https://example.com/article
-
-# With visible browser and verbose output
-python test_scrape.py https://example.com --no-headless -v
+```json
+[
+  {
+    "company_name": "Example Corp",
+    "title": "Article Title",
+    "date": "2026-01-15",
+    "source": "https://example.com/article",
+    "text": "Full article content...",
+    "scrape_duration": 5.23,
+    "user_agent_used": "Mozilla/5.0...",
+    "location_used": "New York, USA",
+    "final_url": "https://example.com/article"
+  }
+]
 ```
 
-## Configuration
+## ⚙️ Configuration
 
 ### Environment Variables
 
-| Setting | Default | Description |
-|---------|---------|-------------|
+| Variable | Default | Description |
+|----------|---------|-------------|
 | `SCRAPER_HEADLESS` | `true` | Run browser in headless mode |
-| `SCRAPER_CAPTCHA_ENABLED` | `false` | Enable CAPTCHA solving |
+| `SCRAPER_API_KEY` | `None` | API key for authentication (optional) |
 | `SCRAPER_PROXY_ENABLED` | `false` | Enable proxy rotation |
-| `SCRAPER_MAX_REQUESTS_PER_HOUR` | `60` | Rate limit per domain |
-| `TWOCAPTCHA_API_KEY` | - | 2Captcha API key |
-| `CAPSOLVER_API_KEY` | - | Capsolver API key |
+| `SCRAPER_CAPTCHA_ENABLED` | `false` | Enable CAPTCHA solving |
+| `LOG_LEVEL` | `INFO` | Logging level (DEBUG, INFO, WARNING, ERROR) |
+| `LOG_FORMAT` | `console` | Log format (`console` or `json`) |
 
-### Config File (`config/config.json`)
+### Config File
+
+Edit `config/config.json` for advanced settings:
 
 ```json
 {
-    "proxies": {
-        "enabled": false,
-        "proxy_file": "proxies.txt"
-    },
-    "browser": {
-        "headless": true,
-        "slow_mo": 200,
-        "timeout": 60000
-    },
-    "rate_limiting": {
-        "max_requests_per_domain_per_hour": 30
-    },
-    "anti_detection": {
-        "simulate_human_behavior": true,
-        "inject_fingerprint_noise": true
-    }
+  "browser": {
+    "headless": true,
+    "slow_mo": 50,
+    "timeout": 30000
+  },
+  "rate_limiting": {
+    "min_delay_between_requests": 5,
+    "max_delay_between_requests": 15
+  },
+  "proxies": {
+    "enabled": false,
+    "proxy_file": "config/proxies.txt"
+  }
 }
 ```
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 website_scraper/
 ├── app/
-│   ├── core/                   # Core scraping logic
-│   │   ├── scraper.py          # Main WebScraper class
-│   │   ├── captcha_solver.py   # CAPTCHA detection and solving
-│   │   ├── browser_manager.py  # Browser setup and anti-detection
-│   │   └── content_extractor.py # Article extraction
-│   ├── api/                    # REST API
-│   │   └── scraper_api.py      # FastAPI endpoints
-│   ├── cli/                    # Command-line interface
-│   │   └── commands.py         # Typer CLI commands
-│   ├── config/                 # Configuration
-│   │   ├── settings.py         # Pydantic settings
-│   │   └── constants.py        # Anti-detection scripts
-│   ├── logging/                # Logging system
-│   │   └── logger.py           # Unified logging
-│   ├── services/               # Advanced features
-│   │   ├── user_agents.py      # User agent profiles
-│   │   ├── news_search.py      # News search functionality
-│   │   └── advanced_anti_detection.py
-│   └── utils/                  # Utilities
-│       ├── cloudflare.py       # Cloudflare bypass
-│       ├── human_behavior.py   # Human simulation
-│       ├── proxy_manager.py    # Proxy management
-│       └── helpers.py          # Helper functions
-├── config/
-│   ├── config.json.example     # Example configuration
-│   └── proxies.txt             # Proxy list (one per line)
-├── data/                       # Runtime data (gitignored)
-│   ├── logs/                   # Log files
-│   ├── screenshots/            # Failure screenshots
-│   └── sessions/               # Browser sessions
-├── main.py                     # Entry point
-├── test_scrape.py              # Test script
+│   ├── api/              # FastAPI endpoints
+│   ├── cli/              # Typer CLI commands  
+│   ├── config/           # Settings, constants
+│   ├── core/             # Main scraper logic
+│   │   ├── scraper.py    # WebScraper class
+│   │   ├── browser_manager.py
+│   │   ├── content_extractor.py
+│   │   ├── captcha_solver.py
+│   │   └── exceptions.py # Custom exceptions
+│   ├── logging/          # Custom logger
+│   ├── services/         # Anti-detection, user agents
+│   └── utils/            # Helpers, human behavior
+├── config/               # JSON config, proxies
+├── data/                 # Runtime data
+│   ├── logs/scrapes/     # Scrape logs
+│   ├── screenshots/      # Failure screenshots
+│   └── sessions/         # Browser sessions
+├── tests/                # Unit tests
+├── main.py               # CLI entry point
 ├── requirements.txt
 ├── Dockerfile
 └── docker-compose.yml
 ```
 
-## Docker
+## 🧪 Testing
 
 ```bash
-# Build and run with docker-compose
-docker-compose up --build
+# Run all tests
+pytest tests/ -v
 
-# Or manually
-docker build -t web-scraper .
-docker run -p 8000:8000 -v $(pwd)/config:/app/config web-scraper
+# Run with coverage
+pytest tests/ -v --cov=app --cov-report=html
+
+# Run specific test file
+pytest tests/test_api.py -v
 ```
 
-## API Endpoints
+## 🔒 Security
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/health` | GET | Health check with feature list |
-| `/stats` | GET | Scraping statistics |
-| `/scrape` | POST | Scrape an article |
+- **API Key Authentication**: Set `SCRAPER_API_KEY` environment variable to enable
+- **CORS**: Configured for cross-origin requests (customize in production)
+- **Rate Limiting**: Built-in delays between requests
+- **No data persistence**: Article content is not stored by default
 
-### Request Examples
-
-**Scrape Article:**
-```bash
-curl -X POST http://localhost:8000/scrape \
-  -H "Content-Type: application/json" \
-  -d '{"url": "https://example.com/article", "headless": true}'
-```
-
-**Response:**
-```json
-{
-  "title": "Article Title",
-  "date": "2024-01-15",
-  "source": "example.com",
-  "text": "Full article content..."
-}
-```
-
-## Anti-Detection Features
+## 📊 Anti-Detection Features
 
 | Feature | Description |
 |---------|-------------|
-| Canvas Fingerprint Noise | Randomizes canvas fingerprint |
-| WebGL Spoofing | Spoofs GPU vendor/renderer |
+| Canvas Fingerprinting | Adds noise to canvas operations |
+| WebGL Spoofing | Randomizes renderer/vendor info |
 | WebRTC Protection | Prevents IP leaks |
-| Navigator Patches | Hardware/memory spoofing |
-| Stealth Mode | Hides automation indicators |
-| Human Behavior | Realistic mouse and scroll |
+| Navigator Patches | Hides webdriver property |
+| Hardware Randomization | Random CPU cores, memory |
+| Mouse Simulation | Bezier curves, tremor, variable speed |
+| Scroll Simulation | Read/skim/back scroll patterns |
+| Behavior Types | READER, SKIMMER, SEARCHER modes |
 
-## Debugging
+## 📝 Logging
 
-When scraping fails, check:
+Logs are saved to `data/logs/scrapes/` with format:
+```
+2026-01-15_143535_example.com.log
+```
 
-1. **Screenshots**: `data/screenshots/YYYY-MM-DD/` contains failure screenshots
-2. **Logs**: `data/logs/` for detailed logs
+Enable JSON logging for production:
+```bash
+LOG_FORMAT=json python main.py serve
+```
 
-## License
+## 🤝 Contributing
 
-MIT License
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes (`git commit -m 'Add amazing feature'`)
+4. Push to branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- [Playwright](https://playwright.dev/) - Browser automation
+- [Trafilatura](https://github.com/adbar/trafilatura) - Article extraction
+- [FastAPI](https://fastapi.tiangolo.com/) - API framework
+- [Typer](https://typer.tiangolo.com/) - CLI framework

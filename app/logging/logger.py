@@ -58,6 +58,32 @@ class ConsoleFormatter(logging.Formatter):
         return f"{timestamp} {color}[{record.levelname:8}]{self.RESET} [{cid}] {record.getMessage()}"
 
 
+class JSONFormatter(logging.Formatter):
+    """Structured JSON formatter for production logging."""
+    
+    def format(self, record: logging.LogRecord) -> str:
+        log_entry = {
+            "timestamp": get_egypt_time().isoformat(),
+            "level": record.levelname,
+            "correlation_id": get_correlation_id(),
+            "logger": record.name,
+            "message": record.getMessage(),
+            "module": record.module,
+            "function": record.funcName,
+            "line": record.lineno,
+        }
+        
+        # Add exception info if present
+        if record.exc_info:
+            log_entry["exception"] = self.formatException(record.exc_info)
+        
+        # Add extra fields
+        if hasattr(record, 'extra_data'):
+            log_entry["data"] = record.extra_data
+        
+        return json.dumps(log_entry, ensure_ascii=False)
+
+
 class DetailedScrapeLog:
     """
     Creates detailed scrape logs with beautiful formatting.
@@ -666,8 +692,16 @@ class ScrapeLogger:
 def setup_logging(
     level: str = "INFO",
     log_dir: str = "data/logs",
+    json_format: bool = False,
 ) -> logging.Logger:
-    """Setup the logging configuration for the application."""
+    """
+    Setup the logging configuration for the application.
+    
+    Args:
+        level: Log level (DEBUG, INFO, WARNING, ERROR)
+        log_dir: Directory for log files
+        json_format: If True, use structured JSON logging (for production)
+    """
     log_path = Path(log_dir)
     log_path.mkdir(parents=True, exist_ok=True)
 
@@ -678,9 +712,17 @@ def setup_logging(
     # Clear existing handlers
     root_logger.handlers.clear()
 
-    # Console handler with pretty formatting
+    # Console handler with appropriate formatter
     console_handler = logging.StreamHandler(sys.stdout)
-    console_handler.setFormatter(ConsoleFormatter())
+    
+    # Check environment variable for JSON format
+    use_json = json_format or os.getenv("LOG_FORMAT", "").lower() == "json"
+    
+    if use_json:
+        console_handler.setFormatter(JSONFormatter())
+    else:
+        console_handler.setFormatter(ConsoleFormatter())
+    
     root_logger.addHandler(console_handler)
 
     # Suppress noisy third-party loggers

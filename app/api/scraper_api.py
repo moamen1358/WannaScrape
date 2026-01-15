@@ -12,7 +12,8 @@ from typing import Optional, List
 from contextlib import asynccontextmanager
 
 import uvicorn
-from fastapi import FastAPI, HTTPException, Request, Depends
+from fastapi import FastAPI, HTTPException, Request, Depends, Security, Response
+from fastapi.security import APIKeyHeader
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, HttpUrl
 
@@ -22,12 +23,42 @@ from app.core import WebScraper
 # Import logging
 from app.logging import setup_logging, get_scrape_logger, get_correlation_id, set_correlation_id
 
+# Import metrics
+from app.monitoring import (
+    get_metrics,
+    get_metrics_content_type,
+    record_scrape,
+    record_search,
+    REQUESTS_TOTAL,
+    REQUEST_DURATION,
+)
+
 # Ensure directories exist
 os.makedirs("data/logs", exist_ok=True)
 os.makedirs("data/screenshots", exist_ok=True)
 
 # Setup logging
 logger = setup_logging(level=os.getenv("LOG_LEVEL", "INFO"))
+
+# API Key configuration
+API_KEY = os.getenv("SCRAPER_API_KEY", None)
+API_KEY_HEADER = APIKeyHeader(name="X-API-Key", auto_error=False)
+
+
+async def verify_api_key(api_key: str = Security(API_KEY_HEADER)) -> Optional[str]:
+    """Verify API key if authentication is enabled."""
+    # If no API key is configured, allow all requests
+    if API_KEY is None:
+        return None
+    
+    # If API key is configured, validate it
+    if api_key is None:
+        raise HTTPException(status_code=401, detail="Missing API key")
+    
+    if api_key != API_KEY:
+        raise HTTPException(status_code=403, detail="Invalid API key")
+    
+    return api_key
 
 # Singleton scraper instance
 _scraper_instance: Optional[WebScraper] = None
@@ -136,6 +167,15 @@ def health_check():
     }
 
 
+@app.get("/metrics")
+def metrics():
+    """Prometheus metrics endpoint."""
+    return Response(
+        content=get_metrics(),
+        media_type=get_metrics_content_type()
+    )
+
+
 @app.get("/stats")
 def get_stats(scraper: WebScraper = Depends(get_scraper)):
     """Get scraping statistics."""
@@ -149,7 +189,8 @@ def get_stats(scraper: WebScraper = Depends(get_scraper)):
 @app.post("/scrape", response_model=List[ArticleResponse])
 def scrape_article(
     req: ScrapeRequest,
-    scraper: WebScraper = Depends(get_scraper)
+    scraper: WebScraper = Depends(get_scraper),
+    api_key: str = Depends(verify_api_key)
 ):
     """
     Scrape an article from a URL.
@@ -177,6 +218,15 @@ def scrape_article(
         duration_s = time.time() - start_time
 
         if "error" in article_raw:
+            # Record failed scrape metrics
+            record_scrape(
+                status="error",
+                error_type=article_raw.get("error_type", "unknown"),
+                duration=duration_s
+            )
+            REQUESTS_TOTAL.labels(endpoint="/scrape", status="error").inc()
+            REQUEST_DURATION.labels(endpoint="/scrape").observe(duration_s)
+            
             return [ArticleResponse(
                 company_name=req.company_name,
                 error=article_raw["error"],
@@ -186,6 +236,17 @@ def scrape_article(
                 location_used=article_raw.get("location_used", "unknown"),
                 final_url=article_raw.get("final_url", url),
             )]
+
+        # Record successful scrape metrics
+        content_size = len(article_raw.get("text", ""))
+        record_scrape(
+            status="success",
+            error_type="none",
+            duration=duration_s,
+            content_size=content_size
+        )
+        REQUESTS_TOTAL.labels(endpoint="/scrape", status="success").inc()
+        REQUEST_DURATION.labels(endpoint="/scrape").observe(duration_s)
 
         return [ArticleResponse(
             company_name=req.company_name,
@@ -202,22 +263,35 @@ def scrape_article(
     except Exception as e:
         duration_s = time.time() - start_time
         logger.error(f"Scrape error: {e}")
+        record_scrape(status="error", error_type="exception", duration=duration_s)
+        REQUESTS_TOTAL.labels(endpoint="/scrape", status="error").inc()
+        REQUEST_DURATION.labels(endpoint="/scrape").observe(duration_s)
         return [ArticleResponse(company_name=req.company_name, error=str(e), scrape_duration=duration_s)]
 
 
 @app.post("/search", response_model=List[SearchResult])
 def search_source(
     req: SearchRequest,
-    scraper: WebScraper = Depends(get_scraper)
+    scraper: WebScraper = Depends(get_scraper),
+    api_key: str = Depends(verify_api_key)
 ):
     """
     Search for the original source of a text snippet.
     """
+    start_time = time.time()
     try:
         results = scraper.find_source_from_text(req.text, num_results=req.num_results)
+        duration_s = time.time() - start_time
+        record_search(status="success")
+        REQUESTS_TOTAL.labels(endpoint="/search", status="success").inc()
+        REQUEST_DURATION.labels(endpoint="/search").observe(duration_s)
         return [SearchResult(**r) for r in results]
     except Exception as e:
+        duration_s = time.time() - start_time
         logger.error(f"Search error: {e}")
+        record_search(status="error")
+        REQUESTS_TOTAL.labels(endpoint="/search", status="error").inc()
+        REQUEST_DURATION.labels(endpoint="/search").observe(duration_s)
         return [SearchResult(error=str(e))]
 
 
