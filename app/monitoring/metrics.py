@@ -111,7 +111,7 @@ def track_request(endpoint: str) -> Callable:
             try:
                 result = await func(*args, **kwargs)
                 return result
-            except Exception as e:
+            except Exception:
                 status = "error"
                 raise
             finally:
@@ -119,7 +119,7 @@ def track_request(endpoint: str) -> Callable:
                 REQUESTS_IN_PROGRESS.labels(endpoint=endpoint).dec()
                 REQUESTS_TOTAL.labels(endpoint=endpoint, status=status).inc()
                 REQUEST_DURATION.labels(endpoint=endpoint).observe(duration)
-        
+
         @wraps(func)
         def sync_wrapper(*args, **kwargs) -> Any:
             REQUESTS_IN_PROGRESS.labels(endpoint=endpoint).inc()
@@ -128,7 +128,7 @@ def track_request(endpoint: str) -> Callable:
             try:
                 result = func(*args, **kwargs)
                 return result
-            except Exception as e:
+            except Exception:
                 status = "error"
                 raise
             finally:
@@ -136,7 +136,7 @@ def track_request(endpoint: str) -> Callable:
                 REQUESTS_IN_PROGRESS.labels(endpoint=endpoint).dec()
                 REQUESTS_TOTAL.labels(endpoint=endpoint, status=status).inc()
                 REQUEST_DURATION.labels(endpoint=endpoint).observe(duration)
-        
+
         # Return appropriate wrapper based on function type
         import asyncio
         if asyncio.iscoroutinefunction(func):

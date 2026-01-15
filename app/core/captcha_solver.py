@@ -121,7 +121,7 @@ class CaptchaSolver:
                     return match.group(1)
 
             return None
-        except:
+        except Exception:
             return None
 
     def _extract_hcaptcha_sitekey(self, page: Page) -> Optional[str]:
@@ -133,7 +133,7 @@ class CaptchaSolver:
                     return el ? el.getAttribute('data-sitekey') : null;
                 }
             """)
-        except:
+        except Exception:
             return None
 
     def _extract_turnstile_sitekey(self, page: Page) -> Optional[str]:
@@ -145,7 +145,7 @@ class CaptchaSolver:
                     return el ? (el.getAttribute('data-sitekey') || el.getAttribute('data-turnstile-sitekey')) : null;
                 }
             """)
-        except:
+        except Exception:
             return None
 
     def solve(self, page: Page, url: str) -> bool:
@@ -586,7 +586,7 @@ class CaptchaSolver:
                 if not page.locator(selector).first.is_visible(timeout=500):
                     logger.info("PerimeterX passed! (element hidden)")
                     return True
-            except:
+            except Exception:
                 pass
 
             title = page.title().lower()

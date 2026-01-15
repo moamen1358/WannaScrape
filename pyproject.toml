@@ -35,15 +35,11 @@ target-version = "py310"
 select = ["E", "F", "W", "B"]
 ignore = [
     "E402",  # Module level import not at top of file (needed for warnings.filterwarnings)
-    "E501",  # Line too long (handled by formatter)
-    "E722",  # Bare except (sometimes needed for broad exception handling)
-    "F401",  # Unused imports (often needed for re-exports in __init__.py)
-    "F841",  # Unused variable (sometimes needed for unpacking)
-    "W291",  # Trailing whitespace (cosmetic)
-    "W293",  # Blank line contains whitespace (cosmetic)
-    "B007",  # Loop variable not used (intentional in some cases)
+    "E501",  # Line too long (cosmetic, not a bug)
+    "F401",  # Unused imports (needed for re-exports in __init__.py)
+    "W291",  # Trailing whitespace in docstrings/JS strings (cosmetic)
+    "W293",  # Blank line whitespace in docstrings/JS strings (cosmetic)
     "B008",  # Function call in default argument (required for FastAPI Depends)
-    "B904",  # raise without from (legacy code)
 ]
 
 [tool.pytest.ini_options]

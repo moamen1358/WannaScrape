@@ -355,12 +355,12 @@ def inject_advanced_anti_detection(context_or_page, is_context: bool = False):
     try:
         target = context_or_page
         target_type = "context" if is_context else "page"
-        
+
         target.add_init_script(ADVANCED_ANTI_DETECTION_SCRIPT)
-        
+
         logger.info(f"🛡️ Advanced anti-detection scripts injected at {target_type} level")
         logger.debug("   └─ Audio, Font, Speech, ClientRects, DateTime, Permissions, Performance, MediaDevices, Visibility")
-        
+
         return True
     except Exception as e:
         logger.warning(f"⚠️ Failed to inject advanced anti-detection scripts: {e}")
@@ -375,7 +375,7 @@ class DomainRateLimiter:
     """
     Track request frequency per domain to avoid detection.
     """
-    
+
     def __init__(self,
                  max_requests_per_domain_per_hour: int = 30,
                  min_delay_between_requests: float = 5.0,
@@ -383,18 +383,18 @@ class DomainRateLimiter:
         self.max_requests_per_hour = max_requests_per_domain_per_hour
         self.min_delay = min_delay_between_requests
         self.max_delay = max_delay_between_requests
-        
+
         # {domain: [timestamp1, timestamp2, ...]}
         self.domain_requests: dict = {}
-        
+
         # {domain: last_request_timestamp}
         self.last_request: dict = {}
-    
+
     def _extract_domain(self, url: str) -> str:
         """Extract domain from URL."""
         from urllib.parse import urlparse
         return urlparse(url).netloc.lower()
-    
+
     def _clean_old_requests(self, domain: str):
         """Remove requests older than 1 hour."""
         import time
@@ -403,7 +403,7 @@ class DomainRateLimiter:
             self.domain_requests[domain] = [
                 ts for ts in self.domain_requests[domain] if ts > cutoff
             ]
-    
+
     def can_request(self, url: str) -> tuple:
         """
         Check if we can make a request to this domain.
@@ -412,63 +412,63 @@ class DomainRateLimiter:
             (can_request: bool, wait_time: float, reason: str)
         """
         import time
-        
+
         domain = self._extract_domain(url)
         self._clean_old_requests(domain)
-        
+
         now = time.time()
-        
+
         # Check hourly limit
         requests_in_hour = len(self.domain_requests.get(domain, []))
         if requests_in_hour >= self.max_requests_per_hour:
             oldest = min(self.domain_requests[domain]) if self.domain_requests.get(domain) else now
             wait_time = 3600 - (now - oldest) + random.uniform(60, 300)
             return False, wait_time, f"Rate limit: {requests_in_hour}/{self.max_requests_per_hour} requests to {domain} in last hour"
-        
+
         # Check minimum interval
         last = self.last_request.get(domain, 0)
         elapsed = now - last
         if elapsed < self.min_delay:
             wait_time = self.min_delay - elapsed + random.uniform(0, 3)
             return False, wait_time, f"Too soon since last request to {domain}"
-        
+
         return True, 0, "OK"
-    
+
     def record_request(self, url: str):
         """Record that a request was made."""
         import time
-        
+
         domain = self._extract_domain(url)
         now = time.time()
-        
+
         if domain not in self.domain_requests:
             self.domain_requests[domain] = []
-        
+
         self.domain_requests[domain].append(now)
         self.last_request[domain] = now
-        
+
         logger.debug(f"Recorded request to {domain}. Total in last hour: {len(self.domain_requests[domain])}")
-    
+
     def get_recommended_delay(self, url: str) -> float:
         """Get recommended delay before making request."""
         import time
-        
+
         domain = self._extract_domain(url)
         self._clean_old_requests(domain)
-        
+
         requests_in_hour = len(self.domain_requests.get(domain, []))
-        
+
         # Scale delay based on request frequency
         # More requests = longer delays
         base_delay = random.uniform(self.min_delay, self.max_delay)
-        
+
         if requests_in_hour > 10:
             # Add extra delay if we've made many requests
             extra_delay = (requests_in_hour - 10) * 2
             base_delay += min(extra_delay, 60)  # Cap at 60s extra
-        
+
         return base_delay
-    
+
     def get_stats(self, url: str = None) -> dict:
         """Get rate limiting statistics."""
         if url:
@@ -480,7 +480,7 @@ class DomainRateLimiter:
                 "max_per_hour": self.max_requests_per_hour,
                 "last_request": self.last_request.get(domain)
             }
-        
+
         return {
             "domains_tracked": len(self.domain_requests),
             "total_requests_last_hour": sum(len(v) for v in self.domain_requests.values()),
@@ -497,80 +497,80 @@ class SessionManager:
     Manage browser sessions with cookie persistence.
     Makes the scraper look like a returning visitor.
     """
-    
+
     def __init__(self, sessions_dir: str = "sessions"):
         import os
         self.sessions_dir = sessions_dir
         os.makedirs(sessions_dir, exist_ok=True)
-        
+
         # Track session usage
         self.session_usage: dict = {}  # {domain: {"path": path, "last_used": timestamp, "success_count": int}}
-    
+
     def _get_session_path(self, domain: str) -> str:
         """Get session file path for a domain."""
         import os
         safe_domain = domain.replace(".", "_").replace(":", "_")
         return os.path.join(self.sessions_dir, f"{safe_domain}.json")
-    
+
     def get_session(self, url: str) -> str | None:
         """Get session storage path for URL's domain if it exists."""
         from urllib.parse import urlparse
         import os
-        
+
         domain = urlparse(url).netloc
         path = self._get_session_path(domain)
-        
+
         if os.path.exists(path):
             logger.info(f"🍪 Using saved session for {domain}")
             return path
-        
+
         return None
-    
+
     def save_session(self, context, url: str):
         """Save browser context state (cookies, localStorage) for domain."""
         from urllib.parse import urlparse
         import time
-        
+
         try:
             domain = urlparse(url).netloc
             path = self._get_session_path(domain)
-            
+
             context.storage_state(path=path)
-            
+
             self.session_usage[domain] = {
                 "path": path,
                 "last_used": time.time(),
                 "success_count": self.session_usage.get(domain, {}).get("success_count", 0) + 1
             }
-            
+
             logger.info(f"🍪 Saved session for {domain}")
             return path
         except Exception as e:
             logger.warning(f"Failed to save session: {e}")
             return None
-    
+
     def should_use_session(self, url: str) -> bool:
         """Decide if we should use saved session (randomize to look natural)."""
         from urllib.parse import urlparse
         import os
-        
+
         domain = urlparse(url).netloc
         path = self._get_session_path(domain)
-        
+
         if not os.path.exists(path):
             return False
-        
+
         # 80% chance to use saved session (some variance)
         return random.random() < 0.8
-    
+
     def clear_session(self, url: str):
         """Clear saved session for domain."""
         from urllib.parse import urlparse
         import os
-        
+
         domain = urlparse(url).netloc
         path = self._get_session_path(domain)
-        
+
         if os.path.exists(path):
             os.remove(path)
             logger.info(f"🗑️ Cleared session for {domain}")
@@ -587,11 +587,11 @@ def type_like_human(page, selector: str, text: str,
     Includes occasional typos and corrections for realism.
     """
     import time
-    
+
     element = page.locator(selector)
     element.focus()
-    
-    for i, char in enumerate(text):
+
+    for _i, char in enumerate(text):
         # Occasional typo (3% chance)
         if random.random() < 0.03 and char.isalpha():
             # Type wrong character
@@ -601,21 +601,21 @@ def type_like_human(page, selector: str, text: str,
             # Backspace and correct
             page.keyboard.press("Backspace")
             time.sleep(random.uniform(0.05, 0.15))
-        
+
         # Type the character
         page.keyboard.type(char)
-        
+
         # Variable delay
         delay = random.randint(min_delay, max_delay)
-        
+
         # Longer pause after punctuation
         if char in ".,!?;:":
             delay *= 2
-        
+
         # Occasional longer pause (thinking)
         if random.random() < 0.05:
             delay *= 3
-        
+
         time.sleep(delay / 1000)
 
 
@@ -628,36 +628,36 @@ def move_mouse_naturally(page, target_x: int, target_y: int, duration: float = 0
     Move mouse using bezier curves for natural-looking movement.
     """
     import time
-    
+
     try:
         # Get current position (approximate)
         viewport = page.viewport_size
         if not viewport:
             return
-        
+
         # Start from random edge position
         start_x = random.randint(0, viewport['width'])
         start_y = random.randint(0, viewport['height'])
-        
+
         # Generate bezier control points
         ctrl1_x = start_x + (target_x - start_x) * 0.3 + random.randint(-50, 50)
         ctrl1_y = start_y + (target_y - start_y) * 0.3 + random.randint(-50, 50)
         ctrl2_x = start_x + (target_x - start_x) * 0.7 + random.randint(-50, 50)
         ctrl2_y = start_y + (target_y - start_y) * 0.7 + random.randint(-50, 50)
-        
+
         # Number of steps
         steps = int(duration * 60)  # 60 fps
-        
+
         for i in range(steps + 1):
             t = i / steps
-            
+
             # Bezier curve calculation
             u = 1 - t
             x = u**3 * start_x + 3 * u**2 * t * ctrl1_x + 3 * u * t**2 * ctrl2_x + t**3 * target_x
             y = u**3 * start_y + 3 * u**2 * t * ctrl1_y + 3 * u * t**2 * ctrl2_y + t**3 * target_y
-            
+
             page.mouse.move(x, y)
             time.sleep(duration / steps)
-            
+
     except Exception as e:
         logger.debug(f"Natural mouse movement skipped: {e}")

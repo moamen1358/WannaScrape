@@ -256,7 +256,7 @@ class WebScraper:
                         args=self.browser_manager.get_launch_args()
                     )
                     browser_launch_time = time.time() - browser_start
-                    
+
                     # Log browser launch
                     self.scrape_logger.log_browser_launch(session_id, headless, slow_mo, browser_launch_time)
 
@@ -275,14 +275,14 @@ class WebScraper:
                     viewport = profile_info.get("viewport", {})
                     location = profile_info.get("location", {})
                     browser_profile = profile_info.get("browser_profile")
-                    
+
                     self.scrape_logger.log_browser_profile(
                         session_id,
                         viewport,
                         location.get("locale", "en-US"),
                         location.get("timezone", "UTC")
                     )
-                    
+
                     # Log session start with fingerprint
                     fingerprint = {
                         "browser": f"{browser_profile.browser.upper()} v{browser_profile.version}" if browser_profile else "N/A",
@@ -293,17 +293,17 @@ class WebScraper:
                         "referrer": profile_info.get("referrer", "https://www.google.com/")
                     }
                     self.scrape_logger.log_session_start(session_id, attempt + 1, max_retries, fingerprint)
-                    
+
                     # Log anti-detection
                     self.scrape_logger.log_anti_detection(session_id, "context")
 
                     # Setup page
                     page = self.browser_manager.setup_page(context)
-                    
+
                     # Log stealth mode and page-level anti-detection
                     self.scrape_logger.log_stealth_mode(session_id)
                     self.scrape_logger.log_anti_detection(session_id, "page")
-                    
+
                     timeout_checker.check("browser_setup")
 
                     # Navigate with strategies
@@ -319,7 +319,7 @@ class WebScraper:
                                 strategy["wait"],
                                 strategy["timeout"] / 1000
                             )
-                            
+
                             nav_start = time.time()
                             page.goto(url, wait_until=strategy["wait"], timeout=strategy["timeout"])
                             final_url = page.url
@@ -359,7 +359,7 @@ class WebScraper:
                             human_start = time.time()
                             behavior_stats = simulate_human_behavior(page, config=self.config)
                             human_duration = time.time() - human_start
-                            
+
                             # Log human behavior completion
                             self.scrape_logger.log_human_behavior(
                                 session_id,
@@ -470,7 +470,7 @@ class WebScraper:
                         screenshot_path = save_failure_screenshot(page, url, "timeout", f"Timed out at {timeout_err.elapsed_time:.1f}s")
                 except Exception:
                     pass
-                
+
                 self.scrape_logger.log_error(
                     session_id,
                     "timeout",
@@ -496,7 +496,7 @@ class WebScraper:
             except Exception as e:
                 last_error = str(e)
                 error_class = classify_error(last_error)
-                
+
                 # Try to capture screenshot on exception
                 screenshot_path = None
                 try:
@@ -507,7 +507,7 @@ class WebScraper:
                 except Exception:
                     page_title = None
                     html_size = None
-                
+
                 self.scrape_logger.log_error(
                     session_id,
                     error_class["type"],

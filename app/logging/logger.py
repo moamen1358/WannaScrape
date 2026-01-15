@@ -60,7 +60,7 @@ class ConsoleFormatter(logging.Formatter):
 
 class JSONFormatter(logging.Formatter):
     """Structured JSON formatter for production logging."""
-    
+
     def format(self, record: logging.LogRecord) -> str:
         log_entry = {
             "timestamp": get_egypt_time().isoformat(),
@@ -72,15 +72,15 @@ class JSONFormatter(logging.Formatter):
             "function": record.funcName,
             "line": record.lineno,
         }
-        
+
         # Add exception info if present
         if record.exc_info:
             log_entry["exception"] = self.formatException(record.exc_info)
-        
+
         # Add extra fields
         if hasattr(record, 'extra_data'):
             log_entry["data"] = record.extra_data
-        
+
         return json.dumps(log_entry, ensure_ascii=False)
 
 
@@ -94,7 +94,7 @@ class DetailedScrapeLog:
         self.url = url
         self.log_dir = Path(log_dir)
         self.log_dir.mkdir(parents=True, exist_ok=True)
-        
+
         # Create log file with Egypt timezone
         domain = urlparse(url).netloc.replace('www.', '')
         egypt_now = get_egypt_time()
@@ -103,7 +103,7 @@ class DetailedScrapeLog:
         self.lines = []
         self.start_time = egypt_now
         self.session_id = None
-        
+
         # Timing tracking
         self.timings = {
             'browser_launch': 0,
@@ -172,7 +172,7 @@ class DetailedScrapeLog:
         self.info(f"║  ⏰ STARTED: {get_egypt_time().isoformat()} (Egypt Time)")
         self.info("╠" + "═" * 74 + "╣")
         self.info("")
-        
+
         # Browser fingerprint
         self.info("    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐")
         self.info(f"    │ Browser:     {fingerprint.get('browser', 'N/A')}")
@@ -181,7 +181,7 @@ class DetailedScrapeLog:
         vp = fingerprint.get('viewport', {})
         self.info(f"    │ Viewport:    {vp.get('width', 0)}x{vp.get('height', 0)}")
         self.info("    │ Sec-CH-UA:   (not applicable)...")
-        
+
         # Location profile
         loc = fingerprint.get('location', {})
         self.info("    ├─ LOCATION PROFILE ───────────────────────────────────────────┤")
@@ -189,7 +189,7 @@ class DetailedScrapeLog:
         self.info(f"    │ Timezone:    {loc.get('timezone', 'N/A')}")
         self.info(f"    │ Locale:      {loc.get('locale', 'N/A')}")
         self.info(f"    │ Geo:         {loc.get('latitude', 0)}, {loc.get('longitude', 0)}")
-        
+
         # Network
         proxy = fingerprint.get('proxy', 'Direct (no proxy)')
         self.info("    ├─ NETWORK ────────────────────────────────────────────────────┤")
@@ -257,7 +257,7 @@ class DetailedScrapeLog:
         self.timings['human_behavior'] = duration
         vp_height = viewport.get('height', 1440) if viewport else 1440
         vp_width = viewport.get('width', 2560) if viewport else 2560
-        
+
         self.info(f"🖱️ Mouse: {mouse_moves} moves in {vp_width}x{vp_height}")
         self.info(f"🖱️ Mouse completed: {mouse_moves} moves")
         self.info(f"📜 Scroll: page height, viewport={vp_height}px")
@@ -274,7 +274,7 @@ class DetailedScrapeLog:
         text_length = len(text) if text else 0
         word_count = len(text.split()) if text else 0
         has_article = "✅ Yes" if text_length > 100 else "❌ No"
-        
+
         self.info("")
         self.info("    ┌─ CONTENT METRICS ────────────────────────────────────────────┐")
         self.info(f"    │ Title:            {title[:50]}")
@@ -311,7 +311,7 @@ class DetailedScrapeLog:
         self.info("║  ⚠️  ERROR DETECTED")
         self.info("╠" + "═" * 74 + "╣")
         self.info("")
-        
+
         # Error details
         self.info("    ┌─ ERROR DETAILS ───────────────────────────────────────────────┐")
         self.info(f"    │ Error Type:       {error_type}")
@@ -328,7 +328,7 @@ class DetailedScrapeLog:
         if recommendation:
             self.info(f"    │ Recommendation:   {recommendation[:50]}")
         self.info("    └──────────────────────────────────────────────────────────────┘")
-        
+
         # Page state at error
         if page_url or page_title or html_size:
             self.info("")
@@ -341,18 +341,18 @@ class DetailedScrapeLog:
                 size_indicator = "⚠️  Suspiciously small" if html_size < 5000 else "✅ Normal"
                 self.info(f"    │ HTML Size:        {html_size:,} bytes ({size_indicator})")
             self.info("    └──────────────────────────────────────────────────────────────┘")
-        
+
         # Screenshot info
         if screenshot_path:
             self.info("")
             self.info("    ┌─ DEBUG SCREENSHOT ───────────────────────────────────────────┐")
             self.info(f"    │ 📸 Saved to: {screenshot_path}")
             self.info("    └──────────────────────────────────────────────────────────────┘")
-        
+
         self.info("")
         self.info("╚" + "═" * 74 + "╝")
         self.info("")
-        
+
         # Also log to error level for console visibility
         self.error(f"❌ {error_type}: {message}")
 
@@ -360,13 +360,13 @@ class DetailedScrapeLog:
         """Log successful scrape completion."""
         self.timings['extraction'] = extraction_time
         total_time = sum(self.timings.values())
-        
+
         self.info("")
         self.info("╔" + "═" * 74 + "╗")
         self.info(f"║  ✅ SCRAPE SUCCESSFUL - {self.session_id}")
         self.info("╠" + "═" * 74 + "╣")
         self.info("")
-        
+
         # Timing breakdown
         self.info("    ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐")
         self.info(f"    │ Browser Launch:      {self.timings['browser_launch']:.2f}s")
@@ -379,7 +379,7 @@ class DetailedScrapeLog:
         self.info(f"    │ TOTAL TIME:          {total_time:.2f}s")
         self.info("    └──────────────────────────────────────────────────────────────┘")
         self.info("")
-        
+
         # Content metrics
         title = content.get('title', 'N/A')[:50]
         final_url = content.get('final_url', self.url)
@@ -389,7 +389,7 @@ class DetailedScrapeLog:
         word_count = len(text.split()) if text else 0
         has_article = "✅ Yes" if text_length > 100 else "❌ No"
         method = content.get('extraction_method', 'trafilatura')
-        
+
         self.info("    ┌─ CONTENT METRICS ────────────────────────────────────────────┐")
         self.info(f"    │ Title:            {title}")
         self.info(f"    │ Final URL:        {final_url}")
@@ -399,7 +399,7 @@ class DetailedScrapeLog:
         self.info(f"    │ Extraction:       {method}")
         self.info(f"    │ Has Article:      {has_article}")
         self.info("    └──────────────────────────────────────────────────────────────┘")
-        
+
         self.info("╠" + "═" * 74 + "╣")
         self.info("║  📊 SESSION STATS")
         self.info("║  ├─ Strategies Tried:   domcontentloaded")
@@ -420,13 +420,13 @@ class DetailedScrapeLog:
     ):
         """Log failed scrape with comprehensive details."""
         total_time = sum(self.timings.values())
-        
+
         self.info("")
         self.info("╔" + "═" * 74 + "╗")
         self.info(f"║  ❌ SCRAPE FAILED - {self.session_id}")
         self.info("╠" + "═" * 74 + "╣")
         self.info("")
-        
+
         # Error summary
         self.info("    ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐")
         self.info(f"    │ URL:              {self.url[:55]}")
@@ -442,7 +442,7 @@ class DetailedScrapeLog:
         if len(msg_lines) > 5:
             self.info("    │   ... (truncated)")
         self.info("    └──────────────────────────────────────────────────────────────┘")
-        
+
         # Timing at failure
         self.info("")
         self.info("    ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐")
@@ -453,7 +453,7 @@ class DetailedScrapeLog:
         self.info("    │ ─────────────────────────────────────────────────────────────")
         self.info(f"    │ FAILED AT:          {total_time:.2f}s")
         self.info("    └──────────────────────────────────────────────────────────────┘")
-        
+
         # Recommendation
         if recommendation:
             self.info("")
@@ -462,14 +462,14 @@ class DetailedScrapeLog:
             for line in rec_lines[:3]:
                 self.info(f"    │ 💡 {line}")
             self.info("    └──────────────────────────────────────────────────────────────┘")
-        
+
         # Screenshot
         if screenshot_path:
             self.info("")
             self.info("    ┌─ DEBUG SCREENSHOT ───────────────────────────────────────────┐")
             self.info(f"    │ 📸 {screenshot_path}")
             self.info("    └──────────────────────────────────────────────────────────────┘")
-        
+
         self.info("")
         self.info("╚" + "═" * 74 + "╝")
         self.info("")
@@ -519,7 +519,7 @@ class ScrapeLogger:
         # Create detailed log
         detailed_log = DetailedScrapeLog(url, str(self.log_dir))
         detailed_log.header(session_id)
-        
+
         self.sessions[session_id] = detailed_log
         self.stats["total_scrapes"] += 1
 
@@ -664,7 +664,7 @@ class ScrapeLogger:
         # Save log file
         log_path = log.save()
         duration = (get_egypt_time() - log.start_time).total_seconds()
-        
+
         status = "success" if success else "failed"
         self.logger.info(f"Scrape {status}: {log.url} ({duration:.1f}s)")
         self.logger.info(f"📝 Scrape log saved: {log_path}")
@@ -714,15 +714,15 @@ def setup_logging(
 
     # Console handler with appropriate formatter
     console_handler = logging.StreamHandler(sys.stdout)
-    
+
     # Check environment variable for JSON format
     use_json = json_format or os.getenv("LOG_FORMAT", "").lower() == "json"
-    
+
     if use_json:
         console_handler.setFormatter(JSONFormatter())
     else:
         console_handler.setFormatter(ConsoleFormatter())
-    
+
     root_logger.addHandler(console_handler)
 
     # Suppress noisy third-party loggers

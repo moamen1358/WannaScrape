@@ -50,14 +50,14 @@ async def verify_api_key(api_key: str = Security(API_KEY_HEADER)) -> Optional[st
     # If no API key is configured, allow all requests
     if API_KEY is None:
         return None
-    
+
     # If API key is configured, validate it
     if api_key is None:
         raise HTTPException(status_code=401, detail="Missing API key")
-    
+
     if api_key != API_KEY:
         raise HTTPException(status_code=403, detail="Invalid API key")
-    
+
     return api_key
 
 # Singleton scraper instance
@@ -226,7 +226,7 @@ def scrape_article(
             )
             REQUESTS_TOTAL.labels(endpoint="/scrape", status="error").inc()
             REQUEST_DURATION.labels(endpoint="/scrape").observe(duration_s)
-            
+
             return [ArticleResponse(
                 company_name=req.company_name,
                 error=article_raw["error"],

@@ -86,7 +86,7 @@ def scrape(
 
     except Exception as e:
         console.print(f"[red]Fatal error: {e}[/red]")
-        raise typer.Exit(code=1)
+        raise typer.Exit(code=1) from None
 
 
 @app.command()
@@ -130,7 +130,7 @@ def search(
 
     except Exception as e:
         console.print(f"[red]Error: {e}[/red]")
-        raise typer.Exit(code=1)
+        raise typer.Exit(code=1) from None
 
 
 @app.command()

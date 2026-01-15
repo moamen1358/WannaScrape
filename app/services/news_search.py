@@ -101,20 +101,20 @@ def _get_proxies(config):
     """Load proxies from file defined in config"""
     if not config or not config.get("proxies", {}).get("enabled"):
         return []
-        
+
     proxy_filename = config["proxies"]["proxy_file"]
-    
+
     # Try to find it in config directory first
     config_dir = Path("config")
     proxy_file = config_dir / proxy_filename
-    
+
     if not proxy_file.exists():
         # Fallback to current directory
         proxy_file = Path(proxy_filename)
-        
+
     if not proxy_file.exists():
         return []
-    
+
     proxies = []
     try:
         with open(proxy_file) as f:
@@ -293,8 +293,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Search Google News via RSS (Free & Powerful)")
     parser.add_argument("--query", required=True, help="Complex query string")
     parser.add_argument("--limit", type=int, default=10, help="Number of results")
-    
+
     args = parser.parse_args()
-    
+
     results = search_google_news_rss(args.query, args.limit)
     print(json.dumps(results, indent=4))

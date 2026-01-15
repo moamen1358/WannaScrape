@@ -9,10 +9,10 @@ from typing import Optional, Dict, Any
 
 class ScraperError(Exception):
     """Base exception for all scraper errors."""
-    
+
     error_type: str = "scraper_error"
     likely_ban: bool = False
-    
+
     def __init__(
         self,
         message: str,
@@ -27,7 +27,7 @@ class ScraperError(Exception):
         if likely_ban is not None:
             self.likely_ban = likely_ban
         self.details = details or {}
-    
+
     def to_dict(self) -> Dict[str, Any]:
         """Convert exception to dictionary for API response."""
         return {
@@ -40,10 +40,10 @@ class ScraperError(Exception):
 
 class TimeoutError(ScraperError):
     """Raised when scrape operation exceeds timeout."""
-    
+
     error_type = "timeout"
     likely_ban = False
-    
+
     def __init__(
         self,
         message: str,
@@ -63,10 +63,10 @@ class TimeoutError(ScraperError):
 
 class AccessDeniedError(ScraperError):
     """Raised when access is denied (403, blocked, etc)."""
-    
+
     error_type = "access_denied"
     likely_ban = True
-    
+
     def __init__(
         self,
         message: str,
@@ -81,20 +81,20 @@ class AccessDeniedError(ScraperError):
 
 class CloudflareError(ScraperError):
     """Raised when Cloudflare challenge cannot be bypassed."""
-    
+
     error_type = "cloudflare"
     likely_ban = True
-    
+
     def __init__(self, message: str, url: Optional[str] = None):
         super().__init__(message, details={"url": url})
 
 
 class CaptchaError(ScraperError):
     """Raised when CAPTCHA cannot be solved."""
-    
+
     error_type = "captcha"
     likely_ban = False
-    
+
     def __init__(
         self,
         message: str,
@@ -109,10 +109,10 @@ class CaptchaError(ScraperError):
 
 class ContentExtractionError(ScraperError):
     """Raised when article content cannot be extracted."""
-    
+
     error_type = "extraction_failed"
     likely_ban = False
-    
+
     def __init__(
         self,
         message: str,
@@ -127,10 +127,10 @@ class ContentExtractionError(ScraperError):
 
 class NetworkError(ScraperError):
     """Raised for network-related failures."""
-    
+
     error_type = "network"
     likely_ban = False
-    
+
     def __init__(
         self,
         message: str,
@@ -145,30 +145,30 @@ class NetworkError(ScraperError):
 
 class ProxyError(ScraperError):
     """Raised when proxy connection fails."""
-    
+
     error_type = "proxy"
     likely_ban = False
-    
+
     def __init__(self, message: str, proxy: Optional[str] = None):
         super().__init__(message, details={"proxy": proxy})
 
 
 class ExpiredLinkError(ScraperError):
     """Raised when a Google News or similar link has expired."""
-    
+
     error_type = "expired_link"
     likely_ban = False
-    
+
     def __init__(self, message: str, url: Optional[str] = None):
         super().__init__(message, details={"url": url})
 
 
 class RateLimitError(ScraperError):
     """Raised when rate limit is hit."""
-    
+
     error_type = "rate_limit"
     likely_ban = True
-    
+
     def __init__(
         self,
         message: str,

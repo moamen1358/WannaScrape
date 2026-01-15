@@ -125,7 +125,7 @@ class BrowserProfile:
     sec_ch_ua: str
     sec_ch_ua_platform: str
     sec_ch_ua_mobile: str = "?0"
-    
+
     def __str__(self):
         return f"{self.browser.upper()}/{self.version} on {self.os.upper()}"
 
@@ -203,22 +203,22 @@ LOCATION_PROFILES = [
     {"name": "Boston, USA", "timezone_id": "America/New_York", "locale": "en-US", "geo": {"latitude": 42.3601, "longitude": -71.0589}},
     {"name": "Houston, USA", "timezone_id": "America/Chicago", "locale": "en-US", "geo": {"latitude": 29.7604, "longitude": -95.3698}},
     {"name": "Phoenix, USA", "timezone_id": "America/Phoenix", "locale": "en-US", "geo": {"latitude": 33.4484, "longitude": -112.0740}},
-    
+
     # United Kingdom
     {"name": "London, UK", "timezone_id": "Europe/London", "locale": "en-GB", "geo": {"latitude": 51.5074, "longitude": -0.1278}},
     {"name": "Manchester, UK", "timezone_id": "Europe/London", "locale": "en-GB", "geo": {"latitude": 53.4808, "longitude": -2.2426}},
     {"name": "Birmingham, UK", "timezone_id": "Europe/London", "locale": "en-GB", "geo": {"latitude": 52.4862, "longitude": -1.8904}},
-    
+
     # Canada
     {"name": "Toronto, Canada", "timezone_id": "America/Toronto", "locale": "en-CA", "geo": {"latitude": 43.6532, "longitude": -79.3832}},
     {"name": "Vancouver, Canada", "timezone_id": "America/Vancouver", "locale": "en-CA", "geo": {"latitude": 49.2827, "longitude": -123.1207}},
     {"name": "Montreal, Canada", "timezone_id": "America/Montreal", "locale": "fr-CA", "geo": {"latitude": 45.5017, "longitude": -73.5673}},
-    
+
     # Australia
     {"name": "Sydney, Australia", "timezone_id": "Australia/Sydney", "locale": "en-AU", "geo": {"latitude": -33.8688, "longitude": 151.2093}},
     {"name": "Melbourne, Australia", "timezone_id": "Australia/Melbourne", "locale": "en-AU", "geo": {"latitude": -37.8136, "longitude": 144.9631}},
     {"name": "Brisbane, Australia", "timezone_id": "Australia/Brisbane", "locale": "en-AU", "geo": {"latitude": -27.4698, "longitude": 153.0251}},
-    
+
     # Europe
     {"name": "Paris, France", "timezone_id": "Europe/Paris", "locale": "fr-FR", "geo": {"latitude": 48.8566, "longitude": 2.3522}},
     {"name": "Berlin, Germany", "timezone_id": "Europe/Berlin", "locale": "de-DE", "geo": {"latitude": 52.5200, "longitude": 13.4050}},
@@ -230,7 +230,7 @@ LOCATION_PROFILES = [
     {"name": "Zurich, Switzerland", "timezone_id": "Europe/Zurich", "locale": "de-CH", "geo": {"latitude": 47.3769, "longitude": 8.5417}},
     {"name": "Vienna, Austria", "timezone_id": "Europe/Vienna", "locale": "de-AT", "geo": {"latitude": 48.2082, "longitude": 16.3738}},
     {"name": "Copenhagen, Denmark", "timezone_id": "Europe/Copenhagen", "locale": "da-DK", "geo": {"latitude": 55.6761, "longitude": 12.5683}},
-    
+
     # Asia
     {"name": "Tokyo, Japan", "timezone_id": "Asia/Tokyo", "locale": "ja-JP", "geo": {"latitude": 35.6762, "longitude": 139.6503}},
     {"name": "Singapore", "timezone_id": "Asia/Singapore", "locale": "en-SG", "geo": {"latitude": 1.3521, "longitude": 103.8198}},
@@ -253,7 +253,7 @@ class UserAgentManager:
     - Session-based or per-request rotation
     - Full logging of selected user agents
     """
-    
+
     # Browser popularity weights (based on market share)
     BROWSER_WEIGHTS = {
         "chrome_windows": 0.35,  # Most common
@@ -267,7 +267,7 @@ class UserAgentManager:
         "edge_macos": 0.02,
         "opera": 0.06,
     }
-    
+
     ALL_USER_AGENTS: Dict[str, List[str]] = {
         "chrome_windows": CHROME_WINDOWS_UA,
         "chrome_macos": CHROME_MACOS_UA,
@@ -280,7 +280,7 @@ class UserAgentManager:
         "edge_macos": EDGE_MACOS_UA,
         "opera": OPERA_UA,
     }
-    
+
     def __init__(self, custom_user_agents: Optional[List[str]] = None):
         """
         Initialize UserAgentManager.
@@ -291,20 +291,20 @@ class UserAgentManager:
         self.custom_user_agents = custom_user_agents
         self._last_profile: Optional[BrowserProfile] = None
         self._usage_count: Dict[str, int] = {}
-        
+
         # Build flat list of all user agents
         self._all_ua_list = []
         for ua_list in self.ALL_USER_AGENTS.values():
             self._all_ua_list.extend(ua_list)
-        
+
         logger.info(f"🌐 UserAgentManager initialized with {len(self._all_ua_list)} user agents")
-    
+
     def get_total_user_agents(self) -> int:
         """Get total number of available user agents."""
         if self.custom_user_agents:
             return len(self.custom_user_agents)
         return len(self._all_ua_list)
-    
+
     def _parse_browser_info(self, user_agent: str) -> Tuple[str, str, str]:
         """
         Parse browser and OS info from user agent string.
@@ -313,7 +313,7 @@ class UserAgentManager:
             Tuple of (browser, os, version)
         """
         ua_lower = user_agent.lower()
-        
+
         # Detect OS
         if "windows nt 11" in ua_lower:
             os_type = "windows"
@@ -325,7 +325,7 @@ class UserAgentManager:
             os_type = "linux"
         else:
             os_type = "windows"
-        
+
         # Detect browser and version
         if "edg/" in ua_lower:
             browser = "edge"
@@ -353,18 +353,18 @@ class UserAgentManager:
             import re
             match = re.search(r'chrome/(\d+)', ua_lower)
             version = match.group(1) if match else "120"
-        
+
         return browser, os_type, version
-    
+
     def _get_sec_ch_ua(self, browser: str, version: str) -> str:
         """Get appropriate Sec-CH-UA header for browser."""
         if browser == "firefox" or browser == "safari":
             return ""  # These browsers don't send Sec-CH-UA
-        
+
         key = f"{browser}_{version}"
         if key in SEC_CH_UA_TEMPLATES:
             return SEC_CH_UA_TEMPLATES[key]
-        
+
         # Fallback for unknown versions
         if browser == "chrome":
             return SEC_CH_UA_TEMPLATES.get("chrome_120", "")
@@ -372,9 +372,9 @@ class UserAgentManager:
             return SEC_CH_UA_TEMPLATES.get("edge_120", "")
         elif browser == "opera":
             return SEC_CH_UA_TEMPLATES.get("opera_106", "")
-        
+
         return ""
-    
+
     def get_random_profile(self, prefer_browser: Optional[str] = None) -> BrowserProfile:
         """
         Get a random browser profile with consistent fingerprint data.
@@ -403,14 +403,14 @@ class UserAgentManager:
                 weights = list(self.BROWSER_WEIGHTS.values())
                 category = random.choices(categories, weights=weights, k=1)[0]
                 user_agent = random.choice(self.ALL_USER_AGENTS[category])
-        
+
         # Parse browser info from user agent
         browser, os_type, version = self._parse_browser_info(user_agent)
-        
+
         # Get consistent headers
         sec_ch_ua = self._get_sec_ch_ua(browser, version)
         sec_ch_ua_platform = SEC_CH_UA_PLATFORM.get(os_type, '"Windows"')
-        
+
         profile = BrowserProfile(
             browser=browser,
             version=version,
@@ -419,22 +419,22 @@ class UserAgentManager:
             sec_ch_ua=sec_ch_ua,
             sec_ch_ua_platform=sec_ch_ua_platform,
         )
-        
+
         # Track usage
         self._usage_count[user_agent] = self._usage_count.get(user_agent, 0) + 1
         self._last_profile = profile
-        
+
         # Log the selection
         logger.info(f"🎭 Selected User-Agent: {browser.upper()}/{version} on {os_type.upper()}")
         logger.debug(f"   └─ Full UA: {user_agent[:80]}...")
-        
+
         return profile
-    
+
     def get_random_user_agent(self) -> str:
         """Get just a random user agent string (for simple use cases)."""
         profile = self.get_random_profile()
         return profile.user_agent
-    
+
     def get_matching_headers(self, profile: BrowserProfile) -> Dict[str, str]:
         """
         Get HTTP headers that match the browser profile.
@@ -455,7 +455,7 @@ class UserAgentManager:
             "Sec-Fetch-User": "?1",
             "Upgrade-Insecure-Requests": "1",
         }
-        
+
         # Browser-specific Accept-Language
         if profile.os == "macos":
             headers["Accept-Language"] = "en-US,en;q=0.9"
@@ -467,15 +467,15 @@ class UserAgentManager:
                 "en-US,en;q=0.9,es;q=0.8",
                 "en-GB,en;q=0.9,en-US;q=0.8",
             ])
-        
+
         # Add Sec-CH-UA headers for Chromium-based browsers
         if profile.sec_ch_ua:
             headers["Sec-Ch-Ua"] = profile.sec_ch_ua
             headers["Sec-Ch-Ua-Mobile"] = profile.sec_ch_ua_mobile
             headers["Sec-Ch-Ua-Platform"] = profile.sec_ch_ua_platform
-        
+
         return headers
-    
+
     def get_random_location(self, prefer_english: bool = True) -> dict:
         """
         Get a random location profile.
@@ -495,11 +495,11 @@ class UserAgentManager:
                 location = random.choice(LOCATION_PROFILES)
         else:
             location = random.choice(LOCATION_PROFILES)
-        
+
         logger.info(f"📍 Selected Location: {location['name']} ({location['timezone_id']})")
-        
+
         return location
-    
+
     def get_matching_viewport(self, profile: BrowserProfile) -> Dict[str, int]:
         """
         Get a viewport size that matches the browser profile's OS.
@@ -513,11 +513,11 @@ class UserAgentManager:
         os_type = profile.os
         viewports = VIEWPORTS_BY_OS.get(os_type, VIEWPORTS_BY_OS["windows"])
         viewport = random.choice(viewports)
-        
+
         logger.debug(f"📐 Selected viewport for {os_type}: {viewport['width']}x{viewport['height']}")
-        
+
         return viewport
-    
+
     def get_usage_stats(self) -> Dict[str, int]:
         """Get usage statistics for user agents."""
         return dict(self._usage_count)
@@ -567,17 +567,17 @@ def get_all_user_agents() -> List[str]:
 if __name__ == "__main__":
     # Test the module
     logging.basicConfig(level=logging.DEBUG)
-    
+
     manager = UserAgentManager()
-    
+
     print(f"\n📊 Total User Agents Available: {manager.get_total_user_agents()}")
     print("\n🧪 Testing Random Profile Selection (5 samples):\n")
-    
+
     for i in range(5):
         profile = manager.get_random_profile()
         location = manager.get_random_location()
         headers = manager.get_matching_headers(profile)
-        
+
         print(f"Sample {i+1}:")
         print(f"  Browser: {profile.browser}")
         print(f"  OS: {profile.os}")
