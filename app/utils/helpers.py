@@ -92,7 +92,7 @@ def classify_error(error_msg: str, page_content: str = "", page_title: str = "")
 def save_failure_screenshot(page, url: str, reason: str, extra_info: str = "") -> Optional[str]:
     """Save screenshot and metadata when scraping fails."""
     try:
-        screenshots_dir = Path("data/screenshots") / datetime.now().strftime("%Y-%m-%d")
+        screenshots_dir = Path("screenshots") / datetime.now().strftime("%Y-%m-%d")
         screenshots_dir.mkdir(parents=True, exist_ok=True)
 
         domain = urlparse(url).netloc.replace(".", "_")

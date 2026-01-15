@@ -64,6 +64,7 @@ class AdvancedMouseSimulator:
     - Variable speed (slow start, fast middle, slow end)
     - Micro-movements and hand tremor
     - Random pauses and hesitations
+    - Visual cursor for debugging (in headful mode)
     """
     
     def __init__(self, page, viewport_width: int, viewport_height: int):
@@ -73,6 +74,43 @@ class AdvancedMouseSimulator:
         self.current_x = random.randint(100, viewport_width // 2)
         self.current_y = random.randint(100, viewport_height // 3)
         self.move_count = 0
+        self.cursor_injected = False
+        
+    def _inject_visual_cursor(self):
+        """Inject a visible cursor element for debugging."""
+        if self.cursor_injected:
+            return
+        try:
+            self.page.evaluate("""
+                () => {
+                    if (document.getElementById('debug-cursor')) return;
+                    const cursor = document.createElement('div');
+                    cursor.id = 'debug-cursor';
+                    cursor.style.cssText = `
+                        position: fixed;
+                        width: 20px;
+                        height: 20px;
+                        background: rgba(255, 0, 0, 0.7);
+                        border: 2px solid white;
+                        border-radius: 50%;
+                        pointer-events: none;
+                        z-index: 999999;
+                        transform: translate(-50%, -50%);
+                        box-shadow: 0 0 10px rgba(255,0,0,0.5);
+                        transition: left 0.05s, top 0.05s;
+                    `;
+                    document.body.appendChild(cursor);
+                    
+                    document.addEventListener('mousemove', (e) => {
+                        cursor.style.left = e.clientX + 'px';
+                        cursor.style.top = e.clientY + 'px';
+                    });
+                }
+            """)
+            self.cursor_injected = True
+            logger.debug("Visual cursor injected for debugging")
+        except Exception as e:
+            logger.debug(f"Could not inject visual cursor: {e}")
         
     def _generate_control_points(self, start_x: float, start_y: float, 
                                   end_x: float, end_y: float) -> List[Tuple[float, float]]:
@@ -109,6 +147,9 @@ class AdvancedMouseSimulator:
     def move_to(self, target_x: float, target_y: float, smooth: bool = True):
         """Move mouse to target with natural bezier curve motion."""
         try:
+            # Inject visual cursor for debugging
+            self._inject_visual_cursor()
+            
             target_x = max(10, min(self.width - 10, target_x))
             target_y = max(10, min(self.height - 10, target_y))
             
@@ -117,7 +158,11 @@ class AdvancedMouseSimulator:
             if distance < 5:
                 return
             
-            steps = max(15, min(50, int(distance / 10)))
+            # Log the movement
+            logger.debug(f"🖱️ Moving: ({int(self.current_x)}, {int(self.current_y)}) → ({int(target_x)}, {int(target_y)}) [{int(distance)}px]")
+            
+            # Fast but smooth: 10-25 steps based on distance
+            steps = max(10, min(25, int(distance / 20)))
             
             if smooth:
                 control_points = self._generate_control_points(
@@ -133,7 +178,7 @@ class AdvancedMouseSimulator:
                     x = bezier_point(eased_t, self.current_x, cp1_x, cp2_x, target_x)
                     y = bezier_point(eased_t, self.current_y, cp1_y, cp2_y, target_y)
                     
-                    tremor = 1.5 if (t < 0.2 or t > 0.8) else 0.5
+                    tremor = 1.0 if (t < 0.2 or t > 0.8) else 0.3
                     x = add_noise(x, tremor)
                     y = add_noise(y, tremor)
                     
@@ -142,8 +187,8 @@ class AdvancedMouseSimulator:
                     
                     self.page.mouse.move(x, y)
                     
-                    speed = self._calculate_speed(t, distance)
-                    time.sleep(speed)
+                    # Fast: 2-5ms per step (total move = 20-125ms)
+                    time.sleep(random.uniform(0.002, 0.005))
             else:
                 self.page.mouse.move(target_x, target_y)
             
@@ -185,38 +230,40 @@ class AdvancedMouseSimulator:
     def hover_and_read(self, duration: float = None):
         """Simulate hovering while reading - small micro-movements."""
         if duration is None:
-            duration = random.uniform(0.3, 1.0)
+            duration = random.uniform(0.05, 0.15)  # Very short
         
         start_time = time.time()
         start_x, start_y = self.current_x, self.current_y
         
-        while time.time() - start_time < duration:
-            drift_x = random.gauss(0, 3)
-            drift_y = random.gauss(2, 1)  # Slight downward drift
+        # Just 2-3 micro movements
+        for _ in range(random.randint(2, 3)):
+            if time.time() - start_time >= duration:
+                break
+            drift_x = random.gauss(0, 2)
+            drift_y = random.gauss(1, 0.5)
             
             new_x = max(10, min(self.width - 10, start_x + drift_x))
             new_y = max(10, min(self.height - 10, start_y + drift_y))
             
             self.page.mouse.move(new_x, new_y)
-            time.sleep(random.uniform(0.05, 0.15))
+            time.sleep(random.uniform(0.01, 0.03))
             
             start_x, start_y = new_x, new_y
         
         self.current_x, self.current_y = start_x, start_y
     
-    def idle_micro_movements(self, duration: float = 0.5):
+    def idle_micro_movements(self, duration: float = 0.1):
         """Small idle movements when thinking or pausing."""
-        start_time = time.time()
-        
-        while time.time() - start_time < duration:
-            offset_x = random.gauss(0, 2)
-            offset_y = random.gauss(0, 2)
+        # Just 2-4 quick micro movements
+        for _ in range(random.randint(2, 4)):
+            offset_x = random.gauss(0, 1.5)
+            offset_y = random.gauss(0, 1.5)
             
             new_x = self.current_x + offset_x
             new_y = self.current_y + offset_y
             
             self.page.mouse.move(new_x, new_y)
-            time.sleep(random.uniform(0.08, 0.2))
+            time.sleep(random.uniform(0.01, 0.02))
 
 
 class AdvancedScrollSimulator:
@@ -248,12 +295,12 @@ class AdvancedScrollSimulator:
     def smooth_scroll(self, amount: int, duration: float = None):
         """Scroll smoothly by amount pixels."""
         if duration is None:
-            duration = random.uniform(0.3, 0.8)
+            duration = random.uniform(0.1, 0.2)  # Fast scroll
         
         target = max(0, min(self.page_height - self.viewport_height, 
                            self.current_position + amount))
         
-        steps = max(5, int(abs(amount) / 30))
+        steps = max(3, int(abs(amount) / 80))  # Fewer steps
         step_delay = duration / steps
         
         for i in range(steps):
@@ -267,7 +314,7 @@ class AdvancedScrollSimulator:
             except:
                 pass
             
-            time.sleep(step_delay * random.uniform(0.8, 1.2))
+            time.sleep(step_delay)
         
         self.current_position = target
         self.scroll_count += 1
@@ -287,11 +334,11 @@ class AdvancedScrollSimulator:
         time.sleep(random.uniform(0.2, 0.4))
     
     def read_scroll(self):
-        """Slow scroll while reading."""
+        """Scroll while reading."""
         self._get_page_info()
-        amount = random.randint(150, 300)
-        self.smooth_scroll(amount, duration=random.uniform(0.5, 1.0))
-        time.sleep(random.uniform(0.3, 0.8))
+        amount = random.randint(150, 350)
+        self.smooth_scroll(amount, duration=random.uniform(0.1, 0.2))
+        time.sleep(random.uniform(0.05, 0.1))  # Brief pause
     
     def skim_scroll(self):
         """Fast scroll to skim content."""
@@ -303,15 +350,15 @@ class AdvancedScrollSimulator:
         """Scroll back up."""
         self._get_page_info()
         if self.current_position > 100:
-            amount = random.randint(100, 300)
-            self.smooth_scroll(-amount, duration=random.uniform(0.3, 0.5))
+            amount = random.randint(100, 250)
+            self.smooth_scroll(-amount, duration=random.uniform(0.1, 0.15))
     
     def scroll_to_content(self):
         """Scroll to main content area."""
         self._get_page_info()
-        target = random.randint(200, 400)
+        target = random.randint(150, 300)
         if self.current_position < target:
-            self.smooth_scroll(target - self.current_position)
+            self.smooth_scroll(target - self.current_position, duration=0.1)
 
 
 def simulate_human_behavior(page, config: dict = None) -> dict:
@@ -346,42 +393,39 @@ def simulate_human_behavior(page, config: dict = None) -> dict:
         behavior = random.choice(list(BehaviorType))
         stats["behavior_type"] = behavior.value
         
-        logger.debug(f"Starting {behavior.value} behavior simulation")
+        logger.info(f"🎭 Behavior type: {behavior.value.upper()}")
         
-        # Phase 1: Initial pause
-        time.sleep(random.uniform(0.3, 0.6))
-        mouse.idle_micro_movements(random.uniform(0.2, 0.4))
+        # Phase 1: Brief initial pause
+        initial_pause = random.uniform(0.1, 0.2)
+        time.sleep(initial_pause)
         
-        # Phase 2: Mouse movements (1-5)
-        num_movements = random.randint(1, 5)
+        # Phase 2: Mouse movements (1-3 random)
+        num_movements = random.randint(1, 3)
+        logger.info(f"🖱️ Performing {num_movements} mouse movements")
         
         for i in range(num_movements):
             pattern = random.random()
             
-            if pattern < 0.4:
+            if pattern < 0.5:
                 mouse.random_movement()
-            elif pattern < 0.7:
+            elif pattern < 0.8:
                 mouse.random_movement()
-                mouse.hover_and_read(random.uniform(0.3, 0.7))
+                mouse.hover_and_read()  # Very brief
             else:
                 target_x = random.randint(100, width - 100)
                 target_y = random.randint(100, height - 100)
                 mouse.move_to(target_x, target_y)
             
+            # Brief pause between movements (20-80ms)
             if i < num_movements - 1:
-                pause_type = random.random()
-                if pause_type < 0.3:
-                    time.sleep(random.uniform(0.1, 0.2))
-                elif pause_type < 0.7:
-                    time.sleep(random.uniform(0.2, 0.5))
-                else:
-                    mouse.idle_micro_movements(random.uniform(0.3, 0.6))
+                time.sleep(random.uniform(0.02, 0.08))
         
         stats["mouse_moves"] = num_movements
         
-        # Phase 3: Scrolling (1-5)
+        # Phase 3: Scrolling (1-3 random)
         scroll.scroll_to_content()
-        num_scrolls = random.randint(1, 5)
+        num_scrolls = random.randint(1, 3)
+        logger.info(f"📜 Performing {num_scrolls} scroll actions")
         
         for i in range(num_scrolls):
             scroll_type = random.random()
@@ -410,25 +454,26 @@ def simulate_human_behavior(page, config: dict = None) -> dict:
                 else:
                     scroll.back_scroll()
             
-            if random.random() < 0.2:
+            # Occasional mouse move during scroll
+            if random.random() < 0.15:
                 mouse.random_movement()
                 stats["mouse_moves"] += 1
             
+            # Brief pause between scrolls
             if i < num_scrolls - 1:
-                time.sleep(random.uniform(0.2, 0.6))
+                time.sleep(random.uniform(0.03, 0.08))
         
         stats["scrolls"] = num_scrolls
         
-        # Phase 4: Final
-        if random.random() < 0.4:
+        # Phase 4: Final (optional quick move)
+        if random.random() < 0.3:
             target_x = random.randint(int(width * 0.2), int(width * 0.7))
             target_y = random.randint(int(height * 0.3), int(height * 0.6))
             mouse.move_to(target_x, target_y)
             stats["mouse_moves"] += 1
         
         elapsed = time.time() - start_time
-        logger.info(f"Human behavior ({behavior.value}): {stats['mouse_moves']} moves, "
-                   f"{stats['scrolls']} scrolls in {elapsed:.1f}s")
+        logger.info(f"✅ Human behavior: {stats['mouse_moves']} moves, {stats['scrolls']} scrolls in {elapsed:.2f}s")
         
         return stats
         
