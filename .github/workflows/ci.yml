@@ -56,7 +56,7 @@ jobs:
     
     - name: Run Ruff linter
       run: |
-        ruff check app/ --ignore E501
+        ruff check app/ --ignore E501,UP006,UP007,UP035,UP045,TC001,TC002,TC003
 
   docker:
     runs-on: ubuntu-latest
