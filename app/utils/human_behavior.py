@@ -1,207 +1,482 @@
 """
-Human behavior simulation for anti-detection.
-Simulates realistic mouse movements, scrolling, and timing.
+Advanced Human Behavior Simulation for Anti-Detection.
+
+Simulates realistic human browsing patterns:
+- Natural mouse movements with bezier curves and micro-movements
+- Reading pauses and scanning behavior
+- Variable scrolling (fast skim, slow read, back-scroll)
+- Random hesitations and cursor idle patterns
+- Different behavior patterns (reader, skimmer, searcher)
 """
 
 import time
 import math
 import random
 import logging
-from typing import Optional
+from typing import Optional, Dict, Tuple, List
+from enum import Enum
 
 logger = logging.getLogger("scraper.human")
 
 
-def human_delay(min_sec: float = 2.0, max_sec: float = 6.0) -> float:
-    """Generate human-like delay using normal distribution (bell curve)."""
+class BehaviorType(Enum):
+    """Different browsing behavior patterns."""
+    READER = "reader"      # Slow, methodical reading
+    SKIMMER = "skimmer"    # Fast scanning
+    SEARCHER = "searcher"  # Looking for specific content
+
+
+def human_delay(min_sec: float = 0.5, max_sec: float = 2.0) -> float:
+    """Generate human-like delay using normal distribution."""
     mean = (min_sec + max_sec) / 2
     std_dev = (max_sec - min_sec) / 4
     delay = random.gauss(mean, std_dev)
     return max(min_sec * 0.5, min(max_sec * 1.5, delay))
 
 
-def bezier_curve(t: float, p0: float, p1: float, p2: float, p3: float) -> float:
-    """Calculate point on cubic bezier curve at parameter t (0-1)."""
+def bezier_point(t: float, p0: float, p1: float, p2: float, p3: float) -> float:
+    """Calculate point on cubic bezier curve."""
     u = 1 - t
     return u**3 * p0 + 3 * u**2 * t * p1 + 3 * u * t**2 * p2 + t**3 * p3
 
 
-def ease_out_quad(t: float) -> float:
-    """Easing function for natural deceleration."""
-    return 1 - (1 - t) ** 2
+def ease_out_cubic(t: float) -> float:
+    """Natural deceleration easing."""
+    return 1 - pow(1 - t, 3)
 
 
-def simulate_mouse_movement(page, num_movements: int = None, config: dict = None):
+def ease_in_out_sine(t: float) -> float:
+    """Smooth acceleration and deceleration."""
+    return -(math.cos(math.pi * t) - 1) / 2
+
+
+def add_noise(value: float, intensity: float = 2.0) -> float:
+    """Add small random noise to simulate hand tremor."""
+    return value + random.gauss(0, intensity)
+
+
+class AdvancedMouseSimulator:
     """
-    Simulate realistic human mouse movements.
-
-    Args:
-        page: Playwright page object
-        num_movements: Number of movements (uses config if None)
-        config: Configuration dict with human_behavior settings
+    Simulates realistic mouse movements like a real human.
+    
+    Features:
+    - Bezier curve paths (not straight lines)
+    - Variable speed (slow start, fast middle, slow end)
+    - Micro-movements and hand tremor
+    - Random pauses and hesitations
     """
-    try:
-        hb_config = config.get("human_behavior", {}) if config else {}
-        movement_speed = hb_config.get("movement_speed", 0.008)
-        pause_config = hb_config.get("pause_between_actions", {"min": 0.1, "max": 0.3})
-
-        viewport = page.viewport_size
-        if not viewport:
-            try:
-                width = page.evaluate("window.innerWidth") or 1920
-                height = page.evaluate("window.innerHeight") or 1080
-            except:
-                width, height = 1920, 1080
+    
+    def __init__(self, page, viewport_width: int, viewport_height: int):
+        self.page = page
+        self.width = viewport_width
+        self.height = viewport_height
+        self.current_x = random.randint(100, viewport_width // 2)
+        self.current_y = random.randint(100, viewport_height // 3)
+        self.move_count = 0
+        
+    def _generate_control_points(self, start_x: float, start_y: float, 
+                                  end_x: float, end_y: float) -> List[Tuple[float, float]]:
+        """Generate bezier control points for natural curved path."""
+        distance = math.sqrt((end_x - start_x)**2 + (end_y - start_y)**2)
+        curve_intensity = min(distance * 0.3, 100)
+        curve_dir = random.choice([-1, 1])
+        
+        cp1_x = start_x + (end_x - start_x) * random.uniform(0.2, 0.4)
+        cp1_y = start_y + (end_y - start_y) * random.uniform(0.2, 0.4)
+        cp1_x += random.uniform(-curve_intensity, curve_intensity) * curve_dir
+        cp1_y += random.uniform(-curve_intensity * 0.5, curve_intensity * 0.5)
+        
+        cp2_x = start_x + (end_x - start_x) * random.uniform(0.6, 0.8)
+        cp2_y = start_y + (end_y - start_y) * random.uniform(0.6, 0.8)
+        cp2_x += random.uniform(-curve_intensity * 0.5, curve_intensity * 0.5) * curve_dir
+        cp2_y += random.uniform(-curve_intensity * 0.3, curve_intensity * 0.3)
+        
+        return [(cp1_x, cp1_y), (cp2_x, cp2_y)]
+    
+    def _calculate_speed(self, t: float, total_distance: float) -> float:
+        """Calculate movement speed - slow at ends, fast in middle."""
+        base_speed = 0.003 + (total_distance / 10000)
+        
+        if t < 0.15:
+            speed_mult = 0.3 + (t / 0.15) * 0.7
+        elif t > 0.85:
+            speed_mult = 0.3 + ((1 - t) / 0.15) * 0.7
         else:
-            width, height = viewport['width'], viewport['height']
+            speed_mult = 1.0 + random.uniform(-0.1, 0.1)
+            
+        return base_speed * speed_mult
+    
+    def move_to(self, target_x: float, target_y: float, smooth: bool = True):
+        """Move mouse to target with natural bezier curve motion."""
+        try:
+            target_x = max(10, min(self.width - 10, target_x))
+            target_y = max(10, min(self.height - 10, target_y))
+            
+            distance = math.sqrt((target_x - self.current_x)**2 + (target_y - self.current_y)**2)
+            
+            if distance < 5:
+                return
+            
+            steps = max(15, min(50, int(distance / 10)))
+            
+            if smooth:
+                control_points = self._generate_control_points(
+                    self.current_x, self.current_y, target_x, target_y
+                )
+                cp1_x, cp1_y = control_points[0]
+                cp2_x, cp2_y = control_points[1]
+                
+                for i in range(steps + 1):
+                    t = i / steps
+                    eased_t = ease_in_out_sine(t)
+                    
+                    x = bezier_point(eased_t, self.current_x, cp1_x, cp2_x, target_x)
+                    y = bezier_point(eased_t, self.current_y, cp1_y, cp2_y, target_y)
+                    
+                    tremor = 1.5 if (t < 0.2 or t > 0.8) else 0.5
+                    x = add_noise(x, tremor)
+                    y = add_noise(y, tremor)
+                    
+                    x = max(5, min(self.width - 5, x))
+                    y = max(5, min(self.height - 5, y))
+                    
+                    self.page.mouse.move(x, y)
+                    
+                    speed = self._calculate_speed(t, distance)
+                    time.sleep(speed)
+            else:
+                self.page.mouse.move(target_x, target_y)
+            
+            self.current_x = target_x
+            self.current_y = target_y
+            self.move_count += 1
+            
+        except Exception as e:
+            logger.debug(f"Mouse move error: {e}")
+            try:
+                self.page.mouse.move(target_x, target_y)
+            except:
+                pass
+    
+    def random_movement(self) -> Tuple[float, float]:
+        """Make a random natural movement to a new position."""
+        zones = [
+            (0.3, 0.7, 0.2, 0.5, 0.4),   # Main content area
+            (0.1, 0.3, 0.1, 0.3, 0.2),   # Top-left
+            (0.5, 0.9, 0.3, 0.7, 0.2),   # Right side
+            (0.2, 0.8, 0.6, 0.9, 0.2),   # Bottom
+        ]
+        
+        r = random.random()
+        cumulative = 0
+        chosen_zone = zones[0]
+        for zone in zones:
+            cumulative += zone[4]
+            if r < cumulative:
+                chosen_zone = zone
+                break
+        
+        target_x = random.uniform(self.width * chosen_zone[0], self.width * chosen_zone[1])
+        target_y = random.uniform(self.height * chosen_zone[2], self.height * chosen_zone[3])
+        
+        self.move_to(target_x, target_y)
+        return (target_x, target_y)
+    
+    def hover_and_read(self, duration: float = None):
+        """Simulate hovering while reading - small micro-movements."""
+        if duration is None:
+            duration = random.uniform(0.3, 1.0)
+        
+        start_time = time.time()
+        start_x, start_y = self.current_x, self.current_y
+        
+        while time.time() - start_time < duration:
+            drift_x = random.gauss(0, 3)
+            drift_y = random.gauss(2, 1)  # Slight downward drift
+            
+            new_x = max(10, min(self.width - 10, start_x + drift_x))
+            new_y = max(10, min(self.height - 10, start_y + drift_y))
+            
+            self.page.mouse.move(new_x, new_y)
+            time.sleep(random.uniform(0.05, 0.15))
+            
+            start_x, start_y = new_x, new_y
+        
+        self.current_x, self.current_y = start_x, start_y
+    
+    def idle_micro_movements(self, duration: float = 0.5):
+        """Small idle movements when thinking or pausing."""
+        start_time = time.time()
+        
+        while time.time() - start_time < duration:
+            offset_x = random.gauss(0, 2)
+            offset_y = random.gauss(0, 2)
+            
+            new_x = self.current_x + offset_x
+            new_y = self.current_y + offset_y
+            
+            self.page.mouse.move(new_x, new_y)
+            time.sleep(random.uniform(0.08, 0.2))
 
-        if num_movements is None:
-            mv_config = hb_config.get("mouse_movements", {"min": 2, "max": 3})
-            num_movements = random.randint(mv_config.get("min", 2), mv_config.get("max", 3))
 
-        logger.debug(f"Mouse: {num_movements} moves in {width}x{height}")
-
-        current_x = random.randint(100, min(width // 3, width - 100))
-        current_y = random.randint(100, min(height // 3, height - 100))
-        page.mouse.move(current_x, current_y)
-
-        for _ in range(num_movements):
-            target_x = random.randint(100, max(200, width - 100))
-            target_y = random.randint(150, max(200, height - 150))
-            steps = random.randint(10, 15)
-
-            for i in range(steps + 1):
-                t = i / steps
-                curve = math.sin(t * math.pi) * 10
-                x = max(10, min(width - 10, current_x + (target_x - current_x) * t + curve))
-                y = max(10, min(height - 10, current_y + (target_y - current_y) * t))
-                page.mouse.move(x, y)
-                time.sleep(movement_speed)
-
-            current_x, current_y = target_x, target_y
-            time.sleep(random.uniform(pause_config.get("min", 0.1), pause_config.get("max", 0.3)))
-
-        logger.debug(f"Mouse completed: {num_movements} moves")
-    except Exception as e:
-        logger.warning(f"Mouse simulation error: {e}")
-
-
-def simulate_scroll(page, scroll_down: bool = True, config: dict = None):
+class AdvancedScrollSimulator:
     """
-    Simulate realistic human scrolling behavior.
-
-    Args:
-        page: Playwright page object
-        scroll_down: Direction of scroll
-        config: Configuration dict with human_behavior settings
+    Simulates realistic scrolling behavior.
+    
+    Features:
+    - Variable scroll speeds
+    - Back-scrolling
+    - Pause to read sections
     """
-    try:
-        hb_config = config.get("human_behavior", {}) if config else {}
-        scroll_config = hb_config.get("scroll_actions", {"min": 2, "max": 3})
-        pause_config = hb_config.get("pause_between_actions", {"min": 0.1, "max": 0.3})
-
-        page_height = page.evaluate("document.body.scrollHeight") or 2000
-        viewport_height = page.evaluate("window.innerHeight") or 800
-
-        logger.debug(f"Scroll: page={page_height}px, viewport={viewport_height}px")
-
-        if scroll_down:
-            scroll_count = random.randint(scroll_config.get("min", 2), scroll_config.get("max", 3))
-            max_scroll = min(page_height - viewport_height, page_height * 0.5)
-            max_scroll = max(max_scroll, 300)
-            current_pos = 0
-
-            for _ in range(scroll_count):
-                scroll_amount = random.randint(250, 450)
-                target_pos = min(current_pos + scroll_amount, max_scroll)
-                page.evaluate(f"window.scrollTo({{top: {target_pos}, behavior: 'smooth'}})")
-                current_pos = target_pos
-                time.sleep(random.uniform(pause_config.get("min", 0.1), pause_config.get("max", 0.3)))
-
-            if random.random() < 0.2:
-                back_amount = random.randint(100, 200)
-                page.evaluate(f"window.scrollTo({{top: {max(0, current_pos - back_amount)}, behavior: 'smooth'}})")
-                time.sleep(random.uniform(0.1, 0.2))
-
-            logger.debug(f"Scroll completed: {scroll_count} scrolls, reached {current_pos}px")
-    except Exception as e:
-        logger.warning(f"Scroll simulation error: {e}")
+    
+    def __init__(self, page):
+        self.page = page
+        self.current_position = 0
+        self.scroll_count = 0
+        self.page_height = 2000
+        self.viewport_height = 800
+        
+    def _get_page_info(self):
+        """Get current page dimensions."""
+        try:
+            self.page_height = self.page.evaluate("document.body.scrollHeight") or 2000
+            self.viewport_height = self.page.evaluate("window.innerHeight") or 800
+            self.current_position = self.page.evaluate("window.pageYOffset") or 0
+        except:
+            pass
+    
+    def smooth_scroll(self, amount: int, duration: float = None):
+        """Scroll smoothly by amount pixels."""
+        if duration is None:
+            duration = random.uniform(0.3, 0.8)
+        
+        target = max(0, min(self.page_height - self.viewport_height, 
+                           self.current_position + amount))
+        
+        steps = max(5, int(abs(amount) / 30))
+        step_delay = duration / steps
+        
+        for i in range(steps):
+            t = (i + 1) / steps
+            eased_t = ease_out_cubic(t)
+            
+            current = self.current_position + (target - self.current_position) * eased_t
+            
+            try:
+                self.page.evaluate(f"window.scrollTo(0, {int(current)})")
+            except:
+                pass
+            
+            time.sleep(step_delay * random.uniform(0.8, 1.2))
+        
+        self.current_position = target
+        self.scroll_count += 1
+    
+    def quick_scroll(self, amount: int):
+        """Quick scroll like using scroll wheel."""
+        target = max(0, min(self.page_height - self.viewport_height,
+                           self.current_position + amount))
+        
+        try:
+            self.page.evaluate(f"window.scrollTo({{top: {target}, behavior: 'smooth'}})")
+        except:
+            pass
+        
+        self.current_position = target
+        self.scroll_count += 1
+        time.sleep(random.uniform(0.2, 0.4))
+    
+    def read_scroll(self):
+        """Slow scroll while reading."""
+        self._get_page_info()
+        amount = random.randint(150, 300)
+        self.smooth_scroll(amount, duration=random.uniform(0.5, 1.0))
+        time.sleep(random.uniform(0.3, 0.8))
+    
+    def skim_scroll(self):
+        """Fast scroll to skim content."""
+        self._get_page_info()
+        amount = random.randint(400, 700)
+        self.quick_scroll(amount)
+    
+    def back_scroll(self):
+        """Scroll back up."""
+        self._get_page_info()
+        if self.current_position > 100:
+            amount = random.randint(100, 300)
+            self.smooth_scroll(-amount, duration=random.uniform(0.3, 0.5))
+    
+    def scroll_to_content(self):
+        """Scroll to main content area."""
+        self._get_page_info()
+        target = random.randint(200, 400)
+        if self.current_position < target:
+            self.smooth_scroll(target - self.current_position)
 
 
 def simulate_human_behavior(page, config: dict = None) -> dict:
     """
-    Combined human behavior simulation.
-    Runs mouse movements and scrolling in ~2-4 seconds.
-
-    Args:
-        page: Playwright page object
-        config: Configuration dict
-        
-    Returns:
-        Dict with behavior stats (mouse_moves, scrolls)
+    Advanced human behavior simulation.
+    
+    Simulates realistic browsing:
+    1. Initial page load pause
+    2. Random mouse movements (1-5)
+    3. Scroll to content
+    4. Reading behavior with pauses
+    5. Occasional back-scroll
     """
-    stats = {"mouse_moves": 0, "scrolls": 0}
+    stats = {"mouse_moves": 0, "scrolls": 0, "behavior_type": "mixed"}
     
     try:
         start_time = time.time()
-
-        time.sleep(random.uniform(0.1, 0.2))
         
-        # Get movement counts from config
-        hb_config = config.get("human_behavior", {}) if config else {}
-        mv_config = hb_config.get("mouse_movements", {"min": 2, "max": 3})
-        scroll_config = hb_config.get("scroll_actions", {"min": 2, "max": 3})
+        try:
+            viewport = page.viewport_size
+            if viewport:
+                width, height = viewport['width'], viewport['height']
+            else:
+                width = page.evaluate("window.innerWidth") or 1920
+                height = page.evaluate("window.innerHeight") or 1080
+        except:
+            width, height = 1920, 1080
         
-        mouse_moves = random.randint(mv_config.get("min", 2), mv_config.get("max", 3))
-        scroll_actions = random.randint(scroll_config.get("min", 2), scroll_config.get("max", 3))
+        mouse = AdvancedMouseSimulator(page, width, height)
+        scroll = AdvancedScrollSimulator(page)
         
-        stats["mouse_moves"] = mouse_moves
-        stats["scrolls"] = scroll_actions
+        behavior = random.choice(list(BehaviorType))
+        stats["behavior_type"] = behavior.value
         
-        simulate_mouse_movement(page, num_movements=mouse_moves, config=config)
-        time.sleep(random.uniform(0.1, 0.2))
-        simulate_scroll(page, config=config)
-
+        logger.debug(f"Starting {behavior.value} behavior simulation")
+        
+        # Phase 1: Initial pause
+        time.sleep(random.uniform(0.3, 0.6))
+        mouse.idle_micro_movements(random.uniform(0.2, 0.4))
+        
+        # Phase 2: Mouse movements (1-5)
+        num_movements = random.randint(1, 5)
+        
+        for i in range(num_movements):
+            pattern = random.random()
+            
+            if pattern < 0.4:
+                mouse.random_movement()
+            elif pattern < 0.7:
+                mouse.random_movement()
+                mouse.hover_and_read(random.uniform(0.3, 0.7))
+            else:
+                target_x = random.randint(100, width - 100)
+                target_y = random.randint(100, height - 100)
+                mouse.move_to(target_x, target_y)
+            
+            if i < num_movements - 1:
+                pause_type = random.random()
+                if pause_type < 0.3:
+                    time.sleep(random.uniform(0.1, 0.2))
+                elif pause_type < 0.7:
+                    time.sleep(random.uniform(0.2, 0.5))
+                else:
+                    mouse.idle_micro_movements(random.uniform(0.3, 0.6))
+        
+        stats["mouse_moves"] = num_movements
+        
+        # Phase 3: Scrolling (1-5)
+        scroll.scroll_to_content()
+        num_scrolls = random.randint(1, 5)
+        
+        for i in range(num_scrolls):
+            scroll_type = random.random()
+            
+            if behavior == BehaviorType.READER:
+                if scroll_type < 0.7:
+                    scroll.read_scroll()
+                elif scroll_type < 0.9:
+                    scroll.smooth_scroll(random.randint(200, 400))
+                else:
+                    scroll.back_scroll()
+                    
+            elif behavior == BehaviorType.SKIMMER:
+                if scroll_type < 0.6:
+                    scroll.skim_scroll()
+                elif scroll_type < 0.8:
+                    scroll.quick_scroll(random.randint(300, 600))
+                else:
+                    scroll.read_scroll()
+                    
+            else:  # SEARCHER
+                if scroll_type < 0.5:
+                    scroll.skim_scroll()
+                elif scroll_type < 0.8:
+                    scroll.read_scroll()
+                else:
+                    scroll.back_scroll()
+            
+            if random.random() < 0.2:
+                mouse.random_movement()
+                stats["mouse_moves"] += 1
+            
+            if i < num_scrolls - 1:
+                time.sleep(random.uniform(0.2, 0.6))
+        
+        stats["scrolls"] = num_scrolls
+        
+        # Phase 4: Final
+        if random.random() < 0.4:
+            target_x = random.randint(int(width * 0.2), int(width * 0.7))
+            target_y = random.randint(int(height * 0.3), int(height * 0.6))
+            mouse.move_to(target_x, target_y)
+            stats["mouse_moves"] += 1
+        
         elapsed = time.time() - start_time
-        logger.info(f"Human behavior completed in {elapsed:.1f}s")
+        logger.info(f"Human behavior ({behavior.value}): {stats['mouse_moves']} moves, "
+                   f"{stats['scrolls']} scrolls in {elapsed:.1f}s")
         
         return stats
-
+        
     except Exception as e:
         logger.warning(f"Human behavior error: {e}")
         return stats
 
 
-def human_mouse_move(page, target_x: float, target_y: float, steps: int = 25):
-    """
-    Move mouse to target with human-like bezier curve motion.
-    Used for precise movements (e.g., clicking buttons).
-    """
+def simulate_mouse_movement(page, num_movements: int = None, config: dict = None):
+    """Legacy function for compatibility."""
     try:
-        current = page.evaluate("() => ({x: window.innerWidth/2, y: window.innerHeight/2})")
-        start_x = current.get('x', 500)
-        start_y = current.get('y', 500)
-
-        cp1_x = start_x + (target_x - start_x) * random.uniform(0.2, 0.4) + random.uniform(-50, 50)
-        cp1_y = start_y + (target_y - start_y) * random.uniform(0.2, 0.4) + random.uniform(-50, 50)
-        cp2_x = start_x + (target_x - start_x) * random.uniform(0.6, 0.8) + random.uniform(-50, 50)
-        cp2_y = start_y + (target_y - start_y) * random.uniform(0.6, 0.8) + random.uniform(-50, 50)
-
-        for i in range(steps):
-            t = i / steps
-            x = (1-t)**3 * start_x + 3*(1-t)**2*t * cp1_x + 3*(1-t)*t**2 * cp2_x + t**3 * target_x
-            y = (1-t)**3 * start_y + 3*(1-t)**2*t * cp1_y + 3*(1-t)*t**2 * cp2_y + t**3 * target_y
-
-            x += random.uniform(-1, 1)
-            y += random.uniform(-1, 1)
-
-            page.mouse.move(x, y)
-
-            if t < 0.2 or t > 0.8:
-                time.sleep(random.uniform(0.01, 0.03))
-            else:
-                time.sleep(random.uniform(0.005, 0.015))
-
-        page.mouse.move(target_x, target_y)
+        viewport = page.viewport_size or {"width": 1920, "height": 1080}
+        mouse = AdvancedMouseSimulator(page, viewport['width'], viewport['height'])
+        
+        if num_movements is None:
+            num_movements = random.randint(2, 4)
+        
+        for _ in range(num_movements):
+            mouse.random_movement()
+            time.sleep(random.uniform(0.1, 0.3))
+            
     except Exception as e:
-        page.mouse.move(target_x, target_y, steps=steps)
+        logger.warning(f"Mouse simulation error: {e}")
+
+
+def simulate_scroll(page, scroll_down: bool = True, config: dict = None):
+    """Legacy function for compatibility."""
+    try:
+        scroll = AdvancedScrollSimulator(page)
+        
+        if scroll_down:
+            for _ in range(random.randint(2, 4)):
+                scroll.read_scroll()
+        else:
+            scroll.back_scroll()
+            
+    except Exception as e:
+        logger.warning(f"Scroll simulation error: {e}")
+
+
+def human_mouse_move(page, target_x: float, target_y: float, steps: int = 25):
+    """Move mouse to specific target with natural motion."""
+    try:
+        viewport = page.viewport_size or {"width": 1920, "height": 1080}
+        mouse = AdvancedMouseSimulator(page, viewport['width'], viewport['height'])
+        mouse.move_to(target_x, target_y, smooth=True)
+    except Exception as e:
+        try:
+            page.mouse.move(target_x, target_y)
+        except:
+            pass
