@@ -74,12 +74,14 @@ app.add_middleware(
 class ScrapeRequest(BaseModel):
     """Request model for scraping."""
     url: HttpUrl
+    company_name: Optional[str] = None
     headless: Optional[bool] = None
     storage_state_path: Optional[str] = None
 
 
 class ArticleResponse(BaseModel):
     """Response model for scraped articles."""
+    company_name: Optional[str] = None
     title: Optional[str] = None
     date: Optional[str] = None
     source: Optional[str] = None
@@ -176,6 +178,7 @@ def scrape_article(
 
         if "error" in article_raw:
             return [ArticleResponse(
+                company_name=req.company_name,
                 error=article_raw["error"],
                 error_type=article_raw.get("error_type", "unknown"),
                 scrape_duration=duration_s,
@@ -185,6 +188,7 @@ def scrape_article(
             )]
 
         return [ArticleResponse(
+            company_name=req.company_name,
             title=article_raw.get("title"),
             date=article_raw.get("date"),
             source=article_raw.get("source"),
@@ -198,7 +202,7 @@ def scrape_article(
     except Exception as e:
         duration_s = time.time() - start_time
         logger.error(f"Scrape error: {e}")
-        return [ArticleResponse(error=str(e), scrape_duration=duration_s)]
+        return [ArticleResponse(company_name=req.company_name, error=str(e), scrape_duration=duration_s)]
 
 
 @app.post("/search", response_model=List[SearchResult])

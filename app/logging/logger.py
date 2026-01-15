@@ -13,6 +13,15 @@ from pathlib import Path
 from typing import Optional, Dict, Any
 from contextvars import ContextVar
 from urllib.parse import urlparse
+from zoneinfo import ZoneInfo
+
+# Egypt timezone
+EGYPT_TZ = ZoneInfo("Africa/Cairo")
+
+
+def get_egypt_time() -> datetime:
+    """Get current time in Egypt timezone."""
+    return datetime.now(EGYPT_TZ)
 
 # Context variable for correlation ID
 _correlation_id: ContextVar[str] = ContextVar('correlation_id', default='')
@@ -44,7 +53,7 @@ class ConsoleFormatter(logging.Formatter):
 
     def format(self, record: logging.LogRecord) -> str:
         color = self.COLORS.get(record.levelname, self.RESET)
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        timestamp = get_egypt_time().strftime("%Y-%m-%d %H:%M:%S")
         cid = get_correlation_id()
         return f"{timestamp} {color}[{record.levelname:8}]{self.RESET} [{cid}] {record.getMessage()}"
 
@@ -60,12 +69,13 @@ class DetailedScrapeLog:
         self.log_dir = Path(log_dir)
         self.log_dir.mkdir(parents=True, exist_ok=True)
         
-        # Create log file
+        # Create log file with Egypt timezone
         domain = urlparse(url).netloc.replace('www.', '')
-        timestamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
+        egypt_now = get_egypt_time()
+        timestamp = egypt_now.strftime("%Y-%m-%d_%H%M%S")
         self.log_file = self.log_dir / f"{timestamp}_{domain}.log"
         self.lines = []
-        self.start_time = datetime.now()
+        self.start_time = egypt_now
         self.session_id = None
         
         # Timing tracking
@@ -78,8 +88,8 @@ class DetailedScrapeLog:
         }
 
     def _ts(self) -> str:
-        """Get current timestamp."""
-        return datetime.now().strftime("%H:%M:%S.%f")[:-3]
+        """Get current timestamp in Egypt timezone."""
+        return get_egypt_time().strftime("%H:%M:%S.%f")[:-3]
 
     def _log(self, level: str, msg: str):
         """Add log line."""
@@ -133,7 +143,7 @@ class DetailedScrapeLog:
         self.info(f"║  📋 SESSION: {self.session_id}")
         self.info(f"║  🌐 URL: {self.url}")
         self.info(f"║  🔄 ATTEMPT: {attempt}/{max_attempts}")
-        self.info(f"║  ⏰ STARTED: {datetime.now().isoformat()}")
+        self.info(f"║  ⏰ STARTED: {get_egypt_time().isoformat()} (Egypt Time)")
         self.info("╠" + "═" * 74 + "╣")
         self.info("")
         
@@ -441,11 +451,12 @@ class DetailedScrapeLog:
     def footer(self, status: str, total_time: float = None):
         """Write log footer."""
         if total_time is None:
-            total_time = (datetime.now() - self.start_time).total_seconds()
+            total_time = (get_egypt_time() - self.start_time).total_seconds()
         self.lines.append("")
         self.lines.append("=" * 80)
         self.lines.append(f"STATUS: {status}")
         self.lines.append(f"TOTAL TIME: {total_time:.2f}s")
+        self.lines.append(f"ENDED: {get_egypt_time().isoformat()} (Egypt Time)")
         self.lines.append("END OF SCRAPE LOG")
         self.lines.append("=" * 80)
 
@@ -476,7 +487,7 @@ class ScrapeLogger:
 
     def start_session(self, url: str, attempt: int = 1, max_attempts: int = 3) -> str:
         """Start a new scrape session and return session_id."""
-        session_id = f"SCRAPE_{datetime.now().strftime('%Y%m%d_%H%M%S')}_{str(uuid.uuid4())[:4].upper()}"
+        session_id = f"SCRAPE_{get_egypt_time().strftime('%Y%m%d_%H%M%S')}_{str(uuid.uuid4())[:4].upper()}"
         set_correlation_id(session_id)
 
         # Create detailed log
@@ -626,7 +637,7 @@ class ScrapeLogger:
 
         # Save log file
         log_path = log.save()
-        duration = (datetime.now() - log.start_time).total_seconds()
+        duration = (get_egypt_time() - log.start_time).total_seconds()
         
         status = "success" if success else "failed"
         self.logger.info(f"Scrape {status}: {log.url} ({duration:.1f}s)")
