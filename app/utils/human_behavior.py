@@ -116,18 +116,32 @@ class AdvancedMouseSimulator:
                                   end_x: float, end_y: float) -> List[Tuple[float, float]]:
         """Generate bezier control points for natural curved path."""
         distance = math.sqrt((end_x - start_x)**2 + (end_y - start_y)**2)
-        curve_intensity = min(distance * 0.3, 100)
+        
+        # Calculate perpendicular direction for curve offset
+        dx = end_x - start_x
+        dy = end_y - start_y
+        
+        # Perpendicular vector (rotated 90 degrees)
+        perp_x = -dy
+        perp_y = dx
+        
+        # Normalize perpendicular
+        perp_len = math.sqrt(perp_x**2 + perp_y**2)
+        if perp_len > 0:
+            perp_x /= perp_len
+            perp_y /= perp_len
+        
+        # Curve offset: 15-40% of distance, perpendicular to straight line
+        curve_offset = distance * random.uniform(0.15, 0.40)
         curve_dir = random.choice([-1, 1])
         
-        cp1_x = start_x + (end_x - start_x) * random.uniform(0.2, 0.4)
-        cp1_y = start_y + (end_y - start_y) * random.uniform(0.2, 0.4)
-        cp1_x += random.uniform(-curve_intensity, curve_intensity) * curve_dir
-        cp1_y += random.uniform(-curve_intensity * 0.5, curve_intensity * 0.5)
+        # Control point 1: ~30% along path, offset perpendicular
+        cp1_x = start_x + dx * 0.3 + perp_x * curve_offset * curve_dir
+        cp1_y = start_y + dy * 0.3 + perp_y * curve_offset * curve_dir
         
-        cp2_x = start_x + (end_x - start_x) * random.uniform(0.6, 0.8)
-        cp2_y = start_y + (end_y - start_y) * random.uniform(0.6, 0.8)
-        cp2_x += random.uniform(-curve_intensity * 0.5, curve_intensity * 0.5) * curve_dir
-        cp2_y += random.uniform(-curve_intensity * 0.3, curve_intensity * 0.3)
+        # Control point 2: ~70% along path, offset perpendicular (same direction)
+        cp2_x = start_x + dx * 0.7 + perp_x * curve_offset * curve_dir * 0.6
+        cp2_y = start_y + dy * 0.7 + perp_y * curve_offset * curve_dir * 0.6
         
         return [(cp1_x, cp1_y), (cp2_x, cp2_y)]
     
