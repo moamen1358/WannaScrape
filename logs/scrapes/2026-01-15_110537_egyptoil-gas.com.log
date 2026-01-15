@@ -1,0 +1,137 @@
+================================================================================
+SCRAPE LOG: https://egyptoil-gas.com/news/qalaa-holding-eyes-debt-reduction-investment-in-subsidiaries/
+Started: 2026-01-15 11:05:37
+Session ID: N/A
+================================================================================
+[11:05:37.232] [INFO ] 📝 Scrape log: logs/scrapes/2026-01-15_110537_egyptoil-gas.com.log
+[11:05:37.232] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[11:05:37.840] [INFO ] 
+    🚀 BROWSER LAUNCHED
+    ├─ Mode:       Visible
+    ├─ Slow Mo:    46ms
+    ├─ Launch Time: 0.61s
+    └─ Args:       Anti-automation flags enabled
+[11:05:37.840] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-GB, tz=Europe/London
+[11:05:37.841] [INFO ] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  📋 SESSION: SCRAPE_20260115_110537_0001
+║  🌐 URL: https://egyptoil-gas.com/news/qalaa-holding-eyes-debt-reduction-i...
+║  🔄 ATTEMPT: 1/3
+║  ⏰ STARTED: 2026-01-15T11:05:37.232376
+╠══════════════════════════════════════════════════════════════════════════╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     CHROME v120 on WINDOWS
+    │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+    │ Viewport:    1366x768
+    │ Sec-CH-UA:   "Not_A Brand";v="8", "Chromium";v="120", "Google C...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    Manchester, UK
+    │ Timezone:    Europe/London
+    │ Locale:      en-GB
+    │ Geo:         53.4808, -2.2426
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://www.google.com/search?q=egyptoil-gas+com
+    └──────────────────────────────────────────────────────────────┘
+╚══════════════════════════════════════════════════════════════════════════╝
+[11:05:37.895] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[11:05:37.895] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[11:05:37.895] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[11:05:38.098] [INFO ] 
+    🥷 STEALTH MODE APPLIED
+    ├─ Navigator patches (webdriver, plugins, languages)
+    ├─ Chrome runtime patches
+    ├─ Console patches  
+    └─ Permission patches
+[11:05:38.100] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[11:05:38.100] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[11:05:38.101] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[11:05:38.102] [DEBUG] Enabled resource blocking (images, media, fonts)
+[11:05:38.102] [INFO ] 
+    🔗 NAVIGATING TO URL
+    ├─ Strategy:   domcontentloaded
+    ├─ Timeout:    15.0s
+    └─ Sleep:      1s after load
+[11:05:43.311] [INFO ] 
+    ✅ PAGE LOADED
+    ├─ Final URL:  https://egyptoil-gas.com/news/qalaa-holding-eyes-debt-reduct...
+    ├─ Title:      Qalaa Holding Eyes Debt Reduction, Investment in S...
+    └─ Load Time:  5.47s
+[11:05:46.145] [INFO ] 🧑 Human behavior simulation...
+[11:05:46.280] [INFO ] 🖱️ Mouse: 3 moves in 1366x768
+[11:05:49.315] [INFO ] 🖱️ Mouse completed: 3 moves
+[11:05:49.438] [INFO ] 📜 Scroll: page=1466px, viewport=768px
+[11:05:50.050] [INFO ] 📜 Scroll completed: 3 scrolls, reached 698px
+[11:05:50.051] [INFO ] 🧑 Human behavior completed in 3.9s ✓
+[11:05:50.051] [INFO ] 
+    🧑 HUMAN BEHAVIOR SIMULATED
+    ├─ Mouse Movements: 2
+    ├─ Scroll Actions:  3
+    └─ Time Spent:      7.35s
+[11:05:50.124] [INFO ]   📄 Fallback extraction using selector: '.post-content'
+[11:05:50.125] [INFO ] 
+    ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+    │ Title:            Qalaa Holding Eyes Debt Reduction, Investment in S...
+    │ Final URL:        https://egyptoil-gas.com/news/qalaa-holding-eyes-debt-reduct...
+    │ HTML Size:        207,242 bytes
+    │ Text Size:        1,317 chars
+    │ Word Count:       ~13 words
+    │ Extraction:       fallback:.post-content
+    │ Has Article:      ✅ Yes
+    └──────────────────────────────────────────────────────────────┘
+[11:05:50.140] [INFO ] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260115_110537_0001
+╠══════════════════════════════════════════════════════════════════════════╣
+
+    ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+    │ Browser Launch:      0.61s
+    │ Page Load:           5.47s
+    │ Cloudflare Wait:     0.00s
+    │ Human Simulation:    7.35s
+    │ Content Extraction:  5.54s
+    │ ─────────────────────────────────────────────────────────────
+    │ TOTAL TIME:          12.91s
+    └──────────────────────────────────────────────────────────────┘
+
+    ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+    │ Title:            Qalaa Holding Eyes Debt Reduction, Investment in S...
+    │ Final URL:        https://egyptoil-gas.com/news/qalaa-holding-eyes-debt-reduct...
+    │ HTML Size:        207,242 bytes
+    │ Text Size:        1,317 chars
+    │ Word Count:       ~13 words
+    │ Extraction:       fallback:.post-content
+    │ Has Article:      ✅ Yes
+    └──────────────────────────────────────────────────────────────┘
+╠══════════════════════════════════════════════════════════════════════════╣
+║  📊 SESSION STATS
+║  ├─ Strategies Tried:   domcontentloaded
+║  ├─ Popups Dismissed:   0
+║  ├─ Cloudflare:         Not detected
+║  └─ Proxy Used:         Direct
+╚══════════════════════════════════════════════════════════════════════════╝
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 13.04s
+END OF SCRAPE LOG
+================================================================================

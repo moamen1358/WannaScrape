@@ -1,0 +1,136 @@
+================================================================================
+SCRAPE LOG: https://www.indeed.com/viewjob?jk=abc123456789
+Started: 2026-01-15 11:08:57
+Session ID: N/A
+================================================================================
+[11:08:57.562] [INFO ] 📝 Scrape log: logs/scrapes/2026-01-15_110857_indeed.com.log
+[11:08:57.562] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[11:08:57.872] [INFO ] 
+    🚀 BROWSER LAUNCHED
+    ├─ Mode:       Visible
+    ├─ Slow Mo:    53ms
+    ├─ Launch Time: 0.31s
+    └─ Args:       Anti-automation flags enabled
+[11:08:57.872] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-AU, tz=Australia/Brisbane
+[11:08:57.873] [INFO ] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  📋 SESSION: SCRAPE_20260115_110857_0001
+║  🌐 URL: https://www.indeed.com/viewjob?jk=abc123456789
+║  🔄 ATTEMPT: 1/3
+║  ⏰ STARTED: 2026-01-15T11:08:57.562521
+╠══════════════════════════════════════════════════════════════════════════╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     SAFARI v605 on MACOS
+    │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHT...
+    │ Viewport:    2560x1440
+    │ Sec-CH-UA:   (not applicable)...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    Brisbane, Australia
+    │ Timezone:    Australia/Brisbane
+    │ Locale:      en-AU
+    │ Geo:         -27.4698, 153.0251
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://www.google.com/search?q=www+indeed+com
+    └──────────────────────────────────────────────────────────────┘
+╚══════════════════════════════════════════════════════════════════════════╝
+[11:08:57.879] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[11:08:57.879] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[11:08:57.879] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[11:08:58.048] [INFO ] 
+    🥷 STEALTH MODE APPLIED
+    ├─ Navigator patches (webdriver, plugins, languages)
+    ├─ Chrome runtime patches
+    ├─ Console patches  
+    └─ Permission patches
+[11:08:58.051] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[11:08:58.051] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[11:08:58.052] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[11:08:58.053] [DEBUG] Enabled resource blocking (images, media, fonts)
+[11:08:58.053] [INFO ] 
+    🔗 NAVIGATING TO URL
+    ├─ Strategy:   domcontentloaded
+    ├─ Timeout:    15.0s
+    └─ Sleep:      1s after load
+[11:08:59.145] [INFO ] 
+    ✅ PAGE LOADED
+    ├─ Final URL:  https://www.indeed.com/viewjob?jk=abc123456789
+    ├─ Title:      Not Found | Indeed
+    └─ Load Time:  1.27s
+[11:09:01.756] [INFO ] 🧑 Human behavior simulation...
+[11:09:01.864] [INFO ] 🖱️ Mouse: 2 moves in 2560x1440
+[11:09:04.313] [INFO ] 🖱️ Mouse completed: 2 moves
+[11:09:04.444] [INFO ] 📜 Scroll: page=385px, viewport=1440px
+[11:09:04.917] [INFO ] 📜 Scroll completed: 2 scrolls, reached 300px
+[11:09:04.917] [INFO ] 🧑 Human behavior completed in 3.2s ✓
+[11:09:04.917] [INFO ] 
+    🧑 HUMAN BEHAVIOR SIMULATED
+    ├─ Mouse Movements: 2
+    ├─ Scroll Actions:  2
+    └─ Time Spent:      6.08s
+[11:09:04.992] [INFO ] 
+    ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+    │ Title:            Not Found | Indeed
+    │ Final URL:        https://www.indeed.com/viewjob?jk=abc123456789
+    │ HTML Size:        128,172 bytes
+    │ Text Size:        0 chars
+    │ Word Count:       ~0 words
+    │ Extraction:       trafilatura
+    │ Has Article:      ✅ Yes
+    └──────────────────────────────────────────────────────────────┘
+[11:09:05.000] [INFO ] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260115_110857_0001
+╠══════════════════════════════════════════════════════════════════════════╣
+
+    ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+    │ Browser Launch:      0.31s
+    │ Page Load:           1.27s
+    │ Cloudflare Wait:     0.00s
+    │ Human Simulation:    6.08s
+    │ Content Extraction:  1.35s
+    │ ─────────────────────────────────────────────────────────────
+    │ TOTAL TIME:          7.44s
+    └──────────────────────────────────────────────────────────────┘
+
+    ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+    │ Title:            Not Found | Indeed
+    │ Final URL:        https://www.indeed.com/viewjob?jk=abc123456789
+    │ HTML Size:        128,172 bytes
+    │ Text Size:        0 chars
+    │ Word Count:       ~0 words
+    │ Extraction:       trafilatura
+    │ Has Article:      ✅ Yes
+    └──────────────────────────────────────────────────────────────┘
+╠══════════════════════════════════════════════════════════════════════════╣
+║  📊 SESSION STATS
+║  ├─ Strategies Tried:   domcontentloaded
+║  ├─ Popups Dismissed:   0
+║  ├─ Cloudflare:         Not detected
+║  └─ Proxy Used:         Direct
+╚══════════════════════════════════════════════════════════════════════════╝
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.65s
+END OF SCRAPE LOG
+================================================================================

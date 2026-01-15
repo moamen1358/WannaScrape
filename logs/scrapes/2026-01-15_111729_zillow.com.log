@@ -1,0 +1,535 @@
+================================================================================
+SCRAPE LOG: https://www.zillow.com/homedetails/123-Main-St/12345678_zpid/
+Started: 2026-01-15 11:17:29
+Session ID: N/A
+================================================================================
+[11:17:29.743] [INFO ] 📝 Scrape log: logs/scrapes/2026-01-15_111729_zillow.com.log
+[11:17:29.743] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[11:17:30.042] [INFO ] 
+    🚀 BROWSER LAUNCHED
+    ├─ Mode:       Visible
+    ├─ Slow Mo:    59ms
+    ├─ Launch Time: 0.30s
+    └─ Args:       Anti-automation flags enabled
+[11:17:30.042] [DEBUG] Browser profile: viewport={'width': 1600, 'height': 900}, locale=en-GB, tz=Europe/London
+[11:17:30.042] [INFO ] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  📋 SESSION: SCRAPE_20260115_111729_0001
+║  🌐 URL: https://www.zillow.com/homedetails/123-Main-St/12345678_zpid/
+║  🔄 ATTEMPT: 1/3
+║  ⏰ STARTED: 2026-01-15T11:17:29.743579
+╠══════════════════════════════════════════════════════════════════════════╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     FIREFOX v124 on WINDOWS
+    │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Fir...
+    │ Viewport:    1600x900
+    │ Sec-CH-UA:   (not applicable)...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    Birmingham, UK
+    │ Timezone:    Europe/London
+    │ Locale:      en-GB
+    │ Geo:         52.4862, -1.8904
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://www.google.com/
+    └──────────────────────────────────────────────────────────────┘
+╚══════════════════════════════════════════════════════════════════════════╝
+[11:17:30.051] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[11:17:30.051] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[11:17:30.052] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[11:17:30.220] [INFO ] 
+    🥷 STEALTH MODE APPLIED
+    ├─ Navigator patches (webdriver, plugins, languages)
+    ├─ Chrome runtime patches
+    ├─ Console patches  
+    └─ Permission patches
+[11:17:30.222] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[11:17:30.222] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[11:17:30.223] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[11:17:30.225] [DEBUG] Enabled resource blocking (images, media, fonts)
+[11:17:30.225] [INFO ] 
+    🔗 NAVIGATING TO URL
+    ├─ Strategy:   domcontentloaded
+    ├─ Timeout:    15.0s
+    └─ Sleep:      1s after load
+[11:17:30.549] [INFO ] 
+    ✅ PAGE LOADED
+    ├─ Final URL:  https://www.zillow.com/homedetails/123-Main-St/12345678_zpid...
+    ├─ Title:      Access to this page has been denied
+    └─ Load Time:  0.51s
+[11:17:32.889] [INFO ]   🤖 'Press & Hold' detected: #px-captcha
+[11:17:33.792] [INFO ]   🖱️ Holding button...
+[11:17:38.390] [INFO ]   🖱️ Released button.
+[11:17:42.909] [INFO ] 🧑 Human behavior simulation...
+[11:17:43.013] [INFO ] 🖱️ Mouse: 3 moves in 1600x900
+[11:17:46.583] [INFO ] 🖱️ Mouse completed: 3 moves
+[11:17:46.718] [INFO ] 📜 Scroll: page=2000px, viewport=900px
+[11:17:47.423] [INFO ] 📜 Scroll completed: 3 scrolls, reached 849px
+[11:17:47.423] [INFO ] 🧑 Human behavior completed in 4.5s ✓
+[11:17:47.423] [INFO ] 
+    🧑 HUMAN BEHAVIOR SIMULATED
+    ├─ Mouse Movements: 2
+    ├─ Scroll Actions:  2
+    └─ Time Spent:      17.17s
+[11:17:47.516] [INFO ] 📸 Screenshot saved: screenshots/2026-01-15/111747_access_denied_www.zillow.com_homedetails_123-Main-St_12345678_zp.png
+[11:17:47.516] [ERROR] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  ❌ SCRAPE FAILED - SCRAPE_20260115_111729_0001
+╠══════════════════════════════════════════════════════════════════════════╣
+║  🚫 ERROR DETAILS
+║  ├─ Type:        access_denied
+║  ├─ Message:     Ban/block detected: Access to this page has been denied
+║  ├─ Likely Ban:  🔴 YES
+║  └─ Screenshot:  screenshots/2026-01-15/111747_access_denied_www.zillow.com_homedetails_123-Main-St_12345678_zp.png
+╠──────────────────────────────────────────────────────────────────────────╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     FIREFOX v124 on WINDOWS
+    │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Fir...
+    │ Viewport:    1600x900
+    │ Sec-CH-UA:   (not applicable)...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    Birmingham, UK
+    │ Timezone:    Europe/London
+    │ Locale:      en-GB
+    │ Geo:         52.4862, -1.8904
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://www.google.com/
+    └──────────────────────────────────────────────────────────────┘
+
+    ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+    │ Browser Launch:      0.30s
+    │ Page Load:           0.51s
+    │ Cloudflare Wait:     0.00s
+    │ Human Simulation:    17.17s
+    │ Content Extraction:  0.00s
+    │ ─────────────────────────────────────────────────────────────
+    │ TOTAL TIME:          17.77s
+    └──────────────────────────────────────────────────────────────┘
+╠──────────────────────────────────────────────────────────────────────────╣
+║  📊 SESSION STATS
+║  ├─ Attempt:            1/3
+║  ├─ Strategies Tried:   domcontentloaded
+║  └─ Proxy Used:         Direct
+╚══════════════════════════════════════════════════════════════════════════╝
+[11:17:47.606] [WARNING] Failed to save screenshot: Event loop is closed! Is Playwright already stopped?
+[11:17:47.606] [ERROR] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  ❌ SCRAPE FAILED - SCRAPE_20260115_111729_0001
+╠══════════════════════════════════════════════════════════════════════════╣
+║  🚫 ERROR DETAILS
+║  ├─ Type:        unknown
+║  ├─ Message:     Access Denied by target site - Type: access_denied
+║  ├─ Likely Ban:  🟢 NO
+║  └─ Screenshot:  Not saved
+╠──────────────────────────────────────────────────────────────────────────╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     FIREFOX v124 on WINDOWS
+    │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Fir...
+    │ Viewport:    1600x900
+    │ Sec-CH-UA:   (not applicable)...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    Birmingham, UK
+    │ Timezone:    Europe/London
+    │ Locale:      en-GB
+    │ Geo:         52.4862, -1.8904
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://www.google.com/
+    └──────────────────────────────────────────────────────────────┘
+
+    ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+    │ Browser Launch:      0.30s
+    │ Page Load:           0.51s
+    │ Cloudflare Wait:     0.00s
+    │ Human Simulation:    17.17s
+    │ Content Extraction:  0.00s
+    │ ─────────────────────────────────────────────────────────────
+    │ TOTAL TIME:          17.86s
+    └──────────────────────────────────────────────────────────────┘
+╠──────────────────────────────────────────────────────────────────────────╣
+║  📊 SESSION STATS
+║  ├─ Attempt:            1/3
+║  ├─ Strategies Tried:   domcontentloaded
+║  └─ Proxy Used:         Direct
+╚══════════════════════════════════════════════════════════════════════════╝
+[11:17:47.607] [INFO ]   🔄 Retry attempt 2/3...
+[11:17:53.766] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[11:17:54.078] [INFO ] 
+    🚀 BROWSER LAUNCHED
+    ├─ Mode:       Visible
+    ├─ Slow Mo:    41ms
+    ├─ Launch Time: 0.31s
+    └─ Args:       Anti-automation flags enabled
+[11:17:54.078] [DEBUG] Browser profile: viewport={'width': 1440, 'height': 900}, locale=en-CA, tz=America/Vancouver
+[11:17:54.078] [INFO ] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  📋 SESSION: SCRAPE_20260115_111753_0002
+║  🌐 URL: https://www.zillow.com/homedetails/123-Main-St/12345678_zpid/
+║  🔄 ATTEMPT: 2/3
+║  ⏰ STARTED: 2026-01-15T11:17:53.766426
+╠══════════════════════════════════════════════════════════════════════════╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     SAFARI v605 on MACOS
+    │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (...
+    │ Viewport:    1440x900
+    │ Sec-CH-UA:   (not applicable)...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    Vancouver, Canada
+    │ Timezone:    America/Vancouver
+    │ Locale:      en-CA
+    │ Geo:         49.2827, -123.1207
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://www.google.com/search?q=www+zillow+com
+    └──────────────────────────────────────────────────────────────┘
+╚══════════════════════════════════════════════════════════════════════════╝
+[11:17:54.085] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[11:17:54.085] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[11:17:54.086] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[11:17:54.268] [INFO ] 
+    🥷 STEALTH MODE APPLIED
+    ├─ Navigator patches (webdriver, plugins, languages)
+    ├─ Chrome runtime patches
+    ├─ Console patches  
+    └─ Permission patches
+[11:17:54.271] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[11:17:54.271] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[11:17:54.273] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[11:17:54.274] [DEBUG] Enabled resource blocking (images, media, fonts)
+[11:17:54.274] [INFO ] 
+    🔗 NAVIGATING TO URL
+    ├─ Strategy:   domcontentloaded
+    ├─ Timeout:    15.0s
+    └─ Sleep:      1s after load
+[11:17:54.497] [INFO ] 
+    ✅ PAGE LOADED
+    ├─ Final URL:  https://www.zillow.com/homedetails/123-Main-St/12345678_zpid...
+    ├─ Title:      Access to this page has been denied
+    └─ Load Time:  0.42s
+[11:17:56.971] [INFO ]   🤖 'Press & Hold' detected: #px-captcha
+[11:17:57.780] [INFO ]   🖱️ Holding button...
+[11:18:03.129] [INFO ]   🖱️ Released button.
+[11:18:06.670] [INFO ] 🧑 Human behavior simulation...
+[11:18:06.848] [INFO ] 🖱️ Mouse: 3 moves in 1440x900
+[11:18:09.741] [INFO ] 🖱️ Mouse completed: 3 moves
+[11:18:09.867] [INFO ] 📜 Scroll: page=2000px, viewport=900px
+[11:18:10.286] [INFO ] 📜 Scroll completed: 2 scrolls, reached 781px
+[11:18:10.286] [INFO ] 🧑 Human behavior completed in 3.6s ✓
+[11:18:10.286] [INFO ] 
+    🧑 HUMAN BEHAVIOR SIMULATED
+    ├─ Mouse Movements: 2
+    ├─ Scroll Actions:  3
+    └─ Time Spent:      16.10s
+[11:18:10.351] [INFO ] 📸 Screenshot saved: screenshots/2026-01-15/111810_access_denied_www.zillow.com_homedetails_123-Main-St_12345678_zp.png
+[11:18:10.351] [ERROR] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  ❌ SCRAPE FAILED - SCRAPE_20260115_111753_0002
+╠══════════════════════════════════════════════════════════════════════════╣
+║  🚫 ERROR DETAILS
+║  ├─ Type:        access_denied
+║  ├─ Message:     Ban/block detected: Access to this page has been denied
+║  ├─ Likely Ban:  🔴 YES
+║  └─ Screenshot:  screenshots/2026-01-15/111810_access_denied_www.zillow.com_homedetails_123-Main-St_12345678_zp.png
+╠──────────────────────────────────────────────────────────────────────────╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     SAFARI v605 on MACOS
+    │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (...
+    │ Viewport:    1440x900
+    │ Sec-CH-UA:   (not applicable)...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    Vancouver, Canada
+    │ Timezone:    America/Vancouver
+    │ Locale:      en-CA
+    │ Geo:         49.2827, -123.1207
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://www.google.com/search?q=www+zillow+com
+    └──────────────────────────────────────────────────────────────┘
+
+    ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+    │ Browser Launch:      0.31s
+    │ Page Load:           0.42s
+    │ Cloudflare Wait:     0.00s
+    │ Human Simulation:    16.10s
+    │ Content Extraction:  0.00s
+    │ ─────────────────────────────────────────────────────────────
+    │ TOTAL TIME:          16.58s
+    └──────────────────────────────────────────────────────────────┘
+╠──────────────────────────────────────────────────────────────────────────╣
+║  📊 SESSION STATS
+║  ├─ Attempt:            2/3
+║  ├─ Strategies Tried:   domcontentloaded
+║  └─ Proxy Used:         Direct
+╚══════════════════════════════════════════════════════════════════════════╝
+[11:18:10.466] [WARNING] Failed to save screenshot: Event loop is closed! Is Playwright already stopped?
+[11:18:10.466] [ERROR] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  ❌ SCRAPE FAILED - SCRAPE_20260115_111753_0002
+╠══════════════════════════════════════════════════════════════════════════╣
+║  🚫 ERROR DETAILS
+║  ├─ Type:        unknown
+║  ├─ Message:     Access Denied by target site - Type: access_denied
+║  ├─ Likely Ban:  🟢 NO
+║  └─ Screenshot:  Not saved
+╠──────────────────────────────────────────────────────────────────────────╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     SAFARI v605 on MACOS
+    │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (...
+    │ Viewport:    1440x900
+    │ Sec-CH-UA:   (not applicable)...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    Vancouver, Canada
+    │ Timezone:    America/Vancouver
+    │ Locale:      en-CA
+    │ Geo:         49.2827, -123.1207
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://www.google.com/search?q=www+zillow+com
+    └──────────────────────────────────────────────────────────────┘
+
+    ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+    │ Browser Launch:      0.31s
+    │ Page Load:           0.42s
+    │ Cloudflare Wait:     0.00s
+    │ Human Simulation:    16.10s
+    │ Content Extraction:  0.00s
+    │ ─────────────────────────────────────────────────────────────
+    │ TOTAL TIME:          16.70s
+    └──────────────────────────────────────────────────────────────┘
+╠──────────────────────────────────────────────────────────────────────────╣
+║  📊 SESSION STATS
+║  ├─ Attempt:            2/3
+║  ├─ Strategies Tried:   domcontentloaded
+║  └─ Proxy Used:         Direct
+╚══════════════════════════════════════════════════════════════════════════╝
+[11:18:10.467] [INFO ]   🔄 Retry attempt 3/3...
+[11:18:13.832] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[11:18:14.144] [INFO ] 
+    🚀 BROWSER LAUNCHED
+    ├─ Mode:       Visible
+    ├─ Slow Mo:    52ms
+    ├─ Launch Time: 0.31s
+    └─ Args:       Anti-automation flags enabled
+[11:18:14.144] [DEBUG] Browser profile: viewport={'width': 1728, 'height': 1117}, locale=en-GB, tz=Europe/London
+[11:18:14.144] [INFO ] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  📋 SESSION: SCRAPE_20260115_111813_0003
+║  🌐 URL: https://www.zillow.com/homedetails/123-Main-St/12345678_zpid/
+║  🔄 ATTEMPT: 3/3
+║  ⏰ STARTED: 2026-01-15T11:18:13.832524
+╠══════════════════════════════════════════════════════════════════════════╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     SAFARI v605 on MACOS
+    │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_1) AppleWebKit/605.1.15 (KHT...
+    │ Viewport:    1728x1117
+    │ Sec-CH-UA:   (not applicable)...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    Birmingham, UK
+    │ Timezone:    Europe/London
+    │ Locale:      en-GB
+    │ Geo:         52.4862, -1.8904
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://www.google.com/search?q=www+zillow+com
+    └──────────────────────────────────────────────────────────────┘
+╚══════════════════════════════════════════════════════════════════════════╝
+[11:18:14.152] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[11:18:14.152] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[11:18:14.152] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[11:18:14.332] [INFO ] 
+    🥷 STEALTH MODE APPLIED
+    ├─ Navigator patches (webdriver, plugins, languages)
+    ├─ Chrome runtime patches
+    ├─ Console patches  
+    └─ Permission patches
+[11:18:14.334] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[11:18:14.334] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[11:18:14.335] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[11:18:14.336] [DEBUG] Enabled resource blocking (images, media, fonts)
+[11:18:14.336] [INFO ] 
+    🔗 NAVIGATING TO URL
+    ├─ Strategy:   domcontentloaded
+    ├─ Timeout:    15.0s
+    └─ Sleep:      1s after load
+[11:18:14.568] [INFO ] 
+    ✅ PAGE LOADED
+    ├─ Final URL:  https://www.zillow.com/homedetails/123-Main-St/12345678_zpid...
+    ├─ Title:      Access to this page has been denied
+    └─ Load Time:  0.42s
+[11:18:16.772] [INFO ]   🤖 'Press & Hold' detected: #px-captcha
+[11:18:17.896] [INFO ]   🖱️ Holding button...
+[11:18:21.847] [INFO ]   🖱️ Released button.
+[11:18:25.773] [INFO ] 🧑 Human behavior simulation...
+[11:18:25.945] [INFO ] 🖱️ Mouse: 3 moves in 1728x1117
+[11:18:29.350] [INFO ] 🖱️ Mouse completed: 3 moves
+[11:18:29.494] [INFO ] 📜 Scroll: page=2000px, viewport=1117px
+[11:18:30.219] [INFO ] 📜 Scroll completed: 2 scrolls, reached 525px
+[11:18:30.219] [INFO ] 🧑 Human behavior completed in 4.4s ✓
+[11:18:30.219] [INFO ] 
+    🧑 HUMAN BEHAVIOR SIMULATED
+    ├─ Mouse Movements: 3
+    ├─ Scroll Actions:  2
+    └─ Time Spent:      15.96s
+[11:18:30.281] [INFO ] 📸 Screenshot saved: screenshots/2026-01-15/111830_access_denied_www.zillow.com_homedetails_123-Main-St_12345678_zp.png
+[11:18:30.281] [ERROR] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  ❌ SCRAPE FAILED - SCRAPE_20260115_111813_0003
+╠══════════════════════════════════════════════════════════════════════════╣
+║  🚫 ERROR DETAILS
+║  ├─ Type:        access_denied
+║  ├─ Message:     Ban/block detected: Access to this page has been denied
+║  ├─ Likely Ban:  🔴 YES
+║  └─ Screenshot:  screenshots/2026-01-15/111830_access_denied_www.zillow.com_homedetails_123-Main-St_12345678_zp.png
+╠──────────────────────────────────────────────────────────────────────────╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     SAFARI v605 on MACOS
+    │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_1) AppleWebKit/605.1.15 (KHT...
+    │ Viewport:    1728x1117
+    │ Sec-CH-UA:   (not applicable)...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    Birmingham, UK
+    │ Timezone:    Europe/London
+    │ Locale:      en-GB
+    │ Geo:         52.4862, -1.8904
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://www.google.com/search?q=www+zillow+com
+    └──────────────────────────────────────────────────────────────┘
+
+    ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+    │ Browser Launch:      0.31s
+    │ Page Load:           0.42s
+    │ Cloudflare Wait:     0.00s
+    │ Human Simulation:    15.96s
+    │ Content Extraction:  0.00s
+    │ ─────────────────────────────────────────────────────────────
+    │ TOTAL TIME:          16.45s
+    └──────────────────────────────────────────────────────────────┘
+╠──────────────────────────────────────────────────────────────────────────╣
+║  📊 SESSION STATS
+║  ├─ Attempt:            3/3
+║  ├─ Strategies Tried:   domcontentloaded
+║  └─ Proxy Used:         Direct
+╚══════════════════════════════════════════════════════════════════════════╝
+[11:18:30.386] [WARNING] Failed to save screenshot: Event loop is closed! Is Playwright already stopped?
+[11:18:30.387] [ERROR] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  ❌ SCRAPE FAILED - SCRAPE_20260115_111813_0003
+╠══════════════════════════════════════════════════════════════════════════╣
+║  🚫 ERROR DETAILS
+║  ├─ Type:        unknown
+║  ├─ Message:     Access Denied by target site - Type: access_denied
+║  ├─ Likely Ban:  🟢 NO
+║  └─ Screenshot:  Not saved
+╠──────────────────────────────────────────────────────────────────────────╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     SAFARI v605 on MACOS
+    │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_1) AppleWebKit/605.1.15 (KHT...
+    │ Viewport:    1728x1117
+    │ Sec-CH-UA:   (not applicable)...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    Birmingham, UK
+    │ Timezone:    Europe/London
+    │ Locale:      en-GB
+    │ Geo:         52.4862, -1.8904
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://www.google.com/search?q=www+zillow+com
+    └──────────────────────────────────────────────────────────────┘
+
+    ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+    │ Browser Launch:      0.31s
+    │ Page Load:           0.42s
+    │ Cloudflare Wait:     0.00s
+    │ Human Simulation:    15.96s
+    │ Content Extraction:  0.00s
+    │ ─────────────────────────────────────────────────────────────
+    │ TOTAL TIME:          16.55s
+    └──────────────────────────────────────────────────────────────┘
+╠──────────────────────────────────────────────────────────────────────────╣
+║  📊 SESSION STATS
+║  ├─ Attempt:            3/3
+║  ├─ Strategies Tried:   domcontentloaded
+║  └─ Proxy Used:         Direct
+╚══════════════════════════════════════════════════════════════════════════╝
+[11:18:30.387] [WARNING] Failed to save screenshot: Event loop is closed! Is Playwright already stopped?
+[11:18:30.388] [INFO ] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  📊 OVERALL SCRAPING STATISTICS
+╠══════════════════════════════════════════════════════════════════════════╣
+║  Total Scrapes:    3
+║  Successful:       0 (0.0%)
+║  Failed:           3
+║  Banned/Blocked:   3
+║  Avg Time:         0.00s
+╚══════════════════════════════════════════════════════════════════════════╝
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 60.64s
+END OF SCRAPE LOG
+================================================================================

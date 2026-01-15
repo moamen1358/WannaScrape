@@ -1,0 +1,137 @@
+================================================================================
+SCRAPE LOG: https://www.amazon.com/
+Started: 2026-01-14 18:12:40
+Session ID: N/A
+================================================================================
+[18:12:40.492] [INFO ] 📝 Scrape log: logs/scrapes/2026-01-14_181240_amazon.com.log
+[18:12:40.493] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[18:12:41.321] [INFO ] 
+    🚀 BROWSER LAUNCHED
+    ├─ Mode:       Visible
+    ├─ Slow Mo:    46ms
+    ├─ Launch Time: 0.83s
+    └─ Args:       Anti-automation flags enabled
+[18:12:41.324] [DEBUG] Browser profile: viewport={'width': 1600, 'height': 900}, locale=en-US, tz=America/New_York
+[18:12:41.325] [INFO ] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  📋 SESSION: SCRAPE_20260114_181240_0001
+║  🌐 URL: https://www.amazon.com/
+║  🔄 ATTEMPT: 1/3
+║  ⏰ STARTED: 2026-01-14T18:12:40.492957
+╠══════════════════════════════════════════════════════════════════════════╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     CHROME v123 on WINDOWS
+    │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+    │ Viewport:    1600x900
+    │ Sec-CH-UA:   "Not_A Brand";v="8", "Chromium";v="123", "Google C...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    Boston, USA
+    │ Timezone:    America/New_York
+    │ Locale:      en-US
+    │ Geo:         42.3601, -71.0589
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://www.google.com/
+    └──────────────────────────────────────────────────────────────┘
+╚══════════════════════════════════════════════════════════════════════════╝
+[18:12:41.512] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[18:12:41.514] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:12:41.518] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[18:12:42.217] [INFO ] 
+    🥷 STEALTH MODE APPLIED
+    ├─ Navigator patches (webdriver, plugins, languages)
+    ├─ Chrome runtime patches
+    ├─ Console patches  
+    └─ Permission patches
+[18:12:42.231] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[18:12:42.231] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:12:42.241] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[18:12:42.252] [DEBUG] Enabled resource blocking (images, media, fonts)
+[18:12:42.252] [INFO ] 
+    🔗 NAVIGATING TO URL
+    ├─ Strategy:   domcontentloaded
+    ├─ Timeout:    15.0s
+    └─ Sleep:      1s after load
+[18:12:44.739] [INFO ] 
+    ✅ PAGE LOADED
+    ├─ Final URL:  https://www.amazon.com/
+    ├─ Title:      Amazon.com. Spend less. Smile more.
+    └─ Load Time:  3.42s
+[18:12:47.496] [INFO ] 🧑 Human behavior simulation...
+[18:12:47.666] [INFO ] 🖱️ Mouse: 2 moves in 1600x900
+[18:12:50.016] [INFO ] 🖱️ Mouse completed: 2 moves
+[18:12:50.198] [INFO ] 📜 Scroll: page=5634px, viewport=900px
+[18:12:50.753] [INFO ] 📜 Scroll completed: 2 scrolls, reached 694px
+[18:12:50.754] [INFO ] 🧑 Human behavior completed in 3.3s ✓
+[18:12:50.754] [INFO ] 
+    🧑 HUMAN BEHAVIOR SIMULATED
+    ├─ Mouse Movements: 2
+    ├─ Scroll Actions:  2
+    └─ Time Spent:      6.84s
+[18:12:51.033] [INFO ]   📄 Fallback extraction using selector: '[role='main']'
+[18:12:51.033] [INFO ] 
+    ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+    │ Title:            Amazon.com. Spend less. Smile more.
+    │ Final URL:        https://www.amazon.com/
+    │ HTML Size:        936,157 bytes
+    │ Text Size:        2,256 chars
+    │ Word Count:       ~5 words
+    │ Extraction:       fallback:[role='main']
+    │ Has Article:      ✅ Yes
+    └──────────────────────────────────────────────────────────────┘
+[18:12:51.199] [INFO ] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260114_181240_0001
+╠══════════════════════════════════════════════════════════════════════════╣
+
+    ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+    │ Browser Launch:      0.83s
+    │ Page Load:           3.42s
+    │ Cloudflare Wait:     0.00s
+    │ Human Simulation:    6.84s
+    │ Content Extraction:  3.70s
+    │ ─────────────────────────────────────────────────────────────
+    │ TOTAL TIME:          10.71s
+    └──────────────────────────────────────────────────────────────┘
+
+    ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+    │ Title:            Amazon.com. Spend less. Smile more.
+    │ Final URL:        https://www.amazon.com/
+    │ HTML Size:        936,157 bytes
+    │ Text Size:        2,256 chars
+    │ Word Count:       ~5 words
+    │ Extraction:       fallback:[role='main']
+    │ Has Article:      ✅ Yes
+    └──────────────────────────────────────────────────────────────┘
+╠══════════════════════════════════════════════════════════════════════════╣
+║  📊 SESSION STATS
+║  ├─ Strategies Tried:   domcontentloaded
+║  ├─ Popups Dismissed:   0
+║  ├─ Cloudflare:         Not detected
+║  └─ Proxy Used:         Direct
+╚══════════════════════════════════════════════════════════════════════════╝
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 11.51s
+END OF SCRAPE LOG
+================================================================================

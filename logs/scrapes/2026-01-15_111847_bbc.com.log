@@ -1,0 +1,137 @@
+================================================================================
+SCRAPE LOG: https://www.bbc.com/news/technology
+Started: 2026-01-15 11:18:47
+Session ID: N/A
+================================================================================
+[11:18:47.170] [INFO ] 📝 Scrape log: logs/scrapes/2026-01-15_111847_bbc.com.log
+[11:18:47.170] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[11:18:47.463] [INFO ] 
+    🚀 BROWSER LAUNCHED
+    ├─ Mode:       Visible
+    ├─ Slow Mo:    45ms
+    ├─ Launch Time: 0.29s
+    └─ Args:       Anti-automation flags enabled
+[11:18:47.463] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-GB, tz=Europe/London
+[11:18:47.463] [INFO ] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  📋 SESSION: SCRAPE_20260115_111847_0001
+║  🌐 URL: https://www.bbc.com/news/technology
+║  🔄 ATTEMPT: 1/3
+║  ⏰ STARTED: 2026-01-15T11:18:47.170085
+╠══════════════════════════════════════════════════════════════════════════╣
+
+    ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+    │ Browser:     EDGE v122 on WINDOWS
+    │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+    │ Viewport:    2560x1440
+    │ Sec-CH-UA:   "Not_A Brand";v="8", "Chromium";v="122", "Microsof...
+    ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+    │ Location:    London, UK
+    │ Timezone:    Europe/London
+    │ Locale:      en-GB
+    │ Geo:         51.5074, -0.1278
+    ├─ NETWORK ────────────────────────────────────────────────────┤
+    │ Proxy:       Direct (no proxy)
+    │ Referrer:    https://www.facebook.com/
+    └──────────────────────────────────────────────────────────────┘
+╚══════════════════════════════════════════════════════════════════════════╝
+[11:18:47.472] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[11:18:47.472] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[11:18:47.472] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[11:18:47.607] [INFO ] 
+    🥷 STEALTH MODE APPLIED
+    ├─ Navigator patches (webdriver, plugins, languages)
+    ├─ Chrome runtime patches
+    ├─ Console patches  
+    └─ Permission patches
+[11:18:47.610] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[11:18:47.610] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[11:18:47.613] [INFO ] 
+    🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+    ├─ Canvas fingerprint noise
+    ├─ WebGL renderer/vendor spoof
+    ├─ Hardware concurrency randomization
+    ├─ Device memory randomization
+    ├─ Plugin masking
+    ├─ WebRTC IP leak protection
+    ├─ Network connection spoof
+    └─ Battery API spoof
+[11:18:47.614] [DEBUG] Enabled resource blocking (images, media, fonts)
+[11:18:47.614] [INFO ] 
+    🔗 NAVIGATING TO URL
+    ├─ Strategy:   domcontentloaded
+    ├─ Timeout:    15.0s
+    └─ Sleep:      1s after load
+[11:18:49.138] [INFO ] 
+    ✅ PAGE LOADED
+    ├─ Final URL:  https://www.bbc.com/innovation
+    ├─ Title:      BBC Innovation | Technology, Health, Environment, ...
+    └─ Load Time:  1.67s
+[11:18:51.818] [INFO ] 🧑 Human behavior simulation...
+[11:18:51.943] [INFO ] 🖱️ Mouse: 3 moves in 2560x1440
+[11:18:54.922] [INFO ] 🖱️ Mouse completed: 3 moves
+[11:18:55.088] [INFO ] 📜 Scroll: page=6205px, viewport=1440px
+[11:18:55.711] [INFO ] 📜 Scroll completed: 2 scrolls, reached 665px
+[11:18:55.711] [INFO ] 🧑 Human behavior completed in 3.9s ✓
+[11:18:55.711] [INFO ] 
+    🧑 HUMAN BEHAVIOR SIMULATED
+    ├─ Mouse Movements: 2
+    ├─ Scroll Actions:  2
+    └─ Time Spent:      6.87s
+[11:18:55.764] [INFO ]   📄 Fallback extraction using selector: 'article'
+[11:18:55.765] [INFO ] 
+    ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+    │ Title:            BBC Innovation | Technology, Health, Environment, ...
+    │ Final URL:        https://www.bbc.com/innovation
+    │ HTML Size:        316,439 bytes
+    │ Text Size:        8,674 chars
+    │ Word Count:       ~7 words
+    │ Extraction:       fallback:article
+    │ Has Article:      ✅ Yes
+    └──────────────────────────────────────────────────────────────┘
+[11:18:55.989] [INFO ] 
+╔══════════════════════════════════════════════════════════════════════════╗
+║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260115_111847_0001
+╠══════════════════════════════════════════════════════════════════════════╣
+
+    ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+    │ Browser Launch:      0.29s
+    │ Page Load:           1.67s
+    │ Cloudflare Wait:     0.00s
+    │ Human Simulation:    6.87s
+    │ Content Extraction:  1.73s
+    │ ─────────────────────────────────────────────────────────────
+    │ TOTAL TIME:          8.82s
+    └──────────────────────────────────────────────────────────────┘
+
+    ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+    │ Title:            BBC Innovation | Technology, Health, Environment, ...
+    │ Final URL:        https://www.bbc.com/innovation
+    │ HTML Size:        316,439 bytes
+    │ Text Size:        8,674 chars
+    │ Word Count:       ~7 words
+    │ Extraction:       fallback:article
+    │ Has Article:      ✅ Yes
+    └──────────────────────────────────────────────────────────────┘
+╠══════════════════════════════════════════════════════════════════════════╣
+║  📊 SESSION STATS
+║  ├─ Strategies Tried:   domcontentloaded
+║  ├─ Popups Dismissed:   0
+║  ├─ Cloudflare:         Not detected
+║  └─ Proxy Used:         Direct
+╚══════════════════════════════════════════════════════════════════════════╝
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 9.23s
+END OF SCRAPE LOG
+================================================================================

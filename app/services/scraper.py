@@ -638,8 +638,10 @@ def _classify_error(error_msg: str, page_content: str = "", page_title: str = ""
         return classification
 
     # CAPTCHA / Bot detection - these are very specific phrases
-    captcha_indicators = ["verify you are human", "press & hold", "prove you're not a robot", 
-                         "complete the captcha", "security check", "one more step"]
+    captcha_indicators = ["verify you are human", "press & hold", "prove you're not a robot",
+                         "complete the captcha", "security check", "one more step",
+                         "confirm you are", "human (and not a bot)", "reference id",
+                         "are you a robot", "bot verification", "challenge page"]
     if any(x in content_lower for x in captcha_indicators):
         classification["type"] = "bot_detection"
         classification["likely_ban"] = True
@@ -658,7 +660,8 @@ def _classify_error(error_msg: str, page_content: str = "", page_title: str = ""
         return classification
 
     # Access denied - ONLY check title, not body (to avoid false positives on security articles)
-    access_denied_title_indicators = ["access denied", "403 forbidden", "blocked", "you have been blocked"]
+    access_denied_title_indicators = ["access denied", "403 forbidden", "blocked", "you have been blocked",
+                                      "has been denied", "page denied", "not available", "unavailable"]
     is_access_denied_title = any(x in title_lower for x in access_denied_title_indicators)
     
     # Also check if the page is very short (typical error page)
@@ -1279,10 +1282,11 @@ class WebScraper:
                             
                             # Smart ban detection: only trigger if:
                             # 1. Error classification says it's a ban AND
-                            # 2. Page is short (real error pages are <10KB) OR title clearly indicates error
-                            is_short_page = content_length < 10000
-                            title_indicates_error = any(x in page_title_lower for x in 
-                                ["access denied", "blocked", "forbidden", "error", "captcha", "verify"])
+                            # 2. Page is short (real error pages are <15KB) OR title clearly indicates error
+                            is_short_page = content_length < 15000
+                            title_indicates_error = any(x in page_title_lower for x in
+                                ["access denied", "blocked", "forbidden", "error", "captcha", "verify",
+                                 "has been denied", "denied", "not available", "unavailable"])
                             
                             is_real_ban = error_classification["likely_ban"] and (is_short_page or title_indicates_error)
 
@@ -1511,14 +1515,37 @@ class WebScraper:
         if result:
             parsed_result = json.loads(result)
             text = parsed_result.get('text', '')
-            
-            if len(text) < 100:
+            text_lower = text.lower()
+
+            # Check if extracted text contains CAPTCHA/bot detection phrases
+            captcha_phrases = ["press & hold", "verify you are human", "prove you're not a robot",
+                              "human (and not a bot)", "reference id", "confirm you are",
+                              "security check", "complete the captcha", "are you a robot"]
+            is_captcha_text = any(phrase in text_lower for phrase in captcha_phrases)
+
+            if is_captcha_text or len(text) < 300:
+                # Take screenshot to capture what blocked us
+                screenshot_path = getattr(self, '_final_screenshot_path', None)
+                if not screenshot_path and hasattr(self, '_last_page') and self._last_page:
+                    try:
+                        reason = "captcha_detected" if is_captcha_text else "insufficient_content"
+                        screenshot_path = _save_failure_screenshot(
+                            self._last_page, url, reason,
+                            f"Text: {text[:100]}..." if text else "No text"
+                        )
+                    except Exception:
+                        pass
+
                 total_time = time.time() - scrape_start_time
-                scrape_file_logger.close_scrape_log(status="insufficient_content", total_time=total_time)
+                status = "captcha_blocked" if is_captcha_text else "insufficient_content"
+                scrape_file_logger.close_scrape_log(status=status, total_time=total_time)
+                error_msg = "CAPTCHA or bot detection blocked content extraction." if is_captcha_text else "Insufficient content extracted. The page may be an error page, paywall, or require login."
                 return {
-                    "error": "Insufficient content extracted. The page may be an error page, paywall, or require login.",
+                    "error": error_msg,
+                    "error_type": "captcha" if is_captcha_text else "insufficient_content",
                     "final_url": final_url,
                     "extracted_text": text,
+                    "screenshot_path": screenshot_path,
                     "user_agent_used": f"{used_browser_profile.browser}/{used_browser_profile.version}" if used_browser_profile else "unknown",
                     "location_used": used_location.get("name", "unknown") if used_location else "unknown"
                 }
@@ -1533,7 +1560,36 @@ class WebScraper:
             scrape_file_logger.close_scrape_log(status="success", total_time=total_time)
             return parsed_result
         elif simple_text and len(simple_text) > 500:
-            logger.warning("⚠️ Trafilatura failed to extract content. Falling back to raw text.")
+            # Check fallback text for CAPTCHA phrases too
+            simple_text_lower = simple_text.lower()
+            captcha_phrases = ["press & hold", "verify you are human", "prove you're not a robot",
+                              "human (and not a bot)", "reference id", "confirm you are",
+                              "security check", "complete the captcha", "are you a robot"]
+            is_captcha_text = any(phrase in simple_text_lower for phrase in captcha_phrases)
+
+            if is_captcha_text:
+                screenshot_path = getattr(self, '_final_screenshot_path', None)
+                if not screenshot_path and hasattr(self, '_last_page') and self._last_page:
+                    try:
+                        screenshot_path = _save_failure_screenshot(
+                            self._last_page, url, "captcha_detected",
+                            f"Fallback text contains CAPTCHA: {simple_text[:100]}..."
+                        )
+                    except Exception:
+                        pass
+                total_time = time.time() - scrape_start_time
+                scrape_file_logger.close_scrape_log(status="captcha_blocked", total_time=total_time)
+                return {
+                    "error": "CAPTCHA or bot detection blocked content extraction.",
+                    "error_type": "captcha",
+                    "final_url": final_url,
+                    "extracted_text": simple_text[:500],
+                    "screenshot_path": screenshot_path,
+                    "user_agent_used": f"{used_browser_profile.browser}/{used_browser_profile.version}" if used_browser_profile else "unknown",
+                    "location_used": used_location.get("name", "unknown") if used_location else "unknown"
+                }
+
+            logger.warning("Trafilatura failed to extract content. Falling back to raw text.")
             total_time = time.time() - scrape_start_time
             scrape_file_logger.close_scrape_log(status="fallback", total_time=total_time)
             return {
@@ -1546,11 +1602,24 @@ class WebScraper:
                 "location_used": used_location.get("name", "unknown") if used_location else "unknown"
             }
         else:
+            # Take screenshot for no content case
+            screenshot_path = getattr(self, '_final_screenshot_path', None)
+            if not screenshot_path and hasattr(self, '_last_page') and self._last_page:
+                try:
+                    screenshot_path = _save_failure_screenshot(
+                        self._last_page, url, "no_content",
+                        "Could not extract any content"
+                    )
+                except Exception:
+                    pass
+
             total_time = time.time() - scrape_start_time
             scrape_file_logger.close_scrape_log(status="no_content", total_time=total_time)
             return {
                 "error": "Could not extract content from the page.",
+                "error_type": "no_content",
                 "final_url": final_url,
+                "screenshot_path": screenshot_path,
                 "user_agent_used": f"{used_browser_profile.browser}/{used_browser_profile.version}" if used_browser_profile else "unknown",
                 "location_used": used_location.get("name", "unknown") if used_location else "unknown"
             }

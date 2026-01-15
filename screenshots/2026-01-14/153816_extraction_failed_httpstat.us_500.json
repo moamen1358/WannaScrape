@@ -1,9 +1,0 @@
-{
-  "url": "https://httpstat.us/500",
-  "final_url": "chrome-error://chromewebdata/",
-  "page_title": "",
-  "error_type": "extraction_failed",
-  "error_message": "Final attempt - no content extracted (len=0)",
-  "timestamp": "2026-01-14T15:38:16.898514",
-  "screenshot_file": "153816_extraction_failed_httpstat.us_500.png"
-}
