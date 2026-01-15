@@ -8,7 +8,7 @@ from app.logging.logger import (
     get_correlation_id,
     set_correlation_id,
     ScrapeLogger,
-    ScrapeSession,
+    DetailedScrapeLog,
 )
 
 __all__ = [
@@ -17,5 +17,5 @@ __all__ = [
     "get_correlation_id",
     "set_correlation_id",
     "ScrapeLogger",
-    "ScrapeSession",
+    "DetailedScrapeLog",
 ]

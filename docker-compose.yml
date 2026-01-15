@@ -1,28 +1,16 @@
-version: '3.8'
-
 services:
   scraper-api:
     build: .
     image: moamen1358/website-scrapper:latest
     container_name: scraper-api
-    environment:
-      - SERVICE_TYPE=scraper
     ports:
       - "8000:8000"
     volumes:
       - ./config:/app/config
+      - ./data:/app/data
       - ./logs:/app/logs
-    restart: always
-
-  search-api:
-    build: .
-    image: moamen1358/website-scrapper:latest
-    container_name: search-api
     environment:
-      - SERVICE_TYPE=search
-    ports:
-      - "8001:8001"
-    volumes:
-      - ./config:/app/config
-      - ./logs:/app/logs
-    restart: always
+      - SCRAPER_HEADLESS=true
+      - SCRAPER_PROXY_ENABLED=false
+      - SCRAPER_CAPTCHA_ENABLED=false
+    restart: unless-stopped

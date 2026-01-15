@@ -128,7 +128,7 @@ def simulate_scroll(page, scroll_down: bool = True, config: dict = None):
         logger.warning(f"Scroll simulation error: {e}")
 
 
-def simulate_human_behavior(page, config: dict = None):
+def simulate_human_behavior(page, config: dict = None) -> dict:
     """
     Combined human behavior simulation.
     Runs mouse movements and scrolling in ~2-4 seconds.
@@ -136,21 +136,40 @@ def simulate_human_behavior(page, config: dict = None):
     Args:
         page: Playwright page object
         config: Configuration dict
+        
+    Returns:
+        Dict with behavior stats (mouse_moves, scrolls)
     """
+    stats = {"mouse_moves": 0, "scrolls": 0}
+    
     try:
-        logger.info("Starting human behavior simulation...")
         start_time = time.time()
 
         time.sleep(random.uniform(0.1, 0.2))
-        simulate_mouse_movement(page, config=config)
+        
+        # Get movement counts from config
+        hb_config = config.get("human_behavior", {}) if config else {}
+        mv_config = hb_config.get("mouse_movements", {"min": 2, "max": 3})
+        scroll_config = hb_config.get("scroll_actions", {"min": 2, "max": 3})
+        
+        mouse_moves = random.randint(mv_config.get("min", 2), mv_config.get("max", 3))
+        scroll_actions = random.randint(scroll_config.get("min", 2), scroll_config.get("max", 3))
+        
+        stats["mouse_moves"] = mouse_moves
+        stats["scrolls"] = scroll_actions
+        
+        simulate_mouse_movement(page, num_movements=mouse_moves, config=config)
         time.sleep(random.uniform(0.1, 0.2))
         simulate_scroll(page, config=config)
 
         elapsed = time.time() - start_time
         logger.info(f"Human behavior completed in {elapsed:.1f}s")
+        
+        return stats
 
     except Exception as e:
         logger.warning(f"Human behavior error: {e}")
+        return stats
 
 
 def human_mouse_move(page, target_x: float, target_y: float, steps: int = 25):

@@ -226,6 +226,9 @@ class WebScraper:
         proxy = None
         profile_info = {}
 
+        # Log timeout
+        self.scrape_logger.log_timeout(session_id, max_timeout)
+
         # Check for saved session
         if storage_state_path is None and self.session_manager:
             if self.session_manager.should_use_session(url):
@@ -245,12 +248,17 @@ class WebScraper:
             try:
                 with sync_playwright() as p:
                     # Launch browser
+                    browser_start = time.time()
                     slow_mo = self.browser_manager.get_slow_mo()
                     browser = p.chromium.launch(
                         headless=headless,
                         slow_mo=slow_mo,
                         args=self.browser_manager.get_launch_args()
                     )
+                    browser_launch_time = time.time() - browser_start
+                    
+                    # Log browser launch
+                    self.scrape_logger.log_browser_launch(session_id, headless, slow_mo, browser_launch_time)
 
                     # Get proxy
                     if self.proxy_manager:
@@ -263,15 +271,39 @@ class WebScraper:
                         browser, url, proxy, storage_state_path
                     )
 
-                    # Log browser config
-                    self.scrape_logger.log_browser_config(session_id, {
-                        "user_agent": profile_info.get("browser_profile", {}).user_agent if profile_info.get("browser_profile") else "unknown",
-                        "viewport": profile_info.get("viewport"),
-                        "location": profile_info.get("location", {}).get("name") if profile_info.get("location") else None
-                    })
+                    # Log detailed browser profile and fingerprint
+                    viewport = profile_info.get("viewport", {})
+                    location = profile_info.get("location", {})
+                    browser_profile = profile_info.get("browser_profile")
+                    
+                    self.scrape_logger.log_browser_profile(
+                        session_id, 
+                        viewport,
+                        location.get("locale", "en-US"),
+                        location.get("timezone", "UTC")
+                    )
+                    
+                    # Log session start with fingerprint
+                    fingerprint = {
+                        "browser": f"{browser_profile.browser.upper()} v{browser_profile.version}" if browser_profile else "N/A",
+                        "user_agent": browser_profile.user_agent if browser_profile else "N/A",
+                        "viewport": viewport,
+                        "location": location,
+                        "proxy": mask_proxy(proxy) if proxy else "Direct (no proxy)",
+                        "referrer": profile_info.get("referrer", "https://www.google.com/")
+                    }
+                    self.scrape_logger.log_session_start(session_id, attempt + 1, max_retries, fingerprint)
+                    
+                    # Log anti-detection
+                    self.scrape_logger.log_anti_detection(session_id, "context")
 
                     # Setup page
                     page = self.browser_manager.setup_page(context)
+                    
+                    # Log stealth mode and page-level anti-detection
+                    self.scrape_logger.log_stealth_mode(session_id)
+                    self.scrape_logger.log_anti_detection(session_id, "page")
+                    
                     timeout_checker.check("browser_setup")
 
                     # Navigate with strategies
@@ -281,10 +313,21 @@ class WebScraper:
 
                     for strategy in strategies:
                         try:
+                            # Log navigation start
+                            self.scrape_logger.log_navigation_start(
+                                session_id, 
+                                strategy["wait"], 
+                                strategy["timeout"] / 1000
+                            )
+                            
+                            nav_start = time.time()
                             page.goto(url, wait_until=strategy["wait"], timeout=strategy["timeout"])
                             final_url = page.url
+                            page_title = page.title()
+                            nav_time = time.time() - nav_start
 
-                            self.scrape_logger.log_navigation(session_id, final_url, page.title())
+                            # Log page loaded
+                            self.scrape_logger.log_page_loaded(session_id, final_url, page_title, nav_time)
                             timeout_checker.check("page_loaded")
 
                             # Wait for content
@@ -307,12 +350,24 @@ class WebScraper:
                             captcha_info = self.captcha_solver.detect_captcha_type(page)
                             if captcha_info:
                                 solved = self.captcha_solver.solve(page, url)
-                                self.scrape_logger.log_captcha(session_id, captcha_info["type"], solved)
+                                self.scrape_logger.log_captcha(session_id, captcha_info["type"], True, solved)
                                 if solved:
                                     page.wait_for_load_state('networkidle', timeout=30000)
 
                             # Human behavior simulation
-                            simulate_human_behavior(page, config=self.config)
+                            self.scrape_logger.log_human_behavior_start(session_id)
+                            human_start = time.time()
+                            behavior_stats = simulate_human_behavior(page, config=self.config)
+                            human_duration = time.time() - human_start
+                            
+                            # Log human behavior completion
+                            self.scrape_logger.log_human_behavior(
+                                session_id,
+                                behavior_stats.get("mouse_moves", 2),
+                                behavior_stats.get("scrolls", 2),
+                                human_duration,
+                                viewport
+                            )
                             timeout_checker.check("human_behavior")
 
                             # Check for access denied
@@ -321,14 +376,26 @@ class WebScraper:
                             error_class = classify_error("", page_content, page_title)
 
                             if error_class["likely_ban"] and len(page_content) < 15000:
-                                screenshot_path = save_failure_screenshot(page, url, error_class["type"])
+                                screenshot_path = save_failure_screenshot(page, url, error_class["type"], "Access denied detected")
                                 if self.proxy_manager and proxy:
                                     self.proxy_manager.mark_failed(proxy, cooldown_seconds=180)
-                                self.scrape_logger.log_error(session_id, error_class["type"], "Access denied", True)
+                                self.scrape_logger.log_error(
+                                    session_id, 
+                                    error_class["type"], 
+                                    "Access denied - likely bot detection",
+                                    likely_ban=True,
+                                    page_url=page.url,
+                                    page_title=page_title,
+                                    html_size=len(page_content),
+                                    recommendation=error_class["details"],
+                                    screenshot_path=screenshot_path
+                                )
                                 raise Exception(f"Access Denied - Type: {error_class['type']}")
 
                             # Extract content
+                            extraction_start = time.time()
                             extraction = self.content_extractor.extract(page)
+                            extraction_time = time.time() - extraction_start
 
                             if extraction["success"]:
                                 # Mark proxy as successful
@@ -342,14 +409,23 @@ class WebScraper:
                                     except Exception:
                                         pass
 
-                                self.scrape_logger.log_content_extracted(
+                                # Log content metrics
+                                result_data = extraction["data"]
+                                html_content = page.content()
+                                self.scrape_logger.log_content_metrics(
                                     session_id,
-                                    extraction["method"],
-                                    len(extraction["data"].get("text", ""))
+                                    result_data.get("title", "N/A"),
+                                    final_url,
+                                    len(html_content),
+                                    result_data.get("text", ""),
+                                    extraction["method"]
                                 )
 
                                 # Add profile info to result
                                 result = extraction["data"]
+                                result["html_size"] = len(html_content)
+                                result["extraction_method"] = extraction["method"]
+                                result["final_url"] = final_url
                                 if profile_info.get("browser_profile"):
                                     bp = profile_info["browser_profile"]
                                     result["user_agent_used"] = f"{bp.browser}/{bp.version}"
@@ -357,7 +433,7 @@ class WebScraper:
                                     result["location_used"] = profile_info["location"].get("name", "unknown")
 
                                 browser.close()
-                                self.scrape_logger.complete_session(session_id, True, result)
+                                self.scrape_logger.complete_session(session_id, True, result, extraction_time)
                                 return result
 
                             # Extraction failed
@@ -373,44 +449,98 @@ class WebScraper:
 
                     # Check for expired link
                     if check_expired_link(page.content()):
+                        screenshot_path = save_failure_screenshot(page, url, "expired_link", "Google News link expired")
                         browser.close()
                         result = {
                             "error": "Google News article link expired or unavailable.",
-                            "final_url": page.url
+                            "error_type": "expired_link",
+                            "final_url": page.url,
+                            "screenshot": screenshot_path
                         }
-                        self.scrape_logger.complete_session(session_id, False, result)
+                        self.scrape_logger.complete_session(session_id, False, result, screenshot_path=screenshot_path)
                         return result
 
                     browser.close()
 
             except ScrapeTimeoutError as timeout_err:
-                self.scrape_logger.log_error(session_id, "timeout", str(timeout_err))
-                self.scrape_logger.complete_session(session_id, False, {"error_type": "timeout"})
+                # Try to capture screenshot before browser closes
+                screenshot_path = None
+                try:
+                    if 'page' in locals() and page:
+                        screenshot_path = save_failure_screenshot(page, url, "timeout", f"Timed out at {timeout_err.elapsed_time:.1f}s")
+                except Exception:
+                    pass
+                
+                self.scrape_logger.log_error(
+                    session_id, 
+                    "timeout", 
+                    str(timeout_err),
+                    likely_ban=False,
+                    page_url=url,
+                    screenshot_path=screenshot_path
+                )
+                self.scrape_logger.complete_session(
+                    session_id, 
+                    False, 
+                    {"error_type": "timeout", "error": str(timeout_err)},
+                    screenshot_path=screenshot_path
+                )
                 return {
                     "error": f"Scrape timed out after {timeout_err.elapsed_time:.1f}s",
                     "error_type": "timeout",
                     "likely_ban": False,
-                    "final_url": url
+                    "final_url": url,
+                    "screenshot": screenshot_path
                 }
 
             except Exception as e:
                 last_error = str(e)
                 error_class = classify_error(last_error)
-                self.scrape_logger.log_error(session_id, error_class["type"], last_error)
+                
+                # Try to capture screenshot on exception
+                screenshot_path = None
+                try:
+                    if 'page' in locals() and page:
+                        page_title = page.title() if page else None
+                        html_size = len(page.content()) if page else None
+                        screenshot_path = save_failure_screenshot(page, url, error_class["type"], last_error[:100])
+                except Exception:
+                    page_title = None
+                    html_size = None
+                
+                self.scrape_logger.log_error(
+                    session_id, 
+                    error_class["type"], 
+                    last_error,
+                    likely_ban=error_class["likely_ban"],
+                    page_url=url,
+                    page_title=page_title if 'page_title' in locals() else None,
+                    html_size=html_size if 'html_size' in locals() else None,
+                    recommendation=error_class["details"],
+                    screenshot_path=screenshot_path
+                )
 
                 if attempt == max_retries - 1:
                     break
 
-        # All retries failed
+        # All retries failed - use the last screenshot if we captured one
         error_class = classify_error(last_error)
+        last_screenshot = screenshot_path if 'screenshot_path' in locals() else None
         result = {
             "error": f"Failed after {max_retries} attempts. Last error: {last_error}",
             "error_type": error_class["type"],
             "likely_ban": error_class["likely_ban"],
             "recommendation": error_class["details"],
-            "final_url": url
+            "final_url": url,
+            "screenshot": last_screenshot
         }
-        self.scrape_logger.complete_session(session_id, False, result)
+        self.scrape_logger.complete_session(
+            session_id, 
+            False, 
+            result,
+            screenshot_path=last_screenshot,
+            retries_attempted=max_retries
+        )
         return result
 
     def find_source_from_text(self, text: str, num_results: int = 3) -> List[Dict[str, Any]]:

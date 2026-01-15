@@ -19,11 +19,11 @@ RUN playwright install chromium
 # Copy application code
 COPY . .
 
-# Create logs directory
-RUN mkdir -p logs
+# Create data directories
+RUN mkdir -p data/logs data/screenshots data/sessions
 
-# Make entrypoint script executable
-RUN chmod +x entrypoint.sh
+# Expose port
+EXPOSE 8000
 
-# Set entrypoint
-ENTRYPOINT ["./entrypoint.sh"]
+# Default command - start the API server
+CMD ["python", "main.py", "serve", "--host", "0.0.0.0", "--port", "8000"]
