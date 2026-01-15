@@ -64,7 +64,7 @@ class DetailedScrapeLog:
     One log file per scrape session.
     """
 
-    def __init__(self, url: str, log_dir: str = "logs/scrapes"):
+    def __init__(self, url: str, log_dir: str = "data/logs/scrapes"):
         self.url = url
         self.log_dir = Path(log_dir)
         self.log_dir.mkdir(parents=True, exist_ok=True)
@@ -472,7 +472,7 @@ class ScrapeLogger:
     Unified scrape logging with session tracking and statistics.
     """
 
-    def __init__(self, log_dir: str = "logs/scrapes"):
+    def __init__(self, log_dir: str = "data/logs/scrapes"):
         self.log_dir = Path(log_dir)
         self.log_dir.mkdir(parents=True, exist_ok=True)
         self.sessions: Dict[str, DetailedScrapeLog] = {}

@@ -19,7 +19,7 @@ from urllib.parse import urlparse
 import warnings
 warnings.filterwarnings("ignore", category=RuntimeWarning)
 
-from duckduckgo_search import DDGS
+from ddgs import DDGS
 from playwright.sync_api import sync_playwright
 from tenacity import retry, stop_after_attempt, wait_exponential
 

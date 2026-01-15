@@ -20,7 +20,7 @@ RUN playwright install chromium
 COPY . .
 
 # Create data directories
-RUN mkdir -p data/logs data/screenshots data/sessions
+RUN mkdir -p data/logs/scrapes data/screenshots data/sessions
 
 # Expose port
 EXPOSE 8000

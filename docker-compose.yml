@@ -8,7 +8,6 @@ services:
     volumes:
       - ./config:/app/config
       - ./data:/app/data
-      - ./logs:/app/logs
     environment:
       - SCRAPER_HEADLESS=true
       - SCRAPER_PROXY_ENABLED=false
