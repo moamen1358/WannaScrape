@@ -112,7 +112,7 @@ class AdvancedMouseSimulator:
         except Exception as e:
             logger.debug(f"Could not inject visual cursor: {e}")
         
-    def _generate_control_points(self, start_x: float, start_y: float, 
+    def _generate_control_points(self, start_x: float, start_y: float,
                                   end_x: float, end_y: float) -> List[Tuple[float, float]]:
         """Generate bezier control points for natural curved path."""
         distance = math.sqrt((end_x - start_x)**2 + (end_y - start_y)**2)
@@ -311,7 +311,7 @@ class AdvancedScrollSimulator:
         if duration is None:
             duration = random.uniform(0.1, 0.2)  # Fast scroll
         
-        target = max(0, min(self.page_height - self.viewport_height, 
+        target = max(0, min(self.page_height - self.viewport_height,
                            self.current_position + amount))
         
         steps = max(3, int(abs(amount) / 80))  # Fewer steps

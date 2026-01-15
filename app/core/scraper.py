@@ -277,7 +277,7 @@ class WebScraper:
                     browser_profile = profile_info.get("browser_profile")
                     
                     self.scrape_logger.log_browser_profile(
-                        session_id, 
+                        session_id,
                         viewport,
                         location.get("locale", "en-US"),
                         location.get("timezone", "UTC")
@@ -315,8 +315,8 @@ class WebScraper:
                         try:
                             # Log navigation start
                             self.scrape_logger.log_navigation_start(
-                                session_id, 
-                                strategy["wait"], 
+                                session_id,
+                                strategy["wait"],
                                 strategy["timeout"] / 1000
                             )
                             
@@ -380,8 +380,8 @@ class WebScraper:
                                 if self.proxy_manager and proxy:
                                     self.proxy_manager.mark_failed(proxy, cooldown_seconds=180)
                                 self.scrape_logger.log_error(
-                                    session_id, 
-                                    error_class["type"], 
+                                    session_id,
+                                    error_class["type"],
                                     "Access denied - likely bot detection",
                                     likely_ban=True,
                                     page_url=page.url,
@@ -472,16 +472,16 @@ class WebScraper:
                     pass
                 
                 self.scrape_logger.log_error(
-                    session_id, 
-                    "timeout", 
+                    session_id,
+                    "timeout",
                     str(timeout_err),
                     likely_ban=False,
                     page_url=url,
                     screenshot_path=screenshot_path
                 )
                 self.scrape_logger.complete_session(
-                    session_id, 
-                    False, 
+                    session_id,
+                    False,
                     {"error_type": "timeout", "error": str(timeout_err)},
                     screenshot_path=screenshot_path
                 )
@@ -509,8 +509,8 @@ class WebScraper:
                     html_size = None
                 
                 self.scrape_logger.log_error(
-                    session_id, 
-                    error_class["type"], 
+                    session_id,
+                    error_class["type"],
                     last_error,
                     likely_ban=error_class["likely_ban"],
                     page_url=url,
@@ -535,8 +535,8 @@ class WebScraper:
             "screenshot": last_screenshot
         }
         self.scrape_logger.complete_session(
-            session_id, 
-            False, 
+            session_id,
+            False,
             result,
             screenshot_path=last_screenshot,
             retries_attempted=max_retries

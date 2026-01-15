@@ -104,7 +104,7 @@ def search(
     """
     setup_logging(level="INFO")
 
-    console.print(f"[bold blue]🔍 Searching for source...[/bold blue]")
+    console.print("[bold blue]🔍 Searching for source...[/bold blue]")
 
     try:
         scraper = WebScraper()

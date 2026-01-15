@@ -376,7 +376,7 @@ class DomainRateLimiter:
     Track request frequency per domain to avoid detection.
     """
     
-    def __init__(self, 
+    def __init__(self,
                  max_requests_per_domain_per_hour: int = 30,
                  min_delay_between_requests: float = 5.0,
                  max_delay_between_requests: float = 15.0):
@@ -580,7 +580,7 @@ class SessionManager:
 # HUMANIZED KEYBOARD INPUT
 # ============================================================================
 
-def type_like_human(page, selector: str, text: str, 
+def type_like_human(page, selector: str, text: str,
                     min_delay: int = 50, max_delay: int = 150):
     """
     Type text with human-like delays between keystrokes.

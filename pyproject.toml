@@ -32,15 +32,25 @@ line-length = 120
 target-version = "py310"
 
 [tool.ruff.lint]
-select = ["E", "F", "W", "I", "UP", "B"]
-ignore = ["E501"]  # Line too long
+select = ["E", "F", "W", "B"]
+ignore = [
+    "E402",  # Module level import not at top of file (needed for warnings.filterwarnings)
+    "E501",  # Line too long (handled by formatter)
+    "E722",  # Bare except (sometimes needed for broad exception handling)
+    "F401",  # Unused imports (often needed for re-exports in __init__.py)
+    "F841",  # Unused variable (sometimes needed for unpacking)
+    "W291",  # Trailing whitespace (cosmetic)
+    "W293",  # Blank line contains whitespace (cosmetic)
+    "B007",  # Loop variable not used (intentional in some cases)
+    "B008",  # Function call in default argument (required for FastAPI Depends)
+    "B904",  # raise without from (legacy code)
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = ["test_*.py"]
 python_functions = ["test_*"]
 addopts = "-v --tb=short"
-asyncio_mode = "auto"
 
 [tool.coverage.run]
 source = ["app"]

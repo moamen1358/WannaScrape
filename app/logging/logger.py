@@ -295,9 +295,9 @@ class DetailedScrapeLog:
             self.debug("No CAPTCHA detected")
 
     def log_error(
-        self, 
-        error_type: str, 
-        message: str, 
+        self,
+        error_type: str,
+        message: str,
         page_url: str = None,
         page_title: str = None,
         html_size: int = None,
@@ -410,8 +410,8 @@ class DetailedScrapeLog:
         self.info("")
 
     def log_failure(
-        self, 
-        error_type: str, 
+        self,
+        error_type: str,
         message: str,
         likely_ban: bool = False,
         recommendation: str = None,
@@ -434,13 +434,13 @@ class DetailedScrapeLog:
         self.info(f"    │ Likely Ban:       {'⚠️  YES' if likely_ban else '❌ No'}")
         self.info(f"    │ Retries Used:     {retries_attempted}")
         self.info("    │")
-        self.info(f"    │ Error Message:")
+        self.info("    │ Error Message:")
         # Break long messages into multiple lines
         msg_lines = [message[i:i+56] for i in range(0, len(message), 56)]
         for line in msg_lines[:5]:  # Max 5 lines
             self.info(f"    │   {line}")
         if len(msg_lines) > 5:
-            self.info(f"    │   ... (truncated)")
+            self.info("    │   ... (truncated)")
         self.info("    └──────────────────────────────────────────────────────────────┘")
         
         # Timing at failure
@@ -450,7 +450,7 @@ class DetailedScrapeLog:
         self.info(f"    │ Page Load:          {self.timings.get('page_load', 0):.2f}s")
         self.info(f"    │ Cloudflare Wait:    {self.timings.get('cloudflare', 0):.2f}s")
         self.info(f"    │ Human Simulation:   {self.timings.get('human_behavior', 0):.2f}s")
-        self.info(f"    │ ─────────────────────────────────────────────────────────────")
+        self.info("    │ ─────────────────────────────────────────────────────────────")
         self.info(f"    │ FAILED AT:          {total_time:.2f}s")
         self.info("    └──────────────────────────────────────────────────────────────┘")
         
@@ -600,9 +600,9 @@ class ScrapeLogger:
             self.stats["captcha_blocked"] += 1
 
     def log_error(
-        self, 
-        session_id: str, 
-        error_type: str, 
+        self,
+        session_id: str,
+        error_type: str,
         message: str,
         likely_ban: bool = False,
         page_url: str = None,
@@ -626,10 +626,10 @@ class ScrapeLogger:
         self.logger.error(f"❌ {error_type}: {message[:100]}")
 
     def complete_session(
-        self, 
-        session_id: str, 
-        success: bool, 
-        result: Dict[str, Any] = None, 
+        self,
+        session_id: str,
+        success: bool,
+        result: Dict[str, Any] = None,
         extraction_time: float = 0,
         screenshot_path: str = None,
         retries_attempted: int = 0
@@ -652,7 +652,7 @@ class ScrapeLogger:
             if error_type == "timeout":
                 self.stats["timeout"] += 1
             log.log_failure(
-                error_type=error_type, 
+                error_type=error_type,
                 message=message,
                 likely_ban=likely_ban,
                 recommendation=recommendation,

@@ -6,9 +6,13 @@ on:
   pull_request:
     branches: [ main ]
 
+env:
+  PYTHON_VERSION: '3.10'
+
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     
     steps:
     - uses: actions/checkout@v4
@@ -16,7 +20,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
+        python-version: ${{ env.PYTHON_VERSION }}
         cache: 'pip'
     
     - name: Install dependencies
@@ -24,23 +28,31 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     
+    - name: Cache Playwright browsers
+      uses: actions/cache@v4
+      with:
+        path: ~/.cache/ms-playwright
+        key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+    
     - name: Install Playwright browsers
       run: |
         playwright install chromium
         playwright install-deps chromium
     
-    - name: Run tests
+    - name: Run tests with coverage
       run: |
-        pytest tests/ -v --cov=app --cov-report=xml --cov-report=term-missing
+        pytest tests/ -v --cov=app --cov-report=xml --cov-report=term-missing --cov-fail-under=30
     
     - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v3
+      uses: codecov/codecov-action@v4
       with:
         file: ./coverage.xml
         fail_ci_if_error: false
+        token: ${{ secrets.CODECOV_TOKEN }}
 
   lint:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     
     steps:
     - uses: actions/checkout@v4
@@ -48,7 +60,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
+        python-version: ${{ env.PYTHON_VERSION }}
     
     - name: Install linting tools
       run: |
@@ -56,10 +68,38 @@ jobs:
     
     - name: Run Ruff linter
       run: |
-        ruff check app/ --ignore E501,UP006,UP007,UP035,UP045,TC001,TC002,TC003
+        ruff check app/ --config pyproject.toml
+
+  security:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+    
+    - name: Install security tools
+      run: |
+        pip install bandit safety
+    
+    - name: Run Bandit security scan
+      run: |
+        bandit -r app/ -ll --skip B101,B104
+      continue-on-error: true
+    
+    - name: Check dependencies for vulnerabilities
+      run: |
+        pip install -r requirements.txt
+        safety check --ignore 70612
+      continue-on-error: true
 
   docker:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     needs: [test, lint]
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     

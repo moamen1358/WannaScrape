@@ -14,8 +14,8 @@ class ScraperError(Exception):
     likely_ban: bool = False
     
     def __init__(
-        self, 
-        message: str, 
+        self,
+        message: str,
         error_type: str = None,
         likely_ban: bool = None,
         details: Optional[Dict[str, Any]] = None
@@ -45,8 +45,8 @@ class TimeoutError(ScraperError):
     likely_ban = False
     
     def __init__(
-        self, 
-        message: str, 
+        self,
+        message: str,
         elapsed_time: float,
         stage: str = "",
         screenshot_path: Optional[str] = None
@@ -68,7 +68,7 @@ class AccessDeniedError(ScraperError):
     likely_ban = True
     
     def __init__(
-        self, 
+        self,
         message: str,
         status_code: Optional[int] = None,
         url: Optional[str] = None
@@ -96,7 +96,7 @@ class CaptchaError(ScraperError):
     likely_ban = False
     
     def __init__(
-        self, 
+        self,
         message: str,
         captcha_type: Optional[str] = None,
         url: Optional[str] = None
@@ -114,7 +114,7 @@ class ContentExtractionError(ScraperError):
     likely_ban = False
     
     def __init__(
-        self, 
+        self,
         message: str,
         url: Optional[str] = None,
         html_size: Optional[int] = None
@@ -132,7 +132,7 @@ class NetworkError(ScraperError):
     likely_ban = False
     
     def __init__(
-        self, 
+        self,
         message: str,
         url: Optional[str] = None,
         status_code: Optional[int] = None
@@ -170,7 +170,7 @@ class RateLimitError(ScraperError):
     likely_ban = True
     
     def __init__(
-        self, 
+        self,
         message: str,
         retry_after: Optional[int] = None,
         url: Optional[str] = None
