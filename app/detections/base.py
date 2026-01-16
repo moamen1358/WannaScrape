@@ -98,10 +98,13 @@ class BaseDetection(ABC):
         self.config = config or {}
         self._setup()
 
-    def _setup(self):
+    def _setup(self):  # noqa: B027
         """
         Override this for custom initialization.
         Called after __init__ with self.config available.
+        
+        This is intentionally not abstract - subclasses can optionally
+        override this method for custom setup logic.
         """
         pass
 

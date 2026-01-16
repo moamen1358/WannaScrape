@@ -67,7 +67,6 @@ from .scripts import (
     PERFORMANCE_API_SCRIPT,
     MEDIA_DEVICES_SCRIPT,
     VISIBILITY_SCRIPT,
-    ADVANCED_ANTI_DETECTION_SCRIPT,
 )
 
 __all__ = [
