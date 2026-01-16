@@ -123,6 +123,6 @@ jobs:
         tags: |
           ${{ secrets.DOCKER_USERNAME }}/wannascrape:latest
           ${{ secrets.DOCKER_USERNAME }}/wannascrape:${{ github.sha }}
-          ${{ secrets.DOCKER_USERNAME }}/wannascrape:2.0.0
+          ${{ secrets.DOCKER_USERNAME }}/wannascrape:3.0.0
         cache-from: type=gha
         cache-to: type=gha,mode=max
