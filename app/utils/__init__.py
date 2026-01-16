@@ -2,7 +2,6 @@
 Utility functions.
 """
 
-from app.utils.cloudflare import is_cloudflare_challenge, wait_for_cloudflare
 from app.utils.human_behavior import (
     simulate_human_behavior,
     simulate_mouse_movement,
@@ -18,9 +17,6 @@ from app.utils.helpers import (
 )
 
 __all__ = [
-    # Cloudflare
-    "is_cloudflare_challenge",
-    "wait_for_cloudflare",
     # Human behavior
     "simulate_human_behavior",
     "simulate_mouse_movement",

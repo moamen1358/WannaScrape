@@ -539,3 +539,92 @@ def human_mouse_move(page, target_x: float, target_y: float, steps: int = 25):
             page.mouse.move(target_x, target_y)
         except Exception:
             pass
+
+
+def type_like_human(page, selector: str, text: str,
+                    min_delay: int = 50, max_delay: int = 150):
+    """
+    Type text with human-like delays between keystrokes.
+
+    Includes occasional typos and corrections for realism.
+
+    Args:
+        page: Playwright page object
+        selector: CSS selector for input element
+        text: Text to type
+        min_delay: Minimum delay between keystrokes in ms
+        max_delay: Maximum delay between keystrokes in ms
+    """
+    element = page.locator(selector)
+    element.focus()
+
+    for char in text:
+        # Occasional typo (3% chance)
+        if random.random() < 0.03 and char.isalpha():
+            # Type wrong character
+            wrong_char = chr(ord(char) + random.choice([-1, 1]))
+            page.keyboard.type(wrong_char)
+            time.sleep(random.uniform(0.1, 0.3))
+            # Backspace and correct
+            page.keyboard.press("Backspace")
+            time.sleep(random.uniform(0.05, 0.15))
+
+        # Type the character
+        page.keyboard.type(char)
+
+        # Variable delay
+        delay = random.randint(min_delay, max_delay)
+
+        # Longer pause after punctuation
+        if char in ".,!?;:":
+            delay *= 2
+
+        # Occasional longer pause (thinking)
+        if random.random() < 0.05:
+            delay *= 3
+
+        time.sleep(delay / 1000)
+
+
+def move_mouse_naturally(page, target_x: int, target_y: int, duration: float = 0.5):
+    """
+    Move mouse using bezier curves for natural-looking movement.
+
+    Args:
+        page: Playwright page object
+        target_x: Target X coordinate
+        target_y: Target Y coordinate
+        duration: Duration of movement in seconds
+    """
+    try:
+        # Get current position (approximate from viewport)
+        viewport = page.viewport_size
+        if not viewport:
+            return
+
+        # Start from random edge position
+        start_x = random.randint(0, viewport['width'])
+        start_y = random.randint(0, viewport['height'])
+
+        # Generate bezier control points
+        ctrl1_x = start_x + (target_x - start_x) * 0.3 + random.randint(-50, 50)
+        ctrl1_y = start_y + (target_y - start_y) * 0.3 + random.randint(-50, 50)
+        ctrl2_x = start_x + (target_x - start_x) * 0.7 + random.randint(-50, 50)
+        ctrl2_y = start_y + (target_y - start_y) * 0.7 + random.randint(-50, 50)
+
+        # Number of steps
+        steps = int(duration * 60)  # 60 fps
+
+        for i in range(steps + 1):
+            t = i / steps
+
+            # Bezier curve calculation
+            u = 1 - t
+            x = u**3 * start_x + 3 * u**2 * t * ctrl1_x + 3 * u * t**2 * ctrl2_x + t**3 * target_x
+            y = u**3 * start_y + 3 * u**2 * t * ctrl1_y + 3 * u * t**2 * ctrl2_y + t**3 * target_y
+
+            page.mouse.move(x, y)
+            time.sleep(duration / steps)
+
+    except Exception as e:
+        logger.debug(f"Natural mouse movement skipped: {e}")

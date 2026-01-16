@@ -150,9 +150,9 @@ class BrowserManager:
             target.add_init_script(WEBGL_SPOOF_SCRIPT)
             target.add_init_script(BROWSER_PATCHES_SCRIPT)
 
-            # Import and inject advanced anti-detection if available
+            # Import and inject advanced anti-detection
             try:
-                from app.services.advanced_anti_detection import inject_advanced_anti_detection
+                from app.services.anti_detection import inject_advanced_anti_detection
                 inject_advanced_anti_detection(target, is_context=is_context)
             except ImportError:
                 pass
