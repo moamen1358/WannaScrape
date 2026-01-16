@@ -27,11 +27,19 @@ from app.core.captcha_solver import CaptchaSolver
 from app.core.browser_manager import BrowserManager
 from app.core.content_extractor import ContentExtractor, check_expired_link
 from app.utils.proxy_manager import ProxyManager, load_proxies_from_file, mask_proxy
-from app.utils.cloudflare import is_cloudflare_challenge, wait_for_cloudflare
 from app.utils.human_behavior import simulate_human_behavior
 from app.utils.helpers import classify_error, save_failure_screenshot, load_config
 from app.config.constants import POPUP_SELECTORS
 from app.logging.logger import get_scrape_logger, set_correlation_id
+
+# Import detection plugin system
+try:
+    from app.detections.handler import DetectionHandler
+    HAS_DETECTION_PLUGINS = True
+except ImportError:
+    HAS_DETECTION_PLUGINS = False
+    # Fallback to legacy Cloudflare detection
+    from app.utils.cloudflare import is_cloudflare_challenge, wait_for_cloudflare
 
 # Import advanced anti-detection if available
 try:
@@ -112,9 +120,17 @@ class WebScraper:
 
         self.proxy_manager = ProxyManager(proxies) if proxies else None
 
-        # Initialize CAPTCHA solver
+        # Initialize CAPTCHA solver (legacy, kept for backward compatibility)
         captcha_config = self.config.get("captcha", {})
         self.captcha_solver = CaptchaSolver(captcha_config)
+
+        # Initialize detection plugin system
+        if HAS_DETECTION_PLUGINS:
+            self.detection_handler = DetectionHandler(config=self.config)
+            logger.info(f"Detection plugins loaded: {self.detection_handler.registry.list_all()}")
+        else:
+            self.detection_handler = None
+            logger.warning("Detection plugins not available, using legacy detection")
 
         # Initialize advanced features if available
         if HAS_ADVANCED_ANTI_DETECTION:
@@ -337,22 +353,52 @@ class WebScraper:
                             self._dismiss_popups(page)
                             timeout_checker.check("popup_handling")
 
-                            # Handle Cloudflare
-                            if is_cloudflare_challenge(page):
-                                cf_wait = min(45, int(timeout_checker.remaining()))
-                                cf_passed = wait_for_cloudflare(page, max_wait=cf_wait)
-                                self.scrape_logger.log_cloudflare(session_id, True, cf_wait)
-                                if not cf_passed:
-                                    continue
-                            timeout_checker.check("cloudflare_handling")
+                            # Handle bot detection using plugin system
+                            if self.detection_handler:
+                                # Use new plugin-based detection system
+                                detection_result = self.detection_handler.handle_detections(
+                                    page, url, max_solve_attempts=2
+                                )
 
-                            # Try to solve CAPTCHA
-                            captcha_info = self.captcha_solver.detect_captcha_type(page)
-                            if captcha_info:
-                                solved = self.captcha_solver.solve(page, url)
-                                self.scrape_logger.log_captcha(session_id, captcha_info["type"], True, solved)
-                                if solved:
-                                    page.wait_for_load_state('networkidle', timeout=30000)
+                                if detection_result.detected_any:
+                                    # Log what was detected
+                                    for det_name in detection_result.detections:
+                                        if det_name == "cloudflare":
+                                            self.scrape_logger.log_cloudflare(
+                                                session_id, True, int(timeout_checker.remaining())
+                                            )
+                                        else:
+                                            solved = detection_result.solve_results.get(det_name, False)
+                                            self.scrape_logger.log_captcha(session_id, det_name, True, solved)
+
+                                    # If still blocked after solving attempts, retry
+                                    if detection_result.blocked:
+                                        logger.warning(f"Still blocked by: {detection_result.detections}")
+                                        continue
+
+                                    # Wait for page to settle after solving
+                                    try:
+                                        page.wait_for_load_state('networkidle', timeout=10000)
+                                    except Exception:
+                                        pass
+
+                            else:
+                                # Legacy fallback: Cloudflare + CaptchaSolver
+                                if is_cloudflare_challenge(page):
+                                    cf_wait = min(45, int(timeout_checker.remaining()))
+                                    cf_passed = wait_for_cloudflare(page, max_wait=cf_wait)
+                                    self.scrape_logger.log_cloudflare(session_id, True, cf_wait)
+                                    if not cf_passed:
+                                        continue
+
+                                captcha_info = self.captcha_solver.detect_captcha_type(page)
+                                if captcha_info:
+                                    solved = self.captcha_solver.solve(page, url)
+                                    self.scrape_logger.log_captcha(session_id, captcha_info["type"], True, solved)
+                                    if solved:
+                                        page.wait_for_load_state('networkidle', timeout=30000)
+
+                            timeout_checker.check("detection_handling")
 
                             # Human behavior simulation
                             self.scrape_logger.log_human_behavior_start(session_id)
@@ -572,3 +618,9 @@ class WebScraper:
     def get_stats(self) -> Dict[str, Any]:
         """Get scraping statistics."""
         return self.scrape_logger.get_stats()
+
+    def get_detection_stats(self) -> Dict[str, Any]:
+        """Get detection plugin statistics."""
+        if self.detection_handler:
+            return self.detection_handler.get_stats()
+        return {"error": "Detection plugins not available"}
