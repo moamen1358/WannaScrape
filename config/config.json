@@ -100,7 +100,7 @@
     },
     "max_scrape_timeout": 45,
     "captcha": {
-        "enabled": true,
+        "enabled": false,
         "service": "2captcha",
         "api_key": "",
         "timeout": 120,
