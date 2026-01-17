@@ -190,7 +190,7 @@ def get_stats(scraper: WebScraper = Depends(get_scraper)):
 def scrape_article(
     req: ScrapeRequest,
     scraper: WebScraper = Depends(get_scraper),
-    #  api_key: str = Depends(verify_api_key)
+    api_key: str = Depends(verify_api_key)
 ):
     """
     Scrape an article from a URL.
@@ -273,7 +273,7 @@ def scrape_article(
 def search_source(
     req: SearchRequest,
     scraper: WebScraper = Depends(get_scraper),
-    # api_key: str = Depends(verify_api_key)
+    api_key: str = Depends(verify_api_key)
 ):
     """
     Search for the original source of a text snippet.
