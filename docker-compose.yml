@@ -27,7 +27,7 @@ services:
       - SCRAPER_HEADLESS=true
       - SCRAPER_PROXY_ENABLED=false
       - SCRAPER_CAPTCHA_ENABLED=false
-      - SCRAPER_API_KEY=${SCRAPER_API_KEY:-}
+      #- SCRAPER_API_KEY=${SCRAPER_API_KEY:-}
       - LOG_LEVEL=INFO
       # Data and config directory paths (matching volume mounts)
       - WANNASCRAPE_DATA_DIR=/app/data
