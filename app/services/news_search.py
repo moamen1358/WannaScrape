@@ -11,6 +11,7 @@ from pathlib import Path
 
 # Use TLS fingerprint client for anti-detection
 from app.services.tls_client import tls_get, is_tls_client_available, TLSHTTPError
+from app.config.settings import get_config_dir
 
 # Fallback to requests if needed
 import requests
@@ -89,7 +90,7 @@ def _classify_search_error(error_msg: str, status_code: int = None, response_tex
 def _load_config():
     """Load configuration from JSON file"""
     try:
-        config_path = Path("config/config.json")
+        config_path = Path(f"{get_config_dir()}/config.json")
         if config_path.exists():
             with open(config_path) as f:
                 return json.load(f)

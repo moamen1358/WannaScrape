@@ -15,6 +15,8 @@ from contextvars import ContextVar
 from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 
+from app.config.settings import get_data_dir
+
 # Egypt timezone
 EGYPT_TZ = ZoneInfo("Africa/Cairo")
 
@@ -90,7 +92,9 @@ class DetailedScrapeLog:
     One log file per scrape session.
     """
 
-    def __init__(self, url: str, log_dir: str = "data/logs/scrapes"):
+    def __init__(self, url: str, log_dir: str = None):
+        if log_dir is None:
+            log_dir = f"{get_data_dir()}/logs/scrapes"
         self.url = url
         self.log_dir = Path(log_dir)
         self.log_dir.mkdir(parents=True, exist_ok=True)
@@ -498,7 +502,9 @@ class ScrapeLogger:
     Unified scrape logging with session tracking and statistics.
     """
 
-    def __init__(self, log_dir: str = "data/logs/scrapes"):
+    def __init__(self, log_dir: str = None):
+        if log_dir is None:
+            log_dir = f"{get_data_dir()}/logs/scrapes"
         self.log_dir = Path(log_dir)
         self.log_dir.mkdir(parents=True, exist_ok=True)
         self.sessions: Dict[str, DetailedScrapeLog] = {}
@@ -691,17 +697,19 @@ class ScrapeLogger:
 
 def setup_logging(
     level: str = "INFO",
-    log_dir: str = "data/logs",
+    log_dir: str = None,
     json_format: bool = False,
 ) -> logging.Logger:
     """
     Setup the logging configuration for the application.
-    
+
     Args:
         level: Log level (DEBUG, INFO, WARNING, ERROR)
         log_dir: Directory for log files
         json_format: If True, use structured JSON logging (for production)
     """
+    if log_dir is None:
+        log_dir = f"{get_data_dir()}/logs"
     log_path = Path(log_dir)
     log_path.mkdir(parents=True, exist_ok=True)
 

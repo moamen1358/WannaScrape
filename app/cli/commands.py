@@ -13,6 +13,7 @@ from rich.panel import Panel
 
 from app.core import WebScraper
 from app.logging import setup_logging
+from app.config.settings import get_config_dir
 
 app = typer.Typer(
     name="scraper",
@@ -61,7 +62,7 @@ def scrape(
     url: str = typer.Argument(..., help="URL of the article to scrape"),
     headless: bool = typer.Option(True, "--headless/--no-headless", help="Run browser in headless mode"),
     output: str = typer.Option("pretty", "--output", "-o", help="Output format: pretty, json"),
-    config: str = typer.Option("config/config.json", "--config", "-c", help="Path to config file"),
+    config: str = typer.Option(None, "--config", "-c", help="Path to config file"),
     verbose: bool = typer.Option(False, "--verbose", "-v", help="Enable verbose logging"),
 ):
     """
@@ -75,6 +76,10 @@ def scrape(
     setup_logging(level="DEBUG" if verbose else "INFO")
 
     console.print(f"[bold blue]🚀 Scraping:[/bold blue] {url}")
+
+    # Use default config path if not specified
+    if config is None:
+        config = f"{get_config_dir()}/config.json"
 
     try:
         scraper = WebScraper(config_path=config)

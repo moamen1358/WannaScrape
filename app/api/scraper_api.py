@@ -33,9 +33,13 @@ from app.monitoring import (
     REQUEST_DURATION,
 )
 
+# Import settings for data directory
+from app.config.settings import get_data_dir
+
 # Ensure directories exist
-os.makedirs("data/logs", exist_ok=True)
-os.makedirs("data/screenshots", exist_ok=True)
+DATA_DIR = get_data_dir()
+os.makedirs(f"{DATA_DIR}/logs", exist_ok=True)
+os.makedirs(f"{DATA_DIR}/screenshots", exist_ok=True)
 
 # Setup logging
 logger = setup_logging(level=os.getenv("LOG_LEVEL", "INFO"))

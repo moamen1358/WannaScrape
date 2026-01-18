@@ -11,6 +11,8 @@ from datetime import datetime
 from typing import Optional, Dict
 from urllib.parse import urlparse
 
+from app.config.settings import get_data_dir
+
 logger = logging.getLogger("scraper.helpers")
 
 
@@ -92,7 +94,7 @@ def classify_error(error_msg: str, page_content: str = "", page_title: str = "")
 def save_failure_screenshot(page, url: str, reason: str, extra_info: str = "") -> Optional[str]:
     """Save screenshot and metadata when scraping fails."""
     try:
-        screenshots_dir = Path("data/screenshots") / datetime.now().strftime("%Y-%m-%d")
+        screenshots_dir = Path(get_data_dir()) / "screenshots" / datetime.now().strftime("%Y-%m-%d")
         screenshots_dir.mkdir(parents=True, exist_ok=True)
 
         domain = urlparse(url).netloc.replace(".", "_")
@@ -122,9 +124,13 @@ def save_failure_screenshot(page, url: str, reason: str, extra_info: str = "") -
         return None
 
 
-def load_config(config_path: str = "config/config.json") -> dict:
+def load_config(config_path: str = None) -> dict:
     """Load configuration from JSON file."""
     from app.config.constants import DEFAULT_CONFIG
+    from app.config.settings import get_config_dir
+
+    if config_path is None:
+        config_path = f"{get_config_dir()}/config.json"
 
     try:
         with open(config_path) as f:

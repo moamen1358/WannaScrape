@@ -9,6 +9,7 @@ from typing import Dict, Any
 from urllib.parse import urlparse
 
 from .utils import get_egypt_time
+from app.config.settings import get_data_dir
 
 
 class DetailedScrapeLog:
@@ -17,7 +18,9 @@ class DetailedScrapeLog:
     One log file per scrape session.
     """
 
-    def __init__(self, url: str, log_dir: str = "data/logs/scrapes"):
+    def __init__(self, url: str, log_dir: str = None):
+        if log_dir is None:
+            log_dir = f"{get_data_dir()}/logs/scrapes"
         self.url = url
         self.log_dir = Path(log_dir)
         self.log_dir.mkdir(parents=True, exist_ok=True)

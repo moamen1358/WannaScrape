@@ -1,3 +1,16 @@
+# WannaScrape Docker Compose Configuration
+#
+# Persistent Data:
+#   - ./data   -> Stores logs, screenshots, and session data
+#   - ./config -> Stores config.json and proxies.txt
+#
+# Before running:
+#   1. Create local directories: mkdir -p data config
+#   2. Copy config example: cp config/config.json.example config/config.json
+#   3. Run: docker-compose up -d
+#
+# Logs will be saved to: ./data/logs/scrapes/
+
 services:
   wannascrape:
     build: .
@@ -6,7 +19,9 @@ services:
     ports:
       - "8000:8000"
     volumes:
+      # Mount config directory for config.json and proxies.txt
       - ./config:/app/config
+      # Mount data directory for persistent logs, screenshots, and sessions
       - ./data:/app/data
     environment:
       - SCRAPER_HEADLESS=true
@@ -14,6 +29,9 @@ services:
       - SCRAPER_CAPTCHA_ENABLED=false
       - SCRAPER_API_KEY=${SCRAPER_API_KEY:-}
       - LOG_LEVEL=INFO
+      # Data and config directory paths (matching volume mounts)
+      - WANNASCRAPE_DATA_DIR=/app/data
+      - WANNASCRAPE_CONFIG_DIR=/app/config
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health"]

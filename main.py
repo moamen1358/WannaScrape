@@ -16,6 +16,10 @@ Usage:
 For more help:
     python main.py --help
     python main.py scrape --help
+
+Environment Variables:
+    WANNASCRAPE_DATA_DIR    Base directory for data (logs, screenshots, sessions)
+    WANNASCRAPE_CONFIG_DIR  Base directory for config files
 """
 
 import sys
@@ -24,10 +28,13 @@ import os
 # Ensure the app package is importable
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+# Get data directory from environment or use default
+DATA_DIR = os.environ.get("WANNASCRAPE_DATA_DIR", "data")
+
 # Ensure directories exist
-os.makedirs("data/logs", exist_ok=True)
-os.makedirs("data/screenshots", exist_ok=True)
-os.makedirs("data/sessions", exist_ok=True)
+os.makedirs(f"{DATA_DIR}/logs", exist_ok=True)
+os.makedirs(f"{DATA_DIR}/screenshots", exist_ok=True)
+os.makedirs(f"{DATA_DIR}/sessions", exist_ok=True)
 
 
 def main():

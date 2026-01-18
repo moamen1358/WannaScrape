@@ -5,12 +5,18 @@ Supports environment variables and .env files.
 
 import json
 import logging
+import os
 from pathlib import Path
 from typing import Optional, List, Dict, Any
 from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 logger = logging.getLogger("scraper.settings")
+
+# Base directories - can be configured via environment variables
+# This allows Docker volumes to be mounted at custom locations
+DATA_DIR = os.environ.get("WANNASCRAPE_DATA_DIR", "data")
+CONFIG_DIR = os.environ.get("WANNASCRAPE_CONFIG_DIR", "config")
 
 
 class BrowserSettings(BaseSettings):
@@ -46,7 +52,7 @@ class CaptchaSettings(BaseSettings):
 class ProxySettings(BaseSettings):
     """Proxy configuration settings."""
     enabled: bool = False
-    proxy_file: str = "config/proxies.txt"
+    proxy_file: str = Field(default_factory=lambda: f"{CONFIG_DIR}/proxies.txt")
 
 
 class HumanBehaviorSettings(BaseSettings):
@@ -95,7 +101,7 @@ class Settings(BaseSettings):
 
     # Proxy Settings
     proxy_enabled: bool = False
-    proxy_file: str = "config/proxies.txt"
+    proxy_file: str = Field(default_factory=lambda: f"{CONFIG_DIR}/proxies.txt")
 
     # Rate Limiting
     max_requests_per_hour: int = 60
@@ -107,11 +113,11 @@ class Settings(BaseSettings):
 
     # Logging
     log_level: str = "INFO"
-    log_dir: str = "data/logs"
+    log_dir: str = Field(default_factory=lambda: f"{DATA_DIR}/logs")
 
     # Data directories
-    screenshots_dir: str = "data/screenshots"
-    sessions_dir: str = "data/sessions"
+    screenshots_dir: str = Field(default_factory=lambda: f"{DATA_DIR}/screenshots")
+    sessions_dir: str = Field(default_factory=lambda: f"{DATA_DIR}/sessions")
 
     # User agents (loaded from user_agents.py)
     user_agents: List[str] = Field(default_factory=list)
@@ -124,10 +130,12 @@ class Settings(BaseSettings):
     ])
 
     @classmethod
-    def from_config_file(cls, config_path: str = "config/config.json") -> "Settings":
+    def from_config_file(cls, config_path: str = None) -> "Settings":
         """
         Load settings from JSON config file, with env vars taking precedence.
         """
+        if config_path is None:
+            config_path = f"{CONFIG_DIR}/config.json"
         config_data = {}
 
         if Path(config_path).exists():
@@ -157,7 +165,7 @@ class Settings(BaseSettings):
         if "proxies" in config_data:
             proxies = config_data["proxies"]
             flat_config["proxy_enabled"] = proxies.get("enabled", False)
-            flat_config["proxy_file"] = proxies.get("proxy_file", "config/proxies.txt")
+            flat_config["proxy_file"] = proxies.get("proxy_file", f"{CONFIG_DIR}/proxies.txt")
 
         if "rate_limiting" in config_data:
             rate = config_data["rate_limiting"]
@@ -230,8 +238,18 @@ def get_settings() -> Settings:
     return _settings
 
 
-def reload_settings(config_path: str = "config/config.json") -> Settings:
+def reload_settings(config_path: str = None) -> Settings:
     """Reload settings from config file."""
     global _settings
     _settings = Settings.from_config_file(config_path)
     return _settings
+
+
+def get_data_dir() -> str:
+    """Get the configured data directory."""
+    return DATA_DIR
+
+
+def get_config_dir() -> str:
+    """Get the configured config directory."""
+    return CONFIG_DIR

@@ -30,6 +30,7 @@ from app.utils.proxy_manager import ProxyManager, load_proxies_from_file, mask_p
 from app.utils.human_behavior import simulate_human_behavior
 from app.utils.helpers import classify_error, save_failure_screenshot, load_config
 from app.config.constants import POPUP_SELECTORS
+from app.config.settings import get_data_dir
 from app.logging.logger import get_scrape_logger, set_correlation_id
 
 # Detection plugin system
@@ -98,7 +99,7 @@ class WebScraper:
     - Comprehensive logging
     """
 
-    def __init__(self, config_path: str = "config/config.json", proxies: List[dict] = None):
+    def __init__(self, config_path: str = None, proxies: List[dict] = None):
         self.ddgs = DDGS()
 
         # Load configuration
@@ -110,7 +111,8 @@ class WebScraper:
 
         # Load proxies
         if proxies is None and self.config.get("proxies", {}).get("enabled"):
-            proxy_file = self.config["proxies"].get("proxy_file", "config/proxies.txt")
+            from app.config.settings import get_config_dir
+            proxy_file = self.config["proxies"].get("proxy_file", f"{get_config_dir()}/proxies.txt")
             proxies = load_proxies_from_file(proxy_file)
 
         self.proxy_manager = ProxyManager(proxies) if proxies else None
@@ -131,7 +133,7 @@ class WebScraper:
                 min_delay_between_requests=rate_config.get("min_delay_between_requests", 5),
                 max_delay_between_requests=rate_config.get("max_delay_between_requests", 15)
             )
-            self.session_manager = SessionManager(sessions_dir="data/sessions")
+            self.session_manager = SessionManager(sessions_dir=f"{get_data_dir()}/sessions")
         else:
             self.domain_rate_limiter = None
             self.session_manager = None

@@ -1,5 +1,15 @@
 # wannaScrape - Stealth Web Scraper API
 # Production-ready with anti-detection features
+#
+# Volume Mounts (for persistent data):
+#   - /app/data   -> Logs, screenshots, session data
+#   - /app/config -> Configuration files (config.json, proxies.txt)
+#
+# Example docker run:
+#   docker run -d -p 8000:8000 \
+#     -v ./data:/app/data \
+#     -v ./config:/app/config \
+#     moamen1358/wannascrape:latest
 
 FROM mcr.microsoft.com/playwright/python:v1.49.1-jammy
 
@@ -17,6 +27,10 @@ ENV PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
 ENV APP_NAME=wannascrape
 ENV APP_VERSION=2.0.0
 
+# Configure data and config directories (can be overridden)
+ENV WANNASCRAPE_DATA_DIR=/app/data
+ENV WANNASCRAPE_CONFIG_DIR=/app/config
+
 # Set work directory
 WORKDIR /app
 
@@ -30,8 +44,12 @@ RUN playwright install chromium
 # Copy application code
 COPY . .
 
-# Create data directories
-RUN mkdir -p data/logs/scrapes data/screenshots data/sessions
+# Create data and config directories with proper structure
+# These will be overwritten by volume mounts if provided
+RUN mkdir -p /app/data/logs/scrapes /app/data/screenshots /app/data/sessions /app/config
+
+# Declare volumes for persistent data
+VOLUME ["/app/data", "/app/config"]
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
