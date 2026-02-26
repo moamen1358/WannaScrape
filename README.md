@@ -62,14 +62,20 @@ docker compose down
 ### CLI Commands
 
 ```bash
-# Scrape an article
+# Scrape an article (content auto-saved to data/scraped/)
 python main.py scrape https://example.com/article
 
 # Scrape with visible browser (for debugging)
 python main.py scrape https://example.com/article --no-headless
 
+# Scrape without saving content
+python main.py scrape https://example.com --no-save
+
 # JSON output format
 python main.py scrape https://example.com -o json
+
+# Save to custom directory
+python main.py scrape https://example.com --save-dir output/articles
 
 # Start API server
 python main.py serve --port 8000
@@ -191,6 +197,7 @@ WannaScrape/
 │   └── utils/            # Helpers, human behavior
 ├── config/               # JSON config, proxies
 ├── data/                 # Runtime data
+│   ├── scraped/          # Saved article content (JSON)
 │   ├── logs/scrapes/     # Scrape logs
 │   ├── screenshots/      # Failure screenshots
 │   └── sessions/         # Browser sessions
@@ -220,7 +227,7 @@ pytest tests/test_api.py -v
 - **API Key Authentication**: Set `SCRAPER_API_KEY` environment variable to enable
 - **CORS**: Configured for cross-origin requests (customize in production)
 - **Rate Limiting**: Built-in delays between requests
-- **No data persistence**: Article content is not stored by default
+- **Data saved locally**: Scraped content saved to `data/scraped/` (use `--no-save` to disable)
 
 ## 📊 Anti-Detection Features
 

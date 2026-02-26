@@ -4,7 +4,10 @@ CLI commands for the web scraper using Typer.
 
 import json
 import sys
+from pathlib import Path
+from datetime import datetime
 from typing import Optional
+from urllib.parse import urlparse
 
 import typer
 from rich.console import Console
@@ -57,11 +60,56 @@ def show_result(result: dict, format: str = "pretty"):
         ))
 
 
+def save_scraped_content(result: dict, url: str, save_dir: str = "data/scraped") -> Optional[str]:
+    """
+    Save scraped article content to a JSON file.
+
+    Args:
+        result: The scrape result dict
+        url: The original URL
+        save_dir: Directory to save to
+
+    Returns:
+        Path to saved file, or None if saving failed
+    """
+    try:
+        save_path = Path(save_dir)
+        save_path.mkdir(parents=True, exist_ok=True)
+
+        domain = urlparse(url).netloc.replace(".", "_")
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"{timestamp}_{domain}.json"
+
+        filepath = save_path / filename
+
+        save_data = {
+            "url": url,
+            "scraped_at": datetime.now().isoformat(),
+            "title": result.get("title"),
+            "date": result.get("date"),
+            "source": result.get("source"),
+            "final_url": result.get("final_url"),
+            "text": result.get("text"),
+            "extraction_method": result.get("extraction_method"),
+            "user_agent_used": result.get("user_agent_used"),
+            "location_used": result.get("location_used"),
+        }
+
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(save_data, f, indent=2, ensure_ascii=False)
+
+        return str(filepath)
+    except Exception as e:
+        return None
+
+
 @app.command()
 def scrape(
     url: str = typer.Argument(..., help="URL of the article to scrape"),
     headless: bool = typer.Option(True, "--headless/--no-headless", help="Run browser in headless mode"),
     output: str = typer.Option("pretty", "--output", "-o", help="Output format: pretty, json"),
+    save: bool = typer.Option(True, "--save/--no-save", help="Save scraped content to data/scraped/"),
+    save_dir: str = typer.Option("data/scraped", "--save-dir", help="Directory to save scraped content"),
     config: str = typer.Option(None, "--config", "-c", help="Path to config file"),
     verbose: bool = typer.Option(False, "--verbose", "-v", help="Enable verbose logging"),
 ):
@@ -85,6 +133,12 @@ def scrape(
         scraper = WebScraper(config_path=config)
         result = scraper.extract_article(url, headless=headless)
         show_result(result, format=output)
+
+        # Save scraped content if successful
+        if "error" not in result and save:
+            saved_path = save_scraped_content(result, url, save_dir=save_dir)
+            if saved_path:
+                console.print(f"[dim]💾 Content saved: {saved_path}[/dim]")
 
         if "error" in result:
             raise typer.Exit(code=1)

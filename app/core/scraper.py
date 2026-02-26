@@ -458,6 +458,7 @@ class WebScraper:
                                 return result
 
                             # Extraction failed
+                            last_error = extraction.get("error", "Content extraction failed")
                             break
 
                         except ScrapeTimeoutError:

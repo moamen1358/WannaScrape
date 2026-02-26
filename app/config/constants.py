@@ -16,8 +16,10 @@ COMMON_VIEWPORTS = [
 # CAPTCHA detection phrases
 CAPTCHA_PHRASES = [
     "press & hold", "verify you are human", "prove you're not a robot",
-    "human (and not a bot)", "reference id", "confirm you are",
-    "security check", "complete the captcha", "are you a robot"
+    "human (and not a bot)", "confirm you are not a robot",
+    "complete the security check", "complete the captcha", "are you a robot",
+    "checking if the site connection is secure",
+    "please complete the security check to access",
 ]
 
 # Access denied title indicators
