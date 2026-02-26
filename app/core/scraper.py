@@ -339,6 +339,11 @@ class WebScraper:
                             self.scrape_logger.log_page_loaded(session_id, final_url, page_title, nav_time)
                             timeout_checker.check("page_loaded")
 
+                            # Capture early HTML snapshot before JS can crash/blank the page.
+                            # Some sites (e.g. Next.js SSR) load content initially then crash
+                            # via client-side JS, leaving "Application error" blank pages.
+                            early_html_snapshot = page.content()
+
                             # Wait for content
                             page.wait_for_timeout(1000)
 
@@ -457,9 +462,43 @@ class WebScraper:
                                 self.scrape_logger.complete_session(session_id, True, result, extraction_time)
                                 return result
 
-                            # Extraction failed
+                            # Extraction failed from current page state.
+                            # Try extracting from early HTML snapshot — some sites
+                            # (e.g. Next.js SSR) render content initially then crash
+                            # via client-side JS, blanking the page.
+                            if early_html_snapshot and len(early_html_snapshot) > len(page.content()):
+                                logger.info("Trying extraction from early HTML snapshot (pre-JS-crash)...")
+                                early_result = self.content_extractor.extract_from_html(early_html_snapshot)
+                                if early_result:
+                                    early_text = early_result.get('text', '')
+                                    early_validation = self.content_extractor.validate_content(early_text)
+                                    if early_validation["valid"]:
+                                        logger.info(f"Early snapshot extraction succeeded: {len(early_text)} chars")
+                                        early_result['final_url'] = final_url
+                                        early_result['extraction_method'] = 'trafilatura_early_snapshot'
+
+                                        # Add profile info
+                                        early_result["html_size"] = len(early_html_snapshot)
+                                        if profile_info.get("browser_profile"):
+                                            bp = profile_info["browser_profile"]
+                                            early_result["user_agent_used"] = f"{bp.browser}/{bp.version}"
+                                        if profile_info.get("location"):
+                                            early_result["location_used"] = profile_info["location"].get("name", "unknown")
+
+                                        browser.close()
+                                        self.scrape_logger.complete_session(
+                                            session_id, True, early_result, time.time() - extraction_start
+                                        )
+                                        return early_result
+
+                            # Try next strategy (e.g. networkidle waits longer
+                            # for JS to render) before giving up
                             last_error = extraction.get("error", "Content extraction failed")
-                            break
+                            logger.info(
+                                f"Extraction failed with strategy '{strategy['wait']}': {last_error}. "
+                                f"Trying next strategy..."
+                            )
+                            continue
 
                         except ScrapeTimeoutError:
                             raise

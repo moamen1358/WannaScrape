@@ -25,8 +25,16 @@ class ContentExtractor:
         ".article-body",
         ".entry-content",
         "#main-content",
+        ".page-content",
+        ".article-content",
+        ".blog-content",
+        ".single-content",
+        "[data-content]",
+        ".wrapper .content",
         ".content",
         "#content",
+        "#app main",
+        "#__next main",
         "body"  # Last resort
     ]
 
@@ -128,6 +136,8 @@ class ContentExtractor:
         html_content = page.content()
         final_url = page.url
 
+        trafilatura_error = None
+
         # Try Trafilatura first
         result = self.extract_from_html(html_content)
 
@@ -135,7 +145,18 @@ class ContentExtractor:
             text = result.get('text', '')
             validation = self.validate_content(text)
 
-            if not validation["valid"]:
+            if validation["valid"]:
+                result['final_url'] = final_url
+                result['extraction_method'] = 'trafilatura'
+                return {
+                    "success": True,
+                    "data": result,
+                    "method": "trafilatura"
+                }
+
+            # Trafilatura returned content but it failed validation.
+            # If it's a CAPTCHA detection, return immediately — fallback won't help.
+            if validation["reason"] == "captcha_detected":
                 return {
                     "success": False,
                     "error": validation["message"],
@@ -145,15 +166,19 @@ class ContentExtractor:
                     "method": "trafilatura"
                 }
 
-            result['final_url'] = final_url
-            result['extraction_method'] = 'trafilatura'
-            return {
-                "success": True,
-                "data": result,
-                "method": "trafilatura"
+            # For insufficient content, fall through to fallback extraction.
+            # JS-heavy pages often have content in the DOM that Trafilatura misses.
+            logger.info(
+                f"Trafilatura extracted only {len(text)} chars (min 300). "
+                f"Trying fallback extraction..."
+            )
+            trafilatura_error = {
+                "error": validation["message"],
+                "error_type": validation["reason"],
+                "extracted_text": text[:500] if text else None,
             }
 
-        # Try fallback extraction
+        # Try fallback extraction (also used when Trafilatura content is insufficient)
         fallback_text = self.extract_fallback(page)
 
         if fallback_text and len(fallback_text) > 500:
@@ -169,11 +194,20 @@ class ContentExtractor:
                     "method": "fallback"
                 }
 
+            # Get the page title from the browser instead of hardcoding
+            try:
+                page_title = page.title() or "Extracted Content (Fallback)"
+                # Clean up title — remove trailing " - SiteName" patterns if too long
+                if len(page_title) > 200:
+                    page_title = page_title[:200]
+            except Exception:
+                page_title = "Extracted Content (Fallback)"
+
             logger.warning("Trafilatura failed. Using fallback extraction.")
             return {
                 "success": True,
                 "data": {
-                    "title": "Extracted Content (Fallback)",
+                    "title": page_title,
                     "date": None,
                     "source": final_url,
                     "text": fallback_text,
@@ -182,7 +216,18 @@ class ContentExtractor:
                 "method": "fallback"
             }
 
-        # No content extracted
+        # No content extracted — return the Trafilatura error if we had one,
+        # otherwise return a generic no-content error.
+        if trafilatura_error:
+            return {
+                "success": False,
+                "error": trafilatura_error["error"],
+                "error_type": trafilatura_error["error_type"],
+                "extracted_text": trafilatura_error["extracted_text"],
+                "final_url": final_url,
+                "method": "trafilatura"
+            }
+
         return {
             "success": False,
             "error": "Could not extract content from the page.",
