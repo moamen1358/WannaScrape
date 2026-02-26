@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.globalknowledge.com/en-eg/courses/iso/business_continuity_and_disaster_recovery/is22301li
+Started: 2026-01-29 22:36:29
+Session ID: SCRAPE_20260129_223629_8FDF
+================================================================================
+[22:36:29.578] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_223629_globalknowledge.com.log
+[22:36:29.578] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[22:36:29.926] [INFO ] 
+[22:36:29.926] [INFO ]     🚀 BROWSER LAUNCHED
+[22:36:29.926] [INFO ]     ├─ Mode:       Headless
+[22:36:29.926] [INFO ]     ├─ Slow Mo:    58ms
+[22:36:29.926] [INFO ]     ├─ Launch Time: 0.06s
+[22:36:29.926] [INFO ]     └─ Args:       Anti-automation flags enabled
+[22:36:29.947] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-US, tz=UTC
+[22:36:29.947] [INFO ] 
+[22:36:29.947] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:36:29.947] [INFO ] ║  📋 SESSION: SCRAPE_20260129_223629_8FDF
+[22:36:29.947] [INFO ] ║  🌐 URL: https://www.globalknowledge.com/en-eg/courses/iso/business_continuity_and_disaster_recovery/is22301li
+[22:36:29.947] [INFO ] ║  🔄 ATTEMPT: 1/2
+[22:36:29.947] [INFO ] ║  ⏰ STARTED: 2026-01-29T22:36:29.947109+02:00 (Egypt Time)
+[22:36:29.947] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:36:29.947] [INFO ] 
+[22:36:29.947] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[22:36:29.947] [INFO ]     │ Browser:     CHROME v121
+[22:36:29.947] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[22:36:29.947] [INFO ]     │ Viewport:    1920x1080
+[22:36:29.947] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[22:36:29.947] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[22:36:29.947] [INFO ]     │ Location:    Miami, USA
+[22:36:29.947] [INFO ]     │ Timezone:    N/A
+[22:36:29.947] [INFO ]     │ Locale:      en-US
+[22:36:29.947] [INFO ]     │ Geo:         0, 0
+[22:36:29.947] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[22:36:29.947] [INFO ]     │ Proxy:       Direct (no proxy)
+[22:36:29.947] [INFO ]     │ Referrer:    https://www.google.com/
+[22:36:29.947] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:36:29.947] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:36:29.947] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[22:36:29.947] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:36:29.947] [INFO ] 
+[22:36:29.947] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[22:36:29.947] [INFO ]     ├─ Canvas fingerprint noise
+[22:36:29.947] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:36:29.947] [INFO ]     ├─ Hardware concurrency randomization
+[22:36:29.947] [INFO ]     ├─ Device memory randomization
+[22:36:29.947] [INFO ]     ├─ Plugin masking
+[22:36:29.947] [INFO ]     ├─ WebRTC IP leak protection
+[22:36:29.947] [INFO ]     ├─ Network connection spoof
+[22:36:29.947] [INFO ]     └─ Battery API spoof
+[22:36:29.992] [INFO ] 
+[22:36:29.992] [INFO ]     🥷 STEALTH MODE APPLIED
+[22:36:29.992] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[22:36:29.992] [INFO ]     ├─ Chrome runtime patches
+[22:36:29.992] [INFO ]     ├─ Console patches
+[22:36:29.992] [INFO ]     └─ Permission patches
+[22:36:29.992] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[22:36:29.992] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:36:29.992] [INFO ] 
+[22:36:29.992] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[22:36:29.992] [INFO ]     ├─ Canvas fingerprint noise
+[22:36:29.992] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:36:29.992] [INFO ]     ├─ Hardware concurrency randomization
+[22:36:29.992] [INFO ]     ├─ Device memory randomization
+[22:36:29.992] [INFO ]     ├─ Plugin masking
+[22:36:29.992] [INFO ]     ├─ WebRTC IP leak protection
+[22:36:29.992] [INFO ]     ├─ Network connection spoof
+[22:36:29.992] [INFO ]     └─ Battery API spoof
+[22:36:29.992] [DEBUG] Enabled resource blocking (images, media, fonts)
+[22:36:29.992] [INFO ] 
+[22:36:29.992] [INFO ]     🔗 NAVIGATING TO URL
+[22:36:29.992] [INFO ]     ├─ Strategy:   domcontentloaded
+[22:36:29.992] [INFO ]     ├─ Timeout:    15.0s
+[22:36:29.992] [INFO ]     └─ Sleep:      1s after load
+[22:36:41.405] [INFO ] 
+[22:36:41.405] [INFO ]     ✅ PAGE LOADED
+[22:36:41.405] [INFO ]     ├─ Final URL:  https://www.globalknowledge.com/en-eg/training/courses
+[22:36:41.405] [INFO ]     ├─ Title:      IT Training Courses and Certifications, Egypt | Skillsoft’s Global Knowledge
+[22:36:41.405] [INFO ]     └─ Load Time:  11.41s
+[22:36:42.711] [INFO ] 🧑 Human behavior simulation...
+[22:36:47.928] [INFO ] 🖱️ Mouse: 3 moves in 1920x1080
+[22:36:47.928] [INFO ] 🖱️ Mouse completed: 3 moves
+[22:36:47.928] [INFO ] 📜 Scroll: page height, viewport=1080px
+[22:36:47.928] [INFO ] 📜 Scroll completed: 2 scrolls
+[22:36:47.928] [INFO ] 🧑 Human behavior completed in 5.2s ✓
+[22:36:47.928] [INFO ] 
+[22:36:47.928] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[22:36:47.928] [INFO ]     ├─ Mouse Movements: 3
+[22:36:47.928] [INFO ]     ├─ Scroll Actions:  2
+[22:36:47.928] [INFO ]     └─ Time Spent:      5.22s
+[22:36:48.129] [INFO ] 
+[22:36:48.129] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:36:48.129] [INFO ]     │ Title:            IT Training Courses and Certifications, Egypt | Sk
+[22:36:48.129] [INFO ]     │ Final URL:        https://www.globalknowledge.com/en-eg/training/courses
+[22:36:48.129] [INFO ]     │ HTML Size:        331,413 bytes
+[22:36:48.129] [INFO ]     │ Text Size:        2,056 chars
+[22:36:48.129] [INFO ]     │ Word Count:       ~326 words
+[22:36:48.129] [INFO ]     │ Extraction:       trafilatura
+[22:36:48.129] [INFO ]     │ Has Article:      ✅ Yes
+[22:36:48.129] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:36:48.154] [INFO ] 
+[22:36:48.154] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:36:48.154] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_223629_8FDF
+[22:36:48.154] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:36:48.154] [INFO ] 
+[22:36:48.154] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[22:36:48.154] [INFO ]     │ Browser Launch:      0.06s
+[22:36:48.154] [INFO ]     │ Page Load:           11.41s
+[22:36:48.154] [INFO ]     │ Cloudflare Wait:     0.00s
+[22:36:48.154] [INFO ]     │ Human Simulation:    5.22s
+[22:36:48.154] [INFO ]     │
+[22:36:48.154] [INFO ]     │ Content Extraction:  0.13s
+[22:36:48.154] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[22:36:48.154] [INFO ]     │ TOTAL TIME:          16.82s
+[22:36:48.154] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:36:48.154] [INFO ] 
+[22:36:48.154] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:36:48.154] [INFO ]     │ Title:            IT Training Courses and Certifications, Egypt | Sk
+[22:36:48.154] [INFO ]     │ Final URL:        https://www.globalknowledge.com/en-eg/training/courses
+[22:36:48.154] [INFO ]     │ HTML Size:        331,413 bytes
+[22:36:48.154] [INFO ]     │ Text Size:        2,056 chars
+[22:36:48.154] [INFO ]     │ Word Count:       ~326 words
+[22:36:48.154] [INFO ]     │ Extraction:       trafilatura
+[22:36:48.154] [INFO ]     │ Has Article:      ✅ Yes
+[22:36:48.154] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:36:48.154] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:36:48.154] [INFO ] ║  📊 SESSION STATS
+[22:36:48.154] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[22:36:48.154] [INFO ] ║  ├─ Popups Dismissed:   0
+[22:36:48.154] [INFO ] ║  ├─ Cloudflare:         Not detected
+[22:36:48.154] [INFO ] ║  └─ Proxy Used:         Direct
+[22:36:48.154] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:36:48.154] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 18.58s
+ENDED: 2026-01-29T22:36:48.154902+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

@@ -140,11 +140,12 @@ app/detections/
 ├── handler.py        # High-level interface for scraper
 ├── README.md         # This file
 │
-├── cloudflare.py     # Cloudflare detection plugin
-├── recaptcha.py      # reCAPTCHA detection plugin
-├── hcaptcha.py       # hCaptcha detection plugin
-├── perimeterx.py     # PerimeterX detection plugin
+├── cloudflare.py     # Cloudflare WAF detection plugin
+├── akamai.py         # Akamai Bot Manager / EdgeSuite detection plugin
+├── perimeterx.py     # PerimeterX (HUMAN) detection plugin
 ├── datadome.py       # DataDome detection plugin
+├── recaptcha.py      # Google reCAPTCHA detection plugin
+├── hcaptcha.py       # hCaptcha detection plugin
 └── yourplugin.py     # Add your plugins here!
 ```
 

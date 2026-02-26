@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.devex.com/organizations/saudi-arabian-monetary-authority-sama-146362
+Started: 2026-02-01 12:26:39
+Session ID: SCRAPE_20260201_122639_3BC5
+================================================================================
+[12:26:39.246] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-02-01_122639_devex.com.log
+[12:26:39.246] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:26:39.594] [INFO ] 
+[12:26:39.594] [INFO ]     🚀 BROWSER LAUNCHED
+[12:26:39.594] [INFO ]     ├─ Mode:       Headless
+[12:26:39.594] [INFO ]     ├─ Slow Mo:    59ms
+[12:26:39.594] [INFO ]     ├─ Launch Time: 0.06s
+[12:26:39.594] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:26:39.612] [DEBUG] Browser profile: viewport={'width': 1440, 'height': 900}, locale=en-GB, tz=UTC
+[12:26:39.612] [INFO ] 
+[12:26:39.612] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:26:39.612] [INFO ] ║  📋 SESSION: SCRAPE_20260201_122639_3BC5
+[12:26:39.612] [INFO ] ║  🌐 URL: https://www.devex.com/organizations/saudi-arabian-monetary-authority-sama-146362
+[12:26:39.612] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:26:39.612] [INFO ] ║  ⏰ STARTED: 2026-02-01T12:26:39.612431+02:00 (Egypt Time)
+[12:26:39.612] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:26:39.612] [INFO ] 
+[12:26:39.612] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:26:39.612] [INFO ]     │ Browser:     CHROME v121
+[12:26:39.612] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[12:26:39.612] [INFO ]     │ Viewport:    1440x900
+[12:26:39.612] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:26:39.612] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:26:39.612] [INFO ]     │ Location:    Manchester, UK
+[12:26:39.612] [INFO ]     │ Timezone:    N/A
+[12:26:39.612] [INFO ]     │ Locale:      en-GB
+[12:26:39.612] [INFO ]     │ Geo:         0, 0
+[12:26:39.612] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:26:39.612] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:26:39.612] [INFO ]     │ Referrer:    https://news.google.com/
+[12:26:39.612] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:26:39.612] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:26:39.612] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:26:39.612] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:26:39.612] [INFO ] 
+[12:26:39.612] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:26:39.612] [INFO ]     ├─ Canvas fingerprint noise
+[12:26:39.612] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:26:39.612] [INFO ]     ├─ Hardware concurrency randomization
+[12:26:39.612] [INFO ]     ├─ Device memory randomization
+[12:26:39.612] [INFO ]     ├─ Plugin masking
+[12:26:39.612] [INFO ]     ├─ WebRTC IP leak protection
+[12:26:39.612] [INFO ]     ├─ Network connection spoof
+[12:26:39.612] [INFO ]     └─ Battery API spoof
+[12:26:39.654] [INFO ] 
+[12:26:39.654] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:26:39.654] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:26:39.654] [INFO ]     ├─ Chrome runtime patches
+[12:26:39.654] [INFO ]     ├─ Console patches
+[12:26:39.654] [INFO ]     └─ Permission patches
+[12:26:39.654] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:26:39.654] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:26:39.654] [INFO ] 
+[12:26:39.654] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:26:39.654] [INFO ]     ├─ Canvas fingerprint noise
+[12:26:39.654] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:26:39.654] [INFO ]     ├─ Hardware concurrency randomization
+[12:26:39.654] [INFO ]     ├─ Device memory randomization
+[12:26:39.654] [INFO ]     ├─ Plugin masking
+[12:26:39.654] [INFO ]     ├─ WebRTC IP leak protection
+[12:26:39.654] [INFO ]     ├─ Network connection spoof
+[12:26:39.654] [INFO ]     └─ Battery API spoof
+[12:26:39.654] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:26:39.654] [INFO ] 
+[12:26:39.654] [INFO ]     🔗 NAVIGATING TO URL
+[12:26:39.654] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:26:39.654] [INFO ]     ├─ Timeout:    15.0s
+[12:26:39.654] [INFO ]     └─ Sleep:      1s after load
+[12:26:40.793] [INFO ] 
+[12:26:40.793] [INFO ]     ✅ PAGE LOADED
+[12:26:40.793] [INFO ]     ├─ Final URL:  https://www.devex.com/organizations/saudi-arabian-monetary-authority-sama-146362
+[12:26:40.793] [INFO ]     ├─ Title:      Saudi Arabian Monetary Authority (SAMA) | Devex
+[12:26:40.793] [INFO ]     └─ Load Time:  1.14s
+[12:26:44.689] [INFO ] 🧑 Human behavior simulation...
+[12:26:47.373] [INFO ] 🖱️ Mouse: 2 moves in 1440x900
+[12:26:47.373] [INFO ] 🖱️ Mouse completed: 2 moves
+[12:26:47.373] [INFO ] 📜 Scroll: page height, viewport=900px
+[12:26:47.373] [INFO ] 📜 Scroll completed: 2 scrolls
+[12:26:47.373] [INFO ] 🧑 Human behavior completed in 2.7s ✓
+[12:26:47.373] [INFO ] 
+[12:26:47.373] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:26:47.373] [INFO ]     ├─ Mouse Movements: 2
+[12:26:47.373] [INFO ]     ├─ Scroll Actions:  2
+[12:26:47.373] [INFO ]     └─ Time Spent:      2.68s
+[12:26:47.546] [INFO ] 
+[12:26:47.546] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:26:47.546] [INFO ]     │ Title:            Saudi Arabian Monetary Authority (SAMA)
+[12:26:47.546] [INFO ]     │ Final URL:        https://www.devex.com/organizations/saudi-arabian-monetary-authority-sama-146362
+[12:26:47.546] [INFO ]     │ HTML Size:        70,986 bytes
+[12:26:47.546] [INFO ]     │ Text Size:        998 chars
+[12:26:47.546] [INFO ]     │ Word Count:       ~143 words
+[12:26:47.546] [INFO ]     │ Extraction:       trafilatura
+[12:26:47.546] [INFO ]     │ Has Article:      ✅ Yes
+[12:26:47.546] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:26:47.573] [INFO ] 
+[12:26:47.573] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:26:47.573] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260201_122639_3BC5
+[12:26:47.573] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:26:47.573] [INFO ] 
+[12:26:47.573] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:26:47.573] [INFO ]     │ Browser Launch:      0.06s
+[12:26:47.573] [INFO ]     │ Page Load:           1.14s
+[12:26:47.573] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:26:47.573] [INFO ]     │ Human Simulation:    2.68s
+[12:26:47.573] [INFO ]     │
+[12:26:47.573] [INFO ]     │ Content Extraction:  0.15s
+[12:26:47.573] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:26:47.573] [INFO ]     │ TOTAL TIME:          4.03s
+[12:26:47.573] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:26:47.573] [INFO ] 
+[12:26:47.573] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:26:47.573] [INFO ]     │ Title:            Saudi Arabian Monetary Authority (SAMA)
+[12:26:47.573] [INFO ]     │ Final URL:        https://www.devex.com/organizations/saudi-arabian-monetary-authority-sama-146362
+[12:26:47.573] [INFO ]     │ HTML Size:        70,986 bytes
+[12:26:47.573] [INFO ]     │ Text Size:        998 chars
+[12:26:47.574] [INFO ]     │ Word Count:       ~143 words
+[12:26:47.574] [INFO ]     │ Extraction:       trafilatura
+[12:26:47.574] [INFO ]     │ Has Article:      ✅ Yes
+[12:26:47.574] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:26:47.574] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:26:47.574] [INFO ] ║  📊 SESSION STATS
+[12:26:47.574] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:26:47.574] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:26:47.574] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:26:47.574] [INFO ] ║  └─ Proxy Used:         Direct
+[12:26:47.574] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:26:47.574] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.33s
+ENDED: 2026-02-01T12:26:47.574055+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

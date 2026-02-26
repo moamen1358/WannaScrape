@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://adsero.me/executive-regulations-issued-for-egypts-personal-data-protection-law-business-impact-and-compliance-considerations/
+Started: 2026-01-29 19:35:54
+Session ID: SCRAPE_20260129_193554_F832
+================================================================================
+[19:35:54.841] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_193554_adsero.me.log
+[19:35:54.841] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[19:35:55.182] [INFO ] 
+[19:35:55.182] [INFO ]     🚀 BROWSER LAUNCHED
+[19:35:55.182] [INFO ]     ├─ Mode:       Headless
+[19:35:55.182] [INFO ]     ├─ Slow Mo:    58ms
+[19:35:55.182] [INFO ]     ├─ Launch Time: 0.05s
+[19:35:55.182] [INFO ]     └─ Args:       Anti-automation flags enabled
+[19:35:55.202] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-CA, tz=UTC
+[19:35:55.202] [INFO ] 
+[19:35:55.202] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:35:55.202] [INFO ] ║  📋 SESSION: SCRAPE_20260129_193554_F832
+[19:35:55.202] [INFO ] ║  🌐 URL: https://adsero.me/executive-regulations-issued-for-egypts-personal-data-protection-law-business-impact-and-compliance-considerations/
+[19:35:55.202] [INFO ] ║  🔄 ATTEMPT: 1/2
+[19:35:55.202] [INFO ] ║  ⏰ STARTED: 2026-01-29T19:35:55.202347+02:00 (Egypt Time)
+[19:35:55.202] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:35:55.202] [INFO ] 
+[19:35:55.202] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[19:35:55.202] [INFO ]     │ Browser:     CHROME v124
+[19:35:55.202] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[19:35:55.202] [INFO ]     │ Viewport:    1920x1080
+[19:35:55.202] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[19:35:55.202] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[19:35:55.202] [INFO ]     │ Location:    Vancouver, Canada
+[19:35:55.202] [INFO ]     │ Timezone:    N/A
+[19:35:55.202] [INFO ]     │ Locale:      en-CA
+[19:35:55.202] [INFO ]     │ Geo:         0, 0
+[19:35:55.202] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[19:35:55.202] [INFO ]     │ Proxy:       Direct (no proxy)
+[19:35:55.202] [INFO ]     │ Referrer:    https://news.google.com/
+[19:35:55.202] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:35:55.202] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:35:55.202] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[19:35:55.202] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:35:55.202] [INFO ] 
+[19:35:55.202] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[19:35:55.202] [INFO ]     ├─ Canvas fingerprint noise
+[19:35:55.202] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:35:55.202] [INFO ]     ├─ Hardware concurrency randomization
+[19:35:55.202] [INFO ]     ├─ Device memory randomization
+[19:35:55.202] [INFO ]     ├─ Plugin masking
+[19:35:55.202] [INFO ]     ├─ WebRTC IP leak protection
+[19:35:55.202] [INFO ]     ├─ Network connection spoof
+[19:35:55.202] [INFO ]     └─ Battery API spoof
+[19:35:55.243] [INFO ] 
+[19:35:55.243] [INFO ]     🥷 STEALTH MODE APPLIED
+[19:35:55.243] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[19:35:55.243] [INFO ]     ├─ Chrome runtime patches
+[19:35:55.243] [INFO ]     ├─ Console patches
+[19:35:55.243] [INFO ]     └─ Permission patches
+[19:35:55.243] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[19:35:55.243] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:35:55.243] [INFO ] 
+[19:35:55.243] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[19:35:55.243] [INFO ]     ├─ Canvas fingerprint noise
+[19:35:55.243] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:35:55.243] [INFO ]     ├─ Hardware concurrency randomization
+[19:35:55.243] [INFO ]     ├─ Device memory randomization
+[19:35:55.243] [INFO ]     ├─ Plugin masking
+[19:35:55.243] [INFO ]     ├─ WebRTC IP leak protection
+[19:35:55.243] [INFO ]     ├─ Network connection spoof
+[19:35:55.243] [INFO ]     └─ Battery API spoof
+[19:35:55.243] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:35:55.243] [INFO ] 
+[19:35:55.243] [INFO ]     🔗 NAVIGATING TO URL
+[19:35:55.243] [INFO ]     ├─ Strategy:   domcontentloaded
+[19:35:55.243] [INFO ]     ├─ Timeout:    15.0s
+[19:35:55.243] [INFO ]     └─ Sleep:      1s after load
+[19:35:56.889] [INFO ] 
+[19:35:56.889] [INFO ]     ✅ PAGE LOADED
+[19:35:56.889] [INFO ]     ├─ Final URL:  https://adsero.me/executive-regulations-issued-for-egypts-personal-data-protection-law-business-impact-and-compliance-considerations/
+[19:35:56.889] [INFO ]     ├─ Title:      Executive Regulations Issued for Egypt’s Personal Data Protection Law: Business Impact and Compliance Considerations - ADSERO
+[19:35:56.889] [INFO ]     └─ Load Time:  1.65s
+[19:35:58.271] [INFO ] 🧑 Human behavior simulation...
+[19:36:02.099] [INFO ] 🖱️ Mouse: 3 moves in 1920x1080
+[19:36:02.099] [INFO ] 🖱️ Mouse completed: 3 moves
+[19:36:02.099] [INFO ] 📜 Scroll: page height, viewport=1080px
+[19:36:02.099] [INFO ] 📜 Scroll completed: 1 scrolls
+[19:36:02.099] [INFO ] 🧑 Human behavior completed in 3.8s ✓
+[19:36:02.099] [INFO ] 
+[19:36:02.099] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[19:36:02.099] [INFO ]     ├─ Mouse Movements: 3
+[19:36:02.099] [INFO ]     ├─ Scroll Actions:  1
+[19:36:02.099] [INFO ]     └─ Time Spent:      3.83s
+[19:36:02.288] [INFO ] 
+[19:36:02.288] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:36:02.288] [INFO ]     │ Title:            STAY UPDATED WITH NEWS SUBSCRIBE TO OUR NEWSFEED
+[19:36:02.288] [INFO ]     │ Final URL:        https://adsero.me/executive-regulations-issued-for-egypts-personal-data-protection-law-business-impact-and-compliance-considerations/
+[19:36:02.288] [INFO ]     │ HTML Size:        116,232 bytes
+[19:36:02.288] [INFO ]     │ Text Size:        10,940 chars
+[19:36:02.288] [INFO ]     │ Word Count:       ~1619 words
+[19:36:02.288] [INFO ]     │ Extraction:       trafilatura
+[19:36:02.288] [INFO ]     │ Has Article:      ✅ Yes
+[19:36:02.288] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:36:02.318] [INFO ] 
+[19:36:02.318] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:36:02.318] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_193554_F832
+[19:36:02.318] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:36:02.318] [INFO ] 
+[19:36:02.318] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[19:36:02.318] [INFO ]     │ Browser Launch:      0.05s
+[19:36:02.318] [INFO ]     │ Page Load:           1.65s
+[19:36:02.318] [INFO ]     │ Cloudflare Wait:     0.00s
+[19:36:02.318] [INFO ]     │ Human Simulation:    3.83s
+[19:36:02.318] [INFO ]     │
+[19:36:02.318] [INFO ]     │ Content Extraction:  0.11s
+[19:36:02.318] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[19:36:02.318] [INFO ]     │ TOTAL TIME:          5.64s
+[19:36:02.318] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:36:02.318] [INFO ] 
+[19:36:02.318] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:36:02.318] [INFO ]     │ Title:            STAY UPDATED WITH NEWS SUBSCRIBE TO OUR NEWSFEED
+[19:36:02.318] [INFO ]     │ Final URL:        https://adsero.me/executive-regulations-issued-for-egypts-personal-data-protection-law-business-impact-and-compliance-considerations/
+[19:36:02.318] [INFO ]     │ HTML Size:        116,232 bytes
+[19:36:02.318] [INFO ]     │ Text Size:        10,940 chars
+[19:36:02.318] [INFO ]     │ Word Count:       ~1619 words
+[19:36:02.318] [INFO ]     │ Extraction:       trafilatura
+[19:36:02.318] [INFO ]     │ Has Article:      ✅ Yes
+[19:36:02.318] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:36:02.318] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:36:02.318] [INFO ] ║  📊 SESSION STATS
+[19:36:02.318] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[19:36:02.318] [INFO ] ║  ├─ Popups Dismissed:   0
+[19:36:02.318] [INFO ] ║  ├─ Cloudflare:         Not detected
+[19:36:02.318] [INFO ] ║  └─ Proxy Used:         Direct
+[19:36:02.318] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:36:02.318] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.48s
+ENDED: 2026-01-29T19:36:02.318802+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

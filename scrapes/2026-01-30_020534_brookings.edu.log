@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.brookings.edu/articles/regulatory-reforms-necessary-for-an-inclusive-growth-model-in-egypt/
+Started: 2026-01-30 02:05:34
+Session ID: SCRAPE_20260130_020534_2D29
+================================================================================
+[02:05:34.265] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_020534_brookings.edu.log
+[02:05:34.265] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[02:05:34.607] [INFO ] 
+[02:05:34.607] [INFO ]     🚀 BROWSER LAUNCHED
+[02:05:34.607] [INFO ]     ├─ Mode:       Headless
+[02:05:34.607] [INFO ]     ├─ Slow Mo:    44ms
+[02:05:34.607] [INFO ]     ├─ Launch Time: 0.05s
+[02:05:34.607] [INFO ]     └─ Args:       Anti-automation flags enabled
+[02:05:34.629] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-GB, tz=UTC
+[02:05:34.629] [INFO ] 
+[02:05:34.629] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[02:05:34.629] [INFO ] ║  📋 SESSION: SCRAPE_20260130_020534_2D29
+[02:05:34.629] [INFO ] ║  🌐 URL: https://www.brookings.edu/articles/regulatory-reforms-necessary-for-an-inclusive-growth-model-in-egypt/
+[02:05:34.629] [INFO ] ║  🔄 ATTEMPT: 1/2
+[02:05:34.629] [INFO ] ║  ⏰ STARTED: 2026-01-30T02:05:34.629859+02:00 (Egypt Time)
+[02:05:34.629] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:05:34.629] [INFO ] 
+[02:05:34.629] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[02:05:34.629] [INFO ]     │ Browser:     CHROME v124
+[02:05:34.629] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[02:05:34.629] [INFO ]     │ Viewport:    1366x768
+[02:05:34.629] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[02:05:34.629] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[02:05:34.629] [INFO ]     │ Location:    London, UK
+[02:05:34.629] [INFO ]     │ Timezone:    N/A
+[02:05:34.629] [INFO ]     │ Locale:      en-GB
+[02:05:34.629] [INFO ]     │ Geo:         0, 0
+[02:05:34.629] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[02:05:34.629] [INFO ]     │ Proxy:       Direct (no proxy)
+[02:05:34.629] [INFO ]     │ Referrer:    https://www.google.com/
+[02:05:34.629] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:05:34.629] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[02:05:34.629] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[02:05:34.629] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[02:05:34.629] [INFO ] 
+[02:05:34.629] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[02:05:34.629] [INFO ]     ├─ Canvas fingerprint noise
+[02:05:34.629] [INFO ]     ├─ WebGL renderer/vendor spoof
+[02:05:34.629] [INFO ]     ├─ Hardware concurrency randomization
+[02:05:34.629] [INFO ]     ├─ Device memory randomization
+[02:05:34.629] [INFO ]     ├─ Plugin masking
+[02:05:34.629] [INFO ]     ├─ WebRTC IP leak protection
+[02:05:34.629] [INFO ]     ├─ Network connection spoof
+[02:05:34.629] [INFO ]     └─ Battery API spoof
+[02:05:34.671] [INFO ] 
+[02:05:34.671] [INFO ]     🥷 STEALTH MODE APPLIED
+[02:05:34.671] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[02:05:34.671] [INFO ]     ├─ Chrome runtime patches
+[02:05:34.671] [INFO ]     ├─ Console patches
+[02:05:34.671] [INFO ]     └─ Permission patches
+[02:05:34.671] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[02:05:34.671] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[02:05:34.671] [INFO ] 
+[02:05:34.671] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[02:05:34.671] [INFO ]     ├─ Canvas fingerprint noise
+[02:05:34.671] [INFO ]     ├─ WebGL renderer/vendor spoof
+[02:05:34.671] [INFO ]     ├─ Hardware concurrency randomization
+[02:05:34.671] [INFO ]     ├─ Device memory randomization
+[02:05:34.671] [INFO ]     ├─ Plugin masking
+[02:05:34.671] [INFO ]     ├─ WebRTC IP leak protection
+[02:05:34.671] [INFO ]     ├─ Network connection spoof
+[02:05:34.671] [INFO ]     └─ Battery API spoof
+[02:05:34.671] [DEBUG] Enabled resource blocking (images, media, fonts)
+[02:05:34.671] [INFO ] 
+[02:05:34.671] [INFO ]     🔗 NAVIGATING TO URL
+[02:05:34.671] [INFO ]     ├─ Strategy:   domcontentloaded
+[02:05:34.671] [INFO ]     ├─ Timeout:    15.0s
+[02:05:34.671] [INFO ]     └─ Sleep:      1s after load
+[02:05:37.240] [INFO ] 
+[02:05:37.240] [INFO ]     ✅ PAGE LOADED
+[02:05:37.240] [INFO ]     ├─ Final URL:  https://www.brookings.edu/articles/regulatory-reforms-necessary-for-an-inclusive-growth-model-in-egypt/
+[02:05:37.240] [INFO ]     ├─ Title:      Regulatory Reforms Necessary for an Inclusive Growth Model in Egypt | Brookings
+[02:05:37.240] [INFO ]     └─ Load Time:  2.57s
+[02:05:39.932] [INFO ] 🧑 Human behavior simulation...
+[02:05:44.193] [INFO ] 🖱️ Mouse: 3 moves in 1366x768
+[02:05:44.194] [INFO ] 🖱️ Mouse completed: 3 moves
+[02:05:44.194] [INFO ] 📜 Scroll: page height, viewport=768px
+[02:05:44.194] [INFO ] 📜 Scroll completed: 3 scrolls
+[02:05:44.194] [INFO ] 🧑 Human behavior completed in 4.3s ✓
+[02:05:44.194] [INFO ] 
+[02:05:44.194] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[02:05:44.194] [INFO ]     ├─ Mouse Movements: 3
+[02:05:44.194] [INFO ]     ├─ Scroll Actions:  3
+[02:05:44.194] [INFO ]     └─ Time Spent:      4.26s
+[02:05:44.408] [INFO ] 
+[02:05:44.408] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[02:05:44.408] [INFO ]     │ Title:            Regulatory Reforms Necessary for an Inclusive Grow
+[02:05:44.408] [INFO ]     │ Final URL:        https://www.brookings.edu/articles/regulatory-reforms-necessary-for-an-inclusive-growth-model-in-egypt/
+[02:05:44.408] [INFO ]     │ HTML Size:        242,181 bytes
+[02:05:44.408] [INFO ]     │ Text Size:        3,567 chars
+[02:05:44.408] [INFO ]     │ Word Count:       ~544 words
+[02:05:44.408] [INFO ]     │ Extraction:       trafilatura
+[02:05:44.408] [INFO ]     │ Has Article:      ✅ Yes
+[02:05:44.408] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:05:44.445] [INFO ] 
+[02:05:44.445] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[02:05:44.445] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260130_020534_2D29
+[02:05:44.445] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:05:44.445] [INFO ] 
+[02:05:44.445] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[02:05:44.445] [INFO ]     │ Browser Launch:      0.05s
+[02:05:44.445] [INFO ]     │ Page Load:           2.57s
+[02:05:44.445] [INFO ]     │ Cloudflare Wait:     0.00s
+[02:05:44.445] [INFO ]     │ Human Simulation:    4.26s
+[02:05:44.445] [INFO ]     │
+[02:05:44.445] [INFO ]     │ Content Extraction:  0.08s
+[02:05:44.445] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[02:05:44.445] [INFO ]     │ TOTAL TIME:          6.97s
+[02:05:44.445] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:05:44.445] [INFO ] 
+[02:05:44.445] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[02:05:44.445] [INFO ]     │ Title:            Regulatory Reforms Necessary for an Inclusive Grow
+[02:05:44.445] [INFO ]     │ Final URL:        https://www.brookings.edu/articles/regulatory-reforms-necessary-for-an-inclusive-growth-model-in-egypt/
+[02:05:44.446] [INFO ]     │ HTML Size:        242,181 bytes
+[02:05:44.446] [INFO ]     │ Text Size:        3,567 chars
+[02:05:44.446] [INFO ]     │ Word Count:       ~544 words
+[02:05:44.446] [INFO ]     │ Extraction:       trafilatura
+[02:05:44.446] [INFO ]     │ Has Article:      ✅ Yes
+[02:05:44.446] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:05:44.446] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:05:44.446] [INFO ] ║  📊 SESSION STATS
+[02:05:44.446] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[02:05:44.446] [INFO ] ║  ├─ Popups Dismissed:   0
+[02:05:44.446] [INFO ] ║  ├─ Cloudflare:         Not detected
+[02:05:44.446] [INFO ] ║  └─ Proxy Used:         Direct
+[02:05:44.446] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[02:05:44.446] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.18s
+ENDED: 2026-01-30T02:05:44.446104+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

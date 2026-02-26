@@ -1,0 +1,204 @@
+================================================================================
+SCRAPE LOG: https://www.virtru.com/blog/compliance/cmmc
+Started: 2026-01-29 20:34:56
+Session ID: SCRAPE_20260129_203456_ED06
+================================================================================
+[20:34:56.128] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_203456_virtru.com.log
+[20:34:56.128] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[20:34:56.469] [INFO ] 
+[20:34:56.469] [INFO ]     🚀 BROWSER LAUNCHED
+[20:34:56.469] [INFO ]     ├─ Mode:       Headless
+[20:34:56.469] [INFO ]     ├─ Slow Mo:    46ms
+[20:34:56.470] [INFO ]     ├─ Launch Time: 0.06s
+[20:34:56.470] [INFO ]     └─ Args:       Anti-automation flags enabled
+[20:34:56.490] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-US, tz=UTC
+[20:34:56.490] [INFO ] 
+[20:34:56.490] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:34:56.490] [INFO ] ║  📋 SESSION: SCRAPE_20260129_203456_ED06
+[20:34:56.490] [INFO ] ║  🌐 URL: https://www.virtru.com/blog/compliance/cmmc
+[20:34:56.490] [INFO ] ║  🔄 ATTEMPT: 1/2
+[20:34:56.490] [INFO ] ║  ⏰ STARTED: 2026-01-29T20:34:56.490402+02:00 (Egypt Time)
+[20:34:56.490] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:34:56.490] [INFO ] 
+[20:34:56.490] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[20:34:56.490] [INFO ]     │ Browser:     CHROME v121
+[20:34:56.490] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_1) AppleWebKit/537.36 (KHTML...
+[20:34:56.490] [INFO ]     │ Viewport:    1680x1050
+[20:34:56.490] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[20:34:56.490] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[20:34:56.490] [INFO ]     │ Location:    Denver, USA
+[20:34:56.490] [INFO ]     │ Timezone:    N/A
+[20:34:56.490] [INFO ]     │ Locale:      en-US
+[20:34:56.490] [INFO ]     │ Geo:         0, 0
+[20:34:56.490] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[20:34:56.490] [INFO ]     │ Proxy:       Direct (no proxy)
+[20:34:56.490] [INFO ]     │ Referrer:    None
+[20:34:56.490] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:34:56.490] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:34:56.490] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[20:34:56.490] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:34:56.490] [INFO ] 
+[20:34:56.490] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[20:34:56.490] [INFO ]     ├─ Canvas fingerprint noise
+[20:34:56.490] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:34:56.490] [INFO ]     ├─ Hardware concurrency randomization
+[20:34:56.490] [INFO ]     ├─ Device memory randomization
+[20:34:56.490] [INFO ]     ├─ Plugin masking
+[20:34:56.490] [INFO ]     ├─ WebRTC IP leak protection
+[20:34:56.490] [INFO ]     ├─ Network connection spoof
+[20:34:56.490] [INFO ]     └─ Battery API spoof
+[20:34:56.531] [INFO ] 
+[20:34:56.531] [INFO ]     🥷 STEALTH MODE APPLIED
+[20:34:56.531] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[20:34:56.531] [INFO ]     ├─ Chrome runtime patches
+[20:34:56.531] [INFO ]     ├─ Console patches
+[20:34:56.531] [INFO ]     └─ Permission patches
+[20:34:56.531] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[20:34:56.531] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:34:56.531] [INFO ] 
+[20:34:56.531] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[20:34:56.531] [INFO ]     ├─ Canvas fingerprint noise
+[20:34:56.531] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:34:56.531] [INFO ]     ├─ Hardware concurrency randomization
+[20:34:56.531] [INFO ]     ├─ Device memory randomization
+[20:34:56.531] [INFO ]     ├─ Plugin masking
+[20:34:56.531] [INFO ]     ├─ WebRTC IP leak protection
+[20:34:56.531] [INFO ]     ├─ Network connection spoof
+[20:34:56.531] [INFO ]     └─ Battery API spoof
+[20:34:56.531] [DEBUG] Enabled resource blocking (images, media, fonts)
+[20:34:56.531] [INFO ] 
+[20:34:56.531] [INFO ]     🔗 NAVIGATING TO URL
+[20:34:56.531] [INFO ]     ├─ Strategy:   domcontentloaded
+[20:34:56.531] [INFO ]     ├─ Timeout:    15.0s
+[20:34:56.531] [INFO ]     └─ Sleep:      1s after load
+[20:34:59.287] [INFO ] 
+[20:34:59.287] [INFO ]     ✅ PAGE LOADED
+[20:34:59.287] [INFO ]     ├─ Final URL:  https://www.virtru.com/blog/compliance/cmmc
+[20:34:59.288] [INFO ]     ├─ Title:      CMMC 2.0 Quick-Start Guide for Defense Contractors
+[20:34:59.288] [INFO ]     └─ Load Time:  2.76s
+[20:35:03.485] [INFO ] 🧑 Human behavior simulation...
+[20:35:09.563] [INFO ] 🖱️ Mouse: 3 moves in 1680x1050
+[20:35:09.563] [INFO ] 🖱️ Mouse completed: 3 moves
+[20:35:09.563] [INFO ] 📜 Scroll: page height, viewport=1050px
+[20:35:09.563] [INFO ] 📜 Scroll completed: 2 scrolls
+[20:35:09.563] [INFO ] 🧑 Human behavior completed in 6.1s ✓
+[20:35:09.563] [INFO ] 
+[20:35:09.564] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[20:35:09.564] [INFO ]     ├─ Mouse Movements: 3
+[20:35:09.564] [INFO ]     ├─ Scroll Actions:  2
+[20:35:09.564] [INFO ]     └─ Time Spent:      6.08s
+[20:35:17.872] [INFO ] 
+[20:35:17.872] [INFO ]     🚀 BROWSER LAUNCHED
+[20:35:17.872] [INFO ]     ├─ Mode:       Headless
+[20:35:17.872] [INFO ]     ├─ Slow Mo:    59ms
+[20:35:17.872] [INFO ]     ├─ Launch Time: 0.06s
+[20:35:17.872] [INFO ]     └─ Args:       Anti-automation flags enabled
+[20:35:17.890] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-US, tz=UTC
+[20:35:17.890] [INFO ] 
+[20:35:17.890] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:35:17.890] [INFO ] ║  📋 SESSION: SCRAPE_20260129_203456_ED06
+[20:35:17.890] [INFO ] ║  🌐 URL: https://www.virtru.com/blog/compliance/cmmc
+[20:35:17.890] [INFO ] ║  🔄 ATTEMPT: 2/2
+[20:35:17.890] [INFO ] ║  ⏰ STARTED: 2026-01-29T20:35:17.890306+02:00 (Egypt Time)
+[20:35:17.890] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:35:17.890] [INFO ] 
+[20:35:17.890] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[20:35:17.890] [INFO ]     │ Browser:     CHROME v120
+[20:35:17.890] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36 (KHTML...
+[20:35:17.890] [INFO ]     │ Viewport:    1680x1050
+[20:35:17.890] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[20:35:17.890] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[20:35:17.890] [INFO ]     │ Location:    Phoenix, USA
+[20:35:17.890] [INFO ]     │ Timezone:    N/A
+[20:35:17.890] [INFO ]     │ Locale:      en-US
+[20:35:17.890] [INFO ]     │ Geo:         0, 0
+[20:35:17.890] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[20:35:17.890] [INFO ]     │ Proxy:       Direct (no proxy)
+[20:35:17.890] [INFO ]     │ Referrer:    https://www.google.com/
+[20:35:17.890] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:35:17.890] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:35:17.890] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[20:35:17.890] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:35:17.890] [INFO ] 
+[20:35:17.890] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[20:35:17.890] [INFO ]     ├─ Canvas fingerprint noise
+[20:35:17.890] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:35:17.890] [INFO ]     ├─ Hardware concurrency randomization
+[20:35:17.890] [INFO ]     ├─ Device memory randomization
+[20:35:17.890] [INFO ]     ├─ Plugin masking
+[20:35:17.890] [INFO ]     ├─ WebRTC IP leak protection
+[20:35:17.890] [INFO ]     ├─ Network connection spoof
+[20:35:17.890] [INFO ]     └─ Battery API spoof
+[20:35:17.934] [INFO ] 
+[20:35:17.934] [INFO ]     🥷 STEALTH MODE APPLIED
+[20:35:17.934] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[20:35:17.934] [INFO ]     ├─ Chrome runtime patches
+[20:35:17.934] [INFO ]     ├─ Console patches
+[20:35:17.934] [INFO ]     └─ Permission patches
+[20:35:17.934] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[20:35:17.934] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:35:17.934] [INFO ] 
+[20:35:17.934] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[20:35:17.934] [INFO ]     ├─ Canvas fingerprint noise
+[20:35:17.934] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:35:17.934] [INFO ]     ├─ Hardware concurrency randomization
+[20:35:17.934] [INFO ]     ├─ Device memory randomization
+[20:35:17.934] [INFO ]     ├─ Plugin masking
+[20:35:17.934] [INFO ]     ├─ WebRTC IP leak protection
+[20:35:17.934] [INFO ]     ├─ Network connection spoof
+[20:35:17.934] [INFO ]     └─ Battery API spoof
+[20:35:17.934] [DEBUG] Enabled resource blocking (images, media, fonts)
+[20:35:17.934] [INFO ] 
+[20:35:17.934] [INFO ]     🔗 NAVIGATING TO URL
+[20:35:17.934] [INFO ]     ├─ Strategy:   domcontentloaded
+[20:35:17.934] [INFO ]     ├─ Timeout:    15.0s
+[20:35:17.934] [INFO ]     └─ Sleep:      1s after load
+[20:35:18.983] [INFO ] 
+[20:35:18.983] [INFO ]     ✅ PAGE LOADED
+[20:35:18.983] [INFO ]     ├─ Final URL:  https://www.virtru.com/blog/compliance/cmmc
+[20:35:18.983] [INFO ]     ├─ Title:      CMMC 2.0 Quick-Start Guide for Defense Contractors
+[20:35:18.983] [INFO ]     └─ Load Time:  1.05s
+[20:35:23.378] [INFO ] 🧑 Human behavior simulation...
+[20:35:29.170] [INFO ] 🖱️ Mouse: 3 moves in 1680x1050
+[20:35:29.170] [INFO ] 🖱️ Mouse completed: 3 moves
+[20:35:29.170] [INFO ] 📜 Scroll: page height, viewport=1050px
+[20:35:29.170] [INFO ] 📜 Scroll completed: 2 scrolls
+[20:35:29.170] [INFO ] 🧑 Human behavior completed in 5.8s ✓
+[20:35:29.170] [INFO ] 
+[20:35:29.170] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[20:35:29.170] [INFO ]     ├─ Mouse Movements: 3
+[20:35:29.170] [INFO ]     ├─ Scroll Actions:  2
+[20:35:29.170] [INFO ]     └─ Time Spent:      5.79s
+[20:35:29.631] [INFO ] 
+[20:35:29.631] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:35:29.631] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260129_203456_ED06
+[20:35:29.631] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:35:29.631] [INFO ] 
+[20:35:29.631] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[20:35:29.631] [INFO ]     │ URL:              https://www.virtru.com/blog/compliance/cmmc
+[20:35:29.631] [INFO ]     │ Error Type:       unknown
+[20:35:29.631] [INFO ]     │ Likely Ban:       ❌ No
+[20:35:29.631] [INFO ]     │ Retries Used:     2
+[20:35:29.631] [INFO ]     │
+[20:35:29.631] [INFO ]     │ Error Message:
+[20:35:29.631] [INFO ]     │   Failed after 2 attempts. Last error: Unknown error
+[20:35:29.631] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:35:29.631] [INFO ] 
+[20:35:29.631] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[20:35:29.631] [INFO ]     │ Browser Launch:     0.06s
+[20:35:29.631] [INFO ]     │ Page Load:          1.05s
+[20:35:29.631] [INFO ]     │ Cloudflare Wait:    0.00s
+[20:35:29.631] [INFO ]     │ Human Simulation:   5.79s
+[20:35:29.631] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[20:35:29.631] [INFO ]     │ FAILED AT:          6.90s
+[20:35:29.631] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:35:29.631] [INFO ] 
+[20:35:29.631] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:35:29.631] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 33.50s
+ENDED: 2026-01-29T20:35:29.631842+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

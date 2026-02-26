@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.paloaltonetworks.com/cyberpedia/gdpr-compliance
+Started: 2026-01-28 12:42:09
+Session ID: SCRAPE_20260128_124209_B1E2
+================================================================================
+[12:42:09.012] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-28_124209_paloaltonetworks.com.log
+[12:42:09.012] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:42:09.357] [INFO ] 
+[12:42:09.357] [INFO ]     🚀 BROWSER LAUNCHED
+[12:42:09.357] [INFO ]     ├─ Mode:       Headless
+[12:42:09.357] [INFO ]     ├─ Slow Mo:    56ms
+[12:42:09.357] [INFO ]     ├─ Launch Time: 0.06s
+[12:42:09.357] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:42:09.375] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-US, tz=UTC
+[12:42:09.376] [INFO ] 
+[12:42:09.376] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:42:09.376] [INFO ] ║  📋 SESSION: SCRAPE_20260128_124209_B1E2
+[12:42:09.376] [INFO ] ║  🌐 URL: https://www.paloaltonetworks.com/cyberpedia/gdpr-compliance
+[12:42:09.376] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:42:09.376] [INFO ] ║  ⏰ STARTED: 2026-01-28T12:42:09.376032+02:00 (Egypt Time)
+[12:42:09.376] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:42:09.376] [INFO ] 
+[12:42:09.376] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:42:09.376] [INFO ]     │ Browser:     CHROME v120
+[12:42:09.376] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[12:42:09.376] [INFO ]     │ Viewport:    1680x1050
+[12:42:09.376] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:42:09.376] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:42:09.376] [INFO ]     │ Location:    Phoenix, USA
+[12:42:09.376] [INFO ]     │ Timezone:    N/A
+[12:42:09.376] [INFO ]     │ Locale:      en-US
+[12:42:09.376] [INFO ]     │ Geo:         0, 0
+[12:42:09.376] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:42:09.376] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:42:09.376] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+paloaltonetworks+com
+[12:42:09.376] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:42:09.376] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:42:09.376] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:42:09.376] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:42:09.376] [INFO ] 
+[12:42:09.376] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:42:09.376] [INFO ]     ├─ Canvas fingerprint noise
+[12:42:09.376] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:42:09.376] [INFO ]     ├─ Hardware concurrency randomization
+[12:42:09.376] [INFO ]     ├─ Device memory randomization
+[12:42:09.376] [INFO ]     ├─ Plugin masking
+[12:42:09.376] [INFO ]     ├─ WebRTC IP leak protection
+[12:42:09.376] [INFO ]     ├─ Network connection spoof
+[12:42:09.376] [INFO ]     └─ Battery API spoof
+[12:42:09.417] [INFO ] 
+[12:42:09.417] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:42:09.417] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:42:09.417] [INFO ]     ├─ Chrome runtime patches
+[12:42:09.417] [INFO ]     ├─ Console patches
+[12:42:09.417] [INFO ]     └─ Permission patches
+[12:42:09.417] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:42:09.417] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:42:09.417] [INFO ] 
+[12:42:09.417] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:42:09.417] [INFO ]     ├─ Canvas fingerprint noise
+[12:42:09.417] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:42:09.417] [INFO ]     ├─ Hardware concurrency randomization
+[12:42:09.417] [INFO ]     ├─ Device memory randomization
+[12:42:09.417] [INFO ]     ├─ Plugin masking
+[12:42:09.417] [INFO ]     ├─ WebRTC IP leak protection
+[12:42:09.417] [INFO ]     ├─ Network connection spoof
+[12:42:09.417] [INFO ]     └─ Battery API spoof
+[12:42:09.417] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:42:09.417] [INFO ] 
+[12:42:09.417] [INFO ]     🔗 NAVIGATING TO URL
+[12:42:09.417] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:42:09.417] [INFO ]     ├─ Timeout:    15.0s
+[12:42:09.417] [INFO ]     └─ Sleep:      1s after load
+[12:42:10.787] [INFO ] 
+[12:42:10.787] [INFO ]     ✅ PAGE LOADED
+[12:42:10.787] [INFO ]     ├─ Final URL:  https://www.paloaltonetworks.com/cyberpedia/gdpr-compliance
+[12:42:10.787] [INFO ]     ├─ Title:      What Is GDPR Compliance? - Palo Alto Networks
+[12:42:10.787] [INFO ]     └─ Load Time:  1.37s
+[12:42:12.233] [INFO ] 🧑 Human behavior simulation...
+[12:42:18.442] [INFO ] 🖱️ Mouse: 4 moves in 1680x1050
+[12:42:18.442] [INFO ] 🖱️ Mouse completed: 4 moves
+[12:42:18.442] [INFO ] 📜 Scroll: page height, viewport=1050px
+[12:42:18.442] [INFO ] 📜 Scroll completed: 1 scrolls
+[12:42:18.442] [INFO ] 🧑 Human behavior completed in 6.2s ✓
+[12:42:18.442] [INFO ] 
+[12:42:18.442] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:42:18.442] [INFO ]     ├─ Mouse Movements: 4
+[12:42:18.442] [INFO ]     ├─ Scroll Actions:  1
+[12:42:18.442] [INFO ]     └─ Time Spent:      6.21s
+[12:42:19.748] [INFO ] 
+[12:42:19.748] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:42:19.748] [INFO ]     │ Title:            What Is GDPR Compliance?
+[12:42:19.748] [INFO ]     │ Final URL:        https://www.paloaltonetworks.com/cyberpedia/gdpr-compliance
+[12:42:19.748] [INFO ]     │ HTML Size:        784,246 bytes
+[12:42:19.748] [INFO ]     │ Text Size:        26,884 chars
+[12:42:19.748] [INFO ]     │ Word Count:       ~3923 words
+[12:42:19.749] [INFO ]     │ Extraction:       trafilatura
+[12:42:19.749] [INFO ]     │ Has Article:      ✅ Yes
+[12:42:19.749] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:42:19.776] [INFO ] 
+[12:42:19.776] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:42:19.776] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260128_124209_B1E2
+[12:42:19.776] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:42:19.776] [INFO ] 
+[12:42:19.776] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:42:19.776] [INFO ]     │ Browser Launch:      0.06s
+[12:42:19.777] [INFO ]     │ Page Load:           1.37s
+[12:42:19.777] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:42:19.777] [INFO ]     │ Human Simulation:    6.21s
+[12:42:19.777] [INFO ]     │
+[12:42:19.777] [INFO ]     │ Content Extraction:  1.15s
+[12:42:19.777] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:42:19.777] [INFO ]     │ TOTAL TIME:          8.79s
+[12:42:19.777] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:42:19.777] [INFO ] 
+[12:42:19.777] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:42:19.777] [INFO ]     │ Title:            What Is GDPR Compliance?
+[12:42:19.777] [INFO ]     │ Final URL:        https://www.paloaltonetworks.com/cyberpedia/gdpr-compliance
+[12:42:19.777] [INFO ]     │ HTML Size:        784,246 bytes
+[12:42:19.777] [INFO ]     │ Text Size:        26,884 chars
+[12:42:19.777] [INFO ]     │ Word Count:       ~3923 words
+[12:42:19.777] [INFO ]     │ Extraction:       trafilatura
+[12:42:19.777] [INFO ]     │ Has Article:      ✅ Yes
+[12:42:19.777] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:42:19.777] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:42:19.777] [INFO ] ║  📊 SESSION STATS
+[12:42:19.777] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:42:19.777] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:42:19.777] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:42:19.777] [INFO ] ║  └─ Proxy Used:         Direct
+[12:42:19.777] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:42:19.777] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.77s
+ENDED: 2026-01-28T12:42:19.777531+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

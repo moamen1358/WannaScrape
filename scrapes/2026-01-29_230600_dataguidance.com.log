@@ -1,0 +1,142 @@
+================================================================================
+SCRAPE LOG: https://www.dataguidance.com/notes/egypt-data-breach
+Started: 2026-01-29 23:06:00
+Session ID: SCRAPE_20260129_230600_C3E1
+================================================================================
+[23:06:00.196] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_230600_dataguidance.com.log
+[23:06:00.196] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[23:06:00.543] [INFO ] 
+[23:06:00.543] [INFO ]     🚀 BROWSER LAUNCHED
+[23:06:00.543] [INFO ]     ├─ Mode:       Headless
+[23:06:00.543] [INFO ]     ├─ Slow Mo:    49ms
+[23:06:00.543] [INFO ]     ├─ Launch Time: 0.06s
+[23:06:00.543] [INFO ]     └─ Args:       Anti-automation flags enabled
+[23:06:00.559] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-SG, tz=UTC
+[23:06:00.559] [INFO ] 
+[23:06:00.559] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:06:00.559] [INFO ] ║  📋 SESSION: SCRAPE_20260129_230600_C3E1
+[23:06:00.559] [INFO ] ║  🌐 URL: https://www.dataguidance.com/notes/egypt-data-breach
+[23:06:00.559] [INFO ] ║  🔄 ATTEMPT: 1/2
+[23:06:00.559] [INFO ] ║  ⏰ STARTED: 2026-01-29T23:06:00.559885+02:00 (Egypt Time)
+[23:06:00.559] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:06:00.559] [INFO ] 
+[23:06:00.559] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[23:06:00.559] [INFO ]     │ Browser:     CHROME v122
+[23:06:00.559] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[23:06:00.559] [INFO ]     │ Viewport:    1680x1050
+[23:06:00.559] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[23:06:00.559] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[23:06:00.559] [INFO ]     │ Location:    Singapore
+[23:06:00.559] [INFO ]     │ Timezone:    N/A
+[23:06:00.559] [INFO ]     │ Locale:      en-SG
+[23:06:00.559] [INFO ]     │ Geo:         0, 0
+[23:06:00.559] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[23:06:00.559] [INFO ]     │ Proxy:       Direct (no proxy)
+[23:06:00.559] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+dataguidance+com
+[23:06:00.559] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:06:00.559] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:06:00.559] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[23:06:00.559] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:06:00.559] [INFO ] 
+[23:06:00.559] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[23:06:00.559] [INFO ]     ├─ Canvas fingerprint noise
+[23:06:00.559] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:06:00.559] [INFO ]     ├─ Hardware concurrency randomization
+[23:06:00.559] [INFO ]     ├─ Device memory randomization
+[23:06:00.560] [INFO ]     ├─ Plugin masking
+[23:06:00.560] [INFO ]     ├─ WebRTC IP leak protection
+[23:06:00.560] [INFO ]     ├─ Network connection spoof
+[23:06:00.560] [INFO ]     └─ Battery API spoof
+[23:06:00.602] [INFO ] 
+[23:06:00.602] [INFO ]     🥷 STEALTH MODE APPLIED
+[23:06:00.602] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[23:06:00.602] [INFO ]     ├─ Chrome runtime patches
+[23:06:00.602] [INFO ]     ├─ Console patches
+[23:06:00.602] [INFO ]     └─ Permission patches
+[23:06:00.602] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[23:06:00.602] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:06:00.602] [INFO ] 
+[23:06:00.602] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[23:06:00.602] [INFO ]     ├─ Canvas fingerprint noise
+[23:06:00.602] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:06:00.602] [INFO ]     ├─ Hardware concurrency randomization
+[23:06:00.602] [INFO ]     ├─ Device memory randomization
+[23:06:00.602] [INFO ]     ├─ Plugin masking
+[23:06:00.602] [INFO ]     ├─ WebRTC IP leak protection
+[23:06:00.602] [INFO ]     ├─ Network connection spoof
+[23:06:00.602] [INFO ]     └─ Battery API spoof
+[23:06:00.602] [DEBUG] Enabled resource blocking (images, media, fonts)
+[23:06:00.602] [INFO ] 
+[23:06:00.602] [INFO ]     🔗 NAVIGATING TO URL
+[23:06:00.602] [INFO ]     ├─ Strategy:   domcontentloaded
+[23:06:00.602] [INFO ]     ├─ Timeout:    15.0s
+[23:06:00.603] [INFO ]     └─ Sleep:      1s after load
+[23:06:02.193] [INFO ] 
+[23:06:02.193] [INFO ]     ✅ PAGE LOADED
+[23:06:02.193] [INFO ]     ├─ Final URL:  https://www.dataguidance.com/notes/egypt-data-breach
+[23:06:02.193] [INFO ]     ├─ Title:      DataGuidance
+[23:06:02.193] [INFO ]     └─ Load Time:  1.59s
+[23:07:35.517] [INFO ] ☁️ Cloudflare detected, waiting 0.0s...
+[23:07:35.517] [DEBUG] Enabled resource blocking (images, media, fonts)
+[23:07:35.517] [INFO ] 
+[23:07:35.517] [INFO ]     🔗 NAVIGATING TO URL
+[23:07:35.517] [INFO ]     ├─ Strategy:   load
+[23:07:35.517] [INFO ]     ├─ Timeout:    20.0s
+[23:07:35.517] [INFO ]     └─ Sleep:      1s after load
+[23:07:36.065] [INFO ] 
+[23:07:36.065] [INFO ]     ✅ PAGE LOADED
+[23:07:36.065] [INFO ]     ├─ Final URL:  https://www.dataguidance.com/notes/egypt-data-breach
+[23:07:36.065] [INFO ]     ├─ Title:      DataGuidance
+[23:07:36.065] [INFO ]     └─ Load Time:  0.55s
+[23:07:36.098] [INFO ] 
+[23:07:36.098] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:07:36.098] [INFO ] ║  ⚠️  ERROR DETECTED
+[23:07:36.098] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:07:36.098] [INFO ] 
+[23:07:36.098] [INFO ]     ┌─ ERROR DETAILS ───────────────────────────────────────────────┐
+[23:07:36.098] [INFO ]     │ Error Type:       timeout
+[23:07:36.098] [INFO ]     │ Message:          Scrape timed out after 95.9s at stage: page_loaded...
+[23:07:36.098] [INFO ]     │
+[23:07:36.098] [INFO ]     │ Likely Ban:       ✅ No
+[23:07:36.098] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:07:36.098] [INFO ] 
+[23:07:36.098] [INFO ]     ┌─ PAGE STATE AT ERROR ────────────────────────────────────────┐
+[23:07:36.098] [INFO ]     │ Page URL:         https://www.dataguidance.com/notes/egypt-data-breach
+[23:07:36.098] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:07:36.098] [INFO ] 
+[23:07:36.098] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:07:36.098] [INFO ] 
+[23:07:36.098] [ERROR] ❌ timeout: Scrape timed out after 95.9s at stage: page_loaded
+[23:07:36.098] [INFO ] 
+[23:07:36.098] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:07:36.098] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260129_230600_C3E1
+[23:07:36.098] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:07:36.098] [INFO ] 
+[23:07:36.098] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[23:07:36.098] [INFO ]     │ URL:              https://www.dataguidance.com/notes/egypt-data-breach
+[23:07:36.098] [INFO ]     │ Error Type:       timeout
+[23:07:36.098] [INFO ]     │ Likely Ban:       ❌ No
+[23:07:36.098] [INFO ]     │ Retries Used:     0
+[23:07:36.098] [INFO ]     │
+[23:07:36.098] [INFO ]     │ Error Message:
+[23:07:36.098] [INFO ]     │   Scrape timed out after 95.9s at stage: page_loaded
+[23:07:36.098] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:07:36.098] [INFO ] 
+[23:07:36.098] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[23:07:36.098] [INFO ]     │ Browser Launch:     0.06s
+[23:07:36.099] [INFO ]     │ Page Load:          0.55s
+[23:07:36.099] [INFO ]     │ Cloudflare Wait:    0.00s
+[23:07:36.099] [INFO ]     │ Human Simulation:   0.00s
+[23:07:36.099] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[23:07:36.099] [INFO ]     │ FAILED AT:          0.61s
+[23:07:36.099] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:07:36.099] [INFO ] 
+[23:07:36.099] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:07:36.099] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 95.90s
+ENDED: 2026-01-29T23:07:36.099050+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

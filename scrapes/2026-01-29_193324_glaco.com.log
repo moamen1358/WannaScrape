@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.glaco.com/blog/a-first-look-at-egypts-personal-data-protection-executive-regulations/
+Started: 2026-01-29 19:33:24
+Session ID: SCRAPE_20260129_193324_76F7
+================================================================================
+[19:33:24.837] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_193324_glaco.com.log
+[19:33:24.837] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[19:33:25.176] [INFO ] 
+[19:33:25.176] [INFO ]     🚀 BROWSER LAUNCHED
+[19:33:25.177] [INFO ]     ├─ Mode:       Headless
+[19:33:25.177] [INFO ]     ├─ Slow Mo:    52ms
+[19:33:25.177] [INFO ]     ├─ Launch Time: 0.06s
+[19:33:25.177] [INFO ]     └─ Args:       Anti-automation flags enabled
+[19:33:25.194] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-US, tz=UTC
+[19:33:25.194] [INFO ] 
+[19:33:25.194] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:33:25.194] [INFO ] ║  📋 SESSION: SCRAPE_20260129_193324_76F7
+[19:33:25.194] [INFO ] ║  🌐 URL: https://www.glaco.com/blog/a-first-look-at-egypts-personal-data-protection-executive-regulations/
+[19:33:25.194] [INFO ] ║  🔄 ATTEMPT: 1/2
+[19:33:25.194] [INFO ] ║  ⏰ STARTED: 2026-01-29T19:33:25.194274+02:00 (Egypt Time)
+[19:33:25.194] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:33:25.194] [INFO ] 
+[19:33:25.194] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[19:33:25.194] [INFO ]     │ Browser:     CHROME v121
+[19:33:25.194] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[19:33:25.194] [INFO ]     │ Viewport:    1920x1080
+[19:33:25.194] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[19:33:25.194] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[19:33:25.194] [INFO ]     │ Location:    New York, USA
+[19:33:25.194] [INFO ]     │ Timezone:    N/A
+[19:33:25.194] [INFO ]     │ Locale:      en-US
+[19:33:25.194] [INFO ]     │ Geo:         0, 0
+[19:33:25.194] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[19:33:25.194] [INFO ]     │ Proxy:       Direct (no proxy)
+[19:33:25.194] [INFO ]     │ Referrer:    https://www.google.com/
+[19:33:25.194] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:33:25.194] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:33:25.194] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[19:33:25.194] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:33:25.194] [INFO ] 
+[19:33:25.194] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[19:33:25.194] [INFO ]     ├─ Canvas fingerprint noise
+[19:33:25.194] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:33:25.194] [INFO ]     ├─ Hardware concurrency randomization
+[19:33:25.194] [INFO ]     ├─ Device memory randomization
+[19:33:25.194] [INFO ]     ├─ Plugin masking
+[19:33:25.194] [INFO ]     ├─ WebRTC IP leak protection
+[19:33:25.194] [INFO ]     ├─ Network connection spoof
+[19:33:25.194] [INFO ]     └─ Battery API spoof
+[19:33:25.235] [INFO ] 
+[19:33:25.235] [INFO ]     🥷 STEALTH MODE APPLIED
+[19:33:25.235] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[19:33:25.235] [INFO ]     ├─ Chrome runtime patches
+[19:33:25.235] [INFO ]     ├─ Console patches
+[19:33:25.235] [INFO ]     └─ Permission patches
+[19:33:25.235] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[19:33:25.235] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:33:25.235] [INFO ] 
+[19:33:25.235] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[19:33:25.235] [INFO ]     ├─ Canvas fingerprint noise
+[19:33:25.235] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:33:25.235] [INFO ]     ├─ Hardware concurrency randomization
+[19:33:25.235] [INFO ]     ├─ Device memory randomization
+[19:33:25.235] [INFO ]     ├─ Plugin masking
+[19:33:25.235] [INFO ]     ├─ WebRTC IP leak protection
+[19:33:25.235] [INFO ]     ├─ Network connection spoof
+[19:33:25.235] [INFO ]     └─ Battery API spoof
+[19:33:25.235] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:33:25.235] [INFO ] 
+[19:33:25.235] [INFO ]     🔗 NAVIGATING TO URL
+[19:33:25.235] [INFO ]     ├─ Strategy:   domcontentloaded
+[19:33:25.235] [INFO ]     ├─ Timeout:    15.0s
+[19:33:25.235] [INFO ]     └─ Sleep:      1s after load
+[19:33:27.283] [INFO ] 
+[19:33:27.283] [INFO ]     ✅ PAGE LOADED
+[19:33:27.283] [INFO ]     ├─ Final URL:  https://www.glaco.com/blog/a-first-look-at-egypts-personal-data-protection-executive-regulations/
+[19:33:27.283] [INFO ]     ├─ Title:      A First Look at Egypt’s Personal Data Protection Executive Regulations - GLA & Company
+[19:33:27.283] [INFO ]     └─ Load Time:  2.05s
+[19:33:28.486] [INFO ] 🧑 Human behavior simulation...
+[19:33:33.656] [INFO ] 🖱️ Mouse: 3 moves in 1920x1080
+[19:33:33.656] [INFO ] 🖱️ Mouse completed: 3 moves
+[19:33:33.656] [INFO ] 📜 Scroll: page height, viewport=1080px
+[19:33:33.656] [INFO ] 📜 Scroll completed: 3 scrolls
+[19:33:33.656] [INFO ] 🧑 Human behavior completed in 5.2s ✓
+[19:33:33.656] [INFO ] 
+[19:33:33.656] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[19:33:33.656] [INFO ]     ├─ Mouse Movements: 3
+[19:33:33.656] [INFO ]     ├─ Scroll Actions:  3
+[19:33:33.656] [INFO ]     └─ Time Spent:      5.17s
+[19:33:33.761] [INFO ] 
+[19:33:33.761] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:33:33.761] [INFO ]     │ Title:            A First Look at Egypt’s Personal Data Protection E
+[19:33:33.761] [INFO ]     │ Final URL:        https://www.glaco.com/blog/a-first-look-at-egypts-personal-data-protection-executive-regulations/
+[19:33:33.761] [INFO ]     │ HTML Size:        60,132 bytes
+[19:33:33.761] [INFO ]     │ Text Size:        6,609 chars
+[19:33:33.761] [INFO ]     │ Word Count:       ~964 words
+[19:33:33.761] [INFO ]     │ Extraction:       trafilatura
+[19:33:33.761] [INFO ]     │ Has Article:      ✅ Yes
+[19:33:33.761] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:33:33.788] [INFO ] 
+[19:33:33.788] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:33:33.788] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_193324_76F7
+[19:33:33.788] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:33:33.788] [INFO ] 
+[19:33:33.788] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[19:33:33.788] [INFO ]     │ Browser Launch:      0.06s
+[19:33:33.788] [INFO ]     │ Page Load:           2.05s
+[19:33:33.788] [INFO ]     │ Cloudflare Wait:     0.00s
+[19:33:33.788] [INFO ]     │ Human Simulation:    5.17s
+[19:33:33.788] [INFO ]     │
+[19:33:33.788] [INFO ]     │ Content Extraction:  0.04s
+[19:33:33.788] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[19:33:33.788] [INFO ]     │ TOTAL TIME:          7.31s
+[19:33:33.788] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:33:33.788] [INFO ] 
+[19:33:33.788] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:33:33.788] [INFO ]     │ Title:            A First Look at Egypt’s Personal Data Protection E
+[19:33:33.788] [INFO ]     │ Final URL:        https://www.glaco.com/blog/a-first-look-at-egypts-personal-data-protection-executive-regulations/
+[19:33:33.788] [INFO ]     │ HTML Size:        60,132 bytes
+[19:33:33.788] [INFO ]     │ Text Size:        6,609 chars
+[19:33:33.788] [INFO ]     │ Word Count:       ~964 words
+[19:33:33.788] [INFO ]     │ Extraction:       trafilatura
+[19:33:33.788] [INFO ]     │ Has Article:      ✅ Yes
+[19:33:33.788] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:33:33.788] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:33:33.788] [INFO ] ║  📊 SESSION STATS
+[19:33:33.788] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[19:33:33.788] [INFO ] ║  ├─ Popups Dismissed:   0
+[19:33:33.788] [INFO ] ║  ├─ Cloudflare:         Not detected
+[19:33:33.788] [INFO ] ║  └─ Proxy Used:         Direct
+[19:33:33.788] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:33:33.788] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.95s
+ENDED: 2026-01-29T19:33:33.788999+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

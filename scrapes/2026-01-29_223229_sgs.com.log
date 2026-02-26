@@ -1,0 +1,266 @@
+================================================================================
+SCRAPE LOG: https://www.sgs.com/en-eg/service-groups/iso-22301-business-continuity
+Started: 2026-01-29 22:32:29
+Session ID: SCRAPE_20260129_223229_A946
+================================================================================
+[22:32:29.577] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_223229_sgs.com.log
+[22:32:29.577] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[22:32:29.913] [INFO ] 
+[22:32:29.914] [INFO ]     🚀 BROWSER LAUNCHED
+[22:32:29.914] [INFO ]     ├─ Mode:       Headless
+[22:32:29.914] [INFO ]     ├─ Slow Mo:    48ms
+[22:32:29.914] [INFO ]     ├─ Launch Time: 0.06s
+[22:32:29.914] [INFO ]     └─ Args:       Anti-automation flags enabled
+[22:32:29.934] [DEBUG] Browser profile: viewport={'width': 1440, 'height': 900}, locale=en-CA, tz=UTC
+[22:32:29.934] [INFO ] 
+[22:32:29.934] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:32:29.934] [INFO ] ║  📋 SESSION: SCRAPE_20260129_223229_A946
+[22:32:29.934] [INFO ] ║  🌐 URL: https://www.sgs.com/en-eg/service-groups/iso-22301-business-continuity
+[22:32:29.934] [INFO ] ║  🔄 ATTEMPT: 1/2
+[22:32:29.934] [INFO ] ║  ⏰ STARTED: 2026-01-29T22:32:29.934201+02:00 (Egypt Time)
+[22:32:29.934] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:32:29.934] [INFO ] 
+[22:32:29.934] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[22:32:29.934] [INFO ]     │ Browser:     SAFARI v17
+[22:32:29.934] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHT...
+[22:32:29.934] [INFO ]     │ Viewport:    1440x900
+[22:32:29.934] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[22:32:29.934] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[22:32:29.934] [INFO ]     │ Location:    Toronto, Canada
+[22:32:29.934] [INFO ]     │ Timezone:    N/A
+[22:32:29.934] [INFO ]     │ Locale:      en-CA
+[22:32:29.934] [INFO ]     │ Geo:         0, 0
+[22:32:29.934] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[22:32:29.934] [INFO ]     │ Proxy:       Direct (no proxy)
+[22:32:29.934] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+sgs+com
+[22:32:29.934] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:32:29.934] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:32:29.934] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[22:32:29.934] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:32:29.934] [INFO ] 
+[22:32:29.934] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[22:32:29.934] [INFO ]     ├─ Canvas fingerprint noise
+[22:32:29.934] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:32:29.934] [INFO ]     ├─ Hardware concurrency randomization
+[22:32:29.934] [INFO ]     ├─ Device memory randomization
+[22:32:29.934] [INFO ]     ├─ Plugin masking
+[22:32:29.934] [INFO ]     ├─ WebRTC IP leak protection
+[22:32:29.934] [INFO ]     ├─ Network connection spoof
+[22:32:29.934] [INFO ]     └─ Battery API spoof
+[22:32:29.976] [INFO ] 
+[22:32:29.976] [INFO ]     🥷 STEALTH MODE APPLIED
+[22:32:29.976] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[22:32:29.976] [INFO ]     ├─ Chrome runtime patches
+[22:32:29.976] [INFO ]     ├─ Console patches
+[22:32:29.976] [INFO ]     └─ Permission patches
+[22:32:29.976] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[22:32:29.976] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:32:29.976] [INFO ] 
+[22:32:29.976] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[22:32:29.976] [INFO ]     ├─ Canvas fingerprint noise
+[22:32:29.976] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:32:29.976] [INFO ]     ├─ Hardware concurrency randomization
+[22:32:29.976] [INFO ]     ├─ Device memory randomization
+[22:32:29.976] [INFO ]     ├─ Plugin masking
+[22:32:29.976] [INFO ]     ├─ WebRTC IP leak protection
+[22:32:29.976] [INFO ]     ├─ Network connection spoof
+[22:32:29.976] [INFO ]     └─ Battery API spoof
+[22:32:29.976] [DEBUG] Enabled resource blocking (images, media, fonts)
+[22:32:29.976] [INFO ] 
+[22:32:29.976] [INFO ]     🔗 NAVIGATING TO URL
+[22:32:29.976] [INFO ]     ├─ Strategy:   domcontentloaded
+[22:32:29.976] [INFO ]     ├─ Timeout:    15.0s
+[22:32:29.976] [INFO ]     └─ Sleep:      1s after load
+[22:32:30.315] [INFO ] 
+[22:32:30.315] [INFO ]     ✅ PAGE LOADED
+[22:32:30.315] [INFO ]     ├─ Final URL:  https://www.sgs.com/en-eg/service-groups/iso-22301-business-continuity
+[22:32:30.315] [INFO ]     ├─ Title:      Access Denied
+[22:32:30.315] [INFO ]     └─ Load Time:  0.34s
+[22:32:31.480] [INFO ] 🧑 Human behavior simulation...
+[22:32:34.969] [INFO ] 🖱️ Mouse: 2 moves in 1440x900
+[22:32:34.969] [INFO ] 🖱️ Mouse completed: 2 moves
+[22:32:34.969] [INFO ] 📜 Scroll: page height, viewport=900px
+[22:32:34.969] [INFO ] 📜 Scroll completed: 3 scrolls
+[22:32:34.969] [INFO ] 🧑 Human behavior completed in 3.5s ✓
+[22:32:34.969] [INFO ] 
+[22:32:34.969] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[22:32:34.969] [INFO ]     ├─ Mouse Movements: 2
+[22:32:34.969] [INFO ]     ├─ Scroll Actions:  3
+[22:32:34.969] [INFO ]     └─ Time Spent:      3.49s
+[22:32:35.021] [INFO ] 
+[22:32:35.021] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:32:35.021] [INFO ] ║  ⚠️  ERROR DETECTED
+[22:32:35.021] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:32:35.021] [INFO ] 
+[22:32:35.021] [INFO ]     ┌─ ERROR DETAILS ───────────────────────────────────────────────┐
+[22:32:35.021] [INFO ]     │ Error Type:       access_denied
+[22:32:35.021] [INFO ]     │ Message:          Access denied - likely bot detection...
+[22:32:35.021] [INFO ]     │
+[22:32:35.021] [INFO ]     │ Likely Ban:       ⚠️  YES
+[22:32:35.021] [INFO ]     │ Recommendation:   Access denied by site
+[22:32:35.021] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:32:35.021] [INFO ] 
+[22:32:35.021] [INFO ]     ┌─ PAGE STATE AT ERROR ────────────────────────────────────────┐
+[22:32:35.021] [INFO ]     │ Page URL:         https://www.sgs.com/en-eg/service-groups/iso-22301-busi
+[22:32:35.021] [INFO ]     │ Page Title:       Access Denied
+[22:32:35.021] [INFO ]     │ HTML Size:        677 bytes (⚠️  Suspiciously small)
+[22:32:35.021] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:32:35.021] [INFO ] 
+[22:32:35.021] [INFO ]     ┌─ DEBUG SCREENSHOT ───────────────────────────────────────────┐
+[22:32:35.021] [INFO ]     │ 📸 Saved to: /app/data/screenshots/2026-01-29/203234_access_denied_www_sgs_com.png
+[22:32:35.021] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:32:35.021] [INFO ] 
+[22:32:35.021] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:32:35.021] [INFO ] 
+[22:32:35.021] [ERROR] ❌ access_denied: Access denied - likely bot detection
+[22:32:35.052] [INFO ] 
+[22:32:35.052] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:32:35.052] [INFO ] ║  ⚠️  ERROR DETECTED
+[22:32:35.052] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:32:35.052] [INFO ] 
+[22:32:35.052] [INFO ]     ┌─ ERROR DETAILS ───────────────────────────────────────────────┐
+[22:32:35.052] [INFO ]     │ Error Type:       unknown
+[22:32:35.052] [INFO ]     │ Message:          Access Denied - Type: access_denied...
+[22:32:35.052] [INFO ]     │
+[22:32:35.052] [INFO ]     │ Likely Ban:       ✅ No
+[22:32:35.052] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:32:35.052] [INFO ] 
+[22:32:35.052] [INFO ]     ┌─ PAGE STATE AT ERROR ────────────────────────────────────────┐
+[22:32:35.052] [INFO ]     │ Page URL:         https://www.sgs.com/en-eg/service-groups/iso-22301-busi
+[22:32:35.052] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:32:35.052] [INFO ] 
+[22:32:35.052] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:32:35.052] [INFO ] 
+[22:32:35.052] [ERROR] ❌ unknown: Access Denied - Type: access_denied
+[22:32:41.361] [INFO ] 
+[22:32:41.361] [INFO ]     🚀 BROWSER LAUNCHED
+[22:32:41.361] [INFO ]     ├─ Mode:       Headless
+[22:32:41.361] [INFO ]     ├─ Slow Mo:    42ms
+[22:32:41.361] [INFO ]     ├─ Launch Time: 0.06s
+[22:32:41.361] [INFO ]     └─ Args:       Anti-automation flags enabled
+[22:32:41.382] [DEBUG] Browser profile: viewport={'width': 1440, 'height': 900}, locale=en-AU, tz=UTC
+[22:32:41.382] [INFO ] 
+[22:32:41.382] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:32:41.382] [INFO ] ║  📋 SESSION: SCRAPE_20260129_223229_A946
+[22:32:41.382] [INFO ] ║  🌐 URL: https://www.sgs.com/en-eg/service-groups/iso-22301-business-continuity
+[22:32:41.382] [INFO ] ║  🔄 ATTEMPT: 2/2
+[22:32:41.382] [INFO ] ║  ⏰ STARTED: 2026-01-29T22:32:41.382579+02:00 (Egypt Time)
+[22:32:41.382] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:32:41.382] [INFO ] 
+[22:32:41.382] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[22:32:41.382] [INFO ]     │ Browser:     EDGE v120
+[22:32:41.382] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[22:32:41.382] [INFO ]     │ Viewport:    1440x900
+[22:32:41.382] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[22:32:41.382] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[22:32:41.382] [INFO ]     │ Location:    Melbourne, Australia
+[22:32:41.382] [INFO ]     │ Timezone:    N/A
+[22:32:41.382] [INFO ]     │ Locale:      en-AU
+[22:32:41.382] [INFO ]     │ Geo:         0, 0
+[22:32:41.382] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[22:32:41.382] [INFO ]     │ Proxy:       Direct (no proxy)
+[22:32:41.382] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+sgs+com
+[22:32:41.382] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:32:41.382] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:32:41.382] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[22:32:41.382] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:32:41.382] [INFO ] 
+[22:32:41.382] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[22:32:41.382] [INFO ]     ├─ Canvas fingerprint noise
+[22:32:41.382] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:32:41.382] [INFO ]     ├─ Hardware concurrency randomization
+[22:32:41.382] [INFO ]     ├─ Device memory randomization
+[22:32:41.382] [INFO ]     ├─ Plugin masking
+[22:32:41.382] [INFO ]     ├─ WebRTC IP leak protection
+[22:32:41.382] [INFO ]     ├─ Network connection spoof
+[22:32:41.382] [INFO ]     └─ Battery API spoof
+[22:32:41.422] [INFO ] 
+[22:32:41.422] [INFO ]     🥷 STEALTH MODE APPLIED
+[22:32:41.422] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[22:32:41.422] [INFO ]     ├─ Chrome runtime patches
+[22:32:41.422] [INFO ]     ├─ Console patches
+[22:32:41.422] [INFO ]     └─ Permission patches
+[22:32:41.422] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[22:32:41.422] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:32:41.422] [INFO ] 
+[22:32:41.422] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[22:32:41.422] [INFO ]     ├─ Canvas fingerprint noise
+[22:32:41.422] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:32:41.422] [INFO ]     ├─ Hardware concurrency randomization
+[22:32:41.422] [INFO ]     ├─ Device memory randomization
+[22:32:41.422] [INFO ]     ├─ Plugin masking
+[22:32:41.422] [INFO ]     ├─ WebRTC IP leak protection
+[22:32:41.422] [INFO ]     ├─ Network connection spoof
+[22:32:41.422] [INFO ]     └─ Battery API spoof
+[22:32:41.422] [DEBUG] Enabled resource blocking (images, media, fonts)
+[22:32:41.422] [INFO ] 
+[22:32:41.422] [INFO ]     🔗 NAVIGATING TO URL
+[22:32:41.422] [INFO ]     ├─ Strategy:   domcontentloaded
+[22:32:41.422] [INFO ]     ├─ Timeout:    15.0s
+[22:32:41.422] [INFO ]     └─ Sleep:      1s after load
+[22:32:43.385] [INFO ] 
+[22:32:43.385] [INFO ]     ✅ PAGE LOADED
+[22:32:43.385] [INFO ]     ├─ Final URL:  https://www.sgs.com/en-eg/service-groups/iso-22301-business-continuity
+[22:32:43.385] [INFO ]     ├─ Title:      ISO 22301 – Business Continuity | SGS Egypt
+[22:32:43.385] [INFO ]     └─ Load Time:  1.96s
+[22:32:45.053] [INFO ] 🧑 Human behavior simulation...
+[22:32:50.736] [INFO ] 🖱️ Mouse: 4 moves in 1440x900
+[22:32:50.736] [INFO ] 🖱️ Mouse completed: 4 moves
+[22:32:50.736] [INFO ] 📜 Scroll: page height, viewport=900px
+[22:32:50.736] [INFO ] 📜 Scroll completed: 3 scrolls
+[22:32:50.736] [INFO ] 🧑 Human behavior completed in 5.7s ✓
+[22:32:50.736] [INFO ] 
+[22:32:50.736] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[22:32:50.736] [INFO ]     ├─ Mouse Movements: 4
+[22:32:50.736] [INFO ]     ├─ Scroll Actions:  3
+[22:32:50.736] [INFO ]     └─ Time Spent:      5.68s
+[22:32:51.433] [INFO ] 
+[22:32:51.433] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:32:51.433] [INFO ]     │ Title:            ISO 22301 – Business Continuity
+[22:32:51.433] [INFO ]     │ Final URL:        https://www.sgs.com/en-eg/service-groups/iso-22301-business-continuity
+[22:32:51.433] [INFO ]     │ HTML Size:        1,277,896 bytes
+[22:32:51.433] [INFO ]     │ Text Size:        1,132 chars
+[22:32:51.433] [INFO ]     │ Word Count:       ~182 words
+[22:32:51.433] [INFO ]     │ Extraction:       trafilatura
+[22:32:51.433] [INFO ]     │ Has Article:      ✅ Yes
+[22:32:51.433] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:32:51.471] [INFO ] 
+[22:32:51.471] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:32:51.471] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_223229_A946
+[22:32:51.471] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:32:51.471] [INFO ] 
+[22:32:51.471] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[22:32:51.471] [INFO ]     │ Browser Launch:      0.06s
+[22:32:51.471] [INFO ]     │ Page Load:           1.96s
+[22:32:51.471] [INFO ]     │ Cloudflare Wait:     0.00s
+[22:32:51.471] [INFO ]     │ Human Simulation:    5.68s
+[22:32:51.471] [INFO ]     │
+[22:32:51.471] [INFO ]     │ Content Extraction:  0.45s
+[22:32:51.471] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[22:32:51.471] [INFO ]     │ TOTAL TIME:          8.16s
+[22:32:51.471] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:32:51.471] [INFO ] 
+[22:32:51.471] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:32:51.471] [INFO ]     │ Title:            ISO 22301 – Business Continuity
+[22:32:51.471] [INFO ]     │ Final URL:        https://www.sgs.com/en-eg/service-groups/iso-22301-business-continuity
+[22:32:51.471] [INFO ]     │ HTML Size:        1,277,896 bytes
+[22:32:51.471] [INFO ]     │ Text Size:        1,132 chars
+[22:32:51.471] [INFO ]     │ Word Count:       ~182 words
+[22:32:51.471] [INFO ]     │ Extraction:       trafilatura
+[22:32:51.471] [INFO ]     │ Has Article:      ✅ Yes
+[22:32:51.471] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:32:51.471] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:32:51.471] [INFO ] ║  📊 SESSION STATS
+[22:32:51.471] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[22:32:51.471] [INFO ] ║  ├─ Popups Dismissed:   0
+[22:32:51.471] [INFO ] ║  ├─ Cloudflare:         Not detected
+[22:32:51.471] [INFO ] ║  └─ Proxy Used:         Direct
+[22:32:51.471] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:32:51.471] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 21.90s
+ENDED: 2026-01-29T22:32:51.471927+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

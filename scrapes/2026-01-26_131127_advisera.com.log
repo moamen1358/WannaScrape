@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://advisera.com/27001academy/what-is-iso-27001/
+Started: 2026-01-26 13:11:27
+Session ID: SCRAPE_20260126_131127_96C1
+================================================================================
+[13:11:27.162] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_131127_advisera.com.log
+[13:11:27.162] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[13:11:27.506] [INFO ] 
+[13:11:27.506] [INFO ]     🚀 BROWSER LAUNCHED
+[13:11:27.506] [INFO ]     ├─ Mode:       Headless
+[13:11:27.506] [INFO ]     ├─ Slow Mo:    57ms
+[13:11:27.506] [INFO ]     ├─ Launch Time: 0.06s
+[13:11:27.506] [INFO ]     └─ Args:       Anti-automation flags enabled
+[13:11:27.527] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-AU, tz=UTC
+[13:11:27.527] [INFO ] 
+[13:11:27.527] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[13:11:27.527] [INFO ] ║  📋 SESSION: SCRAPE_20260126_131127_96C1
+[13:11:27.527] [INFO ] ║  🌐 URL: https://advisera.com/27001academy/what-is-iso-27001/
+[13:11:27.527] [INFO ] ║  🔄 ATTEMPT: 1/2
+[13:11:27.527] [INFO ] ║  ⏰ STARTED: 2026-01-26T13:11:27.527656+02:00 (Egypt Time)
+[13:11:27.527] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:11:27.527] [INFO ] 
+[13:11:27.527] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[13:11:27.527] [INFO ]     │ Browser:     FIREFOX v121
+[13:11:27.527] [INFO ]     │ User-Agent:  Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0...
+[13:11:27.527] [INFO ]     │ Viewport:    1920x1080
+[13:11:27.527] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[13:11:27.527] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[13:11:27.527] [INFO ]     │ Location:    Brisbane, Australia
+[13:11:27.527] [INFO ]     │ Timezone:    N/A
+[13:11:27.527] [INFO ]     │ Locale:      en-AU
+[13:11:27.527] [INFO ]     │ Geo:         0, 0
+[13:11:27.527] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[13:11:27.527] [INFO ]     │ Proxy:       Direct (no proxy)
+[13:11:27.527] [INFO ]     │ Referrer:    https://www.google.com/search?q=advisera+com
+[13:11:27.527] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:11:27.527] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[13:11:27.527] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[13:11:27.527] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[13:11:27.527] [INFO ] 
+[13:11:27.527] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[13:11:27.527] [INFO ]     ├─ Canvas fingerprint noise
+[13:11:27.527] [INFO ]     ├─ WebGL renderer/vendor spoof
+[13:11:27.527] [INFO ]     ├─ Hardware concurrency randomization
+[13:11:27.527] [INFO ]     ├─ Device memory randomization
+[13:11:27.527] [INFO ]     ├─ Plugin masking
+[13:11:27.527] [INFO ]     ├─ WebRTC IP leak protection
+[13:11:27.527] [INFO ]     ├─ Network connection spoof
+[13:11:27.527] [INFO ]     └─ Battery API spoof
+[13:11:27.568] [INFO ] 
+[13:11:27.568] [INFO ]     🥷 STEALTH MODE APPLIED
+[13:11:27.568] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[13:11:27.568] [INFO ]     ├─ Chrome runtime patches
+[13:11:27.568] [INFO ]     ├─ Console patches
+[13:11:27.568] [INFO ]     └─ Permission patches
+[13:11:27.568] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[13:11:27.568] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[13:11:27.568] [INFO ] 
+[13:11:27.568] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[13:11:27.568] [INFO ]     ├─ Canvas fingerprint noise
+[13:11:27.568] [INFO ]     ├─ WebGL renderer/vendor spoof
+[13:11:27.568] [INFO ]     ├─ Hardware concurrency randomization
+[13:11:27.568] [INFO ]     ├─ Device memory randomization
+[13:11:27.568] [INFO ]     ├─ Plugin masking
+[13:11:27.568] [INFO ]     ├─ WebRTC IP leak protection
+[13:11:27.568] [INFO ]     ├─ Network connection spoof
+[13:11:27.568] [INFO ]     └─ Battery API spoof
+[13:11:27.568] [DEBUG] Enabled resource blocking (images, media, fonts)
+[13:11:27.568] [INFO ] 
+[13:11:27.568] [INFO ]     🔗 NAVIGATING TO URL
+[13:11:27.568] [INFO ]     ├─ Strategy:   domcontentloaded
+[13:11:27.568] [INFO ]     ├─ Timeout:    15.0s
+[13:11:27.568] [INFO ]     └─ Sleep:      1s after load
+[13:11:29.138] [INFO ] 
+[13:11:29.138] [INFO ]     ✅ PAGE LOADED
+[13:11:29.138] [INFO ]     ├─ Final URL:  https://advisera.com/27001academy/what-is-iso-27001/
+[13:11:29.138] [INFO ]     ├─ Title:      What is ISO 27001? An easy-to-understand explanation.
+[13:11:29.138] [INFO ]     └─ Load Time:  1.57s
+[13:11:30.484] [INFO ] 🧑 Human behavior simulation...
+[13:11:34.183] [INFO ] 🖱️ Mouse: 2 moves in 1920x1080
+[13:11:34.183] [INFO ] 🖱️ Mouse completed: 2 moves
+[13:11:34.183] [INFO ] 📜 Scroll: page height, viewport=1080px
+[13:11:34.183] [INFO ] 📜 Scroll completed: 1 scrolls
+[13:11:34.183] [INFO ] 🧑 Human behavior completed in 3.7s ✓
+[13:11:34.183] [INFO ] 
+[13:11:34.183] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[13:11:34.183] [INFO ]     ├─ Mouse Movements: 2
+[13:11:34.183] [INFO ]     ├─ Scroll Actions:  1
+[13:11:34.183] [INFO ]     └─ Time Spent:      3.70s
+[13:11:34.508] [INFO ] 
+[13:11:34.508] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[13:11:34.508] [INFO ]     │ Title:            What is ISO 27001? An easy-to-understand explanati
+[13:11:34.508] [INFO ]     │ Final URL:        https://advisera.com/27001academy/what-is-iso-27001/
+[13:11:34.508] [INFO ]     │ HTML Size:        410,818 bytes
+[13:11:34.508] [INFO ]     │ Text Size:        34,828 chars
+[13:11:34.508] [INFO ]     │ Word Count:       ~5344 words
+[13:11:34.508] [INFO ]     │ Extraction:       trafilatura
+[13:11:34.508] [INFO ]     │ Has Article:      ✅ Yes
+[13:11:34.508] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:11:34.540] [INFO ] 
+[13:11:34.540] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[13:11:34.540] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_131127_96C1
+[13:11:34.540] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:11:34.540] [INFO ] 
+[13:11:34.540] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[13:11:34.540] [INFO ]     │ Browser Launch:      0.06s
+[13:11:34.540] [INFO ]     │ Page Load:           1.57s
+[13:11:34.540] [INFO ]     │ Cloudflare Wait:     0.00s
+[13:11:34.540] [INFO ]     │ Human Simulation:    3.70s
+[13:11:34.540] [INFO ]     │
+[13:11:34.540] [INFO ]     │ Content Extraction:  0.24s
+[13:11:34.540] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[13:11:34.540] [INFO ]     │ TOTAL TIME:          5.56s
+[13:11:34.540] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:11:34.540] [INFO ] 
+[13:11:34.541] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[13:11:34.541] [INFO ]     │ Title:            What is ISO 27001? An easy-to-understand explanati
+[13:11:34.541] [INFO ]     │ Final URL:        https://advisera.com/27001academy/what-is-iso-27001/
+[13:11:34.541] [INFO ]     │ HTML Size:        410,818 bytes
+[13:11:34.541] [INFO ]     │ Text Size:        34,828 chars
+[13:11:34.541] [INFO ]     │ Word Count:       ~5344 words
+[13:11:34.541] [INFO ]     │ Extraction:       trafilatura
+[13:11:34.541] [INFO ]     │ Has Article:      ✅ Yes
+[13:11:34.541] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:11:34.541] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:11:34.541] [INFO ] ║  📊 SESSION STATS
+[13:11:34.541] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[13:11:34.541] [INFO ] ║  ├─ Popups Dismissed:   0
+[13:11:34.541] [INFO ] ║  ├─ Cloudflare:         Not detected
+[13:11:34.541] [INFO ] ║  └─ Proxy Used:         Direct
+[13:11:34.541] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[13:11:34.541] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.38s
+ENDED: 2026-01-26T13:11:34.541820+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

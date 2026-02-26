@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.cylert-me.com/penetration-test/
+Started: 2026-01-30 01:35:33
+Session ID: SCRAPE_20260130_013533_B988
+================================================================================
+[01:35:33.722] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_013533_cylert-me.com.log
+[01:35:33.722] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[01:35:34.066] [INFO ] 
+[01:35:34.066] [INFO ]     🚀 BROWSER LAUNCHED
+[01:35:34.066] [INFO ]     ├─ Mode:       Headless
+[01:35:34.066] [INFO ]     ├─ Slow Mo:    52ms
+[01:35:34.066] [INFO ]     ├─ Launch Time: 0.06s
+[01:35:34.066] [INFO ]     └─ Args:       Anti-automation flags enabled
+[01:35:34.089] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-AU, tz=UTC
+[01:35:34.089] [INFO ] 
+[01:35:34.089] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:35:34.089] [INFO ] ║  📋 SESSION: SCRAPE_20260130_013533_B988
+[01:35:34.089] [INFO ] ║  🌐 URL: https://www.cylert-me.com/penetration-test/
+[01:35:34.089] [INFO ] ║  🔄 ATTEMPT: 1/2
+[01:35:34.089] [INFO ] ║  ⏰ STARTED: 2026-01-30T01:35:34.089704+02:00 (Egypt Time)
+[01:35:34.089] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:35:34.089] [INFO ] 
+[01:35:34.089] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[01:35:34.089] [INFO ]     │ Browser:     EDGE v120
+[01:35:34.089] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[01:35:34.089] [INFO ]     │ Viewport:    1680x1050
+[01:35:34.089] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[01:35:34.089] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[01:35:34.089] [INFO ]     │ Location:    Sydney, Australia
+[01:35:34.089] [INFO ]     │ Timezone:    N/A
+[01:35:34.089] [INFO ]     │ Locale:      en-AU
+[01:35:34.089] [INFO ]     │ Geo:         0, 0
+[01:35:34.089] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[01:35:34.089] [INFO ]     │ Proxy:       Direct (no proxy)
+[01:35:34.089] [INFO ]     │ Referrer:    https://news.google.com/
+[01:35:34.089] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:35:34.089] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:35:34.089] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[01:35:34.089] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:35:34.089] [INFO ] 
+[01:35:34.089] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[01:35:34.089] [INFO ]     ├─ Canvas fingerprint noise
+[01:35:34.089] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:35:34.089] [INFO ]     ├─ Hardware concurrency randomization
+[01:35:34.089] [INFO ]     ├─ Device memory randomization
+[01:35:34.089] [INFO ]     ├─ Plugin masking
+[01:35:34.089] [INFO ]     ├─ WebRTC IP leak protection
+[01:35:34.089] [INFO ]     ├─ Network connection spoof
+[01:35:34.089] [INFO ]     └─ Battery API spoof
+[01:35:34.129] [INFO ] 
+[01:35:34.129] [INFO ]     🥷 STEALTH MODE APPLIED
+[01:35:34.129] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[01:35:34.129] [INFO ]     ├─ Chrome runtime patches
+[01:35:34.129] [INFO ]     ├─ Console patches
+[01:35:34.129] [INFO ]     └─ Permission patches
+[01:35:34.129] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[01:35:34.129] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:35:34.129] [INFO ] 
+[01:35:34.129] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[01:35:34.129] [INFO ]     ├─ Canvas fingerprint noise
+[01:35:34.129] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:35:34.129] [INFO ]     ├─ Hardware concurrency randomization
+[01:35:34.129] [INFO ]     ├─ Device memory randomization
+[01:35:34.129] [INFO ]     ├─ Plugin masking
+[01:35:34.129] [INFO ]     ├─ WebRTC IP leak protection
+[01:35:34.129] [INFO ]     ├─ Network connection spoof
+[01:35:34.129] [INFO ]     └─ Battery API spoof
+[01:35:34.129] [DEBUG] Enabled resource blocking (images, media, fonts)
+[01:35:34.129] [INFO ] 
+[01:35:34.129] [INFO ]     🔗 NAVIGATING TO URL
+[01:35:34.129] [INFO ]     ├─ Strategy:   domcontentloaded
+[01:35:34.129] [INFO ]     ├─ Timeout:    15.0s
+[01:35:34.129] [INFO ]     └─ Sleep:      1s after load
+[01:35:39.983] [INFO ] 
+[01:35:39.983] [INFO ]     ✅ PAGE LOADED
+[01:35:39.983] [INFO ]     ├─ Final URL:  https://www.cylert-me.com/penetration-test/
+[01:35:39.983] [INFO ]     ├─ Title:      Penetration Test – Cylert-me
+[01:35:39.983] [INFO ]     └─ Load Time:  5.85s
+[01:35:41.171] [INFO ] 🧑 Human behavior simulation...
+[01:35:47.776] [INFO ] 🖱️ Mouse: 3 moves in 1680x1050
+[01:35:47.776] [INFO ] 🖱️ Mouse completed: 3 moves
+[01:35:47.776] [INFO ] 📜 Scroll: page height, viewport=1050px
+[01:35:47.776] [INFO ] 📜 Scroll completed: 3 scrolls
+[01:35:47.776] [INFO ] 🧑 Human behavior completed in 6.6s ✓
+[01:35:47.776] [INFO ] 
+[01:35:47.776] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[01:35:47.776] [INFO ]     ├─ Mouse Movements: 3
+[01:35:47.776] [INFO ]     ├─ Scroll Actions:  3
+[01:35:47.776] [INFO ]     └─ Time Spent:      6.60s
+[01:35:48.059] [INFO ] 
+[01:35:48.059] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[01:35:48.059] [INFO ]     │ Title:            Penetration Test
+[01:35:48.059] [INFO ]     │ Final URL:        https://www.cylert-me.com/penetration-test/
+[01:35:48.059] [INFO ]     │ HTML Size:        63,554 bytes
+[01:35:48.059] [INFO ]     │ Text Size:        3,221 chars
+[01:35:48.059] [INFO ]     │ Word Count:       ~495 words
+[01:35:48.059] [INFO ]     │ Extraction:       trafilatura
+[01:35:48.059] [INFO ]     │ Has Article:      ✅ Yes
+[01:35:48.059] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:35:48.084] [INFO ] 
+[01:35:48.084] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:35:48.084] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260130_013533_B988
+[01:35:48.084] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:35:48.084] [INFO ] 
+[01:35:48.084] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[01:35:48.084] [INFO ]     │ Browser Launch:      0.06s
+[01:35:48.084] [INFO ]     │ Page Load:           5.85s
+[01:35:48.084] [INFO ]     │ Cloudflare Wait:     0.00s
+[01:35:48.084] [INFO ]     │ Human Simulation:    6.60s
+[01:35:48.084] [INFO ]     │
+[01:35:48.084] [INFO ]     │ Content Extraction:  0.26s
+[01:35:48.084] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[01:35:48.084] [INFO ]     │ TOTAL TIME:          12.78s
+[01:35:48.084] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:35:48.084] [INFO ] 
+[01:35:48.084] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[01:35:48.084] [INFO ]     │ Title:            Penetration Test
+[01:35:48.084] [INFO ]     │ Final URL:        https://www.cylert-me.com/penetration-test/
+[01:35:48.084] [INFO ]     │ HTML Size:        63,554 bytes
+[01:35:48.084] [INFO ]     │ Text Size:        3,221 chars
+[01:35:48.084] [INFO ]     │ Word Count:       ~495 words
+[01:35:48.084] [INFO ]     │ Extraction:       trafilatura
+[01:35:48.084] [INFO ]     │ Has Article:      ✅ Yes
+[01:35:48.084] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:35:48.084] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:35:48.084] [INFO ] ║  📊 SESSION STATS
+[01:35:48.084] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[01:35:48.084] [INFO ] ║  ├─ Popups Dismissed:   0
+[01:35:48.084] [INFO ] ║  ├─ Cloudflare:         Not detected
+[01:35:48.085] [INFO ] ║  └─ Proxy Used:         Direct
+[01:35:48.085] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:35:48.085] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 14.36s
+ENDED: 2026-01-30T01:35:48.085017+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

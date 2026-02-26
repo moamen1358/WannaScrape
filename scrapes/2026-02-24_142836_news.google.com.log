@@ -1,0 +1,204 @@
+================================================================================
+SCRAPE LOG: https://news.google.com/rss/articles/CBMigAFBVV85cUxNMWpnVFp6VnpXSU12ZkJ1NWg4OHN3MGkyOTVSWGI4Z0RzWFhmM25EdjZWSlA4XzFmQjU5QmJxY25uc0tVRTlpQ0twa2JlZFVGZkItd0RaWUw1RzhqM0dwbzJWUkFUYkJpM0x0dGpsU2Z5Q05pQmw1WG1scEljN0sxTQ?oc=5
+Started: 2026-02-24 14:28:36
+Session ID: SCRAPE_20260224_142836_4BDB
+================================================================================
+[14:28:36.910] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-02-24_142836_news.google.com.log
+[14:28:36.910] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[14:28:37.252] [INFO ] 
+[14:28:37.252] [INFO ]     🚀 BROWSER LAUNCHED
+[14:28:37.252] [INFO ]     ├─ Mode:       Headless
+[14:28:37.252] [INFO ]     ├─ Slow Mo:    48ms
+[14:28:37.252] [INFO ]     ├─ Launch Time: 0.06s
+[14:28:37.252] [INFO ]     └─ Args:       Anti-automation flags enabled
+[14:28:37.269] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-US, tz=UTC
+[14:28:37.269] [INFO ] 
+[14:28:37.269] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[14:28:37.269] [INFO ] ║  📋 SESSION: SCRAPE_20260224_142836_4BDB
+[14:28:37.269] [INFO ] ║  🌐 URL: https://news.google.com/rss/articles/CBMigAFBVV85cUxNMWpnVFp6VnpXSU12ZkJ1NWg4OHN3MGkyOTVSWGI4Z0RzWFhmM25EdjZWSlA4XzFmQjU5QmJxY25uc0tVRTlpQ0twa2JlZFVGZkItd0RaWUw1RzhqM0dwbzJWUkFUYkJpM0x0dGpsU2Z5Q05pQmw1WG1scEljN0sxTQ?oc=5
+[14:28:37.269] [INFO ] ║  🔄 ATTEMPT: 1/2
+[14:28:37.269] [INFO ] ║  ⏰ STARTED: 2026-02-24T14:28:37.269199+02:00 (Egypt Time)
+[14:28:37.269] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:28:37.269] [INFO ] 
+[14:28:37.269] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[14:28:37.269] [INFO ]     │ Browser:     FIREFOX v125
+[14:28:37.269] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Fir...
+[14:28:37.269] [INFO ]     │ Viewport:    1920x1080
+[14:28:37.269] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[14:28:37.269] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[14:28:37.269] [INFO ]     │ Location:    Phoenix, USA
+[14:28:37.269] [INFO ]     │ Timezone:    N/A
+[14:28:37.269] [INFO ]     │ Locale:      en-US
+[14:28:37.269] [INFO ]     │ Geo:         0, 0
+[14:28:37.269] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[14:28:37.269] [INFO ]     │ Proxy:       Direct (no proxy)
+[14:28:37.269] [INFO ]     │ Referrer:    https://www.google.com/search?q=news+google+com
+[14:28:37.269] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:28:37.269] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[14:28:37.269] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[14:28:37.269] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[14:28:37.269] [INFO ] 
+[14:28:37.269] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[14:28:37.269] [INFO ]     ├─ Canvas fingerprint noise
+[14:28:37.269] [INFO ]     ├─ WebGL renderer/vendor spoof
+[14:28:37.269] [INFO ]     ├─ Hardware concurrency randomization
+[14:28:37.269] [INFO ]     ├─ Device memory randomization
+[14:28:37.269] [INFO ]     ├─ Plugin masking
+[14:28:37.269] [INFO ]     ├─ WebRTC IP leak protection
+[14:28:37.269] [INFO ]     ├─ Network connection spoof
+[14:28:37.269] [INFO ]     └─ Battery API spoof
+[14:28:37.309] [INFO ] 
+[14:28:37.309] [INFO ]     🥷 STEALTH MODE APPLIED
+[14:28:37.309] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[14:28:37.309] [INFO ]     ├─ Chrome runtime patches
+[14:28:37.309] [INFO ]     ├─ Console patches
+[14:28:37.309] [INFO ]     └─ Permission patches
+[14:28:37.309] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[14:28:37.309] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[14:28:37.309] [INFO ] 
+[14:28:37.309] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[14:28:37.309] [INFO ]     ├─ Canvas fingerprint noise
+[14:28:37.309] [INFO ]     ├─ WebGL renderer/vendor spoof
+[14:28:37.309] [INFO ]     ├─ Hardware concurrency randomization
+[14:28:37.309] [INFO ]     ├─ Device memory randomization
+[14:28:37.309] [INFO ]     ├─ Plugin masking
+[14:28:37.309] [INFO ]     ├─ WebRTC IP leak protection
+[14:28:37.309] [INFO ]     ├─ Network connection spoof
+[14:28:37.309] [INFO ]     └─ Battery API spoof
+[14:28:37.309] [DEBUG] Enabled resource blocking (images, media, fonts)
+[14:28:37.309] [INFO ] 
+[14:28:37.309] [INFO ]     🔗 NAVIGATING TO URL
+[14:28:37.309] [INFO ]     ├─ Strategy:   domcontentloaded
+[14:28:37.309] [INFO ]     ├─ Timeout:    15.0s
+[14:28:37.309] [INFO ]     └─ Sleep:      1s after load
+[14:28:38.696] [INFO ] 
+[14:28:38.696] [INFO ]     ✅ PAGE LOADED
+[14:28:38.696] [INFO ]     ├─ Final URL:  https://news.google.com/rss/articles/CBMigAFBVV85cUxNMWpnVFp6VnpXSU12ZkJ1NWg4OHN3MGkyOTVSWGI4Z0RzWFhmM25EdjZWSlA4XzFmQjU5QmJxY25uc0tVRTlpQ0twa2JlZFVGZkItd0RaWUw1RzhqM0dwbzJWUkFUYkJpM0x0dGpsU2Z5Q05pQmw1WG1scEljN0sxTQ?oc=5&hl=en-US&gl=US&ceid=US:en
+[14:28:38.696] [INFO ]     ├─ Title:      Google News
+[14:28:38.696] [INFO ]     └─ Load Time:  1.39s
+[14:28:39.929] [INFO ] 🧑 Human behavior simulation...
+[14:28:42.856] [INFO ] 🖱️ Mouse: 1 moves in 1920x1080
+[14:28:42.856] [INFO ] 🖱️ Mouse completed: 1 moves
+[14:28:42.856] [INFO ] 📜 Scroll: page height, viewport=1080px
+[14:28:42.856] [INFO ] 📜 Scroll completed: 3 scrolls
+[14:28:42.856] [INFO ] 🧑 Human behavior completed in 2.9s ✓
+[14:28:42.856] [INFO ] 
+[14:28:42.856] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[14:28:42.856] [INFO ]     ├─ Mouse Movements: 1
+[14:28:42.856] [INFO ]     ├─ Scroll Actions:  3
+[14:28:42.856] [INFO ]     └─ Time Spent:      2.93s
+[14:28:46.623] [INFO ] 
+[14:28:46.623] [INFO ]     🚀 BROWSER LAUNCHED
+[14:28:46.623] [INFO ]     ├─ Mode:       Headless
+[14:28:46.623] [INFO ]     ├─ Slow Mo:    49ms
+[14:28:46.623] [INFO ]     ├─ Launch Time: 0.06s
+[14:28:46.623] [INFO ]     └─ Args:       Anti-automation flags enabled
+[14:28:46.638] [DEBUG] Browser profile: viewport={'width': 1512, 'height': 982}, locale=en-US, tz=UTC
+[14:28:46.638] [INFO ] 
+[14:28:46.638] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[14:28:46.638] [INFO ] ║  📋 SESSION: SCRAPE_20260224_142836_4BDB
+[14:28:46.638] [INFO ] ║  🌐 URL: https://news.google.com/rss/articles/CBMigAFBVV85cUxNMWpnVFp6VnpXSU12ZkJ1NWg4OHN3MGkyOTVSWGI4Z0RzWFhmM25EdjZWSlA4XzFmQjU5QmJxY25uc0tVRTlpQ0twa2JlZFVGZkItd0RaWUw1RzhqM0dwbzJWUkFUYkJpM0x0dGpsU2Z5Q05pQmw1WG1scEljN0sxTQ?oc=5
+[14:28:46.638] [INFO ] ║  🔄 ATTEMPT: 2/2
+[14:28:46.638] [INFO ] ║  ⏰ STARTED: 2026-02-24T14:28:46.638504+02:00 (Egypt Time)
+[14:28:46.638] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:28:46.638] [INFO ] 
+[14:28:46.638] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[14:28:46.638] [INFO ]     │ Browser:     CHROME v120
+[14:28:46.638] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36 (KHTML...
+[14:28:46.638] [INFO ]     │ Viewport:    1512x982
+[14:28:46.638] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[14:28:46.638] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[14:28:46.638] [INFO ]     │ Location:    New York, USA
+[14:28:46.638] [INFO ]     │ Timezone:    N/A
+[14:28:46.638] [INFO ]     │ Locale:      en-US
+[14:28:46.638] [INFO ]     │ Geo:         0, 0
+[14:28:46.638] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[14:28:46.638] [INFO ]     │ Proxy:       Direct (no proxy)
+[14:28:46.638] [INFO ]     │ Referrer:    None
+[14:28:46.638] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:28:46.638] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[14:28:46.638] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[14:28:46.638] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[14:28:46.638] [INFO ] 
+[14:28:46.638] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[14:28:46.638] [INFO ]     ├─ Canvas fingerprint noise
+[14:28:46.638] [INFO ]     ├─ WebGL renderer/vendor spoof
+[14:28:46.638] [INFO ]     ├─ Hardware concurrency randomization
+[14:28:46.638] [INFO ]     ├─ Device memory randomization
+[14:28:46.638] [INFO ]     ├─ Plugin masking
+[14:28:46.638] [INFO ]     ├─ WebRTC IP leak protection
+[14:28:46.638] [INFO ]     ├─ Network connection spoof
+[14:28:46.638] [INFO ]     └─ Battery API spoof
+[14:28:46.680] [INFO ] 
+[14:28:46.680] [INFO ]     🥷 STEALTH MODE APPLIED
+[14:28:46.680] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[14:28:46.680] [INFO ]     ├─ Chrome runtime patches
+[14:28:46.680] [INFO ]     ├─ Console patches
+[14:28:46.680] [INFO ]     └─ Permission patches
+[14:28:46.680] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[14:28:46.680] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[14:28:46.680] [INFO ] 
+[14:28:46.680] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[14:28:46.680] [INFO ]     ├─ Canvas fingerprint noise
+[14:28:46.680] [INFO ]     ├─ WebGL renderer/vendor spoof
+[14:28:46.680] [INFO ]     ├─ Hardware concurrency randomization
+[14:28:46.680] [INFO ]     ├─ Device memory randomization
+[14:28:46.680] [INFO ]     ├─ Plugin masking
+[14:28:46.680] [INFO ]     ├─ WebRTC IP leak protection
+[14:28:46.680] [INFO ]     ├─ Network connection spoof
+[14:28:46.680] [INFO ]     └─ Battery API spoof
+[14:28:46.680] [DEBUG] Enabled resource blocking (images, media, fonts)
+[14:28:46.680] [INFO ] 
+[14:28:46.680] [INFO ]     🔗 NAVIGATING TO URL
+[14:28:46.680] [INFO ]     ├─ Strategy:   domcontentloaded
+[14:28:46.680] [INFO ]     ├─ Timeout:    15.0s
+[14:28:46.680] [INFO ]     └─ Sleep:      1s after load
+[14:28:48.301] [INFO ] 
+[14:28:48.301] [INFO ]     ✅ PAGE LOADED
+[14:28:48.302] [INFO ]     ├─ Final URL:  https://news.google.com/rss/articles/CBMigAFBVV85cUxNMWpnVFp6VnpXSU12ZkJ1NWg4OHN3MGkyOTVSWGI4Z0RzWFhmM25EdjZWSlA4XzFmQjU5QmJxY25uc0tVRTlpQ0twa2JlZFVGZkItd0RaWUw1RzhqM0dwbzJWUkFUYkJpM0x0dGpsU2Z5Q05pQmw1WG1scEljN0sxTQ?oc=5&hl=en-US&gl=US&ceid=US:en
+[14:28:48.302] [INFO ]     ├─ Title:      Google News
+[14:28:48.302] [INFO ]     └─ Load Time:  1.62s
+[14:28:49.544] [INFO ] 🧑 Human behavior simulation...
+[14:28:55.328] [INFO ] 🖱️ Mouse: 3 moves in 1512x982
+[14:28:55.328] [INFO ] 🖱️ Mouse completed: 3 moves
+[14:28:55.328] [INFO ] 📜 Scroll: page height, viewport=982px
+[14:28:55.328] [INFO ] 📜 Scroll completed: 3 scrolls
+[14:28:55.328] [INFO ] 🧑 Human behavior completed in 5.8s ✓
+[14:28:55.328] [INFO ] 
+[14:28:55.328] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[14:28:55.328] [INFO ]     ├─ Mouse Movements: 3
+[14:28:55.328] [INFO ]     ├─ Scroll Actions:  3
+[14:28:55.328] [INFO ]     └─ Time Spent:      5.78s
+[14:28:55.657] [INFO ] 
+[14:28:55.657] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[14:28:55.657] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260224_142836_4BDB
+[14:28:55.657] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:28:55.658] [INFO ] 
+[14:28:55.658] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[14:28:55.658] [INFO ]     │ URL:              https://news.google.com/rss/articles/CBMigAFBVV85cUxNMW
+[14:28:55.658] [INFO ]     │ Error Type:       unknown
+[14:28:55.658] [INFO ]     │ Likely Ban:       ❌ No
+[14:28:55.658] [INFO ]     │ Retries Used:     2
+[14:28:55.658] [INFO ]     │
+[14:28:55.658] [INFO ]     │ Error Message:
+[14:28:55.658] [INFO ]     │   Failed after 2 attempts. Last error: Unknown error
+[14:28:55.658] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:28:55.658] [INFO ] 
+[14:28:55.658] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[14:28:55.658] [INFO ]     │ Browser Launch:     0.06s
+[14:28:55.658] [INFO ]     │ Page Load:          1.62s
+[14:28:55.658] [INFO ]     │ Cloudflare Wait:    0.00s
+[14:28:55.658] [INFO ]     │ Human Simulation:   5.78s
+[14:28:55.658] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[14:28:55.658] [INFO ]     │ FAILED AT:          7.46s
+[14:28:55.658] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:28:55.658] [INFO ] 
+[14:28:55.658] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[14:28:55.658] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 18.75s
+ENDED: 2026-02-24T14:28:55.658099+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

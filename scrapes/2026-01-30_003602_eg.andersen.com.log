@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://eg.andersen.com/translation-law-151-2020/
+Started: 2026-01-30 00:36:02
+Session ID: SCRAPE_20260130_003602_47C9
+================================================================================
+[00:36:02.114] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_003602_eg.andersen.com.log
+[00:36:02.114] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[00:36:02.466] [INFO ] 
+[00:36:02.466] [INFO ]     🚀 BROWSER LAUNCHED
+[00:36:02.466] [INFO ]     ├─ Mode:       Headless
+[00:36:02.466] [INFO ]     ├─ Slow Mo:    49ms
+[00:36:02.466] [INFO ]     ├─ Launch Time: 0.06s
+[00:36:02.466] [INFO ]     └─ Args:       Anti-automation flags enabled
+[00:36:02.489] [DEBUG] Browser profile: viewport={'width': 1600, 'height': 900}, locale=en-US, tz=UTC
+[00:36:02.489] [INFO ] 
+[00:36:02.489] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:36:02.489] [INFO ] ║  📋 SESSION: SCRAPE_20260130_003602_47C9
+[00:36:02.489] [INFO ] ║  🌐 URL: https://eg.andersen.com/translation-law-151-2020/
+[00:36:02.489] [INFO ] ║  🔄 ATTEMPT: 1/2
+[00:36:02.489] [INFO ] ║  ⏰ STARTED: 2026-01-30T00:36:02.489060+02:00 (Egypt Time)
+[00:36:02.489] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:36:02.489] [INFO ] 
+[00:36:02.489] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[00:36:02.489] [INFO ]     │ Browser:     CHROME v120
+[00:36:02.489] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[00:36:02.489] [INFO ]     │ Viewport:    1600x900
+[00:36:02.489] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[00:36:02.489] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[00:36:02.489] [INFO ]     │ Location:    Houston, USA
+[00:36:02.489] [INFO ]     │ Timezone:    N/A
+[00:36:02.489] [INFO ]     │ Locale:      en-US
+[00:36:02.489] [INFO ]     │ Geo:         0, 0
+[00:36:02.489] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[00:36:02.489] [INFO ]     │ Proxy:       Direct (no proxy)
+[00:36:02.489] [INFO ]     │ Referrer:    https://www.google.com/
+[00:36:02.489] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:36:02.489] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:36:02.489] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[00:36:02.489] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:36:02.489] [INFO ] 
+[00:36:02.489] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[00:36:02.489] [INFO ]     ├─ Canvas fingerprint noise
+[00:36:02.489] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:36:02.489] [INFO ]     ├─ Hardware concurrency randomization
+[00:36:02.489] [INFO ]     ├─ Device memory randomization
+[00:36:02.489] [INFO ]     ├─ Plugin masking
+[00:36:02.489] [INFO ]     ├─ WebRTC IP leak protection
+[00:36:02.489] [INFO ]     ├─ Network connection spoof
+[00:36:02.489] [INFO ]     └─ Battery API spoof
+[00:36:02.531] [INFO ] 
+[00:36:02.531] [INFO ]     🥷 STEALTH MODE APPLIED
+[00:36:02.531] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[00:36:02.531] [INFO ]     ├─ Chrome runtime patches
+[00:36:02.531] [INFO ]     ├─ Console patches
+[00:36:02.531] [INFO ]     └─ Permission patches
+[00:36:02.531] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[00:36:02.531] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:36:02.531] [INFO ] 
+[00:36:02.531] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[00:36:02.531] [INFO ]     ├─ Canvas fingerprint noise
+[00:36:02.531] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:36:02.531] [INFO ]     ├─ Hardware concurrency randomization
+[00:36:02.531] [INFO ]     ├─ Device memory randomization
+[00:36:02.531] [INFO ]     ├─ Plugin masking
+[00:36:02.531] [INFO ]     ├─ WebRTC IP leak protection
+[00:36:02.531] [INFO ]     ├─ Network connection spoof
+[00:36:02.531] [INFO ]     └─ Battery API spoof
+[00:36:02.531] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:36:02.531] [INFO ] 
+[00:36:02.531] [INFO ]     🔗 NAVIGATING TO URL
+[00:36:02.531] [INFO ]     ├─ Strategy:   domcontentloaded
+[00:36:02.531] [INFO ]     ├─ Timeout:    15.0s
+[00:36:02.531] [INFO ]     └─ Sleep:      1s after load
+[00:36:03.556] [INFO ] 
+[00:36:03.556] [INFO ]     ✅ PAGE LOADED
+[00:36:03.556] [INFO ]     ├─ Final URL:  https://eg.andersen.com/translation-law-151-2020/
+[00:36:03.556] [INFO ]     ├─ Title:      Translation of Law No. 151 of 2020
+[00:36:03.556] [INFO ]     └─ Load Time:  1.03s
+[00:36:04.798] [INFO ] 🧑 Human behavior simulation...
+[00:36:07.104] [INFO ] 🖱️ Mouse: 1 moves in 1600x900
+[00:36:07.104] [INFO ] 🖱️ Mouse completed: 1 moves
+[00:36:07.104] [INFO ] 📜 Scroll: page height, viewport=900px
+[00:36:07.104] [INFO ] 📜 Scroll completed: 2 scrolls
+[00:36:07.104] [INFO ] 🧑 Human behavior completed in 2.3s ✓
+[00:36:07.104] [INFO ] 
+[00:36:07.104] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[00:36:07.104] [INFO ]     ├─ Mouse Movements: 1
+[00:36:07.104] [INFO ]     ├─ Scroll Actions:  2
+[00:36:07.104] [INFO ]     └─ Time Spent:      2.31s
+[00:36:07.267] [INFO ] 
+[00:36:07.267] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[00:36:07.267] [INFO ]     │ Title:            Translation of Law No. 151 of 2020
+[00:36:07.267] [INFO ]     │ Final URL:        https://eg.andersen.com/translation-law-151-2020/
+[00:36:07.267] [INFO ]     │ HTML Size:        221,892 bytes
+[00:36:07.267] [INFO ]     │ Text Size:        2,479 chars
+[00:36:07.267] [INFO ]     │ Word Count:       ~364 words
+[00:36:07.267] [INFO ]     │ Extraction:       trafilatura
+[00:36:07.267] [INFO ]     │ Has Article:      ✅ Yes
+[00:36:07.267] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:36:07.296] [INFO ] 
+[00:36:07.296] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:36:07.296] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260130_003602_47C9
+[00:36:07.296] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:36:07.296] [INFO ] 
+[00:36:07.296] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[00:36:07.296] [INFO ]     │ Browser Launch:      0.06s
+[00:36:07.296] [INFO ]     │ Page Load:           1.03s
+[00:36:07.296] [INFO ]     │ Cloudflare Wait:     0.00s
+[00:36:07.296] [INFO ]     │ Human Simulation:    2.31s
+[00:36:07.297] [INFO ]     │
+[00:36:07.297] [INFO ]     │ Content Extraction:  0.06s
+[00:36:07.297] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[00:36:07.297] [INFO ]     │ TOTAL TIME:          3.45s
+[00:36:07.297] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:36:07.297] [INFO ] 
+[00:36:07.297] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[00:36:07.297] [INFO ]     │ Title:            Translation of Law No. 151 of 2020
+[00:36:07.297] [INFO ]     │ Final URL:        https://eg.andersen.com/translation-law-151-2020/
+[00:36:07.297] [INFO ]     │ HTML Size:        221,892 bytes
+[00:36:07.297] [INFO ]     │ Text Size:        2,479 chars
+[00:36:07.297] [INFO ]     │ Word Count:       ~364 words
+[00:36:07.297] [INFO ]     │ Extraction:       trafilatura
+[00:36:07.297] [INFO ]     │ Has Article:      ✅ Yes
+[00:36:07.297] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:36:07.297] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:36:07.297] [INFO ] ║  📊 SESSION STATS
+[00:36:07.297] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[00:36:07.297] [INFO ] ║  ├─ Popups Dismissed:   0
+[00:36:07.297] [INFO ] ║  ├─ Cloudflare:         Not detected
+[00:36:07.297] [INFO ] ║  └─ Proxy Used:         Direct
+[00:36:07.297] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:36:07.297] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 5.18s
+ENDED: 2026-01-30T00:36:07.297157+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

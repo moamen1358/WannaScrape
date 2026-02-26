@@ -1,0 +1,206 @@
+================================================================================
+SCRAPE LOG: https://grassrootsjournals.org/jelp/jelp03-01-06-kila-m00344.pdf
+Started: 2026-01-30 02:06:04
+Session ID: SCRAPE_20260130_020604_54DA
+================================================================================
+[02:06:04.266] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_020604_grassrootsjournals.org.log
+[02:06:04.266] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[02:06:04.609] [INFO ] 
+[02:06:04.609] [INFO ]     🚀 BROWSER LAUNCHED
+[02:06:04.609] [INFO ]     ├─ Mode:       Headless
+[02:06:04.609] [INFO ]     ├─ Slow Mo:    52ms
+[02:06:04.609] [INFO ]     ├─ Launch Time: 0.05s
+[02:06:04.609] [INFO ]     └─ Args:       Anti-automation flags enabled
+[02:06:04.629] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-US, tz=UTC
+[02:06:04.629] [INFO ] 
+[02:06:04.629] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[02:06:04.629] [INFO ] ║  📋 SESSION: SCRAPE_20260130_020604_54DA
+[02:06:04.629] [INFO ] ║  🌐 URL: https://grassrootsjournals.org/jelp/jelp03-01-06-kila-m00344.pdf
+[02:06:04.629] [INFO ] ║  🔄 ATTEMPT: 1/2
+[02:06:04.629] [INFO ] ║  ⏰ STARTED: 2026-01-30T02:06:04.629066+02:00 (Egypt Time)
+[02:06:04.629] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:06:04.629] [INFO ] 
+[02:06:04.629] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[02:06:04.629] [INFO ]     │ Browser:     CHROME v122
+[02:06:04.629] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[02:06:04.629] [INFO ]     │ Viewport:    2560x1440
+[02:06:04.629] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[02:06:04.629] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[02:06:04.629] [INFO ]     │ Location:    Phoenix, USA
+[02:06:04.629] [INFO ]     │ Timezone:    N/A
+[02:06:04.629] [INFO ]     │ Locale:      en-US
+[02:06:04.629] [INFO ]     │ Geo:         0, 0
+[02:06:04.629] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[02:06:04.629] [INFO ]     │ Proxy:       Direct (no proxy)
+[02:06:04.629] [INFO ]     │ Referrer:    https://www.google.com/search?q=grassrootsjournals+org
+[02:06:04.629] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:06:04.629] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[02:06:04.629] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[02:06:04.629] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[02:06:04.629] [INFO ] 
+[02:06:04.629] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[02:06:04.629] [INFO ]     ├─ Canvas fingerprint noise
+[02:06:04.629] [INFO ]     ├─ WebGL renderer/vendor spoof
+[02:06:04.629] [INFO ]     ├─ Hardware concurrency randomization
+[02:06:04.629] [INFO ]     ├─ Device memory randomization
+[02:06:04.629] [INFO ]     ├─ Plugin masking
+[02:06:04.629] [INFO ]     ├─ WebRTC IP leak protection
+[02:06:04.629] [INFO ]     ├─ Network connection spoof
+[02:06:04.629] [INFO ]     └─ Battery API spoof
+[02:06:04.670] [INFO ] 
+[02:06:04.670] [INFO ]     🥷 STEALTH MODE APPLIED
+[02:06:04.670] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[02:06:04.670] [INFO ]     ├─ Chrome runtime patches
+[02:06:04.670] [INFO ]     ├─ Console patches
+[02:06:04.670] [INFO ]     └─ Permission patches
+[02:06:04.670] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[02:06:04.670] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[02:06:04.670] [INFO ] 
+[02:06:04.670] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[02:06:04.670] [INFO ]     ├─ Canvas fingerprint noise
+[02:06:04.670] [INFO ]     ├─ WebGL renderer/vendor spoof
+[02:06:04.670] [INFO ]     ├─ Hardware concurrency randomization
+[02:06:04.670] [INFO ]     ├─ Device memory randomization
+[02:06:04.670] [INFO ]     ├─ Plugin masking
+[02:06:04.670] [INFO ]     ├─ WebRTC IP leak protection
+[02:06:04.670] [INFO ]     ├─ Network connection spoof
+[02:06:04.670] [INFO ]     └─ Battery API spoof
+[02:06:04.670] [DEBUG] Enabled resource blocking (images, media, fonts)
+[02:06:04.670] [INFO ] 
+[02:06:04.670] [INFO ]     🔗 NAVIGATING TO URL
+[02:06:04.670] [INFO ]     ├─ Strategy:   domcontentloaded
+[02:06:04.670] [INFO ]     ├─ Timeout:    15.0s
+[02:06:04.670] [INFO ]     └─ Sleep:      1s after load
+[02:06:05.457] [DEBUG] Enabled resource blocking (images, media, fonts)
+[02:06:05.457] [INFO ] 
+[02:06:05.457] [INFO ]     🔗 NAVIGATING TO URL
+[02:06:05.457] [INFO ]     ├─ Strategy:   load
+[02:06:05.457] [INFO ]     ├─ Timeout:    20.0s
+[02:06:05.457] [INFO ]     └─ Sleep:      1s after load
+[02:06:06.145] [DEBUG] Enabled resource blocking (images, media, fonts)
+[02:06:06.145] [INFO ] 
+[02:06:06.145] [INFO ]     🔗 NAVIGATING TO URL
+[02:06:06.145] [INFO ]     ├─ Strategy:   networkidle
+[02:06:06.145] [INFO ]     ├─ Timeout:    25.0s
+[02:06:06.145] [INFO ]     └─ Sleep:      1s after load
+[02:06:13.293] [INFO ] 
+[02:06:13.293] [INFO ]     🚀 BROWSER LAUNCHED
+[02:06:13.293] [INFO ]     ├─ Mode:       Headless
+[02:06:13.293] [INFO ]     ├─ Slow Mo:    60ms
+[02:06:13.293] [INFO ]     ├─ Launch Time: 0.06s
+[02:06:13.293] [INFO ]     └─ Args:       Anti-automation flags enabled
+[02:06:13.312] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-GB, tz=UTC
+[02:06:13.312] [INFO ] 
+[02:06:13.312] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[02:06:13.312] [INFO ] ║  📋 SESSION: SCRAPE_20260130_020604_54DA
+[02:06:13.312] [INFO ] ║  🌐 URL: https://grassrootsjournals.org/jelp/jelp03-01-06-kila-m00344.pdf
+[02:06:13.312] [INFO ] ║  🔄 ATTEMPT: 2/2
+[02:06:13.312] [INFO ] ║  ⏰ STARTED: 2026-01-30T02:06:13.312922+02:00 (Egypt Time)
+[02:06:13.312] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:06:13.312] [INFO ] 
+[02:06:13.312] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[02:06:13.312] [INFO ]     │ Browser:     CHROME v123
+[02:06:13.312] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[02:06:13.312] [INFO ]     │ Viewport:    1920x1080
+[02:06:13.312] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[02:06:13.312] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[02:06:13.312] [INFO ]     │ Location:    London, UK
+[02:06:13.312] [INFO ]     │ Timezone:    N/A
+[02:06:13.312] [INFO ]     │ Locale:      en-GB
+[02:06:13.312] [INFO ]     │ Geo:         0, 0
+[02:06:13.312] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[02:06:13.313] [INFO ]     │ Proxy:       Direct (no proxy)
+[02:06:13.313] [INFO ]     │ Referrer:    https://www.google.com/
+[02:06:13.313] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:06:13.313] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[02:06:13.313] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[02:06:13.313] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[02:06:13.313] [INFO ] 
+[02:06:13.313] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[02:06:13.313] [INFO ]     ├─ Canvas fingerprint noise
+[02:06:13.313] [INFO ]     ├─ WebGL renderer/vendor spoof
+[02:06:13.313] [INFO ]     ├─ Hardware concurrency randomization
+[02:06:13.313] [INFO ]     ├─ Device memory randomization
+[02:06:13.313] [INFO ]     ├─ Plugin masking
+[02:06:13.313] [INFO ]     ├─ WebRTC IP leak protection
+[02:06:13.313] [INFO ]     ├─ Network connection spoof
+[02:06:13.313] [INFO ]     └─ Battery API spoof
+[02:06:13.358] [INFO ] 
+[02:06:13.358] [INFO ]     🥷 STEALTH MODE APPLIED
+[02:06:13.358] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[02:06:13.358] [INFO ]     ├─ Chrome runtime patches
+[02:06:13.358] [INFO ]     ├─ Console patches
+[02:06:13.358] [INFO ]     └─ Permission patches
+[02:06:13.358] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[02:06:13.358] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[02:06:13.358] [INFO ] 
+[02:06:13.358] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[02:06:13.358] [INFO ]     ├─ Canvas fingerprint noise
+[02:06:13.358] [INFO ]     ├─ WebGL renderer/vendor spoof
+[02:06:13.358] [INFO ]     ├─ Hardware concurrency randomization
+[02:06:13.358] [INFO ]     ├─ Device memory randomization
+[02:06:13.358] [INFO ]     ├─ Plugin masking
+[02:06:13.358] [INFO ]     ├─ WebRTC IP leak protection
+[02:06:13.358] [INFO ]     ├─ Network connection spoof
+[02:06:13.358] [INFO ]     └─ Battery API spoof
+[02:06:13.358] [DEBUG] Enabled resource blocking (images, media, fonts)
+[02:06:13.358] [INFO ] 
+[02:06:13.358] [INFO ]     🔗 NAVIGATING TO URL
+[02:06:13.358] [INFO ]     ├─ Strategy:   domcontentloaded
+[02:06:13.358] [INFO ]     ├─ Timeout:    15.0s
+[02:06:13.358] [INFO ]     └─ Sleep:      1s after load
+[02:06:13.941] [DEBUG] Enabled resource blocking (images, media, fonts)
+[02:06:13.941] [INFO ] 
+[02:06:13.941] [INFO ]     🔗 NAVIGATING TO URL
+[02:06:13.941] [INFO ]     ├─ Strategy:   load
+[02:06:13.942] [INFO ]     ├─ Timeout:    20.0s
+[02:06:13.942] [INFO ]     └─ Sleep:      1s after load
+[02:06:14.603] [DEBUG] Enabled resource blocking (images, media, fonts)
+[02:06:14.603] [INFO ] 
+[02:06:14.603] [INFO ]     🔗 NAVIGATING TO URL
+[02:06:14.603] [INFO ]     ├─ Strategy:   networkidle
+[02:06:14.603] [INFO ]     ├─ Timeout:    25.0s
+[02:06:14.603] [INFO ]     └─ Sleep:      1s after load
+[02:06:14.973] [INFO ] 
+[02:06:14.973] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[02:06:14.973] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260130_020604_54DA
+[02:06:14.973] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:06:14.973] [INFO ] 
+[02:06:14.974] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[02:06:14.974] [INFO ]     │ URL:              https://grassrootsjournals.org/jelp/jelp03-01-06-kila-m
+[02:06:14.974] [INFO ]     │ Error Type:       network
+[02:06:14.974] [INFO ]     │ Likely Ban:       ❌ No
+[02:06:14.974] [INFO ]     │ Retries Used:     2
+[02:06:14.974] [INFO ]     │
+[02:06:14.974] [INFO ]     │ Error Message:
+[02:06:14.974] [INFO ]     │   Failed after 2 attempts. Last error: Page.goto: Download
+[02:06:14.974] [INFO ]     │    is starting
+Call log:
+  - navigating to "https://grassr
+[02:06:14.974] [INFO ]     │   ootsjournals.org/jelp/jelp03-01-06-kila-m00344.pdf", wai
+[02:06:14.974] [INFO ]     │   ting until "networkidle"
+
+[02:06:14.974] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:06:14.974] [INFO ] 
+[02:06:14.974] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[02:06:14.974] [INFO ]     │ Browser Launch:     0.06s
+[02:06:14.974] [INFO ]     │ Page Load:          0.00s
+[02:06:14.974] [INFO ]     │ Cloudflare Wait:    0.00s
+[02:06:14.974] [INFO ]     │ Human Simulation:   0.00s
+[02:06:14.974] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[02:06:14.974] [INFO ]     │ FAILED AT:          0.06s
+[02:06:14.974] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:06:14.974] [INFO ] 
+[02:06:14.974] [INFO ]     ┌─ RECOMMENDATION ─────────────────────────────────────────────┐
+[02:06:14.974] [INFO ]     │ 💡 Network connection issue
+[02:06:14.974] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:06:14.974] [INFO ] 
+[02:06:14.974] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[02:06:14.974] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 10.71s
+ENDED: 2026-01-30T02:06:14.974125+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://news.google.com/rss/articles/CBMioAFBVV95cUxOOFBjWUFYdXhDdTZiZjJzUmFHd1JidmthTGhmb2t4SFBreDU5SWtJUzRqZm8tNEsyVVhyV0JGV2Z1ZFFLS3JCZGlpSjJneEdCMF9UYjlIMUNldllaV0o4TnFUV19BMFFGWWQyd2xndThiTjFYWXJfeGdSTk5fWGhMQWE2TjZ3QW1KZ0doWTE5alo5cnZkT0NBY3JhMVhFVmdt?oc=5
+Started: 2026-02-25 14:45:25
+Session ID: SCRAPE_20260225_144525_F687
+================================================================================
+[14:45:25.787] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-02-25_144525_news.google.com.log
+[14:45:25.787] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[14:45:26.129] [INFO ] 
+[14:45:26.129] [INFO ]     🚀 BROWSER LAUNCHED
+[14:45:26.129] [INFO ]     ├─ Mode:       Headless
+[14:45:26.129] [INFO ]     ├─ Slow Mo:    52ms
+[14:45:26.129] [INFO ]     ├─ Launch Time: 0.06s
+[14:45:26.129] [INFO ]     └─ Args:       Anti-automation flags enabled
+[14:45:26.145] [DEBUG] Browser profile: viewport={'width': 1512, 'height': 982}, locale=en-AU, tz=UTC
+[14:45:26.145] [INFO ] 
+[14:45:26.145] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[14:45:26.145] [INFO ] ║  📋 SESSION: SCRAPE_20260225_144525_F687
+[14:45:26.145] [INFO ] ║  🌐 URL: https://news.google.com/rss/articles/CBMioAFBVV95cUxOOFBjWUFYdXhDdTZiZjJzUmFHd1JidmthTGhmb2t4SFBreDU5SWtJUzRqZm8tNEsyVVhyV0JGV2Z1ZFFLS3JCZGlpSjJneEdCMF9UYjlIMUNldllaV0o4TnFUV19BMFFGWWQyd2xndThiTjFYWXJfeGdSTk5fWGhMQWE2TjZ3QW1KZ0doWTE5alo5cnZkT0NBY3JhMVhFVmdt?oc=5
+[14:45:26.145] [INFO ] ║  🔄 ATTEMPT: 1/2
+[14:45:26.145] [INFO ] ║  ⏰ STARTED: 2026-02-25T14:45:26.145239+02:00 (Egypt Time)
+[14:45:26.145] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:45:26.145] [INFO ] 
+[14:45:26.145] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[14:45:26.145] [INFO ]     │ Browser:     SAFARI v17
+[14:45:26.145] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_1) AppleWebKit/605.1.15 (KHT...
+[14:45:26.145] [INFO ]     │ Viewport:    1512x982
+[14:45:26.145] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[14:45:26.145] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[14:45:26.145] [INFO ]     │ Location:    Sydney, Australia
+[14:45:26.145] [INFO ]     │ Timezone:    N/A
+[14:45:26.145] [INFO ]     │ Locale:      en-AU
+[14:45:26.145] [INFO ]     │ Geo:         0, 0
+[14:45:26.145] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[14:45:26.145] [INFO ]     │ Proxy:       Direct (no proxy)
+[14:45:26.145] [INFO ]     │ Referrer:    https://news.google.com/
+[14:45:26.145] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:45:26.145] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[14:45:26.145] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[14:45:26.145] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[14:45:26.145] [INFO ] 
+[14:45:26.145] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[14:45:26.145] [INFO ]     ├─ Canvas fingerprint noise
+[14:45:26.145] [INFO ]     ├─ WebGL renderer/vendor spoof
+[14:45:26.145] [INFO ]     ├─ Hardware concurrency randomization
+[14:45:26.145] [INFO ]     ├─ Device memory randomization
+[14:45:26.145] [INFO ]     ├─ Plugin masking
+[14:45:26.145] [INFO ]     ├─ WebRTC IP leak protection
+[14:45:26.145] [INFO ]     ├─ Network connection spoof
+[14:45:26.145] [INFO ]     └─ Battery API spoof
+[14:45:26.186] [INFO ] 
+[14:45:26.186] [INFO ]     🥷 STEALTH MODE APPLIED
+[14:45:26.186] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[14:45:26.186] [INFO ]     ├─ Chrome runtime patches
+[14:45:26.186] [INFO ]     ├─ Console patches
+[14:45:26.186] [INFO ]     └─ Permission patches
+[14:45:26.186] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[14:45:26.186] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[14:45:26.186] [INFO ] 
+[14:45:26.186] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[14:45:26.186] [INFO ]     ├─ Canvas fingerprint noise
+[14:45:26.186] [INFO ]     ├─ WebGL renderer/vendor spoof
+[14:45:26.186] [INFO ]     ├─ Hardware concurrency randomization
+[14:45:26.186] [INFO ]     ├─ Device memory randomization
+[14:45:26.186] [INFO ]     ├─ Plugin masking
+[14:45:26.186] [INFO ]     ├─ WebRTC IP leak protection
+[14:45:26.186] [INFO ]     ├─ Network connection spoof
+[14:45:26.186] [INFO ]     └─ Battery API spoof
+[14:45:26.186] [DEBUG] Enabled resource blocking (images, media, fonts)
+[14:45:26.186] [INFO ] 
+[14:45:26.186] [INFO ]     🔗 NAVIGATING TO URL
+[14:45:26.186] [INFO ]     ├─ Strategy:   domcontentloaded
+[14:45:26.186] [INFO ]     ├─ Timeout:    15.0s
+[14:45:26.186] [INFO ]     └─ Sleep:      1s after load
+[14:45:27.597] [INFO ] 
+[14:45:27.597] [INFO ]     ✅ PAGE LOADED
+[14:45:27.597] [INFO ]     ├─ Final URL:  https://news.google.com/rss/articles/CBMioAFBVV95cUxOOFBjWUFYdXhDdTZiZjJzUmFHd1JidmthTGhmb2t4SFBreDU5SWtJUzRqZm8tNEsyVVhyV0JGV2Z1ZFFLS3JCZGlpSjJneEdCMF9UYjlIMUNldllaV0o4TnFUV19BMFFGWWQyd2xndThiTjFYWXJfeGdSTk5fWGhMQWE2TjZ3QW1KZ0doWTE5alo5cnZkT0NBY3JhMVhFVmdt?oc=5&hl=en-AU&gl=AU&ceid=AU:en
+[14:45:27.597] [INFO ]     ├─ Title:      Google News
+[14:45:27.597] [INFO ]     └─ Load Time:  1.41s
+[14:45:28.841] [INFO ] 🧑 Human behavior simulation...
+[14:45:32.566] [INFO ] 🖱️ Mouse: 2 moves in 1512x982
+[14:45:32.566] [INFO ] 🖱️ Mouse completed: 2 moves
+[14:45:32.566] [INFO ] 📜 Scroll: page height, viewport=982px
+[14:45:32.566] [INFO ] 📜 Scroll completed: 3 scrolls
+[14:45:32.566] [INFO ] 🧑 Human behavior completed in 3.7s ✓
+[14:45:32.566] [INFO ] 
+[14:45:32.566] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[14:45:32.566] [INFO ]     ├─ Mouse Movements: 2
+[14:45:32.566] [INFO ]     ├─ Scroll Actions:  3
+[14:45:32.566] [INFO ]     └─ Time Spent:      3.72s
+[14:45:32.776] [INFO ] 
+[14:45:32.776] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[14:45:32.776] [INFO ]     │ Title:            Aman Holding & Jarir Bookstore Launch Consumer Fin
+[14:45:32.776] [INFO ]     │ Final URL:        https://news.google.com/rss/articles/CBMioAFBVV95cUxOOFBjWUFYdXhDdTZiZjJzUmFHd1JidmthTGhmb2t4SFBreDU5SWtJUzRqZm8tNEsyVVhyV0JGV2Z1ZFFLS3JCZGlpSjJneEdCMF9UYjlIMUNldllaV0o4TnFUV19BMFFGWWQyd2xndThiTjFYWXJfeGdSTk5fWGhMQWE2TjZ3QW1KZ0doWTE5alo5cnZkT0NBY3JhMVhFVmdt?oc=5&hl=en-AU&gl=AU&ceid=AU:en
+[14:45:32.776] [INFO ]     │ HTML Size:        155,035 bytes
+[14:45:32.776] [INFO ]     │ Text Size:        2,029 chars
+[14:45:32.776] [INFO ]     │ Word Count:       ~306 words
+[14:45:32.776] [INFO ]     │ Extraction:       trafilatura
+[14:45:32.776] [INFO ]     │ Has Article:      ✅ Yes
+[14:45:32.776] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:45:32.804] [INFO ] 
+[14:45:32.804] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[14:45:32.804] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260225_144525_F687
+[14:45:32.804] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:45:32.804] [INFO ] 
+[14:45:32.804] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[14:45:32.804] [INFO ]     │ Browser Launch:      0.06s
+[14:45:32.804] [INFO ]     │ Page Load:           1.41s
+[14:45:32.804] [INFO ]     │ Cloudflare Wait:     0.00s
+[14:45:32.804] [INFO ]     │ Human Simulation:    3.72s
+[14:45:32.804] [INFO ]     │
+[14:45:32.804] [INFO ]     │ Content Extraction:  0.10s
+[14:45:32.804] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[14:45:32.804] [INFO ]     │ TOTAL TIME:          5.29s
+[14:45:32.804] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:45:32.804] [INFO ] 
+[14:45:32.805] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[14:45:32.805] [INFO ]     │ Title:            Aman Holding & Jarir Bookstore Launch Consumer Fin
+[14:45:32.805] [INFO ]     │ Final URL:        https://news.google.com/rss/articles/CBMioAFBVV95cUxOOFBjWUFYdXhDdTZiZjJzUmFHd1JidmthTGhmb2t4SFBreDU5SWtJUzRqZm8tNEsyVVhyV0JGV2Z1ZFFLS3JCZGlpSjJneEdCMF9UYjlIMUNldllaV0o4TnFUV19BMFFGWWQyd2xndThiTjFYWXJfeGdSTk5fWGhMQWE2TjZ3QW1KZ0doWTE5alo5cnZkT0NBY3JhMVhFVmdt?oc=5&hl=en-AU&gl=AU&ceid=AU:en
+[14:45:32.805] [INFO ]     │ HTML Size:        155,035 bytes
+[14:45:32.805] [INFO ]     │ Text Size:        2,029 chars
+[14:45:32.805] [INFO ]     │ Word Count:       ~306 words
+[14:45:32.805] [INFO ]     │ Extraction:       trafilatura
+[14:45:32.805] [INFO ]     │ Has Article:      ✅ Yes
+[14:45:32.805] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:45:32.805] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:45:32.805] [INFO ] ║  📊 SESSION STATS
+[14:45:32.805] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[14:45:32.805] [INFO ] ║  ├─ Popups Dismissed:   0
+[14:45:32.805] [INFO ] ║  ├─ Cloudflare:         Not detected
+[14:45:32.805] [INFO ] ║  └─ Proxy Used:         Direct
+[14:45:32.805] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[14:45:32.805] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.02s
+ENDED: 2026-02-25T14:45:32.805142+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

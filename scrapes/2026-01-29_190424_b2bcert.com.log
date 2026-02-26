@@ -1,0 +1,145 @@
+================================================================================
+SCRAPE LOG: https://www.b2bcert.com/soc-2-certification-in-egypt/
+Started: 2026-01-29 19:04:24
+Session ID: SCRAPE_20260129_190424_F140
+================================================================================
+[19:04:24.904] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_190424_b2bcert.com.log
+[19:04:24.904] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[19:04:25.248] [INFO ] 
+[19:04:25.248] [INFO ]     🚀 BROWSER LAUNCHED
+[19:04:25.248] [INFO ]     ├─ Mode:       Headless
+[19:04:25.248] [INFO ]     ├─ Slow Mo:    60ms
+[19:04:25.248] [INFO ]     ├─ Launch Time: 0.06s
+[19:04:25.248] [INFO ]     └─ Args:       Anti-automation flags enabled
+[19:04:25.264] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-IE, tz=UTC
+[19:04:25.264] [INFO ] 
+[19:04:25.264] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:04:25.264] [INFO ] ║  📋 SESSION: SCRAPE_20260129_190424_F140
+[19:04:25.264] [INFO ] ║  🌐 URL: https://www.b2bcert.com/soc-2-certification-in-egypt/
+[19:04:25.264] [INFO ] ║  🔄 ATTEMPT: 1/2
+[19:04:25.264] [INFO ] ║  ⏰ STARTED: 2026-01-29T19:04:25.264892+02:00 (Egypt Time)
+[19:04:25.264] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:04:25.264] [INFO ] 
+[19:04:25.264] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[19:04:25.264] [INFO ]     │ Browser:     CHROME v120
+[19:04:25.264] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[19:04:25.264] [INFO ]     │ Viewport:    2560x1440
+[19:04:25.264] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[19:04:25.264] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[19:04:25.264] [INFO ]     │ Location:    Dublin, Ireland
+[19:04:25.264] [INFO ]     │ Timezone:    N/A
+[19:04:25.264] [INFO ]     │ Locale:      en-IE
+[19:04:25.264] [INFO ]     │ Geo:         0, 0
+[19:04:25.264] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[19:04:25.264] [INFO ]     │ Proxy:       Direct (no proxy)
+[19:04:25.264] [INFO ]     │ Referrer:    https://www.google.com/
+[19:04:25.264] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:04:25.264] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:04:25.264] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[19:04:25.264] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:04:25.265] [INFO ] 
+[19:04:25.265] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[19:04:25.265] [INFO ]     ├─ Canvas fingerprint noise
+[19:04:25.265] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:04:25.265] [INFO ]     ├─ Hardware concurrency randomization
+[19:04:25.265] [INFO ]     ├─ Device memory randomization
+[19:04:25.265] [INFO ]     ├─ Plugin masking
+[19:04:25.265] [INFO ]     ├─ WebRTC IP leak protection
+[19:04:25.265] [INFO ]     ├─ Network connection spoof
+[19:04:25.265] [INFO ]     └─ Battery API spoof
+[19:04:25.309] [INFO ] 
+[19:04:25.309] [INFO ]     🥷 STEALTH MODE APPLIED
+[19:04:25.309] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[19:04:25.309] [INFO ]     ├─ Chrome runtime patches
+[19:04:25.309] [INFO ]     ├─ Console patches
+[19:04:25.309] [INFO ]     └─ Permission patches
+[19:04:25.309] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[19:04:25.309] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:04:25.309] [INFO ] 
+[19:04:25.309] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[19:04:25.309] [INFO ]     ├─ Canvas fingerprint noise
+[19:04:25.309] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:04:25.309] [INFO ]     ├─ Hardware concurrency randomization
+[19:04:25.309] [INFO ]     ├─ Device memory randomization
+[19:04:25.309] [INFO ]     ├─ Plugin masking
+[19:04:25.309] [INFO ]     ├─ WebRTC IP leak protection
+[19:04:25.309] [INFO ]     ├─ Network connection spoof
+[19:04:25.309] [INFO ]     └─ Battery API spoof
+[19:04:25.309] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:04:25.309] [INFO ] 
+[19:04:25.309] [INFO ]     🔗 NAVIGATING TO URL
+[19:04:25.309] [INFO ]     ├─ Strategy:   domcontentloaded
+[19:04:25.309] [INFO ]     ├─ Timeout:    15.0s
+[19:04:25.309] [INFO ]     └─ Sleep:      1s after load
+[19:04:40.371] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:04:40.371] [INFO ] 
+[19:04:40.371] [INFO ]     🔗 NAVIGATING TO URL
+[19:04:40.371] [INFO ]     ├─ Strategy:   load
+[19:04:40.371] [INFO ]     ├─ Timeout:    20.0s
+[19:04:40.371] [INFO ]     └─ Sleep:      1s after load
+[19:04:43.558] [INFO ] 
+[19:04:43.558] [INFO ]     ✅ PAGE LOADED
+[19:04:43.558] [INFO ]     ├─ Final URL:  https://www.b2bcert.com/soc-2-certification-in-egypt/
+[19:04:43.558] [INFO ]     ├─ Title:      SOC 2 Certification in Egypt | Top 10 SOC 2 Consultants in Egypt
+[19:04:43.558] [INFO ]     └─ Load Time:  3.19s
+[19:04:45.592] [INFO ] 🧑 Human behavior simulation...
+[19:04:49.164] [INFO ] 🖱️ Mouse: 2 moves in 2560x1440
+[19:04:49.164] [INFO ] 🖱️ Mouse completed: 2 moves
+[19:04:49.164] [INFO ] 📜 Scroll: page height, viewport=1440px
+[19:04:49.164] [INFO ] 📜 Scroll completed: 3 scrolls
+[19:04:49.164] [INFO ] 🧑 Human behavior completed in 3.6s ✓
+[19:04:49.164] [INFO ] 
+[19:04:49.164] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[19:04:49.164] [INFO ]     ├─ Mouse Movements: 2
+[19:04:49.164] [INFO ]     ├─ Scroll Actions:  3
+[19:04:49.164] [INFO ]     └─ Time Spent:      3.57s
+[19:04:50.160] [INFO ] 
+[19:04:50.160] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:04:50.160] [INFO ]     │ Title:            SOC 2 Certification in Egypt
+[19:04:50.160] [INFO ]     │ Final URL:        https://www.b2bcert.com/soc-2-certification-in-egypt/
+[19:04:50.160] [INFO ]     │ HTML Size:        569,356 bytes
+[19:04:50.160] [INFO ]     │ Text Size:        33,812 chars
+[19:04:50.160] [INFO ]     │ Word Count:       ~5039 words
+[19:04:50.160] [INFO ]     │ Extraction:       trafilatura
+[19:04:50.160] [INFO ]     │ Has Article:      ✅ Yes
+[19:04:50.160] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:04:50.197] [INFO ] 
+[19:04:50.197] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:04:50.197] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_190424_F140
+[19:04:50.197] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:04:50.197] [INFO ] 
+[19:04:50.197] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[19:04:50.197] [INFO ]     │ Browser Launch:      0.06s
+[19:04:50.197] [INFO ]     │ Page Load:           3.19s
+[19:04:50.197] [INFO ]     │ Cloudflare Wait:     0.00s
+[19:04:50.197] [INFO ]     │ Human Simulation:    3.57s
+[19:04:50.197] [INFO ]     │
+[19:04:50.197] [INFO ]     │ Content Extraction:  0.78s
+[19:04:50.197] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[19:04:50.197] [INFO ]     │ TOTAL TIME:          7.60s
+[19:04:50.197] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:04:50.197] [INFO ] 
+[19:04:50.198] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:04:50.198] [INFO ]     │ Title:            SOC 2 Certification in Egypt
+[19:04:50.198] [INFO ]     │ Final URL:        https://www.b2bcert.com/soc-2-certification-in-egypt/
+[19:04:50.198] [INFO ]     │ HTML Size:        569,356 bytes
+[19:04:50.198] [INFO ]     │ Text Size:        33,812 chars
+[19:04:50.198] [INFO ]     │ Word Count:       ~5039 words
+[19:04:50.198] [INFO ]     │ Extraction:       trafilatura
+[19:04:50.198] [INFO ]     │ Has Article:      ✅ Yes
+[19:04:50.198] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:04:50.198] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:04:50.198] [INFO ] ║  📊 SESSION STATS
+[19:04:50.198] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[19:04:50.198] [INFO ] ║  ├─ Popups Dismissed:   0
+[19:04:50.198] [INFO ] ║  ├─ Cloudflare:         Not detected
+[19:04:50.198] [INFO ] ║  └─ Proxy Used:         Direct
+[19:04:50.198] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:04:50.198] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 25.29s
+ENDED: 2026-01-29T19:04:50.198730+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.iso.org/standard/27001
+Started: 2026-01-26 13:00:48
+Session ID: SCRAPE_20260126_130048_BDA2
+================================================================================
+[13:00:48.630] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_130048_iso.org.log
+[13:00:48.630] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[13:00:48.972] [INFO ] 
+[13:00:48.972] [INFO ]     🚀 BROWSER LAUNCHED
+[13:00:48.972] [INFO ]     ├─ Mode:       Headless
+[13:00:48.972] [INFO ]     ├─ Slow Mo:    41ms
+[13:00:48.972] [INFO ]     ├─ Launch Time: 0.06s
+[13:00:48.972] [INFO ]     └─ Args:       Anti-automation flags enabled
+[13:00:48.991] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-GB, tz=UTC
+[13:00:48.991] [INFO ] 
+[13:00:48.991] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[13:00:48.991] [INFO ] ║  📋 SESSION: SCRAPE_20260126_130048_BDA2
+[13:00:48.991] [INFO ] ║  🌐 URL: https://www.iso.org/standard/27001
+[13:00:48.991] [INFO ] ║  🔄 ATTEMPT: 1/2
+[13:00:48.991] [INFO ] ║  ⏰ STARTED: 2026-01-26T13:00:48.991888+02:00 (Egypt Time)
+[13:00:48.991] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:00:48.991] [INFO ] 
+[13:00:48.991] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[13:00:48.991] [INFO ]     │ Browser:     OPERA v106
+[13:00:48.991] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[13:00:48.991] [INFO ]     │ Viewport:    1920x1080
+[13:00:48.991] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[13:00:48.991] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[13:00:48.991] [INFO ]     │ Location:    Birmingham, UK
+[13:00:48.991] [INFO ]     │ Timezone:    N/A
+[13:00:48.991] [INFO ]     │ Locale:      en-GB
+[13:00:48.991] [INFO ]     │ Geo:         0, 0
+[13:00:48.991] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[13:00:48.991] [INFO ]     │ Proxy:       Direct (no proxy)
+[13:00:48.991] [INFO ]     │ Referrer:    https://www.facebook.com/
+[13:00:48.991] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:00:48.991] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[13:00:48.991] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[13:00:48.991] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[13:00:48.991] [INFO ] 
+[13:00:48.991] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[13:00:48.992] [INFO ]     ├─ Canvas fingerprint noise
+[13:00:48.992] [INFO ]     ├─ WebGL renderer/vendor spoof
+[13:00:48.992] [INFO ]     ├─ Hardware concurrency randomization
+[13:00:48.992] [INFO ]     ├─ Device memory randomization
+[13:00:48.992] [INFO ]     ├─ Plugin masking
+[13:00:48.992] [INFO ]     ├─ WebRTC IP leak protection
+[13:00:48.992] [INFO ]     ├─ Network connection spoof
+[13:00:48.992] [INFO ]     └─ Battery API spoof
+[13:00:49.033] [INFO ] 
+[13:00:49.033] [INFO ]     🥷 STEALTH MODE APPLIED
+[13:00:49.033] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[13:00:49.033] [INFO ]     ├─ Chrome runtime patches
+[13:00:49.033] [INFO ]     ├─ Console patches
+[13:00:49.033] [INFO ]     └─ Permission patches
+[13:00:49.033] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[13:00:49.033] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[13:00:49.033] [INFO ] 
+[13:00:49.033] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[13:00:49.033] [INFO ]     ├─ Canvas fingerprint noise
+[13:00:49.033] [INFO ]     ├─ WebGL renderer/vendor spoof
+[13:00:49.033] [INFO ]     ├─ Hardware concurrency randomization
+[13:00:49.033] [INFO ]     ├─ Device memory randomization
+[13:00:49.033] [INFO ]     ├─ Plugin masking
+[13:00:49.033] [INFO ]     ├─ WebRTC IP leak protection
+[13:00:49.033] [INFO ]     ├─ Network connection spoof
+[13:00:49.033] [INFO ]     └─ Battery API spoof
+[13:00:49.034] [DEBUG] Enabled resource blocking (images, media, fonts)
+[13:00:49.034] [INFO ] 
+[13:00:49.034] [INFO ]     🔗 NAVIGATING TO URL
+[13:00:49.034] [INFO ]     ├─ Strategy:   domcontentloaded
+[13:00:49.034] [INFO ]     ├─ Timeout:    15.0s
+[13:00:49.034] [INFO ]     └─ Sleep:      1s after load
+[13:00:49.939] [INFO ] 
+[13:00:49.939] [INFO ]     ✅ PAGE LOADED
+[13:00:49.939] [INFO ]     ├─ Final URL:  https://www.iso.org/standard/27001
+[13:00:49.939] [INFO ]     ├─ Title:      ISO/IEC 27001:2022 - Information security management systems
+[13:00:49.939] [INFO ]     └─ Load Time:  0.91s
+[13:00:51.273] [INFO ] 🧑 Human behavior simulation...
+[13:00:54.051] [INFO ] 🖱️ Mouse: 2 moves in 1920x1080
+[13:00:54.051] [INFO ] 🖱️ Mouse completed: 2 moves
+[13:00:54.051] [INFO ] 📜 Scroll: page height, viewport=1080px
+[13:00:54.051] [INFO ] 📜 Scroll completed: 2 scrolls
+[13:00:54.051] [INFO ] 🧑 Human behavior completed in 2.8s ✓
+[13:00:54.051] [INFO ] 
+[13:00:54.051] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[13:00:54.051] [INFO ]     ├─ Mouse Movements: 2
+[13:00:54.051] [INFO ]     ├─ Scroll Actions:  2
+[13:00:54.051] [INFO ]     └─ Time Spent:      2.78s
+[13:00:54.253] [INFO ] 
+[13:00:54.253] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[13:00:54.253] [INFO ]     │ Title:            ISO/IEC 27001:2022
+[13:00:54.253] [INFO ]     │ Final URL:        https://www.iso.org/standard/27001
+[13:00:54.253] [INFO ]     │ HTML Size:        127,922 bytes
+[13:00:54.253] [INFO ]     │ Text Size:        7,887 chars
+[13:00:54.253] [INFO ]     │ Word Count:       ~1154 words
+[13:00:54.253] [INFO ]     │ Extraction:       trafilatura
+[13:00:54.253] [INFO ]     │ Has Article:      ✅ Yes
+[13:00:54.253] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:00:54.279] [INFO ] 
+[13:00:54.279] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[13:00:54.279] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_130048_BDA2
+[13:00:54.279] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:00:54.279] [INFO ] 
+[13:00:54.279] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[13:00:54.279] [INFO ]     │ Browser Launch:      0.06s
+[13:00:54.279] [INFO ]     │ Page Load:           0.91s
+[13:00:54.279] [INFO ]     │ Cloudflare Wait:     0.00s
+[13:00:54.279] [INFO ]     │ Human Simulation:    2.78s
+[13:00:54.279] [INFO ]     │
+[13:00:54.279] [INFO ]     │ Content Extraction:  0.09s
+[13:00:54.279] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[13:00:54.279] [INFO ]     │ TOTAL TIME:          3.83s
+[13:00:54.279] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:00:54.279] [INFO ] 
+[13:00:54.280] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[13:00:54.280] [INFO ]     │ Title:            ISO/IEC 27001:2022
+[13:00:54.280] [INFO ]     │ Final URL:        https://www.iso.org/standard/27001
+[13:00:54.280] [INFO ]     │ HTML Size:        127,922 bytes
+[13:00:54.280] [INFO ]     │ Text Size:        7,887 chars
+[13:00:54.280] [INFO ]     │ Word Count:       ~1154 words
+[13:00:54.280] [INFO ]     │ Extraction:       trafilatura
+[13:00:54.280] [INFO ]     │ Has Article:      ✅ Yes
+[13:00:54.280] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:00:54.280] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:00:54.280] [INFO ] ║  📊 SESSION STATS
+[13:00:54.280] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[13:00:54.280] [INFO ] ║  ├─ Popups Dismissed:   0
+[13:00:54.280] [INFO ] ║  ├─ Cloudflare:         Not detected
+[13:00:54.280] [INFO ] ║  └─ Proxy Used:         Direct
+[13:00:54.280] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[13:00:54.280] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 5.65s
+ENDED: 2026-01-26T13:00:54.280193+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

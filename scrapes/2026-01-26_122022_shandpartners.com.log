@@ -1,0 +1,206 @@
+================================================================================
+SCRAPE LOG: https://www.shandpartners.com/wp-content/uploads/2025/08/egypt_fintech-2.pdf
+Started: 2026-01-26 12:20:22
+Session ID: SCRAPE_20260126_122022_C192
+================================================================================
+[12:20:22.291] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_122022_shandpartners.com.log
+[12:20:22.291] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:20:22.638] [INFO ] 
+[12:20:22.638] [INFO ]     🚀 BROWSER LAUNCHED
+[12:20:22.638] [INFO ]     ├─ Mode:       Headless
+[12:20:22.638] [INFO ]     ├─ Slow Mo:    43ms
+[12:20:22.638] [INFO ]     ├─ Launch Time: 0.06s
+[12:20:22.638] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:20:22.655] [DEBUG] Browser profile: viewport={'width': 1512, 'height': 982}, locale=en-SG, tz=UTC
+[12:20:22.655] [INFO ] 
+[12:20:22.655] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:20:22.655] [INFO ] ║  📋 SESSION: SCRAPE_20260126_122022_C192
+[12:20:22.655] [INFO ] ║  🌐 URL: https://www.shandpartners.com/wp-content/uploads/2025/08/egypt_fintech-2.pdf
+[12:20:22.655] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:20:22.655] [INFO ] ║  ⏰ STARTED: 2026-01-26T12:20:22.655559+02:00 (Egypt Time)
+[12:20:22.655] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:20:22.655] [INFO ] 
+[12:20:22.655] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:20:22.655] [INFO ]     │ Browser:     CHROME v122
+[12:20:22.655] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[12:20:22.655] [INFO ]     │ Viewport:    1512x982
+[12:20:22.655] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:20:22.655] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:20:22.655] [INFO ]     │ Location:    Singapore
+[12:20:22.655] [INFO ]     │ Timezone:    N/A
+[12:20:22.655] [INFO ]     │ Locale:      en-SG
+[12:20:22.655] [INFO ]     │ Geo:         0, 0
+[12:20:22.655] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:20:22.655] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:20:22.655] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+shandpartners+com
+[12:20:22.655] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:22.655] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:20:22.655] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:20:22.655] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:20:22.655] [INFO ] 
+[12:20:22.655] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:20:22.655] [INFO ]     ├─ Canvas fingerprint noise
+[12:20:22.655] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:20:22.655] [INFO ]     ├─ Hardware concurrency randomization
+[12:20:22.655] [INFO ]     ├─ Device memory randomization
+[12:20:22.655] [INFO ]     ├─ Plugin masking
+[12:20:22.655] [INFO ]     ├─ WebRTC IP leak protection
+[12:20:22.655] [INFO ]     ├─ Network connection spoof
+[12:20:22.655] [INFO ]     └─ Battery API spoof
+[12:20:22.696] [INFO ] 
+[12:20:22.696] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:20:22.696] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:20:22.696] [INFO ]     ├─ Chrome runtime patches
+[12:20:22.696] [INFO ]     ├─ Console patches
+[12:20:22.696] [INFO ]     └─ Permission patches
+[12:20:22.696] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:20:22.696] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:20:22.696] [INFO ] 
+[12:20:22.696] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:20:22.696] [INFO ]     ├─ Canvas fingerprint noise
+[12:20:22.696] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:20:22.696] [INFO ]     ├─ Hardware concurrency randomization
+[12:20:22.696] [INFO ]     ├─ Device memory randomization
+[12:20:22.696] [INFO ]     ├─ Plugin masking
+[12:20:22.696] [INFO ]     ├─ WebRTC IP leak protection
+[12:20:22.696] [INFO ]     ├─ Network connection spoof
+[12:20:22.696] [INFO ]     └─ Battery API spoof
+[12:20:22.697] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:20:22.697] [INFO ] 
+[12:20:22.697] [INFO ]     🔗 NAVIGATING TO URL
+[12:20:22.697] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:20:22.697] [INFO ]     ├─ Timeout:    15.0s
+[12:20:22.697] [INFO ]     └─ Sleep:      1s after load
+[12:20:23.463] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:20:23.463] [INFO ] 
+[12:20:23.463] [INFO ]     🔗 NAVIGATING TO URL
+[12:20:23.463] [INFO ]     ├─ Strategy:   load
+[12:20:23.463] [INFO ]     ├─ Timeout:    20.0s
+[12:20:23.463] [INFO ]     └─ Sleep:      1s after load
+[12:20:23.643] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:20:23.643] [INFO ] 
+[12:20:23.643] [INFO ]     🔗 NAVIGATING TO URL
+[12:20:23.643] [INFO ]     ├─ Strategy:   networkidle
+[12:20:23.643] [INFO ]     ├─ Timeout:    25.0s
+[12:20:23.643] [INFO ]     └─ Sleep:      1s after load
+[12:20:30.571] [INFO ] 
+[12:20:30.571] [INFO ]     🚀 BROWSER LAUNCHED
+[12:20:30.571] [INFO ]     ├─ Mode:       Headless
+[12:20:30.571] [INFO ]     ├─ Slow Mo:    56ms
+[12:20:30.571] [INFO ]     ├─ Launch Time: 0.06s
+[12:20:30.571] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:20:30.589] [DEBUG] Browser profile: viewport={'width': 1440, 'height': 900}, locale=en-CA, tz=UTC
+[12:20:30.589] [INFO ] 
+[12:20:30.589] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:20:30.589] [INFO ] ║  📋 SESSION: SCRAPE_20260126_122022_C192
+[12:20:30.589] [INFO ] ║  🌐 URL: https://www.shandpartners.com/wp-content/uploads/2025/08/egypt_fintech-2.pdf
+[12:20:30.589] [INFO ] ║  🔄 ATTEMPT: 2/2
+[12:20:30.589] [INFO ] ║  ⏰ STARTED: 2026-01-26T12:20:30.589560+02:00 (Egypt Time)
+[12:20:30.589] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:20:30.589] [INFO ] 
+[12:20:30.589] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:20:30.589] [INFO ]     │ Browser:     FIREFOX v120
+[12:20:30.589] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 13.6; rv:120.0) Gecko/20100101 ...
+[12:20:30.589] [INFO ]     │ Viewport:    1440x900
+[12:20:30.589] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:20:30.589] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:20:30.589] [INFO ]     │ Location:    Toronto, Canada
+[12:20:30.589] [INFO ]     │ Timezone:    N/A
+[12:20:30.589] [INFO ]     │ Locale:      en-CA
+[12:20:30.589] [INFO ]     │ Geo:         0, 0
+[12:20:30.589] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:20:30.589] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:20:30.589] [INFO ]     │ Referrer:    https://www.google.com/
+[12:20:30.589] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:30.589] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:20:30.589] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:20:30.589] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:20:30.589] [INFO ] 
+[12:20:30.589] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:20:30.589] [INFO ]     ├─ Canvas fingerprint noise
+[12:20:30.589] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:20:30.589] [INFO ]     ├─ Hardware concurrency randomization
+[12:20:30.589] [INFO ]     ├─ Device memory randomization
+[12:20:30.589] [INFO ]     ├─ Plugin masking
+[12:20:30.589] [INFO ]     ├─ WebRTC IP leak protection
+[12:20:30.589] [INFO ]     ├─ Network connection spoof
+[12:20:30.589] [INFO ]     └─ Battery API spoof
+[12:20:30.629] [INFO ] 
+[12:20:30.629] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:20:30.629] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:20:30.629] [INFO ]     ├─ Chrome runtime patches
+[12:20:30.629] [INFO ]     ├─ Console patches
+[12:20:30.629] [INFO ]     └─ Permission patches
+[12:20:30.629] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:20:30.629] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:20:30.629] [INFO ] 
+[12:20:30.629] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:20:30.629] [INFO ]     ├─ Canvas fingerprint noise
+[12:20:30.629] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:20:30.629] [INFO ]     ├─ Hardware concurrency randomization
+[12:20:30.629] [INFO ]     ├─ Device memory randomization
+[12:20:30.629] [INFO ]     ├─ Plugin masking
+[12:20:30.629] [INFO ]     ├─ WebRTC IP leak protection
+[12:20:30.629] [INFO ]     ├─ Network connection spoof
+[12:20:30.629] [INFO ]     └─ Battery API spoof
+[12:20:30.629] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:20:30.629] [INFO ] 
+[12:20:30.629] [INFO ]     🔗 NAVIGATING TO URL
+[12:20:30.629] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:20:30.629] [INFO ]     ├─ Timeout:    15.0s
+[12:20:30.629] [INFO ]     └─ Sleep:      1s after load
+[12:20:31.055] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:20:31.055] [INFO ] 
+[12:20:31.055] [INFO ]     🔗 NAVIGATING TO URL
+[12:20:31.055] [INFO ]     ├─ Strategy:   load
+[12:20:31.055] [INFO ]     ├─ Timeout:    20.0s
+[12:20:31.055] [INFO ]     └─ Sleep:      1s after load
+[12:20:31.235] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:20:31.235] [INFO ] 
+[12:20:31.235] [INFO ]     🔗 NAVIGATING TO URL
+[12:20:31.235] [INFO ]     ├─ Strategy:   networkidle
+[12:20:31.235] [INFO ]     ├─ Timeout:    25.0s
+[12:20:31.235] [INFO ]     └─ Sleep:      1s after load
+[12:20:31.423] [INFO ] 
+[12:20:31.423] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:20:31.423] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260126_122022_C192
+[12:20:31.423] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:20:31.423] [INFO ] 
+[12:20:31.423] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[12:20:31.423] [INFO ]     │ URL:              https://www.shandpartners.com/wp-content/uploads/2025/0
+[12:20:31.423] [INFO ]     │ Error Type:       network
+[12:20:31.423] [INFO ]     │ Likely Ban:       ❌ No
+[12:20:31.423] [INFO ]     │ Retries Used:     2
+[12:20:31.423] [INFO ]     │
+[12:20:31.423] [INFO ]     │ Error Message:
+[12:20:31.423] [INFO ]     │   Failed after 2 attempts. Last error: Page.goto: Download
+[12:20:31.423] [INFO ]     │    is starting
+Call log:
+  - navigating to "https://www.sh
+[12:20:31.423] [INFO ]     │   andpartners.com/wp-content/uploads/2025/08/egypt_fintech
+[12:20:31.423] [INFO ]     │   -2.pdf", waiting until "networkidle"
+
+[12:20:31.423] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:31.423] [INFO ] 
+[12:20:31.423] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[12:20:31.423] [INFO ]     │ Browser Launch:     0.06s
+[12:20:31.423] [INFO ]     │ Page Load:          0.00s
+[12:20:31.423] [INFO ]     │ Cloudflare Wait:    0.00s
+[12:20:31.423] [INFO ]     │ Human Simulation:   0.00s
+[12:20:31.423] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:20:31.423] [INFO ]     │ FAILED AT:          0.06s
+[12:20:31.423] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:31.423] [INFO ] 
+[12:20:31.423] [INFO ]     ┌─ RECOMMENDATION ─────────────────────────────────────────────┐
+[12:20:31.423] [INFO ]     │ 💡 Network connection issue
+[12:20:31.423] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:31.423] [INFO ] 
+[12:20:31.423] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:20:31.423] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 9.13s
+ENDED: 2026-01-26T12:20:31.423852+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

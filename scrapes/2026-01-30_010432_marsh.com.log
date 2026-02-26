@@ -1,0 +1,207 @@
+================================================================================
+SCRAPE LOG: https://www.marsh.com/content/dam/marsh/Documents/PDF/MENA/cyber-insurance-supports-fight-against-ransomware_egypt.pdf
+Started: 2026-01-30 01:04:32
+Session ID: SCRAPE_20260130_010432_71CB
+================================================================================
+[01:04:32.925] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_010432_marsh.com.log
+[01:04:32.925] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[01:04:33.264] [INFO ] 
+[01:04:33.264] [INFO ]     🚀 BROWSER LAUNCHED
+[01:04:33.264] [INFO ]     ├─ Mode:       Headless
+[01:04:33.264] [INFO ]     ├─ Slow Mo:    53ms
+[01:04:33.264] [INFO ]     ├─ Launch Time: 0.06s
+[01:04:33.265] [INFO ]     └─ Args:       Anti-automation flags enabled
+[01:04:33.282] [DEBUG] Browser profile: viewport={'width': 1728, 'height': 1117}, locale=en-GB, tz=UTC
+[01:04:33.282] [INFO ] 
+[01:04:33.282] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:04:33.282] [INFO ] ║  📋 SESSION: SCRAPE_20260130_010432_71CB
+[01:04:33.282] [INFO ] ║  🌐 URL: https://www.marsh.com/content/dam/marsh/Documents/PDF/MENA/cyber-insurance-supports-fight-against-ransomware_egypt.pdf
+[01:04:33.282] [INFO ] ║  🔄 ATTEMPT: 1/2
+[01:04:33.282] [INFO ] ║  ⏰ STARTED: 2026-01-30T01:04:33.282164+02:00 (Egypt Time)
+[01:04:33.282] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:04:33.282] [INFO ] 
+[01:04:33.282] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[01:04:33.282] [INFO ]     │ Browser:     SAFARI v16
+[01:04:33.282] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/605.1.15 (KHT...
+[01:04:33.282] [INFO ]     │ Viewport:    1728x1117
+[01:04:33.282] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[01:04:33.282] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[01:04:33.282] [INFO ]     │ Location:    Birmingham, UK
+[01:04:33.282] [INFO ]     │ Timezone:    N/A
+[01:04:33.282] [INFO ]     │ Locale:      en-GB
+[01:04:33.282] [INFO ]     │ Geo:         0, 0
+[01:04:33.282] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[01:04:33.282] [INFO ]     │ Proxy:       Direct (no proxy)
+[01:04:33.282] [INFO ]     │ Referrer:    https://news.google.com/
+[01:04:33.282] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:04:33.282] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:04:33.282] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[01:04:33.282] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:04:33.282] [INFO ] 
+[01:04:33.282] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[01:04:33.282] [INFO ]     ├─ Canvas fingerprint noise
+[01:04:33.282] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:04:33.282] [INFO ]     ├─ Hardware concurrency randomization
+[01:04:33.282] [INFO ]     ├─ Device memory randomization
+[01:04:33.282] [INFO ]     ├─ Plugin masking
+[01:04:33.282] [INFO ]     ├─ WebRTC IP leak protection
+[01:04:33.282] [INFO ]     ├─ Network connection spoof
+[01:04:33.282] [INFO ]     └─ Battery API spoof
+[01:04:33.323] [INFO ] 
+[01:04:33.323] [INFO ]     🥷 STEALTH MODE APPLIED
+[01:04:33.323] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[01:04:33.323] [INFO ]     ├─ Chrome runtime patches
+[01:04:33.323] [INFO ]     ├─ Console patches
+[01:04:33.323] [INFO ]     └─ Permission patches
+[01:04:33.323] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[01:04:33.323] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:04:33.323] [INFO ] 
+[01:04:33.323] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[01:04:33.323] [INFO ]     ├─ Canvas fingerprint noise
+[01:04:33.323] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:04:33.323] [INFO ]     ├─ Hardware concurrency randomization
+[01:04:33.323] [INFO ]     ├─ Device memory randomization
+[01:04:33.323] [INFO ]     ├─ Plugin masking
+[01:04:33.323] [INFO ]     ├─ WebRTC IP leak protection
+[01:04:33.323] [INFO ]     ├─ Network connection spoof
+[01:04:33.323] [INFO ]     └─ Battery API spoof
+[01:04:33.323] [DEBUG] Enabled resource blocking (images, media, fonts)
+[01:04:33.323] [INFO ] 
+[01:04:33.323] [INFO ]     🔗 NAVIGATING TO URL
+[01:04:33.323] [INFO ]     ├─ Strategy:   domcontentloaded
+[01:04:33.323] [INFO ]     ├─ Timeout:    15.0s
+[01:04:33.323] [INFO ]     └─ Sleep:      1s after load
+[01:04:34.003] [DEBUG] Enabled resource blocking (images, media, fonts)
+[01:04:34.003] [INFO ] 
+[01:04:34.003] [INFO ]     🔗 NAVIGATING TO URL
+[01:04:34.003] [INFO ]     ├─ Strategy:   load
+[01:04:34.003] [INFO ]     ├─ Timeout:    20.0s
+[01:04:34.003] [INFO ]     └─ Sleep:      1s after load
+[01:04:34.082] [DEBUG] Enabled resource blocking (images, media, fonts)
+[01:04:34.082] [INFO ] 
+[01:04:34.082] [INFO ]     🔗 NAVIGATING TO URL
+[01:04:34.082] [INFO ]     ├─ Strategy:   networkidle
+[01:04:34.082] [INFO ]     ├─ Timeout:    25.0s
+[01:04:34.082] [INFO ]     └─ Sleep:      1s after load
+[01:04:38.421] [INFO ] 
+[01:04:38.421] [INFO ]     🚀 BROWSER LAUNCHED
+[01:04:38.421] [INFO ]     ├─ Mode:       Headless
+[01:04:38.421] [INFO ]     ├─ Slow Mo:    49ms
+[01:04:38.421] [INFO ]     ├─ Launch Time: 0.06s
+[01:04:38.421] [INFO ]     └─ Args:       Anti-automation flags enabled
+[01:04:38.439] [DEBUG] Browser profile: viewport={'width': 1440, 'height': 900}, locale=en-US, tz=UTC
+[01:04:38.439] [INFO ] 
+[01:04:38.439] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:04:38.439] [INFO ] ║  📋 SESSION: SCRAPE_20260130_010432_71CB
+[01:04:38.439] [INFO ] ║  🌐 URL: https://www.marsh.com/content/dam/marsh/Documents/PDF/MENA/cyber-insurance-supports-fight-against-ransomware_egypt.pdf
+[01:04:38.439] [INFO ] ║  🔄 ATTEMPT: 2/2
+[01:04:38.439] [INFO ] ║  ⏰ STARTED: 2026-01-30T01:04:38.439276+02:00 (Egypt Time)
+[01:04:38.439] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:04:38.439] [INFO ] 
+[01:04:38.439] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[01:04:38.439] [INFO ]     │ Browser:     SAFARI v17
+[01:04:38.439] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (...
+[01:04:38.439] [INFO ]     │ Viewport:    1440x900
+[01:04:38.439] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[01:04:38.439] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[01:04:38.439] [INFO ]     │ Location:    Seattle, USA
+[01:04:38.439] [INFO ]     │ Timezone:    N/A
+[01:04:38.439] [INFO ]     │ Locale:      en-US
+[01:04:38.439] [INFO ]     │ Geo:         0, 0
+[01:04:38.439] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[01:04:38.439] [INFO ]     │ Proxy:       Direct (no proxy)
+[01:04:38.439] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+marsh+com
+[01:04:38.439] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:04:38.439] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:04:38.439] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[01:04:38.439] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:04:38.439] [INFO ] 
+[01:04:38.439] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[01:04:38.439] [INFO ]     ├─ Canvas fingerprint noise
+[01:04:38.439] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:04:38.439] [INFO ]     ├─ Hardware concurrency randomization
+[01:04:38.439] [INFO ]     ├─ Device memory randomization
+[01:04:38.439] [INFO ]     ├─ Plugin masking
+[01:04:38.439] [INFO ]     ├─ WebRTC IP leak protection
+[01:04:38.439] [INFO ]     ├─ Network connection spoof
+[01:04:38.439] [INFO ]     └─ Battery API spoof
+[01:04:38.481] [INFO ] 
+[01:04:38.481] [INFO ]     🥷 STEALTH MODE APPLIED
+[01:04:38.481] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[01:04:38.481] [INFO ]     ├─ Chrome runtime patches
+[01:04:38.481] [INFO ]     ├─ Console patches
+[01:04:38.481] [INFO ]     └─ Permission patches
+[01:04:38.481] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[01:04:38.481] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:04:38.481] [INFO ] 
+[01:04:38.481] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[01:04:38.481] [INFO ]     ├─ Canvas fingerprint noise
+[01:04:38.481] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:04:38.481] [INFO ]     ├─ Hardware concurrency randomization
+[01:04:38.481] [INFO ]     ├─ Device memory randomization
+[01:04:38.481] [INFO ]     ├─ Plugin masking
+[01:04:38.481] [INFO ]     ├─ WebRTC IP leak protection
+[01:04:38.481] [INFO ]     ├─ Network connection spoof
+[01:04:38.481] [INFO ]     └─ Battery API spoof
+[01:04:38.481] [DEBUG] Enabled resource blocking (images, media, fonts)
+[01:04:38.481] [INFO ] 
+[01:04:38.481] [INFO ]     🔗 NAVIGATING TO URL
+[01:04:38.481] [INFO ]     ├─ Strategy:   domcontentloaded
+[01:04:38.481] [INFO ]     ├─ Timeout:    15.0s
+[01:04:38.481] [INFO ]     └─ Sleep:      1s after load
+[01:04:39.148] [DEBUG] Enabled resource blocking (images, media, fonts)
+[01:04:39.148] [INFO ] 
+[01:04:39.148] [INFO ]     🔗 NAVIGATING TO URL
+[01:04:39.148] [INFO ]     ├─ Strategy:   load
+[01:04:39.148] [INFO ]     ├─ Timeout:    20.0s
+[01:04:39.148] [INFO ]     └─ Sleep:      1s after load
+[01:04:39.227] [DEBUG] Enabled resource blocking (images, media, fonts)
+[01:04:39.227] [INFO ] 
+[01:04:39.227] [INFO ]     🔗 NAVIGATING TO URL
+[01:04:39.227] [INFO ]     ├─ Strategy:   networkidle
+[01:04:39.227] [INFO ]     ├─ Timeout:    25.0s
+[01:04:39.227] [INFO ]     └─ Sleep:      1s after load
+[01:04:39.323] [INFO ] 
+[01:04:39.323] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:04:39.323] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260130_010432_71CB
+[01:04:39.323] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:04:39.323] [INFO ] 
+[01:04:39.323] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[01:04:39.323] [INFO ]     │ URL:              https://www.marsh.com/content/dam/marsh/Documents/PDF/M
+[01:04:39.323] [INFO ]     │ Error Type:       network
+[01:04:39.323] [INFO ]     │ Likely Ban:       ❌ No
+[01:04:39.323] [INFO ]     │ Retries Used:     2
+[01:04:39.323] [INFO ]     │
+[01:04:39.323] [INFO ]     │ Error Message:
+[01:04:39.323] [INFO ]     │   Failed after 2 attempts. Last error: Page.goto: Download
+[01:04:39.323] [INFO ]     │    is starting
+Call log:
+  - navigating to "https://www.ma
+[01:04:39.323] [INFO ]     │   rsh.com/content/dam/marsh/Documents/PDF/MENA/cyber-insur
+[01:04:39.323] [INFO ]     │   ance-supports-fight-against-ransomware_egypt.pdf", waiti
+[01:04:39.323] [INFO ]     │   ng until "networkidle"
+
+[01:04:39.323] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:04:39.323] [INFO ] 
+[01:04:39.323] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[01:04:39.323] [INFO ]     │ Browser Launch:     0.06s
+[01:04:39.323] [INFO ]     │ Page Load:          0.00s
+[01:04:39.323] [INFO ]     │ Cloudflare Wait:    0.00s
+[01:04:39.323] [INFO ]     │ Human Simulation:   0.00s
+[01:04:39.323] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[01:04:39.323] [INFO ]     │ FAILED AT:          0.06s
+[01:04:39.323] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:04:39.323] [INFO ] 
+[01:04:39.323] [INFO ]     ┌─ RECOMMENDATION ─────────────────────────────────────────────┐
+[01:04:39.323] [INFO ]     │ 💡 Network connection issue
+[01:04:39.323] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:04:39.323] [INFO ] 
+[01:04:39.323] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:04:39.323] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 6.40s
+ENDED: 2026-01-30T01:04:39.323254+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

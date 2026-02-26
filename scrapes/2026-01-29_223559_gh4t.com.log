@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://gh4t.com/iso-22301-lead-implementer-of-business-continuity/1223844/special-courses/Cairo.htm
+Started: 2026-01-29 22:35:59
+Session ID: SCRAPE_20260129_223559_F1B0
+================================================================================
+[22:35:59.578] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_223559_gh4t.com.log
+[22:35:59.578] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[22:35:59.924] [INFO ] 
+[22:35:59.924] [INFO ]     🚀 BROWSER LAUNCHED
+[22:35:59.924] [INFO ]     ├─ Mode:       Headless
+[22:35:59.924] [INFO ]     ├─ Slow Mo:    49ms
+[22:35:59.924] [INFO ]     ├─ Launch Time: 0.06s
+[22:35:59.924] [INFO ]     └─ Args:       Anti-automation flags enabled
+[22:35:59.942] [DEBUG] Browser profile: viewport={'width': 1728, 'height': 1117}, locale=en-GB, tz=UTC
+[22:35:59.942] [INFO ] 
+[22:35:59.942] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:35:59.942] [INFO ] ║  📋 SESSION: SCRAPE_20260129_223559_F1B0
+[22:35:59.942] [INFO ] ║  🌐 URL: https://gh4t.com/iso-22301-lead-implementer-of-business-continuity/1223844/special-courses/Cairo.htm
+[22:35:59.942] [INFO ] ║  🔄 ATTEMPT: 1/2
+[22:35:59.942] [INFO ] ║  ⏰ STARTED: 2026-01-29T22:35:59.942675+02:00 (Egypt Time)
+[22:35:59.942] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:35:59.942] [INFO ] 
+[22:35:59.942] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[22:35:59.942] [INFO ]     │ Browser:     FIREFOX v120
+[22:35:59.942] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 13.6; rv:120.0) Gecko/20100101 ...
+[22:35:59.942] [INFO ]     │ Viewport:    1728x1117
+[22:35:59.942] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[22:35:59.942] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[22:35:59.942] [INFO ]     │ Location:    Birmingham, UK
+[22:35:59.942] [INFO ]     │ Timezone:    N/A
+[22:35:59.942] [INFO ]     │ Locale:      en-GB
+[22:35:59.942] [INFO ]     │ Geo:         0, 0
+[22:35:59.942] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[22:35:59.942] [INFO ]     │ Proxy:       Direct (no proxy)
+[22:35:59.942] [INFO ]     │ Referrer:    https://www.facebook.com/
+[22:35:59.942] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:35:59.942] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:35:59.942] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[22:35:59.942] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:35:59.942] [INFO ] 
+[22:35:59.942] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[22:35:59.942] [INFO ]     ├─ Canvas fingerprint noise
+[22:35:59.942] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:35:59.942] [INFO ]     ├─ Hardware concurrency randomization
+[22:35:59.942] [INFO ]     ├─ Device memory randomization
+[22:35:59.942] [INFO ]     ├─ Plugin masking
+[22:35:59.942] [INFO ]     ├─ WebRTC IP leak protection
+[22:35:59.942] [INFO ]     ├─ Network connection spoof
+[22:35:59.942] [INFO ]     └─ Battery API spoof
+[22:35:59.986] [INFO ] 
+[22:35:59.986] [INFO ]     🥷 STEALTH MODE APPLIED
+[22:35:59.986] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[22:35:59.986] [INFO ]     ├─ Chrome runtime patches
+[22:35:59.986] [INFO ]     ├─ Console patches
+[22:35:59.986] [INFO ]     └─ Permission patches
+[22:35:59.986] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[22:35:59.986] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:35:59.986] [INFO ] 
+[22:35:59.986] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[22:35:59.986] [INFO ]     ├─ Canvas fingerprint noise
+[22:35:59.986] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:35:59.986] [INFO ]     ├─ Hardware concurrency randomization
+[22:35:59.986] [INFO ]     ├─ Device memory randomization
+[22:35:59.986] [INFO ]     ├─ Plugin masking
+[22:35:59.986] [INFO ]     ├─ WebRTC IP leak protection
+[22:35:59.986] [INFO ]     ├─ Network connection spoof
+[22:35:59.986] [INFO ]     └─ Battery API spoof
+[22:35:59.986] [DEBUG] Enabled resource blocking (images, media, fonts)
+[22:35:59.986] [INFO ] 
+[22:35:59.986] [INFO ]     🔗 NAVIGATING TO URL
+[22:35:59.986] [INFO ]     ├─ Strategy:   domcontentloaded
+[22:35:59.986] [INFO ]     ├─ Timeout:    15.0s
+[22:35:59.986] [INFO ]     └─ Sleep:      1s after load
+[22:36:02.341] [INFO ] 
+[22:36:02.341] [INFO ]     ✅ PAGE LOADED
+[22:36:02.341] [INFO ]     ├─ Final URL:  https://gh4t.com/iso-22301-lead-implementer-of-business-continuity/1223844/special-courses/Cairo.htm
+[22:36:02.341] [INFO ]     ├─ Title:      ISO 22301 Lead Implementer of Business Continuity Training Course Cairo Egypt 25 October 2026 - Global Horizon Training Center
+[22:36:02.341] [INFO ]     └─ Load Time:  2.36s
+[22:36:05.649] [INFO ] 🧑 Human behavior simulation...
+[22:36:10.116] [INFO ] 🖱️ Mouse: 2 moves in 1728x1117
+[22:36:10.116] [INFO ] 🖱️ Mouse completed: 2 moves
+[22:36:10.117] [INFO ] 📜 Scroll: page height, viewport=1117px
+[22:36:10.117] [INFO ] 📜 Scroll completed: 3 scrolls
+[22:36:10.117] [INFO ] 🧑 Human behavior completed in 4.5s ✓
+[22:36:10.117] [INFO ] 
+[22:36:10.117] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[22:36:10.117] [INFO ]     ├─ Mouse Movements: 2
+[22:36:10.117] [INFO ]     ├─ Scroll Actions:  3
+[22:36:10.117] [INFO ]     └─ Time Spent:      4.47s
+[22:36:10.832] [INFO ] 
+[22:36:10.832] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:36:10.832] [INFO ]     │ Title:            Training and consulting
+[22:36:10.832] [INFO ]     │ Final URL:        https://gh4t.com/iso-22301-lead-implementer-of-business-continuity/1223844/special-courses/Cairo.htm
+[22:36:10.832] [INFO ]     │ HTML Size:        288,024 bytes
+[22:36:10.832] [INFO ]     │ Text Size:        4,854 chars
+[22:36:10.832] [INFO ]     │ Word Count:       ~661 words
+[22:36:10.832] [INFO ]     │ Extraction:       trafilatura
+[22:36:10.832] [INFO ]     │ Has Article:      ✅ Yes
+[22:36:10.832] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:36:10.885] [INFO ] 
+[22:36:10.885] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:36:10.885] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_223559_F1B0
+[22:36:10.885] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:36:10.885] [INFO ] 
+[22:36:10.885] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[22:36:10.885] [INFO ]     │ Browser Launch:      0.06s
+[22:36:10.885] [INFO ]     │ Page Load:           2.36s
+[22:36:10.885] [INFO ]     │ Cloudflare Wait:     0.00s
+[22:36:10.885] [INFO ]     │ Human Simulation:    4.47s
+[22:36:10.885] [INFO ]     │
+[22:36:10.885] [INFO ]     │ Content Extraction:  0.60s
+[22:36:10.885] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[22:36:10.885] [INFO ]     │ TOTAL TIME:          7.48s
+[22:36:10.885] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:36:10.885] [INFO ] 
+[22:36:10.885] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:36:10.885] [INFO ]     │ Title:            Training and consulting
+[22:36:10.885] [INFO ]     │ Final URL:        https://gh4t.com/iso-22301-lead-implementer-of-business-continuity/1223844/special-courses/Cairo.htm
+[22:36:10.885] [INFO ]     │ HTML Size:        288,024 bytes
+[22:36:10.885] [INFO ]     │ Text Size:        4,854 chars
+[22:36:10.885] [INFO ]     │ Word Count:       ~661 words
+[22:36:10.885] [INFO ]     │ Extraction:       trafilatura
+[22:36:10.885] [INFO ]     │ Has Article:      ✅ Yes
+[22:36:10.885] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:36:10.885] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:36:10.885] [INFO ] ║  📊 SESSION STATS
+[22:36:10.885] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[22:36:10.885] [INFO ] ║  ├─ Popups Dismissed:   0
+[22:36:10.885] [INFO ] ║  ├─ Cloudflare:         Not detected
+[22:36:10.885] [INFO ] ║  └─ Proxy Used:         Direct
+[22:36:10.885] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:36:10.885] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 11.31s
+ENDED: 2026-01-29T22:36:10.885280+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

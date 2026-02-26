@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://learn.microsoft.com/en-us/compliance/regulatory/gdpr
+Started: 2026-01-28 12:42:39
+Session ID: SCRAPE_20260128_124239_8930
+================================================================================
+[12:42:39.260] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-28_124239_learn.microsoft.com.log
+[12:42:39.260] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:42:39.615] [INFO ] 
+[12:42:39.615] [INFO ]     🚀 BROWSER LAUNCHED
+[12:42:39.615] [INFO ]     ├─ Mode:       Headless
+[12:42:39.615] [INFO ]     ├─ Slow Mo:    48ms
+[12:42:39.615] [INFO ]     ├─ Launch Time: 0.06s
+[12:42:39.615] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:42:39.635] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-US, tz=UTC
+[12:42:39.635] [INFO ] 
+[12:42:39.635] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:42:39.635] [INFO ] ║  📋 SESSION: SCRAPE_20260128_124239_8930
+[12:42:39.635] [INFO ] ║  🌐 URL: https://learn.microsoft.com/en-us/compliance/regulatory/gdpr
+[12:42:39.635] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:42:39.635] [INFO ] ║  ⏰ STARTED: 2026-01-28T12:42:39.635711+02:00 (Egypt Time)
+[12:42:39.635] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:42:39.635] [INFO ] 
+[12:42:39.635] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:42:39.635] [INFO ]     │ Browser:     SAFARI v16
+[12:42:39.635] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/605.1.15 (KHT...
+[12:42:39.635] [INFO ]     │ Viewport:    1920x1080
+[12:42:39.635] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:42:39.635] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:42:39.635] [INFO ]     │ Location:    Miami, USA
+[12:42:39.635] [INFO ]     │ Timezone:    N/A
+[12:42:39.635] [INFO ]     │ Locale:      en-US
+[12:42:39.635] [INFO ]     │ Geo:         0, 0
+[12:42:39.635] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:42:39.635] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:42:39.635] [INFO ]     │ Referrer:    https://news.google.com/
+[12:42:39.635] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:42:39.635] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:42:39.635] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:42:39.635] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:42:39.635] [INFO ] 
+[12:42:39.635] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:42:39.635] [INFO ]     ├─ Canvas fingerprint noise
+[12:42:39.635] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:42:39.635] [INFO ]     ├─ Hardware concurrency randomization
+[12:42:39.635] [INFO ]     ├─ Device memory randomization
+[12:42:39.635] [INFO ]     ├─ Plugin masking
+[12:42:39.635] [INFO ]     ├─ WebRTC IP leak protection
+[12:42:39.635] [INFO ]     ├─ Network connection spoof
+[12:42:39.635] [INFO ]     └─ Battery API spoof
+[12:42:39.685] [INFO ] 
+[12:42:39.685] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:42:39.685] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:42:39.685] [INFO ]     ├─ Chrome runtime patches
+[12:42:39.685] [INFO ]     ├─ Console patches
+[12:42:39.685] [INFO ]     └─ Permission patches
+[12:42:39.685] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:42:39.685] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:42:39.685] [INFO ] 
+[12:42:39.685] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:42:39.685] [INFO ]     ├─ Canvas fingerprint noise
+[12:42:39.685] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:42:39.685] [INFO ]     ├─ Hardware concurrency randomization
+[12:42:39.685] [INFO ]     ├─ Device memory randomization
+[12:42:39.685] [INFO ]     ├─ Plugin masking
+[12:42:39.685] [INFO ]     ├─ WebRTC IP leak protection
+[12:42:39.685] [INFO ]     ├─ Network connection spoof
+[12:42:39.685] [INFO ]     └─ Battery API spoof
+[12:42:39.685] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:42:39.685] [INFO ] 
+[12:42:39.685] [INFO ]     🔗 NAVIGATING TO URL
+[12:42:39.685] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:42:39.685] [INFO ]     ├─ Timeout:    15.0s
+[12:42:39.685] [INFO ]     └─ Sleep:      1s after load
+[12:42:40.996] [INFO ] 
+[12:42:40.996] [INFO ]     ✅ PAGE LOADED
+[12:42:40.996] [INFO ]     ├─ Final URL:  https://learn.microsoft.com/en-us/compliance/regulatory/gdpr
+[12:42:40.996] [INFO ]     ├─ Title:      General Data Protection Regulation - Microsoft GDPR | Microsoft Learn
+[12:42:40.996] [INFO ]     └─ Load Time:  1.31s
+[12:42:42.235] [INFO ] 🧑 Human behavior simulation...
+[12:42:45.642] [INFO ] 🖱️ Mouse: 3 moves in 1920x1080
+[12:42:45.642] [INFO ] 🖱️ Mouse completed: 3 moves
+[12:42:45.642] [INFO ] 📜 Scroll: page height, viewport=1080px
+[12:42:45.642] [INFO ] 📜 Scroll completed: 1 scrolls
+[12:42:45.642] [INFO ] 🧑 Human behavior completed in 3.4s ✓
+[12:42:45.642] [INFO ] 
+[12:42:45.642] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:42:45.642] [INFO ]     ├─ Mouse Movements: 3
+[12:42:45.642] [INFO ]     ├─ Scroll Actions:  1
+[12:42:45.642] [INFO ]     └─ Time Spent:      3.41s
+[12:42:45.838] [INFO ] 
+[12:42:45.838] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:42:45.838] [INFO ]     │ Title:            General Data Protection Regulation - Microsoft GDP
+[12:42:45.838] [INFO ]     │ Final URL:        https://learn.microsoft.com/en-us/compliance/regulatory/gdpr
+[12:42:45.838] [INFO ]     │ HTML Size:        134,613 bytes
+[12:42:45.838] [INFO ]     │ Text Size:        28,946 chars
+[12:42:45.838] [INFO ]     │ Word Count:       ~4490 words
+[12:42:45.838] [INFO ]     │ Extraction:       trafilatura
+[12:42:45.838] [INFO ]     │ Has Article:      ✅ Yes
+[12:42:45.838] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:42:45.865] [INFO ] 
+[12:42:45.865] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:42:45.865] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260128_124239_8930
+[12:42:45.865] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:42:45.865] [INFO ] 
+[12:42:45.865] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:42:45.865] [INFO ]     │ Browser Launch:      0.06s
+[12:42:45.865] [INFO ]     │ Page Load:           1.31s
+[12:42:45.865] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:42:45.865] [INFO ]     │ Human Simulation:    3.41s
+[12:42:45.865] [INFO ]     │
+[12:42:45.865] [INFO ]     │ Content Extraction:  0.15s
+[12:42:45.865] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:42:45.865] [INFO ]     │ TOTAL TIME:          4.94s
+[12:42:45.865] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:42:45.865] [INFO ] 
+[12:42:45.866] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:42:45.866] [INFO ]     │ Title:            General Data Protection Regulation - Microsoft GDP
+[12:42:45.866] [INFO ]     │ Final URL:        https://learn.microsoft.com/en-us/compliance/regulatory/gdpr
+[12:42:45.866] [INFO ]     │ HTML Size:        134,613 bytes
+[12:42:45.866] [INFO ]     │ Text Size:        28,946 chars
+[12:42:45.866] [INFO ]     │ Word Count:       ~4490 words
+[12:42:45.866] [INFO ]     │ Extraction:       trafilatura
+[12:42:45.866] [INFO ]     │ Has Article:      ✅ Yes
+[12:42:45.866] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:42:45.866] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:42:45.866] [INFO ] ║  📊 SESSION STATS
+[12:42:45.866] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:42:45.866] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:42:45.866] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:42:45.866] [INFO ] ║  └─ Proxy Used:         Direct
+[12:42:45.866] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:42:45.866] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 6.61s
+ENDED: 2026-01-28T12:42:45.866301+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

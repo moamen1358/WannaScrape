@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://iclg.com/practice-areas/fintech-laws-and-regulations/egypt
+Started: 2026-01-26 12:17:22
+Session ID: SCRAPE_20260126_121722_3189
+================================================================================
+[12:17:22.287] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_121722_iclg.com.log
+[12:17:22.287] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:17:22.632] [INFO ] 
+[12:17:22.632] [INFO ]     🚀 BROWSER LAUNCHED
+[12:17:22.632] [INFO ]     ├─ Mode:       Headless
+[12:17:22.632] [INFO ]     ├─ Slow Mo:    46ms
+[12:17:22.633] [INFO ]     ├─ Launch Time: 0.06s
+[12:17:22.633] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:17:22.650] [DEBUG] Browser profile: viewport={'width': 1280, 'height': 720}, locale=en-US, tz=UTC
+[12:17:22.650] [INFO ] 
+[12:17:22.650] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:17:22.650] [INFO ] ║  📋 SESSION: SCRAPE_20260126_121722_3189
+[12:17:22.650] [INFO ] ║  🌐 URL: https://iclg.com/practice-areas/fintech-laws-and-regulations/egypt
+[12:17:22.650] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:17:22.650] [INFO ] ║  ⏰ STARTED: 2026-01-26T12:17:22.650431+02:00 (Egypt Time)
+[12:17:22.650] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:17:22.650] [INFO ] 
+[12:17:22.650] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:17:22.650] [INFO ]     │ Browser:     FIREFOX v122
+[12:17:22.650] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Fir...
+[12:17:22.650] [INFO ]     │ Viewport:    1280x720
+[12:17:22.650] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:17:22.650] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:17:22.650] [INFO ]     │ Location:    Los Angeles, USA
+[12:17:22.650] [INFO ]     │ Timezone:    N/A
+[12:17:22.650] [INFO ]     │ Locale:      en-US
+[12:17:22.650] [INFO ]     │ Geo:         0, 0
+[12:17:22.650] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:17:22.650] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:17:22.650] [INFO ]     │ Referrer:    https://www.google.com/search?q=iclg+com
+[12:17:22.650] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:17:22.650] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:17:22.650] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:17:22.650] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:17:22.650] [INFO ] 
+[12:17:22.650] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:17:22.650] [INFO ]     ├─ Canvas fingerprint noise
+[12:17:22.650] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:17:22.650] [INFO ]     ├─ Hardware concurrency randomization
+[12:17:22.650] [INFO ]     ├─ Device memory randomization
+[12:17:22.650] [INFO ]     ├─ Plugin masking
+[12:17:22.650] [INFO ]     ├─ WebRTC IP leak protection
+[12:17:22.650] [INFO ]     ├─ Network connection spoof
+[12:17:22.650] [INFO ]     └─ Battery API spoof
+[12:17:22.691] [INFO ] 
+[12:17:22.691] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:17:22.691] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:17:22.691] [INFO ]     ├─ Chrome runtime patches
+[12:17:22.691] [INFO ]     ├─ Console patches
+[12:17:22.691] [INFO ]     └─ Permission patches
+[12:17:22.691] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:17:22.691] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:17:22.691] [INFO ] 
+[12:17:22.691] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:17:22.691] [INFO ]     ├─ Canvas fingerprint noise
+[12:17:22.691] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:17:22.691] [INFO ]     ├─ Hardware concurrency randomization
+[12:17:22.691] [INFO ]     ├─ Device memory randomization
+[12:17:22.691] [INFO ]     ├─ Plugin masking
+[12:17:22.691] [INFO ]     ├─ WebRTC IP leak protection
+[12:17:22.691] [INFO ]     ├─ Network connection spoof
+[12:17:22.691] [INFO ]     └─ Battery API spoof
+[12:17:22.691] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:17:22.691] [INFO ] 
+[12:17:22.691] [INFO ]     🔗 NAVIGATING TO URL
+[12:17:22.691] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:17:22.691] [INFO ]     ├─ Timeout:    15.0s
+[12:17:22.691] [INFO ]     └─ Sleep:      1s after load
+[12:17:24.235] [INFO ] 
+[12:17:24.235] [INFO ]     ✅ PAGE LOADED
+[12:17:24.235] [INFO ]     ├─ Final URL:  https://iclg.com/practice-areas/fintech-laws-and-regulations/egypt
+[12:17:24.235] [INFO ]     ├─ Title:      Fintech Laws and Regulations Report 2025-2026 Egypt
+[12:17:24.236] [INFO ]     └─ Load Time:  1.54s
+[12:17:26.056] [INFO ] 🧑 Human behavior simulation...
+[12:17:28.986] [INFO ] 🖱️ Mouse: 2 moves in 1280x720
+[12:17:28.986] [INFO ] 🖱️ Mouse completed: 2 moves
+[12:17:28.986] [INFO ] 📜 Scroll: page height, viewport=720px
+[12:17:28.986] [INFO ] 📜 Scroll completed: 2 scrolls
+[12:17:28.986] [INFO ] 🧑 Human behavior completed in 2.9s ✓
+[12:17:28.986] [INFO ] 
+[12:17:28.986] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:17:28.986] [INFO ]     ├─ Mouse Movements: 2
+[12:17:28.986] [INFO ]     ├─ Scroll Actions:  2
+[12:17:28.986] [INFO ]     └─ Time Spent:      2.93s
+[12:17:29.145] [INFO ] 
+[12:17:29.145] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:17:29.145] [INFO ]     │ Title:            Fintech Laws and Regulations Report 2025-2026 Egyp
+[12:17:29.145] [INFO ]     │ Final URL:        https://iclg.com/practice-areas/fintech-laws-and-regulations/egypt
+[12:17:29.145] [INFO ]     │ HTML Size:        182,387 bytes
+[12:17:29.145] [INFO ]     │ Text Size:        32,203 chars
+[12:17:29.145] [INFO ]     │ Word Count:       ~4687 words
+[12:17:29.145] [INFO ]     │ Extraction:       trafilatura
+[12:17:29.145] [INFO ]     │ Has Article:      ✅ Yes
+[12:17:29.145] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:17:29.172] [INFO ] 
+[12:17:29.172] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:17:29.172] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_121722_3189
+[12:17:29.172] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:17:29.172] [INFO ] 
+[12:17:29.172] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:17:29.172] [INFO ]     │ Browser Launch:      0.06s
+[12:17:29.172] [INFO ]     │ Page Load:           1.54s
+[12:17:29.172] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:17:29.172] [INFO ]     │ Human Simulation:    2.93s
+[12:17:29.172] [INFO ]     │
+[12:17:29.172] [INFO ]     │ Content Extraction:  0.12s
+[12:17:29.172] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:17:29.172] [INFO ]     │ TOTAL TIME:          4.65s
+[12:17:29.172] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:17:29.172] [INFO ] 
+[12:17:29.173] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:17:29.173] [INFO ]     │ Title:            Fintech Laws and Regulations Report 2025-2026 Egyp
+[12:17:29.173] [INFO ]     │ Final URL:        https://iclg.com/practice-areas/fintech-laws-and-regulations/egypt
+[12:17:29.173] [INFO ]     │ HTML Size:        182,387 bytes
+[12:17:29.173] [INFO ]     │ Text Size:        32,203 chars
+[12:17:29.173] [INFO ]     │ Word Count:       ~4687 words
+[12:17:29.173] [INFO ]     │ Extraction:       trafilatura
+[12:17:29.173] [INFO ]     │ Has Article:      ✅ Yes
+[12:17:29.173] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:17:29.173] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:17:29.173] [INFO ] ║  📊 SESSION STATS
+[12:17:29.173] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:17:29.173] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:17:29.173] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:17:29.173] [INFO ] ║  └─ Proxy Used:         Direct
+[12:17:29.173] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:17:29.173] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 6.89s
+ENDED: 2026-01-26T12:17:29.173116+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

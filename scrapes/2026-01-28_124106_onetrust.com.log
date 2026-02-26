@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.onetrust.com/blog/gdpr-compliance/
+Started: 2026-01-28 12:41:06
+Session ID: SCRAPE_20260128_124106_EAD5
+================================================================================
+[12:41:06.264] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-28_124106_onetrust.com.log
+[12:41:06.264] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:41:06.609] [INFO ] 
+[12:41:06.609] [INFO ]     🚀 BROWSER LAUNCHED
+[12:41:06.609] [INFO ]     ├─ Mode:       Headless
+[12:41:06.609] [INFO ]     ├─ Slow Mo:    57ms
+[12:41:06.609] [INFO ]     ├─ Launch Time: 0.06s
+[12:41:06.609] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:41:06.627] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-US, tz=UTC
+[12:41:06.627] [INFO ] 
+[12:41:06.627] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:41:06.627] [INFO ] ║  📋 SESSION: SCRAPE_20260128_124106_EAD5
+[12:41:06.627] [INFO ] ║  🌐 URL: https://www.onetrust.com/blog/gdpr-compliance/
+[12:41:06.627] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:41:06.627] [INFO ] ║  ⏰ STARTED: 2026-01-28T12:41:06.627209+02:00 (Egypt Time)
+[12:41:06.627] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:41:06.627] [INFO ] 
+[12:41:06.627] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:41:06.627] [INFO ]     │ Browser:     CHROME v124
+[12:41:06.627] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[12:41:06.627] [INFO ]     │ Viewport:    1920x1080
+[12:41:06.627] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:41:06.627] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:41:06.627] [INFO ]     │ Location:    Chicago, USA
+[12:41:06.627] [INFO ]     │ Timezone:    N/A
+[12:41:06.627] [INFO ]     │ Locale:      en-US
+[12:41:06.627] [INFO ]     │ Geo:         0, 0
+[12:41:06.627] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:41:06.627] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:41:06.627] [INFO ]     │ Referrer:    https://news.google.com/
+[12:41:06.627] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:41:06.627] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:41:06.627] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:41:06.627] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:41:06.627] [INFO ] 
+[12:41:06.627] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:41:06.627] [INFO ]     ├─ Canvas fingerprint noise
+[12:41:06.627] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:41:06.627] [INFO ]     ├─ Hardware concurrency randomization
+[12:41:06.627] [INFO ]     ├─ Device memory randomization
+[12:41:06.627] [INFO ]     ├─ Plugin masking
+[12:41:06.627] [INFO ]     ├─ WebRTC IP leak protection
+[12:41:06.627] [INFO ]     ├─ Network connection spoof
+[12:41:06.627] [INFO ]     └─ Battery API spoof
+[12:41:06.673] [INFO ] 
+[12:41:06.673] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:41:06.673] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:41:06.673] [INFO ]     ├─ Chrome runtime patches
+[12:41:06.673] [INFO ]     ├─ Console patches
+[12:41:06.673] [INFO ]     └─ Permission patches
+[12:41:06.673] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:41:06.673] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:41:06.673] [INFO ] 
+[12:41:06.673] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:41:06.673] [INFO ]     ├─ Canvas fingerprint noise
+[12:41:06.673] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:41:06.673] [INFO ]     ├─ Hardware concurrency randomization
+[12:41:06.673] [INFO ]     ├─ Device memory randomization
+[12:41:06.673] [INFO ]     ├─ Plugin masking
+[12:41:06.673] [INFO ]     ├─ WebRTC IP leak protection
+[12:41:06.673] [INFO ]     ├─ Network connection spoof
+[12:41:06.673] [INFO ]     └─ Battery API spoof
+[12:41:06.673] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:41:06.673] [INFO ] 
+[12:41:06.673] [INFO ]     🔗 NAVIGATING TO URL
+[12:41:06.673] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:41:06.673] [INFO ]     ├─ Timeout:    15.0s
+[12:41:06.673] [INFO ]     └─ Sleep:      1s after load
+[12:41:08.309] [INFO ] 
+[12:41:08.309] [INFO ]     ✅ PAGE LOADED
+[12:41:08.309] [INFO ]     ├─ Final URL:  https://www.onetrust.com/blog/gdpr-compliance/
+[12:41:08.309] [INFO ]     ├─ Title:      Your complete guide to General Data Protection Regulation (GDPR) compliance | Blog | OneTrust
+[12:41:08.309] [INFO ]     └─ Load Time:  1.64s
+[12:41:09.632] [INFO ] 🧑 Human behavior simulation...
+[12:41:16.293] [INFO ] 🖱️ Mouse: 4 moves in 1920x1080
+[12:41:16.293] [INFO ] 🖱️ Mouse completed: 4 moves
+[12:41:16.293] [INFO ] 📜 Scroll: page height, viewport=1080px
+[12:41:16.293] [INFO ] 📜 Scroll completed: 1 scrolls
+[12:41:16.293] [INFO ] 🧑 Human behavior completed in 6.7s ✓
+[12:41:16.293] [INFO ] 
+[12:41:16.293] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:41:16.293] [INFO ]     ├─ Mouse Movements: 4
+[12:41:16.293] [INFO ]     ├─ Scroll Actions:  1
+[12:41:16.293] [INFO ]     └─ Time Spent:      6.66s
+[12:41:16.581] [INFO ] 
+[12:41:16.581] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:41:16.581] [INFO ]     │ Title:            Your complete guide to General Data Protection Reg
+[12:41:16.581] [INFO ]     │ Final URL:        https://www.onetrust.com/blog/gdpr-compliance/
+[12:41:16.581] [INFO ]     │ HTML Size:        337,933 bytes
+[12:41:16.581] [INFO ]     │ Text Size:        32,745 chars
+[12:41:16.581] [INFO ]     │ Word Count:       ~5007 words
+[12:41:16.581] [INFO ]     │ Extraction:       trafilatura
+[12:41:16.581] [INFO ]     │ Has Article:      ✅ Yes
+[12:41:16.581] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:41:16.607] [INFO ] 
+[12:41:16.607] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:41:16.607] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260128_124106_EAD5
+[12:41:16.607] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:41:16.607] [INFO ] 
+[12:41:16.607] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:41:16.607] [INFO ]     │ Browser Launch:      0.06s
+[12:41:16.607] [INFO ]     │ Page Load:           1.64s
+[12:41:16.607] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:41:16.607] [INFO ]     │ Human Simulation:    6.66s
+[12:41:16.607] [INFO ]     │
+[12:41:16.607] [INFO ]     │ Content Extraction:  0.21s
+[12:41:16.607] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:41:16.607] [INFO ]     │ TOTAL TIME:          8.57s
+[12:41:16.607] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:41:16.607] [INFO ] 
+[12:41:16.608] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:41:16.608] [INFO ]     │ Title:            Your complete guide to General Data Protection Reg
+[12:41:16.608] [INFO ]     │ Final URL:        https://www.onetrust.com/blog/gdpr-compliance/
+[12:41:16.608] [INFO ]     │ HTML Size:        337,933 bytes
+[12:41:16.608] [INFO ]     │ Text Size:        32,745 chars
+[12:41:16.608] [INFO ]     │ Word Count:       ~5007 words
+[12:41:16.608] [INFO ]     │ Extraction:       trafilatura
+[12:41:16.608] [INFO ]     │ Has Article:      ✅ Yes
+[12:41:16.608] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:41:16.608] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:41:16.608] [INFO ] ║  📊 SESSION STATS
+[12:41:16.608] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:41:16.608] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:41:16.608] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:41:16.608] [INFO ] ║  └─ Proxy Used:         Direct
+[12:41:16.608] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:41:16.608] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.34s
+ENDED: 2026-01-28T12:41:16.608284+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

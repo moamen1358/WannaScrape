@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.state.gov/reports/2024-investment-climate-statements/egypt
+Started: 2026-01-30 02:06:34
+Session ID: SCRAPE_20260130_020634_84B4
+================================================================================
+[02:06:34.267] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_020634_state.gov.log
+[02:06:34.267] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[02:06:34.606] [INFO ] 
+[02:06:34.606] [INFO ]     🚀 BROWSER LAUNCHED
+[02:06:34.606] [INFO ]     ├─ Mode:       Headless
+[02:06:34.606] [INFO ]     ├─ Slow Mo:    43ms
+[02:06:34.606] [INFO ]     ├─ Launch Time: 0.06s
+[02:06:34.606] [INFO ]     └─ Args:       Anti-automation flags enabled
+[02:06:34.623] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-IE, tz=UTC
+[02:06:34.623] [INFO ] 
+[02:06:34.623] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[02:06:34.623] [INFO ] ║  📋 SESSION: SCRAPE_20260130_020634_84B4
+[02:06:34.623] [INFO ] ║  🌐 URL: https://www.state.gov/reports/2024-investment-climate-statements/egypt
+[02:06:34.623] [INFO ] ║  🔄 ATTEMPT: 1/2
+[02:06:34.623] [INFO ] ║  ⏰ STARTED: 2026-01-30T02:06:34.623373+02:00 (Egypt Time)
+[02:06:34.623] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:06:34.623] [INFO ] 
+[02:06:34.623] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[02:06:34.623] [INFO ]     │ Browser:     SAFARI v17
+[02:06:34.623] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHT...
+[02:06:34.623] [INFO ]     │ Viewport:    2560x1440
+[02:06:34.623] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[02:06:34.623] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[02:06:34.623] [INFO ]     │ Location:    Dublin, Ireland
+[02:06:34.623] [INFO ]     │ Timezone:    N/A
+[02:06:34.623] [INFO ]     │ Locale:      en-IE
+[02:06:34.623] [INFO ]     │ Geo:         0, 0
+[02:06:34.623] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[02:06:34.623] [INFO ]     │ Proxy:       Direct (no proxy)
+[02:06:34.623] [INFO ]     │ Referrer:    None
+[02:06:34.623] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:06:34.623] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[02:06:34.623] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[02:06:34.623] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[02:06:34.623] [INFO ] 
+[02:06:34.623] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[02:06:34.623] [INFO ]     ├─ Canvas fingerprint noise
+[02:06:34.623] [INFO ]     ├─ WebGL renderer/vendor spoof
+[02:06:34.623] [INFO ]     ├─ Hardware concurrency randomization
+[02:06:34.623] [INFO ]     ├─ Device memory randomization
+[02:06:34.623] [INFO ]     ├─ Plugin masking
+[02:06:34.623] [INFO ]     ├─ WebRTC IP leak protection
+[02:06:34.623] [INFO ]     ├─ Network connection spoof
+[02:06:34.623] [INFO ]     └─ Battery API spoof
+[02:06:34.665] [INFO ] 
+[02:06:34.665] [INFO ]     🥷 STEALTH MODE APPLIED
+[02:06:34.665] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[02:06:34.665] [INFO ]     ├─ Chrome runtime patches
+[02:06:34.665] [INFO ]     ├─ Console patches
+[02:06:34.665] [INFO ]     └─ Permission patches
+[02:06:34.665] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[02:06:34.665] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[02:06:34.665] [INFO ] 
+[02:06:34.665] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[02:06:34.665] [INFO ]     ├─ Canvas fingerprint noise
+[02:06:34.665] [INFO ]     ├─ WebGL renderer/vendor spoof
+[02:06:34.665] [INFO ]     ├─ Hardware concurrency randomization
+[02:06:34.665] [INFO ]     ├─ Device memory randomization
+[02:06:34.665] [INFO ]     ├─ Plugin masking
+[02:06:34.665] [INFO ]     ├─ WebRTC IP leak protection
+[02:06:34.665] [INFO ]     ├─ Network connection spoof
+[02:06:34.665] [INFO ]     └─ Battery API spoof
+[02:06:34.665] [DEBUG] Enabled resource blocking (images, media, fonts)
+[02:06:34.665] [INFO ] 
+[02:06:34.665] [INFO ]     🔗 NAVIGATING TO URL
+[02:06:34.665] [INFO ]     ├─ Strategy:   domcontentloaded
+[02:06:34.665] [INFO ]     ├─ Timeout:    15.0s
+[02:06:34.665] [INFO ]     └─ Sleep:      1s after load
+[02:06:35.622] [INFO ] 
+[02:06:35.622] [INFO ]     ✅ PAGE LOADED
+[02:06:35.622] [INFO ]     ├─ Final URL:  https://www.state.gov/reports/2024-investment-climate-statements/egypt
+[02:06:35.622] [INFO ]     ├─ Title:      Egypt - United States Department of State
+[02:06:35.622] [INFO ]     └─ Load Time:  0.96s
+[02:06:36.973] [INFO ] 🧑 Human behavior simulation...
+[02:06:39.484] [INFO ] 🖱️ Mouse: 2 moves in 2560x1440
+[02:06:39.484] [INFO ] 🖱️ Mouse completed: 2 moves
+[02:06:39.484] [INFO ] 📜 Scroll: page height, viewport=1440px
+[02:06:39.484] [INFO ] 📜 Scroll completed: 2 scrolls
+[02:06:39.484] [INFO ] 🧑 Human behavior completed in 2.5s ✓
+[02:06:39.484] [INFO ] 
+[02:06:39.484] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[02:06:39.484] [INFO ]     ├─ Mouse Movements: 2
+[02:06:39.484] [INFO ]     ├─ Scroll Actions:  2
+[02:06:39.484] [INFO ]     └─ Time Spent:      2.51s
+[02:06:39.997] [INFO ] 
+[02:06:39.997] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[02:06:39.997] [INFO ]     │ Title:            Egypt - United States Department of State
+[02:06:39.997] [INFO ]     │ Final URL:        https://www.state.gov/reports/2024-investment-climate-statements/egypt
+[02:06:39.997] [INFO ]     │ HTML Size:        383,948 bytes
+[02:06:39.997] [INFO ]     │ Text Size:        129,930 chars
+[02:06:39.997] [INFO ]     │ Word Count:       ~19463 words
+[02:06:39.997] [INFO ]     │ Extraction:       trafilatura
+[02:06:39.997] [INFO ]     │ Has Article:      ✅ Yes
+[02:06:39.997] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:06:40.026] [INFO ] 
+[02:06:40.026] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[02:06:40.026] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260130_020634_84B4
+[02:06:40.026] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:06:40.026] [INFO ] 
+[02:06:40.026] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[02:06:40.026] [INFO ]     │ Browser Launch:      0.06s
+[02:06:40.026] [INFO ]     │ Page Load:           0.96s
+[02:06:40.026] [INFO ]     │ Cloudflare Wait:     0.00s
+[02:06:40.026] [INFO ]     │ Human Simulation:    2.51s
+[02:06:40.026] [INFO ]     │
+[02:06:40.026] [INFO ]     │ Content Extraction:  0.38s
+[02:06:40.026] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[02:06:40.026] [INFO ]     │ TOTAL TIME:          3.90s
+[02:06:40.026] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:06:40.026] [INFO ] 
+[02:06:40.028] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[02:06:40.028] [INFO ]     │ Title:            Egypt - United States Department of State
+[02:06:40.028] [INFO ]     │ Final URL:        https://www.state.gov/reports/2024-investment-climate-statements/egypt
+[02:06:40.028] [INFO ]     │ HTML Size:        383,948 bytes
+[02:06:40.028] [INFO ]     │ Text Size:        129,930 chars
+[02:06:40.028] [INFO ]     │ Word Count:       ~19463 words
+[02:06:40.028] [INFO ]     │ Extraction:       trafilatura
+[02:06:40.028] [INFO ]     │ Has Article:      ✅ Yes
+[02:06:40.028] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:06:40.028] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:06:40.028] [INFO ] ║  📊 SESSION STATS
+[02:06:40.028] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[02:06:40.028] [INFO ] ║  ├─ Popups Dismissed:   0
+[02:06:40.028] [INFO ] ║  ├─ Cloudflare:         Not detected
+[02:06:40.028] [INFO ] ║  └─ Proxy Used:         Direct
+[02:06:40.028] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[02:06:40.028] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 5.76s
+ENDED: 2026-01-30T02:06:40.028756+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

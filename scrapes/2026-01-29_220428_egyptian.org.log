@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://egyptian.org/notice-of-cyber-security-incident/
+Started: 2026-01-29 22:04:28
+Session ID: SCRAPE_20260129_220428_924C
+================================================================================
+[22:04:28.613] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_220428_egyptian.org.log
+[22:04:28.613] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[22:04:28.954] [INFO ] 
+[22:04:28.954] [INFO ]     🚀 BROWSER LAUNCHED
+[22:04:28.954] [INFO ]     ├─ Mode:       Headless
+[22:04:28.954] [INFO ]     ├─ Slow Mo:    48ms
+[22:04:28.954] [INFO ]     ├─ Launch Time: 0.05s
+[22:04:28.954] [INFO ]     └─ Args:       Anti-automation flags enabled
+[22:04:28.972] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-US, tz=UTC
+[22:04:28.972] [INFO ] 
+[22:04:28.972] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:04:28.972] [INFO ] ║  📋 SESSION: SCRAPE_20260129_220428_924C
+[22:04:28.972] [INFO ] ║  🌐 URL: https://egyptian.org/notice-of-cyber-security-incident/
+[22:04:28.972] [INFO ] ║  🔄 ATTEMPT: 1/2
+[22:04:28.972] [INFO ] ║  ⏰ STARTED: 2026-01-29T22:04:28.972782+02:00 (Egypt Time)
+[22:04:28.972] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:04:28.972] [INFO ] 
+[22:04:28.972] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[22:04:28.972] [INFO ]     │ Browser:     OPERA v105
+[22:04:28.972] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[22:04:28.972] [INFO ]     │ Viewport:    1680x1050
+[22:04:28.972] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[22:04:28.972] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[22:04:28.972] [INFO ]     │ Location:    San Francisco, USA
+[22:04:28.972] [INFO ]     │ Timezone:    N/A
+[22:04:28.972] [INFO ]     │ Locale:      en-US
+[22:04:28.972] [INFO ]     │ Geo:         0, 0
+[22:04:28.972] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[22:04:28.972] [INFO ]     │ Proxy:       Direct (no proxy)
+[22:04:28.972] [INFO ]     │ Referrer:    https://www.google.com/
+[22:04:28.972] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:04:28.972] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:04:28.972] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[22:04:28.972] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:04:28.972] [INFO ] 
+[22:04:28.972] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[22:04:28.972] [INFO ]     ├─ Canvas fingerprint noise
+[22:04:28.972] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:04:28.972] [INFO ]     ├─ Hardware concurrency randomization
+[22:04:28.972] [INFO ]     ├─ Device memory randomization
+[22:04:28.972] [INFO ]     ├─ Plugin masking
+[22:04:28.972] [INFO ]     ├─ WebRTC IP leak protection
+[22:04:28.972] [INFO ]     ├─ Network connection spoof
+[22:04:28.972] [INFO ]     └─ Battery API spoof
+[22:04:29.013] [INFO ] 
+[22:04:29.013] [INFO ]     🥷 STEALTH MODE APPLIED
+[22:04:29.013] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[22:04:29.013] [INFO ]     ├─ Chrome runtime patches
+[22:04:29.013] [INFO ]     ├─ Console patches
+[22:04:29.013] [INFO ]     └─ Permission patches
+[22:04:29.013] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[22:04:29.013] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:04:29.013] [INFO ] 
+[22:04:29.013] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[22:04:29.013] [INFO ]     ├─ Canvas fingerprint noise
+[22:04:29.013] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:04:29.013] [INFO ]     ├─ Hardware concurrency randomization
+[22:04:29.013] [INFO ]     ├─ Device memory randomization
+[22:04:29.013] [INFO ]     ├─ Plugin masking
+[22:04:29.013] [INFO ]     ├─ WebRTC IP leak protection
+[22:04:29.013] [INFO ]     ├─ Network connection spoof
+[22:04:29.013] [INFO ]     └─ Battery API spoof
+[22:04:29.013] [DEBUG] Enabled resource blocking (images, media, fonts)
+[22:04:29.014] [INFO ] 
+[22:04:29.014] [INFO ]     🔗 NAVIGATING TO URL
+[22:04:29.014] [INFO ]     ├─ Strategy:   domcontentloaded
+[22:04:29.014] [INFO ]     ├─ Timeout:    15.0s
+[22:04:29.014] [INFO ]     └─ Sleep:      1s after load
+[22:04:33.344] [INFO ] 
+[22:04:33.344] [INFO ]     ✅ PAGE LOADED
+[22:04:33.344] [INFO ]     ├─ Final URL:  https://egyptian.org/notice-of-cyber-security-incident/
+[22:04:33.344] [INFO ]     ├─ Title:      Notice of Cyber Security Incident - Egyptian Health Department
+[22:04:33.344] [INFO ]     └─ Load Time:  4.33s
+[22:04:34.777] [INFO ] 🧑 Human behavior simulation...
+[22:04:38.615] [INFO ] 🖱️ Mouse: 2 moves in 1680x1050
+[22:04:38.615] [INFO ] 🖱️ Mouse completed: 2 moves
+[22:04:38.615] [INFO ] 📜 Scroll: page height, viewport=1050px
+[22:04:38.615] [INFO ] 📜 Scroll completed: 1 scrolls
+[22:04:38.615] [INFO ] 🧑 Human behavior completed in 3.8s ✓
+[22:04:38.615] [INFO ] 
+[22:04:38.615] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[22:04:38.615] [INFO ]     ├─ Mouse Movements: 2
+[22:04:38.615] [INFO ]     ├─ Scroll Actions:  1
+[22:04:38.615] [INFO ]     └─ Time Spent:      3.84s
+[22:04:38.712] [INFO ] 
+[22:04:38.712] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:04:38.712] [INFO ]     │ Title:            Notice of Cyber Security Incident - Egyptian Healt
+[22:04:38.712] [INFO ]     │ Final URL:        https://egyptian.org/notice-of-cyber-security-incident/
+[22:04:38.712] [INFO ]     │ HTML Size:        92,944 bytes
+[22:04:38.712] [INFO ]     │ Text Size:        13,913 chars
+[22:04:38.712] [INFO ]     │ Word Count:       ~2058 words
+[22:04:38.712] [INFO ]     │ Extraction:       trafilatura
+[22:04:38.712] [INFO ]     │ Has Article:      ✅ Yes
+[22:04:38.712] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:04:38.740] [INFO ] 
+[22:04:38.740] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:04:38.740] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_220428_924C
+[22:04:38.740] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:04:38.740] [INFO ] 
+[22:04:38.740] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[22:04:38.740] [INFO ]     │ Browser Launch:      0.05s
+[22:04:38.740] [INFO ]     │ Page Load:           4.33s
+[22:04:38.740] [INFO ]     │ Cloudflare Wait:     0.00s
+[22:04:38.740] [INFO ]     │ Human Simulation:    3.84s
+[22:04:38.740] [INFO ]     │
+[22:04:38.740] [INFO ]     │ Content Extraction:  0.07s
+[22:04:38.740] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[22:04:38.740] [INFO ]     │ TOTAL TIME:          8.29s
+[22:04:38.740] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:04:38.740] [INFO ] 
+[22:04:38.740] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:04:38.740] [INFO ]     │ Title:            Notice of Cyber Security Incident - Egyptian Healt
+[22:04:38.740] [INFO ]     │ Final URL:        https://egyptian.org/notice-of-cyber-security-incident/
+[22:04:38.740] [INFO ]     │ HTML Size:        92,944 bytes
+[22:04:38.740] [INFO ]     │ Text Size:        13,913 chars
+[22:04:38.740] [INFO ]     │ Word Count:       ~2058 words
+[22:04:38.740] [INFO ]     │ Extraction:       trafilatura
+[22:04:38.740] [INFO ]     │ Has Article:      ✅ Yes
+[22:04:38.740] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:04:38.740] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:04:38.740] [INFO ] ║  📊 SESSION STATS
+[22:04:38.740] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[22:04:38.740] [INFO ] ║  ├─ Popups Dismissed:   0
+[22:04:38.740] [INFO ] ║  ├─ Cloudflare:         Not detected
+[22:04:38.740] [INFO ] ║  └─ Proxy Used:         Direct
+[22:04:38.740] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:04:38.740] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.13s
+ENDED: 2026-01-29T22:04:38.740662+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

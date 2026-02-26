@@ -1,0 +1,204 @@
+================================================================================
+SCRAPE LOG: https://www.kenresearch.com/egypt-cybersecurity-in-government-infrastructure-market
+Started: 2026-01-29 23:36:30
+Session ID: SCRAPE_20260129_233630_5A59
+================================================================================
+[23:36:30.994] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_233630_kenresearch.com.log
+[23:36:30.994] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[23:36:31.378] [INFO ] 
+[23:36:31.378] [INFO ]     🚀 BROWSER LAUNCHED
+[23:36:31.378] [INFO ]     ├─ Mode:       Headless
+[23:36:31.378] [INFO ]     ├─ Slow Mo:    42ms
+[23:36:31.379] [INFO ]     ├─ Launch Time: 0.10s
+[23:36:31.379] [INFO ]     └─ Args:       Anti-automation flags enabled
+[23:36:31.424] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-CA, tz=UTC
+[23:36:31.424] [INFO ] 
+[23:36:31.424] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:36:31.424] [INFO ] ║  📋 SESSION: SCRAPE_20260129_233630_5A59
+[23:36:31.424] [INFO ] ║  🌐 URL: https://www.kenresearch.com/egypt-cybersecurity-in-government-infrastructure-market
+[23:36:31.424] [INFO ] ║  🔄 ATTEMPT: 1/2
+[23:36:31.424] [INFO ] ║  ⏰ STARTED: 2026-01-29T23:36:31.424905+02:00 (Egypt Time)
+[23:36:31.424] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:36:31.424] [INFO ] 
+[23:36:31.424] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[23:36:31.424] [INFO ]     │ Browser:     CHROME v120
+[23:36:31.424] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[23:36:31.424] [INFO ]     │ Viewport:    1366x768
+[23:36:31.424] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[23:36:31.424] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[23:36:31.424] [INFO ]     │ Location:    Vancouver, Canada
+[23:36:31.424] [INFO ]     │ Timezone:    N/A
+[23:36:31.424] [INFO ]     │ Locale:      en-CA
+[23:36:31.424] [INFO ]     │ Geo:         0, 0
+[23:36:31.424] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[23:36:31.424] [INFO ]     │ Proxy:       Direct (no proxy)
+[23:36:31.424] [INFO ]     │ Referrer:    https://www.google.com/
+[23:36:31.424] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:36:31.425] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:36:31.425] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[23:36:31.425] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:36:31.425] [INFO ] 
+[23:36:31.425] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[23:36:31.425] [INFO ]     ├─ Canvas fingerprint noise
+[23:36:31.425] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:36:31.425] [INFO ]     ├─ Hardware concurrency randomization
+[23:36:31.425] [INFO ]     ├─ Device memory randomization
+[23:36:31.425] [INFO ]     ├─ Plugin masking
+[23:36:31.425] [INFO ]     ├─ WebRTC IP leak protection
+[23:36:31.425] [INFO ]     ├─ Network connection spoof
+[23:36:31.425] [INFO ]     └─ Battery API spoof
+[23:36:31.522] [INFO ] 
+[23:36:31.522] [INFO ]     🥷 STEALTH MODE APPLIED
+[23:36:31.522] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[23:36:31.522] [INFO ]     ├─ Chrome runtime patches
+[23:36:31.522] [INFO ]     ├─ Console patches
+[23:36:31.522] [INFO ]     └─ Permission patches
+[23:36:31.522] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[23:36:31.522] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:36:31.522] [INFO ] 
+[23:36:31.522] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[23:36:31.522] [INFO ]     ├─ Canvas fingerprint noise
+[23:36:31.522] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:36:31.522] [INFO ]     ├─ Hardware concurrency randomization
+[23:36:31.522] [INFO ]     ├─ Device memory randomization
+[23:36:31.522] [INFO ]     ├─ Plugin masking
+[23:36:31.522] [INFO ]     ├─ WebRTC IP leak protection
+[23:36:31.522] [INFO ]     ├─ Network connection spoof
+[23:36:31.522] [INFO ]     └─ Battery API spoof
+[23:36:31.522] [DEBUG] Enabled resource blocking (images, media, fonts)
+[23:36:31.522] [INFO ] 
+[23:36:31.522] [INFO ]     🔗 NAVIGATING TO URL
+[23:36:31.522] [INFO ]     ├─ Strategy:   domcontentloaded
+[23:36:31.522] [INFO ]     ├─ Timeout:    15.0s
+[23:36:31.522] [INFO ]     └─ Sleep:      1s after load
+[23:36:32.906] [INFO ] 
+[23:36:32.906] [INFO ]     ✅ PAGE LOADED
+[23:36:32.906] [INFO ]     ├─ Final URL:  https://www.kenresearch.com/egypt-cybersecurity-in-government-infrastructure-market
+[23:36:32.906] [INFO ]     ├─ Title:      Egypt Cybersecurity Market | 2019 – 2030 | Ken Research
+[23:36:32.906] [INFO ]     └─ Load Time:  1.38s
+[23:36:34.175] [INFO ] 🧑 Human behavior simulation...
+[23:36:36.623] [INFO ] 🖱️ Mouse: 3 moves in 1366x768
+[23:36:36.623] [INFO ] 🖱️ Mouse completed: 3 moves
+[23:36:36.623] [INFO ] 📜 Scroll: page height, viewport=768px
+[23:36:36.623] [INFO ] 📜 Scroll completed: 1 scrolls
+[23:36:36.623] [INFO ] 🧑 Human behavior completed in 2.4s ✓
+[23:36:36.623] [INFO ] 
+[23:36:36.623] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[23:36:36.623] [INFO ]     ├─ Mouse Movements: 3
+[23:36:36.623] [INFO ]     ├─ Scroll Actions:  1
+[23:36:36.623] [INFO ]     └─ Time Spent:      2.45s
+[23:36:42.441] [INFO ] 
+[23:36:42.441] [INFO ]     🚀 BROWSER LAUNCHED
+[23:36:42.441] [INFO ]     ├─ Mode:       Headless
+[23:36:42.441] [INFO ]     ├─ Slow Mo:    52ms
+[23:36:42.441] [INFO ]     ├─ Launch Time: 0.05s
+[23:36:42.441] [INFO ]     └─ Args:       Anti-automation flags enabled
+[23:36:42.461] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-US, tz=UTC
+[23:36:42.461] [INFO ] 
+[23:36:42.461] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:36:42.461] [INFO ] ║  📋 SESSION: SCRAPE_20260129_233630_5A59
+[23:36:42.461] [INFO ] ║  🌐 URL: https://www.kenresearch.com/egypt-cybersecurity-in-government-infrastructure-market
+[23:36:42.461] [INFO ] ║  🔄 ATTEMPT: 2/2
+[23:36:42.461] [INFO ] ║  ⏰ STARTED: 2026-01-29T23:36:42.461085+02:00 (Egypt Time)
+[23:36:42.461] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:36:42.461] [INFO ] 
+[23:36:42.461] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[23:36:42.461] [INFO ]     │ Browser:     FIREFOX v122
+[23:36:42.461] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101...
+[23:36:42.461] [INFO ]     │ Viewport:    1920x1080
+[23:36:42.461] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[23:36:42.461] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[23:36:42.461] [INFO ]     │ Location:    Boston, USA
+[23:36:42.461] [INFO ]     │ Timezone:    N/A
+[23:36:42.461] [INFO ]     │ Locale:      en-US
+[23:36:42.461] [INFO ]     │ Geo:         0, 0
+[23:36:42.461] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[23:36:42.461] [INFO ]     │ Proxy:       Direct (no proxy)
+[23:36:42.461] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+kenresearch+com
+[23:36:42.461] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:36:42.461] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:36:42.461] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[23:36:42.461] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:36:42.461] [INFO ] 
+[23:36:42.461] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[23:36:42.461] [INFO ]     ├─ Canvas fingerprint noise
+[23:36:42.461] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:36:42.461] [INFO ]     ├─ Hardware concurrency randomization
+[23:36:42.461] [INFO ]     ├─ Device memory randomization
+[23:36:42.461] [INFO ]     ├─ Plugin masking
+[23:36:42.461] [INFO ]     ├─ WebRTC IP leak protection
+[23:36:42.461] [INFO ]     ├─ Network connection spoof
+[23:36:42.461] [INFO ]     └─ Battery API spoof
+[23:36:42.503] [INFO ] 
+[23:36:42.503] [INFO ]     🥷 STEALTH MODE APPLIED
+[23:36:42.503] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[23:36:42.503] [INFO ]     ├─ Chrome runtime patches
+[23:36:42.503] [INFO ]     ├─ Console patches
+[23:36:42.503] [INFO ]     └─ Permission patches
+[23:36:42.503] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[23:36:42.503] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:36:42.503] [INFO ] 
+[23:36:42.503] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[23:36:42.503] [INFO ]     ├─ Canvas fingerprint noise
+[23:36:42.503] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:36:42.503] [INFO ]     ├─ Hardware concurrency randomization
+[23:36:42.503] [INFO ]     ├─ Device memory randomization
+[23:36:42.503] [INFO ]     ├─ Plugin masking
+[23:36:42.503] [INFO ]     ├─ WebRTC IP leak protection
+[23:36:42.503] [INFO ]     ├─ Network connection spoof
+[23:36:42.503] [INFO ]     └─ Battery API spoof
+[23:36:42.503] [DEBUG] Enabled resource blocking (images, media, fonts)
+[23:36:42.503] [INFO ] 
+[23:36:42.503] [INFO ]     🔗 NAVIGATING TO URL
+[23:36:42.503] [INFO ]     ├─ Strategy:   domcontentloaded
+[23:36:42.503] [INFO ]     ├─ Timeout:    15.0s
+[23:36:42.503] [INFO ]     └─ Sleep:      1s after load
+[23:36:43.574] [INFO ] 
+[23:36:43.574] [INFO ]     ✅ PAGE LOADED
+[23:36:43.574] [INFO ]     ├─ Final URL:  https://www.kenresearch.com/egypt-cybersecurity-in-government-infrastructure-market
+[23:36:43.574] [INFO ]     ├─ Title:      
+[23:36:43.574] [INFO ]     └─ Load Time:  1.07s
+[23:36:44.853] [INFO ] 🧑 Human behavior simulation...
+[23:36:49.659] [INFO ] 🖱️ Mouse: 3 moves in 1920x1080
+[23:36:49.659] [INFO ] 🖱️ Mouse completed: 3 moves
+[23:36:49.659] [INFO ] 📜 Scroll: page height, viewport=1080px
+[23:36:49.659] [INFO ] 📜 Scroll completed: 3 scrolls
+[23:36:49.659] [INFO ] 🧑 Human behavior completed in 4.8s ✓
+[23:36:49.659] [INFO ] 
+[23:36:49.659] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[23:36:49.659] [INFO ]     ├─ Mouse Movements: 3
+[23:36:49.659] [INFO ]     ├─ Scroll Actions:  3
+[23:36:49.659] [INFO ]     └─ Time Spent:      4.81s
+[23:36:49.955] [INFO ] 
+[23:36:49.955] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:36:49.955] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260129_233630_5A59
+[23:36:49.955] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:36:49.955] [INFO ] 
+[23:36:49.955] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[23:36:49.955] [INFO ]     │ URL:              https://www.kenresearch.com/egypt-cybersecurity-in-gove
+[23:36:49.955] [INFO ]     │ Error Type:       unknown
+[23:36:49.955] [INFO ]     │ Likely Ban:       ❌ No
+[23:36:49.955] [INFO ]     │ Retries Used:     2
+[23:36:49.955] [INFO ]     │
+[23:36:49.955] [INFO ]     │ Error Message:
+[23:36:49.955] [INFO ]     │   Failed after 2 attempts. Last error: Unknown error
+[23:36:49.955] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:36:49.955] [INFO ] 
+[23:36:49.955] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[23:36:49.955] [INFO ]     │ Browser Launch:     0.05s
+[23:36:49.955] [INFO ]     │ Page Load:          1.07s
+[23:36:49.955] [INFO ]     │ Cloudflare Wait:    0.00s
+[23:36:49.955] [INFO ]     │ Human Simulation:   4.81s
+[23:36:49.955] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[23:36:49.955] [INFO ]     │ FAILED AT:          5.93s
+[23:36:49.955] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:36:49.955] [INFO ] 
+[23:36:49.955] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:36:49.955] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 18.96s
+ENDED: 2026-01-29T23:36:49.955140+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

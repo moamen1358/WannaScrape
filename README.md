@@ -1,10 +1,10 @@
-# 🕷️ Web Scraper
+# 🕷️ WannaScrape
 
 [![CI](https://github.com/moamen1358/Search_news_and_scrape_them/actions/workflows/ci.yml/badge.svg)](https://github.com/moamen1358/Search_news_and_scrape_them/actions/workflows/ci.yml)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Production-ready web scraper with advanced anti-detection features. Extract clean article content from any website while bypassing bot detection systems.
+Production-ready web scraper with advanced anti-detection features and a plugin-based bot detection system. Extract clean article content from any website while automatically detecting and bypassing bot protection systems.
 
 ## ✨ Features
 
@@ -14,12 +14,14 @@ Production-ready web scraper with advanced anti-detection features. Extract clea
 | 🌍 **30+ Locations** | Geographic profiles with matching timezones and locales |
 | 🛡️ **Anti-Detection** | Canvas noise, WebGL spoofing, WebRTC protection |
 | 🤖 **Human Behavior** | Bezier curve mouse movements, variable scrolling (1-3 actions) |
+| 🔌 **Bot Detection Plugins** | Auto-detecting Cloudflare, Akamai, PerimeterX, DataDome, reCAPTCHA, hCaptcha |
 | 🔐 **CAPTCHA Solving** | Support for 2captcha and Capsolver services |
 | 🔄 **Proxy Rotation** | Smart proxy management with health tracking |
 | 💾 **Session Persistence** | Cookie management for returning visitor simulation |
 | 📡 **Dual Interface** | CLI + REST API |
 | 🔑 **API Authentication** | Optional API key protection |
 | 📊 **Structured Logging** | JSON format option for production |
+| 📈 **Prometheus Metrics** | Built-in monitoring and observability |
 
 ## 🚀 Quick Start
 
@@ -160,7 +162,7 @@ Edit `config/config.json` for advanced settings:
 ## 📁 Project Structure
 
 ```
-website_scraper/
+WannaScrape/
 ├── app/
 │   ├── api/              # FastAPI endpoints
 │   ├── cli/              # Typer CLI commands  
@@ -170,8 +172,21 @@ website_scraper/
 │   │   ├── browser_manager.py
 │   │   ├── content_extractor.py
 │   │   ├── captcha_solver.py
+│   │   ├── rate_limiter.py
+│   │   ├── session_manager.py
 │   │   └── exceptions.py # Custom exceptions
+│   ├── detections/       # 🔌 Bot detection plugin system
+│   │   ├── base.py       # BaseDetection abstract class
+│   │   ├── registry.py   # Auto-discovery engine
+│   │   ├── handler.py    # Interface for scraper.py
+│   │   ├── cloudflare.py # Cloudflare WAF
+│   │   ├── akamai.py     # Akamai Bot Manager
+│   │   ├── perimeterx.py # PerimeterX (HUMAN)
+│   │   ├── datadome.py   # DataDome
+│   │   ├── recaptcha.py  # Google reCAPTCHA
+│   │   └── hcaptcha.py   # hCaptcha
 │   ├── logging/          # Custom logger
+│   ├── monitoring/       # Prometheus metrics
 │   ├── services/         # Anti-detection, user agents
 │   └── utils/            # Helpers, human behavior
 ├── config/               # JSON config, proxies
@@ -179,6 +194,7 @@ website_scraper/
 │   ├── logs/scrapes/     # Scrape logs
 │   ├── screenshots/      # Failure screenshots
 │   └── sessions/         # Browser sessions
+├── docs/                 # Documentation
 ├── tests/                # Unit tests
 ├── main.py               # CLI entry point
 ├── requirements.txt

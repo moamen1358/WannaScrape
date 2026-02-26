@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.adcb.com.eg/committed-to-the-highest-security-standards-for-customers-information-protection-adcb-egypt-obtains-pci-dss-v4-certification/
+Started: 2026-02-01 12:19:50
+Session ID: SCRAPE_20260201_121950_B5A1
+================================================================================
+[12:19:50.643] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-02-01_121950_adcb.com.eg.log
+[12:19:50.643] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:19:50.992] [INFO ] 
+[12:19:50.992] [INFO ]     🚀 BROWSER LAUNCHED
+[12:19:50.992] [INFO ]     ├─ Mode:       Headless
+[12:19:50.992] [INFO ]     ├─ Slow Mo:    47ms
+[12:19:50.992] [INFO ]     ├─ Launch Time: 0.06s
+[12:19:50.992] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:19:51.010] [DEBUG] Browser profile: viewport={'width': 1280, 'height': 800}, locale=en-AU, tz=UTC
+[12:19:51.010] [INFO ] 
+[12:19:51.010] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:19:51.010] [INFO ] ║  📋 SESSION: SCRAPE_20260201_121950_B5A1
+[12:19:51.010] [INFO ] ║  🌐 URL: https://www.adcb.com.eg/committed-to-the-highest-security-standards-for-customers-information-protection-adcb-egypt-obtains-pci-dss-v4-certification/
+[12:19:51.010] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:19:51.010] [INFO ] ║  ⏰ STARTED: 2026-02-01T12:19:51.010357+02:00 (Egypt Time)
+[12:19:51.010] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:19:51.010] [INFO ] 
+[12:19:51.010] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:19:51.010] [INFO ]     │ Browser:     CHROME v120
+[12:19:51.010] [INFO ]     │ User-Agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)...
+[12:19:51.010] [INFO ]     │ Viewport:    1280x800
+[12:19:51.010] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:19:51.010] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:19:51.010] [INFO ]     │ Location:    Sydney, Australia
+[12:19:51.010] [INFO ]     │ Timezone:    N/A
+[12:19:51.010] [INFO ]     │ Locale:      en-AU
+[12:19:51.010] [INFO ]     │ Geo:         0, 0
+[12:19:51.010] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:19:51.010] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:19:51.010] [INFO ]     │ Referrer:    https://t.co/
+[12:19:51.010] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:19:51.010] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:19:51.010] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:19:51.010] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:19:51.010] [INFO ] 
+[12:19:51.010] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:19:51.010] [INFO ]     ├─ Canvas fingerprint noise
+[12:19:51.010] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:19:51.010] [INFO ]     ├─ Hardware concurrency randomization
+[12:19:51.010] [INFO ]     ├─ Device memory randomization
+[12:19:51.010] [INFO ]     ├─ Plugin masking
+[12:19:51.010] [INFO ]     ├─ WebRTC IP leak protection
+[12:19:51.010] [INFO ]     ├─ Network connection spoof
+[12:19:51.010] [INFO ]     └─ Battery API spoof
+[12:19:51.051] [INFO ] 
+[12:19:51.051] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:19:51.051] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:19:51.051] [INFO ]     ├─ Chrome runtime patches
+[12:19:51.051] [INFO ]     ├─ Console patches
+[12:19:51.051] [INFO ]     └─ Permission patches
+[12:19:51.051] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:19:51.051] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:19:51.051] [INFO ] 
+[12:19:51.051] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:19:51.051] [INFO ]     ├─ Canvas fingerprint noise
+[12:19:51.051] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:19:51.051] [INFO ]     ├─ Hardware concurrency randomization
+[12:19:51.051] [INFO ]     ├─ Device memory randomization
+[12:19:51.051] [INFO ]     ├─ Plugin masking
+[12:19:51.051] [INFO ]     ├─ WebRTC IP leak protection
+[12:19:51.051] [INFO ]     ├─ Network connection spoof
+[12:19:51.051] [INFO ]     └─ Battery API spoof
+[12:19:51.051] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:19:51.051] [INFO ] 
+[12:19:51.051] [INFO ]     🔗 NAVIGATING TO URL
+[12:19:51.051] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:19:51.051] [INFO ]     ├─ Timeout:    15.0s
+[12:19:51.051] [INFO ]     └─ Sleep:      1s after load
+[12:19:57.234] [INFO ] 
+[12:19:57.234] [INFO ]     ✅ PAGE LOADED
+[12:19:57.234] [INFO ]     ├─ Final URL:  https://www.adcb.com.eg/committed-to-the-highest-security-standards-for-customers-information-protection-adcb-egypt-obtains-pci-dss-v4-certification/
+[12:19:57.234] [INFO ]     ├─ Title:      Committed to the Highest Security Standards for Customers Information Protection: ADCB Egypt Obtains PCI-DSS V4 Certification | ADCB
+[12:19:57.234] [INFO ]     └─ Load Time:  6.18s
+[12:20:00.520] [INFO ] 🧑 Human behavior simulation...
+[12:20:04.861] [INFO ] 🖱️ Mouse: 3 moves in 1280x800
+[12:20:04.861] [INFO ] 🖱️ Mouse completed: 3 moves
+[12:20:04.861] [INFO ] 📜 Scroll: page height, viewport=800px
+[12:20:04.861] [INFO ] 📜 Scroll completed: 2 scrolls
+[12:20:04.861] [INFO ] 🧑 Human behavior completed in 4.3s ✓
+[12:20:04.861] [INFO ] 
+[12:20:04.861] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:20:04.861] [INFO ]     ├─ Mouse Movements: 3
+[12:20:04.861] [INFO ]     ├─ Scroll Actions:  2
+[12:20:04.861] [INFO ]     └─ Time Spent:      4.34s
+[12:20:05.004] [INFO ] 
+[12:20:05.004] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:20:05.004] [INFO ]     │ Title:            Committed to the Highest Security Standards for Cu
+[12:20:05.004] [INFO ]     │ Final URL:        https://www.adcb.com.eg/committed-to-the-highest-security-standards-for-customers-information-protection-adcb-egypt-obtains-pci-dss-v4-certification/
+[12:20:05.004] [INFO ]     │ HTML Size:        204,673 bytes
+[12:20:05.004] [INFO ]     │ Text Size:        1,902 chars
+[12:20:05.004] [INFO ]     │ Word Count:       ~268 words
+[12:20:05.004] [INFO ]     │ Extraction:       trafilatura
+[12:20:05.004] [INFO ]     │ Has Article:      ✅ Yes
+[12:20:05.004] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:05.034] [INFO ] 
+[12:20:05.034] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:20:05.034] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260201_121950_B5A1
+[12:20:05.034] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:20:05.035] [INFO ] 
+[12:20:05.035] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:20:05.035] [INFO ]     │ Browser Launch:      0.06s
+[12:20:05.035] [INFO ]     │ Page Load:           6.18s
+[12:20:05.035] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:20:05.035] [INFO ]     │ Human Simulation:    4.34s
+[12:20:05.035] [INFO ]     │
+[12:20:05.035] [INFO ]     │ Content Extraction:  0.05s
+[12:20:05.035] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:20:05.035] [INFO ]     │ TOTAL TIME:          10.63s
+[12:20:05.035] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:05.035] [INFO ] 
+[12:20:05.035] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:20:05.035] [INFO ]     │ Title:            Committed to the Highest Security Standards for Cu
+[12:20:05.035] [INFO ]     │ Final URL:        https://www.adcb.com.eg/committed-to-the-highest-security-standards-for-customers-information-protection-adcb-egypt-obtains-pci-dss-v4-certification/
+[12:20:05.035] [INFO ]     │ HTML Size:        204,673 bytes
+[12:20:05.035] [INFO ]     │ Text Size:        1,902 chars
+[12:20:05.035] [INFO ]     │ Word Count:       ~268 words
+[12:20:05.035] [INFO ]     │ Extraction:       trafilatura
+[12:20:05.035] [INFO ]     │ Has Article:      ✅ Yes
+[12:20:05.035] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:05.035] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:20:05.035] [INFO ] ║  📊 SESSION STATS
+[12:20:05.035] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:20:05.035] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:20:05.035] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:20:05.035] [INFO ] ║  └─ Proxy Used:         Direct
+[12:20:05.035] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:20:05.035] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 14.39s
+ENDED: 2026-02-01T12:20:05.035168+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

@@ -148,6 +148,7 @@ class TestDetectionRegistry:
         # Should have discovered our plugins (those that don't require API keys)
         # Note: recaptcha and hcaptcha are disabled without API keys
         assert "cloudflare" in registry.list_all()
+        assert "akamai" in registry.list_all()
         assert "perimeterx" in registry.list_all()
         assert "datadome" in registry.list_all()
 
@@ -240,6 +241,7 @@ class TestDetectionRegistry:
         assert "cloudflare" in challenges
         assert "perimeterx" in challenges
         assert "datadome" in challenges
+        assert "akamai" in challenges
 
     def test_list_by_category_with_captchas(self):
         """Test filtering CAPTCHAs when API is configured."""
@@ -263,8 +265,8 @@ class TestDetectionRegistry:
         stats = registry.get_stats()
 
         assert "total_detections" in stats
-        # At least 3 detections that don't require API keys
-        assert stats["total_detections"] >= 3
+        # At least 4 detections that don't require API keys
+        assert stats["total_detections"] >= 4
         assert "by_category" in stats
         assert "detections" in stats
 
@@ -454,8 +456,8 @@ class TestDetectionHandler:
         stats = handler.get_stats()
 
         assert "total_detections" in stats
-        # At least 3 detections that don't require API keys
-        assert stats["total_detections"] >= 3
+        # At least 4 detections that don't require API keys (cloudflare, akamai, perimeterx, datadome)
+        assert stats["total_detections"] >= 4
 
 
 # === BACKWARD COMPATIBILITY TESTS ===
@@ -516,7 +518,7 @@ class TestPluginIntegration:
         registry = DetectionRegistry()
 
         # Verify plugins that don't require API keys
-        expected_without_api = ["cloudflare", "perimeterx", "datadome"]
+        expected_without_api = ["cloudflare", "perimeterx", "datadome", "akamai"]
         for name in expected_without_api:
             assert name in registry.list_all(), f"Plugin {name} not loaded"
 
@@ -529,7 +531,7 @@ class TestPluginIntegration:
         registry = DetectionRegistry(config=config)
 
         # All plugins should load
-        expected = ["cloudflare", "recaptcha", "hcaptcha", "perimeterx", "datadome"]
+        expected = ["cloudflare", "akamai", "recaptcha", "hcaptcha", "perimeterx", "datadome"]
         for name in expected:
             assert name in registry.list_all(), f"Plugin {name} not loaded"
 
@@ -565,3 +567,106 @@ class TestPluginIntegration:
             detection = registry.get(name)
             result = detection.detect(mock_page, "https://example.com")
             assert isinstance(result, DetectionResult), f"{name} detect() returned wrong type"
+
+
+class TestAkamaiDetection:
+    """Tests for Akamai Bot Manager detection plugin."""
+
+    @pytest.fixture
+    def mock_page(self):
+        """Create a mock Playwright page."""
+        page = MagicMock()
+        page.locator.return_value.count.return_value = 0
+        page.title.return_value = "Test Page"
+        page.content.return_value = "<html><body>Normal content</body></html>"
+        page.url = "https://example.com"
+        return page
+
+    def test_no_detection_on_normal_page(self, mock_page):
+        """Test that normal pages don't trigger Akamai detection."""
+        from app.detections.akamai import AkamaiDetection
+
+        detection = AkamaiDetection()
+        result = detection.detect(mock_page, "https://example.com")
+
+        assert result.detected is False
+        assert result.detection_type == "akamai"
+
+    def test_detection_by_selector(self, mock_page):
+        """Test detection via Akamai CSS selector."""
+        from app.detections.akamai import AkamaiDetection
+
+        def locator_side_effect(selector):
+            mock = MagicMock()
+            if "#ak-challenge" in selector:
+                mock.count.return_value = 1
+            else:
+                mock.count.return_value = 0
+            return mock
+
+        mock_page.locator.side_effect = locator_side_effect
+
+        detection = AkamaiDetection()
+        result = detection.detect(mock_page, "https://example.com")
+
+        assert result.detected is True
+        assert result.detection_type == "akamai"
+        assert result.details["method"] == "selector"
+
+    def test_detection_by_title(self, mock_page):
+        """Test detection via 'Access Denied' page title."""
+        from app.detections.akamai import AkamaiDetection
+
+        mock_page.title.return_value = "Access Denied"
+
+        detection = AkamaiDetection()
+        result = detection.detect(mock_page, "https://www.sgs.com/test")
+
+        assert result.detected is True
+        assert result.details["method"] == "title"
+
+    def test_detection_edgesuite_hard_block(self, mock_page):
+        """Test detection of Akamai hard block with edgesuite.net reference."""
+        from app.detections.akamai import AkamaiDetection
+        from app.detections.base import SolveMethod
+
+        mock_page.title.return_value = "Access Denied"
+        mock_page.content.return_value = (
+            '<html><body>You don\'t have permission to access this resource. '
+            'Reference #18.b7aa645f.1769711816.3a20cc7a '
+            'https://errors.edgesuite.net/18.b7aa645f</body></html>'
+        )
+
+        detection = AkamaiDetection()
+        result = detection.detect(mock_page, "https://www.sgs.com/test")
+
+        assert result.detected is True
+        assert result.details.get("hard_block") is True
+        assert result.solve_method == SolveMethod.BYPASS
+
+    def test_detection_by_content_akamai_cookie(self, mock_page):
+        """Test detection via ak_bmsc cookie reference in content."""
+        from app.detections.akamai import AkamaiDetection
+
+        mock_page.content.return_value = (
+            '<html><head><script>var ak_bmsc = "check";</script></head>'
+            '<body>Content</body></html>'
+        )
+
+        detection = AkamaiDetection()
+        result = detection.detect(mock_page, "https://example.com")
+
+        assert result.detected is True
+        assert result.details["method"] == "content"
+
+    def test_attributes(self):
+        """Test Akamai detection class attributes."""
+        from app.detections.akamai import AkamaiDetection
+        from app.detections.base import DetectionCategory
+
+        detection = AkamaiDetection()
+        assert detection.name == "akamai"
+        assert detection.priority == 25
+        assert detection.category == DetectionCategory.CHALLENGE
+        assert detection.enabled is True
+        assert detection.requires_api is False

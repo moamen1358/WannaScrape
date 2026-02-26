@@ -1,0 +1,130 @@
+================================================================================
+SCRAPE LOG: https://www.sophos.com/en-us/content/nis2-compliance
+Started: 2026-01-29 21:33:28
+Session ID: SCRAPE_20260129_213328_BF27
+================================================================================
+[21:33:28.245] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_213328_sophos.com.log
+[21:33:28.245] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[21:33:28.588] [INFO ] 
+[21:33:28.588] [INFO ]     🚀 BROWSER LAUNCHED
+[21:33:28.588] [INFO ]     ├─ Mode:       Headless
+[21:33:28.588] [INFO ]     ├─ Slow Mo:    59ms
+[21:33:28.588] [INFO ]     ├─ Launch Time: 0.06s
+[21:33:28.588] [INFO ]     └─ Args:       Anti-automation flags enabled
+[21:33:28.607] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-AU, tz=UTC
+[21:33:28.607] [INFO ] 
+[21:33:28.607] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:33:28.607] [INFO ] ║  📋 SESSION: SCRAPE_20260129_213328_BF27
+[21:33:28.607] [INFO ] ║  🌐 URL: https://www.sophos.com/en-us/content/nis2-compliance
+[21:33:28.607] [INFO ] ║  🔄 ATTEMPT: 1/2
+[21:33:28.607] [INFO ] ║  ⏰ STARTED: 2026-01-29T21:33:28.607083+02:00 (Egypt Time)
+[21:33:28.607] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:33:28.607] [INFO ] 
+[21:33:28.607] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[21:33:28.607] [INFO ]     │ Browser:     CHROME v125
+[21:33:28.607] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[21:33:28.607] [INFO ]     │ Viewport:    1920x1080
+[21:33:28.607] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[21:33:28.607] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[21:33:28.607] [INFO ]     │ Location:    Melbourne, Australia
+[21:33:28.607] [INFO ]     │ Timezone:    N/A
+[21:33:28.607] [INFO ]     │ Locale:      en-AU
+[21:33:28.607] [INFO ]     │ Geo:         0, 0
+[21:33:28.607] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[21:33:28.607] [INFO ]     │ Proxy:       Direct (no proxy)
+[21:33:28.607] [INFO ]     │ Referrer:    https://www.google.com/
+[21:33:28.607] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:33:28.607] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:33:28.607] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[21:33:28.607] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:33:28.607] [INFO ] 
+[21:33:28.607] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[21:33:28.607] [INFO ]     ├─ Canvas fingerprint noise
+[21:33:28.607] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:33:28.607] [INFO ]     ├─ Hardware concurrency randomization
+[21:33:28.607] [INFO ]     ├─ Device memory randomization
+[21:33:28.607] [INFO ]     ├─ Plugin masking
+[21:33:28.607] [INFO ]     ├─ WebRTC IP leak protection
+[21:33:28.607] [INFO ]     ├─ Network connection spoof
+[21:33:28.607] [INFO ]     └─ Battery API spoof
+[21:33:28.648] [INFO ] 
+[21:33:28.648] [INFO ]     🥷 STEALTH MODE APPLIED
+[21:33:28.648] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[21:33:28.648] [INFO ]     ├─ Chrome runtime patches
+[21:33:28.648] [INFO ]     ├─ Console patches
+[21:33:28.648] [INFO ]     └─ Permission patches
+[21:33:28.648] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[21:33:28.648] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:33:28.648] [INFO ] 
+[21:33:28.648] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[21:33:28.648] [INFO ]     ├─ Canvas fingerprint noise
+[21:33:28.648] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:33:28.648] [INFO ]     ├─ Hardware concurrency randomization
+[21:33:28.648] [INFO ]     ├─ Device memory randomization
+[21:33:28.648] [INFO ]     ├─ Plugin masking
+[21:33:28.648] [INFO ]     ├─ WebRTC IP leak protection
+[21:33:28.648] [INFO ]     ├─ Network connection spoof
+[21:33:28.648] [INFO ]     └─ Battery API spoof
+[21:33:28.648] [DEBUG] Enabled resource blocking (images, media, fonts)
+[21:33:28.648] [INFO ] 
+[21:33:28.648] [INFO ]     🔗 NAVIGATING TO URL
+[21:33:28.648] [INFO ]     ├─ Strategy:   domcontentloaded
+[21:33:28.648] [INFO ]     ├─ Timeout:    15.0s
+[21:33:28.648] [INFO ]     └─ Sleep:      1s after load
+[21:33:53.002] [INFO ] 
+[21:33:53.002] [INFO ]     ✅ PAGE LOADED
+[21:33:53.002] [INFO ]     ├─ Final URL:  https://www.sophos.com/en-us/content/nis2-compliance
+[21:33:53.002] [INFO ]     ├─ Title:      NIS2 Directive - Gain NIS2 Compliance with Sophos
+[21:33:53.002] [INFO ]     └─ Load Time:  24.35s
+[21:34:55.073] [INFO ] 
+[21:34:55.073] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:34:55.073] [INFO ] ║  ⚠️  ERROR DETECTED
+[21:34:55.073] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:34:55.073] [INFO ] 
+[21:34:55.073] [INFO ]     ┌─ ERROR DETAILS ───────────────────────────────────────────────┐
+[21:34:55.073] [INFO ]     │ Error Type:       timeout
+[21:34:55.073] [INFO ]     │ Message:          Scrape timed out after 86.8s at stage: popup_handling...
+[21:34:55.073] [INFO ]     │
+[21:34:55.074] [INFO ]     │ Likely Ban:       ✅ No
+[21:34:55.074] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:34:55.074] [INFO ] 
+[21:34:55.074] [INFO ]     ┌─ PAGE STATE AT ERROR ────────────────────────────────────────┐
+[21:34:55.074] [INFO ]     │ Page URL:         https://www.sophos.com/en-us/content/nis2-compliance
+[21:34:55.074] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:34:55.074] [INFO ] 
+[21:34:55.074] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:34:55.074] [INFO ] 
+[21:34:55.074] [ERROR] ❌ timeout: Scrape timed out after 86.8s at stage: popup_handling
+[21:34:55.074] [INFO ] 
+[21:34:55.074] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:34:55.074] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260129_213328_BF27
+[21:34:55.074] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:34:55.074] [INFO ] 
+[21:34:55.074] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[21:34:55.074] [INFO ]     │ URL:              https://www.sophos.com/en-us/content/nis2-compliance
+[21:34:55.074] [INFO ]     │ Error Type:       timeout
+[21:34:55.074] [INFO ]     │ Likely Ban:       ❌ No
+[21:34:55.074] [INFO ]     │ Retries Used:     0
+[21:34:55.074] [INFO ]     │
+[21:34:55.074] [INFO ]     │ Error Message:
+[21:34:55.074] [INFO ]     │   Scrape timed out after 86.8s at stage: popup_handling
+[21:34:55.074] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:34:55.074] [INFO ] 
+[21:34:55.074] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[21:34:55.074] [INFO ]     │ Browser Launch:     0.06s
+[21:34:55.074] [INFO ]     │ Page Load:          24.35s
+[21:34:55.074] [INFO ]     │ Cloudflare Wait:    0.00s
+[21:34:55.074] [INFO ]     │ Human Simulation:   0.00s
+[21:34:55.074] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[21:34:55.074] [INFO ]     │ FAILED AT:          24.41s
+[21:34:55.074] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:34:55.074] [INFO ] 
+[21:34:55.074] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:34:55.074] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 86.83s
+ENDED: 2026-01-29T21:34:55.074235+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

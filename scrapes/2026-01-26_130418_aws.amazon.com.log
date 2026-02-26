@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://aws.amazon.com/compliance/iso-27001-faqs/
+Started: 2026-01-26 13:04:18
+Session ID: SCRAPE_20260126_130418_9510
+================================================================================
+[13:04:18.642] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_130418_aws.amazon.com.log
+[13:04:18.642] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[13:04:18.997] [INFO ] 
+[13:04:18.997] [INFO ]     🚀 BROWSER LAUNCHED
+[13:04:18.997] [INFO ]     ├─ Mode:       Headless
+[13:04:18.997] [INFO ]     ├─ Slow Mo:    46ms
+[13:04:18.997] [INFO ]     ├─ Launch Time: 0.06s
+[13:04:18.997] [INFO ]     └─ Args:       Anti-automation flags enabled
+[13:04:19.016] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-SG, tz=UTC
+[13:04:19.016] [INFO ] 
+[13:04:19.016] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[13:04:19.016] [INFO ] ║  📋 SESSION: SCRAPE_20260126_130418_9510
+[13:04:19.016] [INFO ] ║  🌐 URL: https://aws.amazon.com/compliance/iso-27001-faqs/
+[13:04:19.016] [INFO ] ║  🔄 ATTEMPT: 1/2
+[13:04:19.016] [INFO ] ║  ⏰ STARTED: 2026-01-26T13:04:19.016121+02:00 (Egypt Time)
+[13:04:19.016] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:04:19.016] [INFO ] 
+[13:04:19.016] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[13:04:19.016] [INFO ]     │ Browser:     FIREFOX v123
+[13:04:19.016] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Fir...
+[13:04:19.016] [INFO ]     │ Viewport:    1920x1080
+[13:04:19.016] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[13:04:19.016] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[13:04:19.016] [INFO ]     │ Location:    Singapore
+[13:04:19.016] [INFO ]     │ Timezone:    N/A
+[13:04:19.016] [INFO ]     │ Locale:      en-SG
+[13:04:19.016] [INFO ]     │ Geo:         0, 0
+[13:04:19.016] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[13:04:19.016] [INFO ]     │ Proxy:       Direct (no proxy)
+[13:04:19.016] [INFO ]     │ Referrer:    https://t.co/
+[13:04:19.016] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:04:19.016] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[13:04:19.016] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[13:04:19.016] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[13:04:19.016] [INFO ] 
+[13:04:19.016] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[13:04:19.016] [INFO ]     ├─ Canvas fingerprint noise
+[13:04:19.016] [INFO ]     ├─ WebGL renderer/vendor spoof
+[13:04:19.016] [INFO ]     ├─ Hardware concurrency randomization
+[13:04:19.016] [INFO ]     ├─ Device memory randomization
+[13:04:19.016] [INFO ]     ├─ Plugin masking
+[13:04:19.016] [INFO ]     ├─ WebRTC IP leak protection
+[13:04:19.016] [INFO ]     ├─ Network connection spoof
+[13:04:19.016] [INFO ]     └─ Battery API spoof
+[13:04:19.058] [INFO ] 
+[13:04:19.058] [INFO ]     🥷 STEALTH MODE APPLIED
+[13:04:19.058] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[13:04:19.058] [INFO ]     ├─ Chrome runtime patches
+[13:04:19.058] [INFO ]     ├─ Console patches
+[13:04:19.058] [INFO ]     └─ Permission patches
+[13:04:19.058] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[13:04:19.058] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[13:04:19.058] [INFO ] 
+[13:04:19.058] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[13:04:19.058] [INFO ]     ├─ Canvas fingerprint noise
+[13:04:19.058] [INFO ]     ├─ WebGL renderer/vendor spoof
+[13:04:19.058] [INFO ]     ├─ Hardware concurrency randomization
+[13:04:19.058] [INFO ]     ├─ Device memory randomization
+[13:04:19.058] [INFO ]     ├─ Plugin masking
+[13:04:19.058] [INFO ]     ├─ WebRTC IP leak protection
+[13:04:19.058] [INFO ]     ├─ Network connection spoof
+[13:04:19.058] [INFO ]     └─ Battery API spoof
+[13:04:19.058] [DEBUG] Enabled resource blocking (images, media, fonts)
+[13:04:19.058] [INFO ] 
+[13:04:19.058] [INFO ]     🔗 NAVIGATING TO URL
+[13:04:19.058] [INFO ]     ├─ Strategy:   domcontentloaded
+[13:04:19.058] [INFO ]     ├─ Timeout:    15.0s
+[13:04:19.058] [INFO ]     └─ Sleep:      1s after load
+[13:04:19.972] [INFO ] 
+[13:04:19.972] [INFO ]     ✅ PAGE LOADED
+[13:04:19.972] [INFO ]     ├─ Final URL:  https://aws.amazon.com/compliance/iso-27001-faqs/
+[13:04:19.972] [INFO ]     ├─ Title:      ISO/IEC 27001:2022 Compliance - Amazon Web Services (AWS)
+[13:04:19.972] [INFO ]     └─ Load Time:  0.91s
+[13:04:21.387] [INFO ] 🧑 Human behavior simulation...
+[13:04:26.687] [INFO ] 🖱️ Mouse: 3 moves in 1920x1080
+[13:04:26.687] [INFO ] 🖱️ Mouse completed: 3 moves
+[13:04:26.687] [INFO ] 📜 Scroll: page height, viewport=1080px
+[13:04:26.687] [INFO ] 📜 Scroll completed: 3 scrolls
+[13:04:26.687] [INFO ] 🧑 Human behavior completed in 5.3s ✓
+[13:04:26.687] [INFO ] 
+[13:04:26.687] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[13:04:26.687] [INFO ]     ├─ Mouse Movements: 3
+[13:04:26.687] [INFO ]     ├─ Scroll Actions:  3
+[13:04:26.687] [INFO ]     └─ Time Spent:      5.30s
+[13:04:26.924] [INFO ] 
+[13:04:26.924] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[13:04:26.924] [INFO ]     │ Title:            AWS Achieves ISO 22301 Certification
+[13:04:26.924] [INFO ]     │ Final URL:        https://aws.amazon.com/compliance/iso-27001-faqs/
+[13:04:26.924] [INFO ]     │ HTML Size:        291,783 bytes
+[13:04:26.924] [INFO ]     │ Text Size:        3,128 chars
+[13:04:26.924] [INFO ]     │ Word Count:       ~466 words
+[13:04:26.924] [INFO ]     │ Extraction:       trafilatura
+[13:04:26.924] [INFO ]     │ Has Article:      ✅ Yes
+[13:04:26.924] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:04:26.955] [INFO ] 
+[13:04:26.955] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[13:04:26.955] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_130418_9510
+[13:04:26.955] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:04:26.955] [INFO ] 
+[13:04:26.955] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[13:04:26.955] [INFO ]     │ Browser Launch:      0.06s
+[13:04:26.955] [INFO ]     │ Page Load:           0.91s
+[13:04:26.955] [INFO ]     │ Cloudflare Wait:     0.00s
+[13:04:26.955] [INFO ]     │ Human Simulation:    5.30s
+[13:04:26.955] [INFO ]     │
+[13:04:26.955] [INFO ]     │ Content Extraction:  0.11s
+[13:04:26.955] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[13:04:26.955] [INFO ]     │ TOTAL TIME:          6.38s
+[13:04:26.955] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:04:26.955] [INFO ] 
+[13:04:26.955] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[13:04:26.955] [INFO ]     │ Title:            AWS Achieves ISO 22301 Certification
+[13:04:26.955] [INFO ]     │ Final URL:        https://aws.amazon.com/compliance/iso-27001-faqs/
+[13:04:26.955] [INFO ]     │ HTML Size:        291,783 bytes
+[13:04:26.955] [INFO ]     │ Text Size:        3,128 chars
+[13:04:26.955] [INFO ]     │ Word Count:       ~466 words
+[13:04:26.955] [INFO ]     │ Extraction:       trafilatura
+[13:04:26.955] [INFO ]     │ Has Article:      ✅ Yes
+[13:04:26.955] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:04:26.955] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:04:26.955] [INFO ] ║  📊 SESSION STATS
+[13:04:26.955] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[13:04:26.955] [INFO ] ║  ├─ Popups Dismissed:   0
+[13:04:26.955] [INFO ] ║  ├─ Cloudflare:         Not detected
+[13:04:26.955] [INFO ] ║  └─ Proxy Used:         Direct
+[13:04:26.955] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[13:04:26.955] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.31s
+ENDED: 2026-01-26T13:04:26.955914+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

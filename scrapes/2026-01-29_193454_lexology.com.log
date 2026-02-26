@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.lexology.com/library/detail.aspx?g=6e11094d-d10e-4c7f-a04a-b70531e2d414
+Started: 2026-01-29 19:34:54
+Session ID: SCRAPE_20260129_193454_433C
+================================================================================
+[19:34:54.839] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_193454_lexology.com.log
+[19:34:54.839] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[19:34:55.176] [INFO ] 
+[19:34:55.177] [INFO ]     🚀 BROWSER LAUNCHED
+[19:34:55.177] [INFO ]     ├─ Mode:       Headless
+[19:34:55.177] [INFO ]     ├─ Slow Mo:    56ms
+[19:34:55.177] [INFO ]     ├─ Launch Time: 0.06s
+[19:34:55.177] [INFO ]     └─ Args:       Anti-automation flags enabled
+[19:34:55.191] [DEBUG] Browser profile: viewport={'width': 1536, 'height': 864}, locale=en-US, tz=UTC
+[19:34:55.191] [INFO ] 
+[19:34:55.191] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:34:55.191] [INFO ] ║  📋 SESSION: SCRAPE_20260129_193454_433C
+[19:34:55.191] [INFO ] ║  🌐 URL: https://www.lexology.com/library/detail.aspx?g=6e11094d-d10e-4c7f-a04a-b70531e2d414
+[19:34:55.191] [INFO ] ║  🔄 ATTEMPT: 1/2
+[19:34:55.191] [INFO ] ║  ⏰ STARTED: 2026-01-29T19:34:55.191497+02:00 (Egypt Time)
+[19:34:55.191] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:34:55.191] [INFO ] 
+[19:34:55.191] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[19:34:55.191] [INFO ]     │ Browser:     EDGE v120
+[19:34:55.191] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[19:34:55.191] [INFO ]     │ Viewport:    1536x864
+[19:34:55.191] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[19:34:55.191] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[19:34:55.191] [INFO ]     │ Location:    San Francisco, USA
+[19:34:55.191] [INFO ]     │ Timezone:    N/A
+[19:34:55.191] [INFO ]     │ Locale:      en-US
+[19:34:55.191] [INFO ]     │ Geo:         0, 0
+[19:34:55.191] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[19:34:55.191] [INFO ]     │ Proxy:       Direct (no proxy)
+[19:34:55.191] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+lexology+com
+[19:34:55.191] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:34:55.191] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:34:55.191] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[19:34:55.191] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:34:55.191] [INFO ] 
+[19:34:55.191] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[19:34:55.191] [INFO ]     ├─ Canvas fingerprint noise
+[19:34:55.191] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:34:55.191] [INFO ]     ├─ Hardware concurrency randomization
+[19:34:55.191] [INFO ]     ├─ Device memory randomization
+[19:34:55.191] [INFO ]     ├─ Plugin masking
+[19:34:55.191] [INFO ]     ├─ WebRTC IP leak protection
+[19:34:55.191] [INFO ]     ├─ Network connection spoof
+[19:34:55.191] [INFO ]     └─ Battery API spoof
+[19:34:55.232] [INFO ] 
+[19:34:55.232] [INFO ]     🥷 STEALTH MODE APPLIED
+[19:34:55.232] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[19:34:55.232] [INFO ]     ├─ Chrome runtime patches
+[19:34:55.232] [INFO ]     ├─ Console patches
+[19:34:55.232] [INFO ]     └─ Permission patches
+[19:34:55.232] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[19:34:55.232] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:34:55.232] [INFO ] 
+[19:34:55.232] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[19:34:55.232] [INFO ]     ├─ Canvas fingerprint noise
+[19:34:55.232] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:34:55.232] [INFO ]     ├─ Hardware concurrency randomization
+[19:34:55.232] [INFO ]     ├─ Device memory randomization
+[19:34:55.232] [INFO ]     ├─ Plugin masking
+[19:34:55.232] [INFO ]     ├─ WebRTC IP leak protection
+[19:34:55.232] [INFO ]     ├─ Network connection spoof
+[19:34:55.232] [INFO ]     └─ Battery API spoof
+[19:34:55.232] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:34:55.232] [INFO ] 
+[19:34:55.232] [INFO ]     🔗 NAVIGATING TO URL
+[19:34:55.232] [INFO ]     ├─ Strategy:   domcontentloaded
+[19:34:55.232] [INFO ]     ├─ Timeout:    15.0s
+[19:34:55.232] [INFO ]     └─ Sleep:      1s after load
+[19:34:56.634] [INFO ] 
+[19:34:56.634] [INFO ]     ✅ PAGE LOADED
+[19:34:56.634] [INFO ]     ├─ Final URL:  https://www.lexology.com/library/detail.aspx?g=6e11094d-d10e-4c7f-a04a-b70531e2d414
+[19:34:56.634] [INFO ]     ├─ Title:      Egypt regulatory update on data privacy - Lexology
+[19:34:56.634] [INFO ]     └─ Load Time:  1.40s
+[19:34:59.511] [INFO ] 🧑 Human behavior simulation...
+[19:35:03.043] [INFO ] 🖱️ Mouse: 2 moves in 1536x864
+[19:35:03.043] [INFO ] 🖱️ Mouse completed: 2 moves
+[19:35:03.043] [INFO ] 📜 Scroll: page height, viewport=864px
+[19:35:03.043] [INFO ] 📜 Scroll completed: 1 scrolls
+[19:35:03.043] [INFO ] 🧑 Human behavior completed in 3.5s ✓
+[19:35:03.043] [INFO ] 
+[19:35:03.043] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[19:35:03.043] [INFO ]     ├─ Mouse Movements: 2
+[19:35:03.043] [INFO ]     ├─ Scroll Actions:  1
+[19:35:03.043] [INFO ]     └─ Time Spent:      3.53s
+[19:35:03.211] [INFO ] 
+[19:35:03.211] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:35:03.211] [INFO ]     │ Title:            Egypt regulatory update on data privacy
+[19:35:03.211] [INFO ]     │ Final URL:        https://www.lexology.com/library/detail.aspx?g=6e11094d-d10e-4c7f-a04a-b70531e2d414
+[19:35:03.211] [INFO ]     │ HTML Size:        268,541 bytes
+[19:35:03.211] [INFO ]     │ Text Size:        3,976 chars
+[19:35:03.211] [INFO ]     │ Word Count:       ~559 words
+[19:35:03.211] [INFO ]     │ Extraction:       trafilatura
+[19:35:03.211] [INFO ]     │ Has Article:      ✅ Yes
+[19:35:03.211] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:35:03.239] [INFO ] 
+[19:35:03.239] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:35:03.239] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_193454_433C
+[19:35:03.239] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:35:03.239] [INFO ] 
+[19:35:03.239] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[19:35:03.239] [INFO ]     │ Browser Launch:      0.06s
+[19:35:03.239] [INFO ]     │ Page Load:           1.40s
+[19:35:03.239] [INFO ]     │ Cloudflare Wait:     0.00s
+[19:35:03.239] [INFO ]     │ Human Simulation:    3.53s
+[19:35:03.239] [INFO ]     │
+[19:35:03.239] [INFO ]     │ Content Extraction:  0.06s
+[19:35:03.239] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[19:35:03.239] [INFO ]     │ TOTAL TIME:          5.05s
+[19:35:03.239] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:35:03.239] [INFO ] 
+[19:35:03.239] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:35:03.239] [INFO ]     │ Title:            Egypt regulatory update on data privacy
+[19:35:03.239] [INFO ]     │ Final URL:        https://www.lexology.com/library/detail.aspx?g=6e11094d-d10e-4c7f-a04a-b70531e2d414
+[19:35:03.239] [INFO ]     │ HTML Size:        268,541 bytes
+[19:35:03.239] [INFO ]     │ Text Size:        3,976 chars
+[19:35:03.239] [INFO ]     │ Word Count:       ~559 words
+[19:35:03.239] [INFO ]     │ Extraction:       trafilatura
+[19:35:03.239] [INFO ]     │ Has Article:      ✅ Yes
+[19:35:03.239] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:35:03.239] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:35:03.239] [INFO ] ║  📊 SESSION STATS
+[19:35:03.239] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[19:35:03.239] [INFO ] ║  ├─ Popups Dismissed:   0
+[19:35:03.239] [INFO ] ║  ├─ Cloudflare:         Not detected
+[19:35:03.239] [INFO ] ║  └─ Proxy Used:         Direct
+[19:35:03.239] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:35:03.239] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.40s
+ENDED: 2026-01-29T19:35:03.239842+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

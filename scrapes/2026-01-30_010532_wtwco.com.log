@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.wtwco.com/en-eg/solutions/cyber-risk-management-and-insurance
+Started: 2026-01-30 01:05:32
+Session ID: SCRAPE_20260130_010532_432A
+================================================================================
+[01:05:32.928] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_010532_wtwco.com.log
+[01:05:32.928] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[01:05:33.267] [INFO ] 
+[01:05:33.267] [INFO ]     🚀 BROWSER LAUNCHED
+[01:05:33.267] [INFO ]     ├─ Mode:       Headless
+[01:05:33.267] [INFO ]     ├─ Slow Mo:    56ms
+[01:05:33.267] [INFO ]     ├─ Launch Time: 0.06s
+[01:05:33.267] [INFO ]     └─ Args:       Anti-automation flags enabled
+[01:05:33.286] [DEBUG] Browser profile: viewport={'width': 1536, 'height': 864}, locale=en-US, tz=UTC
+[01:05:33.286] [INFO ] 
+[01:05:33.286] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:05:33.286] [INFO ] ║  📋 SESSION: SCRAPE_20260130_010532_432A
+[01:05:33.286] [INFO ] ║  🌐 URL: https://www.wtwco.com/en-eg/solutions/cyber-risk-management-and-insurance
+[01:05:33.286] [INFO ] ║  🔄 ATTEMPT: 1/2
+[01:05:33.286] [INFO ] ║  ⏰ STARTED: 2026-01-30T01:05:33.286180+02:00 (Egypt Time)
+[01:05:33.286] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:05:33.286] [INFO ] 
+[01:05:33.286] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[01:05:33.286] [INFO ]     │ Browser:     CHROME v125
+[01:05:33.286] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[01:05:33.286] [INFO ]     │ Viewport:    1536x864
+[01:05:33.286] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[01:05:33.286] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[01:05:33.286] [INFO ]     │ Location:    Chicago, USA
+[01:05:33.286] [INFO ]     │ Timezone:    N/A
+[01:05:33.286] [INFO ]     │ Locale:      en-US
+[01:05:33.286] [INFO ]     │ Geo:         0, 0
+[01:05:33.286] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[01:05:33.286] [INFO ]     │ Proxy:       Direct (no proxy)
+[01:05:33.286] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+wtwco+com
+[01:05:33.286] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:05:33.286] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:05:33.286] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[01:05:33.286] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:05:33.286] [INFO ] 
+[01:05:33.286] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[01:05:33.286] [INFO ]     ├─ Canvas fingerprint noise
+[01:05:33.286] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:05:33.286] [INFO ]     ├─ Hardware concurrency randomization
+[01:05:33.286] [INFO ]     ├─ Device memory randomization
+[01:05:33.286] [INFO ]     ├─ Plugin masking
+[01:05:33.286] [INFO ]     ├─ WebRTC IP leak protection
+[01:05:33.286] [INFO ]     ├─ Network connection spoof
+[01:05:33.286] [INFO ]     └─ Battery API spoof
+[01:05:33.327] [INFO ] 
+[01:05:33.327] [INFO ]     🥷 STEALTH MODE APPLIED
+[01:05:33.327] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[01:05:33.327] [INFO ]     ├─ Chrome runtime patches
+[01:05:33.327] [INFO ]     ├─ Console patches
+[01:05:33.327] [INFO ]     └─ Permission patches
+[01:05:33.327] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[01:05:33.327] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:05:33.327] [INFO ] 
+[01:05:33.327] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[01:05:33.327] [INFO ]     ├─ Canvas fingerprint noise
+[01:05:33.327] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:05:33.327] [INFO ]     ├─ Hardware concurrency randomization
+[01:05:33.327] [INFO ]     ├─ Device memory randomization
+[01:05:33.327] [INFO ]     ├─ Plugin masking
+[01:05:33.327] [INFO ]     ├─ WebRTC IP leak protection
+[01:05:33.327] [INFO ]     ├─ Network connection spoof
+[01:05:33.327] [INFO ]     └─ Battery API spoof
+[01:05:33.327] [DEBUG] Enabled resource blocking (images, media, fonts)
+[01:05:33.327] [INFO ] 
+[01:05:33.327] [INFO ]     🔗 NAVIGATING TO URL
+[01:05:33.327] [INFO ]     ├─ Strategy:   domcontentloaded
+[01:05:33.328] [INFO ]     ├─ Timeout:    15.0s
+[01:05:33.328] [INFO ]     └─ Sleep:      1s after load
+[01:05:37.075] [INFO ] 
+[01:05:37.075] [INFO ]     ✅ PAGE LOADED
+[01:05:37.075] [INFO ]     ├─ Final URL:  https://www.wtwco.com/en-eg/solutions/cyber-risk-management-and-insurance
+[01:05:37.075] [INFO ]     ├─ Title:      Cyber Risk Management and Insurance - WTW
+[01:05:37.075] [INFO ]     └─ Load Time:  3.75s
+[01:05:38.987] [INFO ] 🧑 Human behavior simulation...
+[01:05:46.103] [INFO ] 🖱️ Mouse: 5 moves in 1536x864
+[01:05:46.103] [INFO ] 🖱️ Mouse completed: 5 moves
+[01:05:46.103] [INFO ] 📜 Scroll: page height, viewport=864px
+[01:05:46.103] [INFO ] 📜 Scroll completed: 3 scrolls
+[01:05:46.103] [INFO ] 🧑 Human behavior completed in 7.1s ✓
+[01:05:46.103] [INFO ] 
+[01:05:46.103] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[01:05:46.103] [INFO ]     ├─ Mouse Movements: 5
+[01:05:46.103] [INFO ]     ├─ Scroll Actions:  3
+[01:05:46.103] [INFO ]     └─ Time Spent:      7.12s
+[01:05:46.336] [INFO ] 
+[01:05:46.336] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[01:05:46.336] [INFO ]     │ Title:            Cyber Risk Management and Insurance
+[01:05:46.336] [INFO ]     │ Final URL:        https://www.wtwco.com/en-eg/solutions/cyber-risk-management-and-insurance
+[01:05:46.336] [INFO ]     │ HTML Size:        274,729 bytes
+[01:05:46.336] [INFO ]     │ Text Size:        894 chars
+[01:05:46.336] [INFO ]     │ Word Count:       ~128 words
+[01:05:46.336] [INFO ]     │ Extraction:       trafilatura
+[01:05:46.336] [INFO ]     │ Has Article:      ✅ Yes
+[01:05:46.336] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:05:46.362] [INFO ] 
+[01:05:46.362] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:05:46.362] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260130_010532_432A
+[01:05:46.362] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:05:46.362] [INFO ] 
+[01:05:46.362] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[01:05:46.362] [INFO ]     │ Browser Launch:      0.06s
+[01:05:46.362] [INFO ]     │ Page Load:           3.75s
+[01:05:46.362] [INFO ]     │ Cloudflare Wait:     0.00s
+[01:05:46.362] [INFO ]     │ Human Simulation:    7.12s
+[01:05:46.362] [INFO ]     │
+[01:05:46.362] [INFO ]     │ Content Extraction:  0.17s
+[01:05:46.362] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[01:05:46.363] [INFO ]     │ TOTAL TIME:          11.09s
+[01:05:46.363] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:05:46.363] [INFO ] 
+[01:05:46.363] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[01:05:46.363] [INFO ]     │ Title:            Cyber Risk Management and Insurance
+[01:05:46.363] [INFO ]     │ Final URL:        https://www.wtwco.com/en-eg/solutions/cyber-risk-management-and-insurance
+[01:05:46.363] [INFO ]     │ HTML Size:        274,729 bytes
+[01:05:46.363] [INFO ]     │ Text Size:        894 chars
+[01:05:46.363] [INFO ]     │ Word Count:       ~128 words
+[01:05:46.363] [INFO ]     │ Extraction:       trafilatura
+[01:05:46.363] [INFO ]     │ Has Article:      ✅ Yes
+[01:05:46.363] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:05:46.363] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:05:46.363] [INFO ] ║  📊 SESSION STATS
+[01:05:46.363] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[01:05:46.363] [INFO ] ║  ├─ Popups Dismissed:   0
+[01:05:46.363] [INFO ] ║  ├─ Cloudflare:         Not detected
+[01:05:46.363] [INFO ] ║  └─ Proxy Used:         Direct
+[01:05:46.363] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:05:46.363] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 13.44s
+ENDED: 2026-01-30T01:05:46.363129+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

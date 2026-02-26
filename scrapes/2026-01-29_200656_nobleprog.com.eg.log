@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.nobleprog.com.eg/cc/iso27005lead
+Started: 2026-01-29 20:06:56
+Session ID: SCRAPE_20260129_200656_33D1
+================================================================================
+[20:06:56.117] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_200656_nobleprog.com.eg.log
+[20:06:56.117] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[20:06:56.456] [INFO ] 
+[20:06:56.456] [INFO ]     🚀 BROWSER LAUNCHED
+[20:06:56.456] [INFO ]     ├─ Mode:       Headless
+[20:06:56.456] [INFO ]     ├─ Slow Mo:    50ms
+[20:06:56.456] [INFO ]     ├─ Launch Time: 0.05s
+[20:06:56.456] [INFO ]     └─ Args:       Anti-automation flags enabled
+[20:06:56.473] [DEBUG] Browser profile: viewport={'width': 1600, 'height': 900}, locale=en-US, tz=UTC
+[20:06:56.473] [INFO ] 
+[20:06:56.473] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:06:56.473] [INFO ] ║  📋 SESSION: SCRAPE_20260129_200656_33D1
+[20:06:56.473] [INFO ] ║  🌐 URL: https://www.nobleprog.com.eg/cc/iso27005lead
+[20:06:56.473] [INFO ] ║  🔄 ATTEMPT: 1/2
+[20:06:56.473] [INFO ] ║  ⏰ STARTED: 2026-01-29T20:06:56.473424+02:00 (Egypt Time)
+[20:06:56.473] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:06:56.473] [INFO ] 
+[20:06:56.473] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[20:06:56.473] [INFO ]     │ Browser:     CHROME v124
+[20:06:56.473] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[20:06:56.473] [INFO ]     │ Viewport:    1600x900
+[20:06:56.473] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[20:06:56.473] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[20:06:56.473] [INFO ]     │ Location:    Chicago, USA
+[20:06:56.473] [INFO ]     │ Timezone:    N/A
+[20:06:56.473] [INFO ]     │ Locale:      en-US
+[20:06:56.473] [INFO ]     │ Geo:         0, 0
+[20:06:56.473] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[20:06:56.473] [INFO ]     │ Proxy:       Direct (no proxy)
+[20:06:56.473] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+nobleprog+com+eg
+[20:06:56.473] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:06:56.473] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:06:56.473] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[20:06:56.473] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:06:56.473] [INFO ] 
+[20:06:56.473] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[20:06:56.473] [INFO ]     ├─ Canvas fingerprint noise
+[20:06:56.473] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:06:56.473] [INFO ]     ├─ Hardware concurrency randomization
+[20:06:56.473] [INFO ]     ├─ Device memory randomization
+[20:06:56.473] [INFO ]     ├─ Plugin masking
+[20:06:56.473] [INFO ]     ├─ WebRTC IP leak protection
+[20:06:56.473] [INFO ]     ├─ Network connection spoof
+[20:06:56.473] [INFO ]     └─ Battery API spoof
+[20:06:56.514] [INFO ] 
+[20:06:56.514] [INFO ]     🥷 STEALTH MODE APPLIED
+[20:06:56.514] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[20:06:56.514] [INFO ]     ├─ Chrome runtime patches
+[20:06:56.514] [INFO ]     ├─ Console patches
+[20:06:56.514] [INFO ]     └─ Permission patches
+[20:06:56.514] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[20:06:56.514] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:06:56.514] [INFO ] 
+[20:06:56.514] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[20:06:56.514] [INFO ]     ├─ Canvas fingerprint noise
+[20:06:56.514] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:06:56.514] [INFO ]     ├─ Hardware concurrency randomization
+[20:06:56.514] [INFO ]     ├─ Device memory randomization
+[20:06:56.514] [INFO ]     ├─ Plugin masking
+[20:06:56.514] [INFO ]     ├─ WebRTC IP leak protection
+[20:06:56.514] [INFO ]     ├─ Network connection spoof
+[20:06:56.514] [INFO ]     └─ Battery API spoof
+[20:06:56.514] [DEBUG] Enabled resource blocking (images, media, fonts)
+[20:06:56.514] [INFO ] 
+[20:06:56.514] [INFO ]     🔗 NAVIGATING TO URL
+[20:06:56.514] [INFO ]     ├─ Strategy:   domcontentloaded
+[20:06:56.514] [INFO ]     ├─ Timeout:    15.0s
+[20:06:56.514] [INFO ]     └─ Sleep:      1s after load
+[20:06:57.366] [INFO ] 
+[20:06:57.366] [INFO ]     ✅ PAGE LOADED
+[20:06:57.366] [INFO ]     ├─ Final URL:  https://www.nobleprog.com.eg/cc/iso27005lead
+[20:06:57.366] [INFO ]     ├─ Title:      ISO/IEC 27005 Lead Risk Manager Training Course
+[20:06:57.366] [INFO ]     └─ Load Time:  0.85s
+[20:06:58.610] [INFO ] 🧑 Human behavior simulation...
+[20:07:03.793] [INFO ] 🖱️ Mouse: 3 moves in 1600x900
+[20:07:03.793] [INFO ] 🖱️ Mouse completed: 3 moves
+[20:07:03.793] [INFO ] 📜 Scroll: page height, viewport=900px
+[20:07:03.793] [INFO ] 📜 Scroll completed: 2 scrolls
+[20:07:03.793] [INFO ] 🧑 Human behavior completed in 5.2s ✓
+[20:07:03.793] [INFO ] 
+[20:07:03.793] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[20:07:03.793] [INFO ]     ├─ Mouse Movements: 3
+[20:07:03.793] [INFO ]     ├─ Scroll Actions:  2
+[20:07:03.793] [INFO ]     └─ Time Spent:      5.18s
+[20:07:04.116] [INFO ] 
+[20:07:04.116] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:07:04.116] [INFO ]     │ Title:            ISO/IEC 27005 Lead Risk Manager Training Course
+[20:07:04.116] [INFO ]     │ Final URL:        https://www.nobleprog.com.eg/cc/iso27005lead
+[20:07:04.116] [INFO ]     │ HTML Size:        172,019 bytes
+[20:07:04.116] [INFO ]     │ Text Size:        20,300 chars
+[20:07:04.116] [INFO ]     │ Word Count:       ~3057 words
+[20:07:04.116] [INFO ]     │ Extraction:       trafilatura
+[20:07:04.116] [INFO ]     │ Has Article:      ✅ Yes
+[20:07:04.116] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:07:04.140] [INFO ] 
+[20:07:04.140] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:07:04.140] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_200656_33D1
+[20:07:04.140] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:07:04.140] [INFO ] 
+[20:07:04.140] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[20:07:04.140] [INFO ]     │ Browser Launch:      0.05s
+[20:07:04.140] [INFO ]     │ Page Load:           0.85s
+[20:07:04.140] [INFO ]     │ Cloudflare Wait:     0.00s
+[20:07:04.140] [INFO ]     │ Human Simulation:    5.18s
+[20:07:04.140] [INFO ]     │
+[20:07:04.140] [INFO ]     │ Content Extraction:  0.28s
+[20:07:04.140] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[20:07:04.140] [INFO ]     │ TOTAL TIME:          6.37s
+[20:07:04.140] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:07:04.140] [INFO ] 
+[20:07:04.140] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:07:04.140] [INFO ]     │ Title:            ISO/IEC 27005 Lead Risk Manager Training Course
+[20:07:04.140] [INFO ]     │ Final URL:        https://www.nobleprog.com.eg/cc/iso27005lead
+[20:07:04.140] [INFO ]     │ HTML Size:        172,019 bytes
+[20:07:04.140] [INFO ]     │ Text Size:        20,300 chars
+[20:07:04.140] [INFO ]     │ Word Count:       ~3057 words
+[20:07:04.140] [INFO ]     │ Extraction:       trafilatura
+[20:07:04.140] [INFO ]     │ Has Article:      ✅ Yes
+[20:07:04.140] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:07:04.140] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:07:04.140] [INFO ] ║  📊 SESSION STATS
+[20:07:04.140] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[20:07:04.140] [INFO ] ║  ├─ Popups Dismissed:   0
+[20:07:04.140] [INFO ] ║  ├─ Cloudflare:         Not detected
+[20:07:04.140] [INFO ] ║  └─ Proxy Used:         Direct
+[20:07:04.140] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:07:04.140] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.02s
+ENDED: 2026-01-29T20:07:04.141000+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

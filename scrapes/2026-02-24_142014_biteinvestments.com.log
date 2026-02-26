@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.biteinvestments.com/resources/press/bite-stream-and-untap-join-forces-to-transform-private-capital-markets-technology/
+Started: 2026-02-24 14:20:14
+Session ID: SCRAPE_20260224_142014_DB17
+================================================================================
+[14:20:14.410] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-02-24_142014_biteinvestments.com.log
+[14:20:14.410] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[14:20:14.748] [INFO ] 
+[14:20:14.749] [INFO ]     🚀 BROWSER LAUNCHED
+[14:20:14.749] [INFO ]     ├─ Mode:       Headless
+[14:20:14.749] [INFO ]     ├─ Slow Mo:    58ms
+[14:20:14.749] [INFO ]     ├─ Launch Time: 0.06s
+[14:20:14.749] [INFO ]     └─ Args:       Anti-automation flags enabled
+[14:20:14.768] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-US, tz=UTC
+[14:20:14.768] [INFO ] 
+[14:20:14.768] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[14:20:14.768] [INFO ] ║  📋 SESSION: SCRAPE_20260224_142014_DB17
+[14:20:14.768] [INFO ] ║  🌐 URL: https://www.biteinvestments.com/resources/press/bite-stream-and-untap-join-forces-to-transform-private-capital-markets-technology/
+[14:20:14.768] [INFO ] ║  🔄 ATTEMPT: 1/2
+[14:20:14.768] [INFO ] ║  ⏰ STARTED: 2026-02-24T14:20:14.768091+02:00 (Egypt Time)
+[14:20:14.768] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:20:14.768] [INFO ] 
+[14:20:14.768] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[14:20:14.768] [INFO ]     │ Browser:     CHROME v122
+[14:20:14.768] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[14:20:14.768] [INFO ]     │ Viewport:    1366x768
+[14:20:14.768] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[14:20:14.768] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[14:20:14.768] [INFO ]     │ Location:    Boston, USA
+[14:20:14.768] [INFO ]     │ Timezone:    N/A
+[14:20:14.768] [INFO ]     │ Locale:      en-US
+[14:20:14.768] [INFO ]     │ Geo:         0, 0
+[14:20:14.768] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[14:20:14.768] [INFO ]     │ Proxy:       Direct (no proxy)
+[14:20:14.768] [INFO ]     │ Referrer:    https://www.google.com/
+[14:20:14.768] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:20:14.768] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[14:20:14.768] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[14:20:14.768] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[14:20:14.768] [INFO ] 
+[14:20:14.768] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[14:20:14.768] [INFO ]     ├─ Canvas fingerprint noise
+[14:20:14.768] [INFO ]     ├─ WebGL renderer/vendor spoof
+[14:20:14.768] [INFO ]     ├─ Hardware concurrency randomization
+[14:20:14.768] [INFO ]     ├─ Device memory randomization
+[14:20:14.768] [INFO ]     ├─ Plugin masking
+[14:20:14.768] [INFO ]     ├─ WebRTC IP leak protection
+[14:20:14.768] [INFO ]     ├─ Network connection spoof
+[14:20:14.768] [INFO ]     └─ Battery API spoof
+[14:20:14.810] [INFO ] 
+[14:20:14.810] [INFO ]     🥷 STEALTH MODE APPLIED
+[14:20:14.810] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[14:20:14.810] [INFO ]     ├─ Chrome runtime patches
+[14:20:14.810] [INFO ]     ├─ Console patches
+[14:20:14.810] [INFO ]     └─ Permission patches
+[14:20:14.810] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[14:20:14.810] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[14:20:14.810] [INFO ] 
+[14:20:14.810] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[14:20:14.810] [INFO ]     ├─ Canvas fingerprint noise
+[14:20:14.810] [INFO ]     ├─ WebGL renderer/vendor spoof
+[14:20:14.810] [INFO ]     ├─ Hardware concurrency randomization
+[14:20:14.810] [INFO ]     ├─ Device memory randomization
+[14:20:14.810] [INFO ]     ├─ Plugin masking
+[14:20:14.810] [INFO ]     ├─ WebRTC IP leak protection
+[14:20:14.810] [INFO ]     ├─ Network connection spoof
+[14:20:14.810] [INFO ]     └─ Battery API spoof
+[14:20:14.810] [DEBUG] Enabled resource blocking (images, media, fonts)
+[14:20:14.810] [INFO ] 
+[14:20:14.810] [INFO ]     🔗 NAVIGATING TO URL
+[14:20:14.810] [INFO ]     ├─ Strategy:   domcontentloaded
+[14:20:14.810] [INFO ]     ├─ Timeout:    15.0s
+[14:20:14.810] [INFO ]     └─ Sleep:      1s after load
+[14:20:16.516] [INFO ] 
+[14:20:16.516] [INFO ]     ✅ PAGE LOADED
+[14:20:16.516] [INFO ]     ├─ Final URL:  https://www.biteinvestments.com/resources/press/bite-stream-and-untap-join-forces-to-transform-private-capital-markets-technology/
+[14:20:16.516] [INFO ]     ├─ Title:      Bite Stream and Untap join forces to transform private capital markets technology | Bite Investments
+[14:20:16.516] [INFO ]     └─ Load Time:  1.71s
+[14:20:19.128] [INFO ] 🧑 Human behavior simulation...
+[14:20:22.570] [INFO ] 🖱️ Mouse: 2 moves in 1366x768
+[14:20:22.570] [INFO ] 🖱️ Mouse completed: 2 moves
+[14:20:22.570] [INFO ] 📜 Scroll: page height, viewport=768px
+[14:20:22.570] [INFO ] 📜 Scroll completed: 2 scrolls
+[14:20:22.570] [INFO ] 🧑 Human behavior completed in 3.4s ✓
+[14:20:22.570] [INFO ] 
+[14:20:22.570] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[14:20:22.570] [INFO ]     ├─ Mouse Movements: 2
+[14:20:22.570] [INFO ]     ├─ Scroll Actions:  2
+[14:20:22.570] [INFO ]     └─ Time Spent:      3.44s
+[14:20:22.713] [INFO ] 
+[14:20:22.713] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[14:20:22.713] [INFO ]     │ Title:            Bite Stream and Untap join forces to transform pri
+[14:20:22.713] [INFO ]     │ Final URL:        https://www.biteinvestments.com/resources/press/bite-stream-and-untap-join-forces-to-transform-private-capital-markets-technology/
+[14:20:22.713] [INFO ]     │ HTML Size:        373,143 bytes
+[14:20:22.713] [INFO ]     │ Text Size:        3,127 chars
+[14:20:22.713] [INFO ]     │ Word Count:       ~434 words
+[14:20:22.713] [INFO ]     │ Extraction:       trafilatura
+[14:20:22.713] [INFO ]     │ Has Article:      ✅ Yes
+[14:20:22.713] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:20:22.749] [INFO ] 
+[14:20:22.749] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[14:20:22.749] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260224_142014_DB17
+[14:20:22.749] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:20:22.749] [INFO ] 
+[14:20:22.749] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[14:20:22.749] [INFO ]     │ Browser Launch:      0.06s
+[14:20:22.749] [INFO ]     │ Page Load:           1.71s
+[14:20:22.749] [INFO ]     │ Cloudflare Wait:     0.00s
+[14:20:22.749] [INFO ]     │ Human Simulation:    3.44s
+[14:20:22.749] [INFO ]     │
+[14:20:22.749] [INFO ]     │ Content Extraction:  0.07s
+[14:20:22.749] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[14:20:22.749] [INFO ]     │ TOTAL TIME:          5.27s
+[14:20:22.749] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:20:22.749] [INFO ] 
+[14:20:22.749] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[14:20:22.749] [INFO ]     │ Title:            Bite Stream and Untap join forces to transform pri
+[14:20:22.749] [INFO ]     │ Final URL:        https://www.biteinvestments.com/resources/press/bite-stream-and-untap-join-forces-to-transform-private-capital-markets-technology/
+[14:20:22.749] [INFO ]     │ HTML Size:        373,143 bytes
+[14:20:22.749] [INFO ]     │ Text Size:        3,127 chars
+[14:20:22.749] [INFO ]     │ Word Count:       ~434 words
+[14:20:22.749] [INFO ]     │ Extraction:       trafilatura
+[14:20:22.749] [INFO ]     │ Has Article:      ✅ Yes
+[14:20:22.749] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:20:22.749] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:20:22.749] [INFO ] ║  📊 SESSION STATS
+[14:20:22.749] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[14:20:22.749] [INFO ] ║  ├─ Popups Dismissed:   0
+[14:20:22.749] [INFO ] ║  ├─ Cloudflare:         Not detected
+[14:20:22.749] [INFO ] ║  └─ Proxy Used:         Direct
+[14:20:22.749] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[14:20:22.749] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.34s
+ENDED: 2026-02-24T14:20:22.749441+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

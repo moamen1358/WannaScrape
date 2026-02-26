@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMUxMMkNIeHgzdC1RdkNFb3RhSVAxNklrVFpJYXFGaTRMMDZad3F0UFRWN0hyV1E2Ykc0elFXdlgyeGFRRlpidUNOVHRqX1MyRDBjQ00zbG9BdTVHSy05UDNyTTlMZXgxc2xVVV9qV0lQR2I0ZFFVZHlKUFJQTGxCa1hIVnBSUktyeXk4SjJzeXVma0xsSVkwdkZyVUc5TDNaM1ZDV0tyb0tXMmdmQ3ZoaUVkZHE0NzRB?oc=5
+Started: 2026-02-24 14:34:38
+Session ID: SCRAPE_20260224_143438_AD98
+================================================================================
+[14:34:38.448] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-02-24_143438_news.google.com.log
+[14:34:38.448] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[14:34:38.784] [INFO ] 
+[14:34:38.784] [INFO ]     🚀 BROWSER LAUNCHED
+[14:34:38.784] [INFO ]     ├─ Mode:       Headless
+[14:34:38.784] [INFO ]     ├─ Slow Mo:    59ms
+[14:34:38.784] [INFO ]     ├─ Launch Time: 0.05s
+[14:34:38.784] [INFO ]     └─ Args:       Anti-automation flags enabled
+[14:34:38.800] [DEBUG] Browser profile: viewport={'width': 1536, 'height': 864}, locale=en-GB, tz=UTC
+[14:34:38.800] [INFO ] 
+[14:34:38.800] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[14:34:38.800] [INFO ] ║  📋 SESSION: SCRAPE_20260224_143438_AD98
+[14:34:38.800] [INFO ] ║  🌐 URL: https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMUxMMkNIeHgzdC1RdkNFb3RhSVAxNklrVFpJYXFGaTRMMDZad3F0UFRWN0hyV1E2Ykc0elFXdlgyeGFRRlpidUNOVHRqX1MyRDBjQ00zbG9BdTVHSy05UDNyTTlMZXgxc2xVVV9qV0lQR2I0ZFFVZHlKUFJQTGxCa1hIVnBSUktyeXk4SjJzeXVma0xsSVkwdkZyVUc5TDNaM1ZDV0tyb0tXMmdmQ3ZoaUVkZHE0NzRB?oc=5
+[14:34:38.800] [INFO ] ║  🔄 ATTEMPT: 1/2
+[14:34:38.800] [INFO ] ║  ⏰ STARTED: 2026-02-24T14:34:38.800726+02:00 (Egypt Time)
+[14:34:38.800] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:34:38.800] [INFO ] 
+[14:34:38.800] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[14:34:38.800] [INFO ]     │ Browser:     CHROME v123
+[14:34:38.800] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[14:34:38.800] [INFO ]     │ Viewport:    1536x864
+[14:34:38.800] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[14:34:38.800] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[14:34:38.800] [INFO ]     │ Location:    Manchester, UK
+[14:34:38.800] [INFO ]     │ Timezone:    N/A
+[14:34:38.800] [INFO ]     │ Locale:      en-GB
+[14:34:38.800] [INFO ]     │ Geo:         0, 0
+[14:34:38.800] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[14:34:38.800] [INFO ]     │ Proxy:       Direct (no proxy)
+[14:34:38.800] [INFO ]     │ Referrer:    https://www.facebook.com/
+[14:34:38.800] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:34:38.800] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[14:34:38.800] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[14:34:38.800] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[14:34:38.800] [INFO ] 
+[14:34:38.800] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[14:34:38.800] [INFO ]     ├─ Canvas fingerprint noise
+[14:34:38.800] [INFO ]     ├─ WebGL renderer/vendor spoof
+[14:34:38.800] [INFO ]     ├─ Hardware concurrency randomization
+[14:34:38.800] [INFO ]     ├─ Device memory randomization
+[14:34:38.800] [INFO ]     ├─ Plugin masking
+[14:34:38.800] [INFO ]     ├─ WebRTC IP leak protection
+[14:34:38.800] [INFO ]     ├─ Network connection spoof
+[14:34:38.800] [INFO ]     └─ Battery API spoof
+[14:34:38.847] [INFO ] 
+[14:34:38.847] [INFO ]     🥷 STEALTH MODE APPLIED
+[14:34:38.847] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[14:34:38.847] [INFO ]     ├─ Chrome runtime patches
+[14:34:38.847] [INFO ]     ├─ Console patches
+[14:34:38.847] [INFO ]     └─ Permission patches
+[14:34:38.847] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[14:34:38.847] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[14:34:38.847] [INFO ] 
+[14:34:38.847] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[14:34:38.847] [INFO ]     ├─ Canvas fingerprint noise
+[14:34:38.847] [INFO ]     ├─ WebGL renderer/vendor spoof
+[14:34:38.847] [INFO ]     ├─ Hardware concurrency randomization
+[14:34:38.847] [INFO ]     ├─ Device memory randomization
+[14:34:38.847] [INFO ]     ├─ Plugin masking
+[14:34:38.847] [INFO ]     ├─ WebRTC IP leak protection
+[14:34:38.847] [INFO ]     ├─ Network connection spoof
+[14:34:38.847] [INFO ]     └─ Battery API spoof
+[14:34:38.847] [DEBUG] Enabled resource blocking (images, media, fonts)
+[14:34:38.847] [INFO ] 
+[14:34:38.847] [INFO ]     🔗 NAVIGATING TO URL
+[14:34:38.847] [INFO ]     ├─ Strategy:   domcontentloaded
+[14:34:38.847] [INFO ]     ├─ Timeout:    15.0s
+[14:34:38.847] [INFO ]     └─ Sleep:      1s after load
+[14:34:40.452] [INFO ] 
+[14:34:40.452] [INFO ]     ✅ PAGE LOADED
+[14:34:40.452] [INFO ]     ├─ Final URL:  https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMUxMMkNIeHgzdC1RdkNFb3RhSVAxNklrVFpJYXFGaTRMMDZad3F0UFRWN0hyV1E2Ykc0elFXdlgyeGFRRlpidUNOVHRqX1MyRDBjQ00zbG9BdTVHSy05UDNyTTlMZXgxc2xVVV9qV0lQR2I0ZFFVZHlKUFJQTGxCa1hIVnBSUktyeXk4SjJzeXVma0xsSVkwdkZyVUc5TDNaM1ZDV0tyb0tXMmdmQ3ZoaUVkZHE0NzRB?oc=5&hl=en-GB&gl=GB&ceid=GB:en
+[14:34:40.452] [INFO ]     ├─ Title:      Google News
+[14:34:40.452] [INFO ]     └─ Load Time:  1.61s
+[14:34:43.191] [INFO ] 🧑 Human behavior simulation...
+[14:34:48.374] [INFO ] 🖱️ Mouse: 4 moves in 1536x864
+[14:34:48.374] [INFO ] 🖱️ Mouse completed: 4 moves
+[14:34:48.374] [INFO ] 📜 Scroll: page height, viewport=864px
+[14:34:48.374] [INFO ] 📜 Scroll completed: 1 scrolls
+[14:34:48.374] [INFO ] 🧑 Human behavior completed in 5.2s ✓
+[14:34:48.374] [INFO ] 
+[14:34:48.374] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[14:34:48.374] [INFO ]     ├─ Mouse Movements: 4
+[14:34:48.374] [INFO ]     ├─ Scroll Actions:  1
+[14:34:48.374] [INFO ]     └─ Time Spent:      5.18s
+[14:34:48.489] [INFO ] 
+[14:34:48.489] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[14:34:48.489] [INFO ]     │ Title:            Egypt’s FRA issues new website and cybersecurity r
+[14:34:48.489] [INFO ]     │ Final URL:        https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMUxMMkNIeHgzdC1RdkNFb3RhSVAxNklrVFpJYXFGaTRMMDZad3F0UFRWN0hyV1E2Ykc0elFXdlgyeGFRRlpidUNOVHRqX1MyRDBjQ00zbG9BdTVHSy05UDNyTTlMZXgxc2xVVV9qV0lQR2I0ZFFVZHlKUFJQTGxCa1hIVnBSUktyeXk4SjJzeXVma0xsSVkwdkZyVUc5TDNaM1ZDV0tyb0tXMmdmQ3ZoaUVkZHE0NzRB?oc=5&hl=en-GB&gl=GB&ceid=GB:en
+[14:34:48.489] [INFO ]     │ HTML Size:        122,109 bytes
+[14:34:48.489] [INFO ]     │ Text Size:        4,317 chars
+[14:34:48.489] [INFO ]     │ Word Count:       ~623 words
+[14:34:48.489] [INFO ]     │ Extraction:       trafilatura
+[14:34:48.489] [INFO ]     │ Has Article:      ✅ Yes
+[14:34:48.489] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:34:48.512] [INFO ] 
+[14:34:48.512] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[14:34:48.512] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260224_143438_AD98
+[14:34:48.512] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:34:48.512] [INFO ] 
+[14:34:48.512] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[14:34:48.512] [INFO ]     │ Browser Launch:      0.05s
+[14:34:48.512] [INFO ]     │ Page Load:           1.61s
+[14:34:48.512] [INFO ]     │ Cloudflare Wait:     0.00s
+[14:34:48.512] [INFO ]     │ Human Simulation:    5.18s
+[14:34:48.512] [INFO ]     │
+[14:34:48.512] [INFO ]     │ Content Extraction:  0.04s
+[14:34:48.512] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[14:34:48.512] [INFO ]     │ TOTAL TIME:          6.89s
+[14:34:48.512] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:34:48.512] [INFO ] 
+[14:34:48.512] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[14:34:48.512] [INFO ]     │ Title:            Egypt’s FRA issues new website and cybersecurity r
+[14:34:48.512] [INFO ]     │ Final URL:        https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMUxMMkNIeHgzdC1RdkNFb3RhSVAxNklrVFpJYXFGaTRMMDZad3F0UFRWN0hyV1E2Ykc0elFXdlgyeGFRRlpidUNOVHRqX1MyRDBjQ00zbG9BdTVHSy05UDNyTTlMZXgxc2xVVV9qV0lQR2I0ZFFVZHlKUFJQTGxCa1hIVnBSUktyeXk4SjJzeXVma0xsSVkwdkZyVUc5TDNaM1ZDV0tyb0tXMmdmQ3ZoaUVkZHE0NzRB?oc=5&hl=en-GB&gl=GB&ceid=GB:en
+[14:34:48.512] [INFO ]     │ HTML Size:        122,109 bytes
+[14:34:48.512] [INFO ]     │ Text Size:        4,317 chars
+[14:34:48.512] [INFO ]     │ Word Count:       ~623 words
+[14:34:48.512] [INFO ]     │ Extraction:       trafilatura
+[14:34:48.512] [INFO ]     │ Has Article:      ✅ Yes
+[14:34:48.512] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:34:48.512] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:34:48.512] [INFO ] ║  📊 SESSION STATS
+[14:34:48.512] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[14:34:48.512] [INFO ] ║  ├─ Popups Dismissed:   0
+[14:34:48.512] [INFO ] ║  ├─ Cloudflare:         Not detected
+[14:34:48.512] [INFO ] ║  └─ Proxy Used:         Direct
+[14:34:48.512] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[14:34:48.512] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.06s
+ENDED: 2026-02-24T14:34:48.512492+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

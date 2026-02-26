@@ -1,0 +1,142 @@
+================================================================================
+SCRAPE LOG: https://www.secmentis.com/egypt/penetration-testing
+Started: 2026-01-30 01:34:03
+Session ID: SCRAPE_20260130_013403_2ED9
+================================================================================
+[01:34:03.719] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_013403_secmentis.com.log
+[01:34:03.719] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[01:34:04.073] [INFO ] 
+[01:34:04.073] [INFO ]     🚀 BROWSER LAUNCHED
+[01:34:04.073] [INFO ]     ├─ Mode:       Headless
+[01:34:04.073] [INFO ]     ├─ Slow Mo:    52ms
+[01:34:04.073] [INFO ]     ├─ Launch Time: 0.06s
+[01:34:04.073] [INFO ]     └─ Args:       Anti-automation flags enabled
+[01:34:04.090] [DEBUG] Browser profile: viewport={'width': 1600, 'height': 900}, locale=en-CA, tz=UTC
+[01:34:04.090] [INFO ] 
+[01:34:04.090] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:34:04.090] [INFO ] ║  📋 SESSION: SCRAPE_20260130_013403_2ED9
+[01:34:04.090] [INFO ] ║  🌐 URL: https://www.secmentis.com/egypt/penetration-testing
+[01:34:04.090] [INFO ] ║  🔄 ATTEMPT: 1/2
+[01:34:04.090] [INFO ] ║  ⏰ STARTED: 2026-01-30T01:34:04.090977+02:00 (Egypt Time)
+[01:34:04.090] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:34:04.090] [INFO ] 
+[01:34:04.090] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[01:34:04.090] [INFO ]     │ Browser:     CHROME v120
+[01:34:04.091] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[01:34:04.091] [INFO ]     │ Viewport:    1600x900
+[01:34:04.091] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[01:34:04.091] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[01:34:04.091] [INFO ]     │ Location:    Vancouver, Canada
+[01:34:04.091] [INFO ]     │ Timezone:    N/A
+[01:34:04.091] [INFO ]     │ Locale:      en-CA
+[01:34:04.091] [INFO ]     │ Geo:         0, 0
+[01:34:04.091] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[01:34:04.091] [INFO ]     │ Proxy:       Direct (no proxy)
+[01:34:04.091] [INFO ]     │ Referrer:    https://news.google.com/
+[01:34:04.091] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:34:04.091] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:34:04.091] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[01:34:04.091] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:34:04.091] [INFO ] 
+[01:34:04.091] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[01:34:04.091] [INFO ]     ├─ Canvas fingerprint noise
+[01:34:04.091] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:34:04.091] [INFO ]     ├─ Hardware concurrency randomization
+[01:34:04.091] [INFO ]     ├─ Device memory randomization
+[01:34:04.091] [INFO ]     ├─ Plugin masking
+[01:34:04.091] [INFO ]     ├─ WebRTC IP leak protection
+[01:34:04.091] [INFO ]     ├─ Network connection spoof
+[01:34:04.091] [INFO ]     └─ Battery API spoof
+[01:34:04.134] [INFO ] 
+[01:34:04.134] [INFO ]     🥷 STEALTH MODE APPLIED
+[01:34:04.134] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[01:34:04.134] [INFO ]     ├─ Chrome runtime patches
+[01:34:04.134] [INFO ]     ├─ Console patches
+[01:34:04.134] [INFO ]     └─ Permission patches
+[01:34:04.134] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[01:34:04.134] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:34:04.134] [INFO ] 
+[01:34:04.134] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[01:34:04.134] [INFO ]     ├─ Canvas fingerprint noise
+[01:34:04.134] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:34:04.134] [INFO ]     ├─ Hardware concurrency randomization
+[01:34:04.134] [INFO ]     ├─ Device memory randomization
+[01:34:04.134] [INFO ]     ├─ Plugin masking
+[01:34:04.134] [INFO ]     ├─ WebRTC IP leak protection
+[01:34:04.134] [INFO ]     ├─ Network connection spoof
+[01:34:04.134] [INFO ]     └─ Battery API spoof
+[01:34:04.134] [DEBUG] Enabled resource blocking (images, media, fonts)
+[01:34:04.134] [INFO ] 
+[01:34:04.134] [INFO ]     🔗 NAVIGATING TO URL
+[01:34:04.134] [INFO ]     ├─ Strategy:   domcontentloaded
+[01:34:04.134] [INFO ]     ├─ Timeout:    15.0s
+[01:34:04.134] [INFO ]     └─ Sleep:      1s after load
+[01:34:05.090] [INFO ] 
+[01:34:05.090] [INFO ]     ✅ PAGE LOADED
+[01:34:05.090] [INFO ]     ├─ Final URL:  https://www.secmentis.com/egypt/penetration-testing
+[01:34:05.090] [INFO ]     ├─ Title:      Penetration Testing in Egypt (جمهورية مصر العربية) | Secmentis Egypt (جمهورية مصر العربية)
+[01:34:05.090] [INFO ]     └─ Load Time:  0.96s
+[01:35:37.007] [INFO ] ☁️ Cloudflare detected, waiting 0.0s...
+[01:35:37.007] [DEBUG] Enabled resource blocking (images, media, fonts)
+[01:35:37.007] [INFO ] 
+[01:35:37.007] [INFO ]     🔗 NAVIGATING TO URL
+[01:35:37.007] [INFO ]     ├─ Strategy:   load
+[01:35:37.007] [INFO ]     ├─ Timeout:    20.0s
+[01:35:37.007] [INFO ]     └─ Sleep:      1s after load
+[01:35:37.940] [INFO ] 
+[01:35:37.940] [INFO ]     ✅ PAGE LOADED
+[01:35:37.940] [INFO ]     ├─ Final URL:  https://www.secmentis.com/egypt/penetration-testing
+[01:35:37.940] [INFO ]     ├─ Title:      Penetration Testing in Egypt (جمهورية مصر العربية) | Secmentis Egypt (جمهورية مصر العربية)
+[01:35:37.940] [INFO ]     └─ Load Time:  0.93s
+[01:35:37.971] [INFO ] 
+[01:35:37.971] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:35:37.971] [INFO ] ║  ⚠️  ERROR DETECTED
+[01:35:37.971] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:35:37.971] [INFO ] 
+[01:35:37.971] [INFO ]     ┌─ ERROR DETAILS ───────────────────────────────────────────────┐
+[01:35:37.971] [INFO ]     │ Error Type:       timeout
+[01:35:37.971] [INFO ]     │ Message:          Scrape timed out after 94.2s at stage: page_loaded...
+[01:35:37.971] [INFO ]     │
+[01:35:37.971] [INFO ]     │ Likely Ban:       ✅ No
+[01:35:37.971] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:35:37.971] [INFO ] 
+[01:35:37.971] [INFO ]     ┌─ PAGE STATE AT ERROR ────────────────────────────────────────┐
+[01:35:37.971] [INFO ]     │ Page URL:         https://www.secmentis.com/egypt/penetration-testing
+[01:35:37.971] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:35:37.971] [INFO ] 
+[01:35:37.971] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:35:37.971] [INFO ] 
+[01:35:37.971] [ERROR] ❌ timeout: Scrape timed out after 94.2s at stage: page_loaded
+[01:35:37.971] [INFO ] 
+[01:35:37.971] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:35:37.971] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260130_013403_2ED9
+[01:35:37.971] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:35:37.971] [INFO ] 
+[01:35:37.971] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[01:35:37.971] [INFO ]     │ URL:              https://www.secmentis.com/egypt/penetration-testing
+[01:35:37.971] [INFO ]     │ Error Type:       timeout
+[01:35:37.971] [INFO ]     │ Likely Ban:       ❌ No
+[01:35:37.971] [INFO ]     │ Retries Used:     0
+[01:35:37.971] [INFO ]     │
+[01:35:37.971] [INFO ]     │ Error Message:
+[01:35:37.971] [INFO ]     │   Scrape timed out after 94.2s at stage: page_loaded
+[01:35:37.971] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:35:37.971] [INFO ] 
+[01:35:37.971] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[01:35:37.971] [INFO ]     │ Browser Launch:     0.06s
+[01:35:37.971] [INFO ]     │ Page Load:          0.93s
+[01:35:37.971] [INFO ]     │ Cloudflare Wait:    0.00s
+[01:35:37.971] [INFO ]     │ Human Simulation:   0.00s
+[01:35:37.971] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[01:35:37.971] [INFO ]     │ FAILED AT:          0.99s
+[01:35:37.971] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:35:37.971] [INFO ] 
+[01:35:37.971] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:35:37.971] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 94.25s
+ENDED: 2026-01-30T01:35:37.971683+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

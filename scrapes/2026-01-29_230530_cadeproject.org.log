@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://cadeproject.org/updates/title-egypt-activates-data-protection-law-with-implementing-regulations-after-five-year-delay/
+Started: 2026-01-29 23:05:30
+Session ID: SCRAPE_20260129_230530_0CCD
+================================================================================
+[23:05:30.194] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_230530_cadeproject.org.log
+[23:05:30.195] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[23:05:30.537] [INFO ] 
+[23:05:30.537] [INFO ]     🚀 BROWSER LAUNCHED
+[23:05:30.537] [INFO ]     ├─ Mode:       Headless
+[23:05:30.537] [INFO ]     ├─ Slow Mo:    58ms
+[23:05:30.537] [INFO ]     ├─ Launch Time: 0.06s
+[23:05:30.537] [INFO ]     └─ Args:       Anti-automation flags enabled
+[23:05:30.556] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-US, tz=UTC
+[23:05:30.556] [INFO ] 
+[23:05:30.556] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:05:30.556] [INFO ] ║  📋 SESSION: SCRAPE_20260129_230530_0CCD
+[23:05:30.556] [INFO ] ║  🌐 URL: https://cadeproject.org/updates/title-egypt-activates-data-protection-law-with-implementing-regulations-after-five-year-delay/
+[23:05:30.556] [INFO ] ║  🔄 ATTEMPT: 1/2
+[23:05:30.556] [INFO ] ║  ⏰ STARTED: 2026-01-29T23:05:30.556619+02:00 (Egypt Time)
+[23:05:30.556] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:05:30.556] [INFO ] 
+[23:05:30.556] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[23:05:30.556] [INFO ]     │ Browser:     SAFARI v17
+[23:05:30.556] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (...
+[23:05:30.556] [INFO ]     │ Viewport:    1920x1080
+[23:05:30.556] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[23:05:30.556] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[23:05:30.556] [INFO ]     │ Location:    Chicago, USA
+[23:05:30.556] [INFO ]     │ Timezone:    N/A
+[23:05:30.556] [INFO ]     │ Locale:      en-US
+[23:05:30.556] [INFO ]     │ Geo:         0, 0
+[23:05:30.556] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[23:05:30.556] [INFO ]     │ Proxy:       Direct (no proxy)
+[23:05:30.556] [INFO ]     │ Referrer:    https://www.google.com/
+[23:05:30.556] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:05:30.556] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:05:30.556] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[23:05:30.556] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:05:30.556] [INFO ] 
+[23:05:30.556] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[23:05:30.556] [INFO ]     ├─ Canvas fingerprint noise
+[23:05:30.556] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:05:30.556] [INFO ]     ├─ Hardware concurrency randomization
+[23:05:30.556] [INFO ]     ├─ Device memory randomization
+[23:05:30.556] [INFO ]     ├─ Plugin masking
+[23:05:30.556] [INFO ]     ├─ WebRTC IP leak protection
+[23:05:30.556] [INFO ]     ├─ Network connection spoof
+[23:05:30.556] [INFO ]     └─ Battery API spoof
+[23:05:30.599] [INFO ] 
+[23:05:30.599] [INFO ]     🥷 STEALTH MODE APPLIED
+[23:05:30.599] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[23:05:30.599] [INFO ]     ├─ Chrome runtime patches
+[23:05:30.599] [INFO ]     ├─ Console patches
+[23:05:30.599] [INFO ]     └─ Permission patches
+[23:05:30.599] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[23:05:30.599] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:05:30.599] [INFO ] 
+[23:05:30.599] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[23:05:30.599] [INFO ]     ├─ Canvas fingerprint noise
+[23:05:30.599] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:05:30.599] [INFO ]     ├─ Hardware concurrency randomization
+[23:05:30.599] [INFO ]     ├─ Device memory randomization
+[23:05:30.599] [INFO ]     ├─ Plugin masking
+[23:05:30.599] [INFO ]     ├─ WebRTC IP leak protection
+[23:05:30.599] [INFO ]     ├─ Network connection spoof
+[23:05:30.599] [INFO ]     └─ Battery API spoof
+[23:05:30.599] [DEBUG] Enabled resource blocking (images, media, fonts)
+[23:05:30.599] [INFO ] 
+[23:05:30.599] [INFO ]     🔗 NAVIGATING TO URL
+[23:05:30.599] [INFO ]     ├─ Strategy:   domcontentloaded
+[23:05:30.599] [INFO ]     ├─ Timeout:    15.0s
+[23:05:30.599] [INFO ]     └─ Sleep:      1s after load
+[23:05:32.511] [INFO ] 
+[23:05:32.511] [INFO ]     ✅ PAGE LOADED
+[23:05:32.511] [INFO ]     ├─ Final URL:  https://cadeproject.org/updates/title-egypt-activates-data-protection-law-with-implementing-regulations-after-five-year-delay/
+[23:05:32.511] [INFO ]     ├─ Title:      Egypt implements data protection law - CADE – Civil Society Alliances for Digital Empowerment
+[23:05:32.511] [INFO ]     └─ Load Time:  1.91s
+[23:05:34.692] [INFO ] 🧑 Human behavior simulation...
+[23:05:39.006] [INFO ] 🖱️ Mouse: 2 moves in 1920x1080
+[23:05:39.007] [INFO ] 🖱️ Mouse completed: 2 moves
+[23:05:39.007] [INFO ] 📜 Scroll: page height, viewport=1080px
+[23:05:39.007] [INFO ] 📜 Scroll completed: 2 scrolls
+[23:05:39.007] [INFO ] 🧑 Human behavior completed in 4.3s ✓
+[23:05:39.007] [INFO ] 
+[23:05:39.007] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[23:05:39.007] [INFO ]     ├─ Mouse Movements: 2
+[23:05:39.007] [INFO ]     ├─ Scroll Actions:  2
+[23:05:39.007] [INFO ]     └─ Time Spent:      4.31s
+[23:05:39.460] [INFO ] 
+[23:05:39.460] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[23:05:39.460] [INFO ]     │ Title:            Egypt implements data protection law - CADE – Civi
+[23:05:39.460] [INFO ]     │ Final URL:        https://cadeproject.org/updates/title-egypt-activates-data-protection-law-with-implementing-regulations-after-five-year-delay/
+[23:05:39.460] [INFO ]     │ HTML Size:        1,432,946 bytes
+[23:05:39.460] [INFO ]     │ Text Size:        2,293 chars
+[23:05:39.460] [INFO ]     │ Word Count:       ~304 words
+[23:05:39.460] [INFO ]     │ Extraction:       trafilatura
+[23:05:39.460] [INFO ]     │ Has Article:      ✅ Yes
+[23:05:39.460] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:05:39.486] [INFO ] 
+[23:05:39.486] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:05:39.486] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_230530_0CCD
+[23:05:39.486] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:05:39.486] [INFO ] 
+[23:05:39.486] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[23:05:39.486] [INFO ]     │ Browser Launch:      0.06s
+[23:05:39.486] [INFO ]     │ Page Load:           1.91s
+[23:05:39.486] [INFO ]     │ Cloudflare Wait:     0.00s
+[23:05:39.486] [INFO ]     │ Human Simulation:    4.31s
+[23:05:39.486] [INFO ]     │
+[23:05:39.486] [INFO ]     │ Content Extraction:  0.18s
+[23:05:39.486] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[23:05:39.486] [INFO ]     │ TOTAL TIME:          6.46s
+[23:05:39.486] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:05:39.486] [INFO ] 
+[23:05:39.487] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[23:05:39.487] [INFO ]     │ Title:            Egypt implements data protection law - CADE – Civi
+[23:05:39.487] [INFO ]     │ Final URL:        https://cadeproject.org/updates/title-egypt-activates-data-protection-law-with-implementing-regulations-after-five-year-delay/
+[23:05:39.487] [INFO ]     │ HTML Size:        1,432,946 bytes
+[23:05:39.487] [INFO ]     │ Text Size:        2,293 chars
+[23:05:39.487] [INFO ]     │ Word Count:       ~304 words
+[23:05:39.487] [INFO ]     │ Extraction:       trafilatura
+[23:05:39.487] [INFO ]     │ Has Article:      ✅ Yes
+[23:05:39.487] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:05:39.487] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:05:39.487] [INFO ] ║  📊 SESSION STATS
+[23:05:39.487] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[23:05:39.487] [INFO ] ║  ├─ Popups Dismissed:   0
+[23:05:39.487] [INFO ] ║  ├─ Cloudflare:         Not detected
+[23:05:39.487] [INFO ] ║  └─ Proxy Used:         Direct
+[23:05:39.487] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:05:39.487] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 9.29s
+ENDED: 2026-01-29T23:05:39.487103+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

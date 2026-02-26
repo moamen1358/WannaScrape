@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://resourcehub.bakermckenzie.com/en/resources/global-financial-services-regulatory-guide/europe-middle-east-and-africa/egypt/topics/what-types-of-activities-require-a-license-in-your-jurisdiction
+Started: 2026-01-26 12:10:00
+Session ID: SCRAPE_20260126_121000_26B2
+================================================================================
+[12:10:00.303] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_121000_resourcehub.bakermckenzie.com.log
+[12:10:00.303] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:10:00.651] [INFO ] 
+[12:10:00.651] [INFO ]     🚀 BROWSER LAUNCHED
+[12:10:00.651] [INFO ]     ├─ Mode:       Headless
+[12:10:00.651] [INFO ]     ├─ Slow Mo:    50ms
+[12:10:00.651] [INFO ]     ├─ Launch Time: 0.06s
+[12:10:00.651] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:10:00.672] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-US, tz=UTC
+[12:10:00.672] [INFO ] 
+[12:10:00.672] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:10:00.672] [INFO ] ║  📋 SESSION: SCRAPE_20260126_121000_26B2
+[12:10:00.672] [INFO ] ║  🌐 URL: https://resourcehub.bakermckenzie.com/en/resources/global-financial-services-regulatory-guide/europe-middle-east-and-africa/egypt/topics/what-types-of-activities-require-a-license-in-your-jurisdiction
+[12:10:00.672] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:10:00.672] [INFO ] ║  ⏰ STARTED: 2026-01-26T12:10:00.672320+02:00 (Egypt Time)
+[12:10:00.672] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:10:00.672] [INFO ] 
+[12:10:00.672] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:10:00.672] [INFO ]     │ Browser:     EDGE v120
+[12:10:00.672] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[12:10:00.672] [INFO ]     │ Viewport:    1680x1050
+[12:10:00.672] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:10:00.672] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:10:00.672] [INFO ]     │ Location:    Miami, USA
+[12:10:00.672] [INFO ]     │ Timezone:    N/A
+[12:10:00.672] [INFO ]     │ Locale:      en-US
+[12:10:00.672] [INFO ]     │ Geo:         0, 0
+[12:10:00.672] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:10:00.672] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:10:00.672] [INFO ]     │ Referrer:    None
+[12:10:00.672] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:10:00.672] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:10:00.672] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:10:00.672] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:10:00.672] [INFO ] 
+[12:10:00.672] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:10:00.672] [INFO ]     ├─ Canvas fingerprint noise
+[12:10:00.672] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:10:00.672] [INFO ]     ├─ Hardware concurrency randomization
+[12:10:00.672] [INFO ]     ├─ Device memory randomization
+[12:10:00.672] [INFO ]     ├─ Plugin masking
+[12:10:00.672] [INFO ]     ├─ WebRTC IP leak protection
+[12:10:00.672] [INFO ]     ├─ Network connection spoof
+[12:10:00.672] [INFO ]     └─ Battery API spoof
+[12:10:00.715] [INFO ] 
+[12:10:00.715] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:10:00.715] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:10:00.715] [INFO ]     ├─ Chrome runtime patches
+[12:10:00.715] [INFO ]     ├─ Console patches
+[12:10:00.715] [INFO ]     └─ Permission patches
+[12:10:00.715] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:10:00.715] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:10:00.715] [INFO ] 
+[12:10:00.715] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:10:00.715] [INFO ]     ├─ Canvas fingerprint noise
+[12:10:00.715] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:10:00.715] [INFO ]     ├─ Hardware concurrency randomization
+[12:10:00.715] [INFO ]     ├─ Device memory randomization
+[12:10:00.715] [INFO ]     ├─ Plugin masking
+[12:10:00.715] [INFO ]     ├─ WebRTC IP leak protection
+[12:10:00.715] [INFO ]     ├─ Network connection spoof
+[12:10:00.715] [INFO ]     └─ Battery API spoof
+[12:10:00.715] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:10:00.715] [INFO ] 
+[12:10:00.715] [INFO ]     🔗 NAVIGATING TO URL
+[12:10:00.715] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:10:00.715] [INFO ]     ├─ Timeout:    15.0s
+[12:10:00.715] [INFO ]     └─ Sleep:      1s after load
+[12:10:02.355] [INFO ] 
+[12:10:02.355] [INFO ]     ✅ PAGE LOADED
+[12:10:02.355] [INFO ]     ├─ Final URL:  https://resourcehub.bakermckenzie.com/en/resources/global-financial-services-regulatory-guide/europe-middle-east-and-africa/egypt/topics/what-types-of-activities-require-a-license-in-your-jurisdiction
+[12:10:02.355] [INFO ]     ├─ Title:      3. What types of activities require a license in your jurisdiction? | Egypt | Global Financial Services Regulatory Guide | Baker McKenzie Resource Hub
+[12:10:02.355] [INFO ]     └─ Load Time:  1.64s
+[12:10:03.555] [INFO ] 🧑 Human behavior simulation...
+[12:10:07.152] [INFO ] 🖱️ Mouse: 2 moves in 1680x1050
+[12:10:07.152] [INFO ] 🖱️ Mouse completed: 2 moves
+[12:10:07.152] [INFO ] 📜 Scroll: page height, viewport=1050px
+[12:10:07.152] [INFO ] 📜 Scroll completed: 1 scrolls
+[12:10:07.152] [INFO ] 🧑 Human behavior completed in 3.6s ✓
+[12:10:07.152] [INFO ] 
+[12:10:07.152] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:10:07.152] [INFO ]     ├─ Mouse Movements: 2
+[12:10:07.152] [INFO ]     ├─ Scroll Actions:  1
+[12:10:07.152] [INFO ]     └─ Time Spent:      3.60s
+[12:10:07.335] [INFO ] 
+[12:10:07.335] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:10:07.335] [INFO ]     │ Title:            3. What types of activities require a license in y
+[12:10:07.335] [INFO ]     │ Final URL:        https://resourcehub.bakermckenzie.com/en/resources/global-financial-services-regulatory-guide/europe-middle-east-and-africa/egypt/topics/what-types-of-activities-require-a-license-in-your-jurisdiction
+[12:10:07.335] [INFO ]     │ HTML Size:        104,998 bytes
+[12:10:07.335] [INFO ]     │ Text Size:        2,399 chars
+[12:10:07.335] [INFO ]     │ Word Count:       ~368 words
+[12:10:07.335] [INFO ]     │ Extraction:       trafilatura
+[12:10:07.335] [INFO ]     │ Has Article:      ✅ Yes
+[12:10:07.335] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:10:07.359] [INFO ] 
+[12:10:07.359] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:10:07.359] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_121000_26B2
+[12:10:07.359] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:10:07.359] [INFO ] 
+[12:10:07.359] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:10:07.359] [INFO ]     │ Browser Launch:      0.06s
+[12:10:07.359] [INFO ]     │ Page Load:           1.64s
+[12:10:07.359] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:10:07.359] [INFO ]     │ Human Simulation:    3.60s
+[12:10:07.359] [INFO ]     │
+[12:10:07.359] [INFO ]     │ Content Extraction:  0.16s
+[12:10:07.359] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:10:07.359] [INFO ]     │ TOTAL TIME:          5.45s
+[12:10:07.359] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:10:07.359] [INFO ] 
+[12:10:07.359] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:10:07.359] [INFO ]     │ Title:            3. What types of activities require a license in y
+[12:10:07.359] [INFO ]     │ Final URL:        https://resourcehub.bakermckenzie.com/en/resources/global-financial-services-regulatory-guide/europe-middle-east-and-africa/egypt/topics/what-types-of-activities-require-a-license-in-your-jurisdiction
+[12:10:07.359] [INFO ]     │ HTML Size:        104,998 bytes
+[12:10:07.359] [INFO ]     │ Text Size:        2,399 chars
+[12:10:07.359] [INFO ]     │ Word Count:       ~368 words
+[12:10:07.359] [INFO ]     │ Extraction:       trafilatura
+[12:10:07.359] [INFO ]     │ Has Article:      ✅ Yes
+[12:10:07.359] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:10:07.359] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:10:07.359] [INFO ] ║  📊 SESSION STATS
+[12:10:07.359] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:10:07.359] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:10:07.359] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:10:07.359] [INFO ] ║  └─ Proxy Used:         Direct
+[12:10:07.359] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:10:07.359] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.06s
+ENDED: 2026-01-26T12:10:07.359924+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

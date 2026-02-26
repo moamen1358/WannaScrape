@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.optiv.com/services/strategy/cmmc
+Started: 2026-01-29 20:32:56
+Session ID: SCRAPE_20260129_203256_58FC
+================================================================================
+[20:32:56.126] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_203256_optiv.com.log
+[20:32:56.126] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[20:32:56.464] [INFO ] 
+[20:32:56.464] [INFO ]     🚀 BROWSER LAUNCHED
+[20:32:56.464] [INFO ]     ├─ Mode:       Headless
+[20:32:56.464] [INFO ]     ├─ Slow Mo:    55ms
+[20:32:56.464] [INFO ]     ├─ Launch Time: 0.05s
+[20:32:56.464] [INFO ]     └─ Args:       Anti-automation flags enabled
+[20:32:56.481] [DEBUG] Browser profile: viewport={'width': 1600, 'height': 900}, locale=en-US, tz=UTC
+[20:32:56.481] [INFO ] 
+[20:32:56.481] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:32:56.481] [INFO ] ║  📋 SESSION: SCRAPE_20260129_203256_58FC
+[20:32:56.481] [INFO ] ║  🌐 URL: https://www.optiv.com/services/strategy/cmmc
+[20:32:56.481] [INFO ] ║  🔄 ATTEMPT: 1/2
+[20:32:56.481] [INFO ] ║  ⏰ STARTED: 2026-01-29T20:32:56.481190+02:00 (Egypt Time)
+[20:32:56.481] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:32:56.481] [INFO ] 
+[20:32:56.481] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[20:32:56.481] [INFO ]     │ Browser:     CHROME v121
+[20:32:56.481] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[20:32:56.481] [INFO ]     │ Viewport:    1600x900
+[20:32:56.481] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[20:32:56.481] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[20:32:56.481] [INFO ]     │ Location:    Miami, USA
+[20:32:56.481] [INFO ]     │ Timezone:    N/A
+[20:32:56.481] [INFO ]     │ Locale:      en-US
+[20:32:56.481] [INFO ]     │ Geo:         0, 0
+[20:32:56.481] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[20:32:56.481] [INFO ]     │ Proxy:       Direct (no proxy)
+[20:32:56.481] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+optiv+com
+[20:32:56.481] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:32:56.481] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:32:56.481] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[20:32:56.481] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:32:56.481] [INFO ] 
+[20:32:56.481] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[20:32:56.481] [INFO ]     ├─ Canvas fingerprint noise
+[20:32:56.481] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:32:56.481] [INFO ]     ├─ Hardware concurrency randomization
+[20:32:56.481] [INFO ]     ├─ Device memory randomization
+[20:32:56.481] [INFO ]     ├─ Plugin masking
+[20:32:56.481] [INFO ]     ├─ WebRTC IP leak protection
+[20:32:56.481] [INFO ]     ├─ Network connection spoof
+[20:32:56.481] [INFO ]     └─ Battery API spoof
+[20:32:56.522] [INFO ] 
+[20:32:56.522] [INFO ]     🥷 STEALTH MODE APPLIED
+[20:32:56.522] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[20:32:56.522] [INFO ]     ├─ Chrome runtime patches
+[20:32:56.522] [INFO ]     ├─ Console patches
+[20:32:56.522] [INFO ]     └─ Permission patches
+[20:32:56.522] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[20:32:56.522] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:32:56.522] [INFO ] 
+[20:32:56.522] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[20:32:56.522] [INFO ]     ├─ Canvas fingerprint noise
+[20:32:56.522] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:32:56.522] [INFO ]     ├─ Hardware concurrency randomization
+[20:32:56.522] [INFO ]     ├─ Device memory randomization
+[20:32:56.522] [INFO ]     ├─ Plugin masking
+[20:32:56.522] [INFO ]     ├─ WebRTC IP leak protection
+[20:32:56.522] [INFO ]     ├─ Network connection spoof
+[20:32:56.522] [INFO ]     └─ Battery API spoof
+[20:32:56.522] [DEBUG] Enabled resource blocking (images, media, fonts)
+[20:32:56.522] [INFO ] 
+[20:32:56.522] [INFO ]     🔗 NAVIGATING TO URL
+[20:32:56.522] [INFO ]     ├─ Strategy:   domcontentloaded
+[20:32:56.522] [INFO ]     ├─ Timeout:    15.0s
+[20:32:56.522] [INFO ]     └─ Sleep:      1s after load
+[20:32:59.166] [INFO ] 
+[20:32:59.166] [INFO ]     ✅ PAGE LOADED
+[20:32:59.166] [INFO ]     ├─ Final URL:  https://www.optiv.com/services/strategy/cmmc
+[20:32:59.166] [INFO ]     ├─ Title:      CMMC Compliance & Requirements | Readiness Support | Optiv
+[20:32:59.166] [INFO ]     └─ Load Time:  2.64s
+[20:33:00.706] [INFO ] 🧑 Human behavior simulation...
+[20:33:04.745] [INFO ] 🖱️ Mouse: 2 moves in 1600x900
+[20:33:04.745] [INFO ] 🖱️ Mouse completed: 2 moves
+[20:33:04.745] [INFO ] 📜 Scroll: page height, viewport=900px
+[20:33:04.745] [INFO ] 📜 Scroll completed: 1 scrolls
+[20:33:04.745] [INFO ] 🧑 Human behavior completed in 4.0s ✓
+[20:33:04.745] [INFO ] 
+[20:33:04.745] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[20:33:04.745] [INFO ]     ├─ Mouse Movements: 2
+[20:33:04.745] [INFO ]     ├─ Scroll Actions:  1
+[20:33:04.745] [INFO ]     └─ Time Spent:      4.04s
+[20:33:06.444] [INFO ] 
+[20:33:06.444] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:33:06.444] [INFO ]     │ Title:            CMMC Compliance
+[20:33:06.444] [INFO ]     │ Final URL:        https://www.optiv.com/services/strategy/cmmc
+[20:33:06.444] [INFO ]     │ HTML Size:        995,348 bytes
+[20:33:06.444] [INFO ]     │ Text Size:        7,345 chars
+[20:33:06.444] [INFO ]     │ Word Count:       ~1098 words
+[20:33:06.444] [INFO ]     │ Extraction:       trafilatura
+[20:33:06.444] [INFO ]     │ Has Article:      ✅ Yes
+[20:33:06.444] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:33:06.482] [INFO ] 
+[20:33:06.482] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:33:06.482] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_203256_58FC
+[20:33:06.482] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:33:06.482] [INFO ] 
+[20:33:06.482] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[20:33:06.482] [INFO ]     │ Browser Launch:      0.05s
+[20:33:06.482] [INFO ]     │ Page Load:           2.64s
+[20:33:06.482] [INFO ]     │ Cloudflare Wait:     0.00s
+[20:33:06.482] [INFO ]     │ Human Simulation:    4.04s
+[20:33:06.482] [INFO ]     │
+[20:33:06.482] [INFO ]     │ Content Extraction:  1.51s
+[20:33:06.482] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[20:33:06.482] [INFO ]     │ TOTAL TIME:          8.24s
+[20:33:06.482] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:33:06.482] [INFO ] 
+[20:33:06.482] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:33:06.482] [INFO ]     │ Title:            CMMC Compliance
+[20:33:06.482] [INFO ]     │ Final URL:        https://www.optiv.com/services/strategy/cmmc
+[20:33:06.482] [INFO ]     │ HTML Size:        995,348 bytes
+[20:33:06.482] [INFO ]     │ Text Size:        7,345 chars
+[20:33:06.482] [INFO ]     │ Word Count:       ~1098 words
+[20:33:06.482] [INFO ]     │ Extraction:       trafilatura
+[20:33:06.482] [INFO ]     │ Has Article:      ✅ Yes
+[20:33:06.482] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:33:06.482] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:33:06.482] [INFO ] ║  📊 SESSION STATS
+[20:33:06.482] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[20:33:06.482] [INFO ] ║  ├─ Popups Dismissed:   0
+[20:33:06.482] [INFO ] ║  ├─ Cloudflare:         Not detected
+[20:33:06.482] [INFO ] ║  └─ Proxy Used:         Direct
+[20:33:06.482] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:33:06.482] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.36s
+ENDED: 2026-01-29T20:33:06.482992+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

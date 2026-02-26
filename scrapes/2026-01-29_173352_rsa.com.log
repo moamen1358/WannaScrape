@@ -1,0 +1,204 @@
+================================================================================
+SCRAPE LOG: https://www.rsa.com/resources/solution-briefs/nist-cybersecurity-framework/
+Started: 2026-01-29 17:33:52
+Session ID: SCRAPE_20260129_173352_679F
+================================================================================
+[17:33:52.127] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_173352_rsa.com.log
+[17:33:52.127] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[17:33:52.476] [INFO ] 
+[17:33:52.476] [INFO ]     🚀 BROWSER LAUNCHED
+[17:33:52.476] [INFO ]     ├─ Mode:       Headless
+[17:33:52.476] [INFO ]     ├─ Slow Mo:    53ms
+[17:33:52.476] [INFO ]     ├─ Launch Time: 0.07s
+[17:33:52.476] [INFO ]     └─ Args:       Anti-automation flags enabled
+[17:33:52.495] [DEBUG] Browser profile: viewport={'width': 1512, 'height': 982}, locale=en-US, tz=UTC
+[17:33:52.495] [INFO ] 
+[17:33:52.495] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:33:52.495] [INFO ] ║  📋 SESSION: SCRAPE_20260129_173352_679F
+[17:33:52.495] [INFO ] ║  🌐 URL: https://www.rsa.com/resources/solution-briefs/nist-cybersecurity-framework/
+[17:33:52.495] [INFO ] ║  🔄 ATTEMPT: 1/2
+[17:33:52.495] [INFO ] ║  ⏰ STARTED: 2026-01-29T17:33:52.495424+02:00 (Egypt Time)
+[17:33:52.495] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:33:52.495] [INFO ] 
+[17:33:52.495] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[17:33:52.495] [INFO ]     │ Browser:     OPERA v106
+[17:33:52.495] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[17:33:52.495] [INFO ]     │ Viewport:    1512x982
+[17:33:52.495] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[17:33:52.495] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[17:33:52.495] [INFO ]     │ Location:    Chicago, USA
+[17:33:52.495] [INFO ]     │ Timezone:    N/A
+[17:33:52.495] [INFO ]     │ Locale:      en-US
+[17:33:52.495] [INFO ]     │ Geo:         0, 0
+[17:33:52.495] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[17:33:52.495] [INFO ]     │ Proxy:       Direct (no proxy)
+[17:33:52.495] [INFO ]     │ Referrer:    https://news.google.com/
+[17:33:52.495] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:33:52.495] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:33:52.495] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[17:33:52.495] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:33:52.495] [INFO ] 
+[17:33:52.495] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[17:33:52.495] [INFO ]     ├─ Canvas fingerprint noise
+[17:33:52.495] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:33:52.495] [INFO ]     ├─ Hardware concurrency randomization
+[17:33:52.495] [INFO ]     ├─ Device memory randomization
+[17:33:52.495] [INFO ]     ├─ Plugin masking
+[17:33:52.495] [INFO ]     ├─ WebRTC IP leak protection
+[17:33:52.495] [INFO ]     ├─ Network connection spoof
+[17:33:52.495] [INFO ]     └─ Battery API spoof
+[17:33:52.538] [INFO ] 
+[17:33:52.538] [INFO ]     🥷 STEALTH MODE APPLIED
+[17:33:52.538] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[17:33:52.538] [INFO ]     ├─ Chrome runtime patches
+[17:33:52.538] [INFO ]     ├─ Console patches
+[17:33:52.538] [INFO ]     └─ Permission patches
+[17:33:52.538] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[17:33:52.538] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:33:52.538] [INFO ] 
+[17:33:52.538] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[17:33:52.538] [INFO ]     ├─ Canvas fingerprint noise
+[17:33:52.538] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:33:52.538] [INFO ]     ├─ Hardware concurrency randomization
+[17:33:52.538] [INFO ]     ├─ Device memory randomization
+[17:33:52.538] [INFO ]     ├─ Plugin masking
+[17:33:52.538] [INFO ]     ├─ WebRTC IP leak protection
+[17:33:52.538] [INFO ]     ├─ Network connection spoof
+[17:33:52.538] [INFO ]     └─ Battery API spoof
+[17:33:52.538] [DEBUG] Enabled resource blocking (images, media, fonts)
+[17:33:52.538] [INFO ] 
+[17:33:52.538] [INFO ]     🔗 NAVIGATING TO URL
+[17:33:52.538] [INFO ]     ├─ Strategy:   domcontentloaded
+[17:33:52.538] [INFO ]     ├─ Timeout:    15.0s
+[17:33:52.538] [INFO ]     └─ Sleep:      1s after load
+[17:33:54.666] [INFO ] 
+[17:33:54.666] [INFO ]     ✅ PAGE LOADED
+[17:33:54.666] [INFO ]     ├─ Final URL:  https://www.rsa.com/resources/solution-briefs/nist-cybersecurity-framework/
+[17:33:54.666] [INFO ]     ├─ Title:      NIST Cybersecurity Framework - RSA
+[17:33:54.666] [INFO ]     └─ Load Time:  2.13s
+[17:33:56.909] [INFO ] 🧑 Human behavior simulation...
+[17:33:58.066] [INFO ] 🖱️ Mouse: 1 moves in 1512x982
+[17:33:58.066] [INFO ] 🖱️ Mouse completed: 1 moves
+[17:33:58.066] [INFO ] 📜 Scroll: page height, viewport=982px
+[17:33:58.066] [INFO ] 📜 Scroll completed: 1 scrolls
+[17:33:58.066] [INFO ] 🧑 Human behavior completed in 1.2s ✓
+[17:33:58.066] [INFO ] 
+[17:33:58.066] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[17:33:58.066] [INFO ]     ├─ Mouse Movements: 1
+[17:33:58.066] [INFO ]     ├─ Scroll Actions:  1
+[17:33:58.066] [INFO ]     └─ Time Spent:      1.16s
+[17:34:05.150] [INFO ] 
+[17:34:05.150] [INFO ]     🚀 BROWSER LAUNCHED
+[17:34:05.150] [INFO ]     ├─ Mode:       Headless
+[17:34:05.150] [INFO ]     ├─ Slow Mo:    41ms
+[17:34:05.150] [INFO ]     ├─ Launch Time: 0.06s
+[17:34:05.150] [INFO ]     └─ Args:       Anti-automation flags enabled
+[17:34:05.169] [DEBUG] Browser profile: viewport={'width': 1280, 'height': 800}, locale=en-CA, tz=UTC
+[17:34:05.169] [INFO ] 
+[17:34:05.169] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:34:05.169] [INFO ] ║  📋 SESSION: SCRAPE_20260129_173352_679F
+[17:34:05.169] [INFO ] ║  🌐 URL: https://www.rsa.com/resources/solution-briefs/nist-cybersecurity-framework/
+[17:34:05.169] [INFO ] ║  🔄 ATTEMPT: 2/2
+[17:34:05.169] [INFO ] ║  ⏰ STARTED: 2026-01-29T17:34:05.169867+02:00 (Egypt Time)
+[17:34:05.169] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:34:05.169] [INFO ] 
+[17:34:05.169] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[17:34:05.169] [INFO ]     │ Browser:     CHROME v120
+[17:34:05.169] [INFO ]     │ User-Agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)...
+[17:34:05.169] [INFO ]     │ Viewport:    1280x800
+[17:34:05.169] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[17:34:05.169] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[17:34:05.169] [INFO ]     │ Location:    Toronto, Canada
+[17:34:05.169] [INFO ]     │ Timezone:    N/A
+[17:34:05.169] [INFO ]     │ Locale:      en-CA
+[17:34:05.169] [INFO ]     │ Geo:         0, 0
+[17:34:05.169] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[17:34:05.169] [INFO ]     │ Proxy:       Direct (no proxy)
+[17:34:05.169] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+rsa+com
+[17:34:05.169] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:34:05.169] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:34:05.169] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[17:34:05.169] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:34:05.169] [INFO ] 
+[17:34:05.169] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[17:34:05.169] [INFO ]     ├─ Canvas fingerprint noise
+[17:34:05.169] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:34:05.169] [INFO ]     ├─ Hardware concurrency randomization
+[17:34:05.169] [INFO ]     ├─ Device memory randomization
+[17:34:05.169] [INFO ]     ├─ Plugin masking
+[17:34:05.169] [INFO ]     ├─ WebRTC IP leak protection
+[17:34:05.169] [INFO ]     ├─ Network connection spoof
+[17:34:05.169] [INFO ]     └─ Battery API spoof
+[17:34:05.211] [INFO ] 
+[17:34:05.211] [INFO ]     🥷 STEALTH MODE APPLIED
+[17:34:05.211] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[17:34:05.211] [INFO ]     ├─ Chrome runtime patches
+[17:34:05.211] [INFO ]     ├─ Console patches
+[17:34:05.211] [INFO ]     └─ Permission patches
+[17:34:05.211] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[17:34:05.211] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:34:05.211] [INFO ] 
+[17:34:05.211] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[17:34:05.211] [INFO ]     ├─ Canvas fingerprint noise
+[17:34:05.211] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:34:05.211] [INFO ]     ├─ Hardware concurrency randomization
+[17:34:05.211] [INFO ]     ├─ Device memory randomization
+[17:34:05.211] [INFO ]     ├─ Plugin masking
+[17:34:05.211] [INFO ]     ├─ WebRTC IP leak protection
+[17:34:05.211] [INFO ]     ├─ Network connection spoof
+[17:34:05.211] [INFO ]     └─ Battery API spoof
+[17:34:05.211] [DEBUG] Enabled resource blocking (images, media, fonts)
+[17:34:05.211] [INFO ] 
+[17:34:05.211] [INFO ]     🔗 NAVIGATING TO URL
+[17:34:05.211] [INFO ]     ├─ Strategy:   domcontentloaded
+[17:34:05.211] [INFO ]     ├─ Timeout:    15.0s
+[17:34:05.211] [INFO ]     └─ Sleep:      1s after load
+[17:34:06.927] [INFO ] 
+[17:34:06.927] [INFO ]     ✅ PAGE LOADED
+[17:34:06.927] [INFO ]     ├─ Final URL:  https://www.rsa.com/resources/solution-briefs/nist-cybersecurity-framework/
+[17:34:06.927] [INFO ]     ├─ Title:      NIST Cybersecurity Framework - RSA
+[17:34:06.927] [INFO ]     └─ Load Time:  1.72s
+[17:34:08.689] [INFO ] 🧑 Human behavior simulation...
+[17:34:10.651] [INFO ] 🖱️ Mouse: 2 moves in 1280x800
+[17:34:10.651] [INFO ] 🖱️ Mouse completed: 2 moves
+[17:34:10.651] [INFO ] 📜 Scroll: page height, viewport=800px
+[17:34:10.651] [INFO ] 📜 Scroll completed: 1 scrolls
+[17:34:10.651] [INFO ] 🧑 Human behavior completed in 2.0s ✓
+[17:34:10.651] [INFO ] 
+[17:34:10.651] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[17:34:10.651] [INFO ]     ├─ Mouse Movements: 2
+[17:34:10.651] [INFO ]     ├─ Scroll Actions:  1
+[17:34:10.651] [INFO ]     └─ Time Spent:      1.96s
+[17:34:10.714] [INFO ] 
+[17:34:10.714] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:34:10.714] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260129_173352_679F
+[17:34:10.714] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:34:10.714] [INFO ] 
+[17:34:10.714] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[17:34:10.714] [INFO ]     │ URL:              https://www.rsa.com/resources/solution-briefs/nist-cybe
+[17:34:10.714] [INFO ]     │ Error Type:       unknown
+[17:34:10.714] [INFO ]     │ Likely Ban:       ❌ No
+[17:34:10.714] [INFO ]     │ Retries Used:     2
+[17:34:10.714] [INFO ]     │
+[17:34:10.714] [INFO ]     │ Error Message:
+[17:34:10.714] [INFO ]     │   Failed after 2 attempts. Last error: Unknown error
+[17:34:10.714] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:34:10.714] [INFO ] 
+[17:34:10.714] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[17:34:10.714] [INFO ]     │ Browser Launch:     0.06s
+[17:34:10.714] [INFO ]     │ Page Load:          1.72s
+[17:34:10.714] [INFO ]     │ Cloudflare Wait:    0.00s
+[17:34:10.714] [INFO ]     │ Human Simulation:   1.96s
+[17:34:10.714] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[17:34:10.714] [INFO ]     │ FAILED AT:          3.73s
+[17:34:10.714] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:34:10.714] [INFO ] 
+[17:34:10.714] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:34:10.714] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 18.59s
+ENDED: 2026-01-29T17:34:10.714215+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

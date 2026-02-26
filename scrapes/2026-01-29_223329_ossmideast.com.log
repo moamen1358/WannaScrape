@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://ossmideast.com/business-continuity-iso-22301/
+Started: 2026-01-29 22:33:29
+Session ID: SCRAPE_20260129_223329_84B7
+================================================================================
+[22:33:29.577] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_223329_ossmideast.com.log
+[22:33:29.577] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[22:33:29.922] [INFO ] 
+[22:33:29.922] [INFO ]     🚀 BROWSER LAUNCHED
+[22:33:29.922] [INFO ]     ├─ Mode:       Headless
+[22:33:29.922] [INFO ]     ├─ Slow Mo:    42ms
+[22:33:29.922] [INFO ]     ├─ Launch Time: 0.06s
+[22:33:29.922] [INFO ]     └─ Args:       Anti-automation flags enabled
+[22:33:29.940] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-CA, tz=UTC
+[22:33:29.940] [INFO ] 
+[22:33:29.940] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:33:29.940] [INFO ] ║  📋 SESSION: SCRAPE_20260129_223329_84B7
+[22:33:29.940] [INFO ] ║  🌐 URL: https://ossmideast.com/business-continuity-iso-22301/
+[22:33:29.940] [INFO ] ║  🔄 ATTEMPT: 1/2
+[22:33:29.940] [INFO ] ║  ⏰ STARTED: 2026-01-29T22:33:29.940360+02:00 (Egypt Time)
+[22:33:29.940] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:33:29.940] [INFO ] 
+[22:33:29.940] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[22:33:29.940] [INFO ]     │ Browser:     CHROME v122
+[22:33:29.940] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[22:33:29.940] [INFO ]     │ Viewport:    1920x1080
+[22:33:29.940] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[22:33:29.940] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[22:33:29.940] [INFO ]     │ Location:    Vancouver, Canada
+[22:33:29.940] [INFO ]     │ Timezone:    N/A
+[22:33:29.940] [INFO ]     │ Locale:      en-CA
+[22:33:29.940] [INFO ]     │ Geo:         0, 0
+[22:33:29.940] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[22:33:29.940] [INFO ]     │ Proxy:       Direct (no proxy)
+[22:33:29.940] [INFO ]     │ Referrer:    https://www.google.com/
+[22:33:29.940] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:33:29.940] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:33:29.940] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[22:33:29.940] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:33:29.940] [INFO ] 
+[22:33:29.940] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[22:33:29.940] [INFO ]     ├─ Canvas fingerprint noise
+[22:33:29.940] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:33:29.940] [INFO ]     ├─ Hardware concurrency randomization
+[22:33:29.940] [INFO ]     ├─ Device memory randomization
+[22:33:29.940] [INFO ]     ├─ Plugin masking
+[22:33:29.940] [INFO ]     ├─ WebRTC IP leak protection
+[22:33:29.940] [INFO ]     ├─ Network connection spoof
+[22:33:29.940] [INFO ]     └─ Battery API spoof
+[22:33:29.982] [INFO ] 
+[22:33:29.982] [INFO ]     🥷 STEALTH MODE APPLIED
+[22:33:29.982] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[22:33:29.982] [INFO ]     ├─ Chrome runtime patches
+[22:33:29.982] [INFO ]     ├─ Console patches
+[22:33:29.982] [INFO ]     └─ Permission patches
+[22:33:29.982] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[22:33:29.982] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:33:29.982] [INFO ] 
+[22:33:29.982] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[22:33:29.982] [INFO ]     ├─ Canvas fingerprint noise
+[22:33:29.982] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:33:29.982] [INFO ]     ├─ Hardware concurrency randomization
+[22:33:29.982] [INFO ]     ├─ Device memory randomization
+[22:33:29.982] [INFO ]     ├─ Plugin masking
+[22:33:29.982] [INFO ]     ├─ WebRTC IP leak protection
+[22:33:29.982] [INFO ]     ├─ Network connection spoof
+[22:33:29.982] [INFO ]     └─ Battery API spoof
+[22:33:29.982] [DEBUG] Enabled resource blocking (images, media, fonts)
+[22:33:29.982] [INFO ] 
+[22:33:29.982] [INFO ]     🔗 NAVIGATING TO URL
+[22:33:29.982] [INFO ]     ├─ Strategy:   domcontentloaded
+[22:33:29.982] [INFO ]     ├─ Timeout:    15.0s
+[22:33:29.982] [INFO ]     └─ Sleep:      1s after load
+[22:33:33.399] [INFO ] 
+[22:33:33.399] [INFO ]     ✅ PAGE LOADED
+[22:33:33.399] [INFO ]     ├─ Final URL:  https://ossmideast.com/business-continuity-iso-22301/
+[22:33:33.399] [INFO ]     ├─ Title:      Business Continuity - ISO 22301 - OSS Middle East Certification
+[22:33:33.399] [INFO ]     └─ Load Time:  3.42s
+[22:33:35.963] [INFO ] 🧑 Human behavior simulation...
+[22:33:40.211] [INFO ] 🖱️ Mouse: 3 moves in 1920x1080
+[22:33:40.211] [INFO ] 🖱️ Mouse completed: 3 moves
+[22:33:40.211] [INFO ] 📜 Scroll: page height, viewport=1080px
+[22:33:40.211] [INFO ] 📜 Scroll completed: 1 scrolls
+[22:33:40.211] [INFO ] 🧑 Human behavior completed in 4.2s ✓
+[22:33:40.211] [INFO ] 
+[22:33:40.211] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[22:33:40.211] [INFO ]     ├─ Mouse Movements: 3
+[22:33:40.211] [INFO ]     ├─ Scroll Actions:  1
+[22:33:40.211] [INFO ]     └─ Time Spent:      4.25s
+[22:33:40.397] [INFO ] 
+[22:33:40.397] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:33:40.397] [INFO ]     │ Title:            Business Continuity - ISO 22301 - OSS Middle East 
+[22:33:40.397] [INFO ]     │ Final URL:        https://ossmideast.com/business-continuity-iso-22301/
+[22:33:40.397] [INFO ]     │ HTML Size:        197,635 bytes
+[22:33:40.397] [INFO ]     │ Text Size:        5,364 chars
+[22:33:40.397] [INFO ]     │ Word Count:       ~782 words
+[22:33:40.397] [INFO ]     │ Extraction:       trafilatura
+[22:33:40.397] [INFO ]     │ Has Article:      ✅ Yes
+[22:33:40.397] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:33:40.432] [INFO ] 
+[22:33:40.432] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:33:40.432] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_223329_84B7
+[22:33:40.432] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:33:40.432] [INFO ] 
+[22:33:40.432] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[22:33:40.432] [INFO ]     │ Browser Launch:      0.06s
+[22:33:40.432] [INFO ]     │ Page Load:           3.42s
+[22:33:40.432] [INFO ]     │ Cloudflare Wait:     0.00s
+[22:33:40.432] [INFO ]     │ Human Simulation:    4.25s
+[22:33:40.432] [INFO ]     │
+[22:33:40.432] [INFO ]     │ Content Extraction:  0.06s
+[22:33:40.432] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[22:33:40.432] [INFO ]     │ TOTAL TIME:          7.78s
+[22:33:40.432] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:33:40.432] [INFO ] 
+[22:33:40.432] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:33:40.432] [INFO ]     │ Title:            Business Continuity - ISO 22301 - OSS Middle East 
+[22:33:40.432] [INFO ]     │ Final URL:        https://ossmideast.com/business-continuity-iso-22301/
+[22:33:40.432] [INFO ]     │ HTML Size:        197,635 bytes
+[22:33:40.432] [INFO ]     │ Text Size:        5,364 chars
+[22:33:40.432] [INFO ]     │ Word Count:       ~782 words
+[22:33:40.432] [INFO ]     │ Extraction:       trafilatura
+[22:33:40.432] [INFO ]     │ Has Article:      ✅ Yes
+[22:33:40.432] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:33:40.432] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:33:40.432] [INFO ] ║  📊 SESSION STATS
+[22:33:40.432] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[22:33:40.432] [INFO ] ║  ├─ Popups Dismissed:   0
+[22:33:40.432] [INFO ] ║  ├─ Cloudflare:         Not detected
+[22:33:40.432] [INFO ] ║  └─ Proxy Used:         Direct
+[22:33:40.432] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:33:40.432] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.85s
+ENDED: 2026-01-29T22:33:40.432397+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

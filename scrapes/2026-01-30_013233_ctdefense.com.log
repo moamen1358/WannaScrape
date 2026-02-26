@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://ctdefense.com/pentesting-services-in-egypt/
+Started: 2026-01-30 01:32:33
+Session ID: SCRAPE_20260130_013233_EE90
+================================================================================
+[01:32:33.715] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_013233_ctdefense.com.log
+[01:32:33.715] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[01:32:34.059] [INFO ] 
+[01:32:34.059] [INFO ]     🚀 BROWSER LAUNCHED
+[01:32:34.059] [INFO ]     ├─ Mode:       Headless
+[01:32:34.059] [INFO ]     ├─ Slow Mo:    55ms
+[01:32:34.059] [INFO ]     ├─ Launch Time: 0.06s
+[01:32:34.059] [INFO ]     └─ Args:       Anti-automation flags enabled
+[01:32:34.075] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-GB, tz=UTC
+[01:32:34.075] [INFO ] 
+[01:32:34.075] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:32:34.075] [INFO ] ║  📋 SESSION: SCRAPE_20260130_013233_EE90
+[01:32:34.075] [INFO ] ║  🌐 URL: https://ctdefense.com/pentesting-services-in-egypt/
+[01:32:34.075] [INFO ] ║  🔄 ATTEMPT: 1/2
+[01:32:34.075] [INFO ] ║  ⏰ STARTED: 2026-01-30T01:32:34.075906+02:00 (Egypt Time)
+[01:32:34.075] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:32:34.075] [INFO ] 
+[01:32:34.075] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[01:32:34.075] [INFO ]     │ Browser:     FIREFOX v125
+[01:32:34.075] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Fir...
+[01:32:34.075] [INFO ]     │ Viewport:    2560x1440
+[01:32:34.075] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[01:32:34.075] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[01:32:34.075] [INFO ]     │ Location:    London, UK
+[01:32:34.075] [INFO ]     │ Timezone:    N/A
+[01:32:34.075] [INFO ]     │ Locale:      en-GB
+[01:32:34.075] [INFO ]     │ Geo:         0, 0
+[01:32:34.075] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[01:32:34.075] [INFO ]     │ Proxy:       Direct (no proxy)
+[01:32:34.075] [INFO ]     │ Referrer:    https://www.google.com/search?q=ctdefense+com
+[01:32:34.075] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:32:34.075] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:32:34.075] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[01:32:34.075] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:32:34.076] [INFO ] 
+[01:32:34.076] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[01:32:34.076] [INFO ]     ├─ Canvas fingerprint noise
+[01:32:34.076] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:32:34.076] [INFO ]     ├─ Hardware concurrency randomization
+[01:32:34.076] [INFO ]     ├─ Device memory randomization
+[01:32:34.076] [INFO ]     ├─ Plugin masking
+[01:32:34.076] [INFO ]     ├─ WebRTC IP leak protection
+[01:32:34.076] [INFO ]     ├─ Network connection spoof
+[01:32:34.076] [INFO ]     └─ Battery API spoof
+[01:32:34.118] [INFO ] 
+[01:32:34.118] [INFO ]     🥷 STEALTH MODE APPLIED
+[01:32:34.118] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[01:32:34.118] [INFO ]     ├─ Chrome runtime patches
+[01:32:34.118] [INFO ]     ├─ Console patches
+[01:32:34.118] [INFO ]     └─ Permission patches
+[01:32:34.118] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[01:32:34.118] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:32:34.118] [INFO ] 
+[01:32:34.118] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[01:32:34.118] [INFO ]     ├─ Canvas fingerprint noise
+[01:32:34.118] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:32:34.118] [INFO ]     ├─ Hardware concurrency randomization
+[01:32:34.118] [INFO ]     ├─ Device memory randomization
+[01:32:34.118] [INFO ]     ├─ Plugin masking
+[01:32:34.118] [INFO ]     ├─ WebRTC IP leak protection
+[01:32:34.118] [INFO ]     ├─ Network connection spoof
+[01:32:34.118] [INFO ]     └─ Battery API spoof
+[01:32:34.118] [DEBUG] Enabled resource blocking (images, media, fonts)
+[01:32:34.118] [INFO ] 
+[01:32:34.118] [INFO ]     🔗 NAVIGATING TO URL
+[01:32:34.118] [INFO ]     ├─ Strategy:   domcontentloaded
+[01:32:34.118] [INFO ]     ├─ Timeout:    15.0s
+[01:32:34.118] [INFO ]     └─ Sleep:      1s after load
+[01:32:35.787] [INFO ] 
+[01:32:35.787] [INFO ]     ✅ PAGE LOADED
+[01:32:35.787] [INFO ]     ├─ Final URL:  https://ctdefense.com/pentesting-services-in-egypt/
+[01:32:35.787] [INFO ]     ├─ Title:      Pentesting services in Egypt – Cyber Threat Defense
+[01:32:35.787] [INFO ]     └─ Load Time:  1.67s
+[01:32:37.213] [INFO ] 🧑 Human behavior simulation...
+[01:32:41.336] [INFO ] 🖱️ Mouse: 2 moves in 2560x1440
+[01:32:41.336] [INFO ] 🖱️ Mouse completed: 2 moves
+[01:32:41.336] [INFO ] 📜 Scroll: page height, viewport=1440px
+[01:32:41.336] [INFO ] 📜 Scroll completed: 1 scrolls
+[01:32:41.336] [INFO ] 🧑 Human behavior completed in 4.1s ✓
+[01:32:41.336] [INFO ] 
+[01:32:41.336] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[01:32:41.336] [INFO ]     ├─ Mouse Movements: 2
+[01:32:41.336] [INFO ]     ├─ Scroll Actions:  1
+[01:32:41.336] [INFO ]     └─ Time Spent:      4.12s
+[01:32:41.495] [INFO ] 
+[01:32:41.495] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[01:32:41.495] [INFO ]     │ Title:            Pentesting services in Egypt
+[01:32:41.495] [INFO ]     │ Final URL:        https://ctdefense.com/pentesting-services-in-egypt/
+[01:32:41.495] [INFO ]     │ HTML Size:        89,857 bytes
+[01:32:41.495] [INFO ]     │ Text Size:        737 chars
+[01:32:41.495] [INFO ]     │ Word Count:       ~119 words
+[01:32:41.495] [INFO ]     │ Extraction:       trafilatura
+[01:32:41.495] [INFO ]     │ Has Article:      ✅ Yes
+[01:32:41.495] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:32:41.527] [INFO ] 
+[01:32:41.527] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:32:41.527] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260130_013233_EE90
+[01:32:41.527] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:32:41.527] [INFO ] 
+[01:32:41.527] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[01:32:41.527] [INFO ]     │ Browser Launch:      0.06s
+[01:32:41.527] [INFO ]     │ Page Load:           1.67s
+[01:32:41.527] [INFO ]     │ Cloudflare Wait:     0.00s
+[01:32:41.527] [INFO ]     │ Human Simulation:    4.12s
+[01:32:41.527] [INFO ]     │
+[01:32:41.527] [INFO ]     │ Content Extraction:  0.08s
+[01:32:41.527] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[01:32:41.527] [INFO ]     │ TOTAL TIME:          5.93s
+[01:32:41.527] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:32:41.527] [INFO ] 
+[01:32:41.527] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[01:32:41.527] [INFO ]     │ Title:            Pentesting services in Egypt
+[01:32:41.527] [INFO ]     │ Final URL:        https://ctdefense.com/pentesting-services-in-egypt/
+[01:32:41.527] [INFO ]     │ HTML Size:        89,857 bytes
+[01:32:41.527] [INFO ]     │ Text Size:        737 chars
+[01:32:41.527] [INFO ]     │ Word Count:       ~119 words
+[01:32:41.527] [INFO ]     │ Extraction:       trafilatura
+[01:32:41.527] [INFO ]     │ Has Article:      ✅ Yes
+[01:32:41.527] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:32:41.527] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:32:41.527] [INFO ] ║  📊 SESSION STATS
+[01:32:41.527] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[01:32:41.527] [INFO ] ║  ├─ Popups Dismissed:   0
+[01:32:41.527] [INFO ] ║  ├─ Cloudflare:         Not detected
+[01:32:41.527] [INFO ] ║  └─ Proxy Used:         Direct
+[01:32:41.527] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:32:41.527] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.81s
+ENDED: 2026-01-30T01:32:41.527913+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

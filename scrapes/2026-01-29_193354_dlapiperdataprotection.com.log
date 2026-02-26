@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.dlapiperdataprotection.com/?t=law&c=EG
+Started: 2026-01-29 19:33:54
+Session ID: SCRAPE_20260129_193354_2109
+================================================================================
+[19:33:54.838] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_193354_dlapiperdataprotection.com.log
+[19:33:54.838] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[19:33:55.182] [INFO ] 
+[19:33:55.182] [INFO ]     🚀 BROWSER LAUNCHED
+[19:33:55.182] [INFO ]     ├─ Mode:       Headless
+[19:33:55.182] [INFO ]     ├─ Slow Mo:    57ms
+[19:33:55.182] [INFO ]     ├─ Launch Time: 0.06s
+[19:33:55.182] [INFO ]     └─ Args:       Anti-automation flags enabled
+[19:33:55.198] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-SG, tz=UTC
+[19:33:55.198] [INFO ] 
+[19:33:55.198] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:33:55.198] [INFO ] ║  📋 SESSION: SCRAPE_20260129_193354_2109
+[19:33:55.198] [INFO ] ║  🌐 URL: https://www.dlapiperdataprotection.com/?t=law&c=EG
+[19:33:55.198] [INFO ] ║  🔄 ATTEMPT: 1/2
+[19:33:55.198] [INFO ] ║  ⏰ STARTED: 2026-01-29T19:33:55.198190+02:00 (Egypt Time)
+[19:33:55.198] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:33:55.198] [INFO ] 
+[19:33:55.198] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[19:33:55.198] [INFO ]     │ Browser:     OPERA v106
+[19:33:55.198] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[19:33:55.198] [INFO ]     │ Viewport:    1680x1050
+[19:33:55.198] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[19:33:55.198] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[19:33:55.198] [INFO ]     │ Location:    Singapore
+[19:33:55.198] [INFO ]     │ Timezone:    N/A
+[19:33:55.198] [INFO ]     │ Locale:      en-SG
+[19:33:55.198] [INFO ]     │ Geo:         0, 0
+[19:33:55.198] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[19:33:55.198] [INFO ]     │ Proxy:       Direct (no proxy)
+[19:33:55.198] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+dlapiperdataprotection+com
+[19:33:55.198] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:33:55.198] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:33:55.198] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[19:33:55.198] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:33:55.198] [INFO ] 
+[19:33:55.198] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[19:33:55.198] [INFO ]     ├─ Canvas fingerprint noise
+[19:33:55.198] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:33:55.198] [INFO ]     ├─ Hardware concurrency randomization
+[19:33:55.198] [INFO ]     ├─ Device memory randomization
+[19:33:55.198] [INFO ]     ├─ Plugin masking
+[19:33:55.198] [INFO ]     ├─ WebRTC IP leak protection
+[19:33:55.198] [INFO ]     ├─ Network connection spoof
+[19:33:55.198] [INFO ]     └─ Battery API spoof
+[19:33:55.240] [INFO ] 
+[19:33:55.240] [INFO ]     🥷 STEALTH MODE APPLIED
+[19:33:55.240] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[19:33:55.240] [INFO ]     ├─ Chrome runtime patches
+[19:33:55.240] [INFO ]     ├─ Console patches
+[19:33:55.240] [INFO ]     └─ Permission patches
+[19:33:55.240] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[19:33:55.240] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:33:55.240] [INFO ] 
+[19:33:55.240] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[19:33:55.240] [INFO ]     ├─ Canvas fingerprint noise
+[19:33:55.240] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:33:55.240] [INFO ]     ├─ Hardware concurrency randomization
+[19:33:55.240] [INFO ]     ├─ Device memory randomization
+[19:33:55.240] [INFO ]     ├─ Plugin masking
+[19:33:55.240] [INFO ]     ├─ WebRTC IP leak protection
+[19:33:55.240] [INFO ]     ├─ Network connection spoof
+[19:33:55.240] [INFO ]     └─ Battery API spoof
+[19:33:55.240] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:33:55.240] [INFO ] 
+[19:33:55.240] [INFO ]     🔗 NAVIGATING TO URL
+[19:33:55.240] [INFO ]     ├─ Strategy:   domcontentloaded
+[19:33:55.240] [INFO ]     ├─ Timeout:    15.0s
+[19:33:55.240] [INFO ]     └─ Sleep:      1s after load
+[19:33:56.258] [INFO ] 
+[19:33:56.258] [INFO ]     ✅ PAGE LOADED
+[19:33:56.258] [INFO ]     ├─ Final URL:  https://www.dlapiperdataprotection.com/?t=law&c=EG
+[19:33:56.258] [INFO ]     ├─ Title:      Data protection laws in Egypt - Data Protection Laws of the World
+[19:33:56.258] [INFO ]     └─ Load Time:  1.02s
+[19:33:57.591] [INFO ] 🧑 Human behavior simulation...
+[19:34:03.731] [INFO ] 🖱️ Mouse: 3 moves in 1680x1050
+[19:34:03.731] [INFO ] 🖱️ Mouse completed: 3 moves
+[19:34:03.731] [INFO ] 📜 Scroll: page height, viewport=1050px
+[19:34:03.731] [INFO ] 📜 Scroll completed: 3 scrolls
+[19:34:03.731] [INFO ] 🧑 Human behavior completed in 6.1s ✓
+[19:34:03.731] [INFO ] 
+[19:34:03.731] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[19:34:03.731] [INFO ]     ├─ Mouse Movements: 3
+[19:34:03.731] [INFO ]     ├─ Scroll Actions:  3
+[19:34:03.731] [INFO ]     └─ Time Spent:      6.14s
+[19:34:04.004] [INFO ] 
+[19:34:04.004] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:34:04.004] [INFO ]     │ Title:            Data Protection in Egypt
+[19:34:04.004] [INFO ]     │ Final URL:        https://www.dlapiperdataprotection.com/?t=law&c=EG
+[19:34:04.004] [INFO ]     │ HTML Size:        287,522 bytes
+[19:34:04.004] [INFO ]     │ Text Size:        19,427 chars
+[19:34:04.004] [INFO ]     │ Word Count:       ~3071 words
+[19:34:04.004] [INFO ]     │ Extraction:       trafilatura
+[19:34:04.004] [INFO ]     │ Has Article:      ✅ Yes
+[19:34:04.004] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:34:04.031] [INFO ] 
+[19:34:04.031] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:34:04.031] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_193354_2109
+[19:34:04.031] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:34:04.031] [INFO ] 
+[19:34:04.031] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[19:34:04.031] [INFO ]     │ Browser Launch:      0.06s
+[19:34:04.031] [INFO ]     │ Page Load:           1.02s
+[19:34:04.031] [INFO ]     │ Cloudflare Wait:     0.00s
+[19:34:04.031] [INFO ]     │ Human Simulation:    6.14s
+[19:34:04.031] [INFO ]     │
+[19:34:04.031] [INFO ]     │ Content Extraction:  0.21s
+[19:34:04.031] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[19:34:04.031] [INFO ]     │ TOTAL TIME:          7.42s
+[19:34:04.031] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:34:04.031] [INFO ] 
+[19:34:04.032] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:34:04.032] [INFO ]     │ Title:            Data Protection in Egypt
+[19:34:04.032] [INFO ]     │ Final URL:        https://www.dlapiperdataprotection.com/?t=law&c=EG
+[19:34:04.032] [INFO ]     │ HTML Size:        287,522 bytes
+[19:34:04.032] [INFO ]     │ Text Size:        19,427 chars
+[19:34:04.032] [INFO ]     │ Word Count:       ~3071 words
+[19:34:04.032] [INFO ]     │ Extraction:       trafilatura
+[19:34:04.032] [INFO ]     │ Has Article:      ✅ Yes
+[19:34:04.032] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:34:04.032] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:34:04.032] [INFO ] ║  📊 SESSION STATS
+[19:34:04.032] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[19:34:04.032] [INFO ] ║  ├─ Popups Dismissed:   0
+[19:34:04.032] [INFO ] ║  ├─ Cloudflare:         Not detected
+[19:34:04.032] [INFO ] ║  └─ Proxy Used:         Direct
+[19:34:04.032] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:34:04.032] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 9.19s
+ENDED: 2026-01-29T19:34:04.032314+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

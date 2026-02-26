@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://fra.gov.eg/en/fra_news/%D8%A7%D9%84%D8%B1%D9%82%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AA%D9%88%D8%A7%D9%81%D9%82-%D9%84%D9%80-5-%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%BA/
+Started: 2026-01-26 12:06:31
+Session ID: SCRAPE_20260126_120631_D303
+================================================================================
+[12:06:31.493] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_120631_fra.gov.eg.log
+[12:06:31.493] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:06:31.838] [INFO ] 
+[12:06:31.838] [INFO ]     🚀 BROWSER LAUNCHED
+[12:06:31.838] [INFO ]     ├─ Mode:       Headless
+[12:06:31.838] [INFO ]     ├─ Slow Mo:    42ms
+[12:06:31.838] [INFO ]     ├─ Launch Time: 0.06s
+[12:06:31.838] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:06:31.856] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-AU, tz=UTC
+[12:06:31.857] [INFO ] 
+[12:06:31.857] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:06:31.857] [INFO ] ║  📋 SESSION: SCRAPE_20260126_120631_D303
+[12:06:31.857] [INFO ] ║  🌐 URL: https://fra.gov.eg/en/fra_news/%D8%A7%D9%84%D8%B1%D9%82%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AA%D9%88%D8%A7%D9%81%D9%82-%D9%84%D9%80-5-%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%BA/
+[12:06:31.857] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:06:31.857] [INFO ] ║  ⏰ STARTED: 2026-01-26T12:06:31.857028+02:00 (Egypt Time)
+[12:06:31.857] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:06:31.857] [INFO ] 
+[12:06:31.857] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:06:31.857] [INFO ]     │ Browser:     FIREFOX v125
+[12:06:31.857] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Fir...
+[12:06:31.857] [INFO ]     │ Viewport:    1920x1080
+[12:06:31.857] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:06:31.857] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:06:31.857] [INFO ]     │ Location:    Melbourne, Australia
+[12:06:31.857] [INFO ]     │ Timezone:    N/A
+[12:06:31.857] [INFO ]     │ Locale:      en-AU
+[12:06:31.857] [INFO ]     │ Geo:         0, 0
+[12:06:31.857] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:06:31.857] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:06:31.857] [INFO ]     │ Referrer:    https://t.co/
+[12:06:31.857] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:06:31.857] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:06:31.857] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:06:31.857] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:06:31.857] [INFO ] 
+[12:06:31.857] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:06:31.857] [INFO ]     ├─ Canvas fingerprint noise
+[12:06:31.857] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:06:31.857] [INFO ]     ├─ Hardware concurrency randomization
+[12:06:31.857] [INFO ]     ├─ Device memory randomization
+[12:06:31.857] [INFO ]     ├─ Plugin masking
+[12:06:31.857] [INFO ]     ├─ WebRTC IP leak protection
+[12:06:31.857] [INFO ]     ├─ Network connection spoof
+[12:06:31.857] [INFO ]     └─ Battery API spoof
+[12:06:31.898] [INFO ] 
+[12:06:31.898] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:06:31.898] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:06:31.898] [INFO ]     ├─ Chrome runtime patches
+[12:06:31.898] [INFO ]     ├─ Console patches
+[12:06:31.898] [INFO ]     └─ Permission patches
+[12:06:31.898] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:06:31.898] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:06:31.898] [INFO ] 
+[12:06:31.898] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:06:31.898] [INFO ]     ├─ Canvas fingerprint noise
+[12:06:31.898] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:06:31.898] [INFO ]     ├─ Hardware concurrency randomization
+[12:06:31.898] [INFO ]     ├─ Device memory randomization
+[12:06:31.898] [INFO ]     ├─ Plugin masking
+[12:06:31.898] [INFO ]     ├─ WebRTC IP leak protection
+[12:06:31.898] [INFO ]     ├─ Network connection spoof
+[12:06:31.898] [INFO ]     └─ Battery API spoof
+[12:06:31.898] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:06:31.898] [INFO ] 
+[12:06:31.898] [INFO ]     🔗 NAVIGATING TO URL
+[12:06:31.898] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:06:31.898] [INFO ]     ├─ Timeout:    15.0s
+[12:06:31.898] [INFO ]     └─ Sleep:      1s after load
+[12:06:34.968] [INFO ] 
+[12:06:34.968] [INFO ]     ✅ PAGE LOADED
+[12:06:34.968] [INFO ]     ├─ Final URL:  https://fra.gov.eg/en/fra_news/%D8%A7%D9%84%D8%B1%D9%82%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AA%D9%88%D8%A7%D9%81%D9%82-%D9%84%D9%80-5-%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%BA/
+[12:06:34.968] [INFO ]     ├─ Title:      FRA Grants FinTech Operating License to Five Non-Banking Firms – Tuesday 18 march 2025 – الهيئة العامة للرقابة المالية
+[12:06:34.968] [INFO ]     └─ Load Time:  3.07s
+[12:06:36.175] [INFO ] 🧑 Human behavior simulation...
+[12:06:39.289] [INFO ] 🖱️ Mouse: 2 moves in 1920x1080
+[12:06:39.289] [INFO ] 🖱️ Mouse completed: 2 moves
+[12:06:39.289] [INFO ] 📜 Scroll: page height, viewport=1080px
+[12:06:39.289] [INFO ] 📜 Scroll completed: 1 scrolls
+[12:06:39.289] [INFO ] 🧑 Human behavior completed in 3.1s ✓
+[12:06:39.289] [INFO ] 
+[12:06:39.289] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:06:39.289] [INFO ]     ├─ Mouse Movements: 2
+[12:06:39.289] [INFO ]     ├─ Scroll Actions:  1
+[12:06:39.289] [INFO ]     └─ Time Spent:      3.11s
+[12:06:39.399] [INFO ] 
+[12:06:39.399] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:06:39.399] [INFO ]     │ Title:            الهيئة العامة للرقابة المالية
+[12:06:39.399] [INFO ]     │ Final URL:        https://fra.gov.eg/en/fra_news/%D8%A7%D9%84%D8%B1%D9%82%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AA%D9%88%D8%A7%D9%81%D9%82-%D9%84%D9%80-5-%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%BA/
+[12:06:39.399] [INFO ]     │ HTML Size:        140,922 bytes
+[12:06:39.399] [INFO ]     │ Text Size:        3,031 chars
+[12:06:39.399] [INFO ]     │ Word Count:       ~417 words
+[12:06:39.399] [INFO ]     │ Extraction:       trafilatura
+[12:06:39.399] [INFO ]     │ Has Article:      ✅ Yes
+[12:06:39.399] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:06:39.429] [INFO ] 
+[12:06:39.429] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:06:39.429] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_120631_D303
+[12:06:39.429] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:06:39.429] [INFO ] 
+[12:06:39.429] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:06:39.429] [INFO ]     │ Browser Launch:      0.06s
+[12:06:39.429] [INFO ]     │ Page Load:           3.07s
+[12:06:39.429] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:06:39.429] [INFO ]     │ Human Simulation:    3.11s
+[12:06:39.429] [INFO ]     │
+[12:06:39.429] [INFO ]     │ Content Extraction:  0.08s
+[12:06:39.429] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:06:39.429] [INFO ]     │ TOTAL TIME:          6.32s
+[12:06:39.429] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:06:39.429] [INFO ] 
+[12:06:39.429] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:06:39.429] [INFO ]     │ Title:            الهيئة العامة للرقابة المالية
+[12:06:39.429] [INFO ]     │ Final URL:        https://fra.gov.eg/en/fra_news/%D8%A7%D9%84%D8%B1%D9%82%D8%A7%D8%A8%D8%A9-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%AA%D9%88%D8%A7%D9%81%D9%82-%D9%84%D9%80-5-%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D9%85%D8%A7%D9%84%D9%8A%D8%A9-%D8%BA/
+[12:06:39.429] [INFO ]     │ HTML Size:        140,922 bytes
+[12:06:39.429] [INFO ]     │ Text Size:        3,031 chars
+[12:06:39.429] [INFO ]     │ Word Count:       ~417 words
+[12:06:39.429] [INFO ]     │ Extraction:       trafilatura
+[12:06:39.429] [INFO ]     │ Has Article:      ✅ Yes
+[12:06:39.429] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:06:39.429] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:06:39.429] [INFO ] ║  📊 SESSION STATS
+[12:06:39.429] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:06:39.429] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:06:39.429] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:06:39.429] [INFO ] ║  └─ Proxy Used:         Direct
+[12:06:39.429] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:06:39.429] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.94s
+ENDED: 2026-01-26T12:06:39.429742+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

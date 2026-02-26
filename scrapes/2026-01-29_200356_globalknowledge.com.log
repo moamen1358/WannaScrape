@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.globalknowledge.com/en-eg/courses/iso/risk_and_governance/is27005lrm
+Started: 2026-01-29 20:03:56
+Session ID: SCRAPE_20260129_200356_5FBF
+================================================================================
+[20:03:56.114] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_200356_globalknowledge.com.log
+[20:03:56.114] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[20:03:56.460] [INFO ] 
+[20:03:56.460] [INFO ]     🚀 BROWSER LAUNCHED
+[20:03:56.460] [INFO ]     ├─ Mode:       Headless
+[20:03:56.460] [INFO ]     ├─ Slow Mo:    56ms
+[20:03:56.460] [INFO ]     ├─ Launch Time: 0.06s
+[20:03:56.460] [INFO ]     └─ Args:       Anti-automation flags enabled
+[20:03:56.474] [DEBUG] Browser profile: viewport={'width': 1728, 'height': 1117}, locale=en-US, tz=UTC
+[20:03:56.474] [INFO ] 
+[20:03:56.474] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:03:56.474] [INFO ] ║  📋 SESSION: SCRAPE_20260129_200356_5FBF
+[20:03:56.474] [INFO ] ║  🌐 URL: https://www.globalknowledge.com/en-eg/courses/iso/risk_and_governance/is27005lrm
+[20:03:56.474] [INFO ] ║  🔄 ATTEMPT: 1/2
+[20:03:56.474] [INFO ] ║  ⏰ STARTED: 2026-01-29T20:03:56.474931+02:00 (Egypt Time)
+[20:03:56.474] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:03:56.474] [INFO ] 
+[20:03:56.474] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[20:03:56.474] [INFO ]     │ Browser:     CHROME v121
+[20:03:56.474] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_1) AppleWebKit/537.36 (KHTML...
+[20:03:56.474] [INFO ]     │ Viewport:    1728x1117
+[20:03:56.474] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[20:03:56.474] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[20:03:56.474] [INFO ]     │ Location:    New York, USA
+[20:03:56.474] [INFO ]     │ Timezone:    N/A
+[20:03:56.474] [INFO ]     │ Locale:      en-US
+[20:03:56.474] [INFO ]     │ Geo:         0, 0
+[20:03:56.474] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[20:03:56.474] [INFO ]     │ Proxy:       Direct (no proxy)
+[20:03:56.475] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+globalknowledge+com
+[20:03:56.475] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:03:56.475] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:03:56.475] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[20:03:56.475] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:03:56.475] [INFO ] 
+[20:03:56.475] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[20:03:56.475] [INFO ]     ├─ Canvas fingerprint noise
+[20:03:56.475] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:03:56.475] [INFO ]     ├─ Hardware concurrency randomization
+[20:03:56.475] [INFO ]     ├─ Device memory randomization
+[20:03:56.475] [INFO ]     ├─ Plugin masking
+[20:03:56.475] [INFO ]     ├─ WebRTC IP leak protection
+[20:03:56.475] [INFO ]     ├─ Network connection spoof
+[20:03:56.475] [INFO ]     └─ Battery API spoof
+[20:03:56.517] [INFO ] 
+[20:03:56.517] [INFO ]     🥷 STEALTH MODE APPLIED
+[20:03:56.517] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[20:03:56.517] [INFO ]     ├─ Chrome runtime patches
+[20:03:56.517] [INFO ]     ├─ Console patches
+[20:03:56.517] [INFO ]     └─ Permission patches
+[20:03:56.517] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[20:03:56.517] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:03:56.517] [INFO ] 
+[20:03:56.517] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[20:03:56.517] [INFO ]     ├─ Canvas fingerprint noise
+[20:03:56.517] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:03:56.517] [INFO ]     ├─ Hardware concurrency randomization
+[20:03:56.517] [INFO ]     ├─ Device memory randomization
+[20:03:56.517] [INFO ]     ├─ Plugin masking
+[20:03:56.517] [INFO ]     ├─ WebRTC IP leak protection
+[20:03:56.517] [INFO ]     ├─ Network connection spoof
+[20:03:56.517] [INFO ]     └─ Battery API spoof
+[20:03:56.517] [DEBUG] Enabled resource blocking (images, media, fonts)
+[20:03:56.517] [INFO ] 
+[20:03:56.517] [INFO ]     🔗 NAVIGATING TO URL
+[20:03:56.517] [INFO ]     ├─ Strategy:   domcontentloaded
+[20:03:56.517] [INFO ]     ├─ Timeout:    15.0s
+[20:03:56.517] [INFO ]     └─ Sleep:      1s after load
+[20:04:05.092] [INFO ] 
+[20:04:05.092] [INFO ]     ✅ PAGE LOADED
+[20:04:05.092] [INFO ]     ├─ Final URL:  https://www.globalknowledge.com/en-eg/courses/iso/risk_and_governance/is27005lrm
+[20:04:05.092] [INFO ]     ├─ Title:      ISO/IEC 27005 Lead Risk Manager (PECB certified) + exam | Skillsoft Global Knowledge
+[20:04:05.092] [INFO ]     └─ Load Time:  8.58s
+[20:04:06.380] [INFO ] 🧑 Human behavior simulation...
+[20:04:10.742] [INFO ] 🖱️ Mouse: 2 moves in 1728x1117
+[20:04:10.742] [INFO ] 🖱️ Mouse completed: 2 moves
+[20:04:10.742] [INFO ] 📜 Scroll: page height, viewport=1117px
+[20:04:10.742] [INFO ] 📜 Scroll completed: 3 scrolls
+[20:04:10.742] [INFO ] 🧑 Human behavior completed in 4.4s ✓
+[20:04:10.742] [INFO ] 
+[20:04:10.742] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[20:04:10.742] [INFO ]     ├─ Mouse Movements: 2
+[20:04:10.742] [INFO ]     ├─ Scroll Actions:  3
+[20:04:10.742] [INFO ]     └─ Time Spent:      4.36s
+[20:04:10.932] [INFO ] 
+[20:04:10.932] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:04:10.932] [INFO ]     │ Title:            ISO/IEC 27005 Lead Risk Manager (PECB certified) +
+[20:04:10.932] [INFO ]     │ Final URL:        https://www.globalknowledge.com/en-eg/courses/iso/risk_and_governance/is27005lrm
+[20:04:10.932] [INFO ]     │ HTML Size:        320,208 bytes
+[20:04:10.932] [INFO ]     │ Text Size:        4,055 chars
+[20:04:10.932] [INFO ]     │ Word Count:       ~588 words
+[20:04:10.932] [INFO ]     │ Extraction:       trafilatura
+[20:04:10.932] [INFO ]     │ Has Article:      ✅ Yes
+[20:04:10.932] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:04:10.959] [INFO ] 
+[20:04:10.959] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:04:10.959] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_200356_5FBF
+[20:04:10.959] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:04:10.959] [INFO ] 
+[20:04:10.959] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[20:04:10.959] [INFO ]     │ Browser Launch:      0.06s
+[20:04:10.959] [INFO ]     │ Page Load:           8.58s
+[20:04:10.959] [INFO ]     │ Cloudflare Wait:     0.00s
+[20:04:10.959] [INFO ]     │ Human Simulation:    4.36s
+[20:04:10.959] [INFO ]     │
+[20:04:10.959] [INFO ]     │ Content Extraction:  0.12s
+[20:04:10.959] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[20:04:10.959] [INFO ]     │ TOTAL TIME:          13.12s
+[20:04:10.959] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:04:10.959] [INFO ] 
+[20:04:10.959] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:04:10.959] [INFO ]     │ Title:            ISO/IEC 27005 Lead Risk Manager (PECB certified) +
+[20:04:10.959] [INFO ]     │ Final URL:        https://www.globalknowledge.com/en-eg/courses/iso/risk_and_governance/is27005lrm
+[20:04:10.959] [INFO ]     │ HTML Size:        320,208 bytes
+[20:04:10.959] [INFO ]     │ Text Size:        4,055 chars
+[20:04:10.959] [INFO ]     │ Word Count:       ~588 words
+[20:04:10.959] [INFO ]     │ Extraction:       trafilatura
+[20:04:10.959] [INFO ]     │ Has Article:      ✅ Yes
+[20:04:10.959] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:04:10.959] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:04:10.959] [INFO ] ║  📊 SESSION STATS
+[20:04:10.960] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[20:04:10.960] [INFO ] ║  ├─ Popups Dismissed:   0
+[20:04:10.960] [INFO ] ║  ├─ Cloudflare:         Not detected
+[20:04:10.960] [INFO ] ║  └─ Proxy Used:         Direct
+[20:04:10.960] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:04:10.960] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 14.85s
+ENDED: 2026-01-29T20:04:10.960030+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

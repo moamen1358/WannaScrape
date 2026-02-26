@@ -1,0 +1,204 @@
+================================================================================
+SCRAPE LOG: https://www.reddit.com/r/hipaa/comments/1kjajjk/hipaa_for_overseas/
+Started: 2026-01-29 18:03:52
+Session ID: SCRAPE_20260129_180352_D43F
+================================================================================
+[18:03:52.663] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_180352_reddit.com.log
+[18:03:52.663] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[18:03:53.006] [INFO ] 
+[18:03:53.006] [INFO ]     🚀 BROWSER LAUNCHED
+[18:03:53.006] [INFO ]     ├─ Mode:       Headless
+[18:03:53.006] [INFO ]     ├─ Slow Mo:    50ms
+[18:03:53.006] [INFO ]     ├─ Launch Time: 0.06s
+[18:03:53.006] [INFO ]     └─ Args:       Anti-automation flags enabled
+[18:03:53.023] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-US, tz=UTC
+[18:03:53.023] [INFO ] 
+[18:03:53.023] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:03:53.023] [INFO ] ║  📋 SESSION: SCRAPE_20260129_180352_D43F
+[18:03:53.023] [INFO ] ║  🌐 URL: https://www.reddit.com/r/hipaa/comments/1kjajjk/hipaa_for_overseas/
+[18:03:53.023] [INFO ] ║  🔄 ATTEMPT: 1/2
+[18:03:53.023] [INFO ] ║  ⏰ STARTED: 2026-01-29T18:03:53.023546+02:00 (Egypt Time)
+[18:03:53.023] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:03:53.023] [INFO ] 
+[18:03:53.023] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[18:03:53.023] [INFO ]     │ Browser:     CHROME v120
+[18:03:53.023] [INFO ]     │ User-Agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)...
+[18:03:53.023] [INFO ]     │ Viewport:    1920x1080
+[18:03:53.023] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[18:03:53.023] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[18:03:53.023] [INFO ]     │ Location:    Miami, USA
+[18:03:53.023] [INFO ]     │ Timezone:    N/A
+[18:03:53.023] [INFO ]     │ Locale:      en-US
+[18:03:53.023] [INFO ]     │ Geo:         0, 0
+[18:03:53.023] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[18:03:53.023] [INFO ]     │ Proxy:       Direct (no proxy)
+[18:03:53.023] [INFO ]     │ Referrer:    None
+[18:03:53.023] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:03:53.023] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:03:53.023] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[18:03:53.023] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:03:53.023] [INFO ] 
+[18:03:53.023] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[18:03:53.023] [INFO ]     ├─ Canvas fingerprint noise
+[18:03:53.023] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:03:53.023] [INFO ]     ├─ Hardware concurrency randomization
+[18:03:53.023] [INFO ]     ├─ Device memory randomization
+[18:03:53.023] [INFO ]     ├─ Plugin masking
+[18:03:53.023] [INFO ]     ├─ WebRTC IP leak protection
+[18:03:53.023] [INFO ]     ├─ Network connection spoof
+[18:03:53.023] [INFO ]     └─ Battery API spoof
+[18:03:53.065] [INFO ] 
+[18:03:53.065] [INFO ]     🥷 STEALTH MODE APPLIED
+[18:03:53.065] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[18:03:53.065] [INFO ]     ├─ Chrome runtime patches
+[18:03:53.065] [INFO ]     ├─ Console patches
+[18:03:53.065] [INFO ]     └─ Permission patches
+[18:03:53.065] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[18:03:53.065] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:03:53.065] [INFO ] 
+[18:03:53.065] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[18:03:53.065] [INFO ]     ├─ Canvas fingerprint noise
+[18:03:53.065] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:03:53.065] [INFO ]     ├─ Hardware concurrency randomization
+[18:03:53.065] [INFO ]     ├─ Device memory randomization
+[18:03:53.065] [INFO ]     ├─ Plugin masking
+[18:03:53.065] [INFO ]     ├─ WebRTC IP leak protection
+[18:03:53.065] [INFO ]     ├─ Network connection spoof
+[18:03:53.065] [INFO ]     └─ Battery API spoof
+[18:03:53.065] [DEBUG] Enabled resource blocking (images, media, fonts)
+[18:03:53.065] [INFO ] 
+[18:03:53.065] [INFO ]     🔗 NAVIGATING TO URL
+[18:03:53.065] [INFO ]     ├─ Strategy:   domcontentloaded
+[18:03:53.065] [INFO ]     ├─ Timeout:    15.0s
+[18:03:53.065] [INFO ]     └─ Sleep:      1s after load
+[18:03:53.726] [INFO ] 
+[18:03:53.726] [INFO ]     ✅ PAGE LOADED
+[18:03:53.726] [INFO ]     ├─ Final URL:  https://www.reddit.com/r/hipaa/comments/1kjajjk/hipaa_for_overseas/
+[18:03:53.726] [INFO ]     ├─ Title:      
+[18:03:53.726] [INFO ]     └─ Load Time:  0.66s
+[18:03:54.935] [INFO ] 🧑 Human behavior simulation...
+[18:03:58.489] [INFO ] 🖱️ Mouse: 2 moves in 1920x1080
+[18:03:58.489] [INFO ] 🖱️ Mouse completed: 2 moves
+[18:03:58.489] [INFO ] 📜 Scroll: page height, viewport=1080px
+[18:03:58.490] [INFO ] 📜 Scroll completed: 2 scrolls
+[18:03:58.490] [INFO ] 🧑 Human behavior completed in 3.6s ✓
+[18:03:58.490] [INFO ] 
+[18:03:58.490] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[18:03:58.490] [INFO ]     ├─ Mouse Movements: 2
+[18:03:58.490] [INFO ]     ├─ Scroll Actions:  2
+[18:03:58.490] [INFO ]     └─ Time Spent:      3.55s
+[18:04:04.908] [INFO ] 
+[18:04:04.908] [INFO ]     🚀 BROWSER LAUNCHED
+[18:04:04.908] [INFO ]     ├─ Mode:       Headless
+[18:04:04.908] [INFO ]     ├─ Slow Mo:    48ms
+[18:04:04.908] [INFO ]     ├─ Launch Time: 0.06s
+[18:04:04.908] [INFO ]     └─ Args:       Anti-automation flags enabled
+[18:04:04.927] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-US, tz=UTC
+[18:04:04.927] [INFO ] 
+[18:04:04.927] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:04:04.927] [INFO ] ║  📋 SESSION: SCRAPE_20260129_180352_D43F
+[18:04:04.927] [INFO ] ║  🌐 URL: https://www.reddit.com/r/hipaa/comments/1kjajjk/hipaa_for_overseas/
+[18:04:04.927] [INFO ] ║  🔄 ATTEMPT: 2/2
+[18:04:04.927] [INFO ] ║  ⏰ STARTED: 2026-01-29T18:04:04.927218+02:00 (Egypt Time)
+[18:04:04.927] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:04:04.927] [INFO ] 
+[18:04:04.927] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[18:04:04.927] [INFO ]     │ Browser:     CHROME v125
+[18:04:04.927] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[18:04:04.927] [INFO ]     │ Viewport:    1920x1080
+[18:04:04.927] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[18:04:04.927] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[18:04:04.927] [INFO ]     │ Location:    San Francisco, USA
+[18:04:04.927] [INFO ]     │ Timezone:    N/A
+[18:04:04.927] [INFO ]     │ Locale:      en-US
+[18:04:04.927] [INFO ]     │ Geo:         0, 0
+[18:04:04.927] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[18:04:04.927] [INFO ]     │ Proxy:       Direct (no proxy)
+[18:04:04.927] [INFO ]     │ Referrer:    https://www.google.com/
+[18:04:04.927] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:04:04.927] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:04:04.927] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[18:04:04.927] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:04:04.927] [INFO ] 
+[18:04:04.927] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[18:04:04.927] [INFO ]     ├─ Canvas fingerprint noise
+[18:04:04.927] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:04:04.927] [INFO ]     ├─ Hardware concurrency randomization
+[18:04:04.927] [INFO ]     ├─ Device memory randomization
+[18:04:04.927] [INFO ]     ├─ Plugin masking
+[18:04:04.927] [INFO ]     ├─ WebRTC IP leak protection
+[18:04:04.927] [INFO ]     ├─ Network connection spoof
+[18:04:04.927] [INFO ]     └─ Battery API spoof
+[18:04:04.977] [INFO ] 
+[18:04:04.977] [INFO ]     🥷 STEALTH MODE APPLIED
+[18:04:04.977] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[18:04:04.977] [INFO ]     ├─ Chrome runtime patches
+[18:04:04.977] [INFO ]     ├─ Console patches
+[18:04:04.977] [INFO ]     └─ Permission patches
+[18:04:04.977] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[18:04:04.977] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:04:04.977] [INFO ] 
+[18:04:04.977] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[18:04:04.977] [INFO ]     ├─ Canvas fingerprint noise
+[18:04:04.977] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:04:04.977] [INFO ]     ├─ Hardware concurrency randomization
+[18:04:04.977] [INFO ]     ├─ Device memory randomization
+[18:04:04.977] [INFO ]     ├─ Plugin masking
+[18:04:04.977] [INFO ]     ├─ WebRTC IP leak protection
+[18:04:04.977] [INFO ]     ├─ Network connection spoof
+[18:04:04.977] [INFO ]     └─ Battery API spoof
+[18:04:04.977] [DEBUG] Enabled resource blocking (images, media, fonts)
+[18:04:04.977] [INFO ] 
+[18:04:04.977] [INFO ]     🔗 NAVIGATING TO URL
+[18:04:04.977] [INFO ]     ├─ Strategy:   domcontentloaded
+[18:04:04.977] [INFO ]     ├─ Timeout:    15.0s
+[18:04:04.977] [INFO ]     └─ Sleep:      1s after load
+[18:04:05.623] [INFO ] 
+[18:04:05.624] [INFO ]     ✅ PAGE LOADED
+[18:04:05.624] [INFO ]     ├─ Final URL:  https://www.reddit.com/r/hipaa/comments/1kjajjk/hipaa_for_overseas/
+[18:04:05.624] [INFO ]     ├─ Title:      
+[18:04:05.624] [INFO ]     └─ Load Time:  0.65s
+[18:04:06.832] [INFO ] 🧑 Human behavior simulation...
+[18:04:10.760] [INFO ] 🖱️ Mouse: 2 moves in 1920x1080
+[18:04:10.760] [INFO ] 🖱️ Mouse completed: 2 moves
+[18:04:10.760] [INFO ] 📜 Scroll: page height, viewport=1080px
+[18:04:10.760] [INFO ] 📜 Scroll completed: 1 scrolls
+[18:04:10.760] [INFO ] 🧑 Human behavior completed in 3.9s ✓
+[18:04:10.760] [INFO ] 
+[18:04:10.760] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[18:04:10.760] [INFO ]     ├─ Mouse Movements: 2
+[18:04:10.760] [INFO ]     ├─ Scroll Actions:  1
+[18:04:10.760] [INFO ]     └─ Time Spent:      3.93s
+[18:04:11.091] [INFO ] 
+[18:04:11.091] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:04:11.091] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260129_180352_D43F
+[18:04:11.091] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:04:11.091] [INFO ] 
+[18:04:11.091] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[18:04:11.091] [INFO ]     │ URL:              https://www.reddit.com/r/hipaa/comments/1kjajjk/hipaa_f
+[18:04:11.091] [INFO ]     │ Error Type:       unknown
+[18:04:11.091] [INFO ]     │ Likely Ban:       ❌ No
+[18:04:11.091] [INFO ]     │ Retries Used:     2
+[18:04:11.091] [INFO ]     │
+[18:04:11.091] [INFO ]     │ Error Message:
+[18:04:11.091] [INFO ]     │   Failed after 2 attempts. Last error: Unknown error
+[18:04:11.091] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:04:11.091] [INFO ] 
+[18:04:11.091] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[18:04:11.091] [INFO ]     │ Browser Launch:     0.06s
+[18:04:11.091] [INFO ]     │ Page Load:          0.65s
+[18:04:11.091] [INFO ]     │ Cloudflare Wait:    0.00s
+[18:04:11.091] [INFO ]     │ Human Simulation:   3.93s
+[18:04:11.091] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[18:04:11.091] [INFO ]     │ FAILED AT:          4.63s
+[18:04:11.091] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:04:11.091] [INFO ] 
+[18:04:11.091] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:04:11.091] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 18.43s
+ENDED: 2026-01-29T18:04:11.091338+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

@@ -1,0 +1,204 @@
+================================================================================
+SCRAPE LOG: https://globalswf.com/fund/SAMA
+Started: 2026-02-01 12:19:48
+Session ID: SCRAPE_20260201_121948_1001
+================================================================================
+[12:19:48.450] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-02-01_121948_globalswf.com.log
+[12:19:48.450] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:19:48.796] [INFO ] 
+[12:19:48.796] [INFO ]     🚀 BROWSER LAUNCHED
+[12:19:48.796] [INFO ]     ├─ Mode:       Headless
+[12:19:48.796] [INFO ]     ├─ Slow Mo:    48ms
+[12:19:48.796] [INFO ]     ├─ Launch Time: 0.06s
+[12:19:48.796] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:19:48.814] [DEBUG] Browser profile: viewport={'width': 1536, 'height': 864}, locale=en-GB, tz=UTC
+[12:19:48.814] [INFO ] 
+[12:19:48.814] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:19:48.814] [INFO ] ║  📋 SESSION: SCRAPE_20260201_121948_1001
+[12:19:48.814] [INFO ] ║  🌐 URL: https://globalswf.com/fund/SAMA
+[12:19:48.814] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:19:48.814] [INFO ] ║  ⏰ STARTED: 2026-02-01T12:19:48.814370+02:00 (Egypt Time)
+[12:19:48.814] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:19:48.814] [INFO ] 
+[12:19:48.814] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:19:48.814] [INFO ]     │ Browser:     CHROME v120
+[12:19:48.814] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[12:19:48.814] [INFO ]     │ Viewport:    1536x864
+[12:19:48.814] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:19:48.814] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:19:48.814] [INFO ]     │ Location:    Birmingham, UK
+[12:19:48.814] [INFO ]     │ Timezone:    N/A
+[12:19:48.814] [INFO ]     │ Locale:      en-GB
+[12:19:48.814] [INFO ]     │ Geo:         0, 0
+[12:19:48.814] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:19:48.814] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:19:48.814] [INFO ]     │ Referrer:    https://www.google.com/search?q=globalswf+com
+[12:19:48.814] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:19:48.814] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:19:48.814] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:19:48.814] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:19:48.814] [INFO ] 
+[12:19:48.814] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:19:48.814] [INFO ]     ├─ Canvas fingerprint noise
+[12:19:48.814] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:19:48.814] [INFO ]     ├─ Hardware concurrency randomization
+[12:19:48.814] [INFO ]     ├─ Device memory randomization
+[12:19:48.814] [INFO ]     ├─ Plugin masking
+[12:19:48.814] [INFO ]     ├─ WebRTC IP leak protection
+[12:19:48.814] [INFO ]     ├─ Network connection spoof
+[12:19:48.814] [INFO ]     └─ Battery API spoof
+[12:19:48.854] [INFO ] 
+[12:19:48.854] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:19:48.854] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:19:48.854] [INFO ]     ├─ Chrome runtime patches
+[12:19:48.854] [INFO ]     ├─ Console patches
+[12:19:48.854] [INFO ]     └─ Permission patches
+[12:19:48.854] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:19:48.854] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:19:48.854] [INFO ] 
+[12:19:48.854] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:19:48.854] [INFO ]     ├─ Canvas fingerprint noise
+[12:19:48.854] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:19:48.854] [INFO ]     ├─ Hardware concurrency randomization
+[12:19:48.854] [INFO ]     ├─ Device memory randomization
+[12:19:48.854] [INFO ]     ├─ Plugin masking
+[12:19:48.854] [INFO ]     ├─ WebRTC IP leak protection
+[12:19:48.854] [INFO ]     ├─ Network connection spoof
+[12:19:48.854] [INFO ]     └─ Battery API spoof
+[12:19:48.854] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:19:48.854] [INFO ] 
+[12:19:48.854] [INFO ]     🔗 NAVIGATING TO URL
+[12:19:48.854] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:19:48.854] [INFO ]     ├─ Timeout:    15.0s
+[12:19:48.854] [INFO ]     └─ Sleep:      1s after load
+[12:19:50.281] [INFO ] 
+[12:19:50.281] [INFO ]     ✅ PAGE LOADED
+[12:19:50.281] [INFO ]     ├─ Final URL:  https://globalswf.com/fund/SAMA
+[12:19:50.281] [INFO ]     ├─ Title:      SAMA (Saudi Arabia) - Fund Profile - Global SWF
+[12:19:50.281] [INFO ]     └─ Load Time:  1.43s
+[12:19:51.468] [INFO ] 🧑 Human behavior simulation...
+[12:19:54.112] [INFO ] 🖱️ Mouse: 1 moves in 1536x864
+[12:19:54.112] [INFO ] 🖱️ Mouse completed: 1 moves
+[12:19:54.112] [INFO ] 📜 Scroll: page height, viewport=864px
+[12:19:54.112] [INFO ] 📜 Scroll completed: 2 scrolls
+[12:19:54.112] [INFO ] 🧑 Human behavior completed in 2.6s ✓
+[12:19:54.112] [INFO ] 
+[12:19:54.112] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:19:54.112] [INFO ]     ├─ Mouse Movements: 1
+[12:19:54.112] [INFO ]     ├─ Scroll Actions:  2
+[12:19:54.112] [INFO ]     └─ Time Spent:      2.64s
+[12:20:01.038] [INFO ] 
+[12:20:01.038] [INFO ]     🚀 BROWSER LAUNCHED
+[12:20:01.038] [INFO ]     ├─ Mode:       Headless
+[12:20:01.038] [INFO ]     ├─ Slow Mo:    46ms
+[12:20:01.038] [INFO ]     ├─ Launch Time: 0.06s
+[12:20:01.038] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:20:01.055] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-GB, tz=UTC
+[12:20:01.055] [INFO ] 
+[12:20:01.055] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:20:01.055] [INFO ] ║  📋 SESSION: SCRAPE_20260201_121948_1001
+[12:20:01.055] [INFO ] ║  🌐 URL: https://globalswf.com/fund/SAMA
+[12:20:01.055] [INFO ] ║  🔄 ATTEMPT: 2/2
+[12:20:01.055] [INFO ] ║  ⏰ STARTED: 2026-02-01T12:20:01.055705+02:00 (Egypt Time)
+[12:20:01.055] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:20:01.055] [INFO ] 
+[12:20:01.055] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:20:01.055] [INFO ]     │ Browser:     CHROME v121
+[12:20:01.055] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_1) AppleWebKit/537.36 (KHTML...
+[12:20:01.055] [INFO ]     │ Viewport:    1680x1050
+[12:20:01.055] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:20:01.055] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:20:01.055] [INFO ]     │ Location:    Birmingham, UK
+[12:20:01.055] [INFO ]     │ Timezone:    N/A
+[12:20:01.055] [INFO ]     │ Locale:      en-GB
+[12:20:01.055] [INFO ]     │ Geo:         0, 0
+[12:20:01.055] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:20:01.055] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:20:01.055] [INFO ]     │ Referrer:    https://www.facebook.com/
+[12:20:01.055] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:01.055] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:20:01.055] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:20:01.055] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:20:01.055] [INFO ] 
+[12:20:01.055] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:20:01.055] [INFO ]     ├─ Canvas fingerprint noise
+[12:20:01.055] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:20:01.055] [INFO ]     ├─ Hardware concurrency randomization
+[12:20:01.055] [INFO ]     ├─ Device memory randomization
+[12:20:01.055] [INFO ]     ├─ Plugin masking
+[12:20:01.055] [INFO ]     ├─ WebRTC IP leak protection
+[12:20:01.055] [INFO ]     ├─ Network connection spoof
+[12:20:01.055] [INFO ]     └─ Battery API spoof
+[12:20:01.098] [INFO ] 
+[12:20:01.098] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:20:01.098] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:20:01.098] [INFO ]     ├─ Chrome runtime patches
+[12:20:01.098] [INFO ]     ├─ Console patches
+[12:20:01.098] [INFO ]     └─ Permission patches
+[12:20:01.098] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:20:01.098] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:20:01.098] [INFO ] 
+[12:20:01.098] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:20:01.098] [INFO ]     ├─ Canvas fingerprint noise
+[12:20:01.098] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:20:01.098] [INFO ]     ├─ Hardware concurrency randomization
+[12:20:01.098] [INFO ]     ├─ Device memory randomization
+[12:20:01.098] [INFO ]     ├─ Plugin masking
+[12:20:01.098] [INFO ]     ├─ WebRTC IP leak protection
+[12:20:01.098] [INFO ]     ├─ Network connection spoof
+[12:20:01.098] [INFO ]     └─ Battery API spoof
+[12:20:01.098] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:20:01.098] [INFO ] 
+[12:20:01.098] [INFO ]     🔗 NAVIGATING TO URL
+[12:20:01.098] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:20:01.098] [INFO ]     ├─ Timeout:    15.0s
+[12:20:01.098] [INFO ]     └─ Sleep:      1s after load
+[12:20:02.245] [INFO ] 
+[12:20:02.245] [INFO ]     ✅ PAGE LOADED
+[12:20:02.245] [INFO ]     ├─ Final URL:  https://globalswf.com/fund/SAMA
+[12:20:02.245] [INFO ]     ├─ Title:      SAMA (Saudi Arabia) - Fund Profile - Global SWF
+[12:20:02.245] [INFO ]     └─ Load Time:  1.15s
+[12:20:03.444] [INFO ] 🧑 Human behavior simulation...
+[12:20:05.925] [INFO ] 🖱️ Mouse: 1 moves in 1680x1050
+[12:20:05.925] [INFO ] 🖱️ Mouse completed: 1 moves
+[12:20:05.925] [INFO ] 📜 Scroll: page height, viewport=1050px
+[12:20:05.925] [INFO ] 📜 Scroll completed: 3 scrolls
+[12:20:05.925] [INFO ] 🧑 Human behavior completed in 2.5s ✓
+[12:20:05.925] [INFO ] 
+[12:20:05.925] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:20:05.925] [INFO ]     ├─ Mouse Movements: 1
+[12:20:05.926] [INFO ]     ├─ Scroll Actions:  3
+[12:20:05.926] [INFO ]     └─ Time Spent:      2.48s
+[12:20:05.997] [INFO ] 
+[12:20:05.998] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:20:05.998] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260201_121948_1001
+[12:20:05.998] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:20:05.998] [INFO ] 
+[12:20:05.998] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[12:20:05.998] [INFO ]     │ URL:              https://globalswf.com/fund/SAMA
+[12:20:05.998] [INFO ]     │ Error Type:       unknown
+[12:20:05.998] [INFO ]     │ Likely Ban:       ❌ No
+[12:20:05.998] [INFO ]     │ Retries Used:     2
+[12:20:05.998] [INFO ]     │
+[12:20:05.998] [INFO ]     │ Error Message:
+[12:20:05.998] [INFO ]     │   Failed after 2 attempts. Last error: Unknown error
+[12:20:05.998] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:05.998] [INFO ] 
+[12:20:05.998] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[12:20:05.998] [INFO ]     │ Browser Launch:     0.06s
+[12:20:05.998] [INFO ]     │ Page Load:          1.15s
+[12:20:05.998] [INFO ]     │ Cloudflare Wait:    0.00s
+[12:20:05.998] [INFO ]     │ Human Simulation:   2.48s
+[12:20:05.998] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:20:05.998] [INFO ]     │ FAILED AT:          3.69s
+[12:20:05.998] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:05.998] [INFO ] 
+[12:20:05.998] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:20:05.998] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 17.55s
+ENDED: 2026-02-01T12:20:05.998126+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

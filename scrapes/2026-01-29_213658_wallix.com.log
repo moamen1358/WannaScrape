@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.wallix.com/ot/ot-whitepaper/nis-nis2-directives/
+Started: 2026-01-29 21:36:58
+Session ID: SCRAPE_20260129_213658_55BD
+================================================================================
+[21:36:58.248] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_213658_wallix.com.log
+[21:36:58.248] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[21:36:58.589] [INFO ] 
+[21:36:58.589] [INFO ]     🚀 BROWSER LAUNCHED
+[21:36:58.589] [INFO ]     ├─ Mode:       Headless
+[21:36:58.589] [INFO ]     ├─ Slow Mo:    51ms
+[21:36:58.589] [INFO ]     ├─ Launch Time: 0.06s
+[21:36:58.589] [INFO ]     └─ Args:       Anti-automation flags enabled
+[21:36:58.607] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-GB, tz=UTC
+[21:36:58.607] [INFO ] 
+[21:36:58.607] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:36:58.607] [INFO ] ║  📋 SESSION: SCRAPE_20260129_213658_55BD
+[21:36:58.607] [INFO ] ║  🌐 URL: https://www.wallix.com/ot/ot-whitepaper/nis-nis2-directives/
+[21:36:58.607] [INFO ] ║  🔄 ATTEMPT: 1/2
+[21:36:58.607] [INFO ] ║  ⏰ STARTED: 2026-01-29T21:36:58.607489+02:00 (Egypt Time)
+[21:36:58.607] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:36:58.607] [INFO ] 
+[21:36:58.607] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[21:36:58.607] [INFO ]     │ Browser:     EDGE v120
+[21:36:58.607] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[21:36:58.607] [INFO ]     │ Viewport:    2560x1440
+[21:36:58.607] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[21:36:58.607] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[21:36:58.607] [INFO ]     │ Location:    London, UK
+[21:36:58.607] [INFO ]     │ Timezone:    N/A
+[21:36:58.607] [INFO ]     │ Locale:      en-GB
+[21:36:58.607] [INFO ]     │ Geo:         0, 0
+[21:36:58.607] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[21:36:58.607] [INFO ]     │ Proxy:       Direct (no proxy)
+[21:36:58.607] [INFO ]     │ Referrer:    https://news.google.com/
+[21:36:58.607] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:36:58.607] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:36:58.607] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[21:36:58.607] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:36:58.607] [INFO ] 
+[21:36:58.607] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[21:36:58.607] [INFO ]     ├─ Canvas fingerprint noise
+[21:36:58.607] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:36:58.607] [INFO ]     ├─ Hardware concurrency randomization
+[21:36:58.607] [INFO ]     ├─ Device memory randomization
+[21:36:58.607] [INFO ]     ├─ Plugin masking
+[21:36:58.607] [INFO ]     ├─ WebRTC IP leak protection
+[21:36:58.607] [INFO ]     ├─ Network connection spoof
+[21:36:58.607] [INFO ]     └─ Battery API spoof
+[21:36:58.649] [INFO ] 
+[21:36:58.649] [INFO ]     🥷 STEALTH MODE APPLIED
+[21:36:58.649] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[21:36:58.649] [INFO ]     ├─ Chrome runtime patches
+[21:36:58.649] [INFO ]     ├─ Console patches
+[21:36:58.649] [INFO ]     └─ Permission patches
+[21:36:58.649] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[21:36:58.649] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:36:58.649] [INFO ] 
+[21:36:58.649] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[21:36:58.649] [INFO ]     ├─ Canvas fingerprint noise
+[21:36:58.649] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:36:58.649] [INFO ]     ├─ Hardware concurrency randomization
+[21:36:58.649] [INFO ]     ├─ Device memory randomization
+[21:36:58.649] [INFO ]     ├─ Plugin masking
+[21:36:58.649] [INFO ]     ├─ WebRTC IP leak protection
+[21:36:58.649] [INFO ]     ├─ Network connection spoof
+[21:36:58.649] [INFO ]     └─ Battery API spoof
+[21:36:58.649] [DEBUG] Enabled resource blocking (images, media, fonts)
+[21:36:58.649] [INFO ] 
+[21:36:58.649] [INFO ]     🔗 NAVIGATING TO URL
+[21:36:58.649] [INFO ]     ├─ Strategy:   domcontentloaded
+[21:36:58.649] [INFO ]     ├─ Timeout:    15.0s
+[21:36:58.649] [INFO ]     └─ Sleep:      1s after load
+[21:37:02.348] [INFO ] 
+[21:37:02.348] [INFO ]     ✅ PAGE LOADED
+[21:37:02.348] [INFO ]     ├─ Final URL:  https://www.wallix.com/ot/ot-whitepaper/nis-nis2-directives/
+[21:37:02.348] [INFO ]     ├─ Title:      NIS/NIS2 directives - WALLIX
+[21:37:02.348] [INFO ]     └─ Load Time:  3.70s
+[21:37:04.568] [INFO ] 🧑 Human behavior simulation...
+[21:37:10.361] [INFO ] 🖱️ Mouse: 3 moves in 2560x1440
+[21:37:10.361] [INFO ] 🖱️ Mouse completed: 3 moves
+[21:37:10.361] [INFO ] 📜 Scroll: page height, viewport=1440px
+[21:37:10.361] [INFO ] 📜 Scroll completed: 1 scrolls
+[21:37:10.361] [INFO ] 🧑 Human behavior completed in 5.8s ✓
+[21:37:10.361] [INFO ] 
+[21:37:10.361] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[21:37:10.361] [INFO ]     ├─ Mouse Movements: 3
+[21:37:10.361] [INFO ]     ├─ Scroll Actions:  1
+[21:37:10.361] [INFO ]     └─ Time Spent:      5.79s
+[21:37:10.589] [INFO ] 
+[21:37:10.589] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:37:10.589] [INFO ]     │ Title:            NIS/NIS2 directives - WALLIX
+[21:37:10.589] [INFO ]     │ Final URL:        https://www.wallix.com/ot/ot-whitepaper/nis-nis2-directives/
+[21:37:10.589] [INFO ]     │ HTML Size:        200,451 bytes
+[21:37:10.589] [INFO ]     │ Text Size:        2,015 chars
+[21:37:10.589] [INFO ]     │ Word Count:       ~300 words
+[21:37:10.589] [INFO ]     │ Extraction:       trafilatura
+[21:37:10.589] [INFO ]     │ Has Article:      ✅ Yes
+[21:37:10.589] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:37:10.627] [INFO ] 
+[21:37:10.627] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:37:10.627] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_213658_55BD
+[21:37:10.627] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:37:10.627] [INFO ] 
+[21:37:10.627] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[21:37:10.627] [INFO ]     │ Browser Launch:      0.06s
+[21:37:10.627] [INFO ]     │ Page Load:           3.70s
+[21:37:10.627] [INFO ]     │ Cloudflare Wait:     0.00s
+[21:37:10.627] [INFO ]     │ Human Simulation:    5.79s
+[21:37:10.627] [INFO ]     │
+[21:37:10.627] [INFO ]     │ Content Extraction:  0.07s
+[21:37:10.627] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[21:37:10.627] [INFO ]     │ TOTAL TIME:          9.62s
+[21:37:10.627] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:37:10.627] [INFO ] 
+[21:37:10.627] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:37:10.627] [INFO ]     │ Title:            NIS/NIS2 directives - WALLIX
+[21:37:10.627] [INFO ]     │ Final URL:        https://www.wallix.com/ot/ot-whitepaper/nis-nis2-directives/
+[21:37:10.627] [INFO ]     │ HTML Size:        200,451 bytes
+[21:37:10.627] [INFO ]     │ Text Size:        2,015 chars
+[21:37:10.627] [INFO ]     │ Word Count:       ~300 words
+[21:37:10.627] [INFO ]     │ Extraction:       trafilatura
+[21:37:10.627] [INFO ]     │ Has Article:      ✅ Yes
+[21:37:10.627] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:37:10.627] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:37:10.627] [INFO ] ║  📊 SESSION STATS
+[21:37:10.627] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[21:37:10.627] [INFO ] ║  ├─ Popups Dismissed:   0
+[21:37:10.627] [INFO ] ║  ├─ Cloudflare:         Not detected
+[21:37:10.627] [INFO ] ║  └─ Proxy Used:         Direct
+[21:37:10.627] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:37:10.627] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 12.38s
+ENDED: 2026-01-29T21:37:10.627668+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

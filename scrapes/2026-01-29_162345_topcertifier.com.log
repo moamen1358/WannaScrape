@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.topcertifier.com/eu-gdpr-certification-in-egypt
+Started: 2026-01-29 16:23:45
+Session ID: SCRAPE_20260129_162345_7470
+================================================================================
+[16:23:45.781] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_162345_topcertifier.com.log
+[16:23:45.781] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[16:23:46.135] [INFO ] 
+[16:23:46.135] [INFO ]     🚀 BROWSER LAUNCHED
+[16:23:46.135] [INFO ]     ├─ Mode:       Headless
+[16:23:46.135] [INFO ]     ├─ Slow Mo:    50ms
+[16:23:46.135] [INFO ]     ├─ Launch Time: 0.06s
+[16:23:46.135] [INFO ]     └─ Args:       Anti-automation flags enabled
+[16:23:46.155] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-AU, tz=UTC
+[16:23:46.155] [INFO ] 
+[16:23:46.155] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[16:23:46.155] [INFO ] ║  📋 SESSION: SCRAPE_20260129_162345_7470
+[16:23:46.155] [INFO ] ║  🌐 URL: https://www.topcertifier.com/eu-gdpr-certification-in-egypt
+[16:23:46.155] [INFO ] ║  🔄 ATTEMPT: 1/2
+[16:23:46.155] [INFO ] ║  ⏰ STARTED: 2026-01-29T16:23:46.155836+02:00 (Egypt Time)
+[16:23:46.155] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[16:23:46.155] [INFO ] 
+[16:23:46.155] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[16:23:46.155] [INFO ]     │ Browser:     EDGE v120
+[16:23:46.155] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[16:23:46.155] [INFO ]     │ Viewport:    2560x1440
+[16:23:46.155] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[16:23:46.155] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[16:23:46.155] [INFO ]     │ Location:    Sydney, Australia
+[16:23:46.155] [INFO ]     │ Timezone:    N/A
+[16:23:46.155] [INFO ]     │ Locale:      en-AU
+[16:23:46.155] [INFO ]     │ Geo:         0, 0
+[16:23:46.155] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[16:23:46.155] [INFO ]     │ Proxy:       Direct (no proxy)
+[16:23:46.155] [INFO ]     │ Referrer:    None
+[16:23:46.155] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[16:23:46.155] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[16:23:46.155] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[16:23:46.155] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[16:23:46.155] [INFO ] 
+[16:23:46.155] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[16:23:46.155] [INFO ]     ├─ Canvas fingerprint noise
+[16:23:46.155] [INFO ]     ├─ WebGL renderer/vendor spoof
+[16:23:46.155] [INFO ]     ├─ Hardware concurrency randomization
+[16:23:46.155] [INFO ]     ├─ Device memory randomization
+[16:23:46.155] [INFO ]     ├─ Plugin masking
+[16:23:46.155] [INFO ]     ├─ WebRTC IP leak protection
+[16:23:46.155] [INFO ]     ├─ Network connection spoof
+[16:23:46.155] [INFO ]     └─ Battery API spoof
+[16:23:46.200] [INFO ] 
+[16:23:46.200] [INFO ]     🥷 STEALTH MODE APPLIED
+[16:23:46.200] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[16:23:46.200] [INFO ]     ├─ Chrome runtime patches
+[16:23:46.200] [INFO ]     ├─ Console patches
+[16:23:46.200] [INFO ]     └─ Permission patches
+[16:23:46.200] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[16:23:46.200] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[16:23:46.200] [INFO ] 
+[16:23:46.200] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[16:23:46.200] [INFO ]     ├─ Canvas fingerprint noise
+[16:23:46.200] [INFO ]     ├─ WebGL renderer/vendor spoof
+[16:23:46.200] [INFO ]     ├─ Hardware concurrency randomization
+[16:23:46.200] [INFO ]     ├─ Device memory randomization
+[16:23:46.200] [INFO ]     ├─ Plugin masking
+[16:23:46.200] [INFO ]     ├─ WebRTC IP leak protection
+[16:23:46.200] [INFO ]     ├─ Network connection spoof
+[16:23:46.200] [INFO ]     └─ Battery API spoof
+[16:23:46.200] [DEBUG] Enabled resource blocking (images, media, fonts)
+[16:23:46.200] [INFO ] 
+[16:23:46.200] [INFO ]     🔗 NAVIGATING TO URL
+[16:23:46.200] [INFO ]     ├─ Strategy:   domcontentloaded
+[16:23:46.200] [INFO ]     ├─ Timeout:    15.0s
+[16:23:46.200] [INFO ]     └─ Sleep:      1s after load
+[16:23:50.432] [INFO ] 
+[16:23:50.432] [INFO ]     ✅ PAGE LOADED
+[16:23:50.432] [INFO ]     ├─ Final URL:  https://www.topcertifier.com/eu-gdpr-certification-in-egypt
+[16:23:50.432] [INFO ]     ├─ Title:      GDPR Certification in Egypt | GDPR Compliance Services | TopCertifier
+[16:23:50.432] [INFO ]     └─ Load Time:  4.23s
+[16:23:51.663] [INFO ] 🧑 Human behavior simulation...
+[16:23:57.481] [INFO ] 🖱️ Mouse: 4 moves in 2560x1440
+[16:23:57.481] [INFO ] 🖱️ Mouse completed: 4 moves
+[16:23:57.482] [INFO ] 📜 Scroll: page height, viewport=1440px
+[16:23:57.482] [INFO ] 📜 Scroll completed: 3 scrolls
+[16:23:57.482] [INFO ] 🧑 Human behavior completed in 5.8s ✓
+[16:23:57.482] [INFO ] 
+[16:23:57.482] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[16:23:57.482] [INFO ]     ├─ Mouse Movements: 4
+[16:23:57.482] [INFO ]     ├─ Scroll Actions:  3
+[16:23:57.482] [INFO ]     └─ Time Spent:      5.82s
+[16:23:57.837] [INFO ] 
+[16:23:57.837] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[16:23:57.837] [INFO ]     │ Title:            GDPR Certification in Egypt - Data Protection and 
+[16:23:57.838] [INFO ]     │ Final URL:        https://www.topcertifier.com/eu-gdpr-certification-in-egypt
+[16:23:57.838] [INFO ]     │ HTML Size:        111,321 bytes
+[16:23:57.838] [INFO ]     │ Text Size:        8,146 chars
+[16:23:57.838] [INFO ]     │ Word Count:       ~1173 words
+[16:23:57.838] [INFO ]     │ Extraction:       trafilatura
+[16:23:57.838] [INFO ]     │ Has Article:      ✅ Yes
+[16:23:57.838] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[16:23:57.869] [INFO ] 
+[16:23:57.869] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[16:23:57.869] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_162345_7470
+[16:23:57.869] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[16:23:57.869] [INFO ] 
+[16:23:57.869] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[16:23:57.869] [INFO ]     │ Browser Launch:      0.06s
+[16:23:57.869] [INFO ]     │ Page Load:           4.23s
+[16:23:57.869] [INFO ]     │ Cloudflare Wait:     0.00s
+[16:23:57.869] [INFO ]     │ Human Simulation:    5.82s
+[16:23:57.869] [INFO ]     │
+[16:23:57.869] [INFO ]     │ Content Extraction:  0.22s
+[16:23:57.869] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[16:23:57.869] [INFO ]     │ TOTAL TIME:          10.33s
+[16:23:57.869] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[16:23:57.869] [INFO ] 
+[16:23:57.869] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[16:23:57.869] [INFO ]     │ Title:            GDPR Certification in Egypt - Data Protection and 
+[16:23:57.869] [INFO ]     │ Final URL:        https://www.topcertifier.com/eu-gdpr-certification-in-egypt
+[16:23:57.869] [INFO ]     │ HTML Size:        111,321 bytes
+[16:23:57.869] [INFO ]     │ Text Size:        8,146 chars
+[16:23:57.869] [INFO ]     │ Word Count:       ~1173 words
+[16:23:57.869] [INFO ]     │ Extraction:       trafilatura
+[16:23:57.869] [INFO ]     │ Has Article:      ✅ Yes
+[16:23:57.869] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[16:23:57.869] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[16:23:57.869] [INFO ] ║  📊 SESSION STATS
+[16:23:57.869] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[16:23:57.869] [INFO ] ║  ├─ Popups Dismissed:   0
+[16:23:57.869] [INFO ] ║  ├─ Cloudflare:         Not detected
+[16:23:57.869] [INFO ] ║  └─ Proxy Used:         Direct
+[16:23:57.869] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[16:23:57.869] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 12.09s
+ENDED: 2026-01-29T16:23:57.869727+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

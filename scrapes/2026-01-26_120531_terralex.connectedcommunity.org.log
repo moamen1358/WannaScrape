@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://terralex.connectedcommunity.org/blogs/nicole-rudner/2023/07/17/new-regulations-and-licensing-requirements-for-dig
+Started: 2026-01-26 12:05:31
+Session ID: SCRAPE_20260126_120531_00C1
+================================================================================
+[12:05:31.491] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_120531_terralex.connectedcommunity.org.log
+[12:05:31.491] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:05:31.827] [INFO ] 
+[12:05:31.827] [INFO ]     🚀 BROWSER LAUNCHED
+[12:05:31.827] [INFO ]     ├─ Mode:       Headless
+[12:05:31.827] [INFO ]     ├─ Slow Mo:    56ms
+[12:05:31.827] [INFO ]     ├─ Launch Time: 0.06s
+[12:05:31.827] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:05:31.847] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-US, tz=UTC
+[12:05:31.847] [INFO ] 
+[12:05:31.847] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:05:31.847] [INFO ] ║  📋 SESSION: SCRAPE_20260126_120531_00C1
+[12:05:31.847] [INFO ] ║  🌐 URL: https://terralex.connectedcommunity.org/blogs/nicole-rudner/2023/07/17/new-regulations-and-licensing-requirements-for-dig
+[12:05:31.847] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:05:31.847] [INFO ] ║  ⏰ STARTED: 2026-01-26T12:05:31.847376+02:00 (Egypt Time)
+[12:05:31.847] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:05:31.847] [INFO ] 
+[12:05:31.847] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:05:31.847] [INFO ]     │ Browser:     EDGE v119
+[12:05:31.847] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[12:05:31.847] [INFO ]     │ Viewport:    1680x1050
+[12:05:31.847] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:05:31.847] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:05:31.847] [INFO ]     │ Location:    Denver, USA
+[12:05:31.847] [INFO ]     │ Timezone:    N/A
+[12:05:31.847] [INFO ]     │ Locale:      en-US
+[12:05:31.847] [INFO ]     │ Geo:         0, 0
+[12:05:31.847] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:05:31.847] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:05:31.847] [INFO ]     │ Referrer:    https://www.google.com/search?q=terralex+connectedcommunity+org
+[12:05:31.847] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:05:31.847] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:05:31.847] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:05:31.847] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:05:31.847] [INFO ] 
+[12:05:31.847] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:05:31.847] [INFO ]     ├─ Canvas fingerprint noise
+[12:05:31.847] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:05:31.847] [INFO ]     ├─ Hardware concurrency randomization
+[12:05:31.847] [INFO ]     ├─ Device memory randomization
+[12:05:31.847] [INFO ]     ├─ Plugin masking
+[12:05:31.847] [INFO ]     ├─ WebRTC IP leak protection
+[12:05:31.847] [INFO ]     ├─ Network connection spoof
+[12:05:31.847] [INFO ]     └─ Battery API spoof
+[12:05:31.888] [INFO ] 
+[12:05:31.888] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:05:31.888] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:05:31.888] [INFO ]     ├─ Chrome runtime patches
+[12:05:31.888] [INFO ]     ├─ Console patches
+[12:05:31.888] [INFO ]     └─ Permission patches
+[12:05:31.888] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:05:31.888] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:05:31.888] [INFO ] 
+[12:05:31.888] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:05:31.888] [INFO ]     ├─ Canvas fingerprint noise
+[12:05:31.888] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:05:31.888] [INFO ]     ├─ Hardware concurrency randomization
+[12:05:31.888] [INFO ]     ├─ Device memory randomization
+[12:05:31.888] [INFO ]     ├─ Plugin masking
+[12:05:31.888] [INFO ]     ├─ WebRTC IP leak protection
+[12:05:31.888] [INFO ]     ├─ Network connection spoof
+[12:05:31.888] [INFO ]     └─ Battery API spoof
+[12:05:31.888] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:05:31.888] [INFO ] 
+[12:05:31.888] [INFO ]     🔗 NAVIGATING TO URL
+[12:05:31.888] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:05:31.888] [INFO ]     ├─ Timeout:    15.0s
+[12:05:31.888] [INFO ]     └─ Sleep:      1s after load
+[12:05:34.081] [INFO ] 
+[12:05:34.081] [INFO ]     ✅ PAGE LOADED
+[12:05:34.081] [INFO ]     ├─ Final URL:  https://terralex.connectedcommunity.org/blogs/nicole-rudner/2023/07/17/new-regulations-and-licensing-requirements-for-dig
+[12:05:34.081] [INFO ]     ├─ Title:      New Regulations and Licensing Requirements for Digital Banks in Egypt
+[12:05:34.081] [INFO ]     └─ Load Time:  2.19s
+[12:05:35.298] [INFO ] 🧑 Human behavior simulation...
+[12:05:38.774] [INFO ] 🖱️ Mouse: 2 moves in 1680x1050
+[12:05:38.774] [INFO ] 🖱️ Mouse completed: 2 moves
+[12:05:38.774] [INFO ] 📜 Scroll: page height, viewport=1050px
+[12:05:38.774] [INFO ] 📜 Scroll completed: 1 scrolls
+[12:05:38.774] [INFO ] 🧑 Human behavior completed in 3.5s ✓
+[12:05:38.774] [INFO ] 
+[12:05:38.774] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:05:38.774] [INFO ]     ├─ Mouse Movements: 2
+[12:05:38.774] [INFO ]     ├─ Scroll Actions:  1
+[12:05:38.774] [INFO ]     └─ Time Spent:      3.48s
+[12:05:38.874] [INFO ] 
+[12:05:38.875] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:05:38.875] [INFO ]     │ Title:            New Regulations and Licensing Requirements for Dig
+[12:05:38.875] [INFO ]     │ Final URL:        https://terralex.connectedcommunity.org/blogs/nicole-rudner/2023/07/17/new-regulations-and-licensing-requirements-for-dig
+[12:05:38.875] [INFO ]     │ HTML Size:        135,873 bytes
+[12:05:38.875] [INFO ]     │ Text Size:        5,098 chars
+[12:05:38.875] [INFO ]     │ Word Count:       ~773 words
+[12:05:38.875] [INFO ]     │ Extraction:       trafilatura
+[12:05:38.875] [INFO ]     │ Has Article:      ✅ Yes
+[12:05:38.875] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:05:38.903] [INFO ] 
+[12:05:38.903] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:05:38.903] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_120531_00C1
+[12:05:38.903] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:05:38.903] [INFO ] 
+[12:05:38.903] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:05:38.903] [INFO ]     │ Browser Launch:      0.06s
+[12:05:38.903] [INFO ]     │ Page Load:           2.19s
+[12:05:38.903] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:05:38.903] [INFO ]     │ Human Simulation:    3.48s
+[12:05:38.903] [INFO ]     │
+[12:05:38.903] [INFO ]     │ Content Extraction:  0.07s
+[12:05:38.903] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:05:38.903] [INFO ]     │ TOTAL TIME:          5.79s
+[12:05:38.903] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:05:38.903] [INFO ] 
+[12:05:38.903] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:05:38.903] [INFO ]     │ Title:            New Regulations and Licensing Requirements for Dig
+[12:05:38.903] [INFO ]     │ Final URL:        https://terralex.connectedcommunity.org/blogs/nicole-rudner/2023/07/17/new-regulations-and-licensing-requirements-for-dig
+[12:05:38.903] [INFO ]     │ HTML Size:        135,873 bytes
+[12:05:38.904] [INFO ]     │ Text Size:        5,098 chars
+[12:05:38.904] [INFO ]     │ Word Count:       ~773 words
+[12:05:38.904] [INFO ]     │ Extraction:       trafilatura
+[12:05:38.904] [INFO ]     │ Has Article:      ✅ Yes
+[12:05:38.904] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:05:38.904] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:05:38.904] [INFO ] ║  📊 SESSION STATS
+[12:05:38.904] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:05:38.904] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:05:38.904] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:05:38.904] [INFO ] ║  └─ Proxy Used:         Direct
+[12:05:38.904] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:05:38.904] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.41s
+ENDED: 2026-01-26T12:05:38.904094+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

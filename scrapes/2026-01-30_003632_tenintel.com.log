@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://tenintel.com/egypt-pdpl/
+Started: 2026-01-30 00:36:32
+Session ID: SCRAPE_20260130_003632_6E5D
+================================================================================
+[00:36:32.114] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_003632_tenintel.com.log
+[00:36:32.114] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[00:36:32.460] [INFO ] 
+[00:36:32.460] [INFO ]     🚀 BROWSER LAUNCHED
+[00:36:32.460] [INFO ]     ├─ Mode:       Headless
+[00:36:32.460] [INFO ]     ├─ Slow Mo:    47ms
+[00:36:32.460] [INFO ]     ├─ Launch Time: 0.06s
+[00:36:32.460] [INFO ]     └─ Args:       Anti-automation flags enabled
+[00:36:32.481] [DEBUG] Browser profile: viewport={'width': 1728, 'height': 1117}, locale=en-US, tz=UTC
+[00:36:32.481] [INFO ] 
+[00:36:32.481] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:36:32.481] [INFO ] ║  📋 SESSION: SCRAPE_20260130_003632_6E5D
+[00:36:32.481] [INFO ] ║  🌐 URL: https://tenintel.com/egypt-pdpl/
+[00:36:32.481] [INFO ] ║  🔄 ATTEMPT: 1/2
+[00:36:32.481] [INFO ] ║  ⏰ STARTED: 2026-01-30T00:36:32.481461+02:00 (Egypt Time)
+[00:36:32.481] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:36:32.481] [INFO ] 
+[00:36:32.481] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[00:36:32.481] [INFO ]     │ Browser:     SAFARI v17
+[00:36:32.481] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHT...
+[00:36:32.481] [INFO ]     │ Viewport:    1728x1117
+[00:36:32.481] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[00:36:32.481] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[00:36:32.481] [INFO ]     │ Location:    Boston, USA
+[00:36:32.481] [INFO ]     │ Timezone:    N/A
+[00:36:32.481] [INFO ]     │ Locale:      en-US
+[00:36:32.481] [INFO ]     │ Geo:         0, 0
+[00:36:32.481] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[00:36:32.481] [INFO ]     │ Proxy:       Direct (no proxy)
+[00:36:32.481] [INFO ]     │ Referrer:    https://www.google.com/search?q=tenintel+com
+[00:36:32.481] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:36:32.481] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:36:32.481] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[00:36:32.481] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:36:32.481] [INFO ] 
+[00:36:32.481] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[00:36:32.481] [INFO ]     ├─ Canvas fingerprint noise
+[00:36:32.481] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:36:32.481] [INFO ]     ├─ Hardware concurrency randomization
+[00:36:32.481] [INFO ]     ├─ Device memory randomization
+[00:36:32.481] [INFO ]     ├─ Plugin masking
+[00:36:32.481] [INFO ]     ├─ WebRTC IP leak protection
+[00:36:32.481] [INFO ]     ├─ Network connection spoof
+[00:36:32.481] [INFO ]     └─ Battery API spoof
+[00:36:32.526] [INFO ] 
+[00:36:32.526] [INFO ]     🥷 STEALTH MODE APPLIED
+[00:36:32.526] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[00:36:32.526] [INFO ]     ├─ Chrome runtime patches
+[00:36:32.526] [INFO ]     ├─ Console patches
+[00:36:32.526] [INFO ]     └─ Permission patches
+[00:36:32.526] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[00:36:32.526] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:36:32.526] [INFO ] 
+[00:36:32.526] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[00:36:32.526] [INFO ]     ├─ Canvas fingerprint noise
+[00:36:32.526] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:36:32.526] [INFO ]     ├─ Hardware concurrency randomization
+[00:36:32.526] [INFO ]     ├─ Device memory randomization
+[00:36:32.526] [INFO ]     ├─ Plugin masking
+[00:36:32.526] [INFO ]     ├─ WebRTC IP leak protection
+[00:36:32.526] [INFO ]     ├─ Network connection spoof
+[00:36:32.526] [INFO ]     └─ Battery API spoof
+[00:36:32.526] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:36:32.526] [INFO ] 
+[00:36:32.526] [INFO ]     🔗 NAVIGATING TO URL
+[00:36:32.526] [INFO ]     ├─ Strategy:   domcontentloaded
+[00:36:32.526] [INFO ]     ├─ Timeout:    15.0s
+[00:36:32.526] [INFO ]     └─ Sleep:      1s after load
+[00:36:33.876] [INFO ] 
+[00:36:33.876] [INFO ]     ✅ PAGE LOADED
+[00:36:33.876] [INFO ]     ├─ Final URL:  https://tenintel.com/egypt-pdpl/
+[00:36:33.876] [INFO ]     ├─ Title:      Egypt's PDPL | 2026 Updates & Guide
+[00:36:33.876] [INFO ]     └─ Load Time:  1.35s
+[00:36:35.837] [INFO ] 🧑 Human behavior simulation...
+[00:36:39.430] [INFO ] 🖱️ Mouse: 2 moves in 1728x1117
+[00:36:39.430] [INFO ] 🖱️ Mouse completed: 2 moves
+[00:36:39.430] [INFO ] 📜 Scroll: page height, viewport=1117px
+[00:36:39.430] [INFO ] 📜 Scroll completed: 3 scrolls
+[00:36:39.430] [INFO ] 🧑 Human behavior completed in 3.6s ✓
+[00:36:39.430] [INFO ] 
+[00:36:39.430] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[00:36:39.430] [INFO ]     ├─ Mouse Movements: 2
+[00:36:39.430] [INFO ]     ├─ Scroll Actions:  3
+[00:36:39.430] [INFO ]     └─ Time Spent:      3.59s
+[00:36:39.575] [INFO ] 
+[00:36:39.575] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[00:36:39.575] [INFO ]     │ Title:            Egypt's PDPL | 2026 Updates & Guide
+[00:36:39.575] [INFO ]     │ Final URL:        https://tenintel.com/egypt-pdpl/
+[00:36:39.575] [INFO ]     │ HTML Size:        243,284 bytes
+[00:36:39.575] [INFO ]     │ Text Size:        8,503 chars
+[00:36:39.575] [INFO ]     │ Word Count:       ~1307 words
+[00:36:39.575] [INFO ]     │ Extraction:       trafilatura
+[00:36:39.575] [INFO ]     │ Has Article:      ✅ Yes
+[00:36:39.575] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:36:39.610] [INFO ] 
+[00:36:39.610] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:36:39.610] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260130_003632_6E5D
+[00:36:39.610] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:36:39.610] [INFO ] 
+[00:36:39.610] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[00:36:39.610] [INFO ]     │ Browser Launch:      0.06s
+[00:36:39.610] [INFO ]     │ Page Load:           1.35s
+[00:36:39.610] [INFO ]     │ Cloudflare Wait:     0.00s
+[00:36:39.610] [INFO ]     │ Human Simulation:    3.59s
+[00:36:39.610] [INFO ]     │
+[00:36:39.610] [INFO ]     │ Content Extraction:  0.09s
+[00:36:39.610] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[00:36:39.610] [INFO ]     │ TOTAL TIME:          5.09s
+[00:36:39.610] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:36:39.610] [INFO ] 
+[00:36:39.611] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[00:36:39.611] [INFO ]     │ Title:            Egypt's PDPL | 2026 Updates & Guide
+[00:36:39.611] [INFO ]     │ Final URL:        https://tenintel.com/egypt-pdpl/
+[00:36:39.611] [INFO ]     │ HTML Size:        243,284 bytes
+[00:36:39.611] [INFO ]     │ Text Size:        8,503 chars
+[00:36:39.611] [INFO ]     │ Word Count:       ~1307 words
+[00:36:39.611] [INFO ]     │ Extraction:       trafilatura
+[00:36:39.611] [INFO ]     │ Has Article:      ✅ Yes
+[00:36:39.611] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:36:39.611] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:36:39.611] [INFO ] ║  📊 SESSION STATS
+[00:36:39.611] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[00:36:39.611] [INFO ] ║  ├─ Popups Dismissed:   0
+[00:36:39.611] [INFO ] ║  ├─ Cloudflare:         Not detected
+[00:36:39.611] [INFO ] ║  └─ Proxy Used:         Direct
+[00:36:39.611] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:36:39.611] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.50s
+ENDED: 2026-01-30T00:36:39.611146+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

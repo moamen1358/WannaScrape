@@ -1,0 +1,204 @@
+================================================================================
+SCRAPE LOG: https://securiti.ai/what-is-egypt-data-protection-law/
+Started: 2026-01-30 00:04:01
+Session ID: SCRAPE_20260130_000401_8F3D
+================================================================================
+[00:04:01.612] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_000401_securiti.ai.log
+[00:04:01.612] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[00:04:01.955] [INFO ] 
+[00:04:01.955] [INFO ]     🚀 BROWSER LAUNCHED
+[00:04:01.955] [INFO ]     ├─ Mode:       Headless
+[00:04:01.955] [INFO ]     ├─ Slow Mo:    45ms
+[00:04:01.955] [INFO ]     ├─ Launch Time: 0.06s
+[00:04:01.955] [INFO ]     └─ Args:       Anti-automation flags enabled
+[00:04:01.976] [DEBUG] Browser profile: viewport={'width': 1536, 'height': 864}, locale=en-US, tz=UTC
+[00:04:01.976] [INFO ] 
+[00:04:01.976] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:04:01.976] [INFO ] ║  📋 SESSION: SCRAPE_20260130_000401_8F3D
+[00:04:01.976] [INFO ] ║  🌐 URL: https://securiti.ai/what-is-egypt-data-protection-law/
+[00:04:01.976] [INFO ] ║  🔄 ATTEMPT: 1/2
+[00:04:01.976] [INFO ] ║  ⏰ STARTED: 2026-01-30T00:04:01.976287+02:00 (Egypt Time)
+[00:04:01.976] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:04:01.976] [INFO ] 
+[00:04:01.976] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[00:04:01.976] [INFO ]     │ Browser:     CHROME v121
+[00:04:01.976] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[00:04:01.976] [INFO ]     │ Viewport:    1536x864
+[00:04:01.976] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[00:04:01.976] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[00:04:01.976] [INFO ]     │ Location:    New York, USA
+[00:04:01.976] [INFO ]     │ Timezone:    N/A
+[00:04:01.976] [INFO ]     │ Locale:      en-US
+[00:04:01.976] [INFO ]     │ Geo:         0, 0
+[00:04:01.976] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[00:04:01.976] [INFO ]     │ Proxy:       Direct (no proxy)
+[00:04:01.976] [INFO ]     │ Referrer:    https://www.google.com/search?q=securiti+ai
+[00:04:01.976] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:04:01.976] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:04:01.976] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[00:04:01.976] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:04:01.976] [INFO ] 
+[00:04:01.976] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[00:04:01.976] [INFO ]     ├─ Canvas fingerprint noise
+[00:04:01.976] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:04:01.976] [INFO ]     ├─ Hardware concurrency randomization
+[00:04:01.976] [INFO ]     ├─ Device memory randomization
+[00:04:01.976] [INFO ]     ├─ Plugin masking
+[00:04:01.976] [INFO ]     ├─ WebRTC IP leak protection
+[00:04:01.976] [INFO ]     ├─ Network connection spoof
+[00:04:01.976] [INFO ]     └─ Battery API spoof
+[00:04:02.021] [INFO ] 
+[00:04:02.021] [INFO ]     🥷 STEALTH MODE APPLIED
+[00:04:02.021] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[00:04:02.021] [INFO ]     ├─ Chrome runtime patches
+[00:04:02.021] [INFO ]     ├─ Console patches
+[00:04:02.021] [INFO ]     └─ Permission patches
+[00:04:02.021] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[00:04:02.021] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:04:02.021] [INFO ] 
+[00:04:02.021] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[00:04:02.021] [INFO ]     ├─ Canvas fingerprint noise
+[00:04:02.021] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:04:02.021] [INFO ]     ├─ Hardware concurrency randomization
+[00:04:02.021] [INFO ]     ├─ Device memory randomization
+[00:04:02.021] [INFO ]     ├─ Plugin masking
+[00:04:02.021] [INFO ]     ├─ WebRTC IP leak protection
+[00:04:02.021] [INFO ]     ├─ Network connection spoof
+[00:04:02.021] [INFO ]     └─ Battery API spoof
+[00:04:02.021] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:04:02.021] [INFO ] 
+[00:04:02.021] [INFO ]     🔗 NAVIGATING TO URL
+[00:04:02.021] [INFO ]     ├─ Strategy:   domcontentloaded
+[00:04:02.021] [INFO ]     ├─ Timeout:    15.0s
+[00:04:02.021] [INFO ]     └─ Sleep:      1s after load
+[00:04:06.308] [INFO ] 
+[00:04:06.308] [INFO ]     ✅ PAGE LOADED
+[00:04:06.308] [INFO ]     ├─ Final URL:  https://securiti.ai/what-is-egypt-data-protection-law/
+[00:04:06.308] [INFO ]     ├─ Title:      What is Egypt's Data Protection Law - Securiti
+[00:04:06.308] [INFO ]     └─ Load Time:  4.29s
+[00:04:07.808] [INFO ] 🧑 Human behavior simulation...
+[00:04:11.406] [INFO ] 🖱️ Mouse: 2 moves in 1536x864
+[00:04:11.406] [INFO ] 🖱️ Mouse completed: 2 moves
+[00:04:11.406] [INFO ] 📜 Scroll: page height, viewport=864px
+[00:04:11.406] [INFO ] 📜 Scroll completed: 1 scrolls
+[00:04:11.406] [INFO ] 🧑 Human behavior completed in 3.6s ✓
+[00:04:11.406] [INFO ] 
+[00:04:11.406] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[00:04:11.406] [INFO ]     ├─ Mouse Movements: 2
+[00:04:11.406] [INFO ]     ├─ Scroll Actions:  1
+[00:04:11.406] [INFO ]     └─ Time Spent:      3.60s
+[00:04:16.436] [INFO ] 
+[00:04:16.437] [INFO ]     🚀 BROWSER LAUNCHED
+[00:04:16.437] [INFO ]     ├─ Mode:       Headless
+[00:04:16.437] [INFO ]     ├─ Slow Mo:    50ms
+[00:04:16.437] [INFO ]     ├─ Launch Time: 0.06s
+[00:04:16.437] [INFO ]     └─ Args:       Anti-automation flags enabled
+[00:04:16.454] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-US, tz=UTC
+[00:04:16.454] [INFO ] 
+[00:04:16.454] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:04:16.454] [INFO ] ║  📋 SESSION: SCRAPE_20260130_000401_8F3D
+[00:04:16.454] [INFO ] ║  🌐 URL: https://securiti.ai/what-is-egypt-data-protection-law/
+[00:04:16.454] [INFO ] ║  🔄 ATTEMPT: 2/2
+[00:04:16.454] [INFO ] ║  ⏰ STARTED: 2026-01-30T00:04:16.454162+02:00 (Egypt Time)
+[00:04:16.454] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:04:16.454] [INFO ] 
+[00:04:16.454] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[00:04:16.454] [INFO ]     │ Browser:     CHROME v122
+[00:04:16.454] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[00:04:16.454] [INFO ]     │ Viewport:    2560x1440
+[00:04:16.454] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[00:04:16.454] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[00:04:16.454] [INFO ]     │ Location:    Seattle, USA
+[00:04:16.454] [INFO ]     │ Timezone:    N/A
+[00:04:16.454] [INFO ]     │ Locale:      en-US
+[00:04:16.454] [INFO ]     │ Geo:         0, 0
+[00:04:16.454] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[00:04:16.454] [INFO ]     │ Proxy:       Direct (no proxy)
+[00:04:16.454] [INFO ]     │ Referrer:    None
+[00:04:16.454] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:04:16.454] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:04:16.454] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[00:04:16.454] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:04:16.454] [INFO ] 
+[00:04:16.454] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[00:04:16.454] [INFO ]     ├─ Canvas fingerprint noise
+[00:04:16.454] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:04:16.454] [INFO ]     ├─ Hardware concurrency randomization
+[00:04:16.454] [INFO ]     ├─ Device memory randomization
+[00:04:16.454] [INFO ]     ├─ Plugin masking
+[00:04:16.454] [INFO ]     ├─ WebRTC IP leak protection
+[00:04:16.454] [INFO ]     ├─ Network connection spoof
+[00:04:16.454] [INFO ]     └─ Battery API spoof
+[00:04:16.496] [INFO ] 
+[00:04:16.496] [INFO ]     🥷 STEALTH MODE APPLIED
+[00:04:16.496] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[00:04:16.496] [INFO ]     ├─ Chrome runtime patches
+[00:04:16.496] [INFO ]     ├─ Console patches
+[00:04:16.496] [INFO ]     └─ Permission patches
+[00:04:16.496] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[00:04:16.496] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:04:16.496] [INFO ] 
+[00:04:16.496] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[00:04:16.496] [INFO ]     ├─ Canvas fingerprint noise
+[00:04:16.496] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:04:16.496] [INFO ]     ├─ Hardware concurrency randomization
+[00:04:16.496] [INFO ]     ├─ Device memory randomization
+[00:04:16.496] [INFO ]     ├─ Plugin masking
+[00:04:16.496] [INFO ]     ├─ WebRTC IP leak protection
+[00:04:16.496] [INFO ]     ├─ Network connection spoof
+[00:04:16.496] [INFO ]     └─ Battery API spoof
+[00:04:16.496] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:04:16.496] [INFO ] 
+[00:04:16.496] [INFO ]     🔗 NAVIGATING TO URL
+[00:04:16.496] [INFO ]     ├─ Strategy:   domcontentloaded
+[00:04:16.496] [INFO ]     ├─ Timeout:    15.0s
+[00:04:16.496] [INFO ]     └─ Sleep:      1s after load
+[00:04:17.893] [INFO ] 
+[00:04:17.893] [INFO ]     ✅ PAGE LOADED
+[00:04:17.893] [INFO ]     ├─ Final URL:  https://securiti.ai/what-is-egypt-data-protection-law/
+[00:04:17.893] [INFO ]     ├─ Title:      What is Egypt's Data Protection Law - Securiti
+[00:04:17.893] [INFO ]     └─ Load Time:  1.40s
+[00:04:19.427] [INFO ] 🧑 Human behavior simulation...
+[00:04:23.116] [INFO ] 🖱️ Mouse: 2 moves in 2560x1440
+[00:04:23.116] [INFO ] 🖱️ Mouse completed: 2 moves
+[00:04:23.116] [INFO ] 📜 Scroll: page height, viewport=1440px
+[00:04:23.116] [INFO ] 📜 Scroll completed: 1 scrolls
+[00:04:23.116] [INFO ] 🧑 Human behavior completed in 3.7s ✓
+[00:04:23.116] [INFO ] 
+[00:04:23.116] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[00:04:23.116] [INFO ]     ├─ Mouse Movements: 2
+[00:04:23.116] [INFO ]     ├─ Scroll Actions:  1
+[00:04:23.116] [INFO ]     └─ Time Spent:      3.69s
+[00:04:23.599] [INFO ] 
+[00:04:23.599] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:04:23.599] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260130_000401_8F3D
+[00:04:23.599] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:04:23.599] [INFO ] 
+[00:04:23.599] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[00:04:23.599] [INFO ]     │ URL:              https://securiti.ai/what-is-egypt-data-protection-law/
+[00:04:23.599] [INFO ]     │ Error Type:       unknown
+[00:04:23.599] [INFO ]     │ Likely Ban:       ❌ No
+[00:04:23.599] [INFO ]     │ Retries Used:     2
+[00:04:23.599] [INFO ]     │
+[00:04:23.599] [INFO ]     │ Error Message:
+[00:04:23.599] [INFO ]     │   Failed after 2 attempts. Last error: Unknown error
+[00:04:23.599] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:04:23.599] [INFO ] 
+[00:04:23.599] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[00:04:23.599] [INFO ]     │ Browser Launch:     0.06s
+[00:04:23.599] [INFO ]     │ Page Load:          1.40s
+[00:04:23.599] [INFO ]     │ Cloudflare Wait:    0.00s
+[00:04:23.599] [INFO ]     │ Human Simulation:   3.69s
+[00:04:23.599] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[00:04:23.600] [INFO ]     │ FAILED AT:          5.14s
+[00:04:23.600] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:04:23.600] [INFO ] 
+[00:04:23.600] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:04:23.600] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 21.99s
+ENDED: 2026-01-30T00:04:23.600024+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

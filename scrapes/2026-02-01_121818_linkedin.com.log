@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.linkedin.com/company/saudi-central-bank-sama
+Started: 2026-02-01 12:18:18
+Session ID: SCRAPE_20260201_121818_7D10
+================================================================================
+[12:18:18.447] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-02-01_121818_linkedin.com.log
+[12:18:18.447] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:18:18.795] [INFO ] 
+[12:18:18.795] [INFO ]     🚀 BROWSER LAUNCHED
+[12:18:18.795] [INFO ]     ├─ Mode:       Headless
+[12:18:18.795] [INFO ]     ├─ Slow Mo:    52ms
+[12:18:18.795] [INFO ]     ├─ Launch Time: 0.06s
+[12:18:18.795] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:18:18.816] [DEBUG] Browser profile: viewport={'width': 1440, 'height': 900}, locale=en-CA, tz=UTC
+[12:18:18.816] [INFO ] 
+[12:18:18.816] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:18:18.816] [INFO ] ║  📋 SESSION: SCRAPE_20260201_121818_7D10
+[12:18:18.816] [INFO ] ║  🌐 URL: https://www.linkedin.com/company/saudi-central-bank-sama
+[12:18:18.816] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:18:18.816] [INFO ] ║  ⏰ STARTED: 2026-02-01T12:18:18.816592+02:00 (Egypt Time)
+[12:18:18.816] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:18:18.816] [INFO ] 
+[12:18:18.816] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:18:18.816] [INFO ]     │ Browser:     CHROME v123
+[12:18:18.816] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[12:18:18.816] [INFO ]     │ Viewport:    1440x900
+[12:18:18.816] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:18:18.816] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:18:18.816] [INFO ]     │ Location:    Toronto, Canada
+[12:18:18.816] [INFO ]     │ Timezone:    N/A
+[12:18:18.816] [INFO ]     │ Locale:      en-CA
+[12:18:18.816] [INFO ]     │ Geo:         0, 0
+[12:18:18.816] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:18:18.816] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:18:18.816] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+linkedin+com
+[12:18:18.816] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:18:18.816] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:18:18.816] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:18:18.816] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:18:18.816] [INFO ] 
+[12:18:18.816] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:18:18.816] [INFO ]     ├─ Canvas fingerprint noise
+[12:18:18.816] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:18:18.816] [INFO ]     ├─ Hardware concurrency randomization
+[12:18:18.816] [INFO ]     ├─ Device memory randomization
+[12:18:18.816] [INFO ]     ├─ Plugin masking
+[12:18:18.816] [INFO ]     ├─ WebRTC IP leak protection
+[12:18:18.816] [INFO ]     ├─ Network connection spoof
+[12:18:18.816] [INFO ]     └─ Battery API spoof
+[12:18:18.857] [INFO ] 
+[12:18:18.857] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:18:18.857] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:18:18.857] [INFO ]     ├─ Chrome runtime patches
+[12:18:18.857] [INFO ]     ├─ Console patches
+[12:18:18.857] [INFO ]     └─ Permission patches
+[12:18:18.857] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:18:18.857] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:18:18.857] [INFO ] 
+[12:18:18.857] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:18:18.857] [INFO ]     ├─ Canvas fingerprint noise
+[12:18:18.857] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:18:18.857] [INFO ]     ├─ Hardware concurrency randomization
+[12:18:18.857] [INFO ]     ├─ Device memory randomization
+[12:18:18.857] [INFO ]     ├─ Plugin masking
+[12:18:18.858] [INFO ]     ├─ WebRTC IP leak protection
+[12:18:18.858] [INFO ]     ├─ Network connection spoof
+[12:18:18.858] [INFO ]     └─ Battery API spoof
+[12:18:18.858] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:18:18.858] [INFO ] 
+[12:18:18.858] [INFO ]     🔗 NAVIGATING TO URL
+[12:18:18.858] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:18:18.858] [INFO ]     ├─ Timeout:    15.0s
+[12:18:18.858] [INFO ]     └─ Sleep:      1s after load
+[12:18:19.944] [INFO ] 
+[12:18:19.944] [INFO ]     ✅ PAGE LOADED
+[12:18:19.944] [INFO ]     ├─ Final URL:  https://www.linkedin.com/company/saudi-central-bank-sama
+[12:18:19.944] [INFO ]     ├─ Title:      Saudi Central Bank – SAMA | LinkedIn
+[12:18:19.944] [INFO ]     └─ Load Time:  1.09s
+[12:18:21.470] [INFO ] 🧑 Human behavior simulation...
+[12:18:27.097] [INFO ] 🖱️ Mouse: 3 moves in 1440x900
+[12:18:27.097] [INFO ] 🖱️ Mouse completed: 3 moves
+[12:18:27.097] [INFO ] 📜 Scroll: page height, viewport=900px
+[12:18:27.097] [INFO ] 📜 Scroll completed: 2 scrolls
+[12:18:27.097] [INFO ] 🧑 Human behavior completed in 5.6s ✓
+[12:18:27.097] [INFO ] 
+[12:18:27.097] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:18:27.097] [INFO ]     ├─ Mouse Movements: 3
+[12:18:27.097] [INFO ]     ├─ Scroll Actions:  2
+[12:18:27.097] [INFO ]     └─ Time Spent:      5.63s
+[12:18:27.331] [INFO ] 
+[12:18:27.331] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:18:27.331] [INFO ]     │ Title:            Saudi Central Bank – SAMA | LinkedIn
+[12:18:27.331] [INFO ]     │ Final URL:        https://www.linkedin.com/company/saudi-central-bank-sama
+[12:18:27.331] [INFO ]     │ HTML Size:        353,024 bytes
+[12:18:27.331] [INFO ]     │ Text Size:        5,221 chars
+[12:18:27.331] [INFO ]     │ Word Count:       ~769 words
+[12:18:27.331] [INFO ]     │ Extraction:       trafilatura
+[12:18:27.331] [INFO ]     │ Has Article:      ✅ Yes
+[12:18:27.331] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:18:27.358] [INFO ] 
+[12:18:27.358] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:18:27.358] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260201_121818_7D10
+[12:18:27.358] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:18:27.358] [INFO ] 
+[12:18:27.358] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:18:27.358] [INFO ]     │ Browser Launch:      0.06s
+[12:18:27.358] [INFO ]     │ Page Load:           1.09s
+[12:18:27.358] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:18:27.358] [INFO ]     │ Human Simulation:    5.63s
+[12:18:27.358] [INFO ]     │
+[12:18:27.358] [INFO ]     │ Content Extraction:  0.15s
+[12:18:27.358] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:18:27.358] [INFO ]     │ TOTAL TIME:          6.92s
+[12:18:27.358] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:18:27.358] [INFO ] 
+[12:18:27.358] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:18:27.358] [INFO ]     │ Title:            Saudi Central Bank – SAMA | LinkedIn
+[12:18:27.358] [INFO ]     │ Final URL:        https://www.linkedin.com/company/saudi-central-bank-sama
+[12:18:27.358] [INFO ]     │ HTML Size:        353,024 bytes
+[12:18:27.358] [INFO ]     │ Text Size:        5,221 chars
+[12:18:27.358] [INFO ]     │ Word Count:       ~769 words
+[12:18:27.358] [INFO ]     │ Extraction:       trafilatura
+[12:18:27.358] [INFO ]     │ Has Article:      ✅ Yes
+[12:18:27.358] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:18:27.358] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:18:27.358] [INFO ] ║  📊 SESSION STATS
+[12:18:27.358] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:18:27.358] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:18:27.358] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:18:27.358] [INFO ] ║  └─ Proxy Used:         Direct
+[12:18:27.358] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:18:27.358] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.91s
+ENDED: 2026-02-01T12:18:27.358859+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

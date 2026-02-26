@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://europa.eu/youreurope/business/dealing-with-customers/data-protection/data-protection-gdpr/index_en.htm
+Started: 2026-01-28 12:40:36
+Session ID: SCRAPE_20260128_124036_081B
+================================================================================
+[12:40:36.264] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-28_124036_europa.eu.log
+[12:40:36.264] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:40:36.605] [INFO ] 
+[12:40:36.605] [INFO ]     🚀 BROWSER LAUNCHED
+[12:40:36.605] [INFO ]     ├─ Mode:       Headless
+[12:40:36.605] [INFO ]     ├─ Slow Mo:    44ms
+[12:40:36.605] [INFO ]     ├─ Launch Time: 0.06s
+[12:40:36.605] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:40:36.622] [DEBUG] Browser profile: viewport={'width': 1536, 'height': 864}, locale=en-IE, tz=UTC
+[12:40:36.622] [INFO ] 
+[12:40:36.622] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:40:36.622] [INFO ] ║  📋 SESSION: SCRAPE_20260128_124036_081B
+[12:40:36.622] [INFO ] ║  🌐 URL: https://europa.eu/youreurope/business/dealing-with-customers/data-protection/data-protection-gdpr/index_en.htm
+[12:40:36.622] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:40:36.622] [INFO ] ║  ⏰ STARTED: 2026-01-28T12:40:36.622161+02:00 (Egypt Time)
+[12:40:36.622] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:40:36.622] [INFO ] 
+[12:40:36.622] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:40:36.622] [INFO ]     │ Browser:     FIREFOX v124
+[12:40:36.622] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Fir...
+[12:40:36.622] [INFO ]     │ Viewport:    1536x864
+[12:40:36.622] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:40:36.622] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:40:36.622] [INFO ]     │ Location:    Dublin, Ireland
+[12:40:36.622] [INFO ]     │ Timezone:    N/A
+[12:40:36.622] [INFO ]     │ Locale:      en-IE
+[12:40:36.622] [INFO ]     │ Geo:         0, 0
+[12:40:36.622] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:40:36.622] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:40:36.622] [INFO ]     │ Referrer:    https://www.google.com/search?q=europa+eu
+[12:40:36.622] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:40:36.622] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:40:36.622] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:40:36.622] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:40:36.622] [INFO ] 
+[12:40:36.622] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:40:36.622] [INFO ]     ├─ Canvas fingerprint noise
+[12:40:36.622] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:40:36.622] [INFO ]     ├─ Hardware concurrency randomization
+[12:40:36.622] [INFO ]     ├─ Device memory randomization
+[12:40:36.622] [INFO ]     ├─ Plugin masking
+[12:40:36.622] [INFO ]     ├─ WebRTC IP leak protection
+[12:40:36.622] [INFO ]     ├─ Network connection spoof
+[12:40:36.622] [INFO ]     └─ Battery API spoof
+[12:40:36.665] [INFO ] 
+[12:40:36.665] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:40:36.665] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:40:36.665] [INFO ]     ├─ Chrome runtime patches
+[12:40:36.665] [INFO ]     ├─ Console patches
+[12:40:36.665] [INFO ]     └─ Permission patches
+[12:40:36.665] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:40:36.665] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:40:36.665] [INFO ] 
+[12:40:36.665] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:40:36.665] [INFO ]     ├─ Canvas fingerprint noise
+[12:40:36.665] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:40:36.665] [INFO ]     ├─ Hardware concurrency randomization
+[12:40:36.665] [INFO ]     ├─ Device memory randomization
+[12:40:36.665] [INFO ]     ├─ Plugin masking
+[12:40:36.665] [INFO ]     ├─ WebRTC IP leak protection
+[12:40:36.665] [INFO ]     ├─ Network connection spoof
+[12:40:36.665] [INFO ]     └─ Battery API spoof
+[12:40:36.665] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:40:36.665] [INFO ] 
+[12:40:36.665] [INFO ]     🔗 NAVIGATING TO URL
+[12:40:36.665] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:40:36.665] [INFO ]     ├─ Timeout:    15.0s
+[12:40:36.665] [INFO ]     └─ Sleep:      1s after load
+[12:40:37.467] [INFO ] 
+[12:40:37.467] [INFO ]     ✅ PAGE LOADED
+[12:40:37.467] [INFO ]     ├─ Final URL:  https://europa.eu/youreurope/business/dealing-with-customers/data-protection/data-protection-gdpr/index_en.htm
+[12:40:37.467] [INFO ]     ├─ Title:      Data protection under GDPR - Your Europe
+[12:40:37.467] [INFO ]     └─ Load Time:  0.80s
+[12:40:38.712] [INFO ] 🧑 Human behavior simulation...
+[12:40:42.600] [INFO ] 🖱️ Mouse: 3 moves in 1536x864
+[12:40:42.600] [INFO ] 🖱️ Mouse completed: 3 moves
+[12:40:42.600] [INFO ] 📜 Scroll: page height, viewport=864px
+[12:40:42.600] [INFO ] 📜 Scroll completed: 2 scrolls
+[12:40:42.600] [INFO ] 🧑 Human behavior completed in 3.9s ✓
+[12:40:42.600] [INFO ] 
+[12:40:42.600] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:40:42.600] [INFO ]     ├─ Mouse Movements: 3
+[12:40:42.600] [INFO ]     ├─ Scroll Actions:  2
+[12:40:42.600] [INFO ]     └─ Time Spent:      3.89s
+[12:40:42.742] [INFO ] 
+[12:40:42.742] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:40:42.742] [INFO ]     │ Title:            Data protection under GDPR - Your Europe
+[12:40:42.742] [INFO ]     │ Final URL:        https://europa.eu/youreurope/business/dealing-with-customers/data-protection/data-protection-gdpr/index_en.htm
+[12:40:42.742] [INFO ]     │ HTML Size:        175,815 bytes
+[12:40:42.742] [INFO ]     │ Text Size:        15,343 chars
+[12:40:42.742] [INFO ]     │ Word Count:       ~2550 words
+[12:40:42.742] [INFO ]     │ Extraction:       trafilatura
+[12:40:42.742] [INFO ]     │ Has Article:      ✅ Yes
+[12:40:42.742] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:40:42.764] [INFO ] 
+[12:40:42.764] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:40:42.764] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260128_124036_081B
+[12:40:42.764] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:40:42.764] [INFO ] 
+[12:40:42.764] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:40:42.764] [INFO ]     │ Browser Launch:      0.06s
+[12:40:42.764] [INFO ]     │ Page Load:           0.80s
+[12:40:42.764] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:40:42.764] [INFO ]     │ Human Simulation:    3.89s
+[12:40:42.764] [INFO ]     │
+[12:40:42.764] [INFO ]     │ Content Extraction:  0.10s
+[12:40:42.764] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:40:42.764] [INFO ]     │ TOTAL TIME:          4.85s
+[12:40:42.764] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:40:42.764] [INFO ] 
+[12:40:42.764] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:40:42.764] [INFO ]     │ Title:            Data protection under GDPR - Your Europe
+[12:40:42.764] [INFO ]     │ Final URL:        https://europa.eu/youreurope/business/dealing-with-customers/data-protection/data-protection-gdpr/index_en.htm
+[12:40:42.764] [INFO ]     │ HTML Size:        175,815 bytes
+[12:40:42.764] [INFO ]     │ Text Size:        15,343 chars
+[12:40:42.764] [INFO ]     │ Word Count:       ~2550 words
+[12:40:42.764] [INFO ]     │ Extraction:       trafilatura
+[12:40:42.764] [INFO ]     │ Has Article:      ✅ Yes
+[12:40:42.764] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:40:42.764] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:40:42.764] [INFO ] ║  📊 SESSION STATS
+[12:40:42.764] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:40:42.764] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:40:42.764] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:40:42.764] [INFO ] ║  └─ Proxy Used:         Direct
+[12:40:42.764] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:40:42.764] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 6.50s
+ENDED: 2026-01-28T12:40:42.764979+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

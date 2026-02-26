@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.theknowledgeacademy.com/eg/courses/iso-22301-training/iso-22301-lead-auditor/
+Started: 2026-01-29 22:35:29
+Session ID: SCRAPE_20260129_223529_D994
+================================================================================
+[22:35:29.579] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_223529_theknowledgeacademy.com.log
+[22:35:29.579] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[22:35:29.926] [INFO ] 
+[22:35:29.926] [INFO ]     🚀 BROWSER LAUNCHED
+[22:35:29.926] [INFO ]     ├─ Mode:       Headless
+[22:35:29.926] [INFO ]     ├─ Slow Mo:    47ms
+[22:35:29.926] [INFO ]     ├─ Launch Time: 0.06s
+[22:35:29.926] [INFO ]     └─ Args:       Anti-automation flags enabled
+[22:35:29.944] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-US, tz=UTC
+[22:35:29.944] [INFO ] 
+[22:35:29.944] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:35:29.944] [INFO ] ║  📋 SESSION: SCRAPE_20260129_223529_D994
+[22:35:29.944] [INFO ] ║  🌐 URL: https://www.theknowledgeacademy.com/eg/courses/iso-22301-training/iso-22301-lead-auditor/
+[22:35:29.944] [INFO ] ║  🔄 ATTEMPT: 1/2
+[22:35:29.944] [INFO ] ║  ⏰ STARTED: 2026-01-29T22:35:29.944643+02:00 (Egypt Time)
+[22:35:29.944] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:35:29.944] [INFO ] 
+[22:35:29.944] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[22:35:29.944] [INFO ]     │ Browser:     SAFARI v17
+[22:35:29.944] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (...
+[22:35:29.944] [INFO ]     │ Viewport:    1920x1080
+[22:35:29.944] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[22:35:29.944] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[22:35:29.944] [INFO ]     │ Location:    Chicago, USA
+[22:35:29.944] [INFO ]     │ Timezone:    N/A
+[22:35:29.944] [INFO ]     │ Locale:      en-US
+[22:35:29.944] [INFO ]     │ Geo:         0, 0
+[22:35:29.944] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[22:35:29.944] [INFO ]     │ Proxy:       Direct (no proxy)
+[22:35:29.944] [INFO ]     │ Referrer:    None
+[22:35:29.944] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:35:29.944] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:35:29.944] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[22:35:29.944] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:35:29.944] [INFO ] 
+[22:35:29.944] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[22:35:29.944] [INFO ]     ├─ Canvas fingerprint noise
+[22:35:29.944] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:35:29.944] [INFO ]     ├─ Hardware concurrency randomization
+[22:35:29.944] [INFO ]     ├─ Device memory randomization
+[22:35:29.944] [INFO ]     ├─ Plugin masking
+[22:35:29.944] [INFO ]     ├─ WebRTC IP leak protection
+[22:35:29.944] [INFO ]     ├─ Network connection spoof
+[22:35:29.944] [INFO ]     └─ Battery API spoof
+[22:35:29.986] [INFO ] 
+[22:35:29.986] [INFO ]     🥷 STEALTH MODE APPLIED
+[22:35:29.986] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[22:35:29.986] [INFO ]     ├─ Chrome runtime patches
+[22:35:29.986] [INFO ]     ├─ Console patches
+[22:35:29.986] [INFO ]     └─ Permission patches
+[22:35:29.986] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[22:35:29.986] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:35:29.986] [INFO ] 
+[22:35:29.986] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[22:35:29.986] [INFO ]     ├─ Canvas fingerprint noise
+[22:35:29.986] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:35:29.986] [INFO ]     ├─ Hardware concurrency randomization
+[22:35:29.986] [INFO ]     ├─ Device memory randomization
+[22:35:29.986] [INFO ]     ├─ Plugin masking
+[22:35:29.986] [INFO ]     ├─ WebRTC IP leak protection
+[22:35:29.986] [INFO ]     ├─ Network connection spoof
+[22:35:29.986] [INFO ]     └─ Battery API spoof
+[22:35:29.986] [DEBUG] Enabled resource blocking (images, media, fonts)
+[22:35:29.986] [INFO ] 
+[22:35:29.986] [INFO ]     🔗 NAVIGATING TO URL
+[22:35:29.986] [INFO ]     ├─ Strategy:   domcontentloaded
+[22:35:29.986] [INFO ]     ├─ Timeout:    15.0s
+[22:35:29.986] [INFO ]     └─ Sleep:      1s after load
+[22:35:31.979] [INFO ] 
+[22:35:31.979] [INFO ]     ✅ PAGE LOADED
+[22:35:31.979] [INFO ]     ├─ Final URL:  https://www.theknowledgeacademy.com/eg/courses/iso-22301-training/iso-22301-lead-auditor/
+[22:35:31.979] [INFO ]     ├─ Title:      ISO 22301 Lead Auditor Training Course - Egypt
+[22:35:31.979] [INFO ]     └─ Load Time:  1.99s
+[22:35:34.491] [INFO ] 🧑 Human behavior simulation...
+[22:35:38.689] [INFO ] 🖱️ Mouse: 3 moves in 1920x1080
+[22:35:38.689] [INFO ] 🖱️ Mouse completed: 3 moves
+[22:35:38.689] [INFO ] 📜 Scroll: page height, viewport=1080px
+[22:35:38.689] [INFO ] 📜 Scroll completed: 2 scrolls
+[22:35:38.689] [INFO ] 🧑 Human behavior completed in 4.2s ✓
+[22:35:38.689] [INFO ] 
+[22:35:38.689] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[22:35:38.689] [INFO ]     ├─ Mouse Movements: 3
+[22:35:38.689] [INFO ]     ├─ Scroll Actions:  2
+[22:35:38.689] [INFO ]     └─ Time Spent:      4.20s
+[22:35:39.841] [INFO ] 
+[22:35:39.841] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:35:39.841] [INFO ]     │ Title:            ISO 22301 Lead Auditor Training Course - Egypt
+[22:35:39.841] [INFO ]     │ Final URL:        https://www.theknowledgeacademy.com/eg/courses/iso-22301-training/iso-22301-lead-auditor/
+[22:35:39.841] [INFO ]     │ HTML Size:        958,851 bytes
+[22:35:39.841] [INFO ]     │ Text Size:        2,992 chars
+[22:35:39.841] [INFO ]     │ Word Count:       ~419 words
+[22:35:39.841] [INFO ]     │ Extraction:       trafilatura
+[22:35:39.841] [INFO ]     │ Has Article:      ✅ Yes
+[22:35:39.841] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:35:39.871] [INFO ] 
+[22:35:39.871] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:35:39.871] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_223529_D994
+[22:35:39.871] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:35:39.871] [INFO ] 
+[22:35:39.871] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[22:35:39.871] [INFO ]     │ Browser Launch:      0.06s
+[22:35:39.871] [INFO ]     │ Page Load:           1.99s
+[22:35:39.871] [INFO ]     │ Cloudflare Wait:     0.00s
+[22:35:39.871] [INFO ]     │ Human Simulation:    4.20s
+[22:35:39.871] [INFO ]     │
+[22:35:39.871] [INFO ]     │ Content Extraction:  0.88s
+[22:35:39.872] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[22:35:39.872] [INFO ]     │ TOTAL TIME:          7.13s
+[22:35:39.872] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:35:39.872] [INFO ] 
+[22:35:39.872] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:35:39.872] [INFO ]     │ Title:            ISO 22301 Lead Auditor Training Course - Egypt
+[22:35:39.872] [INFO ]     │ Final URL:        https://www.theknowledgeacademy.com/eg/courses/iso-22301-training/iso-22301-lead-auditor/
+[22:35:39.872] [INFO ]     │ HTML Size:        958,851 bytes
+[22:35:39.872] [INFO ]     │ Text Size:        2,992 chars
+[22:35:39.872] [INFO ]     │ Word Count:       ~419 words
+[22:35:39.872] [INFO ]     │ Extraction:       trafilatura
+[22:35:39.872] [INFO ]     │ Has Article:      ✅ Yes
+[22:35:39.872] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:35:39.872] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:35:39.872] [INFO ] ║  📊 SESSION STATS
+[22:35:39.872] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[22:35:39.872] [INFO ] ║  ├─ Popups Dismissed:   0
+[22:35:39.872] [INFO ] ║  ├─ Cloudflare:         Not detected
+[22:35:39.872] [INFO ] ║  └─ Proxy Used:         Direct
+[22:35:39.872] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:35:39.872] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.29s
+ENDED: 2026-01-29T22:35:39.872226+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

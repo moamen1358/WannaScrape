@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.iso-certification-egypt.com/pcidss-certification.html
+Started: 2026-01-29 18:34:23
+Session ID: SCRAPE_20260129_183423_F88C
+================================================================================
+[18:34:23.106] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_183423_iso-certification-egypt.com.log
+[18:34:23.107] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[18:34:23.450] [INFO ] 
+[18:34:23.450] [INFO ]     🚀 BROWSER LAUNCHED
+[18:34:23.450] [INFO ]     ├─ Mode:       Headless
+[18:34:23.451] [INFO ]     ├─ Slow Mo:    50ms
+[18:34:23.451] [INFO ]     ├─ Launch Time: 0.06s
+[18:34:23.451] [INFO ]     └─ Args:       Anti-automation flags enabled
+[18:34:23.468] [DEBUG] Browser profile: viewport={'width': 1512, 'height': 982}, locale=en-AU, tz=UTC
+[18:34:23.468] [INFO ] 
+[18:34:23.468] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:34:23.468] [INFO ] ║  📋 SESSION: SCRAPE_20260129_183423_F88C
+[18:34:23.468] [INFO ] ║  🌐 URL: https://www.iso-certification-egypt.com/pcidss-certification.html
+[18:34:23.469] [INFO ] ║  🔄 ATTEMPT: 1/2
+[18:34:23.469] [INFO ] ║  ⏰ STARTED: 2026-01-29T18:34:23.469005+02:00 (Egypt Time)
+[18:34:23.469] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:34:23.469] [INFO ] 
+[18:34:23.469] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[18:34:23.469] [INFO ]     │ Browser:     SAFARI v17
+[18:34:23.469] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (...
+[18:34:23.469] [INFO ]     │ Viewport:    1512x982
+[18:34:23.469] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[18:34:23.469] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[18:34:23.469] [INFO ]     │ Location:    Melbourne, Australia
+[18:34:23.469] [INFO ]     │ Timezone:    N/A
+[18:34:23.469] [INFO ]     │ Locale:      en-AU
+[18:34:23.469] [INFO ]     │ Geo:         0, 0
+[18:34:23.469] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[18:34:23.469] [INFO ]     │ Proxy:       Direct (no proxy)
+[18:34:23.469] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+iso-certification-egypt+com
+[18:34:23.469] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:34:23.469] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:34:23.469] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[18:34:23.469] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:34:23.469] [INFO ] 
+[18:34:23.469] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[18:34:23.469] [INFO ]     ├─ Canvas fingerprint noise
+[18:34:23.469] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:34:23.469] [INFO ]     ├─ Hardware concurrency randomization
+[18:34:23.469] [INFO ]     ├─ Device memory randomization
+[18:34:23.469] [INFO ]     ├─ Plugin masking
+[18:34:23.469] [INFO ]     ├─ WebRTC IP leak protection
+[18:34:23.469] [INFO ]     ├─ Network connection spoof
+[18:34:23.469] [INFO ]     └─ Battery API spoof
+[18:34:23.510] [INFO ] 
+[18:34:23.510] [INFO ]     🥷 STEALTH MODE APPLIED
+[18:34:23.510] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[18:34:23.510] [INFO ]     ├─ Chrome runtime patches
+[18:34:23.510] [INFO ]     ├─ Console patches
+[18:34:23.510] [INFO ]     └─ Permission patches
+[18:34:23.510] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[18:34:23.510] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:34:23.510] [INFO ] 
+[18:34:23.510] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[18:34:23.510] [INFO ]     ├─ Canvas fingerprint noise
+[18:34:23.510] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:34:23.510] [INFO ]     ├─ Hardware concurrency randomization
+[18:34:23.510] [INFO ]     ├─ Device memory randomization
+[18:34:23.510] [INFO ]     ├─ Plugin masking
+[18:34:23.510] [INFO ]     ├─ WebRTC IP leak protection
+[18:34:23.510] [INFO ]     ├─ Network connection spoof
+[18:34:23.510] [INFO ]     └─ Battery API spoof
+[18:34:23.510] [DEBUG] Enabled resource blocking (images, media, fonts)
+[18:34:23.510] [INFO ] 
+[18:34:23.510] [INFO ]     🔗 NAVIGATING TO URL
+[18:34:23.510] [INFO ]     ├─ Strategy:   domcontentloaded
+[18:34:23.510] [INFO ]     ├─ Timeout:    15.0s
+[18:34:23.510] [INFO ]     └─ Sleep:      1s after load
+[18:34:30.368] [INFO ] 
+[18:34:30.368] [INFO ]     ✅ PAGE LOADED
+[18:34:30.368] [INFO ]     ├─ Final URL:  https://www.iso-certification-egypt.com/pcidss-certification.html
+[18:34:30.368] [INFO ]     ├─ Title:      PCI DSS Certification Consultants - Cairo, Alexandria, Giza
+[18:34:30.368] [INFO ]     └─ Load Time:  6.86s
+[18:34:31.623] [INFO ] 🧑 Human behavior simulation...
+[18:34:35.610] [INFO ] 🖱️ Mouse: 3 moves in 1512x982
+[18:34:35.610] [INFO ] 🖱️ Mouse completed: 3 moves
+[18:34:35.610] [INFO ] 📜 Scroll: page height, viewport=982px
+[18:34:35.610] [INFO ] 📜 Scroll completed: 2 scrolls
+[18:34:35.610] [INFO ] 🧑 Human behavior completed in 4.0s ✓
+[18:34:35.610] [INFO ] 
+[18:34:35.610] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[18:34:35.610] [INFO ]     ├─ Mouse Movements: 3
+[18:34:35.610] [INFO ]     ├─ Scroll Actions:  2
+[18:34:35.610] [INFO ]     └─ Time Spent:      3.99s
+[18:34:35.914] [INFO ] 
+[18:34:35.914] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:34:35.914] [INFO ]     │ Title:            PCI-DSS CERTIFICATION IN EGYPT
+[18:34:35.914] [INFO ]     │ Final URL:        https://www.iso-certification-egypt.com/pcidss-certification.html
+[18:34:35.914] [INFO ]     │ HTML Size:        95,981 bytes
+[18:34:35.914] [INFO ]     │ Text Size:        9,577 chars
+[18:34:35.914] [INFO ]     │ Word Count:       ~1381 words
+[18:34:35.914] [INFO ]     │ Extraction:       trafilatura
+[18:34:35.914] [INFO ]     │ Has Article:      ✅ Yes
+[18:34:35.914] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:34:35.939] [INFO ] 
+[18:34:35.939] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:34:35.939] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_183423_F88C
+[18:34:35.939] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:34:35.939] [INFO ] 
+[18:34:35.939] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[18:34:35.939] [INFO ]     │ Browser Launch:      0.06s
+[18:34:35.939] [INFO ]     │ Page Load:           6.86s
+[18:34:35.939] [INFO ]     │ Cloudflare Wait:     0.00s
+[18:34:35.939] [INFO ]     │ Human Simulation:    3.99s
+[18:34:35.939] [INFO ]     │
+[18:34:35.939] [INFO ]     │ Content Extraction:  0.23s
+[18:34:35.939] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[18:34:35.939] [INFO ]     │ TOTAL TIME:          11.13s
+[18:34:35.939] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:34:35.939] [INFO ] 
+[18:34:35.939] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:34:35.939] [INFO ]     │ Title:            PCI-DSS CERTIFICATION IN EGYPT
+[18:34:35.939] [INFO ]     │ Final URL:        https://www.iso-certification-egypt.com/pcidss-certification.html
+[18:34:35.939] [INFO ]     │ HTML Size:        95,981 bytes
+[18:34:35.939] [INFO ]     │ Text Size:        9,577 chars
+[18:34:35.939] [INFO ]     │ Word Count:       ~1381 words
+[18:34:35.939] [INFO ]     │ Extraction:       trafilatura
+[18:34:35.939] [INFO ]     │ Has Article:      ✅ Yes
+[18:34:35.939] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:34:35.939] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:34:35.939] [INFO ] ║  📊 SESSION STATS
+[18:34:35.939] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[18:34:35.939] [INFO ] ║  ├─ Popups Dismissed:   0
+[18:34:35.939] [INFO ] ║  ├─ Cloudflare:         Not detected
+[18:34:35.939] [INFO ] ║  └─ Proxy Used:         Direct
+[18:34:35.939] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:34:35.939] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 12.83s
+ENDED: 2026-01-29T18:34:35.939622+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

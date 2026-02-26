@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://certvalue.com/iso-22301-certification-in-egypt/
+Started: 2026-01-29 22:36:59
+Session ID: SCRAPE_20260129_223659_BA9E
+================================================================================
+[22:36:59.578] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_223659_certvalue.com.log
+[22:36:59.578] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[22:36:59.918] [INFO ] 
+[22:36:59.918] [INFO ]     🚀 BROWSER LAUNCHED
+[22:36:59.918] [INFO ]     ├─ Mode:       Headless
+[22:36:59.918] [INFO ]     ├─ Slow Mo:    49ms
+[22:36:59.918] [INFO ]     ├─ Launch Time: 0.06s
+[22:36:59.918] [INFO ]     └─ Args:       Anti-automation flags enabled
+[22:36:59.936] [DEBUG] Browser profile: viewport={'width': 1600, 'height': 900}, locale=en-CA, tz=UTC
+[22:36:59.936] [INFO ] 
+[22:36:59.936] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:36:59.936] [INFO ] ║  📋 SESSION: SCRAPE_20260129_223659_BA9E
+[22:36:59.936] [INFO ] ║  🌐 URL: https://certvalue.com/iso-22301-certification-in-egypt/
+[22:36:59.936] [INFO ] ║  🔄 ATTEMPT: 1/2
+[22:36:59.936] [INFO ] ║  ⏰ STARTED: 2026-01-29T22:36:59.936189+02:00 (Egypt Time)
+[22:36:59.936] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:36:59.936] [INFO ] 
+[22:36:59.936] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[22:36:59.936] [INFO ]     │ Browser:     FIREFOX v121
+[22:36:59.936] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64; rv:121.0) Gecko/20100101 Fir...
+[22:36:59.936] [INFO ]     │ Viewport:    1600x900
+[22:36:59.936] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[22:36:59.936] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[22:36:59.936] [INFO ]     │ Location:    Vancouver, Canada
+[22:36:59.936] [INFO ]     │ Timezone:    N/A
+[22:36:59.936] [INFO ]     │ Locale:      en-CA
+[22:36:59.936] [INFO ]     │ Geo:         0, 0
+[22:36:59.936] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[22:36:59.936] [INFO ]     │ Proxy:       Direct (no proxy)
+[22:36:59.936] [INFO ]     │ Referrer:    https://www.google.com/search?q=certvalue+com
+[22:36:59.936] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:36:59.936] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:36:59.936] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[22:36:59.936] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:36:59.936] [INFO ] 
+[22:36:59.936] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[22:36:59.936] [INFO ]     ├─ Canvas fingerprint noise
+[22:36:59.936] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:36:59.936] [INFO ]     ├─ Hardware concurrency randomization
+[22:36:59.936] [INFO ]     ├─ Device memory randomization
+[22:36:59.936] [INFO ]     ├─ Plugin masking
+[22:36:59.936] [INFO ]     ├─ WebRTC IP leak protection
+[22:36:59.936] [INFO ]     ├─ Network connection spoof
+[22:36:59.936] [INFO ]     └─ Battery API spoof
+[22:36:59.977] [INFO ] 
+[22:36:59.977] [INFO ]     🥷 STEALTH MODE APPLIED
+[22:36:59.977] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[22:36:59.977] [INFO ]     ├─ Chrome runtime patches
+[22:36:59.977] [INFO ]     ├─ Console patches
+[22:36:59.977] [INFO ]     └─ Permission patches
+[22:36:59.977] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[22:36:59.977] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:36:59.977] [INFO ] 
+[22:36:59.977] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[22:36:59.977] [INFO ]     ├─ Canvas fingerprint noise
+[22:36:59.977] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:36:59.977] [INFO ]     ├─ Hardware concurrency randomization
+[22:36:59.977] [INFO ]     ├─ Device memory randomization
+[22:36:59.977] [INFO ]     ├─ Plugin masking
+[22:36:59.977] [INFO ]     ├─ WebRTC IP leak protection
+[22:36:59.977] [INFO ]     ├─ Network connection spoof
+[22:36:59.977] [INFO ]     └─ Battery API spoof
+[22:36:59.977] [DEBUG] Enabled resource blocking (images, media, fonts)
+[22:36:59.977] [INFO ] 
+[22:36:59.977] [INFO ]     🔗 NAVIGATING TO URL
+[22:36:59.977] [INFO ]     ├─ Strategy:   domcontentloaded
+[22:36:59.977] [INFO ]     ├─ Timeout:    15.0s
+[22:36:59.977] [INFO ]     └─ Sleep:      1s after load
+[22:37:04.034] [INFO ] 
+[22:37:04.035] [INFO ]     ✅ PAGE LOADED
+[22:37:04.035] [INFO ]     ├─ Final URL:  https://certvalue.com/iso-22301-certification-in-egypt/
+[22:37:04.035] [INFO ]     ├─ Title:      ISO 22301 Certification in Egypt | ISO 22301 Consultants in Egypt
+[22:37:04.035] [INFO ]     └─ Load Time:  4.06s
+[22:37:06.276] [INFO ] 🧑 Human behavior simulation...
+[22:37:11.400] [INFO ] 🖱️ Mouse: 3 moves in 1600x900
+[22:37:11.400] [INFO ] 🖱️ Mouse completed: 3 moves
+[22:37:11.400] [INFO ] 📜 Scroll: page height, viewport=900px
+[22:37:11.400] [INFO ] 📜 Scroll completed: 2 scrolls
+[22:37:11.400] [INFO ] 🧑 Human behavior completed in 5.1s ✓
+[22:37:11.400] [INFO ] 
+[22:37:11.400] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[22:37:11.400] [INFO ]     ├─ Mouse Movements: 3
+[22:37:11.400] [INFO ]     ├─ Scroll Actions:  2
+[22:37:11.400] [INFO ]     └─ Time Spent:      5.12s
+[22:37:12.346] [INFO ] 
+[22:37:12.346] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:37:12.346] [INFO ]     │ Title:            ISO 22301 Certification in Egypt | ISO 22301 Consu
+[22:37:12.346] [INFO ]     │ Final URL:        https://certvalue.com/iso-22301-certification-in-egypt/
+[22:37:12.346] [INFO ]     │ HTML Size:        1,721,731 bytes
+[22:37:12.346] [INFO ]     │ Text Size:        8,984 chars
+[22:37:12.346] [INFO ]     │ Word Count:       ~1323 words
+[22:37:12.346] [INFO ]     │ Extraction:       trafilatura
+[22:37:12.346] [INFO ]     │ Has Article:      ✅ Yes
+[22:37:12.346] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:37:12.384] [INFO ] 
+[22:37:12.384] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:37:12.384] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_223659_BA9E
+[22:37:12.384] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:37:12.384] [INFO ] 
+[22:37:12.384] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[22:37:12.384] [INFO ]     │ Browser Launch:      0.06s
+[22:37:12.384] [INFO ]     │ Page Load:           4.06s
+[22:37:12.384] [INFO ]     │ Cloudflare Wait:     0.00s
+[22:37:12.384] [INFO ]     │ Human Simulation:    5.12s
+[22:37:12.384] [INFO ]     │
+[22:37:12.384] [INFO ]     │ Content Extraction:  0.53s
+[22:37:12.384] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[22:37:12.384] [INFO ]     │ TOTAL TIME:          9.77s
+[22:37:12.384] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:37:12.384] [INFO ] 
+[22:37:12.384] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:37:12.384] [INFO ]     │ Title:            ISO 22301 Certification in Egypt | ISO 22301 Consu
+[22:37:12.384] [INFO ]     │ Final URL:        https://certvalue.com/iso-22301-certification-in-egypt/
+[22:37:12.384] [INFO ]     │ HTML Size:        1,721,731 bytes
+[22:37:12.384] [INFO ]     │ Text Size:        8,984 chars
+[22:37:12.384] [INFO ]     │ Word Count:       ~1323 words
+[22:37:12.384] [INFO ]     │ Extraction:       trafilatura
+[22:37:12.384] [INFO ]     │ Has Article:      ✅ Yes
+[22:37:12.384] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:37:12.384] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:37:12.384] [INFO ] ║  📊 SESSION STATS
+[22:37:12.384] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[22:37:12.384] [INFO ] ║  ├─ Popups Dismissed:   0
+[22:37:12.384] [INFO ] ║  ├─ Cloudflare:         Not detected
+[22:37:12.384] [INFO ] ║  └─ Proxy Used:         Direct
+[22:37:12.384] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:37:12.384] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 12.81s
+ENDED: 2026-01-29T22:37:12.384833+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://corporate.visa.com/en/resources/security-compliance.html
+Started: 2026-01-29 18:35:53
+Session ID: SCRAPE_20260129_183553_8D6E
+================================================================================
+[18:35:53.110] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_183553_corporate.visa.com.log
+[18:35:53.110] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[18:35:53.466] [INFO ] 
+[18:35:53.466] [INFO ]     🚀 BROWSER LAUNCHED
+[18:35:53.466] [INFO ]     ├─ Mode:       Headless
+[18:35:53.466] [INFO ]     ├─ Slow Mo:    45ms
+[18:35:53.466] [INFO ]     ├─ Launch Time: 0.06s
+[18:35:53.466] [INFO ]     └─ Args:       Anti-automation flags enabled
+[18:35:53.485] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-US, tz=UTC
+[18:35:53.485] [INFO ] 
+[18:35:53.485] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:35:53.485] [INFO ] ║  📋 SESSION: SCRAPE_20260129_183553_8D6E
+[18:35:53.485] [INFO ] ║  🌐 URL: https://corporate.visa.com/en/resources/security-compliance.html
+[18:35:53.485] [INFO ] ║  🔄 ATTEMPT: 1/2
+[18:35:53.485] [INFO ] ║  ⏰ STARTED: 2026-01-29T18:35:53.485102+02:00 (Egypt Time)
+[18:35:53.485] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:35:53.485] [INFO ] 
+[18:35:53.485] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[18:35:53.485] [INFO ]     │ Browser:     EDGE v120
+[18:35:53.485] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[18:35:53.485] [INFO ]     │ Viewport:    1366x768
+[18:35:53.485] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[18:35:53.485] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[18:35:53.485] [INFO ]     │ Location:    Chicago, USA
+[18:35:53.485] [INFO ]     │ Timezone:    N/A
+[18:35:53.485] [INFO ]     │ Locale:      en-US
+[18:35:53.485] [INFO ]     │ Geo:         0, 0
+[18:35:53.485] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[18:35:53.485] [INFO ]     │ Proxy:       Direct (no proxy)
+[18:35:53.485] [INFO ]     │ Referrer:    https://news.google.com/
+[18:35:53.485] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:35:53.485] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:35:53.485] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[18:35:53.485] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:35:53.485] [INFO ] 
+[18:35:53.485] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[18:35:53.485] [INFO ]     ├─ Canvas fingerprint noise
+[18:35:53.485] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:35:53.485] [INFO ]     ├─ Hardware concurrency randomization
+[18:35:53.485] [INFO ]     ├─ Device memory randomization
+[18:35:53.485] [INFO ]     ├─ Plugin masking
+[18:35:53.485] [INFO ]     ├─ WebRTC IP leak protection
+[18:35:53.485] [INFO ]     ├─ Network connection spoof
+[18:35:53.485] [INFO ]     └─ Battery API spoof
+[18:35:53.528] [INFO ] 
+[18:35:53.528] [INFO ]     🥷 STEALTH MODE APPLIED
+[18:35:53.528] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[18:35:53.528] [INFO ]     ├─ Chrome runtime patches
+[18:35:53.528] [INFO ]     ├─ Console patches
+[18:35:53.528] [INFO ]     └─ Permission patches
+[18:35:53.528] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[18:35:53.528] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:35:53.528] [INFO ] 
+[18:35:53.528] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[18:35:53.528] [INFO ]     ├─ Canvas fingerprint noise
+[18:35:53.528] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:35:53.528] [INFO ]     ├─ Hardware concurrency randomization
+[18:35:53.528] [INFO ]     ├─ Device memory randomization
+[18:35:53.528] [INFO ]     ├─ Plugin masking
+[18:35:53.528] [INFO ]     ├─ WebRTC IP leak protection
+[18:35:53.528] [INFO ]     ├─ Network connection spoof
+[18:35:53.528] [INFO ]     └─ Battery API spoof
+[18:35:53.528] [DEBUG] Enabled resource blocking (images, media, fonts)
+[18:35:53.528] [INFO ] 
+[18:35:53.528] [INFO ]     🔗 NAVIGATING TO URL
+[18:35:53.528] [INFO ]     ├─ Strategy:   domcontentloaded
+[18:35:53.528] [INFO ]     ├─ Timeout:    15.0s
+[18:35:53.528] [INFO ]     └─ Sleep:      1s after load
+[18:35:54.604] [INFO ] 
+[18:35:54.604] [INFO ]     ✅ PAGE LOADED
+[18:35:54.604] [INFO ]     ├─ Final URL:  https://corporate.visa.com/en/resources/security-compliance.html
+[18:35:54.604] [INFO ]     ├─ Title:      Account Information Security (AIS) Program and PCI | Visa
+[18:35:54.604] [INFO ]     └─ Load Time:  1.08s
+[18:35:55.954] [INFO ] 🧑 Human behavior simulation...
+[18:35:57.946] [INFO ] 🖱️ Mouse: 1 moves in 1366x768
+[18:35:57.946] [INFO ] 🖱️ Mouse completed: 1 moves
+[18:35:57.946] [INFO ] 📜 Scroll: page height, viewport=768px
+[18:35:57.946] [INFO ] 📜 Scroll completed: 1 scrolls
+[18:35:57.946] [INFO ] 🧑 Human behavior completed in 2.0s ✓
+[18:35:57.946] [INFO ] 
+[18:35:57.946] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[18:35:57.946] [INFO ]     ├─ Mouse Movements: 1
+[18:35:57.946] [INFO ]     ├─ Scroll Actions:  1
+[18:35:57.946] [INFO ]     └─ Time Spent:      1.99s
+[18:35:58.292] [INFO ] 
+[18:35:58.292] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:35:58.293] [INFO ]     │ Title:            Account Information Security (AIS) Program and PCI
+[18:35:58.293] [INFO ]     │ Final URL:        https://corporate.visa.com/en/resources/security-compliance.html
+[18:35:58.293] [INFO ]     │ HTML Size:        426,579 bytes
+[18:35:58.293] [INFO ]     │ Text Size:        4,329 chars
+[18:35:58.293] [INFO ]     │ Word Count:       ~638 words
+[18:35:58.293] [INFO ]     │ Extraction:       trafilatura
+[18:35:58.293] [INFO ]     │ Has Article:      ✅ Yes
+[18:35:58.293] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:35:58.323] [INFO ] 
+[18:35:58.323] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:35:58.323] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_183553_8D6E
+[18:35:58.323] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:35:58.323] [INFO ] 
+[18:35:58.323] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[18:35:58.323] [INFO ]     │ Browser Launch:      0.06s
+[18:35:58.323] [INFO ]     │ Page Load:           1.08s
+[18:35:58.324] [INFO ]     │ Cloudflare Wait:     0.00s
+[18:35:58.324] [INFO ]     │ Human Simulation:    1.99s
+[18:35:58.324] [INFO ]     │
+[18:35:58.324] [INFO ]     │ Content Extraction:  0.20s
+[18:35:58.324] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[18:35:58.324] [INFO ]     │ TOTAL TIME:          3.33s
+[18:35:58.324] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:35:58.324] [INFO ] 
+[18:35:58.324] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:35:58.324] [INFO ]     │ Title:            Account Information Security (AIS) Program and PCI
+[18:35:58.324] [INFO ]     │ Final URL:        https://corporate.visa.com/en/resources/security-compliance.html
+[18:35:58.324] [INFO ]     │ HTML Size:        426,579 bytes
+[18:35:58.324] [INFO ]     │ Text Size:        4,329 chars
+[18:35:58.324] [INFO ]     │ Word Count:       ~638 words
+[18:35:58.324] [INFO ]     │ Extraction:       trafilatura
+[18:35:58.324] [INFO ]     │ Has Article:      ✅ Yes
+[18:35:58.324] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:35:58.324] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:35:58.324] [INFO ] ║  📊 SESSION STATS
+[18:35:58.324] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[18:35:58.324] [INFO ] ║  ├─ Popups Dismissed:   0
+[18:35:58.324] [INFO ] ║  ├─ Cloudflare:         Not detected
+[18:35:58.324] [INFO ] ║  └─ Proxy Used:         Direct
+[18:35:58.324] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:35:58.324] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 5.21s
+ENDED: 2026-01-29T18:35:58.324205+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://en.wikipedia.org/wiki/ISO/IEC_27001
+Started: 2026-01-26 13:10:57
+Session ID: SCRAPE_20260126_131057_DD6A
+================================================================================
+[13:10:57.161] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_131057_en.wikipedia.org.log
+[13:10:57.161] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[13:10:57.503] [INFO ] 
+[13:10:57.503] [INFO ]     🚀 BROWSER LAUNCHED
+[13:10:57.503] [INFO ]     ├─ Mode:       Headless
+[13:10:57.503] [INFO ]     ├─ Slow Mo:    52ms
+[13:10:57.503] [INFO ]     ├─ Launch Time: 0.06s
+[13:10:57.503] [INFO ]     └─ Args:       Anti-automation flags enabled
+[13:10:57.519] [DEBUG] Browser profile: viewport={'width': 1536, 'height': 864}, locale=en-GB, tz=UTC
+[13:10:57.519] [INFO ] 
+[13:10:57.519] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[13:10:57.519] [INFO ] ║  📋 SESSION: SCRAPE_20260126_131057_DD6A
+[13:10:57.519] [INFO ] ║  🌐 URL: https://en.wikipedia.org/wiki/ISO/IEC_27001
+[13:10:57.519] [INFO ] ║  🔄 ATTEMPT: 1/2
+[13:10:57.519] [INFO ] ║  ⏰ STARTED: 2026-01-26T13:10:57.519944+02:00 (Egypt Time)
+[13:10:57.519] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:10:57.519] [INFO ] 
+[13:10:57.519] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[13:10:57.519] [INFO ]     │ Browser:     FIREFOX v120
+[13:10:57.519] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Fir...
+[13:10:57.519] [INFO ]     │ Viewport:    1536x864
+[13:10:57.519] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[13:10:57.519] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[13:10:57.519] [INFO ]     │ Location:    Manchester, UK
+[13:10:57.520] [INFO ]     │ Timezone:    N/A
+[13:10:57.520] [INFO ]     │ Locale:      en-GB
+[13:10:57.520] [INFO ]     │ Geo:         0, 0
+[13:10:57.520] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[13:10:57.520] [INFO ]     │ Proxy:       Direct (no proxy)
+[13:10:57.520] [INFO ]     │ Referrer:    None
+[13:10:57.520] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:10:57.520] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[13:10:57.520] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[13:10:57.520] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[13:10:57.520] [INFO ] 
+[13:10:57.520] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[13:10:57.520] [INFO ]     ├─ Canvas fingerprint noise
+[13:10:57.520] [INFO ]     ├─ WebGL renderer/vendor spoof
+[13:10:57.520] [INFO ]     ├─ Hardware concurrency randomization
+[13:10:57.520] [INFO ]     ├─ Device memory randomization
+[13:10:57.520] [INFO ]     ├─ Plugin masking
+[13:10:57.520] [INFO ]     ├─ WebRTC IP leak protection
+[13:10:57.520] [INFO ]     ├─ Network connection spoof
+[13:10:57.520] [INFO ]     └─ Battery API spoof
+[13:10:57.560] [INFO ] 
+[13:10:57.560] [INFO ]     🥷 STEALTH MODE APPLIED
+[13:10:57.560] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[13:10:57.560] [INFO ]     ├─ Chrome runtime patches
+[13:10:57.560] [INFO ]     ├─ Console patches
+[13:10:57.561] [INFO ]     └─ Permission patches
+[13:10:57.561] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[13:10:57.561] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[13:10:57.561] [INFO ] 
+[13:10:57.561] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[13:10:57.561] [INFO ]     ├─ Canvas fingerprint noise
+[13:10:57.561] [INFO ]     ├─ WebGL renderer/vendor spoof
+[13:10:57.561] [INFO ]     ├─ Hardware concurrency randomization
+[13:10:57.561] [INFO ]     ├─ Device memory randomization
+[13:10:57.561] [INFO ]     ├─ Plugin masking
+[13:10:57.561] [INFO ]     ├─ WebRTC IP leak protection
+[13:10:57.561] [INFO ]     ├─ Network connection spoof
+[13:10:57.561] [INFO ]     └─ Battery API spoof
+[13:10:57.561] [DEBUG] Enabled resource blocking (images, media, fonts)
+[13:10:57.561] [INFO ] 
+[13:10:57.561] [INFO ]     🔗 NAVIGATING TO URL
+[13:10:57.561] [INFO ]     ├─ Strategy:   domcontentloaded
+[13:10:57.561] [INFO ]     ├─ Timeout:    15.0s
+[13:10:57.561] [INFO ]     └─ Sleep:      1s after load
+[13:10:58.352] [INFO ] 
+[13:10:58.352] [INFO ]     ✅ PAGE LOADED
+[13:10:58.352] [INFO ]     ├─ Final URL:  https://en.wikipedia.org/wiki/ISO/IEC_27001
+[13:10:58.352] [INFO ]     ├─ Title:      ISO/IEC 27001 - Wikipedia
+[13:10:58.352] [INFO ]     └─ Load Time:  0.79s
+[13:10:59.743] [INFO ] 🧑 Human behavior simulation...
+[13:11:04.197] [INFO ] 🖱️ Mouse: 3 moves in 1536x864
+[13:11:04.197] [INFO ] 🖱️ Mouse completed: 3 moves
+[13:11:04.197] [INFO ] 📜 Scroll: page height, viewport=864px
+[13:11:04.197] [INFO ] 📜 Scroll completed: 2 scrolls
+[13:11:04.197] [INFO ] 🧑 Human behavior completed in 4.5s ✓
+[13:11:04.197] [INFO ] 
+[13:11:04.197] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[13:11:04.197] [INFO ]     ├─ Mouse Movements: 3
+[13:11:04.197] [INFO ]     ├─ Scroll Actions:  2
+[13:11:04.197] [INFO ]     └─ Time Spent:      4.45s
+[13:11:04.542] [INFO ] 
+[13:11:04.542] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[13:11:04.542] [INFO ]     │ Title:            ISO/IEC 27001 - Wikipedia
+[13:11:04.542] [INFO ]     │ Final URL:        https://en.wikipedia.org/wiki/ISO/IEC_27001
+[13:11:04.542] [INFO ]     │ HTML Size:        371,207 bytes
+[13:11:04.542] [INFO ]     │ Text Size:        11,761 chars
+[13:11:04.542] [INFO ]     │ Word Count:       ~1710 words
+[13:11:04.542] [INFO ]     │ Extraction:       trafilatura
+[13:11:04.542] [INFO ]     │ Has Article:      ✅ Yes
+[13:11:04.542] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:11:04.565] [INFO ] 
+[13:11:04.565] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[13:11:04.565] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_131057_DD6A
+[13:11:04.565] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:11:04.566] [INFO ] 
+[13:11:04.566] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[13:11:04.566] [INFO ]     │ Browser Launch:      0.06s
+[13:11:04.566] [INFO ]     │ Page Load:           0.79s
+[13:11:04.566] [INFO ]     │ Cloudflare Wait:     0.00s
+[13:11:04.566] [INFO ]     │ Human Simulation:    4.45s
+[13:11:04.566] [INFO ]     │
+[13:11:04.566] [INFO ]     │ Content Extraction:  0.18s
+[13:11:04.566] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[13:11:04.566] [INFO ]     │ TOTAL TIME:          5.48s
+[13:11:04.566] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:11:04.566] [INFO ] 
+[13:11:04.566] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[13:11:04.566] [INFO ]     │ Title:            ISO/IEC 27001 - Wikipedia
+[13:11:04.566] [INFO ]     │ Final URL:        https://en.wikipedia.org/wiki/ISO/IEC_27001
+[13:11:04.566] [INFO ]     │ HTML Size:        371,207 bytes
+[13:11:04.566] [INFO ]     │ Text Size:        11,761 chars
+[13:11:04.566] [INFO ]     │ Word Count:       ~1710 words
+[13:11:04.566] [INFO ]     │ Extraction:       trafilatura
+[13:11:04.566] [INFO ]     │ Has Article:      ✅ Yes
+[13:11:04.566] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:11:04.566] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:11:04.566] [INFO ] ║  📊 SESSION STATS
+[13:11:04.566] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[13:11:04.566] [INFO ] ║  ├─ Popups Dismissed:   0
+[13:11:04.566] [INFO ] ║  ├─ Cloudflare:         Not detected
+[13:11:04.566] [INFO ] ║  └─ Proxy Used:         Direct
+[13:11:04.566] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[13:11:04.566] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.40s
+ENDED: 2026-01-26T13:11:04.566325+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

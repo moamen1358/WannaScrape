@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.protechtgroup.com/en-us/blog/nist-csf-cyber-security-framework-guide
+Started: 2026-01-29 17:33:22
+Session ID: SCRAPE_20260129_173322_0AD4
+================================================================================
+[17:33:22.126] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_173322_protechtgroup.com.log
+[17:33:22.126] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[17:33:22.477] [INFO ] 
+[17:33:22.477] [INFO ]     🚀 BROWSER LAUNCHED
+[17:33:22.477] [INFO ]     ├─ Mode:       Headless
+[17:33:22.477] [INFO ]     ├─ Slow Mo:    50ms
+[17:33:22.477] [INFO ]     ├─ Launch Time: 0.06s
+[17:33:22.477] [INFO ]     └─ Args:       Anti-automation flags enabled
+[17:33:22.495] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-US, tz=UTC
+[17:33:22.495] [INFO ] 
+[17:33:22.495] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:33:22.495] [INFO ] ║  📋 SESSION: SCRAPE_20260129_173322_0AD4
+[17:33:22.495] [INFO ] ║  🌐 URL: https://www.protechtgroup.com/en-us/blog/nist-csf-cyber-security-framework-guide
+[17:33:22.495] [INFO ] ║  🔄 ATTEMPT: 1/2
+[17:33:22.495] [INFO ] ║  ⏰ STARTED: 2026-01-29T17:33:22.495835+02:00 (Egypt Time)
+[17:33:22.495] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:33:22.495] [INFO ] 
+[17:33:22.495] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[17:33:22.495] [INFO ]     │ Browser:     SAFARI v17
+[17:33:22.495] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHT...
+[17:33:22.495] [INFO ]     │ Viewport:    1680x1050
+[17:33:22.495] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[17:33:22.495] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[17:33:22.495] [INFO ]     │ Location:    Denver, USA
+[17:33:22.495] [INFO ]     │ Timezone:    N/A
+[17:33:22.495] [INFO ]     │ Locale:      en-US
+[17:33:22.495] [INFO ]     │ Geo:         0, 0
+[17:33:22.495] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[17:33:22.495] [INFO ]     │ Proxy:       Direct (no proxy)
+[17:33:22.495] [INFO ]     │ Referrer:    None
+[17:33:22.495] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:33:22.495] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:33:22.495] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[17:33:22.495] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:33:22.495] [INFO ] 
+[17:33:22.495] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[17:33:22.495] [INFO ]     ├─ Canvas fingerprint noise
+[17:33:22.495] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:33:22.495] [INFO ]     ├─ Hardware concurrency randomization
+[17:33:22.495] [INFO ]     ├─ Device memory randomization
+[17:33:22.495] [INFO ]     ├─ Plugin masking
+[17:33:22.495] [INFO ]     ├─ WebRTC IP leak protection
+[17:33:22.495] [INFO ]     ├─ Network connection spoof
+[17:33:22.495] [INFO ]     └─ Battery API spoof
+[17:33:22.536] [INFO ] 
+[17:33:22.536] [INFO ]     🥷 STEALTH MODE APPLIED
+[17:33:22.536] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[17:33:22.536] [INFO ]     ├─ Chrome runtime patches
+[17:33:22.536] [INFO ]     ├─ Console patches
+[17:33:22.536] [INFO ]     └─ Permission patches
+[17:33:22.536] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[17:33:22.536] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:33:22.536] [INFO ] 
+[17:33:22.536] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[17:33:22.536] [INFO ]     ├─ Canvas fingerprint noise
+[17:33:22.536] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:33:22.536] [INFO ]     ├─ Hardware concurrency randomization
+[17:33:22.536] [INFO ]     ├─ Device memory randomization
+[17:33:22.536] [INFO ]     ├─ Plugin masking
+[17:33:22.536] [INFO ]     ├─ WebRTC IP leak protection
+[17:33:22.536] [INFO ]     ├─ Network connection spoof
+[17:33:22.536] [INFO ]     └─ Battery API spoof
+[17:33:22.536] [DEBUG] Enabled resource blocking (images, media, fonts)
+[17:33:22.536] [INFO ] 
+[17:33:22.536] [INFO ]     🔗 NAVIGATING TO URL
+[17:33:22.536] [INFO ]     ├─ Strategy:   domcontentloaded
+[17:33:22.536] [INFO ]     ├─ Timeout:    15.0s
+[17:33:22.536] [INFO ]     └─ Sleep:      1s after load
+[17:33:24.096] [INFO ] 
+[17:33:24.096] [INFO ]     ✅ PAGE LOADED
+[17:33:24.096] [INFO ]     ├─ Final URL:  https://www.protechtgroup.com/en-us/blog/nist-csf-cyber-security-framework-guide
+[17:33:24.096] [INFO ]     ├─ Title:      NIST CSF Cyber Security Framework Complete Guide USA
+[17:33:24.096] [INFO ]     └─ Load Time:  1.56s
+[17:33:25.530] [INFO ] 🧑 Human behavior simulation...
+[17:33:30.564] [INFO ] 🖱️ Mouse: 3 moves in 1680x1050
+[17:33:30.564] [INFO ] 🖱️ Mouse completed: 3 moves
+[17:33:30.564] [INFO ] 📜 Scroll: page height, viewport=1050px
+[17:33:30.564] [INFO ] 📜 Scroll completed: 1 scrolls
+[17:33:30.564] [INFO ] 🧑 Human behavior completed in 5.0s ✓
+[17:33:30.564] [INFO ] 
+[17:33:30.564] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[17:33:30.564] [INFO ]     ├─ Mouse Movements: 3
+[17:33:30.564] [INFO ]     ├─ Scroll Actions:  1
+[17:33:30.564] [INFO ]     └─ Time Spent:      5.03s
+[17:33:30.749] [INFO ] 
+[17:33:30.749] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[17:33:30.749] [INFO ]     │ Title:            NIST CSF Cyber Security Framework Complete Guide
+[17:33:30.749] [INFO ]     │ Final URL:        https://www.protechtgroup.com/en-us/blog/nist-csf-cyber-security-framework-guide
+[17:33:30.749] [INFO ]     │ HTML Size:        144,279 bytes
+[17:33:30.749] [INFO ]     │ Text Size:        7,430 chars
+[17:33:30.749] [INFO ]     │ Word Count:       ~1037 words
+[17:33:30.749] [INFO ]     │ Extraction:       trafilatura
+[17:33:30.749] [INFO ]     │ Has Article:      ✅ Yes
+[17:33:30.749] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:33:30.782] [INFO ] 
+[17:33:30.782] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:33:30.782] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_173322_0AD4
+[17:33:30.782] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:33:30.782] [INFO ] 
+[17:33:30.782] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[17:33:30.782] [INFO ]     │ Browser Launch:      0.06s
+[17:33:30.782] [INFO ]     │ Page Load:           1.56s
+[17:33:30.782] [INFO ]     │ Cloudflare Wait:     0.00s
+[17:33:30.782] [INFO ]     │ Human Simulation:    5.03s
+[17:33:30.782] [INFO ]     │
+[17:33:30.782] [INFO ]     │ Content Extraction:  0.07s
+[17:33:30.782] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[17:33:30.782] [INFO ]     │ TOTAL TIME:          6.73s
+[17:33:30.782] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:33:30.782] [INFO ] 
+[17:33:30.782] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[17:33:30.782] [INFO ]     │ Title:            NIST CSF Cyber Security Framework Complete Guide
+[17:33:30.782] [INFO ]     │ Final URL:        https://www.protechtgroup.com/en-us/blog/nist-csf-cyber-security-framework-guide
+[17:33:30.782] [INFO ]     │ HTML Size:        144,279 bytes
+[17:33:30.782] [INFO ]     │ Text Size:        7,430 chars
+[17:33:30.782] [INFO ]     │ Word Count:       ~1037 words
+[17:33:30.782] [INFO ]     │ Extraction:       trafilatura
+[17:33:30.782] [INFO ]     │ Has Article:      ✅ Yes
+[17:33:30.782] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:33:30.782] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:33:30.782] [INFO ] ║  📊 SESSION STATS
+[17:33:30.782] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[17:33:30.782] [INFO ] ║  ├─ Popups Dismissed:   0
+[17:33:30.782] [INFO ] ║  ├─ Cloudflare:         Not detected
+[17:33:30.782] [INFO ] ║  └─ Proxy Used:         Direct
+[17:33:30.782] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:33:30.782] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.66s
+ENDED: 2026-01-29T17:33:30.782583+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

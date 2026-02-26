@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://certvalue.com/pci-dss-certification-in-egypt/
+Started: 2026-01-29 18:33:23
+Session ID: SCRAPE_20260129_183323_C250
+================================================================================
+[18:33:23.105] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_183323_certvalue.com.log
+[18:33:23.105] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[18:33:23.447] [INFO ] 
+[18:33:23.447] [INFO ]     🚀 BROWSER LAUNCHED
+[18:33:23.447] [INFO ]     ├─ Mode:       Headless
+[18:33:23.447] [INFO ]     ├─ Slow Mo:    60ms
+[18:33:23.447] [INFO ]     ├─ Launch Time: 0.05s
+[18:33:23.447] [INFO ]     └─ Args:       Anti-automation flags enabled
+[18:33:23.466] [DEBUG] Browser profile: viewport={'width': 1280, 'height': 720}, locale=en-US, tz=UTC
+[18:33:23.466] [INFO ] 
+[18:33:23.466] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:33:23.466] [INFO ] ║  📋 SESSION: SCRAPE_20260129_183323_C250
+[18:33:23.466] [INFO ] ║  🌐 URL: https://certvalue.com/pci-dss-certification-in-egypt/
+[18:33:23.466] [INFO ] ║  🔄 ATTEMPT: 1/2
+[18:33:23.466] [INFO ] ║  ⏰ STARTED: 2026-01-29T18:33:23.466046+02:00 (Egypt Time)
+[18:33:23.466] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:33:23.466] [INFO ] 
+[18:33:23.466] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[18:33:23.466] [INFO ]     │ Browser:     CHROME v120
+[18:33:23.466] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[18:33:23.466] [INFO ]     │ Viewport:    1280x720
+[18:33:23.466] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[18:33:23.466] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[18:33:23.466] [INFO ]     │ Location:    San Francisco, USA
+[18:33:23.466] [INFO ]     │ Timezone:    N/A
+[18:33:23.466] [INFO ]     │ Locale:      en-US
+[18:33:23.466] [INFO ]     │ Geo:         0, 0
+[18:33:23.466] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[18:33:23.466] [INFO ]     │ Proxy:       Direct (no proxy)
+[18:33:23.466] [INFO ]     │ Referrer:    https://www.google.com/
+[18:33:23.466] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:33:23.466] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:33:23.466] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[18:33:23.466] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:33:23.466] [INFO ] 
+[18:33:23.466] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[18:33:23.466] [INFO ]     ├─ Canvas fingerprint noise
+[18:33:23.466] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:33:23.466] [INFO ]     ├─ Hardware concurrency randomization
+[18:33:23.466] [INFO ]     ├─ Device memory randomization
+[18:33:23.466] [INFO ]     ├─ Plugin masking
+[18:33:23.466] [INFO ]     ├─ WebRTC IP leak protection
+[18:33:23.466] [INFO ]     ├─ Network connection spoof
+[18:33:23.466] [INFO ]     └─ Battery API spoof
+[18:33:23.507] [INFO ] 
+[18:33:23.507] [INFO ]     🥷 STEALTH MODE APPLIED
+[18:33:23.507] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[18:33:23.507] [INFO ]     ├─ Chrome runtime patches
+[18:33:23.507] [INFO ]     ├─ Console patches
+[18:33:23.507] [INFO ]     └─ Permission patches
+[18:33:23.507] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[18:33:23.507] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:33:23.507] [INFO ] 
+[18:33:23.507] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[18:33:23.507] [INFO ]     ├─ Canvas fingerprint noise
+[18:33:23.507] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:33:23.507] [INFO ]     ├─ Hardware concurrency randomization
+[18:33:23.507] [INFO ]     ├─ Device memory randomization
+[18:33:23.507] [INFO ]     ├─ Plugin masking
+[18:33:23.507] [INFO ]     ├─ WebRTC IP leak protection
+[18:33:23.507] [INFO ]     ├─ Network connection spoof
+[18:33:23.507] [INFO ]     └─ Battery API spoof
+[18:33:23.507] [DEBUG] Enabled resource blocking (images, media, fonts)
+[18:33:23.507] [INFO ] 
+[18:33:23.507] [INFO ]     🔗 NAVIGATING TO URL
+[18:33:23.507] [INFO ]     ├─ Strategy:   domcontentloaded
+[18:33:23.507] [INFO ]     ├─ Timeout:    15.0s
+[18:33:23.507] [INFO ]     └─ Sleep:      1s after load
+[18:33:29.382] [INFO ] 
+[18:33:29.382] [INFO ]     ✅ PAGE LOADED
+[18:33:29.382] [INFO ]     ├─ Final URL:  https://certvalue.com/pci-dss-certification-in-egypt/
+[18:33:29.382] [INFO ]     ├─ Title:      PCI DSS Certification in Egypt | PCI DSS Consultants in Egypt
+[18:33:29.382] [INFO ]     └─ Load Time:  5.88s
+[18:33:31.486] [INFO ] 🧑 Human behavior simulation...
+[18:33:38.297] [INFO ] 🖱️ Mouse: 4 moves in 1280x720
+[18:33:38.297] [INFO ] 🖱️ Mouse completed: 4 moves
+[18:33:38.297] [INFO ] 📜 Scroll: page height, viewport=720px
+[18:33:38.297] [INFO ] 📜 Scroll completed: 3 scrolls
+[18:33:38.297] [INFO ] 🧑 Human behavior completed in 6.8s ✓
+[18:33:38.297] [INFO ] 
+[18:33:38.297] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[18:33:38.297] [INFO ]     ├─ Mouse Movements: 4
+[18:33:38.297] [INFO ]     ├─ Scroll Actions:  3
+[18:33:38.297] [INFO ]     └─ Time Spent:      6.81s
+[18:33:39.518] [INFO ] 
+[18:33:39.518] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:33:39.518] [INFO ]     │ Title:            PCI DSS Certification in Egypt | PCI DSS Consultan
+[18:33:39.518] [INFO ]     │ Final URL:        https://certvalue.com/pci-dss-certification-in-egypt/
+[18:33:39.518] [INFO ]     │ HTML Size:        2,494,255 bytes
+[18:33:39.518] [INFO ]     │ Text Size:        9,363 chars
+[18:33:39.518] [INFO ]     │ Word Count:       ~1432 words
+[18:33:39.518] [INFO ]     │ Extraction:       trafilatura
+[18:33:39.518] [INFO ]     │ Has Article:      ✅ Yes
+[18:33:39.518] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:33:39.556] [INFO ] 
+[18:33:39.556] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:33:39.556] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_183323_C250
+[18:33:39.556] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:33:39.556] [INFO ] 
+[18:33:39.556] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[18:33:39.556] [INFO ]     │ Browser Launch:      0.05s
+[18:33:39.556] [INFO ]     │ Page Load:           5.88s
+[18:33:39.556] [INFO ]     │ Cloudflare Wait:     0.00s
+[18:33:39.556] [INFO ]     │ Human Simulation:    6.81s
+[18:33:39.556] [INFO ]     │
+[18:33:39.556] [INFO ]     │ Content Extraction:  0.64s
+[18:33:39.556] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[18:33:39.556] [INFO ]     │ TOTAL TIME:          13.38s
+[18:33:39.556] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:33:39.556] [INFO ] 
+[18:33:39.556] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:33:39.556] [INFO ]     │ Title:            PCI DSS Certification in Egypt | PCI DSS Consultan
+[18:33:39.556] [INFO ]     │ Final URL:        https://certvalue.com/pci-dss-certification-in-egypt/
+[18:33:39.556] [INFO ]     │ HTML Size:        2,494,255 bytes
+[18:33:39.556] [INFO ]     │ Text Size:        9,363 chars
+[18:33:39.556] [INFO ]     │ Word Count:       ~1432 words
+[18:33:39.556] [INFO ]     │ Extraction:       trafilatura
+[18:33:39.556] [INFO ]     │ Has Article:      ✅ Yes
+[18:33:39.556] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:33:39.556] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:33:39.556] [INFO ] ║  📊 SESSION STATS
+[18:33:39.556] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[18:33:39.556] [INFO ] ║  ├─ Popups Dismissed:   0
+[18:33:39.556] [INFO ] ║  ├─ Cloudflare:         Not detected
+[18:33:39.556] [INFO ] ║  └─ Proxy Used:         Direct
+[18:33:39.556] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:33:39.556] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 16.45s
+ENDED: 2026-01-29T18:33:39.556718+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

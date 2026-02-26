@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://coalfire.com/services/advisory/cmmc-compliance-services
+Started: 2026-01-29 20:33:26
+Session ID: SCRAPE_20260129_203326_496F
+================================================================================
+[20:33:26.126] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_203326_coalfire.com.log
+[20:33:26.126] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[20:33:26.469] [INFO ] 
+[20:33:26.469] [INFO ]     🚀 BROWSER LAUNCHED
+[20:33:26.469] [INFO ]     ├─ Mode:       Headless
+[20:33:26.469] [INFO ]     ├─ Slow Mo:    47ms
+[20:33:26.469] [INFO ]     ├─ Launch Time: 0.05s
+[20:33:26.469] [INFO ]     └─ Args:       Anti-automation flags enabled
+[20:33:26.488] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-US, tz=UTC
+[20:33:26.488] [INFO ] 
+[20:33:26.488] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:33:26.488] [INFO ] ║  📋 SESSION: SCRAPE_20260129_203326_496F
+[20:33:26.488] [INFO ] ║  🌐 URL: https://coalfire.com/services/advisory/cmmc-compliance-services
+[20:33:26.488] [INFO ] ║  🔄 ATTEMPT: 1/2
+[20:33:26.488] [INFO ] ║  ⏰ STARTED: 2026-01-29T20:33:26.488869+02:00 (Egypt Time)
+[20:33:26.488] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:33:26.488] [INFO ] 
+[20:33:26.488] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[20:33:26.488] [INFO ]     │ Browser:     SAFARI v17
+[20:33:26.488] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (...
+[20:33:26.488] [INFO ]     │ Viewport:    1680x1050
+[20:33:26.488] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[20:33:26.488] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[20:33:26.488] [INFO ]     │ Location:    Miami, USA
+[20:33:26.488] [INFO ]     │ Timezone:    N/A
+[20:33:26.488] [INFO ]     │ Locale:      en-US
+[20:33:26.488] [INFO ]     │ Geo:         0, 0
+[20:33:26.488] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[20:33:26.488] [INFO ]     │ Proxy:       Direct (no proxy)
+[20:33:26.488] [INFO ]     │ Referrer:    https://www.google.com/
+[20:33:26.488] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:33:26.488] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:33:26.488] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[20:33:26.488] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:33:26.488] [INFO ] 
+[20:33:26.488] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[20:33:26.488] [INFO ]     ├─ Canvas fingerprint noise
+[20:33:26.488] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:33:26.488] [INFO ]     ├─ Hardware concurrency randomization
+[20:33:26.488] [INFO ]     ├─ Device memory randomization
+[20:33:26.488] [INFO ]     ├─ Plugin masking
+[20:33:26.488] [INFO ]     ├─ WebRTC IP leak protection
+[20:33:26.488] [INFO ]     ├─ Network connection spoof
+[20:33:26.488] [INFO ]     └─ Battery API spoof
+[20:33:26.530] [INFO ] 
+[20:33:26.530] [INFO ]     🥷 STEALTH MODE APPLIED
+[20:33:26.530] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[20:33:26.530] [INFO ]     ├─ Chrome runtime patches
+[20:33:26.530] [INFO ]     ├─ Console patches
+[20:33:26.530] [INFO ]     └─ Permission patches
+[20:33:26.530] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[20:33:26.530] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:33:26.530] [INFO ] 
+[20:33:26.530] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[20:33:26.530] [INFO ]     ├─ Canvas fingerprint noise
+[20:33:26.530] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:33:26.530] [INFO ]     ├─ Hardware concurrency randomization
+[20:33:26.530] [INFO ]     ├─ Device memory randomization
+[20:33:26.530] [INFO ]     ├─ Plugin masking
+[20:33:26.530] [INFO ]     ├─ WebRTC IP leak protection
+[20:33:26.530] [INFO ]     ├─ Network connection spoof
+[20:33:26.530] [INFO ]     └─ Battery API spoof
+[20:33:26.530] [DEBUG] Enabled resource blocking (images, media, fonts)
+[20:33:26.530] [INFO ] 
+[20:33:26.530] [INFO ]     🔗 NAVIGATING TO URL
+[20:33:26.530] [INFO ]     ├─ Strategy:   domcontentloaded
+[20:33:26.530] [INFO ]     ├─ Timeout:    15.0s
+[20:33:26.530] [INFO ]     └─ Sleep:      1s after load
+[20:33:29.025] [INFO ] 
+[20:33:29.025] [INFO ]     ✅ PAGE LOADED
+[20:33:29.025] [INFO ]     ├─ Final URL:  https://coalfire.com/services/advisory/cmmc-compliance-services
+[20:33:29.025] [INFO ]     ├─ Title:      CMMC Compliance Services: Achieve Certification with… | Coalfire
+[20:33:29.025] [INFO ]     └─ Load Time:  2.50s
+[20:33:31.051] [INFO ] 🧑 Human behavior simulation...
+[20:33:35.400] [INFO ] 🖱️ Mouse: 3 moves in 1680x1050
+[20:33:35.400] [INFO ] 🖱️ Mouse completed: 3 moves
+[20:33:35.400] [INFO ] 📜 Scroll: page height, viewport=1050px
+[20:33:35.400] [INFO ] 📜 Scroll completed: 1 scrolls
+[20:33:35.400] [INFO ] 🧑 Human behavior completed in 4.3s ✓
+[20:33:35.400] [INFO ] 
+[20:33:35.400] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[20:33:35.400] [INFO ]     ├─ Mouse Movements: 3
+[20:33:35.400] [INFO ]     ├─ Scroll Actions:  1
+[20:33:35.400] [INFO ]     └─ Time Spent:      4.35s
+[20:33:35.720] [INFO ] 
+[20:33:35.720] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:33:35.720] [INFO ]     │ Title:            CMMC Compliance Services: Achieve Certification wi
+[20:33:35.720] [INFO ]     │ Final URL:        https://coalfire.com/services/advisory/cmmc-compliance-services
+[20:33:35.720] [INFO ]     │ HTML Size:        322,360 bytes
+[20:33:35.720] [INFO ]     │ Text Size:        2,664 chars
+[20:33:35.720] [INFO ]     │ Word Count:       ~359 words
+[20:33:35.720] [INFO ]     │ Extraction:       trafilatura
+[20:33:35.720] [INFO ]     │ Has Article:      ✅ Yes
+[20:33:35.720] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:33:35.752] [INFO ] 
+[20:33:35.752] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:33:35.752] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_203326_496F
+[20:33:35.752] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:33:35.752] [INFO ] 
+[20:33:35.752] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[20:33:35.752] [INFO ]     │ Browser Launch:      0.05s
+[20:33:35.752] [INFO ]     │ Page Load:           2.50s
+[20:33:35.752] [INFO ]     │ Cloudflare Wait:     0.00s
+[20:33:35.752] [INFO ]     │ Human Simulation:    4.35s
+[20:33:35.752] [INFO ]     │
+[20:33:35.752] [INFO ]     │ Content Extraction:  0.11s
+[20:33:35.752] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[20:33:35.752] [INFO ]     │ TOTAL TIME:          7.01s
+[20:33:35.752] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:33:35.752] [INFO ] 
+[20:33:35.752] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:33:35.752] [INFO ]     │ Title:            CMMC Compliance Services: Achieve Certification wi
+[20:33:35.752] [INFO ]     │ Final URL:        https://coalfire.com/services/advisory/cmmc-compliance-services
+[20:33:35.752] [INFO ]     │ HTML Size:        322,360 bytes
+[20:33:35.752] [INFO ]     │ Text Size:        2,664 chars
+[20:33:35.752] [INFO ]     │ Word Count:       ~359 words
+[20:33:35.752] [INFO ]     │ Extraction:       trafilatura
+[20:33:35.752] [INFO ]     │ Has Article:      ✅ Yes
+[20:33:35.752] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:33:35.752] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:33:35.752] [INFO ] ║  📊 SESSION STATS
+[20:33:35.752] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[20:33:35.752] [INFO ] ║  ├─ Popups Dismissed:   0
+[20:33:35.752] [INFO ] ║  ├─ Cloudflare:         Not detected
+[20:33:35.752] [INFO ] ║  └─ Proxy Used:         Direct
+[20:33:35.752] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:33:35.752] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 9.63s
+ENDED: 2026-01-29T20:33:35.752626+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

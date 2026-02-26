@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.infor.com/industries/aerospace-defense/cmmc-2-0-compliance-requirements
+Started: 2026-01-29 20:33:56
+Session ID: SCRAPE_20260129_203356_8B84
+================================================================================
+[20:33:56.128] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_203356_infor.com.log
+[20:33:56.128] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[20:33:56.469] [INFO ] 
+[20:33:56.469] [INFO ]     🚀 BROWSER LAUNCHED
+[20:33:56.469] [INFO ]     ├─ Mode:       Headless
+[20:33:56.469] [INFO ]     ├─ Slow Mo:    42ms
+[20:33:56.469] [INFO ]     ├─ Launch Time: 0.06s
+[20:33:56.469] [INFO ]     └─ Args:       Anti-automation flags enabled
+[20:33:56.490] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-US, tz=UTC
+[20:33:56.490] [INFO ] 
+[20:33:56.490] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:33:56.490] [INFO ] ║  📋 SESSION: SCRAPE_20260129_203356_8B84
+[20:33:56.490] [INFO ] ║  🌐 URL: https://www.infor.com/industries/aerospace-defense/cmmc-2-0-compliance-requirements
+[20:33:56.490] [INFO ] ║  🔄 ATTEMPT: 1/2
+[20:33:56.490] [INFO ] ║  ⏰ STARTED: 2026-01-29T20:33:56.490219+02:00 (Egypt Time)
+[20:33:56.490] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:33:56.490] [INFO ] 
+[20:33:56.490] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[20:33:56.490] [INFO ]     │ Browser:     CHROME v122
+[20:33:56.490] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[20:33:56.490] [INFO ]     │ Viewport:    1680x1050
+[20:33:56.490] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[20:33:56.490] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[20:33:56.490] [INFO ]     │ Location:    Chicago, USA
+[20:33:56.490] [INFO ]     │ Timezone:    N/A
+[20:33:56.490] [INFO ]     │ Locale:      en-US
+[20:33:56.490] [INFO ]     │ Geo:         0, 0
+[20:33:56.490] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[20:33:56.490] [INFO ]     │ Proxy:       Direct (no proxy)
+[20:33:56.490] [INFO ]     │ Referrer:    https://www.google.com/
+[20:33:56.490] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:33:56.490] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:33:56.490] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[20:33:56.490] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:33:56.490] [INFO ] 
+[20:33:56.490] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[20:33:56.490] [INFO ]     ├─ Canvas fingerprint noise
+[20:33:56.490] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:33:56.490] [INFO ]     ├─ Hardware concurrency randomization
+[20:33:56.490] [INFO ]     ├─ Device memory randomization
+[20:33:56.490] [INFO ]     ├─ Plugin masking
+[20:33:56.490] [INFO ]     ├─ WebRTC IP leak protection
+[20:33:56.490] [INFO ]     ├─ Network connection spoof
+[20:33:56.490] [INFO ]     └─ Battery API spoof
+[20:33:56.532] [INFO ] 
+[20:33:56.532] [INFO ]     🥷 STEALTH MODE APPLIED
+[20:33:56.532] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[20:33:56.532] [INFO ]     ├─ Chrome runtime patches
+[20:33:56.532] [INFO ]     ├─ Console patches
+[20:33:56.532] [INFO ]     └─ Permission patches
+[20:33:56.532] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[20:33:56.532] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:33:56.532] [INFO ] 
+[20:33:56.532] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[20:33:56.532] [INFO ]     ├─ Canvas fingerprint noise
+[20:33:56.532] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:33:56.532] [INFO ]     ├─ Hardware concurrency randomization
+[20:33:56.532] [INFO ]     ├─ Device memory randomization
+[20:33:56.532] [INFO ]     ├─ Plugin masking
+[20:33:56.532] [INFO ]     ├─ WebRTC IP leak protection
+[20:33:56.532] [INFO ]     ├─ Network connection spoof
+[20:33:56.532] [INFO ]     └─ Battery API spoof
+[20:33:56.532] [DEBUG] Enabled resource blocking (images, media, fonts)
+[20:33:56.532] [INFO ] 
+[20:33:56.532] [INFO ]     🔗 NAVIGATING TO URL
+[20:33:56.532] [INFO ]     ├─ Strategy:   domcontentloaded
+[20:33:56.532] [INFO ]     ├─ Timeout:    15.0s
+[20:33:56.532] [INFO ]     └─ Sleep:      1s after load
+[20:33:58.687] [INFO ] 
+[20:33:58.687] [INFO ]     ✅ PAGE LOADED
+[20:33:58.687] [INFO ]     ├─ Final URL:  https://www.infor.com/industries/aerospace-defense/cmmc-2-0-compliance-requirements
+[20:33:58.687] [INFO ]     ├─ Title:      Ultimate Guide to CMMC 2.0 Compliance Requirements | Infor
+[20:33:58.687] [INFO ]     └─ Load Time:  2.15s
+[20:34:00.191] [INFO ] 🧑 Human behavior simulation...
+[20:34:04.505] [INFO ] 🖱️ Mouse: 3 moves in 1680x1050
+[20:34:04.505] [INFO ] 🖱️ Mouse completed: 3 moves
+[20:34:04.505] [INFO ] 📜 Scroll: page height, viewport=1050px
+[20:34:04.505] [INFO ] 📜 Scroll completed: 2 scrolls
+[20:34:04.505] [INFO ] 🧑 Human behavior completed in 4.3s ✓
+[20:34:04.505] [INFO ] 
+[20:34:04.505] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[20:34:04.505] [INFO ]     ├─ Mouse Movements: 3
+[20:34:04.505] [INFO ]     ├─ Scroll Actions:  2
+[20:34:04.505] [INFO ]     └─ Time Spent:      4.31s
+[20:34:04.808] [INFO ] 
+[20:34:04.808] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:34:04.808] [INFO ]     │ Title:            Ultimate Guide to CMMC 2.0 Compliance Requirements
+[20:34:04.808] [INFO ]     │ Final URL:        https://www.infor.com/industries/aerospace-defense/cmmc-2-0-compliance-requirements
+[20:34:04.808] [INFO ]     │ HTML Size:        437,936 bytes
+[20:34:04.808] [INFO ]     │ Text Size:        11,842 chars
+[20:34:04.808] [INFO ]     │ Word Count:       ~1778 words
+[20:34:04.808] [INFO ]     │ Extraction:       trafilatura
+[20:34:04.808] [INFO ]     │ Has Article:      ✅ Yes
+[20:34:04.808] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:34:04.839] [INFO ] 
+[20:34:04.839] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:34:04.839] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_203356_8B84
+[20:34:04.839] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:34:04.839] [INFO ] 
+[20:34:04.839] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[20:34:04.839] [INFO ]     │ Browser Launch:      0.06s
+[20:34:04.839] [INFO ]     │ Page Load:           2.15s
+[20:34:04.839] [INFO ]     │ Cloudflare Wait:     0.00s
+[20:34:04.839] [INFO ]     │ Human Simulation:    4.31s
+[20:34:04.839] [INFO ]     │
+[20:34:04.839] [INFO ]     │ Content Extraction:  0.16s
+[20:34:04.839] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[20:34:04.839] [INFO ]     │ TOTAL TIME:          6.69s
+[20:34:04.839] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:34:04.839] [INFO ] 
+[20:34:04.840] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:34:04.840] [INFO ]     │ Title:            Ultimate Guide to CMMC 2.0 Compliance Requirements
+[20:34:04.840] [INFO ]     │ Final URL:        https://www.infor.com/industries/aerospace-defense/cmmc-2-0-compliance-requirements
+[20:34:04.840] [INFO ]     │ HTML Size:        437,936 bytes
+[20:34:04.840] [INFO ]     │ Text Size:        11,842 chars
+[20:34:04.840] [INFO ]     │ Word Count:       ~1778 words
+[20:34:04.840] [INFO ]     │ Extraction:       trafilatura
+[20:34:04.840] [INFO ]     │ Has Article:      ✅ Yes
+[20:34:04.840] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:34:04.840] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:34:04.840] [INFO ] ║  📊 SESSION STATS
+[20:34:04.840] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[20:34:04.840] [INFO ] ║  ├─ Popups Dismissed:   0
+[20:34:04.840] [INFO ] ║  ├─ Cloudflare:         Not detected
+[20:34:04.840] [INFO ] ║  └─ Proxy Used:         Direct
+[20:34:04.840] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:34:04.840] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.71s
+ENDED: 2026-01-29T20:34:04.840306+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

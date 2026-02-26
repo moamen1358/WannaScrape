@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.globalknowledge.com/en-eg/courses/iso/security/iso27001li
+Started: 2026-01-29 17:05:21
+Session ID: SCRAPE_20260129_170521_556B
+================================================================================
+[17:05:21.342] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_170521_globalknowledge.com.log
+[17:05:21.342] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[17:05:21.687] [INFO ] 
+[17:05:21.687] [INFO ]     🚀 BROWSER LAUNCHED
+[17:05:21.687] [INFO ]     ├─ Mode:       Headless
+[17:05:21.687] [INFO ]     ├─ Slow Mo:    55ms
+[17:05:21.687] [INFO ]     ├─ Launch Time: 0.06s
+[17:05:21.687] [INFO ]     └─ Args:       Anti-automation flags enabled
+[17:05:21.708] [DEBUG] Browser profile: viewport={'width': 1536, 'height': 864}, locale=en-US, tz=UTC
+[17:05:21.708] [INFO ] 
+[17:05:21.708] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:05:21.708] [INFO ] ║  📋 SESSION: SCRAPE_20260129_170521_556B
+[17:05:21.708] [INFO ] ║  🌐 URL: https://www.globalknowledge.com/en-eg/courses/iso/security/iso27001li
+[17:05:21.708] [INFO ] ║  🔄 ATTEMPT: 1/2
+[17:05:21.708] [INFO ] ║  ⏰ STARTED: 2026-01-29T17:05:21.708367+02:00 (Egypt Time)
+[17:05:21.708] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:05:21.708] [INFO ] 
+[17:05:21.708] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[17:05:21.708] [INFO ]     │ Browser:     EDGE v119
+[17:05:21.708] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[17:05:21.708] [INFO ]     │ Viewport:    1536x864
+[17:05:21.708] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[17:05:21.708] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[17:05:21.708] [INFO ]     │ Location:    Chicago, USA
+[17:05:21.708] [INFO ]     │ Timezone:    N/A
+[17:05:21.708] [INFO ]     │ Locale:      en-US
+[17:05:21.708] [INFO ]     │ Geo:         0, 0
+[17:05:21.708] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[17:05:21.708] [INFO ]     │ Proxy:       Direct (no proxy)
+[17:05:21.708] [INFO ]     │ Referrer:    https://www.google.com/
+[17:05:21.708] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:05:21.708] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:05:21.708] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[17:05:21.708] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:05:21.708] [INFO ] 
+[17:05:21.708] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[17:05:21.708] [INFO ]     ├─ Canvas fingerprint noise
+[17:05:21.708] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:05:21.708] [INFO ]     ├─ Hardware concurrency randomization
+[17:05:21.708] [INFO ]     ├─ Device memory randomization
+[17:05:21.708] [INFO ]     ├─ Plugin masking
+[17:05:21.708] [INFO ]     ├─ WebRTC IP leak protection
+[17:05:21.708] [INFO ]     ├─ Network connection spoof
+[17:05:21.708] [INFO ]     └─ Battery API spoof
+[17:05:21.753] [INFO ] 
+[17:05:21.753] [INFO ]     🥷 STEALTH MODE APPLIED
+[17:05:21.753] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[17:05:21.753] [INFO ]     ├─ Chrome runtime patches
+[17:05:21.753] [INFO ]     ├─ Console patches
+[17:05:21.753] [INFO ]     └─ Permission patches
+[17:05:21.753] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[17:05:21.753] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:05:21.753] [INFO ] 
+[17:05:21.753] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[17:05:21.753] [INFO ]     ├─ Canvas fingerprint noise
+[17:05:21.753] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:05:21.753] [INFO ]     ├─ Hardware concurrency randomization
+[17:05:21.753] [INFO ]     ├─ Device memory randomization
+[17:05:21.753] [INFO ]     ├─ Plugin masking
+[17:05:21.753] [INFO ]     ├─ WebRTC IP leak protection
+[17:05:21.753] [INFO ]     ├─ Network connection spoof
+[17:05:21.753] [INFO ]     └─ Battery API spoof
+[17:05:21.753] [DEBUG] Enabled resource blocking (images, media, fonts)
+[17:05:21.753] [INFO ] 
+[17:05:21.753] [INFO ]     🔗 NAVIGATING TO URL
+[17:05:21.753] [INFO ]     ├─ Strategy:   domcontentloaded
+[17:05:21.753] [INFO ]     ├─ Timeout:    15.0s
+[17:05:21.753] [INFO ]     └─ Sleep:      1s after load
+[17:05:31.013] [INFO ] 
+[17:05:31.013] [INFO ]     ✅ PAGE LOADED
+[17:05:31.013] [INFO ]     ├─ Final URL:  https://www.globalknowledge.com/en-eg/courses/iso/security/iso27001li
+[17:05:31.013] [INFO ]     ├─ Title:      ISO27001LI | ISO/IEC 27001 Information Security Management System Lead Implementer (PECB Certified) - Including Exam | Training Course | ISO.
+[17:05:31.013] [INFO ]     └─ Load Time:  9.26s
+[17:05:32.322] [INFO ] 🧑 Human behavior simulation...
+[17:05:35.519] [INFO ] 🖱️ Mouse: 2 moves in 1536x864
+[17:05:35.519] [INFO ] 🖱️ Mouse completed: 2 moves
+[17:05:35.519] [INFO ] 📜 Scroll: page height, viewport=864px
+[17:05:35.519] [INFO ] 📜 Scroll completed: 2 scrolls
+[17:05:35.519] [INFO ] 🧑 Human behavior completed in 3.2s ✓
+[17:05:35.519] [INFO ] 
+[17:05:35.519] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[17:05:35.519] [INFO ]     ├─ Mouse Movements: 2
+[17:05:35.519] [INFO ]     ├─ Scroll Actions:  2
+[17:05:35.519] [INFO ]     └─ Time Spent:      3.20s
+[17:05:36.313] [INFO ] 
+[17:05:36.313] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[17:05:36.313] [INFO ]     │ Title:            ISO27001LI | ISO/IEC 27001 Information Security Ma
+[17:05:36.313] [INFO ]     │ Final URL:        https://www.globalknowledge.com/en-eg/courses/iso/security/iso27001li
+[17:05:36.313] [INFO ]     │ HTML Size:        342,156 bytes
+[17:05:36.313] [INFO ]     │ Text Size:        8,276 chars
+[17:05:36.313] [INFO ]     │ Word Count:       ~1228 words
+[17:05:36.313] [INFO ]     │ Extraction:       trafilatura
+[17:05:36.313] [INFO ]     │ Has Article:      ✅ Yes
+[17:05:36.313] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:05:36.337] [INFO ] 
+[17:05:36.337] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:05:36.337] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_170521_556B
+[17:05:36.337] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:05:36.337] [INFO ] 
+[17:05:36.337] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[17:05:36.337] [INFO ]     │ Browser Launch:      0.06s
+[17:05:36.337] [INFO ]     │ Page Load:           9.26s
+[17:05:36.337] [INFO ]     │ Cloudflare Wait:     0.00s
+[17:05:36.337] [INFO ]     │ Human Simulation:    3.20s
+[17:05:36.337] [INFO ]     │
+[17:05:36.337] [INFO ]     │ Content Extraction:  0.72s
+[17:05:36.337] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[17:05:36.337] [INFO ]     │ TOTAL TIME:          13.23s
+[17:05:36.337] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:05:36.337] [INFO ] 
+[17:05:36.338] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[17:05:36.338] [INFO ]     │ Title:            ISO27001LI | ISO/IEC 27001 Information Security Ma
+[17:05:36.338] [INFO ]     │ Final URL:        https://www.globalknowledge.com/en-eg/courses/iso/security/iso27001li
+[17:05:36.338] [INFO ]     │ HTML Size:        342,156 bytes
+[17:05:36.338] [INFO ]     │ Text Size:        8,276 chars
+[17:05:36.338] [INFO ]     │ Word Count:       ~1228 words
+[17:05:36.338] [INFO ]     │ Extraction:       trafilatura
+[17:05:36.338] [INFO ]     │ Has Article:      ✅ Yes
+[17:05:36.338] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:05:36.338] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:05:36.338] [INFO ] ║  📊 SESSION STATS
+[17:05:36.338] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[17:05:36.338] [INFO ] ║  ├─ Popups Dismissed:   0
+[17:05:36.338] [INFO ] ║  ├─ Cloudflare:         Not detected
+[17:05:36.338] [INFO ] ║  └─ Proxy Used:         Direct
+[17:05:36.338] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:05:36.338] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 15.00s
+ENDED: 2026-01-29T17:05:36.338263+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

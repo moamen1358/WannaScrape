@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.proofpoint.com/us/threat-reference/nis2-directive
+Started: 2026-01-29 21:32:28
+Session ID: SCRAPE_20260129_213228_C5A7
+================================================================================
+[21:32:28.245] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_213228_proofpoint.com.log
+[21:32:28.245] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[21:32:28.585] [INFO ] 
+[21:32:28.585] [INFO ]     🚀 BROWSER LAUNCHED
+[21:32:28.585] [INFO ]     ├─ Mode:       Headless
+[21:32:28.585] [INFO ]     ├─ Slow Mo:    43ms
+[21:32:28.585] [INFO ]     ├─ Launch Time: 0.06s
+[21:32:28.585] [INFO ]     └─ Args:       Anti-automation flags enabled
+[21:32:28.601] [DEBUG] Browser profile: viewport={'width': 1512, 'height': 982}, locale=en-US, tz=UTC
+[21:32:28.601] [INFO ] 
+[21:32:28.601] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:32:28.601] [INFO ] ║  📋 SESSION: SCRAPE_20260129_213228_C5A7
+[21:32:28.601] [INFO ] ║  🌐 URL: https://www.proofpoint.com/us/threat-reference/nis2-directive
+[21:32:28.601] [INFO ] ║  🔄 ATTEMPT: 1/2
+[21:32:28.601] [INFO ] ║  ⏰ STARTED: 2026-01-29T21:32:28.601517+02:00 (Egypt Time)
+[21:32:28.601] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:32:28.601] [INFO ] 
+[21:32:28.601] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[21:32:28.601] [INFO ]     │ Browser:     SAFARI v17
+[21:32:28.601] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_1) AppleWebKit/605.1.15 (KHT...
+[21:32:28.601] [INFO ]     │ Viewport:    1512x982
+[21:32:28.601] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[21:32:28.601] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[21:32:28.601] [INFO ]     │ Location:    Miami, USA
+[21:32:28.601] [INFO ]     │ Timezone:    N/A
+[21:32:28.601] [INFO ]     │ Locale:      en-US
+[21:32:28.601] [INFO ]     │ Geo:         0, 0
+[21:32:28.601] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[21:32:28.601] [INFO ]     │ Proxy:       Direct (no proxy)
+[21:32:28.601] [INFO ]     │ Referrer:    None
+[21:32:28.601] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:32:28.601] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:32:28.601] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[21:32:28.601] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:32:28.601] [INFO ] 
+[21:32:28.601] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[21:32:28.601] [INFO ]     ├─ Canvas fingerprint noise
+[21:32:28.601] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:32:28.601] [INFO ]     ├─ Hardware concurrency randomization
+[21:32:28.601] [INFO ]     ├─ Device memory randomization
+[21:32:28.601] [INFO ]     ├─ Plugin masking
+[21:32:28.601] [INFO ]     ├─ WebRTC IP leak protection
+[21:32:28.601] [INFO ]     ├─ Network connection spoof
+[21:32:28.601] [INFO ]     └─ Battery API spoof
+[21:32:28.642] [INFO ] 
+[21:32:28.642] [INFO ]     🥷 STEALTH MODE APPLIED
+[21:32:28.642] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[21:32:28.642] [INFO ]     ├─ Chrome runtime patches
+[21:32:28.642] [INFO ]     ├─ Console patches
+[21:32:28.642] [INFO ]     └─ Permission patches
+[21:32:28.642] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[21:32:28.642] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:32:28.642] [INFO ] 
+[21:32:28.642] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[21:32:28.642] [INFO ]     ├─ Canvas fingerprint noise
+[21:32:28.642] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:32:28.642] [INFO ]     ├─ Hardware concurrency randomization
+[21:32:28.642] [INFO ]     ├─ Device memory randomization
+[21:32:28.642] [INFO ]     ├─ Plugin masking
+[21:32:28.642] [INFO ]     ├─ WebRTC IP leak protection
+[21:32:28.642] [INFO ]     ├─ Network connection spoof
+[21:32:28.642] [INFO ]     └─ Battery API spoof
+[21:32:28.642] [DEBUG] Enabled resource blocking (images, media, fonts)
+[21:32:28.642] [INFO ] 
+[21:32:28.642] [INFO ]     🔗 NAVIGATING TO URL
+[21:32:28.642] [INFO ]     ├─ Strategy:   domcontentloaded
+[21:32:28.642] [INFO ]     ├─ Timeout:    15.0s
+[21:32:28.642] [INFO ]     └─ Sleep:      1s after load
+[21:32:31.074] [INFO ] 
+[21:32:31.074] [INFO ]     ✅ PAGE LOADED
+[21:32:31.074] [INFO ]     ├─ Final URL:  https://www.proofpoint.com/us/threat-reference/nis2-directive
+[21:32:31.074] [INFO ]     ├─ Title:      What Is the NIS2 Directive? Compliance Requirements | Proofpoint US
+[21:32:31.074] [INFO ]     └─ Load Time:  2.43s
+[21:32:32.454] [INFO ] 🧑 Human behavior simulation...
+[21:32:36.281] [INFO ] 🖱️ Mouse: 3 moves in 1512x982
+[21:32:36.281] [INFO ] 🖱️ Mouse completed: 3 moves
+[21:32:36.281] [INFO ] 📜 Scroll: page height, viewport=982px
+[21:32:36.281] [INFO ] 📜 Scroll completed: 1 scrolls
+[21:32:36.281] [INFO ] 🧑 Human behavior completed in 3.8s ✓
+[21:32:36.281] [INFO ] 
+[21:32:36.281] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[21:32:36.281] [INFO ]     ├─ Mouse Movements: 3
+[21:32:36.281] [INFO ]     ├─ Scroll Actions:  1
+[21:32:36.281] [INFO ]     └─ Time Spent:      3.83s
+[21:32:36.607] [INFO ] 
+[21:32:36.607] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:32:36.607] [INFO ]     │ Title:            What Is the NIS2 Directive? Compliance Requirement
+[21:32:36.607] [INFO ]     │ Final URL:        https://www.proofpoint.com/us/threat-reference/nis2-directive
+[21:32:36.607] [INFO ]     │ HTML Size:        269,605 bytes
+[21:32:36.607] [INFO ]     │ Text Size:        19,120 chars
+[21:32:36.607] [INFO ]     │ Word Count:       ~2614 words
+[21:32:36.607] [INFO ]     │ Extraction:       trafilatura
+[21:32:36.607] [INFO ]     │ Has Article:      ✅ Yes
+[21:32:36.607] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:32:36.640] [INFO ] 
+[21:32:36.640] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:32:36.640] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_213228_C5A7
+[21:32:36.640] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:32:36.640] [INFO ] 
+[21:32:36.640] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[21:32:36.640] [INFO ]     │ Browser Launch:      0.06s
+[21:32:36.640] [INFO ]     │ Page Load:           2.43s
+[21:32:36.640] [INFO ]     │ Cloudflare Wait:     0.00s
+[21:32:36.640] [INFO ]     │ Human Simulation:    3.83s
+[21:32:36.640] [INFO ]     │
+[21:32:36.640] [INFO ]     │ Content Extraction:  0.15s
+[21:32:36.640] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[21:32:36.640] [INFO ]     │ TOTAL TIME:          6.47s
+[21:32:36.640] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:32:36.640] [INFO ] 
+[21:32:36.640] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:32:36.640] [INFO ]     │ Title:            What Is the NIS2 Directive? Compliance Requirement
+[21:32:36.640] [INFO ]     │ Final URL:        https://www.proofpoint.com/us/threat-reference/nis2-directive
+[21:32:36.640] [INFO ]     │ HTML Size:        269,605 bytes
+[21:32:36.640] [INFO ]     │ Text Size:        19,120 chars
+[21:32:36.640] [INFO ]     │ Word Count:       ~2614 words
+[21:32:36.640] [INFO ]     │ Extraction:       trafilatura
+[21:32:36.640] [INFO ]     │ Has Article:      ✅ Yes
+[21:32:36.640] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:32:36.640] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:32:36.640] [INFO ] ║  📊 SESSION STATS
+[21:32:36.640] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[21:32:36.640] [INFO ] ║  ├─ Popups Dismissed:   0
+[21:32:36.640] [INFO ] ║  ├─ Cloudflare:         Not detected
+[21:32:36.640] [INFO ] ║  └─ Proxy Used:         Direct
+[21:32:36.640] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:32:36.640] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.40s
+ENDED: 2026-01-29T21:32:36.640766+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

@@ -1,0 +1,266 @@
+================================================================================
+SCRAPE LOG: https://www.sgs.com/en-eg/news/2020/09/achieving-cmmc-certification-for-defense-contractors
+Started: 2026-01-29 20:36:56
+Session ID: SCRAPE_20260129_203656_ACE3
+================================================================================
+[20:36:56.128] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_203656_sgs.com.log
+[20:36:56.128] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[20:36:56.469] [INFO ] 
+[20:36:56.469] [INFO ]     🚀 BROWSER LAUNCHED
+[20:36:56.469] [INFO ]     ├─ Mode:       Headless
+[20:36:56.469] [INFO ]     ├─ Slow Mo:    49ms
+[20:36:56.469] [INFO ]     ├─ Launch Time: 0.06s
+[20:36:56.469] [INFO ]     └─ Args:       Anti-automation flags enabled
+[20:36:56.485] [DEBUG] Browser profile: viewport={'width': 1440, 'height': 900}, locale=en-AU, tz=UTC
+[20:36:56.486] [INFO ] 
+[20:36:56.486] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:36:56.486] [INFO ] ║  📋 SESSION: SCRAPE_20260129_203656_ACE3
+[20:36:56.486] [INFO ] ║  🌐 URL: https://www.sgs.com/en-eg/news/2020/09/achieving-cmmc-certification-for-defense-contractors
+[20:36:56.486] [INFO ] ║  🔄 ATTEMPT: 1/2
+[20:36:56.486] [INFO ] ║  ⏰ STARTED: 2026-01-29T20:36:56.486042+02:00 (Egypt Time)
+[20:36:56.486] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:36:56.486] [INFO ] 
+[20:36:56.486] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[20:36:56.486] [INFO ]     │ Browser:     SAFARI v17
+[20:36:56.486] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (...
+[20:36:56.486] [INFO ]     │ Viewport:    1440x900
+[20:36:56.486] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[20:36:56.486] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[20:36:56.486] [INFO ]     │ Location:    Brisbane, Australia
+[20:36:56.486] [INFO ]     │ Timezone:    N/A
+[20:36:56.486] [INFO ]     │ Locale:      en-AU
+[20:36:56.486] [INFO ]     │ Geo:         0, 0
+[20:36:56.486] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[20:36:56.486] [INFO ]     │ Proxy:       Direct (no proxy)
+[20:36:56.486] [INFO ]     │ Referrer:    None
+[20:36:56.486] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:36:56.486] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:36:56.486] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[20:36:56.486] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:36:56.486] [INFO ] 
+[20:36:56.486] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[20:36:56.486] [INFO ]     ├─ Canvas fingerprint noise
+[20:36:56.486] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:36:56.486] [INFO ]     ├─ Hardware concurrency randomization
+[20:36:56.486] [INFO ]     ├─ Device memory randomization
+[20:36:56.486] [INFO ]     ├─ Plugin masking
+[20:36:56.486] [INFO ]     ├─ WebRTC IP leak protection
+[20:36:56.486] [INFO ]     ├─ Network connection spoof
+[20:36:56.486] [INFO ]     └─ Battery API spoof
+[20:36:56.527] [INFO ] 
+[20:36:56.527] [INFO ]     🥷 STEALTH MODE APPLIED
+[20:36:56.527] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[20:36:56.527] [INFO ]     ├─ Chrome runtime patches
+[20:36:56.527] [INFO ]     ├─ Console patches
+[20:36:56.527] [INFO ]     └─ Permission patches
+[20:36:56.527] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[20:36:56.527] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:36:56.527] [INFO ] 
+[20:36:56.527] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[20:36:56.527] [INFO ]     ├─ Canvas fingerprint noise
+[20:36:56.527] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:36:56.527] [INFO ]     ├─ Hardware concurrency randomization
+[20:36:56.527] [INFO ]     ├─ Device memory randomization
+[20:36:56.527] [INFO ]     ├─ Plugin masking
+[20:36:56.527] [INFO ]     ├─ WebRTC IP leak protection
+[20:36:56.527] [INFO ]     ├─ Network connection spoof
+[20:36:56.527] [INFO ]     └─ Battery API spoof
+[20:36:56.527] [DEBUG] Enabled resource blocking (images, media, fonts)
+[20:36:56.527] [INFO ] 
+[20:36:56.527] [INFO ]     🔗 NAVIGATING TO URL
+[20:36:56.527] [INFO ]     ├─ Strategy:   domcontentloaded
+[20:36:56.527] [INFO ]     ├─ Timeout:    15.0s
+[20:36:56.527] [INFO ]     └─ Sleep:      1s after load
+[20:36:56.802] [INFO ] 
+[20:36:56.803] [INFO ]     ✅ PAGE LOADED
+[20:36:56.803] [INFO ]     ├─ Final URL:  https://www.sgs.com/en-eg/news/2020/09/achieving-cmmc-certification-for-defense-contractors
+[20:36:56.803] [INFO ]     ├─ Title:      Access Denied
+[20:36:56.803] [INFO ]     └─ Load Time:  0.28s
+[20:36:57.964] [INFO ] 🧑 Human behavior simulation...
+[20:37:06.153] [INFO ] 🖱️ Mouse: 4 moves in 1440x900
+[20:37:06.153] [INFO ] 🖱️ Mouse completed: 4 moves
+[20:37:06.153] [INFO ] 📜 Scroll: page height, viewport=900px
+[20:37:06.153] [INFO ] 📜 Scroll completed: 3 scrolls
+[20:37:06.153] [INFO ] 🧑 Human behavior completed in 8.2s ✓
+[20:37:06.153] [INFO ] 
+[20:37:06.153] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[20:37:06.153] [INFO ]     ├─ Mouse Movements: 4
+[20:37:06.153] [INFO ]     ├─ Scroll Actions:  3
+[20:37:06.153] [INFO ]     └─ Time Spent:      8.19s
+[20:37:06.212] [INFO ] 
+[20:37:06.212] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:37:06.212] [INFO ] ║  ⚠️  ERROR DETECTED
+[20:37:06.212] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:37:06.212] [INFO ] 
+[20:37:06.212] [INFO ]     ┌─ ERROR DETAILS ───────────────────────────────────────────────┐
+[20:37:06.213] [INFO ]     │ Error Type:       access_denied
+[20:37:06.213] [INFO ]     │ Message:          Access denied - likely bot detection...
+[20:37:06.213] [INFO ]     │
+[20:37:06.213] [INFO ]     │ Likely Ban:       ⚠️  YES
+[20:37:06.213] [INFO ]     │ Recommendation:   Access denied by site
+[20:37:06.213] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:37:06.213] [INFO ] 
+[20:37:06.213] [INFO ]     ┌─ PAGE STATE AT ERROR ────────────────────────────────────────┐
+[20:37:06.213] [INFO ]     │ Page URL:         https://www.sgs.com/en-eg/news/2020/09/achieving-cmmc-c
+[20:37:06.213] [INFO ]     │ Page Title:       Access Denied
+[20:37:06.213] [INFO ]     │ HTML Size:        700 bytes (⚠️  Suspiciously small)
+[20:37:06.213] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:37:06.213] [INFO ] 
+[20:37:06.213] [INFO ]     ┌─ DEBUG SCREENSHOT ───────────────────────────────────────────┐
+[20:37:06.213] [INFO ]     │ 📸 Saved to: /app/data/screenshots/2026-01-29/183706_access_denied_www_sgs_com.png
+[20:37:06.213] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:37:06.213] [INFO ] 
+[20:37:06.213] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:37:06.213] [INFO ] 
+[20:37:06.213] [ERROR] ❌ access_denied: Access denied - likely bot detection
+[20:37:06.242] [INFO ] 
+[20:37:06.242] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:37:06.242] [INFO ] ║  ⚠️  ERROR DETECTED
+[20:37:06.242] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:37:06.242] [INFO ] 
+[20:37:06.242] [INFO ]     ┌─ ERROR DETAILS ───────────────────────────────────────────────┐
+[20:37:06.242] [INFO ]     │ Error Type:       unknown
+[20:37:06.242] [INFO ]     │ Message:          Access Denied - Type: access_denied...
+[20:37:06.242] [INFO ]     │
+[20:37:06.242] [INFO ]     │ Likely Ban:       ✅ No
+[20:37:06.242] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:37:06.242] [INFO ] 
+[20:37:06.242] [INFO ]     ┌─ PAGE STATE AT ERROR ────────────────────────────────────────┐
+[20:37:06.242] [INFO ]     │ Page URL:         https://www.sgs.com/en-eg/news/2020/09/achieving-cmmc-c
+[20:37:06.242] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:37:06.242] [INFO ] 
+[20:37:06.242] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:37:06.242] [INFO ] 
+[20:37:06.242] [ERROR] ❌ unknown: Access Denied - Type: access_denied
+[20:37:13.001] [INFO ] 
+[20:37:13.001] [INFO ]     🚀 BROWSER LAUNCHED
+[20:37:13.001] [INFO ]     ├─ Mode:       Headless
+[20:37:13.001] [INFO ]     ├─ Slow Mo:    40ms
+[20:37:13.001] [INFO ]     ├─ Launch Time: 0.06s
+[20:37:13.001] [INFO ]     └─ Args:       Anti-automation flags enabled
+[20:37:13.020] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-US, tz=UTC
+[20:37:13.020] [INFO ] 
+[20:37:13.020] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:37:13.020] [INFO ] ║  📋 SESSION: SCRAPE_20260129_203656_ACE3
+[20:37:13.020] [INFO ] ║  🌐 URL: https://www.sgs.com/en-eg/news/2020/09/achieving-cmmc-certification-for-defense-contractors
+[20:37:13.020] [INFO ] ║  🔄 ATTEMPT: 2/2
+[20:37:13.020] [INFO ] ║  ⏰ STARTED: 2026-01-29T20:37:13.020739+02:00 (Egypt Time)
+[20:37:13.020] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:37:13.020] [INFO ] 
+[20:37:13.020] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[20:37:13.020] [INFO ]     │ Browser:     CHROME v120
+[20:37:13.020] [INFO ]     │ User-Agent:  Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, lik...
+[20:37:13.020] [INFO ]     │ Viewport:    2560x1440
+[20:37:13.020] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[20:37:13.020] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[20:37:13.020] [INFO ]     │ Location:    Boston, USA
+[20:37:13.020] [INFO ]     │ Timezone:    N/A
+[20:37:13.020] [INFO ]     │ Locale:      en-US
+[20:37:13.020] [INFO ]     │ Geo:         0, 0
+[20:37:13.020] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[20:37:13.020] [INFO ]     │ Proxy:       Direct (no proxy)
+[20:37:13.020] [INFO ]     │ Referrer:    https://www.google.com/
+[20:37:13.020] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:37:13.020] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:37:13.020] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[20:37:13.020] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:37:13.020] [INFO ] 
+[20:37:13.020] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[20:37:13.020] [INFO ]     ├─ Canvas fingerprint noise
+[20:37:13.020] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:37:13.020] [INFO ]     ├─ Hardware concurrency randomization
+[20:37:13.020] [INFO ]     ├─ Device memory randomization
+[20:37:13.020] [INFO ]     ├─ Plugin masking
+[20:37:13.020] [INFO ]     ├─ WebRTC IP leak protection
+[20:37:13.020] [INFO ]     ├─ Network connection spoof
+[20:37:13.020] [INFO ]     └─ Battery API spoof
+[20:37:13.064] [INFO ] 
+[20:37:13.064] [INFO ]     🥷 STEALTH MODE APPLIED
+[20:37:13.064] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[20:37:13.064] [INFO ]     ├─ Chrome runtime patches
+[20:37:13.064] [INFO ]     ├─ Console patches
+[20:37:13.064] [INFO ]     └─ Permission patches
+[20:37:13.064] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[20:37:13.064] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:37:13.064] [INFO ] 
+[20:37:13.064] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[20:37:13.064] [INFO ]     ├─ Canvas fingerprint noise
+[20:37:13.064] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:37:13.064] [INFO ]     ├─ Hardware concurrency randomization
+[20:37:13.064] [INFO ]     ├─ Device memory randomization
+[20:37:13.064] [INFO ]     ├─ Plugin masking
+[20:37:13.064] [INFO ]     ├─ WebRTC IP leak protection
+[20:37:13.064] [INFO ]     ├─ Network connection spoof
+[20:37:13.064] [INFO ]     └─ Battery API spoof
+[20:37:13.064] [DEBUG] Enabled resource blocking (images, media, fonts)
+[20:37:13.064] [INFO ] 
+[20:37:13.064] [INFO ]     🔗 NAVIGATING TO URL
+[20:37:13.064] [INFO ]     ├─ Strategy:   domcontentloaded
+[20:37:13.064] [INFO ]     ├─ Timeout:    15.0s
+[20:37:13.064] [INFO ]     └─ Sleep:      1s after load
+[20:37:16.446] [INFO ] 
+[20:37:16.447] [INFO ]     ✅ PAGE LOADED
+[20:37:16.447] [INFO ]     ├─ Final URL:  https://www.sgs.com/en-eg/news/2020/09/achieving-cmmc-certification-for-defense-contractors
+[20:37:16.447] [INFO ]     ├─ Title:      Achieving CMMC Certification for Defense Contractors | SGS Egypt
+[20:37:16.447] [INFO ]     └─ Load Time:  3.38s
+[20:37:17.983] [INFO ] 🧑 Human behavior simulation...
+[20:37:21.327] [INFO ] 🖱️ Mouse: 2 moves in 2560x1440
+[20:37:21.327] [INFO ] 🖱️ Mouse completed: 2 moves
+[20:37:21.327] [INFO ] 📜 Scroll: page height, viewport=1440px
+[20:37:21.327] [INFO ] 📜 Scroll completed: 1 scrolls
+[20:37:21.327] [INFO ] 🧑 Human behavior completed in 3.3s ✓
+[20:37:21.327] [INFO ] 
+[20:37:21.328] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[20:37:21.328] [INFO ]     ├─ Mouse Movements: 2
+[20:37:21.328] [INFO ]     ├─ Scroll Actions:  1
+[20:37:21.328] [INFO ]     └─ Time Spent:      3.34s
+[20:37:21.802] [INFO ] 
+[20:37:21.802] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:37:21.802] [INFO ]     │ Title:            Achieving CMMC Certification for Defense Contracto
+[20:37:21.802] [INFO ]     │ Final URL:        https://www.sgs.com/en-eg/news/2020/09/achieving-cmmc-certification-for-defense-contractors
+[20:37:21.802] [INFO ]     │ HTML Size:        1,219,378 bytes
+[20:37:21.802] [INFO ]     │ Text Size:        6,584 chars
+[20:37:21.802] [INFO ]     │ Word Count:       ~1002 words
+[20:37:21.802] [INFO ]     │ Extraction:       trafilatura
+[20:37:21.802] [INFO ]     │ Has Article:      ✅ Yes
+[20:37:21.802] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:37:21.830] [INFO ] 
+[20:37:21.830] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:37:21.830] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_203656_ACE3
+[20:37:21.830] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:37:21.830] [INFO ] 
+[20:37:21.830] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[20:37:21.830] [INFO ]     │ Browser Launch:      0.06s
+[20:37:21.830] [INFO ]     │ Page Load:           3.38s
+[20:37:21.830] [INFO ]     │ Cloudflare Wait:     0.00s
+[20:37:21.830] [INFO ]     │ Human Simulation:    3.34s
+[20:37:21.830] [INFO ]     │
+[20:37:21.830] [INFO ]     │ Content Extraction:  0.19s
+[20:37:21.830] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[20:37:21.830] [INFO ]     │ TOTAL TIME:          6.97s
+[20:37:21.830] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:37:21.830] [INFO ] 
+[20:37:21.830] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:37:21.830] [INFO ]     │ Title:            Achieving CMMC Certification for Defense Contracto
+[20:37:21.830] [INFO ]     │ Final URL:        https://www.sgs.com/en-eg/news/2020/09/achieving-cmmc-certification-for-defense-contractors
+[20:37:21.830] [INFO ]     │ HTML Size:        1,219,378 bytes
+[20:37:21.830] [INFO ]     │ Text Size:        6,584 chars
+[20:37:21.830] [INFO ]     │ Word Count:       ~1002 words
+[20:37:21.830] [INFO ]     │ Extraction:       trafilatura
+[20:37:21.830] [INFO ]     │ Has Article:      ✅ Yes
+[20:37:21.830] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:37:21.830] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:37:21.830] [INFO ] ║  📊 SESSION STATS
+[20:37:21.830] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[20:37:21.830] [INFO ] ║  ├─ Popups Dismissed:   0
+[20:37:21.830] [INFO ] ║  ├─ Cloudflare:         Not detected
+[20:37:21.830] [INFO ] ║  └─ Proxy Used:         Direct
+[20:37:21.830] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:37:21.830] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 25.70s
+ENDED: 2026-01-29T20:37:21.830625+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

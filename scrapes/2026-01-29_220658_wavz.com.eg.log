@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://wavz.com.eg/ai-in-cybersecurity-protecting-egypts-digital-economy/
+Started: 2026-01-29 22:06:58
+Session ID: SCRAPE_20260129_220658_419C
+================================================================================
+[22:06:58.617] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_220658_wavz.com.eg.log
+[22:06:58.617] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[22:06:58.963] [INFO ] 
+[22:06:58.963] [INFO ]     🚀 BROWSER LAUNCHED
+[22:06:58.963] [INFO ]     ├─ Mode:       Headless
+[22:06:58.963] [INFO ]     ├─ Slow Mo:    46ms
+[22:06:58.963] [INFO ]     ├─ Launch Time: 0.05s
+[22:06:58.963] [INFO ]     └─ Args:       Anti-automation flags enabled
+[22:06:58.984] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-SG, tz=UTC
+[22:06:58.984] [INFO ] 
+[22:06:58.984] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:06:58.984] [INFO ] ║  📋 SESSION: SCRAPE_20260129_220658_419C
+[22:06:58.984] [INFO ] ║  🌐 URL: https://wavz.com.eg/ai-in-cybersecurity-protecting-egypts-digital-economy/
+[22:06:58.984] [INFO ] ║  🔄 ATTEMPT: 1/2
+[22:06:58.984] [INFO ] ║  ⏰ STARTED: 2026-01-29T22:06:58.984076+02:00 (Egypt Time)
+[22:06:58.984] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:06:58.984] [INFO ] 
+[22:06:58.984] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[22:06:58.984] [INFO ]     │ Browser:     CHROME v126
+[22:06:58.984] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[22:06:58.984] [INFO ]     │ Viewport:    1366x768
+[22:06:58.984] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[22:06:58.984] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[22:06:58.984] [INFO ]     │ Location:    Singapore
+[22:06:58.984] [INFO ]     │ Timezone:    N/A
+[22:06:58.984] [INFO ]     │ Locale:      en-SG
+[22:06:58.984] [INFO ]     │ Geo:         0, 0
+[22:06:58.984] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[22:06:58.984] [INFO ]     │ Proxy:       Direct (no proxy)
+[22:06:58.984] [INFO ]     │ Referrer:    https://www.google.com/search?q=wavz+com+eg
+[22:06:58.984] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:06:58.984] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:06:58.984] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[22:06:58.984] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:06:58.984] [INFO ] 
+[22:06:58.984] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[22:06:58.984] [INFO ]     ├─ Canvas fingerprint noise
+[22:06:58.984] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:06:58.984] [INFO ]     ├─ Hardware concurrency randomization
+[22:06:58.984] [INFO ]     ├─ Device memory randomization
+[22:06:58.984] [INFO ]     ├─ Plugin masking
+[22:06:58.984] [INFO ]     ├─ WebRTC IP leak protection
+[22:06:58.984] [INFO ]     ├─ Network connection spoof
+[22:06:58.984] [INFO ]     └─ Battery API spoof
+[22:06:59.024] [INFO ] 
+[22:06:59.024] [INFO ]     🥷 STEALTH MODE APPLIED
+[22:06:59.024] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[22:06:59.024] [INFO ]     ├─ Chrome runtime patches
+[22:06:59.024] [INFO ]     ├─ Console patches
+[22:06:59.024] [INFO ]     └─ Permission patches
+[22:06:59.024] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[22:06:59.024] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:06:59.024] [INFO ] 
+[22:06:59.024] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[22:06:59.024] [INFO ]     ├─ Canvas fingerprint noise
+[22:06:59.024] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:06:59.024] [INFO ]     ├─ Hardware concurrency randomization
+[22:06:59.024] [INFO ]     ├─ Device memory randomization
+[22:06:59.024] [INFO ]     ├─ Plugin masking
+[22:06:59.024] [INFO ]     ├─ WebRTC IP leak protection
+[22:06:59.024] [INFO ]     ├─ Network connection spoof
+[22:06:59.024] [INFO ]     └─ Battery API spoof
+[22:06:59.024] [DEBUG] Enabled resource blocking (images, media, fonts)
+[22:06:59.024] [INFO ] 
+[22:06:59.024] [INFO ]     🔗 NAVIGATING TO URL
+[22:06:59.024] [INFO ]     ├─ Strategy:   domcontentloaded
+[22:06:59.024] [INFO ]     ├─ Timeout:    15.0s
+[22:06:59.024] [INFO ]     └─ Sleep:      1s after load
+[22:07:01.277] [INFO ] 
+[22:07:01.277] [INFO ]     ✅ PAGE LOADED
+[22:07:01.277] [INFO ]     ├─ Final URL:  https://wavz.com.eg/ai-in-cybersecurity-protecting-egypts-digital-economy/
+[22:07:01.277] [INFO ]     ├─ Title:      AI in Cybersecurity: Protecting Egypt’s Digital Economy -
+[22:07:01.277] [INFO ]     └─ Load Time:  2.25s
+[22:07:02.633] [INFO ] 🧑 Human behavior simulation...
+[22:07:09.233] [INFO ] 🖱️ Mouse: 5 moves in 1366x768
+[22:07:09.233] [INFO ] 🖱️ Mouse completed: 5 moves
+[22:07:09.233] [INFO ] 📜 Scroll: page height, viewport=768px
+[22:07:09.233] [INFO ] 📜 Scroll completed: 2 scrolls
+[22:07:09.233] [INFO ] 🧑 Human behavior completed in 6.6s ✓
+[22:07:09.233] [INFO ] 
+[22:07:09.233] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[22:07:09.233] [INFO ]     ├─ Mouse Movements: 5
+[22:07:09.233] [INFO ]     ├─ Scroll Actions:  2
+[22:07:09.233] [INFO ]     └─ Time Spent:      6.60s
+[22:07:09.432] [INFO ] 
+[22:07:09.432] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:07:09.432] [INFO ]     │ Title:            AI in Cybersecurity: Protecting Egypt’s Digital Ec
+[22:07:09.432] [INFO ]     │ Final URL:        https://wavz.com.eg/ai-in-cybersecurity-protecting-egypts-digital-economy/
+[22:07:09.432] [INFO ]     │ HTML Size:        521,364 bytes
+[22:07:09.432] [INFO ]     │ Text Size:        12,647 chars
+[22:07:09.432] [INFO ]     │ Word Count:       ~1777 words
+[22:07:09.432] [INFO ]     │ Extraction:       trafilatura
+[22:07:09.432] [INFO ]     │ Has Article:      ✅ Yes
+[22:07:09.432] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:07:09.459] [INFO ] 
+[22:07:09.459] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:07:09.459] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_220658_419C
+[22:07:09.459] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:07:09.459] [INFO ] 
+[22:07:09.459] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[22:07:09.459] [INFO ]     │ Browser Launch:      0.05s
+[22:07:09.459] [INFO ]     │ Page Load:           2.25s
+[22:07:09.459] [INFO ]     │ Cloudflare Wait:     0.00s
+[22:07:09.459] [INFO ]     │ Human Simulation:    6.60s
+[22:07:09.459] [INFO ]     │
+[22:07:09.459] [INFO ]     │ Content Extraction:  0.10s
+[22:07:09.459] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[22:07:09.459] [INFO ]     │ TOTAL TIME:          9.00s
+[22:07:09.459] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:07:09.459] [INFO ] 
+[22:07:09.459] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:07:09.459] [INFO ]     │ Title:            AI in Cybersecurity: Protecting Egypt’s Digital Ec
+[22:07:09.459] [INFO ]     │ Final URL:        https://wavz.com.eg/ai-in-cybersecurity-protecting-egypts-digital-economy/
+[22:07:09.459] [INFO ]     │ HTML Size:        521,364 bytes
+[22:07:09.459] [INFO ]     │ Text Size:        12,647 chars
+[22:07:09.459] [INFO ]     │ Word Count:       ~1777 words
+[22:07:09.459] [INFO ]     │ Extraction:       trafilatura
+[22:07:09.459] [INFO ]     │ Has Article:      ✅ Yes
+[22:07:09.459] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:07:09.459] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:07:09.459] [INFO ] ║  📊 SESSION STATS
+[22:07:09.459] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[22:07:09.459] [INFO ] ║  ├─ Popups Dismissed:   0
+[22:07:09.459] [INFO ] ║  ├─ Cloudflare:         Not detected
+[22:07:09.459] [INFO ] ║  └─ Proxy Used:         Direct
+[22:07:09.459] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:07:09.459] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.84s
+ENDED: 2026-01-29T22:07:09.460001+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

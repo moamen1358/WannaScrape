@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://buguard.io/
+Started: 2026-01-30 01:35:03
+Session ID: SCRAPE_20260130_013503_8123
+================================================================================
+[01:35:03.721] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_013503_buguard.io.log
+[01:35:03.721] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[01:35:04.090] [INFO ] 
+[01:35:04.090] [INFO ]     🚀 BROWSER LAUNCHED
+[01:35:04.090] [INFO ]     ├─ Mode:       Headless
+[01:35:04.090] [INFO ]     ├─ Slow Mo:    53ms
+[01:35:04.090] [INFO ]     ├─ Launch Time: 0.06s
+[01:35:04.090] [INFO ]     └─ Args:       Anti-automation flags enabled
+[01:35:04.109] [DEBUG] Browser profile: viewport={'width': 3840, 'height': 2160}, locale=en-IE, tz=UTC
+[01:35:04.109] [INFO ] 
+[01:35:04.109] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:35:04.109] [INFO ] ║  📋 SESSION: SCRAPE_20260130_013503_8123
+[01:35:04.109] [INFO ] ║  🌐 URL: https://buguard.io/
+[01:35:04.109] [INFO ] ║  🔄 ATTEMPT: 1/2
+[01:35:04.109] [INFO ] ║  ⏰ STARTED: 2026-01-30T01:35:04.109638+02:00 (Egypt Time)
+[01:35:04.109] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:35:04.109] [INFO ] 
+[01:35:04.109] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[01:35:04.109] [INFO ]     │ Browser:     FIREFOX v120
+[01:35:04.109] [INFO ]     │ User-Agent:  Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0...
+[01:35:04.109] [INFO ]     │ Viewport:    3840x2160
+[01:35:04.109] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[01:35:04.109] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[01:35:04.109] [INFO ]     │ Location:    Dublin, Ireland
+[01:35:04.109] [INFO ]     │ Timezone:    N/A
+[01:35:04.109] [INFO ]     │ Locale:      en-IE
+[01:35:04.109] [INFO ]     │ Geo:         0, 0
+[01:35:04.109] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[01:35:04.109] [INFO ]     │ Proxy:       Direct (no proxy)
+[01:35:04.109] [INFO ]     │ Referrer:    https://www.google.com/search?q=buguard+io
+[01:35:04.109] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:35:04.109] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:35:04.109] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[01:35:04.109] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:35:04.109] [INFO ] 
+[01:35:04.109] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[01:35:04.109] [INFO ]     ├─ Canvas fingerprint noise
+[01:35:04.109] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:35:04.109] [INFO ]     ├─ Hardware concurrency randomization
+[01:35:04.109] [INFO ]     ├─ Device memory randomization
+[01:35:04.109] [INFO ]     ├─ Plugin masking
+[01:35:04.109] [INFO ]     ├─ WebRTC IP leak protection
+[01:35:04.109] [INFO ]     ├─ Network connection spoof
+[01:35:04.109] [INFO ]     └─ Battery API spoof
+[01:35:04.153] [INFO ] 
+[01:35:04.153] [INFO ]     🥷 STEALTH MODE APPLIED
+[01:35:04.153] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[01:35:04.153] [INFO ]     ├─ Chrome runtime patches
+[01:35:04.153] [INFO ]     ├─ Console patches
+[01:35:04.153] [INFO ]     └─ Permission patches
+[01:35:04.153] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[01:35:04.153] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:35:04.153] [INFO ] 
+[01:35:04.153] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[01:35:04.153] [INFO ]     ├─ Canvas fingerprint noise
+[01:35:04.153] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:35:04.153] [INFO ]     ├─ Hardware concurrency randomization
+[01:35:04.153] [INFO ]     ├─ Device memory randomization
+[01:35:04.153] [INFO ]     ├─ Plugin masking
+[01:35:04.153] [INFO ]     ├─ WebRTC IP leak protection
+[01:35:04.153] [INFO ]     ├─ Network connection spoof
+[01:35:04.153] [INFO ]     └─ Battery API spoof
+[01:35:04.153] [DEBUG] Enabled resource blocking (images, media, fonts)
+[01:35:04.153] [INFO ] 
+[01:35:04.153] [INFO ]     🔗 NAVIGATING TO URL
+[01:35:04.153] [INFO ]     ├─ Strategy:   domcontentloaded
+[01:35:04.153] [INFO ]     ├─ Timeout:    15.0s
+[01:35:04.153] [INFO ]     └─ Sleep:      1s after load
+[01:35:04.567] [INFO ] 
+[01:35:04.567] [INFO ]     ✅ PAGE LOADED
+[01:35:04.567] [INFO ]     ├─ Final URL:  https://buguard.io/
+[01:35:04.567] [INFO ]     ├─ Title:      Buguard | Egypt based CyberSecurity Startup | Penetration Testing Provider | Buguard, LLC
+[01:35:04.567] [INFO ]     └─ Load Time:  0.41s
+[01:35:05.912] [INFO ] 🧑 Human behavior simulation...
+[01:35:14.728] [INFO ] 🖱️ Mouse: 5 moves in 3840x2160
+[01:35:14.728] [INFO ] 🖱️ Mouse completed: 5 moves
+[01:35:14.728] [INFO ] 📜 Scroll: page height, viewport=2160px
+[01:35:14.728] [INFO ] 📜 Scroll completed: 2 scrolls
+[01:35:14.728] [INFO ] 🧑 Human behavior completed in 8.8s ✓
+[01:35:14.728] [INFO ] 
+[01:35:14.728] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[01:35:14.728] [INFO ]     ├─ Mouse Movements: 5
+[01:35:14.728] [INFO ]     ├─ Scroll Actions:  2
+[01:35:14.728] [INFO ]     └─ Time Spent:      8.82s
+[01:35:15.153] [INFO ] 
+[01:35:15.153] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[01:35:15.153] [INFO ]     │ Title:            Buguard | Egypt based CyberSecurity Startup | Pene
+[01:35:15.153] [INFO ]     │ Final URL:        https://buguard.io/
+[01:35:15.153] [INFO ]     │ HTML Size:        253,197 bytes
+[01:35:15.153] [INFO ]     │ Text Size:        2,823 chars
+[01:35:15.153] [INFO ]     │ Word Count:       ~369 words
+[01:35:15.153] [INFO ]     │ Extraction:       trafilatura
+[01:35:15.153] [INFO ]     │ Has Article:      ✅ Yes
+[01:35:15.153] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:35:15.181] [INFO ] 
+[01:35:15.182] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:35:15.182] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260130_013503_8123
+[01:35:15.182] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:35:15.182] [INFO ] 
+[01:35:15.182] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[01:35:15.182] [INFO ]     │ Browser Launch:      0.06s
+[01:35:15.182] [INFO ]     │ Page Load:           0.41s
+[01:35:15.182] [INFO ]     │ Cloudflare Wait:     0.00s
+[01:35:15.182] [INFO ]     │ Human Simulation:    8.82s
+[01:35:15.182] [INFO ]     │
+[01:35:15.182] [INFO ]     │ Content Extraction:  0.37s
+[01:35:15.182] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[01:35:15.182] [INFO ]     │ TOTAL TIME:          9.66s
+[01:35:15.182] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:35:15.182] [INFO ] 
+[01:35:15.182] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[01:35:15.182] [INFO ]     │ Title:            Buguard | Egypt based CyberSecurity Startup | Pene
+[01:35:15.182] [INFO ]     │ Final URL:        https://buguard.io/
+[01:35:15.182] [INFO ]     │ HTML Size:        253,197 bytes
+[01:35:15.182] [INFO ]     │ Text Size:        2,823 chars
+[01:35:15.182] [INFO ]     │ Word Count:       ~369 words
+[01:35:15.182] [INFO ]     │ Extraction:       trafilatura
+[01:35:15.182] [INFO ]     │ Has Article:      ✅ Yes
+[01:35:15.182] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:35:15.182] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:35:15.182] [INFO ] ║  📊 SESSION STATS
+[01:35:15.182] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[01:35:15.182] [INFO ] ║  ├─ Popups Dismissed:   0
+[01:35:15.182] [INFO ] ║  ├─ Cloudflare:         Not detected
+[01:35:15.182] [INFO ] ║  └─ Proxy Used:         Direct
+[01:35:15.182] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:35:15.182] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 11.46s
+ENDED: 2026-01-30T01:35:15.182346+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

@@ -365,8 +365,8 @@ def your_function(
 
 ## 🚀 Quick Examples
 
-### "Add Akamai detection"
-→ Create `app/detections/akamai.py` using template above
+### "Add Kasada detection"
+→ Create `app/detections/kasada.py` using template above (Akamai already exists)
 
 ### "Add /analyze endpoint"
 → Create `app/api/analyze_api.py` with FastAPI router

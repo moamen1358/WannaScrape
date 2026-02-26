@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://pcidss.com/latest-events/
+Started: 2026-01-29 18:36:23
+Session ID: SCRAPE_20260129_183623_DE9D
+================================================================================
+[18:36:23.110] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_183623_pcidss.com.log
+[18:36:23.110] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[18:36:23.459] [INFO ] 
+[18:36:23.459] [INFO ]     🚀 BROWSER LAUNCHED
+[18:36:23.459] [INFO ]     ├─ Mode:       Headless
+[18:36:23.459] [INFO ]     ├─ Slow Mo:    57ms
+[18:36:23.459] [INFO ]     ├─ Launch Time: 0.05s
+[18:36:23.459] [INFO ]     └─ Args:       Anti-automation flags enabled
+[18:36:23.479] [DEBUG] Browser profile: viewport={'width': 1600, 'height': 900}, locale=en-US, tz=UTC
+[18:36:23.479] [INFO ] 
+[18:36:23.479] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:36:23.479] [INFO ] ║  📋 SESSION: SCRAPE_20260129_183623_DE9D
+[18:36:23.479] [INFO ] ║  🌐 URL: https://pcidss.com/latest-events/
+[18:36:23.479] [INFO ] ║  🔄 ATTEMPT: 1/2
+[18:36:23.479] [INFO ] ║  ⏰ STARTED: 2026-01-29T18:36:23.479948+02:00 (Egypt Time)
+[18:36:23.479] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:36:23.479] [INFO ] 
+[18:36:23.479] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[18:36:23.479] [INFO ]     │ Browser:     CHROME v121
+[18:36:23.479] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[18:36:23.479] [INFO ]     │ Viewport:    1600x900
+[18:36:23.479] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[18:36:23.479] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[18:36:23.480] [INFO ]     │ Location:    New York, USA
+[18:36:23.480] [INFO ]     │ Timezone:    N/A
+[18:36:23.480] [INFO ]     │ Locale:      en-US
+[18:36:23.480] [INFO ]     │ Geo:         0, 0
+[18:36:23.480] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[18:36:23.480] [INFO ]     │ Proxy:       Direct (no proxy)
+[18:36:23.480] [INFO ]     │ Referrer:    https://www.google.com/search?q=pcidss+com
+[18:36:23.480] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:36:23.480] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:36:23.480] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[18:36:23.480] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:36:23.480] [INFO ] 
+[18:36:23.480] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[18:36:23.480] [INFO ]     ├─ Canvas fingerprint noise
+[18:36:23.480] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:36:23.480] [INFO ]     ├─ Hardware concurrency randomization
+[18:36:23.480] [INFO ]     ├─ Device memory randomization
+[18:36:23.480] [INFO ]     ├─ Plugin masking
+[18:36:23.480] [INFO ]     ├─ WebRTC IP leak protection
+[18:36:23.480] [INFO ]     ├─ Network connection spoof
+[18:36:23.480] [INFO ]     └─ Battery API spoof
+[18:36:23.521] [INFO ] 
+[18:36:23.521] [INFO ]     🥷 STEALTH MODE APPLIED
+[18:36:23.521] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[18:36:23.521] [INFO ]     ├─ Chrome runtime patches
+[18:36:23.521] [INFO ]     ├─ Console patches
+[18:36:23.521] [INFO ]     └─ Permission patches
+[18:36:23.521] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[18:36:23.521] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:36:23.521] [INFO ] 
+[18:36:23.521] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[18:36:23.521] [INFO ]     ├─ Canvas fingerprint noise
+[18:36:23.521] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:36:23.521] [INFO ]     ├─ Hardware concurrency randomization
+[18:36:23.521] [INFO ]     ├─ Device memory randomization
+[18:36:23.521] [INFO ]     ├─ Plugin masking
+[18:36:23.521] [INFO ]     ├─ WebRTC IP leak protection
+[18:36:23.521] [INFO ]     ├─ Network connection spoof
+[18:36:23.521] [INFO ]     └─ Battery API spoof
+[18:36:23.521] [DEBUG] Enabled resource blocking (images, media, fonts)
+[18:36:23.521] [INFO ] 
+[18:36:23.521] [INFO ]     🔗 NAVIGATING TO URL
+[18:36:23.521] [INFO ]     ├─ Strategy:   domcontentloaded
+[18:36:23.521] [INFO ]     ├─ Timeout:    15.0s
+[18:36:23.521] [INFO ]     └─ Sleep:      1s after load
+[18:36:26.057] [INFO ] 
+[18:36:26.057] [INFO ]     ✅ PAGE LOADED
+[18:36:26.057] [INFO ]     ├─ Final URL:  https://pcidss.com/latest-events/
+[18:36:26.057] [INFO ]     ├─ Title:      Events - PCI DSS Security
+[18:36:26.057] [INFO ]     └─ Load Time:  2.54s
+[18:36:27.321] [INFO ] 🧑 Human behavior simulation...
+[18:36:31.396] [INFO ] 🖱️ Mouse: 2 moves in 1600x900
+[18:36:31.396] [INFO ] 🖱️ Mouse completed: 2 moves
+[18:36:31.396] [INFO ] 📜 Scroll: page height, viewport=900px
+[18:36:31.396] [INFO ] 📜 Scroll completed: 3 scrolls
+[18:36:31.396] [INFO ] 🧑 Human behavior completed in 4.1s ✓
+[18:36:31.396] [INFO ] 
+[18:36:31.396] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[18:36:31.396] [INFO ]     ├─ Mouse Movements: 2
+[18:36:31.396] [INFO ]     ├─ Scroll Actions:  3
+[18:36:31.396] [INFO ]     └─ Time Spent:      4.07s
+[18:36:31.574] [INFO ] 
+[18:36:31.574] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:36:31.574] [INFO ]     │ Title:            Events - PCI DSS Security
+[18:36:31.574] [INFO ]     │ Final URL:        https://pcidss.com/latest-events/
+[18:36:31.574] [INFO ]     │ HTML Size:        282,574 bytes
+[18:36:31.574] [INFO ]     │ Text Size:        1,709 chars
+[18:36:31.574] [INFO ]     │ Word Count:       ~317 words
+[18:36:31.574] [INFO ]     │ Extraction:       trafilatura
+[18:36:31.574] [INFO ]     │ Has Article:      ✅ Yes
+[18:36:31.574] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:36:31.606] [INFO ] 
+[18:36:31.606] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:36:31.606] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_183623_DE9D
+[18:36:31.606] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:36:31.606] [INFO ] 
+[18:36:31.606] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[18:36:31.606] [INFO ]     │ Browser Launch:      0.05s
+[18:36:31.606] [INFO ]     │ Page Load:           2.54s
+[18:36:31.606] [INFO ]     │ Cloudflare Wait:     0.00s
+[18:36:31.606] [INFO ]     │ Human Simulation:    4.07s
+[18:36:31.606] [INFO ]     │
+[18:36:31.606] [INFO ]     │ Content Extraction:  0.07s
+[18:36:31.606] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[18:36:31.606] [INFO ]     │ TOTAL TIME:          6.73s
+[18:36:31.606] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:36:31.606] [INFO ] 
+[18:36:31.606] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:36:31.606] [INFO ]     │ Title:            Events - PCI DSS Security
+[18:36:31.606] [INFO ]     │ Final URL:        https://pcidss.com/latest-events/
+[18:36:31.606] [INFO ]     │ HTML Size:        282,574 bytes
+[18:36:31.606] [INFO ]     │ Text Size:        1,709 chars
+[18:36:31.606] [INFO ]     │ Word Count:       ~317 words
+[18:36:31.606] [INFO ]     │ Extraction:       trafilatura
+[18:36:31.606] [INFO ]     │ Has Article:      ✅ Yes
+[18:36:31.606] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:36:31.606] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:36:31.606] [INFO ] ║  📊 SESSION STATS
+[18:36:31.606] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[18:36:31.606] [INFO ] ║  ├─ Popups Dismissed:   0
+[18:36:31.606] [INFO ] ║  ├─ Cloudflare:         Not detected
+[18:36:31.606] [INFO ] ║  └─ Proxy Used:         Direct
+[18:36:31.606] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:36:31.606] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.50s
+ENDED: 2026-01-29T18:36:31.606952+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

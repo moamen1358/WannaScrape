@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://en.wikipedia.org/wiki/Saudi_Central_Bank
+Started: 2026-02-01 12:17:18
+Session ID: SCRAPE_20260201_121718_39E2
+================================================================================
+[12:17:18.445] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-02-01_121718_en.wikipedia.org.log
+[12:17:18.445] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:17:18.788] [INFO ] 
+[12:17:18.788] [INFO ]     🚀 BROWSER LAUNCHED
+[12:17:18.788] [INFO ]     ├─ Mode:       Headless
+[12:17:18.788] [INFO ]     ├─ Slow Mo:    54ms
+[12:17:18.788] [INFO ]     ├─ Launch Time: 0.05s
+[12:17:18.788] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:17:18.806] [DEBUG] Browser profile: viewport={'width': 1536, 'height': 864}, locale=en-AU, tz=UTC
+[12:17:18.806] [INFO ] 
+[12:17:18.806] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:17:18.806] [INFO ] ║  📋 SESSION: SCRAPE_20260201_121718_39E2
+[12:17:18.806] [INFO ] ║  🌐 URL: https://en.wikipedia.org/wiki/Saudi_Central_Bank
+[12:17:18.806] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:17:18.806] [INFO ] ║  ⏰ STARTED: 2026-02-01T12:17:18.806903+02:00 (Egypt Time)
+[12:17:18.806] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:17:18.806] [INFO ] 
+[12:17:18.806] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:17:18.806] [INFO ]     │ Browser:     OPERA v105
+[12:17:18.806] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[12:17:18.806] [INFO ]     │ Viewport:    1536x864
+[12:17:18.806] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:17:18.806] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:17:18.806] [INFO ]     │ Location:    Brisbane, Australia
+[12:17:18.806] [INFO ]     │ Timezone:    N/A
+[12:17:18.806] [INFO ]     │ Locale:      en-AU
+[12:17:18.806] [INFO ]     │ Geo:         0, 0
+[12:17:18.806] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:17:18.806] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:17:18.806] [INFO ]     │ Referrer:    https://www.google.com/
+[12:17:18.806] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:17:18.806] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:17:18.806] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:17:18.806] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:17:18.807] [INFO ] 
+[12:17:18.807] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:17:18.807] [INFO ]     ├─ Canvas fingerprint noise
+[12:17:18.807] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:17:18.807] [INFO ]     ├─ Hardware concurrency randomization
+[12:17:18.807] [INFO ]     ├─ Device memory randomization
+[12:17:18.807] [INFO ]     ├─ Plugin masking
+[12:17:18.807] [INFO ]     ├─ WebRTC IP leak protection
+[12:17:18.807] [INFO ]     ├─ Network connection spoof
+[12:17:18.807] [INFO ]     └─ Battery API spoof
+[12:17:18.848] [INFO ] 
+[12:17:18.848] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:17:18.848] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:17:18.848] [INFO ]     ├─ Chrome runtime patches
+[12:17:18.848] [INFO ]     ├─ Console patches
+[12:17:18.848] [INFO ]     └─ Permission patches
+[12:17:18.848] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:17:18.848] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:17:18.848] [INFO ] 
+[12:17:18.848] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:17:18.848] [INFO ]     ├─ Canvas fingerprint noise
+[12:17:18.848] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:17:18.848] [INFO ]     ├─ Hardware concurrency randomization
+[12:17:18.848] [INFO ]     ├─ Device memory randomization
+[12:17:18.848] [INFO ]     ├─ Plugin masking
+[12:17:18.848] [INFO ]     ├─ WebRTC IP leak protection
+[12:17:18.848] [INFO ]     ├─ Network connection spoof
+[12:17:18.848] [INFO ]     └─ Battery API spoof
+[12:17:18.848] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:17:18.848] [INFO ] 
+[12:17:18.848] [INFO ]     🔗 NAVIGATING TO URL
+[12:17:18.848] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:17:18.848] [INFO ]     ├─ Timeout:    15.0s
+[12:17:18.848] [INFO ]     └─ Sleep:      1s after load
+[12:17:20.899] [INFO ] 
+[12:17:20.899] [INFO ]     ✅ PAGE LOADED
+[12:17:20.899] [INFO ]     ├─ Final URL:  https://en.wikipedia.org/wiki/Saudi_Central_Bank
+[12:17:20.899] [INFO ]     ├─ Title:      Saudi Central Bank - Wikipedia
+[12:17:20.899] [INFO ]     └─ Load Time:  2.05s
+[12:17:22.210] [INFO ] 🧑 Human behavior simulation...
+[12:17:28.974] [INFO ] 🖱️ Mouse: 4 moves in 1536x864
+[12:17:28.974] [INFO ] 🖱️ Mouse completed: 4 moves
+[12:17:28.974] [INFO ] 📜 Scroll: page height, viewport=864px
+[12:17:28.974] [INFO ] 📜 Scroll completed: 1 scrolls
+[12:17:28.974] [INFO ] 🧑 Human behavior completed in 6.8s ✓
+[12:17:28.974] [INFO ] 
+[12:17:28.974] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:17:28.974] [INFO ]     ├─ Mouse Movements: 4
+[12:17:28.974] [INFO ]     ├─ Scroll Actions:  1
+[12:17:28.974] [INFO ]     └─ Time Spent:      6.76s
+[12:17:29.322] [INFO ] 
+[12:17:29.322] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:17:29.322] [INFO ]     │ Title:            Saudi Central Bank - Wikipedia
+[12:17:29.322] [INFO ]     │ Final URL:        https://en.wikipedia.org/wiki/Saudi_Central_Bank
+[12:17:29.322] [INFO ]     │ HTML Size:        376,510 bytes
+[12:17:29.322] [INFO ]     │ Text Size:        7,682 chars
+[12:17:29.322] [INFO ]     │ Word Count:       ~1284 words
+[12:17:29.322] [INFO ]     │ Extraction:       trafilatura
+[12:17:29.322] [INFO ]     │ Has Article:      ✅ Yes
+[12:17:29.322] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:17:29.346] [INFO ] 
+[12:17:29.346] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:17:29.346] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260201_121718_39E2
+[12:17:29.346] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:17:29.346] [INFO ] 
+[12:17:29.346] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:17:29.346] [INFO ]     │ Browser Launch:      0.05s
+[12:17:29.346] [INFO ]     │ Page Load:           2.05s
+[12:17:29.346] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:17:29.346] [INFO ]     │ Human Simulation:    6.76s
+[12:17:29.346] [INFO ]     │
+[12:17:29.346] [INFO ]     │ Content Extraction:  0.17s
+[12:17:29.346] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:17:29.346] [INFO ]     │ TOTAL TIME:          9.04s
+[12:17:29.346] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:17:29.346] [INFO ] 
+[12:17:29.346] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:17:29.346] [INFO ]     │ Title:            Saudi Central Bank - Wikipedia
+[12:17:29.346] [INFO ]     │ Final URL:        https://en.wikipedia.org/wiki/Saudi_Central_Bank
+[12:17:29.346] [INFO ]     │ HTML Size:        376,510 bytes
+[12:17:29.346] [INFO ]     │ Text Size:        7,682 chars
+[12:17:29.346] [INFO ]     │ Word Count:       ~1284 words
+[12:17:29.346] [INFO ]     │ Extraction:       trafilatura
+[12:17:29.346] [INFO ]     │ Has Article:      ✅ Yes
+[12:17:29.346] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:17:29.346] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:17:29.346] [INFO ] ║  📊 SESSION STATS
+[12:17:29.346] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:17:29.346] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:17:29.346] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:17:29.346] [INFO ] ║  └─ Proxy Used:         Direct
+[12:17:29.346] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:17:29.346] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.90s
+ENDED: 2026-02-01T12:17:29.346966+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

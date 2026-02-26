@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.atachcommunity.com/our-impact/case-studies/egypt-advancing-climate-and-health-through-digital-resilience-leadership-and-governance/
+Started: 2026-01-29 22:05:28
+Session ID: SCRAPE_20260129_220528_B876
+================================================================================
+[22:05:28.615] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_220528_atachcommunity.com.log
+[22:05:28.615] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[22:05:28.959] [INFO ] 
+[22:05:28.959] [INFO ]     🚀 BROWSER LAUNCHED
+[22:05:28.959] [INFO ]     ├─ Mode:       Headless
+[22:05:28.959] [INFO ]     ├─ Slow Mo:    59ms
+[22:05:28.959] [INFO ]     ├─ Launch Time: 0.06s
+[22:05:28.959] [INFO ]     └─ Args:       Anti-automation flags enabled
+[22:05:28.978] [DEBUG] Browser profile: viewport={'width': 1280, 'height': 720}, locale=en-CA, tz=UTC
+[22:05:28.978] [INFO ] 
+[22:05:28.978] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:05:28.978] [INFO ] ║  📋 SESSION: SCRAPE_20260129_220528_B876
+[22:05:28.978] [INFO ] ║  🌐 URL: https://www.atachcommunity.com/our-impact/case-studies/egypt-advancing-climate-and-health-through-digital-resilience-leadership-and-governance/
+[22:05:28.979] [INFO ] ║  🔄 ATTEMPT: 1/2
+[22:05:28.979] [INFO ] ║  ⏰ STARTED: 2026-01-29T22:05:28.979011+02:00 (Egypt Time)
+[22:05:28.979] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:05:28.979] [INFO ] 
+[22:05:28.979] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[22:05:28.979] [INFO ]     │ Browser:     CHROME v124
+[22:05:28.979] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[22:05:28.979] [INFO ]     │ Viewport:    1280x720
+[22:05:28.979] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[22:05:28.979] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[22:05:28.979] [INFO ]     │ Location:    Vancouver, Canada
+[22:05:28.979] [INFO ]     │ Timezone:    N/A
+[22:05:28.979] [INFO ]     │ Locale:      en-CA
+[22:05:28.979] [INFO ]     │ Geo:         0, 0
+[22:05:28.979] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[22:05:28.979] [INFO ]     │ Proxy:       Direct (no proxy)
+[22:05:28.979] [INFO ]     │ Referrer:    https://www.google.com/
+[22:05:28.979] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:05:28.979] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:05:28.979] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[22:05:28.979] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:05:28.979] [INFO ] 
+[22:05:28.979] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[22:05:28.979] [INFO ]     ├─ Canvas fingerprint noise
+[22:05:28.979] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:05:28.979] [INFO ]     ├─ Hardware concurrency randomization
+[22:05:28.979] [INFO ]     ├─ Device memory randomization
+[22:05:28.979] [INFO ]     ├─ Plugin masking
+[22:05:28.979] [INFO ]     ├─ WebRTC IP leak protection
+[22:05:28.979] [INFO ]     ├─ Network connection spoof
+[22:05:28.979] [INFO ]     └─ Battery API spoof
+[22:05:29.020] [INFO ] 
+[22:05:29.020] [INFO ]     🥷 STEALTH MODE APPLIED
+[22:05:29.020] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[22:05:29.020] [INFO ]     ├─ Chrome runtime patches
+[22:05:29.020] [INFO ]     ├─ Console patches
+[22:05:29.020] [INFO ]     └─ Permission patches
+[22:05:29.020] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[22:05:29.020] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:05:29.020] [INFO ] 
+[22:05:29.020] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[22:05:29.020] [INFO ]     ├─ Canvas fingerprint noise
+[22:05:29.020] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:05:29.020] [INFO ]     ├─ Hardware concurrency randomization
+[22:05:29.020] [INFO ]     ├─ Device memory randomization
+[22:05:29.020] [INFO ]     ├─ Plugin masking
+[22:05:29.020] [INFO ]     ├─ WebRTC IP leak protection
+[22:05:29.020] [INFO ]     ├─ Network connection spoof
+[22:05:29.020] [INFO ]     └─ Battery API spoof
+[22:05:29.020] [DEBUG] Enabled resource blocking (images, media, fonts)
+[22:05:29.020] [INFO ] 
+[22:05:29.020] [INFO ]     🔗 NAVIGATING TO URL
+[22:05:29.020] [INFO ]     ├─ Strategy:   domcontentloaded
+[22:05:29.020] [INFO ]     ├─ Timeout:    15.0s
+[22:05:29.020] [INFO ]     └─ Sleep:      1s after load
+[22:05:30.583] [INFO ] 
+[22:05:30.583] [INFO ]     ✅ PAGE LOADED
+[22:05:30.583] [INFO ]     ├─ Final URL:  https://www.atachcommunity.com/our-impact/case-studies/egypt-advancing-climate-and-health-through-digital-resilience-leadership-and-governance/
+[22:05:30.583] [INFO ]     ├─ Title:      Egypt: Advancing climate and health through digital resilience, leadership, and governance - The Community of Practice for Climate Resilient and Low Carbon Sustainable Health Systems
+[22:05:30.583] [INFO ]     └─ Load Time:  1.56s
+[22:05:32.371] [INFO ] 🧑 Human behavior simulation...
+[22:05:35.770] [INFO ] 🖱️ Mouse: 2 moves in 1280x720
+[22:05:35.770] [INFO ] 🖱️ Mouse completed: 2 moves
+[22:05:35.770] [INFO ] 📜 Scroll: page height, viewport=720px
+[22:05:35.770] [INFO ] 📜 Scroll completed: 2 scrolls
+[22:05:35.770] [INFO ] 🧑 Human behavior completed in 3.4s ✓
+[22:05:35.770] [INFO ] 
+[22:05:35.770] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[22:05:35.770] [INFO ]     ├─ Mouse Movements: 2
+[22:05:35.770] [INFO ]     ├─ Scroll Actions:  2
+[22:05:35.770] [INFO ]     └─ Time Spent:      3.40s
+[22:05:35.858] [INFO ] 
+[22:05:35.858] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:05:35.858] [INFO ]     │ Title:            Egypt: Advancing climate and health through digita
+[22:05:35.858] [INFO ]     │ Final URL:        https://www.atachcommunity.com/our-impact/case-studies/egypt-advancing-climate-and-health-through-digital-resilience-leadership-and-governance/
+[22:05:35.858] [INFO ]     │ HTML Size:        40,103 bytes
+[22:05:35.858] [INFO ]     │ Text Size:        11,706 chars
+[22:05:35.858] [INFO ]     │ Word Count:       ~1512 words
+[22:05:35.858] [INFO ]     │ Extraction:       trafilatura
+[22:05:35.858] [INFO ]     │ Has Article:      ✅ Yes
+[22:05:35.858] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:05:35.885] [INFO ] 
+[22:05:35.885] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:05:35.885] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_220528_B876
+[22:05:35.885] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:05:35.885] [INFO ] 
+[22:05:35.885] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[22:05:35.885] [INFO ]     │ Browser Launch:      0.06s
+[22:05:35.885] [INFO ]     │ Page Load:           1.56s
+[22:05:35.885] [INFO ]     │ Cloudflare Wait:     0.00s
+[22:05:35.885] [INFO ]     │ Human Simulation:    3.40s
+[22:05:35.885] [INFO ]     │
+[22:05:35.885] [INFO ]     │ Content Extraction:  0.07s
+[22:05:35.885] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[22:05:35.885] [INFO ]     │ TOTAL TIME:          5.09s
+[22:05:35.885] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:05:35.885] [INFO ] 
+[22:05:35.885] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:05:35.885] [INFO ]     │ Title:            Egypt: Advancing climate and health through digita
+[22:05:35.885] [INFO ]     │ Final URL:        https://www.atachcommunity.com/our-impact/case-studies/egypt-advancing-climate-and-health-through-digital-resilience-leadership-and-governance/
+[22:05:35.885] [INFO ]     │ HTML Size:        40,103 bytes
+[22:05:35.885] [INFO ]     │ Text Size:        11,706 chars
+[22:05:35.885] [INFO ]     │ Word Count:       ~1512 words
+[22:05:35.885] [INFO ]     │ Extraction:       trafilatura
+[22:05:35.885] [INFO ]     │ Has Article:      ✅ Yes
+[22:05:35.885] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:05:35.885] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:05:35.885] [INFO ] ║  📊 SESSION STATS
+[22:05:35.885] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[22:05:35.886] [INFO ] ║  ├─ Popups Dismissed:   0
+[22:05:35.886] [INFO ] ║  ├─ Cloudflare:         Not detected
+[22:05:35.886] [INFO ] ║  └─ Proxy Used:         Direct
+[22:05:35.886] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:05:35.886] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.27s
+ENDED: 2026-01-29T22:05:35.886047+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://trainingcred.com/eg/training-course/isoiec-27005-foundation
+Started: 2026-01-29 20:04:56
+Session ID: SCRAPE_20260129_200456_E423
+================================================================================
+[20:04:56.116] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_200456_trainingcred.com.log
+[20:04:56.116] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[20:04:56.455] [INFO ] 
+[20:04:56.455] [INFO ]     🚀 BROWSER LAUNCHED
+[20:04:56.455] [INFO ]     ├─ Mode:       Headless
+[20:04:56.455] [INFO ]     ├─ Slow Mo:    57ms
+[20:04:56.455] [INFO ]     ├─ Launch Time: 0.06s
+[20:04:56.455] [INFO ]     └─ Args:       Anti-automation flags enabled
+[20:04:56.473] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-GB, tz=UTC
+[20:04:56.473] [INFO ] 
+[20:04:56.473] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:04:56.473] [INFO ] ║  📋 SESSION: SCRAPE_20260129_200456_E423
+[20:04:56.473] [INFO ] ║  🌐 URL: https://trainingcred.com/eg/training-course/isoiec-27005-foundation
+[20:04:56.473] [INFO ] ║  🔄 ATTEMPT: 1/2
+[20:04:56.473] [INFO ] ║  ⏰ STARTED: 2026-01-29T20:04:56.473735+02:00 (Egypt Time)
+[20:04:56.473] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:04:56.473] [INFO ] 
+[20:04:56.473] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[20:04:56.473] [INFO ]     │ Browser:     CHROME v120
+[20:04:56.473] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[20:04:56.473] [INFO ]     │ Viewport:    1366x768
+[20:04:56.473] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[20:04:56.473] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[20:04:56.473] [INFO ]     │ Location:    Birmingham, UK
+[20:04:56.473] [INFO ]     │ Timezone:    N/A
+[20:04:56.473] [INFO ]     │ Locale:      en-GB
+[20:04:56.473] [INFO ]     │ Geo:         0, 0
+[20:04:56.473] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[20:04:56.473] [INFO ]     │ Proxy:       Direct (no proxy)
+[20:04:56.473] [INFO ]     │ Referrer:    None
+[20:04:56.473] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:04:56.473] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:04:56.473] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[20:04:56.473] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:04:56.473] [INFO ] 
+[20:04:56.473] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[20:04:56.473] [INFO ]     ├─ Canvas fingerprint noise
+[20:04:56.473] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:04:56.473] [INFO ]     ├─ Hardware concurrency randomization
+[20:04:56.473] [INFO ]     ├─ Device memory randomization
+[20:04:56.473] [INFO ]     ├─ Plugin masking
+[20:04:56.473] [INFO ]     ├─ WebRTC IP leak protection
+[20:04:56.473] [INFO ]     ├─ Network connection spoof
+[20:04:56.473] [INFO ]     └─ Battery API spoof
+[20:04:56.513] [INFO ] 
+[20:04:56.513] [INFO ]     🥷 STEALTH MODE APPLIED
+[20:04:56.513] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[20:04:56.513] [INFO ]     ├─ Chrome runtime patches
+[20:04:56.513] [INFO ]     ├─ Console patches
+[20:04:56.514] [INFO ]     └─ Permission patches
+[20:04:56.514] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[20:04:56.514] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:04:56.514] [INFO ] 
+[20:04:56.514] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[20:04:56.514] [INFO ]     ├─ Canvas fingerprint noise
+[20:04:56.514] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:04:56.514] [INFO ]     ├─ Hardware concurrency randomization
+[20:04:56.514] [INFO ]     ├─ Device memory randomization
+[20:04:56.514] [INFO ]     ├─ Plugin masking
+[20:04:56.514] [INFO ]     ├─ WebRTC IP leak protection
+[20:04:56.514] [INFO ]     ├─ Network connection spoof
+[20:04:56.514] [INFO ]     └─ Battery API spoof
+[20:04:56.514] [DEBUG] Enabled resource blocking (images, media, fonts)
+[20:04:56.514] [INFO ] 
+[20:04:56.514] [INFO ]     🔗 NAVIGATING TO URL
+[20:04:56.514] [INFO ]     ├─ Strategy:   domcontentloaded
+[20:04:56.514] [INFO ]     ├─ Timeout:    15.0s
+[20:04:56.514] [INFO ]     └─ Sleep:      1s after load
+[20:04:58.954] [INFO ] 
+[20:04:58.954] [INFO ]     ✅ PAGE LOADED
+[20:04:58.954] [INFO ]     ├─ Final URL:  https://trainingcred.com/eg/training-course/isoiec-27005-foundation
+[20:04:58.954] [INFO ]     ├─ Title:      ISO/IEC 27005 Foundation Certification | Egypt
+[20:04:58.954] [INFO ]     └─ Load Time:  2.44s
+[20:05:01.889] [INFO ] 🧑 Human behavior simulation...
+[20:05:06.091] [INFO ] 🖱️ Mouse: 3 moves in 1366x768
+[20:05:06.091] [INFO ] 🖱️ Mouse completed: 3 moves
+[20:05:06.091] [INFO ] 📜 Scroll: page height, viewport=768px
+[20:05:06.091] [INFO ] 📜 Scroll completed: 1 scrolls
+[20:05:06.091] [INFO ] 🧑 Human behavior completed in 4.2s ✓
+[20:05:06.091] [INFO ] 
+[20:05:06.091] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[20:05:06.091] [INFO ]     ├─ Mouse Movements: 3
+[20:05:06.091] [INFO ]     ├─ Scroll Actions:  1
+[20:05:06.091] [INFO ]     └─ Time Spent:      4.20s
+[20:05:06.611] [INFO ] 
+[20:05:06.611] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:05:06.611] [INFO ]     │ Title:            ISO/IEC 27005 Foundation Certification | Egypt
+[20:05:06.611] [INFO ]     │ Final URL:        https://trainingcred.com/eg/training-course/isoiec-27005-foundation
+[20:05:06.611] [INFO ]     │ HTML Size:        827,266 bytes
+[20:05:06.611] [INFO ]     │ Text Size:        5,752 chars
+[20:05:06.611] [INFO ]     │ Word Count:       ~898 words
+[20:05:06.611] [INFO ]     │ Extraction:       trafilatura
+[20:05:06.611] [INFO ]     │ Has Article:      ✅ Yes
+[20:05:06.611] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:05:06.653] [INFO ] 
+[20:05:06.653] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:05:06.653] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_200456_E423
+[20:05:06.653] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:05:06.653] [INFO ] 
+[20:05:06.653] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[20:05:06.653] [INFO ]     │ Browser Launch:      0.06s
+[20:05:06.653] [INFO ]     │ Page Load:           2.44s
+[20:05:06.653] [INFO ]     │ Cloudflare Wait:     0.00s
+[20:05:06.653] [INFO ]     │ Human Simulation:    4.20s
+[20:05:06.653] [INFO ]     │
+[20:05:06.653] [INFO ]     │ Content Extraction:  0.29s
+[20:05:06.653] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[20:05:06.653] [INFO ]     │ TOTAL TIME:          6.99s
+[20:05:06.653] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:05:06.653] [INFO ] 
+[20:05:06.653] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:05:06.653] [INFO ]     │ Title:            ISO/IEC 27005 Foundation Certification | Egypt
+[20:05:06.653] [INFO ]     │ Final URL:        https://trainingcred.com/eg/training-course/isoiec-27005-foundation
+[20:05:06.653] [INFO ]     │ HTML Size:        827,266 bytes
+[20:05:06.653] [INFO ]     │ Text Size:        5,752 chars
+[20:05:06.653] [INFO ]     │ Word Count:       ~898 words
+[20:05:06.653] [INFO ]     │ Extraction:       trafilatura
+[20:05:06.653] [INFO ]     │ Has Article:      ✅ Yes
+[20:05:06.653] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:05:06.653] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:05:06.653] [INFO ] ║  📊 SESSION STATS
+[20:05:06.653] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[20:05:06.653] [INFO ] ║  ├─ Popups Dismissed:   0
+[20:05:06.653] [INFO ] ║  ├─ Cloudflare:         Not detected
+[20:05:06.653] [INFO ] ║  └─ Proxy Used:         Direct
+[20:05:06.653] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:05:06.653] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.54s
+ENDED: 2026-01-29T20:05:06.653904+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

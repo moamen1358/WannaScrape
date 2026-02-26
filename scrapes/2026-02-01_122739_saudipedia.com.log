@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://saudipedia.com/en/saudi-central-bank-sama
+Started: 2026-02-01 12:27:39
+Session ID: SCRAPE_20260201_122739_117C
+================================================================================
+[12:27:39.247] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-02-01_122739_saudipedia.com.log
+[12:27:39.247] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:27:39.589] [INFO ] 
+[12:27:39.589] [INFO ]     🚀 BROWSER LAUNCHED
+[12:27:39.589] [INFO ]     ├─ Mode:       Headless
+[12:27:39.589] [INFO ]     ├─ Slow Mo:    43ms
+[12:27:39.590] [INFO ]     ├─ Launch Time: 0.06s
+[12:27:39.590] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:27:39.608] [DEBUG] Browser profile: viewport={'width': 1728, 'height': 1117}, locale=en-US, tz=UTC
+[12:27:39.608] [INFO ] 
+[12:27:39.608] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:27:39.608] [INFO ] ║  📋 SESSION: SCRAPE_20260201_122739_117C
+[12:27:39.608] [INFO ] ║  🌐 URL: https://saudipedia.com/en/saudi-central-bank-sama
+[12:27:39.608] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:27:39.608] [INFO ] ║  ⏰ STARTED: 2026-02-01T12:27:39.608064+02:00 (Egypt Time)
+[12:27:39.608] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:27:39.608] [INFO ] 
+[12:27:39.608] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:27:39.608] [INFO ]     │ Browser:     OPERA v106
+[12:27:39.608] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[12:27:39.608] [INFO ]     │ Viewport:    1728x1117
+[12:27:39.608] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:27:39.608] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:27:39.608] [INFO ]     │ Location:    Denver, USA
+[12:27:39.608] [INFO ]     │ Timezone:    N/A
+[12:27:39.608] [INFO ]     │ Locale:      en-US
+[12:27:39.608] [INFO ]     │ Geo:         0, 0
+[12:27:39.608] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:27:39.608] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:27:39.608] [INFO ]     │ Referrer:    None
+[12:27:39.608] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:27:39.608] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:27:39.608] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:27:39.608] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:27:39.608] [INFO ] 
+[12:27:39.608] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:27:39.608] [INFO ]     ├─ Canvas fingerprint noise
+[12:27:39.608] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:27:39.608] [INFO ]     ├─ Hardware concurrency randomization
+[12:27:39.608] [INFO ]     ├─ Device memory randomization
+[12:27:39.608] [INFO ]     ├─ Plugin masking
+[12:27:39.608] [INFO ]     ├─ WebRTC IP leak protection
+[12:27:39.608] [INFO ]     ├─ Network connection spoof
+[12:27:39.608] [INFO ]     └─ Battery API spoof
+[12:27:39.649] [INFO ] 
+[12:27:39.649] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:27:39.649] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:27:39.649] [INFO ]     ├─ Chrome runtime patches
+[12:27:39.649] [INFO ]     ├─ Console patches
+[12:27:39.649] [INFO ]     └─ Permission patches
+[12:27:39.649] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:27:39.649] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:27:39.649] [INFO ] 
+[12:27:39.649] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:27:39.649] [INFO ]     ├─ Canvas fingerprint noise
+[12:27:39.649] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:27:39.649] [INFO ]     ├─ Hardware concurrency randomization
+[12:27:39.649] [INFO ]     ├─ Device memory randomization
+[12:27:39.649] [INFO ]     ├─ Plugin masking
+[12:27:39.649] [INFO ]     ├─ WebRTC IP leak protection
+[12:27:39.649] [INFO ]     ├─ Network connection spoof
+[12:27:39.649] [INFO ]     └─ Battery API spoof
+[12:27:39.649] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:27:39.649] [INFO ] 
+[12:27:39.649] [INFO ]     🔗 NAVIGATING TO URL
+[12:27:39.649] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:27:39.649] [INFO ]     ├─ Timeout:    15.0s
+[12:27:39.649] [INFO ]     └─ Sleep:      1s after load
+[12:27:41.805] [INFO ] 
+[12:27:41.805] [INFO ]     ✅ PAGE LOADED
+[12:27:41.805] [INFO ]     ├─ Final URL:  https://saudipedia.com/en/saudi-central-bank-sama
+[12:27:41.805] [INFO ]     ├─ Title:      Saudi Central Bank (SAMA) - Saudipedia
+[12:27:41.805] [INFO ]     └─ Load Time:  2.16s
+[12:27:43.608] [INFO ] 🧑 Human behavior simulation...
+[12:27:47.288] [INFO ] 🖱️ Mouse: 3 moves in 1728x1117
+[12:27:47.288] [INFO ] 🖱️ Mouse completed: 3 moves
+[12:27:47.288] [INFO ] 📜 Scroll: page height, viewport=1117px
+[12:27:47.288] [INFO ] 📜 Scroll completed: 1 scrolls
+[12:27:47.288] [INFO ] 🧑 Human behavior completed in 3.7s ✓
+[12:27:47.288] [INFO ] 
+[12:27:47.288] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:27:47.288] [INFO ]     ├─ Mouse Movements: 3
+[12:27:47.288] [INFO ]     ├─ Scroll Actions:  1
+[12:27:47.288] [INFO ]     └─ Time Spent:      3.68s
+[12:27:47.387] [INFO ] 
+[12:27:47.387] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:27:47.387] [INFO ]     │ Title:            Saudi Central Bank (SAMA)
+[12:27:47.387] [INFO ]     │ Final URL:        https://saudipedia.com/en/saudi-central-bank-sama
+[12:27:47.387] [INFO ]     │ HTML Size:        120,463 bytes
+[12:27:47.387] [INFO ]     │ Text Size:        4,988 chars
+[12:27:47.387] [INFO ]     │ Word Count:       ~777 words
+[12:27:47.387] [INFO ]     │ Extraction:       trafilatura
+[12:27:47.387] [INFO ]     │ Has Article:      ✅ Yes
+[12:27:47.387] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:27:47.412] [INFO ] 
+[12:27:47.412] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:27:47.412] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260201_122739_117C
+[12:27:47.412] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:27:47.412] [INFO ] 
+[12:27:47.412] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:27:47.412] [INFO ]     │ Browser Launch:      0.06s
+[12:27:47.412] [INFO ]     │ Page Load:           2.16s
+[12:27:47.412] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:27:47.412] [INFO ]     │ Human Simulation:    3.68s
+[12:27:47.412] [INFO ]     │
+[12:27:47.412] [INFO ]     │ Content Extraction:  0.07s
+[12:27:47.412] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:27:47.412] [INFO ]     │ TOTAL TIME:          5.96s
+[12:27:47.412] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:27:47.412] [INFO ] 
+[12:27:47.412] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:27:47.412] [INFO ]     │ Title:            Saudi Central Bank (SAMA)
+[12:27:47.412] [INFO ]     │ Final URL:        https://saudipedia.com/en/saudi-central-bank-sama
+[12:27:47.412] [INFO ]     │ HTML Size:        120,463 bytes
+[12:27:47.412] [INFO ]     │ Text Size:        4,988 chars
+[12:27:47.412] [INFO ]     │ Word Count:       ~777 words
+[12:27:47.412] [INFO ]     │ Extraction:       trafilatura
+[12:27:47.412] [INFO ]     │ Has Article:      ✅ Yes
+[12:27:47.412] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:27:47.412] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:27:47.412] [INFO ] ║  📊 SESSION STATS
+[12:27:47.412] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:27:47.412] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:27:47.412] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:27:47.412] [INFO ] ║  └─ Proxy Used:         Direct
+[12:27:47.412] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:27:47.412] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.17s
+ENDED: 2026-02-01T12:27:47.412875+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

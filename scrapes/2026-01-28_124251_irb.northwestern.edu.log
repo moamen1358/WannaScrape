@@ -1,0 +1,207 @@
+================================================================================
+SCRAPE LOG: https://irb.northwestern.edu/resources-guidance/policies-guidance/docs/guidance-for-general-data-protection-regulations-gdpr-compliance---general---19171.pdf
+Started: 2026-01-28 12:42:51
+Session ID: SCRAPE_20260128_124251_F7A3
+================================================================================
+[12:42:51.968] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-28_124251_irb.northwestern.edu.log
+[12:42:51.968] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:42:52.308] [INFO ] 
+[12:42:52.308] [INFO ]     🚀 BROWSER LAUNCHED
+[12:42:52.308] [INFO ]     ├─ Mode:       Headless
+[12:42:52.308] [INFO ]     ├─ Slow Mo:    56ms
+[12:42:52.308] [INFO ]     ├─ Launch Time: 0.06s
+[12:42:52.308] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:42:52.325] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-GB, tz=UTC
+[12:42:52.326] [INFO ] 
+[12:42:52.326] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:42:52.326] [INFO ] ║  📋 SESSION: SCRAPE_20260128_124251_F7A3
+[12:42:52.326] [INFO ] ║  🌐 URL: https://irb.northwestern.edu/resources-guidance/policies-guidance/docs/guidance-for-general-data-protection-regulations-gdpr-compliance---general---19171.pdf
+[12:42:52.326] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:42:52.326] [INFO ] ║  ⏰ STARTED: 2026-01-28T12:42:52.326046+02:00 (Egypt Time)
+[12:42:52.326] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:42:52.326] [INFO ] 
+[12:42:52.326] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:42:52.326] [INFO ]     │ Browser:     CHROME v126
+[12:42:52.326] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[12:42:52.326] [INFO ]     │ Viewport:    1366x768
+[12:42:52.326] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:42:52.326] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:42:52.326] [INFO ]     │ Location:    London, UK
+[12:42:52.326] [INFO ]     │ Timezone:    N/A
+[12:42:52.326] [INFO ]     │ Locale:      en-GB
+[12:42:52.326] [INFO ]     │ Geo:         0, 0
+[12:42:52.326] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:42:52.326] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:42:52.326] [INFO ]     │ Referrer:    None
+[12:42:52.326] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:42:52.326] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:42:52.326] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:42:52.326] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:42:52.326] [INFO ] 
+[12:42:52.326] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:42:52.326] [INFO ]     ├─ Canvas fingerprint noise
+[12:42:52.326] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:42:52.326] [INFO ]     ├─ Hardware concurrency randomization
+[12:42:52.326] [INFO ]     ├─ Device memory randomization
+[12:42:52.326] [INFO ]     ├─ Plugin masking
+[12:42:52.326] [INFO ]     ├─ WebRTC IP leak protection
+[12:42:52.326] [INFO ]     ├─ Network connection spoof
+[12:42:52.326] [INFO ]     └─ Battery API spoof
+[12:42:52.368] [INFO ] 
+[12:42:52.368] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:42:52.368] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:42:52.368] [INFO ]     ├─ Chrome runtime patches
+[12:42:52.368] [INFO ]     ├─ Console patches
+[12:42:52.368] [INFO ]     └─ Permission patches
+[12:42:52.368] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:42:52.368] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:42:52.368] [INFO ] 
+[12:42:52.368] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:42:52.368] [INFO ]     ├─ Canvas fingerprint noise
+[12:42:52.368] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:42:52.368] [INFO ]     ├─ Hardware concurrency randomization
+[12:42:52.368] [INFO ]     ├─ Device memory randomization
+[12:42:52.368] [INFO ]     ├─ Plugin masking
+[12:42:52.368] [INFO ]     ├─ WebRTC IP leak protection
+[12:42:52.368] [INFO ]     ├─ Network connection spoof
+[12:42:52.368] [INFO ]     └─ Battery API spoof
+[12:42:52.368] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:42:52.368] [INFO ] 
+[12:42:52.368] [INFO ]     🔗 NAVIGATING TO URL
+[12:42:52.368] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:42:52.368] [INFO ]     ├─ Timeout:    15.0s
+[12:42:52.368] [INFO ]     └─ Sleep:      1s after load
+[12:42:54.140] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:42:54.140] [INFO ] 
+[12:42:54.140] [INFO ]     🔗 NAVIGATING TO URL
+[12:42:54.140] [INFO ]     ├─ Strategy:   load
+[12:42:54.140] [INFO ]     ├─ Timeout:    20.0s
+[12:42:54.140] [INFO ]     └─ Sleep:      1s after load
+[12:42:54.741] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:42:54.741] [INFO ] 
+[12:42:54.741] [INFO ]     🔗 NAVIGATING TO URL
+[12:42:54.741] [INFO ]     ├─ Strategy:   networkidle
+[12:42:54.741] [INFO ]     ├─ Timeout:    25.0s
+[12:42:54.741] [INFO ]     └─ Sleep:      1s after load
+[12:43:00.467] [INFO ] 
+[12:43:00.467] [INFO ]     🚀 BROWSER LAUNCHED
+[12:43:00.467] [INFO ]     ├─ Mode:       Headless
+[12:43:00.467] [INFO ]     ├─ Slow Mo:    58ms
+[12:43:00.467] [INFO ]     ├─ Launch Time: 0.06s
+[12:43:00.468] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:43:00.487] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-CA, tz=UTC
+[12:43:00.487] [INFO ] 
+[12:43:00.487] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:43:00.487] [INFO ] ║  📋 SESSION: SCRAPE_20260128_124251_F7A3
+[12:43:00.487] [INFO ] ║  🌐 URL: https://irb.northwestern.edu/resources-guidance/policies-guidance/docs/guidance-for-general-data-protection-regulations-gdpr-compliance---general---19171.pdf
+[12:43:00.487] [INFO ] ║  🔄 ATTEMPT: 2/2
+[12:43:00.487] [INFO ] ║  ⏰ STARTED: 2026-01-28T12:43:00.487113+02:00 (Egypt Time)
+[12:43:00.487] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:43:00.487] [INFO ] 
+[12:43:00.487] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:43:00.487] [INFO ]     │ Browser:     FIREFOX v120
+[12:43:00.487] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Fir...
+[12:43:00.487] [INFO ]     │ Viewport:    1366x768
+[12:43:00.487] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:43:00.487] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:43:00.487] [INFO ]     │ Location:    Vancouver, Canada
+[12:43:00.487] [INFO ]     │ Timezone:    N/A
+[12:43:00.487] [INFO ]     │ Locale:      en-CA
+[12:43:00.487] [INFO ]     │ Geo:         0, 0
+[12:43:00.487] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:43:00.487] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:43:00.487] [INFO ]     │ Referrer:    https://www.google.com/search?q=irb+northwestern+edu
+[12:43:00.487] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:43:00.487] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:43:00.487] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:43:00.487] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:43:00.487] [INFO ] 
+[12:43:00.487] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:43:00.487] [INFO ]     ├─ Canvas fingerprint noise
+[12:43:00.487] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:43:00.487] [INFO ]     ├─ Hardware concurrency randomization
+[12:43:00.487] [INFO ]     ├─ Device memory randomization
+[12:43:00.487] [INFO ]     ├─ Plugin masking
+[12:43:00.487] [INFO ]     ├─ WebRTC IP leak protection
+[12:43:00.487] [INFO ]     ├─ Network connection spoof
+[12:43:00.487] [INFO ]     └─ Battery API spoof
+[12:43:00.528] [INFO ] 
+[12:43:00.528] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:43:00.528] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:43:00.528] [INFO ]     ├─ Chrome runtime patches
+[12:43:00.528] [INFO ]     ├─ Console patches
+[12:43:00.528] [INFO ]     └─ Permission patches
+[12:43:00.528] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:43:00.528] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:43:00.528] [INFO ] 
+[12:43:00.528] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:43:00.528] [INFO ]     ├─ Canvas fingerprint noise
+[12:43:00.528] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:43:00.528] [INFO ]     ├─ Hardware concurrency randomization
+[12:43:00.528] [INFO ]     ├─ Device memory randomization
+[12:43:00.528] [INFO ]     ├─ Plugin masking
+[12:43:00.528] [INFO ]     ├─ WebRTC IP leak protection
+[12:43:00.528] [INFO ]     ├─ Network connection spoof
+[12:43:00.528] [INFO ]     └─ Battery API spoof
+[12:43:00.528] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:43:00.528] [INFO ] 
+[12:43:00.528] [INFO ]     🔗 NAVIGATING TO URL
+[12:43:00.528] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:43:00.528] [INFO ]     ├─ Timeout:    15.0s
+[12:43:00.528] [INFO ]     └─ Sleep:      1s after load
+[12:43:01.318] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:43:01.318] [INFO ] 
+[12:43:01.318] [INFO ]     🔗 NAVIGATING TO URL
+[12:43:01.318] [INFO ]     ├─ Strategy:   load
+[12:43:01.318] [INFO ]     ├─ Timeout:    20.0s
+[12:43:01.318] [INFO ]     └─ Sleep:      1s after load
+[12:43:01.895] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:43:01.895] [INFO ] 
+[12:43:01.895] [INFO ]     🔗 NAVIGATING TO URL
+[12:43:01.895] [INFO ]     ├─ Strategy:   networkidle
+[12:43:01.895] [INFO ]     ├─ Timeout:    25.0s
+[12:43:01.895] [INFO ]     └─ Sleep:      1s after load
+[12:43:02.526] [INFO ] 
+[12:43:02.526] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:43:02.526] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260128_124251_F7A3
+[12:43:02.526] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:43:02.526] [INFO ] 
+[12:43:02.526] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[12:43:02.526] [INFO ]     │ URL:              https://irb.northwestern.edu/resources-guidance/policie
+[12:43:02.526] [INFO ]     │ Error Type:       network
+[12:43:02.526] [INFO ]     │ Likely Ban:       ❌ No
+[12:43:02.526] [INFO ]     │ Retries Used:     2
+[12:43:02.526] [INFO ]     │
+[12:43:02.526] [INFO ]     │ Error Message:
+[12:43:02.526] [INFO ]     │   Failed after 2 attempts. Last error: Page.goto: Download
+[12:43:02.526] [INFO ]     │    is starting
+Call log:
+  - navigating to "https://irb.no
+[12:43:02.526] [INFO ]     │   rthwestern.edu/resources-guidance/policies-guidance/docs
+[12:43:02.526] [INFO ]     │   /guidance-for-general-data-protection-regulations-gdpr-c
+[12:43:02.526] [INFO ]     │   ompliance---general---19171.pdf", waiting until "network
+[12:43:02.526] [INFO ]     │   ... (truncated)
+[12:43:02.526] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:43:02.526] [INFO ] 
+[12:43:02.526] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[12:43:02.526] [INFO ]     │ Browser Launch:     0.06s
+[12:43:02.526] [INFO ]     │ Page Load:          0.00s
+[12:43:02.526] [INFO ]     │ Cloudflare Wait:    0.00s
+[12:43:02.526] [INFO ]     │ Human Simulation:   0.00s
+[12:43:02.526] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:43:02.526] [INFO ]     │ FAILED AT:          0.06s
+[12:43:02.526] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:43:02.526] [INFO ] 
+[12:43:02.526] [INFO ]     ┌─ RECOMMENDATION ─────────────────────────────────────────────┐
+[12:43:02.526] [INFO ]     │ 💡 Network connection issue
+[12:43:02.526] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:43:02.526] [INFO ] 
+[12:43:02.526] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:43:02.526] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 10.56s
+ENDED: 2026-01-28T12:43:02.526373+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

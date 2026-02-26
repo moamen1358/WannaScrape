@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://news.google.com/rss/articles/CBMirwFBVV95cUxOQjlaVXpkNmR1bWRtbzJkODZCbERVNWYtWXlGUnl6ejZYU0x4QUpUYkdaQU9uM180ODdlX1FNdDZEcmVISTRlR3dlQjF2ZFhvd0FWS0N0bXQ4T0pVaVFZSmJvUWYzaDhGZDRkX0t4Z3ZsblFraldDSWVXN1c5NkI3ZzR5eU9EWV9UX0tLY1dzY3FGT2VLak53VmxRUmxBa0tHQzF4VDlzYjJnMzViSW40?oc=5
+Started: 2026-02-24 14:35:04
+Session ID: SCRAPE_20260224_143504_3B89
+================================================================================
+[14:35:04.767] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-02-24_143504_news.google.com.log
+[14:35:04.767] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[14:35:05.107] [INFO ] 
+[14:35:05.107] [INFO ]     🚀 BROWSER LAUNCHED
+[14:35:05.107] [INFO ]     ├─ Mode:       Headless
+[14:35:05.107] [INFO ]     ├─ Slow Mo:    60ms
+[14:35:05.107] [INFO ]     ├─ Launch Time: 0.06s
+[14:35:05.107] [INFO ]     └─ Args:       Anti-automation flags enabled
+[14:35:05.125] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-US, tz=UTC
+[14:35:05.125] [INFO ] 
+[14:35:05.125] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[14:35:05.125] [INFO ] ║  📋 SESSION: SCRAPE_20260224_143504_3B89
+[14:35:05.125] [INFO ] ║  🌐 URL: https://news.google.com/rss/articles/CBMirwFBVV95cUxOQjlaVXpkNmR1bWRtbzJkODZCbERVNWYtWXlGUnl6ejZYU0x4QUpUYkdaQU9uM180ODdlX1FNdDZEcmVISTRlR3dlQjF2ZFhvd0FWS0N0bXQ4T0pVaVFZSmJvUWYzaDhGZDRkX0t4Z3ZsblFraldDSWVXN1c5NkI3ZzR5eU9EWV9UX0tLY1dzY3FGT2VLak53VmxRUmxBa0tHQzF4VDlzYjJnMzViSW40?oc=5
+[14:35:05.125] [INFO ] ║  🔄 ATTEMPT: 1/2
+[14:35:05.125] [INFO ] ║  ⏰ STARTED: 2026-02-24T14:35:05.125726+02:00 (Egypt Time)
+[14:35:05.125] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:35:05.125] [INFO ] 
+[14:35:05.125] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[14:35:05.125] [INFO ]     │ Browser:     CHROME v126
+[14:35:05.125] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[14:35:05.125] [INFO ]     │ Viewport:    1366x768
+[14:35:05.125] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[14:35:05.125] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[14:35:05.125] [INFO ]     │ Location:    Seattle, USA
+[14:35:05.125] [INFO ]     │ Timezone:    N/A
+[14:35:05.125] [INFO ]     │ Locale:      en-US
+[14:35:05.125] [INFO ]     │ Geo:         0, 0
+[14:35:05.125] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[14:35:05.125] [INFO ]     │ Proxy:       Direct (no proxy)
+[14:35:05.125] [INFO ]     │ Referrer:    https://www.google.com/
+[14:35:05.125] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:35:05.125] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[14:35:05.125] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[14:35:05.125] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[14:35:05.125] [INFO ] 
+[14:35:05.125] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[14:35:05.125] [INFO ]     ├─ Canvas fingerprint noise
+[14:35:05.125] [INFO ]     ├─ WebGL renderer/vendor spoof
+[14:35:05.125] [INFO ]     ├─ Hardware concurrency randomization
+[14:35:05.125] [INFO ]     ├─ Device memory randomization
+[14:35:05.125] [INFO ]     ├─ Plugin masking
+[14:35:05.125] [INFO ]     ├─ WebRTC IP leak protection
+[14:35:05.125] [INFO ]     ├─ Network connection spoof
+[14:35:05.125] [INFO ]     └─ Battery API spoof
+[14:35:05.169] [INFO ] 
+[14:35:05.169] [INFO ]     🥷 STEALTH MODE APPLIED
+[14:35:05.169] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[14:35:05.169] [INFO ]     ├─ Chrome runtime patches
+[14:35:05.169] [INFO ]     ├─ Console patches
+[14:35:05.169] [INFO ]     └─ Permission patches
+[14:35:05.169] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[14:35:05.169] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[14:35:05.169] [INFO ] 
+[14:35:05.169] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[14:35:05.169] [INFO ]     ├─ Canvas fingerprint noise
+[14:35:05.169] [INFO ]     ├─ WebGL renderer/vendor spoof
+[14:35:05.169] [INFO ]     ├─ Hardware concurrency randomization
+[14:35:05.169] [INFO ]     ├─ Device memory randomization
+[14:35:05.169] [INFO ]     ├─ Plugin masking
+[14:35:05.169] [INFO ]     ├─ WebRTC IP leak protection
+[14:35:05.169] [INFO ]     ├─ Network connection spoof
+[14:35:05.169] [INFO ]     └─ Battery API spoof
+[14:35:05.169] [DEBUG] Enabled resource blocking (images, media, fonts)
+[14:35:05.169] [INFO ] 
+[14:35:05.169] [INFO ]     🔗 NAVIGATING TO URL
+[14:35:05.169] [INFO ]     ├─ Strategy:   domcontentloaded
+[14:35:05.169] [INFO ]     ├─ Timeout:    15.0s
+[14:35:05.169] [INFO ]     └─ Sleep:      1s after load
+[14:35:06.699] [INFO ] 
+[14:35:06.699] [INFO ]     ✅ PAGE LOADED
+[14:35:06.699] [INFO ]     ├─ Final URL:  https://news.google.com/rss/articles/CBMirwFBVV95cUxOQjlaVXpkNmR1bWRtbzJkODZCbERVNWYtWXlGUnl6ejZYU0x4QUpUYkdaQU9uM180ODdlX1FNdDZEcmVISTRlR3dlQjF2ZFhvd0FWS0N0bXQ4T0pVaVFZSmJvUWYzaDhGZDRkX0t4Z3ZsblFraldDSWVXN1c5NkI3ZzR5eU9EWV9UX0tLY1dzY3FGT2VLak53VmxRUmxBa0tHQzF4VDlzYjJnMzViSW40?oc=5&hl=en-US&gl=US&ceid=US:en
+[14:35:06.699] [INFO ]     ├─ Title:      Google News
+[14:35:06.699] [INFO ]     └─ Load Time:  1.53s
+[14:35:09.707] [INFO ] 🧑 Human behavior simulation...
+[14:35:11.150] [INFO ] 🖱️ Mouse: 1 moves in 1366x768
+[14:35:11.150] [INFO ] 🖱️ Mouse completed: 1 moves
+[14:35:11.150] [INFO ] 📜 Scroll: page height, viewport=768px
+[14:35:11.150] [INFO ] 📜 Scroll completed: 1 scrolls
+[14:35:11.150] [INFO ] 🧑 Human behavior completed in 1.4s ✓
+[14:35:11.150] [INFO ] 
+[14:35:11.150] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[14:35:11.150] [INFO ]     ├─ Mouse Movements: 1
+[14:35:11.150] [INFO ]     ├─ Scroll Actions:  1
+[14:35:11.150] [INFO ]     └─ Time Spent:      1.44s
+[14:35:11.260] [INFO ] 
+[14:35:11.260] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[14:35:11.260] [INFO ]     │ Title:            CIB Finance portfolio exceeds EGP 4.1bn in first y
+[14:35:11.260] [INFO ]     │ Final URL:        https://news.google.com/rss/articles/CBMirwFBVV95cUxOQjlaVXpkNmR1bWRtbzJkODZCbERVNWYtWXlGUnl6ejZYU0x4QUpUYkdaQU9uM180ODdlX1FNdDZEcmVISTRlR3dlQjF2ZFhvd0FWS0N0bXQ4T0pVaVFZSmJvUWYzaDhGZDRkX0t4Z3ZsblFraldDSWVXN1c5NkI3ZzR5eU9EWV9UX0tLY1dzY3FGT2VLak53VmxRUmxBa0tHQzF4VDlzYjJnMzViSW40?oc=5&hl=en-US&gl=US&ceid=US:en
+[14:35:11.260] [INFO ]     │ HTML Size:        119,812 bytes
+[14:35:11.260] [INFO ]     │ Text Size:        3,340 chars
+[14:35:11.260] [INFO ]     │ Word Count:       ~473 words
+[14:35:11.260] [INFO ]     │ Extraction:       trafilatura
+[14:35:11.260] [INFO ]     │ Has Article:      ✅ Yes
+[14:35:11.260] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:35:11.286] [INFO ] 
+[14:35:11.286] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[14:35:11.286] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260224_143504_3B89
+[14:35:11.286] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:35:11.286] [INFO ] 
+[14:35:11.286] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[14:35:11.286] [INFO ]     │ Browser Launch:      0.06s
+[14:35:11.286] [INFO ]     │ Page Load:           1.53s
+[14:35:11.286] [INFO ]     │ Cloudflare Wait:     0.00s
+[14:35:11.286] [INFO ]     │ Human Simulation:    1.44s
+[14:35:11.286] [INFO ]     │
+[14:35:11.286] [INFO ]     │ Content Extraction:  0.04s
+[14:35:11.286] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[14:35:11.286] [INFO ]     │ TOTAL TIME:          3.07s
+[14:35:11.286] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:35:11.286] [INFO ] 
+[14:35:11.286] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[14:35:11.286] [INFO ]     │ Title:            CIB Finance portfolio exceeds EGP 4.1bn in first y
+[14:35:11.286] [INFO ]     │ Final URL:        https://news.google.com/rss/articles/CBMirwFBVV95cUxOQjlaVXpkNmR1bWRtbzJkODZCbERVNWYtWXlGUnl6ejZYU0x4QUpUYkdaQU9uM180ODdlX1FNdDZEcmVISTRlR3dlQjF2ZFhvd0FWS0N0bXQ4T0pVaVFZSmJvUWYzaDhGZDRkX0t4Z3ZsblFraldDSWVXN1c5NkI3ZzR5eU9EWV9UX0tLY1dzY3FGT2VLak53VmxRUmxBa0tHQzF4VDlzYjJnMzViSW40?oc=5&hl=en-US&gl=US&ceid=US:en
+[14:35:11.286] [INFO ]     │ HTML Size:        119,812 bytes
+[14:35:11.286] [INFO ]     │ Text Size:        3,340 chars
+[14:35:11.286] [INFO ]     │ Word Count:       ~473 words
+[14:35:11.286] [INFO ]     │ Extraction:       trafilatura
+[14:35:11.286] [INFO ]     │ Has Article:      ✅ Yes
+[14:35:11.286] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:35:11.286] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:35:11.286] [INFO ] ║  📊 SESSION STATS
+[14:35:11.286] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[14:35:11.286] [INFO ] ║  ├─ Popups Dismissed:   0
+[14:35:11.286] [INFO ] ║  ├─ Cloudflare:         Not detected
+[14:35:11.286] [INFO ] ║  └─ Proxy Used:         Direct
+[14:35:11.286] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[14:35:11.286] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 6.52s
+ENDED: 2026-02-24T14:35:11.286870+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

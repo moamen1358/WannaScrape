@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.topcertifier.com/pci-dss-certification-in-egypt
+Started: 2026-01-29 18:32:23
+Session ID: SCRAPE_20260129_183223_92DA
+================================================================================
+[18:32:23.103] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_183223_topcertifier.com.log
+[18:32:23.103] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[18:32:23.442] [INFO ] 
+[18:32:23.442] [INFO ]     🚀 BROWSER LAUNCHED
+[18:32:23.442] [INFO ]     ├─ Mode:       Headless
+[18:32:23.442] [INFO ]     ├─ Slow Mo:    41ms
+[18:32:23.442] [INFO ]     ├─ Launch Time: 0.06s
+[18:32:23.442] [INFO ]     └─ Args:       Anti-automation flags enabled
+[18:32:23.461] [DEBUG] Browser profile: viewport={'width': 1280, 'height': 720}, locale=en-US, tz=UTC
+[18:32:23.461] [INFO ] 
+[18:32:23.461] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:32:23.461] [INFO ] ║  📋 SESSION: SCRAPE_20260129_183223_92DA
+[18:32:23.461] [INFO ] ║  🌐 URL: https://www.topcertifier.com/pci-dss-certification-in-egypt
+[18:32:23.461] [INFO ] ║  🔄 ATTEMPT: 1/2
+[18:32:23.461] [INFO ] ║  ⏰ STARTED: 2026-01-29T18:32:23.461250+02:00 (Egypt Time)
+[18:32:23.461] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:32:23.461] [INFO ] 
+[18:32:23.461] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[18:32:23.461] [INFO ]     │ Browser:     FIREFOX v125
+[18:32:23.461] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Fir...
+[18:32:23.461] [INFO ]     │ Viewport:    1280x720
+[18:32:23.461] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[18:32:23.461] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[18:32:23.461] [INFO ]     │ Location:    Phoenix, USA
+[18:32:23.461] [INFO ]     │ Timezone:    N/A
+[18:32:23.461] [INFO ]     │ Locale:      en-US
+[18:32:23.461] [INFO ]     │ Geo:         0, 0
+[18:32:23.461] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[18:32:23.461] [INFO ]     │ Proxy:       Direct (no proxy)
+[18:32:23.461] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+topcertifier+com
+[18:32:23.461] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:32:23.461] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:32:23.461] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[18:32:23.461] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:32:23.461] [INFO ] 
+[18:32:23.461] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[18:32:23.461] [INFO ]     ├─ Canvas fingerprint noise
+[18:32:23.461] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:32:23.461] [INFO ]     ├─ Hardware concurrency randomization
+[18:32:23.461] [INFO ]     ├─ Device memory randomization
+[18:32:23.461] [INFO ]     ├─ Plugin masking
+[18:32:23.461] [INFO ]     ├─ WebRTC IP leak protection
+[18:32:23.461] [INFO ]     ├─ Network connection spoof
+[18:32:23.461] [INFO ]     └─ Battery API spoof
+[18:32:23.503] [INFO ] 
+[18:32:23.503] [INFO ]     🥷 STEALTH MODE APPLIED
+[18:32:23.503] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[18:32:23.503] [INFO ]     ├─ Chrome runtime patches
+[18:32:23.503] [INFO ]     ├─ Console patches
+[18:32:23.503] [INFO ]     └─ Permission patches
+[18:32:23.503] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[18:32:23.503] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:32:23.503] [INFO ] 
+[18:32:23.503] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[18:32:23.503] [INFO ]     ├─ Canvas fingerprint noise
+[18:32:23.503] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:32:23.503] [INFO ]     ├─ Hardware concurrency randomization
+[18:32:23.503] [INFO ]     ├─ Device memory randomization
+[18:32:23.503] [INFO ]     ├─ Plugin masking
+[18:32:23.503] [INFO ]     ├─ WebRTC IP leak protection
+[18:32:23.503] [INFO ]     ├─ Network connection spoof
+[18:32:23.503] [INFO ]     └─ Battery API spoof
+[18:32:23.503] [DEBUG] Enabled resource blocking (images, media, fonts)
+[18:32:23.503] [INFO ] 
+[18:32:23.503] [INFO ]     🔗 NAVIGATING TO URL
+[18:32:23.503] [INFO ]     ├─ Strategy:   domcontentloaded
+[18:32:23.503] [INFO ]     ├─ Timeout:    15.0s
+[18:32:23.503] [INFO ]     └─ Sleep:      1s after load
+[18:32:25.929] [INFO ] 
+[18:32:25.929] [INFO ]     ✅ PAGE LOADED
+[18:32:25.929] [INFO ]     ├─ Final URL:  https://www.topcertifier.com/pci-dss-certification-in-egypt
+[18:32:25.929] [INFO ]     ├─ Title:      PCI DSS Certification in Egypt | PCI Compliance & Assessment | TopCertifier
+[18:32:25.929] [INFO ]     └─ Load Time:  2.43s
+[18:32:27.170] [INFO ] 🧑 Human behavior simulation...
+[18:32:29.612] [INFO ] 🖱️ Mouse: 3 moves in 1280x720
+[18:32:29.612] [INFO ] 🖱️ Mouse completed: 3 moves
+[18:32:29.612] [INFO ] 📜 Scroll: page height, viewport=720px
+[18:32:29.612] [INFO ] 📜 Scroll completed: 1 scrolls
+[18:32:29.612] [INFO ] 🧑 Human behavior completed in 2.4s ✓
+[18:32:29.612] [INFO ] 
+[18:32:29.612] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[18:32:29.612] [INFO ]     ├─ Mouse Movements: 3
+[18:32:29.612] [INFO ]     ├─ Scroll Actions:  1
+[18:32:29.612] [INFO ]     └─ Time Spent:      2.44s
+[18:32:29.861] [INFO ] 
+[18:32:29.861] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:32:29.861] [INFO ]     │ Title:            PCI DSS Certification in Egypt - Compliance & Asse
+[18:32:29.861] [INFO ]     │ Final URL:        https://www.topcertifier.com/pci-dss-certification-in-egypt
+[18:32:29.861] [INFO ]     │ HTML Size:        110,236 bytes
+[18:32:29.861] [INFO ]     │ Text Size:        8,563 chars
+[18:32:29.861] [INFO ]     │ Word Count:       ~1279 words
+[18:32:29.861] [INFO ]     │ Extraction:       trafilatura
+[18:32:29.861] [INFO ]     │ Has Article:      ✅ Yes
+[18:32:29.861] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:32:29.884] [INFO ] 
+[18:32:29.885] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:32:29.885] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_183223_92DA
+[18:32:29.885] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:32:29.885] [INFO ] 
+[18:32:29.885] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[18:32:29.885] [INFO ]     │ Browser Launch:      0.06s
+[18:32:29.885] [INFO ]     │ Page Load:           2.43s
+[18:32:29.885] [INFO ]     │ Cloudflare Wait:     0.00s
+[18:32:29.885] [INFO ]     │ Human Simulation:    2.44s
+[18:32:29.885] [INFO ]     │
+[18:32:29.885] [INFO ]     │ Content Extraction:  0.22s
+[18:32:29.885] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[18:32:29.885] [INFO ]     │ TOTAL TIME:          5.14s
+[18:32:29.885] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:32:29.885] [INFO ] 
+[18:32:29.885] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:32:29.885] [INFO ]     │ Title:            PCI DSS Certification in Egypt - Compliance & Asse
+[18:32:29.885] [INFO ]     │ Final URL:        https://www.topcertifier.com/pci-dss-certification-in-egypt
+[18:32:29.885] [INFO ]     │ HTML Size:        110,236 bytes
+[18:32:29.885] [INFO ]     │ Text Size:        8,563 chars
+[18:32:29.885] [INFO ]     │ Word Count:       ~1279 words
+[18:32:29.885] [INFO ]     │ Extraction:       trafilatura
+[18:32:29.885] [INFO ]     │ Has Article:      ✅ Yes
+[18:32:29.885] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:32:29.885] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:32:29.885] [INFO ] ║  📊 SESSION STATS
+[18:32:29.885] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[18:32:29.885] [INFO ] ║  ├─ Popups Dismissed:   0
+[18:32:29.885] [INFO ] ║  ├─ Cloudflare:         Not detected
+[18:32:29.885] [INFO ] ║  └─ Proxy Used:         Direct
+[18:32:29.885] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:32:29.885] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 6.78s
+ENDED: 2026-01-29T18:32:29.885369+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

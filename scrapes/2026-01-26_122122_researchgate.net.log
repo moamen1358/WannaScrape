@@ -1,0 +1,132 @@
+================================================================================
+SCRAPE LOG: https://www.researchgate.net/publication/391441824_Financial_Technology_in_Egypt_Principle_Advantages_Challenges_and_Regulatory_Frameworks
+Started: 2026-01-26 12:21:22
+Session ID: SCRAPE_20260126_122122_5D18
+================================================================================
+[12:21:22.293] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_122122_researchgate.net.log
+[12:21:22.293] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:21:22.639] [INFO ] 
+[12:21:22.640] [INFO ]     🚀 BROWSER LAUNCHED
+[12:21:22.640] [INFO ]     ├─ Mode:       Headless
+[12:21:22.640] [INFO ]     ├─ Slow Mo:    47ms
+[12:21:22.640] [INFO ]     ├─ Launch Time: 0.06s
+[12:21:22.640] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:21:22.658] [DEBUG] Browser profile: viewport={'width': 1536, 'height': 864}, locale=en-GB, tz=UTC
+[12:21:22.658] [INFO ] 
+[12:21:22.658] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:21:22.658] [INFO ] ║  📋 SESSION: SCRAPE_20260126_122122_5D18
+[12:21:22.658] [INFO ] ║  🌐 URL: https://www.researchgate.net/publication/391441824_Financial_Technology_in_Egypt_Principle_Advantages_Challenges_and_Regulatory_Frameworks
+[12:21:22.658] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:21:22.658] [INFO ] ║  ⏰ STARTED: 2026-01-26T12:21:22.658589+02:00 (Egypt Time)
+[12:21:22.658] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:21:22.658] [INFO ] 
+[12:21:22.658] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:21:22.658] [INFO ]     │ Browser:     CHROME v123
+[12:21:22.658] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[12:21:22.658] [INFO ]     │ Viewport:    1536x864
+[12:21:22.658] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:21:22.658] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:21:22.658] [INFO ]     │ Location:    Birmingham, UK
+[12:21:22.658] [INFO ]     │ Timezone:    N/A
+[12:21:22.658] [INFO ]     │ Locale:      en-GB
+[12:21:22.658] [INFO ]     │ Geo:         0, 0
+[12:21:22.658] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:21:22.658] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:21:22.658] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+researchgate+net
+[12:21:22.658] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:21:22.658] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:21:22.658] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:21:22.658] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:21:22.658] [INFO ] 
+[12:21:22.658] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:21:22.658] [INFO ]     ├─ Canvas fingerprint noise
+[12:21:22.658] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:21:22.658] [INFO ]     ├─ Hardware concurrency randomization
+[12:21:22.658] [INFO ]     ├─ Device memory randomization
+[12:21:22.658] [INFO ]     ├─ Plugin masking
+[12:21:22.658] [INFO ]     ├─ WebRTC IP leak protection
+[12:21:22.658] [INFO ]     ├─ Network connection spoof
+[12:21:22.658] [INFO ]     └─ Battery API spoof
+[12:21:22.700] [INFO ] 
+[12:21:22.700] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:21:22.700] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:21:22.700] [INFO ]     ├─ Chrome runtime patches
+[12:21:22.700] [INFO ]     ├─ Console patches
+[12:21:22.700] [INFO ]     └─ Permission patches
+[12:21:22.700] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:21:22.700] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:21:22.700] [INFO ] 
+[12:21:22.700] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:21:22.700] [INFO ]     ├─ Canvas fingerprint noise
+[12:21:22.700] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:21:22.700] [INFO ]     ├─ Hardware concurrency randomization
+[12:21:22.700] [INFO ]     ├─ Device memory randomization
+[12:21:22.700] [INFO ]     ├─ Plugin masking
+[12:21:22.700] [INFO ]     ├─ WebRTC IP leak protection
+[12:21:22.700] [INFO ]     ├─ Network connection spoof
+[12:21:22.700] [INFO ]     └─ Battery API spoof
+[12:21:22.700] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:21:22.700] [INFO ] 
+[12:21:22.700] [INFO ]     🔗 NAVIGATING TO URL
+[12:21:22.700] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:21:22.700] [INFO ]     ├─ Timeout:    15.0s
+[12:21:22.700] [INFO ]     └─ Sleep:      1s after load
+[12:21:23.106] [INFO ] 
+[12:21:23.106] [INFO ]     ✅ PAGE LOADED
+[12:21:23.106] [INFO ]     ├─ Final URL:  https://www.researchgate.net/publication/391441824_Financial_Technology_in_Egypt_Principle_Advantages_Challenges_and_Regulatory_Frameworks?__cf_chl_rt_tk=3uFgL1jtIEeMVy5ctwjE78quHhXidIJEhUNfITORbcU-1769422882-1.0.1.1-scgb5_TZ9liM_OHQ9oGEl7FRMQ.bSrluy66fY8iSmwU
+[12:21:23.106] [INFO ]     ├─ Title:      Just a moment...
+[12:21:23.106] [INFO ]     └─ Load Time:  0.41s
+[12:22:12.608] [INFO ] ☁️ Cloudflare detected, waiting 0.0s...
+[12:22:13.095] [INFO ] 
+[12:22:13.095] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:22:13.095] [INFO ] ║  ⚠️  ERROR DETECTED
+[12:22:13.095] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:22:13.095] [INFO ] 
+[12:22:13.095] [INFO ]     ┌─ ERROR DETAILS ───────────────────────────────────────────────┐
+[12:22:13.095] [INFO ]     │ Error Type:       timeout
+[12:22:13.095] [INFO ]     │ Message:          Scrape timed out after 50.8s at stage: detection_handling...
+[12:22:13.095] [INFO ]     │
+[12:22:13.095] [INFO ]     │ Likely Ban:       ✅ No
+[12:22:13.095] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:22:13.095] [INFO ] 
+[12:22:13.095] [INFO ]     ┌─ PAGE STATE AT ERROR ────────────────────────────────────────┐
+[12:22:13.095] [INFO ]     │ Page URL:         https://www.researchgate.net/publication/391441824_Fina
+[12:22:13.095] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:22:13.095] [INFO ] 
+[12:22:13.095] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:22:13.095] [INFO ] 
+[12:22:13.095] [ERROR] ❌ timeout: Scrape timed out after 50.8s at stage: detection_handling
+[12:22:13.095] [INFO ] 
+[12:22:13.095] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:22:13.095] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260126_122122_5D18
+[12:22:13.095] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:22:13.095] [INFO ] 
+[12:22:13.095] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[12:22:13.095] [INFO ]     │ URL:              https://www.researchgate.net/publication/391441824_Fina
+[12:22:13.095] [INFO ]     │ Error Type:       timeout
+[12:22:13.095] [INFO ]     │ Likely Ban:       ❌ No
+[12:22:13.095] [INFO ]     │ Retries Used:     0
+[12:22:13.095] [INFO ]     │
+[12:22:13.095] [INFO ]     │ Error Message:
+[12:22:13.095] [INFO ]     │   Scrape timed out after 50.8s at stage: detection_handlin
+[12:22:13.095] [INFO ]     │   g
+[12:22:13.095] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:22:13.095] [INFO ] 
+[12:22:13.095] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[12:22:13.095] [INFO ]     │ Browser Launch:     0.06s
+[12:22:13.095] [INFO ]     │ Page Load:          0.41s
+[12:22:13.095] [INFO ]     │ Cloudflare Wait:    0.00s
+[12:22:13.095] [INFO ]     │ Human Simulation:   0.00s
+[12:22:13.095] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:22:13.095] [INFO ]     │ FAILED AT:          0.46s
+[12:22:13.095] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:22:13.095] [INFO ] 
+[12:22:13.095] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:22:13.095] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 50.80s
+ENDED: 2026-01-26T12:22:13.095757+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

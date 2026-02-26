@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.lrqa.com/en-us/nist-cyber-security-framework/
+Started: 2026-01-29 17:35:22
+Session ID: SCRAPE_20260129_173522_B4DD
+================================================================================
+[17:35:22.129] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_173522_lrqa.com.log
+[17:35:22.129] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[17:35:22.471] [INFO ] 
+[17:35:22.471] [INFO ]     🚀 BROWSER LAUNCHED
+[17:35:22.471] [INFO ]     ├─ Mode:       Headless
+[17:35:22.471] [INFO ]     ├─ Slow Mo:    46ms
+[17:35:22.471] [INFO ]     ├─ Launch Time: 0.05s
+[17:35:22.471] [INFO ]     └─ Args:       Anti-automation flags enabled
+[17:35:22.493] [DEBUG] Browser profile: viewport={'width': 1440, 'height': 900}, locale=en-US, tz=UTC
+[17:35:22.493] [INFO ] 
+[17:35:22.493] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:35:22.493] [INFO ] ║  📋 SESSION: SCRAPE_20260129_173522_B4DD
+[17:35:22.493] [INFO ] ║  🌐 URL: https://www.lrqa.com/en-us/nist-cyber-security-framework/
+[17:35:22.493] [INFO ] ║  🔄 ATTEMPT: 1/2
+[17:35:22.493] [INFO ] ║  ⏰ STARTED: 2026-01-29T17:35:22.493647+02:00 (Egypt Time)
+[17:35:22.493] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:35:22.493] [INFO ] 
+[17:35:22.493] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[17:35:22.493] [INFO ]     │ Browser:     CHROME v120
+[17:35:22.493] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36 (KHTML...
+[17:35:22.493] [INFO ]     │ Viewport:    1440x900
+[17:35:22.493] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[17:35:22.493] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[17:35:22.493] [INFO ]     │ Location:    Houston, USA
+[17:35:22.493] [INFO ]     │ Timezone:    N/A
+[17:35:22.493] [INFO ]     │ Locale:      en-US
+[17:35:22.493] [INFO ]     │ Geo:         0, 0
+[17:35:22.493] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[17:35:22.493] [INFO ]     │ Proxy:       Direct (no proxy)
+[17:35:22.493] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+lrqa+com
+[17:35:22.493] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:35:22.493] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:35:22.493] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[17:35:22.493] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:35:22.493] [INFO ] 
+[17:35:22.493] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[17:35:22.493] [INFO ]     ├─ Canvas fingerprint noise
+[17:35:22.493] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:35:22.493] [INFO ]     ├─ Hardware concurrency randomization
+[17:35:22.493] [INFO ]     ├─ Device memory randomization
+[17:35:22.493] [INFO ]     ├─ Plugin masking
+[17:35:22.493] [INFO ]     ├─ WebRTC IP leak protection
+[17:35:22.493] [INFO ]     ├─ Network connection spoof
+[17:35:22.493] [INFO ]     └─ Battery API spoof
+[17:35:22.535] [INFO ] 
+[17:35:22.535] [INFO ]     🥷 STEALTH MODE APPLIED
+[17:35:22.535] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[17:35:22.535] [INFO ]     ├─ Chrome runtime patches
+[17:35:22.535] [INFO ]     ├─ Console patches
+[17:35:22.535] [INFO ]     └─ Permission patches
+[17:35:22.535] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[17:35:22.535] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:35:22.535] [INFO ] 
+[17:35:22.535] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[17:35:22.535] [INFO ]     ├─ Canvas fingerprint noise
+[17:35:22.535] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:35:22.535] [INFO ]     ├─ Hardware concurrency randomization
+[17:35:22.535] [INFO ]     ├─ Device memory randomization
+[17:35:22.535] [INFO ]     ├─ Plugin masking
+[17:35:22.535] [INFO ]     ├─ WebRTC IP leak protection
+[17:35:22.535] [INFO ]     ├─ Network connection spoof
+[17:35:22.535] [INFO ]     └─ Battery API spoof
+[17:35:22.535] [DEBUG] Enabled resource blocking (images, media, fonts)
+[17:35:22.535] [INFO ] 
+[17:35:22.535] [INFO ]     🔗 NAVIGATING TO URL
+[17:35:22.535] [INFO ]     ├─ Strategy:   domcontentloaded
+[17:35:22.535] [INFO ]     ├─ Timeout:    15.0s
+[17:35:22.535] [INFO ]     └─ Sleep:      1s after load
+[17:35:24.409] [INFO ] 
+[17:35:24.409] [INFO ]     ✅ PAGE LOADED
+[17:35:24.409] [INFO ]     ├─ Final URL:  https://www.lrqa.com/en-us/nist-cyber-security-framework/
+[17:35:24.409] [INFO ]     ├─ Title:      NIST Cyber Security Framework (CSF) | LRQA US
+[17:35:24.409] [INFO ]     └─ Load Time:  1.87s
+[17:35:25.782] [INFO ] 🧑 Human behavior simulation...
+[17:35:31.447] [INFO ] 🖱️ Mouse: 3 moves in 1440x900
+[17:35:31.447] [INFO ] 🖱️ Mouse completed: 3 moves
+[17:35:31.447] [INFO ] 📜 Scroll: page height, viewport=900px
+[17:35:31.447] [INFO ] 📜 Scroll completed: 2 scrolls
+[17:35:31.447] [INFO ] 🧑 Human behavior completed in 5.7s ✓
+[17:35:31.447] [INFO ] 
+[17:35:31.447] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[17:35:31.447] [INFO ]     ├─ Mouse Movements: 3
+[17:35:31.447] [INFO ]     ├─ Scroll Actions:  2
+[17:35:31.447] [INFO ]     └─ Time Spent:      5.66s
+[17:35:32.068] [INFO ] 
+[17:35:32.068] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[17:35:32.068] [INFO ]     │ Title:            NIST Cyber Security Framework
+[17:35:32.068] [INFO ]     │ Final URL:        https://www.lrqa.com/en-us/nist-cyber-security-framework/
+[17:35:32.068] [INFO ]     │ HTML Size:        549,990 bytes
+[17:35:32.068] [INFO ]     │ Text Size:        4,426 chars
+[17:35:32.069] [INFO ]     │ Word Count:       ~652 words
+[17:35:32.069] [INFO ]     │ Extraction:       trafilatura
+[17:35:32.069] [INFO ]     │ Has Article:      ✅ Yes
+[17:35:32.069] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:35:32.100] [INFO ] 
+[17:35:32.100] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:35:32.100] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_173522_B4DD
+[17:35:32.100] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:35:32.100] [INFO ] 
+[17:35:32.100] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[17:35:32.100] [INFO ]     │ Browser Launch:      0.05s
+[17:35:32.100] [INFO ]     │ Page Load:           1.87s
+[17:35:32.100] [INFO ]     │ Cloudflare Wait:     0.00s
+[17:35:32.100] [INFO ]     │ Human Simulation:    5.66s
+[17:35:32.101] [INFO ]     │
+[17:35:32.101] [INFO ]     │ Content Extraction:  0.50s
+[17:35:32.101] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[17:35:32.101] [INFO ]     │ TOTAL TIME:          8.10s
+[17:35:32.101] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:35:32.101] [INFO ] 
+[17:35:32.101] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[17:35:32.101] [INFO ]     │ Title:            NIST Cyber Security Framework
+[17:35:32.101] [INFO ]     │ Final URL:        https://www.lrqa.com/en-us/nist-cyber-security-framework/
+[17:35:32.101] [INFO ]     │ HTML Size:        549,990 bytes
+[17:35:32.101] [INFO ]     │ Text Size:        4,426 chars
+[17:35:32.101] [INFO ]     │ Word Count:       ~652 words
+[17:35:32.101] [INFO ]     │ Extraction:       trafilatura
+[17:35:32.101] [INFO ]     │ Has Article:      ✅ Yes
+[17:35:32.101] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:35:32.101] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:35:32.101] [INFO ] ║  📊 SESSION STATS
+[17:35:32.101] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[17:35:32.101] [INFO ] ║  ├─ Popups Dismissed:   0
+[17:35:32.101] [INFO ] ║  ├─ Cloudflare:         Not detected
+[17:35:32.101] [INFO ] ║  └─ Proxy Used:         Direct
+[17:35:32.101] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:35:32.101] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 9.97s
+ENDED: 2026-01-29T17:35:32.101287+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

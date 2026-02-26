@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.sisainfosec.com/case-study/sisa-helps-middle-eastern-bank-achieve-pci-dss-compliance-in-egypt-and-qatar/
+Started: 2026-01-29 18:33:53
+Session ID: SCRAPE_20260129_183353_560E
+================================================================================
+[18:33:53.106] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_183353_sisainfosec.com.log
+[18:33:53.106] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[18:33:53.457] [INFO ] 
+[18:33:53.457] [INFO ]     🚀 BROWSER LAUNCHED
+[18:33:53.457] [INFO ]     ├─ Mode:       Headless
+[18:33:53.457] [INFO ]     ├─ Slow Mo:    43ms
+[18:33:53.457] [INFO ]     ├─ Launch Time: 0.05s
+[18:33:53.457] [INFO ]     └─ Args:       Anti-automation flags enabled
+[18:33:53.477] [DEBUG] Browser profile: viewport={'width': 1512, 'height': 982}, locale=en-AU, tz=UTC
+[18:33:53.477] [INFO ] 
+[18:33:53.477] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:33:53.477] [INFO ] ║  📋 SESSION: SCRAPE_20260129_183353_560E
+[18:33:53.477] [INFO ] ║  🌐 URL: https://www.sisainfosec.com/case-study/sisa-helps-middle-eastern-bank-achieve-pci-dss-compliance-in-egypt-and-qatar/
+[18:33:53.477] [INFO ] ║  🔄 ATTEMPT: 1/2
+[18:33:53.477] [INFO ] ║  ⏰ STARTED: 2026-01-29T18:33:53.477429+02:00 (Egypt Time)
+[18:33:53.477] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:33:53.477] [INFO ] 
+[18:33:53.477] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[18:33:53.477] [INFO ]     │ Browser:     SAFARI v17
+[18:33:53.477] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHT...
+[18:33:53.477] [INFO ]     │ Viewport:    1512x982
+[18:33:53.477] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[18:33:53.477] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[18:33:53.477] [INFO ]     │ Location:    Sydney, Australia
+[18:33:53.477] [INFO ]     │ Timezone:    N/A
+[18:33:53.477] [INFO ]     │ Locale:      en-AU
+[18:33:53.477] [INFO ]     │ Geo:         0, 0
+[18:33:53.477] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[18:33:53.477] [INFO ]     │ Proxy:       Direct (no proxy)
+[18:33:53.477] [INFO ]     │ Referrer:    None
+[18:33:53.477] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:33:53.477] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:33:53.477] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[18:33:53.477] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:33:53.477] [INFO ] 
+[18:33:53.477] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[18:33:53.477] [INFO ]     ├─ Canvas fingerprint noise
+[18:33:53.477] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:33:53.477] [INFO ]     ├─ Hardware concurrency randomization
+[18:33:53.477] [INFO ]     ├─ Device memory randomization
+[18:33:53.477] [INFO ]     ├─ Plugin masking
+[18:33:53.477] [INFO ]     ├─ WebRTC IP leak protection
+[18:33:53.477] [INFO ]     ├─ Network connection spoof
+[18:33:53.477] [INFO ]     └─ Battery API spoof
+[18:33:53.517] [INFO ] 
+[18:33:53.518] [INFO ]     🥷 STEALTH MODE APPLIED
+[18:33:53.518] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[18:33:53.518] [INFO ]     ├─ Chrome runtime patches
+[18:33:53.518] [INFO ]     ├─ Console patches
+[18:33:53.518] [INFO ]     └─ Permission patches
+[18:33:53.518] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[18:33:53.518] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:33:53.518] [INFO ] 
+[18:33:53.518] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[18:33:53.518] [INFO ]     ├─ Canvas fingerprint noise
+[18:33:53.518] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:33:53.518] [INFO ]     ├─ Hardware concurrency randomization
+[18:33:53.518] [INFO ]     ├─ Device memory randomization
+[18:33:53.518] [INFO ]     ├─ Plugin masking
+[18:33:53.518] [INFO ]     ├─ WebRTC IP leak protection
+[18:33:53.518] [INFO ]     ├─ Network connection spoof
+[18:33:53.518] [INFO ]     └─ Battery API spoof
+[18:33:53.518] [DEBUG] Enabled resource blocking (images, media, fonts)
+[18:33:53.518] [INFO ] 
+[18:33:53.518] [INFO ]     🔗 NAVIGATING TO URL
+[18:33:53.518] [INFO ]     ├─ Strategy:   domcontentloaded
+[18:33:53.518] [INFO ]     ├─ Timeout:    15.0s
+[18:33:53.518] [INFO ]     └─ Sleep:      1s after load
+[18:33:55.702] [INFO ] 
+[18:33:55.702] [INFO ]     ✅ PAGE LOADED
+[18:33:55.702] [INFO ]     ├─ Final URL:  https://www.sisainfosec.com/case-study/sisa-helps-middle-eastern-bank-achieve-pci-dss-compliance-in-egypt-and-qatar/
+[18:33:55.702] [INFO ]     ├─ Title:      SISA helps Middle East bank achieve PCI DSS compliance in Egypt and Qatar
+[18:33:55.702] [INFO ]     └─ Load Time:  2.18s
+[18:33:59.976] [INFO ] 🧑 Human behavior simulation...
+[18:34:02.300] [INFO ] 🖱️ Mouse: 1 moves in 1512x982
+[18:34:02.300] [INFO ] 🖱️ Mouse completed: 1 moves
+[18:34:02.300] [INFO ] 📜 Scroll: page height, viewport=982px
+[18:34:02.300] [INFO ] 📜 Scroll completed: 3 scrolls
+[18:34:02.300] [INFO ] 🧑 Human behavior completed in 2.3s ✓
+[18:34:02.300] [INFO ] 
+[18:34:02.300] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[18:34:02.300] [INFO ]     ├─ Mouse Movements: 1
+[18:34:02.300] [INFO ]     ├─ Scroll Actions:  3
+[18:34:02.300] [INFO ]     └─ Time Spent:      2.32s
+[18:34:02.678] [INFO ] 
+[18:34:02.678] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:34:02.678] [INFO ]     │ Title:            SISA helps Middle East bank achieve PCI DSS compli
+[18:34:02.678] [INFO ]     │ Final URL:        https://www.sisainfosec.com/case-study/sisa-helps-middle-eastern-bank-achieve-pci-dss-compliance-in-egypt-and-qatar/
+[18:34:02.678] [INFO ]     │ HTML Size:        672,970 bytes
+[18:34:02.678] [INFO ]     │ Text Size:        944 chars
+[18:34:02.678] [INFO ]     │ Word Count:       ~149 words
+[18:34:02.678] [INFO ]     │ Extraction:       trafilatura
+[18:34:02.678] [INFO ]     │ Has Article:      ✅ Yes
+[18:34:02.678] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:34:02.711] [INFO ] 
+[18:34:02.711] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:34:02.711] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_183353_560E
+[18:34:02.711] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:34:02.711] [INFO ] 
+[18:34:02.711] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[18:34:02.711] [INFO ]     │ Browser Launch:      0.05s
+[18:34:02.711] [INFO ]     │ Page Load:           2.18s
+[18:34:02.711] [INFO ]     │ Cloudflare Wait:     0.00s
+[18:34:02.711] [INFO ]     │ Human Simulation:    2.32s
+[18:34:02.711] [INFO ]     │
+[18:34:02.711] [INFO ]     │ Content Extraction:  0.16s
+[18:34:02.711] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[18:34:02.711] [INFO ]     │ TOTAL TIME:          4.72s
+[18:34:02.711] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:34:02.711] [INFO ] 
+[18:34:02.711] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:34:02.711] [INFO ]     │ Title:            SISA helps Middle East bank achieve PCI DSS compli
+[18:34:02.711] [INFO ]     │ Final URL:        https://www.sisainfosec.com/case-study/sisa-helps-middle-eastern-bank-achieve-pci-dss-compliance-in-egypt-and-qatar/
+[18:34:02.711] [INFO ]     │ HTML Size:        672,970 bytes
+[18:34:02.711] [INFO ]     │ Text Size:        944 chars
+[18:34:02.711] [INFO ]     │ Word Count:       ~149 words
+[18:34:02.711] [INFO ]     │ Extraction:       trafilatura
+[18:34:02.711] [INFO ]     │ Has Article:      ✅ Yes
+[18:34:02.711] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:34:02.711] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:34:02.711] [INFO ] ║  📊 SESSION STATS
+[18:34:02.711] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[18:34:02.711] [INFO ] ║  ├─ Popups Dismissed:   0
+[18:34:02.711] [INFO ] ║  ├─ Cloudflare:         Not detected
+[18:34:02.711] [INFO ] ║  └─ Proxy Used:         Direct
+[18:34:02.711] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:34:02.711] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 9.61s
+ENDED: 2026-01-29T18:34:02.711854+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

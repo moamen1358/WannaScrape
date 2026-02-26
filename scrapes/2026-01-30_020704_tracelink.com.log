@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.tracelink.com/resources/resource-center/regulatory-updates/egypt-regulatory-updates
+Started: 2026-01-30 02:07:04
+Session ID: SCRAPE_20260130_020704_15DB
+================================================================================
+[02:07:04.267] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_020704_tracelink.com.log
+[02:07:04.267] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[02:07:04.606] [INFO ] 
+[02:07:04.606] [INFO ]     🚀 BROWSER LAUNCHED
+[02:07:04.606] [INFO ]     ├─ Mode:       Headless
+[02:07:04.606] [INFO ]     ├─ Slow Mo:    55ms
+[02:07:04.606] [INFO ]     ├─ Launch Time: 0.05s
+[02:07:04.606] [INFO ]     └─ Args:       Anti-automation flags enabled
+[02:07:04.623] [DEBUG] Browser profile: viewport={'width': 1280, 'height': 720}, locale=en-US, tz=UTC
+[02:07:04.623] [INFO ] 
+[02:07:04.623] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[02:07:04.623] [INFO ] ║  📋 SESSION: SCRAPE_20260130_020704_15DB
+[02:07:04.623] [INFO ] ║  🌐 URL: https://www.tracelink.com/resources/resource-center/regulatory-updates/egypt-regulatory-updates
+[02:07:04.623] [INFO ] ║  🔄 ATTEMPT: 1/2
+[02:07:04.624] [INFO ] ║  ⏰ STARTED: 2026-01-30T02:07:04.624004+02:00 (Egypt Time)
+[02:07:04.624] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:07:04.624] [INFO ] 
+[02:07:04.624] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[02:07:04.624] [INFO ]     │ Browser:     CHROME v119
+[02:07:04.624] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[02:07:04.624] [INFO ]     │ Viewport:    1280x720
+[02:07:04.624] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[02:07:04.624] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[02:07:04.624] [INFO ]     │ Location:    Chicago, USA
+[02:07:04.624] [INFO ]     │ Timezone:    N/A
+[02:07:04.624] [INFO ]     │ Locale:      en-US
+[02:07:04.624] [INFO ]     │ Geo:         0, 0
+[02:07:04.624] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[02:07:04.624] [INFO ]     │ Proxy:       Direct (no proxy)
+[02:07:04.624] [INFO ]     │ Referrer:    https://www.facebook.com/
+[02:07:04.624] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:07:04.624] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[02:07:04.624] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[02:07:04.624] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[02:07:04.624] [INFO ] 
+[02:07:04.624] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[02:07:04.624] [INFO ]     ├─ Canvas fingerprint noise
+[02:07:04.624] [INFO ]     ├─ WebGL renderer/vendor spoof
+[02:07:04.624] [INFO ]     ├─ Hardware concurrency randomization
+[02:07:04.624] [INFO ]     ├─ Device memory randomization
+[02:07:04.624] [INFO ]     ├─ Plugin masking
+[02:07:04.624] [INFO ]     ├─ WebRTC IP leak protection
+[02:07:04.624] [INFO ]     ├─ Network connection spoof
+[02:07:04.624] [INFO ]     └─ Battery API spoof
+[02:07:04.666] [INFO ] 
+[02:07:04.666] [INFO ]     🥷 STEALTH MODE APPLIED
+[02:07:04.666] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[02:07:04.666] [INFO ]     ├─ Chrome runtime patches
+[02:07:04.666] [INFO ]     ├─ Console patches
+[02:07:04.666] [INFO ]     └─ Permission patches
+[02:07:04.666] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[02:07:04.666] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[02:07:04.666] [INFO ] 
+[02:07:04.666] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[02:07:04.666] [INFO ]     ├─ Canvas fingerprint noise
+[02:07:04.666] [INFO ]     ├─ WebGL renderer/vendor spoof
+[02:07:04.666] [INFO ]     ├─ Hardware concurrency randomization
+[02:07:04.666] [INFO ]     ├─ Device memory randomization
+[02:07:04.666] [INFO ]     ├─ Plugin masking
+[02:07:04.666] [INFO ]     ├─ WebRTC IP leak protection
+[02:07:04.666] [INFO ]     ├─ Network connection spoof
+[02:07:04.666] [INFO ]     └─ Battery API spoof
+[02:07:04.666] [DEBUG] Enabled resource blocking (images, media, fonts)
+[02:07:04.666] [INFO ] 
+[02:07:04.666] [INFO ]     🔗 NAVIGATING TO URL
+[02:07:04.666] [INFO ]     ├─ Strategy:   domcontentloaded
+[02:07:04.666] [INFO ]     ├─ Timeout:    15.0s
+[02:07:04.666] [INFO ]     └─ Sleep:      1s after load
+[02:07:06.712] [INFO ] 
+[02:07:06.712] [INFO ]     ✅ PAGE LOADED
+[02:07:06.712] [INFO ]     ├─ Final URL:  https://www.tracelink.com/resources/resource-center/regulatory-updates/egypt-regulatory-updates
+[02:07:06.712] [INFO ]     ├─ Title:      Egypt Regulatory Updates | TraceLink
+[02:07:06.712] [INFO ]     └─ Load Time:  2.05s
+[02:07:07.996] [INFO ] 🧑 Human behavior simulation...
+[02:07:11.327] [INFO ] 🖱️ Mouse: 2 moves in 1280x720
+[02:07:11.327] [INFO ] 🖱️ Mouse completed: 2 moves
+[02:07:11.327] [INFO ] 📜 Scroll: page height, viewport=720px
+[02:07:11.327] [INFO ] 📜 Scroll completed: 1 scrolls
+[02:07:11.327] [INFO ] 🧑 Human behavior completed in 3.3s ✓
+[02:07:11.327] [INFO ] 
+[02:07:11.327] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[02:07:11.327] [INFO ]     ├─ Mouse Movements: 2
+[02:07:11.327] [INFO ]     ├─ Scroll Actions:  1
+[02:07:11.327] [INFO ]     └─ Time Spent:      3.33s
+[02:07:11.984] [INFO ] 
+[02:07:11.984] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[02:07:11.984] [INFO ]     │ Title:            Egypt Regulatory Updates
+[02:07:11.984] [INFO ]     │ Final URL:        https://www.tracelink.com/resources/resource-center/regulatory-updates/egypt-regulatory-updates
+[02:07:11.984] [INFO ]     │ HTML Size:        289,228 bytes
+[02:07:11.984] [INFO ]     │ Text Size:        5,613 chars
+[02:07:11.984] [INFO ]     │ Word Count:       ~881 words
+[02:07:11.984] [INFO ]     │ Extraction:       trafilatura
+[02:07:11.984] [INFO ]     │ Has Article:      ✅ Yes
+[02:07:11.984] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:07:12.014] [INFO ] 
+[02:07:12.014] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[02:07:12.014] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260130_020704_15DB
+[02:07:12.014] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:07:12.014] [INFO ] 
+[02:07:12.014] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[02:07:12.014] [INFO ]     │ Browser Launch:      0.05s
+[02:07:12.014] [INFO ]     │ Page Load:           2.05s
+[02:07:12.014] [INFO ]     │ Cloudflare Wait:     0.00s
+[02:07:12.014] [INFO ]     │ Human Simulation:    3.33s
+[02:07:12.014] [INFO ]     │
+[02:07:12.014] [INFO ]     │ Content Extraction:  0.54s
+[02:07:12.014] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[02:07:12.014] [INFO ]     │ TOTAL TIME:          5.97s
+[02:07:12.015] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:07:12.015] [INFO ] 
+[02:07:12.015] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[02:07:12.015] [INFO ]     │ Title:            Egypt Regulatory Updates
+[02:07:12.015] [INFO ]     │ Final URL:        https://www.tracelink.com/resources/resource-center/regulatory-updates/egypt-regulatory-updates
+[02:07:12.015] [INFO ]     │ HTML Size:        289,228 bytes
+[02:07:12.015] [INFO ]     │ Text Size:        5,613 chars
+[02:07:12.015] [INFO ]     │ Word Count:       ~881 words
+[02:07:12.015] [INFO ]     │ Extraction:       trafilatura
+[02:07:12.015] [INFO ]     │ Has Article:      ✅ Yes
+[02:07:12.015] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:07:12.015] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:07:12.015] [INFO ] ║  📊 SESSION STATS
+[02:07:12.015] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[02:07:12.015] [INFO ] ║  ├─ Popups Dismissed:   0
+[02:07:12.015] [INFO ] ║  ├─ Cloudflare:         Not detected
+[02:07:12.015] [INFO ] ║  └─ Proxy Used:         Direct
+[02:07:12.015] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[02:07:12.015] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.75s
+ENDED: 2026-01-30T02:07:12.015310+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

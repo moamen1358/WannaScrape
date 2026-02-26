@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.fortinet.com/resources/cyberglossary/what-is-pci-compliance
+Started: 2026-01-29 18:36:53
+Session ID: SCRAPE_20260129_183653_18A3
+================================================================================
+[18:36:53.111] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_183653_fortinet.com.log
+[18:36:53.111] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[18:36:53.462] [INFO ] 
+[18:36:53.462] [INFO ]     🚀 BROWSER LAUNCHED
+[18:36:53.462] [INFO ]     ├─ Mode:       Headless
+[18:36:53.462] [INFO ]     ├─ Slow Mo:    51ms
+[18:36:53.462] [INFO ]     ├─ Launch Time: 0.06s
+[18:36:53.462] [INFO ]     └─ Args:       Anti-automation flags enabled
+[18:36:53.482] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-AU, tz=UTC
+[18:36:53.482] [INFO ] 
+[18:36:53.482] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:36:53.482] [INFO ] ║  📋 SESSION: SCRAPE_20260129_183653_18A3
+[18:36:53.482] [INFO ] ║  🌐 URL: https://www.fortinet.com/resources/cyberglossary/what-is-pci-compliance
+[18:36:53.482] [INFO ] ║  🔄 ATTEMPT: 1/2
+[18:36:53.482] [INFO ] ║  ⏰ STARTED: 2026-01-29T18:36:53.482926+02:00 (Egypt Time)
+[18:36:53.482] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:36:53.482] [INFO ] 
+[18:36:53.482] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[18:36:53.482] [INFO ]     │ Browser:     CHROME v125
+[18:36:53.482] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[18:36:53.482] [INFO ]     │ Viewport:    2560x1440
+[18:36:53.482] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[18:36:53.482] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[18:36:53.482] [INFO ]     │ Location:    Brisbane, Australia
+[18:36:53.482] [INFO ]     │ Timezone:    N/A
+[18:36:53.482] [INFO ]     │ Locale:      en-AU
+[18:36:53.482] [INFO ]     │ Geo:         0, 0
+[18:36:53.482] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[18:36:53.482] [INFO ]     │ Proxy:       Direct (no proxy)
+[18:36:53.483] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+fortinet+com
+[18:36:53.483] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:36:53.483] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:36:53.483] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[18:36:53.483] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:36:53.483] [INFO ] 
+[18:36:53.483] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[18:36:53.483] [INFO ]     ├─ Canvas fingerprint noise
+[18:36:53.483] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:36:53.483] [INFO ]     ├─ Hardware concurrency randomization
+[18:36:53.483] [INFO ]     ├─ Device memory randomization
+[18:36:53.483] [INFO ]     ├─ Plugin masking
+[18:36:53.483] [INFO ]     ├─ WebRTC IP leak protection
+[18:36:53.483] [INFO ]     ├─ Network connection spoof
+[18:36:53.483] [INFO ]     └─ Battery API spoof
+[18:36:53.525] [INFO ] 
+[18:36:53.525] [INFO ]     🥷 STEALTH MODE APPLIED
+[18:36:53.525] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[18:36:53.525] [INFO ]     ├─ Chrome runtime patches
+[18:36:53.525] [INFO ]     ├─ Console patches
+[18:36:53.525] [INFO ]     └─ Permission patches
+[18:36:53.525] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[18:36:53.525] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:36:53.525] [INFO ] 
+[18:36:53.525] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[18:36:53.525] [INFO ]     ├─ Canvas fingerprint noise
+[18:36:53.525] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:36:53.525] [INFO ]     ├─ Hardware concurrency randomization
+[18:36:53.525] [INFO ]     ├─ Device memory randomization
+[18:36:53.525] [INFO ]     ├─ Plugin masking
+[18:36:53.525] [INFO ]     ├─ WebRTC IP leak protection
+[18:36:53.525] [INFO ]     ├─ Network connection spoof
+[18:36:53.525] [INFO ]     └─ Battery API spoof
+[18:36:53.525] [DEBUG] Enabled resource blocking (images, media, fonts)
+[18:36:53.525] [INFO ] 
+[18:36:53.525] [INFO ]     🔗 NAVIGATING TO URL
+[18:36:53.525] [INFO ]     ├─ Strategy:   domcontentloaded
+[18:36:53.525] [INFO ]     ├─ Timeout:    15.0s
+[18:36:53.525] [INFO ]     └─ Sleep:      1s after load
+[18:36:55.475] [INFO ] 
+[18:36:55.475] [INFO ]     ✅ PAGE LOADED
+[18:36:55.475] [INFO ]     ├─ Final URL:  https://www.fortinet.com/resources/cyberglossary/what-is-pci-compliance
+[18:36:55.475] [INFO ]     ├─ Title:      What Is PCI Compliance? PCI DSS Explained | Fortinet
+[18:36:55.475] [INFO ]     └─ Load Time:  1.95s
+[18:36:57.483] [INFO ] 🧑 Human behavior simulation...
+[18:37:03.776] [INFO ] 🖱️ Mouse: 3 moves in 2560x1440
+[18:37:03.776] [INFO ] 🖱️ Mouse completed: 3 moves
+[18:37:03.776] [INFO ] 📜 Scroll: page height, viewport=1440px
+[18:37:03.776] [INFO ] 📜 Scroll completed: 3 scrolls
+[18:37:03.776] [INFO ] 🧑 Human behavior completed in 6.3s ✓
+[18:37:03.776] [INFO ] 
+[18:37:03.776] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[18:37:03.776] [INFO ]     ├─ Mouse Movements: 3
+[18:37:03.776] [INFO ]     ├─ Scroll Actions:  3
+[18:37:03.776] [INFO ]     └─ Time Spent:      6.29s
+[18:37:04.238] [INFO ] 
+[18:37:04.238] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:37:04.238] [INFO ]     │ Title:            What Is PCI Compliance? PCI DSS Explained | Fortin
+[18:37:04.238] [INFO ]     │ Final URL:        https://www.fortinet.com/resources/cyberglossary/what-is-pci-compliance
+[18:37:04.238] [INFO ]     │ HTML Size:        505,711 bytes
+[18:37:04.238] [INFO ]     │ Text Size:        16,160 chars
+[18:37:04.238] [INFO ]     │ Word Count:       ~2427 words
+[18:37:04.238] [INFO ]     │ Extraction:       trafilatura
+[18:37:04.238] [INFO ]     │ Has Article:      ✅ Yes
+[18:37:04.238] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:37:04.282] [INFO ] 
+[18:37:04.282] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:37:04.282] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_183653_18A3
+[18:37:04.282] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:37:04.282] [INFO ] 
+[18:37:04.282] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[18:37:04.282] [INFO ]     │ Browser Launch:      0.06s
+[18:37:04.282] [INFO ]     │ Page Load:           1.95s
+[18:37:04.282] [INFO ]     │ Cloudflare Wait:     0.00s
+[18:37:04.282] [INFO ]     │ Human Simulation:    6.29s
+[18:37:04.282] [INFO ]     │
+[18:37:04.282] [INFO ]     │ Content Extraction:  0.35s
+[18:37:04.282] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[18:37:04.282] [INFO ]     │ TOTAL TIME:          8.65s
+[18:37:04.282] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:37:04.282] [INFO ] 
+[18:37:04.282] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:37:04.282] [INFO ]     │ Title:            What Is PCI Compliance? PCI DSS Explained | Fortin
+[18:37:04.282] [INFO ]     │ Final URL:        https://www.fortinet.com/resources/cyberglossary/what-is-pci-compliance
+[18:37:04.282] [INFO ]     │ HTML Size:        505,711 bytes
+[18:37:04.282] [INFO ]     │ Text Size:        16,160 chars
+[18:37:04.282] [INFO ]     │ Word Count:       ~2427 words
+[18:37:04.282] [INFO ]     │ Extraction:       trafilatura
+[18:37:04.282] [INFO ]     │ Has Article:      ✅ Yes
+[18:37:04.282] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:37:04.282] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:37:04.282] [INFO ] ║  📊 SESSION STATS
+[18:37:04.282] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[18:37:04.282] [INFO ] ║  ├─ Popups Dismissed:   0
+[18:37:04.282] [INFO ] ║  ├─ Cloudflare:         Not detected
+[18:37:04.282] [INFO ] ║  └─ Proxy Used:         Direct
+[18:37:04.282] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:37:04.282] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 11.17s
+ENDED: 2026-01-29T18:37:04.282817+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

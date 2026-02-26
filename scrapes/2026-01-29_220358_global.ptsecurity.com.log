@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://global.ptsecurity.com/en/research/analytics/cyberattacks-on-egypt-s-infrastructure-in-2024/
+Started: 2026-01-29 22:03:58
+Session ID: SCRAPE_20260129_220358_C5D4
+================================================================================
+[22:03:58.612] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_220358_global.ptsecurity.com.log
+[22:03:58.612] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[22:03:58.952] [INFO ] 
+[22:03:58.952] [INFO ]     🚀 BROWSER LAUNCHED
+[22:03:58.952] [INFO ]     ├─ Mode:       Headless
+[22:03:58.952] [INFO ]     ├─ Slow Mo:    58ms
+[22:03:58.952] [INFO ]     ├─ Launch Time: 0.05s
+[22:03:58.952] [INFO ]     └─ Args:       Anti-automation flags enabled
+[22:03:58.970] [DEBUG] Browser profile: viewport={'width': 1440, 'height': 900}, locale=en-US, tz=UTC
+[22:03:58.970] [INFO ] 
+[22:03:58.970] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:03:58.970] [INFO ] ║  📋 SESSION: SCRAPE_20260129_220358_C5D4
+[22:03:58.970] [INFO ] ║  🌐 URL: https://global.ptsecurity.com/en/research/analytics/cyberattacks-on-egypt-s-infrastructure-in-2024/
+[22:03:58.970] [INFO ] ║  🔄 ATTEMPT: 1/2
+[22:03:58.970] [INFO ] ║  ⏰ STARTED: 2026-01-29T22:03:58.970910+02:00 (Egypt Time)
+[22:03:58.970] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:03:58.970] [INFO ] 
+[22:03:58.970] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[22:03:58.970] [INFO ]     │ Browser:     CHROME v122
+[22:03:58.970] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[22:03:58.970] [INFO ]     │ Viewport:    1440x900
+[22:03:58.970] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[22:03:58.970] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[22:03:58.970] [INFO ]     │ Location:    San Francisco, USA
+[22:03:58.970] [INFO ]     │ Timezone:    N/A
+[22:03:58.970] [INFO ]     │ Locale:      en-US
+[22:03:58.970] [INFO ]     │ Geo:         0, 0
+[22:03:58.970] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[22:03:58.970] [INFO ]     │ Proxy:       Direct (no proxy)
+[22:03:58.970] [INFO ]     │ Referrer:    https://www.google.com/
+[22:03:58.970] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:03:58.971] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:03:58.971] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[22:03:58.971] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:03:58.971] [INFO ] 
+[22:03:58.971] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[22:03:58.971] [INFO ]     ├─ Canvas fingerprint noise
+[22:03:58.971] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:03:58.971] [INFO ]     ├─ Hardware concurrency randomization
+[22:03:58.971] [INFO ]     ├─ Device memory randomization
+[22:03:58.971] [INFO ]     ├─ Plugin masking
+[22:03:58.971] [INFO ]     ├─ WebRTC IP leak protection
+[22:03:58.971] [INFO ]     ├─ Network connection spoof
+[22:03:58.971] [INFO ]     └─ Battery API spoof
+[22:03:59.011] [INFO ] 
+[22:03:59.011] [INFO ]     🥷 STEALTH MODE APPLIED
+[22:03:59.011] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[22:03:59.011] [INFO ]     ├─ Chrome runtime patches
+[22:03:59.011] [INFO ]     ├─ Console patches
+[22:03:59.011] [INFO ]     └─ Permission patches
+[22:03:59.011] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[22:03:59.011] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:03:59.011] [INFO ] 
+[22:03:59.011] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[22:03:59.011] [INFO ]     ├─ Canvas fingerprint noise
+[22:03:59.011] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:03:59.011] [INFO ]     ├─ Hardware concurrency randomization
+[22:03:59.011] [INFO ]     ├─ Device memory randomization
+[22:03:59.011] [INFO ]     ├─ Plugin masking
+[22:03:59.011] [INFO ]     ├─ WebRTC IP leak protection
+[22:03:59.011] [INFO ]     ├─ Network connection spoof
+[22:03:59.011] [INFO ]     └─ Battery API spoof
+[22:03:59.011] [DEBUG] Enabled resource blocking (images, media, fonts)
+[22:03:59.012] [INFO ] 
+[22:03:59.012] [INFO ]     🔗 NAVIGATING TO URL
+[22:03:59.012] [INFO ]     ├─ Strategy:   domcontentloaded
+[22:03:59.012] [INFO ]     ├─ Timeout:    15.0s
+[22:03:59.012] [INFO ]     └─ Sleep:      1s after load
+[22:04:01.866] [INFO ] 
+[22:04:01.866] [INFO ]     ✅ PAGE LOADED
+[22:04:01.866] [INFO ]     ├─ Final URL:  https://global.ptsecurity.com/en/research/analytics/cyberattacks-on-egypt-s-infrastructure-in-2024/
+[22:04:01.866] [INFO ]     ├─ Title:      Analytics
+[22:04:01.866] [INFO ]     └─ Load Time:  2.85s
+[22:04:03.956] [INFO ] 🧑 Human behavior simulation...
+[22:04:08.026] [INFO ] 🖱️ Mouse: 3 moves in 1440x900
+[22:04:08.026] [INFO ] 🖱️ Mouse completed: 3 moves
+[22:04:08.026] [INFO ] 📜 Scroll: page height, viewport=900px
+[22:04:08.026] [INFO ] 📜 Scroll completed: 3 scrolls
+[22:04:08.026] [INFO ] 🧑 Human behavior completed in 4.1s ✓
+[22:04:08.026] [INFO ] 
+[22:04:08.026] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[22:04:08.026] [INFO ]     ├─ Mouse Movements: 3
+[22:04:08.026] [INFO ]     ├─ Scroll Actions:  3
+[22:04:08.026] [INFO ]     └─ Time Spent:      4.07s
+[22:04:08.213] [INFO ] 
+[22:04:08.213] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:04:08.213] [INFO ]     │ Title:            Analytics
+[22:04:08.213] [INFO ]     │ Final URL:        https://global.ptsecurity.com/en/research/analytics/cyberattacks-on-egypt-s-infrastructure-in-2024/
+[22:04:08.213] [INFO ]     │ HTML Size:        310,593 bytes
+[22:04:08.213] [INFO ]     │ Text Size:        10,963 chars
+[22:04:08.213] [INFO ]     │ Word Count:       ~1567 words
+[22:04:08.213] [INFO ]     │ Extraction:       trafilatura
+[22:04:08.213] [INFO ]     │ Has Article:      ✅ Yes
+[22:04:08.213] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:04:08.239] [INFO ] 
+[22:04:08.239] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:04:08.239] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_220358_C5D4
+[22:04:08.239] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:04:08.239] [INFO ] 
+[22:04:08.239] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[22:04:08.239] [INFO ]     │ Browser Launch:      0.05s
+[22:04:08.239] [INFO ]     │ Page Load:           2.85s
+[22:04:08.239] [INFO ]     │ Cloudflare Wait:     0.00s
+[22:04:08.239] [INFO ]     │ Human Simulation:    4.07s
+[22:04:08.239] [INFO ]     │
+[22:04:08.239] [INFO ]     │ Content Extraction:  0.11s
+[22:04:08.239] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[22:04:08.239] [INFO ]     │ TOTAL TIME:          7.09s
+[22:04:08.239] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:04:08.239] [INFO ] 
+[22:04:08.240] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:04:08.240] [INFO ]     │ Title:            Analytics
+[22:04:08.240] [INFO ]     │ Final URL:        https://global.ptsecurity.com/en/research/analytics/cyberattacks-on-egypt-s-infrastructure-in-2024/
+[22:04:08.240] [INFO ]     │ HTML Size:        310,593 bytes
+[22:04:08.240] [INFO ]     │ Text Size:        10,963 chars
+[22:04:08.240] [INFO ]     │ Word Count:       ~1567 words
+[22:04:08.240] [INFO ]     │ Extraction:       trafilatura
+[22:04:08.240] [INFO ]     │ Has Article:      ✅ Yes
+[22:04:08.240] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:04:08.240] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:04:08.240] [INFO ] ║  📊 SESSION STATS
+[22:04:08.240] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[22:04:08.240] [INFO ] ║  ├─ Popups Dismissed:   0
+[22:04:08.240] [INFO ] ║  ├─ Cloudflare:         Not detected
+[22:04:08.240] [INFO ] ║  └─ Proxy Used:         Direct
+[22:04:08.240] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:04:08.240] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 9.63s
+ENDED: 2026-01-29T22:04:08.240197+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

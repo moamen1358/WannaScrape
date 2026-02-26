@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.cyknox.com/en/blog/cyber-security-in-egypt/
+Started: 2026-01-29 23:33:30
+Session ID: SCRAPE_20260129_233330_80B4
+================================================================================
+[23:33:30.989] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_233330_cyknox.com.log
+[23:33:30.989] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[23:33:31.332] [INFO ] 
+[23:33:31.332] [INFO ]     🚀 BROWSER LAUNCHED
+[23:33:31.332] [INFO ]     ├─ Mode:       Headless
+[23:33:31.332] [INFO ]     ├─ Slow Mo:    45ms
+[23:33:31.332] [INFO ]     ├─ Launch Time: 0.06s
+[23:33:31.332] [INFO ]     └─ Args:       Anti-automation flags enabled
+[23:33:31.351] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-AU, tz=UTC
+[23:33:31.351] [INFO ] 
+[23:33:31.351] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:33:31.351] [INFO ] ║  📋 SESSION: SCRAPE_20260129_233330_80B4
+[23:33:31.351] [INFO ] ║  🌐 URL: https://www.cyknox.com/en/blog/cyber-security-in-egypt/
+[23:33:31.351] [INFO ] ║  🔄 ATTEMPT: 1/2
+[23:33:31.351] [INFO ] ║  ⏰ STARTED: 2026-01-29T23:33:31.351980+02:00 (Egypt Time)
+[23:33:31.351] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:33:31.351] [INFO ] 
+[23:33:31.351] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[23:33:31.352] [INFO ]     │ Browser:     CHROME v121
+[23:33:31.352] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[23:33:31.352] [INFO ]     │ Viewport:    2560x1440
+[23:33:31.352] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[23:33:31.352] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[23:33:31.352] [INFO ]     │ Location:    Brisbane, Australia
+[23:33:31.352] [INFO ]     │ Timezone:    N/A
+[23:33:31.352] [INFO ]     │ Locale:      en-AU
+[23:33:31.352] [INFO ]     │ Geo:         0, 0
+[23:33:31.352] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[23:33:31.352] [INFO ]     │ Proxy:       Direct (no proxy)
+[23:33:31.352] [INFO ]     │ Referrer:    https://news.google.com/
+[23:33:31.352] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:33:31.352] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:33:31.352] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[23:33:31.352] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:33:31.352] [INFO ] 
+[23:33:31.352] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[23:33:31.352] [INFO ]     ├─ Canvas fingerprint noise
+[23:33:31.352] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:33:31.352] [INFO ]     ├─ Hardware concurrency randomization
+[23:33:31.352] [INFO ]     ├─ Device memory randomization
+[23:33:31.352] [INFO ]     ├─ Plugin masking
+[23:33:31.352] [INFO ]     ├─ WebRTC IP leak protection
+[23:33:31.352] [INFO ]     ├─ Network connection spoof
+[23:33:31.352] [INFO ]     └─ Battery API spoof
+[23:33:31.393] [INFO ] 
+[23:33:31.393] [INFO ]     🥷 STEALTH MODE APPLIED
+[23:33:31.393] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[23:33:31.393] [INFO ]     ├─ Chrome runtime patches
+[23:33:31.393] [INFO ]     ├─ Console patches
+[23:33:31.393] [INFO ]     └─ Permission patches
+[23:33:31.393] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[23:33:31.393] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:33:31.393] [INFO ] 
+[23:33:31.393] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[23:33:31.393] [INFO ]     ├─ Canvas fingerprint noise
+[23:33:31.393] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:33:31.393] [INFO ]     ├─ Hardware concurrency randomization
+[23:33:31.393] [INFO ]     ├─ Device memory randomization
+[23:33:31.393] [INFO ]     ├─ Plugin masking
+[23:33:31.393] [INFO ]     ├─ WebRTC IP leak protection
+[23:33:31.393] [INFO ]     ├─ Network connection spoof
+[23:33:31.393] [INFO ]     └─ Battery API spoof
+[23:33:31.393] [DEBUG] Enabled resource blocking (images, media, fonts)
+[23:33:31.393] [INFO ] 
+[23:33:31.393] [INFO ]     🔗 NAVIGATING TO URL
+[23:33:31.393] [INFO ]     ├─ Strategy:   domcontentloaded
+[23:33:31.393] [INFO ]     ├─ Timeout:    15.0s
+[23:33:31.393] [INFO ]     └─ Sleep:      1s after load
+[23:33:32.436] [INFO ] 
+[23:33:32.436] [INFO ]     ✅ PAGE LOADED
+[23:33:32.436] [INFO ]     ├─ Final URL:  https://www.cyknox.com/en/blog/cyber-security-in-egypt/
+[23:33:32.436] [INFO ]     ├─ Title:      Cyber Security in Egypt
+[23:33:32.436] [INFO ]     └─ Load Time:  1.04s
+[23:33:34.210] [INFO ] 🧑 Human behavior simulation...
+[23:33:38.531] [INFO ] 🖱️ Mouse: 2 moves in 2560x1440
+[23:33:38.531] [INFO ] 🖱️ Mouse completed: 2 moves
+[23:33:38.531] [INFO ] 📜 Scroll: page height, viewport=1440px
+[23:33:38.531] [INFO ] 📜 Scroll completed: 3 scrolls
+[23:33:38.531] [INFO ] 🧑 Human behavior completed in 4.3s ✓
+[23:33:38.531] [INFO ] 
+[23:33:38.531] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[23:33:38.531] [INFO ]     ├─ Mouse Movements: 2
+[23:33:38.531] [INFO ]     ├─ Scroll Actions:  3
+[23:33:38.531] [INFO ]     └─ Time Spent:      4.32s
+[23:33:38.683] [INFO ] 
+[23:33:38.683] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[23:33:38.683] [INFO ]     │ Title:            Cyber Security in Egypt
+[23:33:38.683] [INFO ]     │ Final URL:        https://www.cyknox.com/en/blog/cyber-security-in-egypt/
+[23:33:38.683] [INFO ]     │ HTML Size:        115,340 bytes
+[23:33:38.683] [INFO ]     │ Text Size:        4,438 chars
+[23:33:38.683] [INFO ]     │ Word Count:       ~601 words
+[23:33:38.683] [INFO ]     │ Extraction:       trafilatura
+[23:33:38.683] [INFO ]     │ Has Article:      ✅ Yes
+[23:33:38.683] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:33:38.711] [INFO ] 
+[23:33:38.711] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:33:38.711] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_233330_80B4
+[23:33:38.711] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:33:38.711] [INFO ] 
+[23:33:38.711] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[23:33:38.711] [INFO ]     │ Browser Launch:      0.06s
+[23:33:38.711] [INFO ]     │ Page Load:           1.04s
+[23:33:38.711] [INFO ]     │ Cloudflare Wait:     0.00s
+[23:33:38.711] [INFO ]     │ Human Simulation:    4.32s
+[23:33:38.711] [INFO ]     │
+[23:33:38.711] [INFO ]     │ Content Extraction:  0.07s
+[23:33:38.711] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[23:33:38.711] [INFO ]     │ TOTAL TIME:          5.49s
+[23:33:38.711] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:33:38.711] [INFO ] 
+[23:33:38.711] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[23:33:38.711] [INFO ]     │ Title:            Cyber Security in Egypt
+[23:33:38.711] [INFO ]     │ Final URL:        https://www.cyknox.com/en/blog/cyber-security-in-egypt/
+[23:33:38.711] [INFO ]     │ HTML Size:        115,340 bytes
+[23:33:38.711] [INFO ]     │ Text Size:        4,438 chars
+[23:33:38.711] [INFO ]     │ Word Count:       ~601 words
+[23:33:38.711] [INFO ]     │ Extraction:       trafilatura
+[23:33:38.711] [INFO ]     │ Has Article:      ✅ Yes
+[23:33:38.711] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:33:38.711] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:33:38.711] [INFO ] ║  📊 SESSION STATS
+[23:33:38.711] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[23:33:38.711] [INFO ] ║  ├─ Popups Dismissed:   0
+[23:33:38.711] [INFO ] ║  ├─ Cloudflare:         Not detected
+[23:33:38.711] [INFO ] ║  └─ Proxy Used:         Direct
+[23:33:38.711] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:33:38.711] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.72s
+ENDED: 2026-01-29T23:33:38.711570+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.iso-certification-egypt.com/soc2-certification.html
+Started: 2026-01-29 19:02:24
+Session ID: SCRAPE_20260129_190224_6CD7
+================================================================================
+[19:02:24.900] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_190224_iso-certification-egypt.com.log
+[19:02:24.900] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[19:02:25.243] [INFO ] 
+[19:02:25.243] [INFO ]     🚀 BROWSER LAUNCHED
+[19:02:25.243] [INFO ]     ├─ Mode:       Headless
+[19:02:25.243] [INFO ]     ├─ Slow Mo:    54ms
+[19:02:25.243] [INFO ]     ├─ Launch Time: 0.06s
+[19:02:25.243] [INFO ]     └─ Args:       Anti-automation flags enabled
+[19:02:25.259] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-CA, tz=UTC
+[19:02:25.259] [INFO ] 
+[19:02:25.259] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:02:25.259] [INFO ] ║  📋 SESSION: SCRAPE_20260129_190224_6CD7
+[19:02:25.259] [INFO ] ║  🌐 URL: https://www.iso-certification-egypt.com/soc2-certification.html
+[19:02:25.259] [INFO ] ║  🔄 ATTEMPT: 1/2
+[19:02:25.259] [INFO ] ║  ⏰ STARTED: 2026-01-29T19:02:25.259343+02:00 (Egypt Time)
+[19:02:25.259] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:02:25.259] [INFO ] 
+[19:02:25.259] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[19:02:25.259] [INFO ]     │ Browser:     CHROME v120
+[19:02:25.259] [INFO ]     │ User-Agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)...
+[19:02:25.259] [INFO ]     │ Viewport:    1366x768
+[19:02:25.259] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[19:02:25.259] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[19:02:25.259] [INFO ]     │ Location:    Toronto, Canada
+[19:02:25.259] [INFO ]     │ Timezone:    N/A
+[19:02:25.259] [INFO ]     │ Locale:      en-CA
+[19:02:25.259] [INFO ]     │ Geo:         0, 0
+[19:02:25.259] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[19:02:25.259] [INFO ]     │ Proxy:       Direct (no proxy)
+[19:02:25.259] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+iso-certification-egypt+com
+[19:02:25.259] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:02:25.259] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:02:25.259] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[19:02:25.259] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:02:25.259] [INFO ] 
+[19:02:25.259] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[19:02:25.259] [INFO ]     ├─ Canvas fingerprint noise
+[19:02:25.259] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:02:25.259] [INFO ]     ├─ Hardware concurrency randomization
+[19:02:25.259] [INFO ]     ├─ Device memory randomization
+[19:02:25.259] [INFO ]     ├─ Plugin masking
+[19:02:25.259] [INFO ]     ├─ WebRTC IP leak protection
+[19:02:25.259] [INFO ]     ├─ Network connection spoof
+[19:02:25.259] [INFO ]     └─ Battery API spoof
+[19:02:25.304] [INFO ] 
+[19:02:25.305] [INFO ]     🥷 STEALTH MODE APPLIED
+[19:02:25.305] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[19:02:25.305] [INFO ]     ├─ Chrome runtime patches
+[19:02:25.305] [INFO ]     ├─ Console patches
+[19:02:25.305] [INFO ]     └─ Permission patches
+[19:02:25.305] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[19:02:25.305] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:02:25.305] [INFO ] 
+[19:02:25.305] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[19:02:25.305] [INFO ]     ├─ Canvas fingerprint noise
+[19:02:25.305] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:02:25.305] [INFO ]     ├─ Hardware concurrency randomization
+[19:02:25.305] [INFO ]     ├─ Device memory randomization
+[19:02:25.305] [INFO ]     ├─ Plugin masking
+[19:02:25.305] [INFO ]     ├─ WebRTC IP leak protection
+[19:02:25.305] [INFO ]     ├─ Network connection spoof
+[19:02:25.305] [INFO ]     └─ Battery API spoof
+[19:02:25.305] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:02:25.305] [INFO ] 
+[19:02:25.305] [INFO ]     🔗 NAVIGATING TO URL
+[19:02:25.305] [INFO ]     ├─ Strategy:   domcontentloaded
+[19:02:25.305] [INFO ]     ├─ Timeout:    15.0s
+[19:02:25.305] [INFO ]     └─ Sleep:      1s after load
+[19:02:32.354] [INFO ] 
+[19:02:32.354] [INFO ]     ✅ PAGE LOADED
+[19:02:32.354] [INFO ]     ├─ Final URL:  https://www.iso-certification-egypt.com/soc2-certification.html
+[19:02:32.354] [INFO ]     ├─ Title:      SOC 2 Certification Consultants - Cairo, Alexandria, Giza
+[19:02:32.354] [INFO ]     └─ Load Time:  7.05s
+[19:02:33.596] [INFO ] 🧑 Human behavior simulation...
+[19:02:38.538] [INFO ] 🖱️ Mouse: 3 moves in 1366x768
+[19:02:38.538] [INFO ] 🖱️ Mouse completed: 3 moves
+[19:02:38.538] [INFO ] 📜 Scroll: page height, viewport=768px
+[19:02:38.538] [INFO ] 📜 Scroll completed: 3 scrolls
+[19:02:38.538] [INFO ] 🧑 Human behavior completed in 4.9s ✓
+[19:02:38.538] [INFO ] 
+[19:02:38.538] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[19:02:38.538] [INFO ]     ├─ Mouse Movements: 3
+[19:02:38.538] [INFO ]     ├─ Scroll Actions:  3
+[19:02:38.538] [INFO ]     └─ Time Spent:      4.94s
+[19:02:38.848] [INFO ] 
+[19:02:38.848] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:02:38.848] [INFO ]     │ Title:            SOC 2 CERTIFICATION IN EGYPT
+[19:02:38.848] [INFO ]     │ Final URL:        https://www.iso-certification-egypt.com/soc2-certification.html
+[19:02:38.848] [INFO ]     │ HTML Size:        100,491 bytes
+[19:02:38.848] [INFO ]     │ Text Size:        10,313 chars
+[19:02:38.848] [INFO ]     │ Word Count:       ~1531 words
+[19:02:38.848] [INFO ]     │ Extraction:       trafilatura
+[19:02:38.848] [INFO ]     │ Has Article:      ✅ Yes
+[19:02:38.848] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:02:38.877] [INFO ] 
+[19:02:38.877] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:02:38.877] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_190224_6CD7
+[19:02:38.877] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:02:38.877] [INFO ] 
+[19:02:38.877] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[19:02:38.877] [INFO ]     │ Browser Launch:      0.06s
+[19:02:38.877] [INFO ]     │ Page Load:           7.05s
+[19:02:38.877] [INFO ]     │ Cloudflare Wait:     0.00s
+[19:02:38.877] [INFO ]     │ Human Simulation:    4.94s
+[19:02:38.877] [INFO ]     │
+[19:02:38.877] [INFO ]     │ Content Extraction:  0.23s
+[19:02:38.877] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[19:02:38.877] [INFO ]     │ TOTAL TIME:          12.28s
+[19:02:38.877] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:02:38.877] [INFO ] 
+[19:02:38.877] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:02:38.877] [INFO ]     │ Title:            SOC 2 CERTIFICATION IN EGYPT
+[19:02:38.877] [INFO ]     │ Final URL:        https://www.iso-certification-egypt.com/soc2-certification.html
+[19:02:38.877] [INFO ]     │ HTML Size:        100,491 bytes
+[19:02:38.877] [INFO ]     │ Text Size:        10,313 chars
+[19:02:38.877] [INFO ]     │ Word Count:       ~1531 words
+[19:02:38.877] [INFO ]     │ Extraction:       trafilatura
+[19:02:38.877] [INFO ]     │ Has Article:      ✅ Yes
+[19:02:38.877] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:02:38.877] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:02:38.877] [INFO ] ║  📊 SESSION STATS
+[19:02:38.877] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[19:02:38.877] [INFO ] ║  ├─ Popups Dismissed:   0
+[19:02:38.877] [INFO ] ║  ├─ Cloudflare:         Not detected
+[19:02:38.877] [INFO ] ║  └─ Proxy Used:         Direct
+[19:02:38.877] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:02:38.877] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 13.98s
+ENDED: 2026-01-29T19:02:38.877863+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

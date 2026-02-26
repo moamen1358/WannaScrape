@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.trade.gov/country-commercial-guides/egypt-market-challenges
+Started: 2026-01-30 02:03:04
+Session ID: SCRAPE_20260130_020304_0C45
+================================================================================
+[02:03:04.261] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_020304_trade.gov.log
+[02:03:04.261] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[02:03:04.605] [INFO ] 
+[02:03:04.605] [INFO ]     🚀 BROWSER LAUNCHED
+[02:03:04.605] [INFO ]     ├─ Mode:       Headless
+[02:03:04.605] [INFO ]     ├─ Slow Mo:    45ms
+[02:03:04.605] [INFO ]     ├─ Launch Time: 0.06s
+[02:03:04.605] [INFO ]     └─ Args:       Anti-automation flags enabled
+[02:03:04.620] [DEBUG] Browser profile: viewport={'width': 1536, 'height': 864}, locale=en-AU, tz=UTC
+[02:03:04.620] [INFO ] 
+[02:03:04.620] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[02:03:04.620] [INFO ] ║  📋 SESSION: SCRAPE_20260130_020304_0C45
+[02:03:04.620] [INFO ] ║  🌐 URL: https://www.trade.gov/country-commercial-guides/egypt-market-challenges
+[02:03:04.620] [INFO ] ║  🔄 ATTEMPT: 1/2
+[02:03:04.620] [INFO ] ║  ⏰ STARTED: 2026-01-30T02:03:04.620614+02:00 (Egypt Time)
+[02:03:04.620] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:03:04.620] [INFO ] 
+[02:03:04.620] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[02:03:04.620] [INFO ]     │ Browser:     CHROME v123
+[02:03:04.620] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[02:03:04.620] [INFO ]     │ Viewport:    1536x864
+[02:03:04.620] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[02:03:04.620] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[02:03:04.620] [INFO ]     │ Location:    Sydney, Australia
+[02:03:04.620] [INFO ]     │ Timezone:    N/A
+[02:03:04.620] [INFO ]     │ Locale:      en-AU
+[02:03:04.620] [INFO ]     │ Geo:         0, 0
+[02:03:04.620] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[02:03:04.620] [INFO ]     │ Proxy:       Direct (no proxy)
+[02:03:04.620] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+trade+gov
+[02:03:04.620] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:03:04.620] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[02:03:04.620] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[02:03:04.620] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[02:03:04.620] [INFO ] 
+[02:03:04.620] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[02:03:04.620] [INFO ]     ├─ Canvas fingerprint noise
+[02:03:04.620] [INFO ]     ├─ WebGL renderer/vendor spoof
+[02:03:04.620] [INFO ]     ├─ Hardware concurrency randomization
+[02:03:04.620] [INFO ]     ├─ Device memory randomization
+[02:03:04.620] [INFO ]     ├─ Plugin masking
+[02:03:04.620] [INFO ]     ├─ WebRTC IP leak protection
+[02:03:04.620] [INFO ]     ├─ Network connection spoof
+[02:03:04.620] [INFO ]     └─ Battery API spoof
+[02:03:04.661] [INFO ] 
+[02:03:04.661] [INFO ]     🥷 STEALTH MODE APPLIED
+[02:03:04.661] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[02:03:04.661] [INFO ]     ├─ Chrome runtime patches
+[02:03:04.661] [INFO ]     ├─ Console patches
+[02:03:04.661] [INFO ]     └─ Permission patches
+[02:03:04.661] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[02:03:04.661] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[02:03:04.661] [INFO ] 
+[02:03:04.661] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[02:03:04.661] [INFO ]     ├─ Canvas fingerprint noise
+[02:03:04.661] [INFO ]     ├─ WebGL renderer/vendor spoof
+[02:03:04.661] [INFO ]     ├─ Hardware concurrency randomization
+[02:03:04.661] [INFO ]     ├─ Device memory randomization
+[02:03:04.661] [INFO ]     ├─ Plugin masking
+[02:03:04.661] [INFO ]     ├─ WebRTC IP leak protection
+[02:03:04.661] [INFO ]     ├─ Network connection spoof
+[02:03:04.661] [INFO ]     └─ Battery API spoof
+[02:03:04.661] [DEBUG] Enabled resource blocking (images, media, fonts)
+[02:03:04.661] [INFO ] 
+[02:03:04.661] [INFO ]     🔗 NAVIGATING TO URL
+[02:03:04.661] [INFO ]     ├─ Strategy:   domcontentloaded
+[02:03:04.661] [INFO ]     ├─ Timeout:    15.0s
+[02:03:04.661] [INFO ]     └─ Sleep:      1s after load
+[02:03:06.401] [INFO ] 
+[02:03:06.401] [INFO ]     ✅ PAGE LOADED
+[02:03:06.401] [INFO ]     ├─ Final URL:  https://www.trade.gov/country-commercial-guides/egypt-market-challenges
+[02:03:06.401] [INFO ]     ├─ Title:      Egypt - Market Challenges
+[02:03:06.401] [INFO ]     └─ Load Time:  1.74s
+[02:03:07.672] [INFO ] 🧑 Human behavior simulation...
+[02:03:12.782] [INFO ] 🖱️ Mouse: 3 moves in 1536x864
+[02:03:12.782] [INFO ] 🖱️ Mouse completed: 3 moves
+[02:03:12.782] [INFO ] 📜 Scroll: page height, viewport=864px
+[02:03:12.782] [INFO ] 📜 Scroll completed: 2 scrolls
+[02:03:12.782] [INFO ] 🧑 Human behavior completed in 5.1s ✓
+[02:03:12.782] [INFO ] 
+[02:03:12.782] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[02:03:12.782] [INFO ]     ├─ Mouse Movements: 3
+[02:03:12.782] [INFO ]     ├─ Scroll Actions:  2
+[02:03:12.782] [INFO ]     └─ Time Spent:      5.11s
+[02:03:12.975] [INFO ] 
+[02:03:12.975] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[02:03:12.975] [INFO ]     │ Title:            Egypt - Market Challenges
+[02:03:12.975] [INFO ]     │ Final URL:        https://www.trade.gov/country-commercial-guides/egypt-market-challenges
+[02:03:12.975] [INFO ]     │ HTML Size:        297,035 bytes
+[02:03:12.975] [INFO ]     │ Text Size:        2,415 chars
+[02:03:12.975] [INFO ]     │ Word Count:       ~356 words
+[02:03:12.975] [INFO ]     │ Extraction:       trafilatura
+[02:03:12.975] [INFO ]     │ Has Article:      ✅ Yes
+[02:03:12.975] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:03:13.001] [INFO ] 
+[02:03:13.001] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[02:03:13.001] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260130_020304_0C45
+[02:03:13.001] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:03:13.001] [INFO ] 
+[02:03:13.001] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[02:03:13.001] [INFO ]     │ Browser Launch:      0.06s
+[02:03:13.001] [INFO ]     │ Page Load:           1.74s
+[02:03:13.001] [INFO ]     │ Cloudflare Wait:     0.00s
+[02:03:13.001] [INFO ]     │ Human Simulation:    5.11s
+[02:03:13.001] [INFO ]     │
+[02:03:13.001] [INFO ]     │ Content Extraction:  0.12s
+[02:03:13.001] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[02:03:13.001] [INFO ]     │ TOTAL TIME:          7.03s
+[02:03:13.001] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:03:13.001] [INFO ] 
+[02:03:13.001] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[02:03:13.001] [INFO ]     │ Title:            Egypt - Market Challenges
+[02:03:13.001] [INFO ]     │ Final URL:        https://www.trade.gov/country-commercial-guides/egypt-market-challenges
+[02:03:13.001] [INFO ]     │ HTML Size:        297,035 bytes
+[02:03:13.001] [INFO ]     │ Text Size:        2,415 chars
+[02:03:13.001] [INFO ]     │ Word Count:       ~356 words
+[02:03:13.001] [INFO ]     │ Extraction:       trafilatura
+[02:03:13.001] [INFO ]     │ Has Article:      ✅ Yes
+[02:03:13.001] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:03:13.001] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:03:13.001] [INFO ] ║  📊 SESSION STATS
+[02:03:13.001] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[02:03:13.001] [INFO ] ║  ├─ Popups Dismissed:   0
+[02:03:13.001] [INFO ] ║  ├─ Cloudflare:         Not detected
+[02:03:13.001] [INFO ] ║  └─ Proxy Used:         Direct
+[02:03:13.001] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[02:03:13.001] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.74s
+ENDED: 2026-01-30T02:03:13.001914+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

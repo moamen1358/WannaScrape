@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.linkedin.com/pulse/increasing-cyber-threats-middle-eastern-healthcare-space-nadeem-khan-0fntf
+Started: 2026-01-29 22:03:28
+Session ID: SCRAPE_20260129_220328_F6A0
+================================================================================
+[22:03:28.611] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_220328_linkedin.com.log
+[22:03:28.611] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[22:03:28.951] [INFO ] 
+[22:03:28.951] [INFO ]     🚀 BROWSER LAUNCHED
+[22:03:28.951] [INFO ]     ├─ Mode:       Headless
+[22:03:28.951] [INFO ]     ├─ Slow Mo:    54ms
+[22:03:28.951] [INFO ]     ├─ Launch Time: 0.06s
+[22:03:28.951] [INFO ]     └─ Args:       Anti-automation flags enabled
+[22:03:28.969] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-US, tz=UTC
+[22:03:28.969] [INFO ] 
+[22:03:28.969] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:03:28.969] [INFO ] ║  📋 SESSION: SCRAPE_20260129_220328_F6A0
+[22:03:28.969] [INFO ] ║  🌐 URL: https://www.linkedin.com/pulse/increasing-cyber-threats-middle-eastern-healthcare-space-nadeem-khan-0fntf
+[22:03:28.969] [INFO ] ║  🔄 ATTEMPT: 1/2
+[22:03:28.969] [INFO ] ║  ⏰ STARTED: 2026-01-29T22:03:28.969224+02:00 (Egypt Time)
+[22:03:28.969] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:03:28.969] [INFO ] 
+[22:03:28.969] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[22:03:28.969] [INFO ]     │ Browser:     SAFARI v17
+[22:03:28.969] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHT...
+[22:03:28.969] [INFO ]     │ Viewport:    2560x1440
+[22:03:28.969] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[22:03:28.969] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[22:03:28.969] [INFO ]     │ Location:    Boston, USA
+[22:03:28.969] [INFO ]     │ Timezone:    N/A
+[22:03:28.969] [INFO ]     │ Locale:      en-US
+[22:03:28.969] [INFO ]     │ Geo:         0, 0
+[22:03:28.969] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[22:03:28.969] [INFO ]     │ Proxy:       Direct (no proxy)
+[22:03:28.969] [INFO ]     │ Referrer:    https://www.google.com/
+[22:03:28.969] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:03:28.969] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:03:28.969] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[22:03:28.969] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:03:28.969] [INFO ] 
+[22:03:28.969] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[22:03:28.969] [INFO ]     ├─ Canvas fingerprint noise
+[22:03:28.969] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:03:28.969] [INFO ]     ├─ Hardware concurrency randomization
+[22:03:28.969] [INFO ]     ├─ Device memory randomization
+[22:03:28.969] [INFO ]     ├─ Plugin masking
+[22:03:28.969] [INFO ]     ├─ WebRTC IP leak protection
+[22:03:28.969] [INFO ]     ├─ Network connection spoof
+[22:03:28.969] [INFO ]     └─ Battery API spoof
+[22:03:29.010] [INFO ] 
+[22:03:29.010] [INFO ]     🥷 STEALTH MODE APPLIED
+[22:03:29.010] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[22:03:29.010] [INFO ]     ├─ Chrome runtime patches
+[22:03:29.010] [INFO ]     ├─ Console patches
+[22:03:29.010] [INFO ]     └─ Permission patches
+[22:03:29.010] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[22:03:29.010] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:03:29.010] [INFO ] 
+[22:03:29.010] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[22:03:29.010] [INFO ]     ├─ Canvas fingerprint noise
+[22:03:29.010] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:03:29.010] [INFO ]     ├─ Hardware concurrency randomization
+[22:03:29.010] [INFO ]     ├─ Device memory randomization
+[22:03:29.010] [INFO ]     ├─ Plugin masking
+[22:03:29.010] [INFO ]     ├─ WebRTC IP leak protection
+[22:03:29.010] [INFO ]     ├─ Network connection spoof
+[22:03:29.010] [INFO ]     └─ Battery API spoof
+[22:03:29.010] [DEBUG] Enabled resource blocking (images, media, fonts)
+[22:03:29.010] [INFO ] 
+[22:03:29.010] [INFO ]     🔗 NAVIGATING TO URL
+[22:03:29.010] [INFO ]     ├─ Strategy:   domcontentloaded
+[22:03:29.010] [INFO ]     ├─ Timeout:    15.0s
+[22:03:29.010] [INFO ]     └─ Sleep:      1s after load
+[22:03:30.160] [INFO ] 
+[22:03:30.160] [INFO ]     ✅ PAGE LOADED
+[22:03:30.160] [INFO ]     ├─ Final URL:  https://www.linkedin.com/pulse/increasing-cyber-threats-middle-eastern-healthcare-space-nadeem-khan-0fntf
+[22:03:30.160] [INFO ]     ├─ Title:      Increasing Cyber Threats in Middle Eastern Healthcare Space Demand Cyber Resilience as a Necessity, not a Choice....
+[22:03:30.160] [INFO ]     └─ Load Time:  1.15s
+[22:03:31.450] [INFO ] 🧑 Human behavior simulation...
+[22:03:35.670] [INFO ] 🖱️ Mouse: 3 moves in 2560x1440
+[22:03:35.670] [INFO ] 🖱️ Mouse completed: 3 moves
+[22:03:35.670] [INFO ] 📜 Scroll: page height, viewport=1440px
+[22:03:35.670] [INFO ] 📜 Scroll completed: 2 scrolls
+[22:03:35.670] [INFO ] 🧑 Human behavior completed in 4.2s ✓
+[22:03:35.670] [INFO ] 
+[22:03:35.670] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[22:03:35.670] [INFO ]     ├─ Mouse Movements: 3
+[22:03:35.670] [INFO ]     ├─ Scroll Actions:  2
+[22:03:35.670] [INFO ]     └─ Time Spent:      4.22s
+[22:03:35.959] [INFO ] 
+[22:03:35.959] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:03:35.959] [INFO ]     │ Title:            Increasing Cyber Threats in Middle Eastern Healthc
+[22:03:35.959] [INFO ]     │ Final URL:        https://www.linkedin.com/pulse/increasing-cyber-threats-middle-eastern-healthcare-space-nadeem-khan-0fntf
+[22:03:35.959] [INFO ]     │ HTML Size:        249,242 bytes
+[22:03:35.959] [INFO ]     │ Text Size:        18,437 chars
+[22:03:35.959] [INFO ]     │ Word Count:       ~2507 words
+[22:03:35.959] [INFO ]     │ Extraction:       trafilatura
+[22:03:35.959] [INFO ]     │ Has Article:      ✅ Yes
+[22:03:35.959] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:03:35.984] [INFO ] 
+[22:03:35.984] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:03:35.984] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_220328_F6A0
+[22:03:35.984] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:03:35.984] [INFO ] 
+[22:03:35.984] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[22:03:35.984] [INFO ]     │ Browser Launch:      0.06s
+[22:03:35.984] [INFO ]     │ Page Load:           1.15s
+[22:03:35.984] [INFO ]     │ Cloudflare Wait:     0.00s
+[22:03:35.984] [INFO ]     │ Human Simulation:    4.22s
+[22:03:35.984] [INFO ]     │
+[22:03:35.984] [INFO ]     │ Content Extraction:  0.15s
+[22:03:35.984] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[22:03:35.984] [INFO ]     │ TOTAL TIME:          5.58s
+[22:03:35.984] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:03:35.984] [INFO ] 
+[22:03:35.984] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:03:35.984] [INFO ]     │ Title:            Increasing Cyber Threats in Middle Eastern Healthc
+[22:03:35.984] [INFO ]     │ Final URL:        https://www.linkedin.com/pulse/increasing-cyber-threats-middle-eastern-healthcare-space-nadeem-khan-0fntf
+[22:03:35.984] [INFO ]     │ HTML Size:        249,242 bytes
+[22:03:35.984] [INFO ]     │ Text Size:        18,437 chars
+[22:03:35.984] [INFO ]     │ Word Count:       ~2507 words
+[22:03:35.984] [INFO ]     │ Extraction:       trafilatura
+[22:03:35.984] [INFO ]     │ Has Article:      ✅ Yes
+[22:03:35.984] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:03:35.984] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:03:35.984] [INFO ] ║  📊 SESSION STATS
+[22:03:35.984] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[22:03:35.984] [INFO ] ║  ├─ Popups Dismissed:   0
+[22:03:35.984] [INFO ] ║  ├─ Cloudflare:         Not detected
+[22:03:35.984] [INFO ] ║  └─ Proxy Used:         Direct
+[22:03:35.984] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:03:35.984] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.37s
+ENDED: 2026-01-29T22:03:35.984940+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

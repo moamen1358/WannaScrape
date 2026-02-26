@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.deimos.io/blog-posts/data-sovereignty-meets-dlp-the-overlooked-risk-in-your-cloud-stack
+Started: 2026-01-29 21:06:57
+Session ID: SCRAPE_20260129_210657_A9AE
+================================================================================
+[21:06:57.563] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_210657_deimos.io.log
+[21:06:57.563] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[21:06:57.906] [INFO ] 
+[21:06:57.906] [INFO ]     🚀 BROWSER LAUNCHED
+[21:06:57.906] [INFO ]     ├─ Mode:       Headless
+[21:06:57.906] [INFO ]     ├─ Slow Mo:    42ms
+[21:06:57.906] [INFO ]     ├─ Launch Time: 0.05s
+[21:06:57.906] [INFO ]     └─ Args:       Anti-automation flags enabled
+[21:06:57.925] [DEBUG] Browser profile: viewport={'width': 1600, 'height': 900}, locale=en-GB, tz=UTC
+[21:06:57.925] [INFO ] 
+[21:06:57.925] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:06:57.925] [INFO ] ║  📋 SESSION: SCRAPE_20260129_210657_A9AE
+[21:06:57.925] [INFO ] ║  🌐 URL: https://www.deimos.io/blog-posts/data-sovereignty-meets-dlp-the-overlooked-risk-in-your-cloud-stack
+[21:06:57.925] [INFO ] ║  🔄 ATTEMPT: 1/2
+[21:06:57.925] [INFO ] ║  ⏰ STARTED: 2026-01-29T21:06:57.925329+02:00 (Egypt Time)
+[21:06:57.925] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:06:57.925] [INFO ] 
+[21:06:57.925] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[21:06:57.925] [INFO ]     │ Browser:     EDGE v119
+[21:06:57.925] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[21:06:57.925] [INFO ]     │ Viewport:    1600x900
+[21:06:57.925] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[21:06:57.925] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[21:06:57.925] [INFO ]     │ Location:    Manchester, UK
+[21:06:57.925] [INFO ]     │ Timezone:    N/A
+[21:06:57.925] [INFO ]     │ Locale:      en-GB
+[21:06:57.925] [INFO ]     │ Geo:         0, 0
+[21:06:57.925] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[21:06:57.925] [INFO ]     │ Proxy:       Direct (no proxy)
+[21:06:57.925] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+deimos+io
+[21:06:57.925] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:06:57.925] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:06:57.925] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[21:06:57.925] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:06:57.925] [INFO ] 
+[21:06:57.925] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[21:06:57.925] [INFO ]     ├─ Canvas fingerprint noise
+[21:06:57.925] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:06:57.925] [INFO ]     ├─ Hardware concurrency randomization
+[21:06:57.925] [INFO ]     ├─ Device memory randomization
+[21:06:57.925] [INFO ]     ├─ Plugin masking
+[21:06:57.925] [INFO ]     ├─ WebRTC IP leak protection
+[21:06:57.925] [INFO ]     ├─ Network connection spoof
+[21:06:57.925] [INFO ]     └─ Battery API spoof
+[21:06:57.966] [INFO ] 
+[21:06:57.966] [INFO ]     🥷 STEALTH MODE APPLIED
+[21:06:57.966] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[21:06:57.966] [INFO ]     ├─ Chrome runtime patches
+[21:06:57.966] [INFO ]     ├─ Console patches
+[21:06:57.966] [INFO ]     └─ Permission patches
+[21:06:57.966] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[21:06:57.966] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:06:57.966] [INFO ] 
+[21:06:57.966] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[21:06:57.966] [INFO ]     ├─ Canvas fingerprint noise
+[21:06:57.966] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:06:57.966] [INFO ]     ├─ Hardware concurrency randomization
+[21:06:57.966] [INFO ]     ├─ Device memory randomization
+[21:06:57.966] [INFO ]     ├─ Plugin masking
+[21:06:57.966] [INFO ]     ├─ WebRTC IP leak protection
+[21:06:57.966] [INFO ]     ├─ Network connection spoof
+[21:06:57.966] [INFO ]     └─ Battery API spoof
+[21:06:57.966] [DEBUG] Enabled resource blocking (images, media, fonts)
+[21:06:57.966] [INFO ] 
+[21:06:57.966] [INFO ]     🔗 NAVIGATING TO URL
+[21:06:57.966] [INFO ]     ├─ Strategy:   domcontentloaded
+[21:06:57.966] [INFO ]     ├─ Timeout:    15.0s
+[21:06:57.966] [INFO ]     └─ Sleep:      1s after load
+[21:06:59.759] [INFO ] 
+[21:06:59.759] [INFO ]     ✅ PAGE LOADED
+[21:06:59.759] [INFO ]     ├─ Final URL:  https://www.deimos.io/blog-posts/data-sovereignty-meets-dlp-the-overlooked-risk-in-your-cloud-stack
+[21:06:59.759] [INFO ]     ├─ Title:      Data Sovereignty and DLP: The Hidden Risk in Your Cloud Stack
+[21:06:59.759] [INFO ]     └─ Load Time:  1.79s
+[21:07:00.962] [INFO ] 🧑 Human behavior simulation...
+[21:07:02.408] [INFO ] 🖱️ Mouse: 1 moves in 1600x900
+[21:07:02.408] [INFO ] 🖱️ Mouse completed: 1 moves
+[21:07:02.408] [INFO ] 📜 Scroll: page height, viewport=900px
+[21:07:02.408] [INFO ] 📜 Scroll completed: 2 scrolls
+[21:07:02.408] [INFO ] 🧑 Human behavior completed in 1.4s ✓
+[21:07:02.408] [INFO ] 
+[21:07:02.408] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[21:07:02.408] [INFO ]     ├─ Mouse Movements: 1
+[21:07:02.408] [INFO ]     ├─ Scroll Actions:  2
+[21:07:02.408] [INFO ]     └─ Time Spent:      1.45s
+[21:07:02.577] [INFO ] 
+[21:07:02.577] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:07:02.577] [INFO ]     │ Title:            Data Sovereignty and DLP: The Hidden Risk in Your 
+[21:07:02.577] [INFO ]     │ Final URL:        https://www.deimos.io/blog-posts/data-sovereignty-meets-dlp-the-overlooked-risk-in-your-cloud-stack
+[21:07:02.577] [INFO ]     │ HTML Size:        116,250 bytes
+[21:07:02.577] [INFO ]     │ Text Size:        6,411 chars
+[21:07:02.577] [INFO ]     │ Word Count:       ~958 words
+[21:07:02.577] [INFO ]     │ Extraction:       trafilatura
+[21:07:02.577] [INFO ]     │ Has Article:      ✅ Yes
+[21:07:02.577] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:07:02.608] [INFO ] 
+[21:07:02.608] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:07:02.608] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_210657_A9AE
+[21:07:02.608] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:07:02.608] [INFO ] 
+[21:07:02.608] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[21:07:02.608] [INFO ]     │ Browser Launch:      0.05s
+[21:07:02.608] [INFO ]     │ Page Load:           1.79s
+[21:07:02.608] [INFO ]     │ Cloudflare Wait:     0.00s
+[21:07:02.608] [INFO ]     │ Human Simulation:    1.45s
+[21:07:02.608] [INFO ]     │
+[21:07:02.608] [INFO ]     │ Content Extraction:  0.14s
+[21:07:02.608] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[21:07:02.608] [INFO ]     │ TOTAL TIME:          3.43s
+[21:07:02.608] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:07:02.608] [INFO ] 
+[21:07:02.608] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:07:02.608] [INFO ]     │ Title:            Data Sovereignty and DLP: The Hidden Risk in Your 
+[21:07:02.608] [INFO ]     │ Final URL:        https://www.deimos.io/blog-posts/data-sovereignty-meets-dlp-the-overlooked-risk-in-your-cloud-stack
+[21:07:02.608] [INFO ]     │ HTML Size:        116,250 bytes
+[21:07:02.608] [INFO ]     │ Text Size:        6,411 chars
+[21:07:02.608] [INFO ]     │ Word Count:       ~958 words
+[21:07:02.608] [INFO ]     │ Extraction:       trafilatura
+[21:07:02.608] [INFO ]     │ Has Article:      ✅ Yes
+[21:07:02.608] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:07:02.608] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:07:02.608] [INFO ] ║  📊 SESSION STATS
+[21:07:02.608] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[21:07:02.608] [INFO ] ║  ├─ Popups Dismissed:   0
+[21:07:02.608] [INFO ] ║  ├─ Cloudflare:         Not detected
+[21:07:02.608] [INFO ] ║  └─ Proxy Used:         Direct
+[21:07:02.608] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:07:02.608] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 5.05s
+ENDED: 2026-01-29T21:07:02.608324+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

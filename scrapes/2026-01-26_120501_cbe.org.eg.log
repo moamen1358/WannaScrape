@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.cbe.org.eg/en/news-publications/news/2025/06/19/08/20/psos-and-psps-licensing-rules
+Started: 2026-01-26 12:05:01
+Session ID: SCRAPE_20260126_120501_D6EB
+================================================================================
+[12:05:01.491] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_120501_cbe.org.eg.log
+[12:05:01.491] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:05:01.852] [INFO ] 
+[12:05:01.852] [INFO ]     🚀 BROWSER LAUNCHED
+[12:05:01.852] [INFO ]     ├─ Mode:       Headless
+[12:05:01.852] [INFO ]     ├─ Slow Mo:    47ms
+[12:05:01.852] [INFO ]     ├─ Launch Time: 0.06s
+[12:05:01.852] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:05:01.873] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-GB, tz=UTC
+[12:05:01.873] [INFO ] 
+[12:05:01.873] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:05:01.873] [INFO ] ║  📋 SESSION: SCRAPE_20260126_120501_D6EB
+[12:05:01.873] [INFO ] ║  🌐 URL: https://www.cbe.org.eg/en/news-publications/news/2025/06/19/08/20/psos-and-psps-licensing-rules
+[12:05:01.873] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:05:01.873] [INFO ] ║  ⏰ STARTED: 2026-01-26T12:05:01.873328+02:00 (Egypt Time)
+[12:05:01.873] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:05:01.873] [INFO ] 
+[12:05:01.873] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:05:01.873] [INFO ]     │ Browser:     FIREFOX v121
+[12:05:01.873] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Fir...
+[12:05:01.873] [INFO ]     │ Viewport:    1366x768
+[12:05:01.873] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:05:01.873] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:05:01.873] [INFO ]     │ Location:    Birmingham, UK
+[12:05:01.873] [INFO ]     │ Timezone:    N/A
+[12:05:01.873] [INFO ]     │ Locale:      en-GB
+[12:05:01.873] [INFO ]     │ Geo:         0, 0
+[12:05:01.873] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:05:01.873] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:05:01.873] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+cbe+org+eg
+[12:05:01.873] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:05:01.873] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:05:01.873] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:05:01.873] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:05:01.873] [INFO ] 
+[12:05:01.873] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:05:01.873] [INFO ]     ├─ Canvas fingerprint noise
+[12:05:01.873] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:05:01.873] [INFO ]     ├─ Hardware concurrency randomization
+[12:05:01.873] [INFO ]     ├─ Device memory randomization
+[12:05:01.873] [INFO ]     ├─ Plugin masking
+[12:05:01.873] [INFO ]     ├─ WebRTC IP leak protection
+[12:05:01.873] [INFO ]     ├─ Network connection spoof
+[12:05:01.873] [INFO ]     └─ Battery API spoof
+[12:05:01.920] [INFO ] 
+[12:05:01.920] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:05:01.920] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:05:01.920] [INFO ]     ├─ Chrome runtime patches
+[12:05:01.920] [INFO ]     ├─ Console patches
+[12:05:01.920] [INFO ]     └─ Permission patches
+[12:05:01.920] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:05:01.920] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:05:01.920] [INFO ] 
+[12:05:01.920] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:05:01.920] [INFO ]     ├─ Canvas fingerprint noise
+[12:05:01.920] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:05:01.920] [INFO ]     ├─ Hardware concurrency randomization
+[12:05:01.920] [INFO ]     ├─ Device memory randomization
+[12:05:01.920] [INFO ]     ├─ Plugin masking
+[12:05:01.920] [INFO ]     ├─ WebRTC IP leak protection
+[12:05:01.920] [INFO ]     ├─ Network connection spoof
+[12:05:01.920] [INFO ]     └─ Battery API spoof
+[12:05:01.920] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:05:01.920] [INFO ] 
+[12:05:01.920] [INFO ]     🔗 NAVIGATING TO URL
+[12:05:01.920] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:05:01.920] [INFO ]     ├─ Timeout:    15.0s
+[12:05:01.920] [INFO ]     └─ Sleep:      1s after load
+[12:05:04.003] [INFO ] 
+[12:05:04.003] [INFO ]     ✅ PAGE LOADED
+[12:05:04.003] [INFO ]     ├─ Final URL:  https://www.cbe.org.eg/en/news-publications/news/2025/06/19/08/20/psos-and-psps-licensing-rules
+[12:05:04.003] [INFO ]     ├─ Title:      Central Bank of Egypt Issues Licensing and Registration Rules for Payment System Operators and Payment Service Providers
+[12:05:04.003] [INFO ]     └─ Load Time:  2.08s
+[12:05:05.237] [INFO ] 🧑 Human behavior simulation...
+[12:05:07.113] [INFO ] 🖱️ Mouse: 1 moves in 1366x768
+[12:05:07.113] [INFO ] 🖱️ Mouse completed: 1 moves
+[12:05:07.113] [INFO ] 📜 Scroll: page height, viewport=768px
+[12:05:07.113] [INFO ] 📜 Scroll completed: 2 scrolls
+[12:05:07.113] [INFO ] 🧑 Human behavior completed in 1.9s ✓
+[12:05:07.113] [INFO ] 
+[12:05:07.113] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:05:07.113] [INFO ]     ├─ Mouse Movements: 1
+[12:05:07.113] [INFO ]     ├─ Scroll Actions:  2
+[12:05:07.113] [INFO ]     └─ Time Spent:      1.88s
+[12:05:07.231] [INFO ] 
+[12:05:07.231] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:05:07.231] [INFO ]     │ Title:            Extracted Content (Fallback)
+[12:05:07.231] [INFO ]     │ Final URL:        https://www.cbe.org.eg/en/news-publications/news/2025/06/19/08/20/psos-and-psps-licensing-rules
+[12:05:07.231] [INFO ]     │ HTML Size:        201,951 bytes
+[12:05:07.231] [INFO ]     │ Text Size:        3,130 chars
+[12:05:07.231] [INFO ]     │ Word Count:       ~444 words
+[12:05:07.231] [INFO ]     │ Extraction:       fallback
+[12:05:07.231] [INFO ]     │ Has Article:      ✅ Yes
+[12:05:07.231] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:05:07.255] [INFO ] 
+[12:05:07.255] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:05:07.255] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_120501_D6EB
+[12:05:07.255] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:05:07.255] [INFO ] 
+[12:05:07.255] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:05:07.255] [INFO ]     │ Browser Launch:      0.06s
+[12:05:07.255] [INFO ]     │ Page Load:           2.08s
+[12:05:07.255] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:05:07.255] [INFO ]     │ Human Simulation:    1.88s
+[12:05:07.255] [INFO ]     │
+[12:05:07.255] [INFO ]     │ Content Extraction:  0.07s
+[12:05:07.255] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:05:07.255] [INFO ]     │ TOTAL TIME:          4.09s
+[12:05:07.255] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:05:07.255] [INFO ] 
+[12:05:07.256] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:05:07.256] [INFO ]     │ Title:            Extracted Content (Fallback)
+[12:05:07.256] [INFO ]     │ Final URL:        https://www.cbe.org.eg/en/news-publications/news/2025/06/19/08/20/psos-and-psps-licensing-rules
+[12:05:07.256] [INFO ]     │ HTML Size:        201,951 bytes
+[12:05:07.256] [INFO ]     │ Text Size:        3,130 chars
+[12:05:07.256] [INFO ]     │ Word Count:       ~444 words
+[12:05:07.256] [INFO ]     │ Extraction:       fallback
+[12:05:07.256] [INFO ]     │ Has Article:      ✅ Yes
+[12:05:07.256] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:05:07.256] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:05:07.256] [INFO ] ║  📊 SESSION STATS
+[12:05:07.256] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:05:07.256] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:05:07.256] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:05:07.256] [INFO ] ║  └─ Proxy Used:         Direct
+[12:05:07.256] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:05:07.256] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 5.76s
+ENDED: 2026-01-26T12:05:07.256128+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

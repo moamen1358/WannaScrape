@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://content.next.westlaw.com/practical-law/document/Ic71e7b7535de11ef8921fbef1a541940/GDPR-Compliance-for-Egyptian-Businesses?viewType=FullText&transitionType=Default&contextData=(sc.Default)
+Started: 2026-01-29 16:40:43
+Session ID: SCRAPE_20260129_164043_D4A6
+================================================================================
+[16:40:43.760] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_164043_content.next.westlaw.com.log
+[16:40:43.760] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[16:40:44.106] [INFO ] 
+[16:40:44.106] [INFO ]     🚀 BROWSER LAUNCHED
+[16:40:44.106] [INFO ]     ├─ Mode:       Headless
+[16:40:44.106] [INFO ]     ├─ Slow Mo:    41ms
+[16:40:44.106] [INFO ]     ├─ Launch Time: 0.06s
+[16:40:44.107] [INFO ]     └─ Args:       Anti-automation flags enabled
+[16:40:44.121] [DEBUG] Browser profile: viewport={'width': 1536, 'height': 864}, locale=en-US, tz=UTC
+[16:40:44.121] [INFO ] 
+[16:40:44.121] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[16:40:44.121] [INFO ] ║  📋 SESSION: SCRAPE_20260129_164043_D4A6
+[16:40:44.121] [INFO ] ║  🌐 URL: https://content.next.westlaw.com/practical-law/document/Ic71e7b7535de11ef8921fbef1a541940/GDPR-Compliance-for-Egyptian-Businesses?viewType=FullText&transitionType=Default&contextData=(sc.Default)
+[16:40:44.121] [INFO ] ║  🔄 ATTEMPT: 1/2
+[16:40:44.121] [INFO ] ║  ⏰ STARTED: 2026-01-29T16:40:44.121886+02:00 (Egypt Time)
+[16:40:44.121] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[16:40:44.121] [INFO ] 
+[16:40:44.121] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[16:40:44.121] [INFO ]     │ Browser:     CHROME v120
+[16:40:44.121] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[16:40:44.121] [INFO ]     │ Viewport:    1536x864
+[16:40:44.121] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[16:40:44.121] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[16:40:44.121] [INFO ]     │ Location:    Denver, USA
+[16:40:44.121] [INFO ]     │ Timezone:    N/A
+[16:40:44.121] [INFO ]     │ Locale:      en-US
+[16:40:44.121] [INFO ]     │ Geo:         0, 0
+[16:40:44.121] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[16:40:44.121] [INFO ]     │ Proxy:       Direct (no proxy)
+[16:40:44.121] [INFO ]     │ Referrer:    https://www.google.com/search?q=content+next+westlaw+com
+[16:40:44.121] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[16:40:44.121] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[16:40:44.121] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[16:40:44.121] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[16:40:44.121] [INFO ] 
+[16:40:44.121] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[16:40:44.121] [INFO ]     ├─ Canvas fingerprint noise
+[16:40:44.121] [INFO ]     ├─ WebGL renderer/vendor spoof
+[16:40:44.121] [INFO ]     ├─ Hardware concurrency randomization
+[16:40:44.121] [INFO ]     ├─ Device memory randomization
+[16:40:44.121] [INFO ]     ├─ Plugin masking
+[16:40:44.122] [INFO ]     ├─ WebRTC IP leak protection
+[16:40:44.122] [INFO ]     ├─ Network connection spoof
+[16:40:44.122] [INFO ]     └─ Battery API spoof
+[16:40:44.162] [INFO ] 
+[16:40:44.162] [INFO ]     🥷 STEALTH MODE APPLIED
+[16:40:44.162] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[16:40:44.162] [INFO ]     ├─ Chrome runtime patches
+[16:40:44.162] [INFO ]     ├─ Console patches
+[16:40:44.162] [INFO ]     └─ Permission patches
+[16:40:44.162] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[16:40:44.162] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[16:40:44.162] [INFO ] 
+[16:40:44.162] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[16:40:44.162] [INFO ]     ├─ Canvas fingerprint noise
+[16:40:44.162] [INFO ]     ├─ WebGL renderer/vendor spoof
+[16:40:44.162] [INFO ]     ├─ Hardware concurrency randomization
+[16:40:44.162] [INFO ]     ├─ Device memory randomization
+[16:40:44.162] [INFO ]     ├─ Plugin masking
+[16:40:44.162] [INFO ]     ├─ WebRTC IP leak protection
+[16:40:44.162] [INFO ]     ├─ Network connection spoof
+[16:40:44.162] [INFO ]     └─ Battery API spoof
+[16:40:44.162] [DEBUG] Enabled resource blocking (images, media, fonts)
+[16:40:44.162] [INFO ] 
+[16:40:44.162] [INFO ]     🔗 NAVIGATING TO URL
+[16:40:44.162] [INFO ]     ├─ Strategy:   domcontentloaded
+[16:40:44.162] [INFO ]     ├─ Timeout:    15.0s
+[16:40:44.162] [INFO ]     └─ Sleep:      1s after load
+[16:40:49.663] [INFO ] 
+[16:40:49.663] [INFO ]     ✅ PAGE LOADED
+[16:40:49.663] [INFO ]     ├─ Final URL:  https://content.next.westlaw.com/practical-law/document/Ic71e7b7535de11ef8921fbef1a541940/GDPR-Compliance-for-Egyptian-Businesses?viewType=FullText&transitionType=Default&contextData=(sc.Default)
+[16:40:49.663] [INFO ]     ├─ Title:      GDPR Compliance for Egyptian Businesses | Practical Law
+[16:40:49.663] [INFO ]     └─ Load Time:  5.50s
+[16:40:50.951] [INFO ] 🧑 Human behavior simulation...
+[16:40:55.798] [INFO ] 🖱️ Mouse: 4 moves in 1536x864
+[16:40:55.798] [INFO ] 🖱️ Mouse completed: 4 moves
+[16:40:55.798] [INFO ] 📜 Scroll: page height, viewport=864px
+[16:40:55.798] [INFO ] 📜 Scroll completed: 2 scrolls
+[16:40:55.798] [INFO ] 🧑 Human behavior completed in 4.8s ✓
+[16:40:55.798] [INFO ] 
+[16:40:55.798] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[16:40:55.798] [INFO ]     ├─ Mouse Movements: 4
+[16:40:55.798] [INFO ]     ├─ Scroll Actions:  2
+[16:40:55.798] [INFO ]     └─ Time Spent:      4.85s
+[16:40:55.921] [INFO ] 
+[16:40:55.921] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[16:40:55.921] [INFO ]     │ Title:            GDPR Compliance for Egyptian Businesses | Practica
+[16:40:55.921] [INFO ]     │ Final URL:        https://content.next.westlaw.com/practical-law/document/Ic71e7b7535de11ef8921fbef1a541940/GDPR-Compliance-for-Egyptian-Businesses?viewType=FullText&transitionType=Default&contextData=(sc.Default)
+[16:40:55.921] [INFO ]     │ HTML Size:        157,821 bytes
+[16:40:55.921] [INFO ]     │ Text Size:        1,197 chars
+[16:40:55.921] [INFO ]     │ Word Count:       ~180 words
+[16:40:55.921] [INFO ]     │ Extraction:       trafilatura
+[16:40:55.921] [INFO ]     │ Has Article:      ✅ Yes
+[16:40:55.921] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[16:40:55.951] [INFO ] 
+[16:40:55.951] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[16:40:55.951] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_164043_D4A6
+[16:40:55.951] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[16:40:55.951] [INFO ] 
+[16:40:55.951] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[16:40:55.951] [INFO ]     │ Browser Launch:      0.06s
+[16:40:55.951] [INFO ]     │ Page Load:           5.50s
+[16:40:55.951] [INFO ]     │ Cloudflare Wait:     0.00s
+[16:40:55.951] [INFO ]     │ Human Simulation:    4.85s
+[16:40:55.951] [INFO ]     │
+[16:40:55.951] [INFO ]     │ Content Extraction:  0.08s
+[16:40:55.951] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[16:40:55.951] [INFO ]     │ TOTAL TIME:          10.49s
+[16:40:55.951] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[16:40:55.951] [INFO ] 
+[16:40:55.951] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[16:40:55.951] [INFO ]     │ Title:            GDPR Compliance for Egyptian Businesses | Practica
+[16:40:55.951] [INFO ]     │ Final URL:        https://content.next.westlaw.com/practical-law/document/Ic71e7b7535de11ef8921fbef1a541940/GDPR-Compliance-for-Egyptian-Businesses?viewType=FullText&transitionType=Default&contextData=(sc.Default)
+[16:40:55.951] [INFO ]     │ HTML Size:        157,821 bytes
+[16:40:55.951] [INFO ]     │ Text Size:        1,197 chars
+[16:40:55.951] [INFO ]     │ Word Count:       ~180 words
+[16:40:55.951] [INFO ]     │ Extraction:       trafilatura
+[16:40:55.951] [INFO ]     │ Has Article:      ✅ Yes
+[16:40:55.951] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[16:40:55.951] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[16:40:55.951] [INFO ] ║  📊 SESSION STATS
+[16:40:55.951] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[16:40:55.951] [INFO ] ║  ├─ Popups Dismissed:   0
+[16:40:55.951] [INFO ] ║  ├─ Cloudflare:         Not detected
+[16:40:55.951] [INFO ] ║  └─ Proxy Used:         Direct
+[16:40:55.951] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[16:40:55.951] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 12.19s
+ENDED: 2026-01-29T16:40:55.951487+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

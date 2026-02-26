@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.linkedin.com/posts/drenyandpartners_cbe-new-regulation-2025-activity-7341483558483460099-QqJ0
+Started: 2026-01-26 12:17:52
+Session ID: SCRAPE_20260126_121752_2D5B
+================================================================================
+[12:17:52.287] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_121752_linkedin.com.log
+[12:17:52.287] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:17:52.636] [INFO ] 
+[12:17:52.636] [INFO ]     🚀 BROWSER LAUNCHED
+[12:17:52.636] [INFO ]     ├─ Mode:       Headless
+[12:17:52.636] [INFO ]     ├─ Slow Mo:    56ms
+[12:17:52.636] [INFO ]     ├─ Launch Time: 0.06s
+[12:17:52.636] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:17:52.652] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-AU, tz=UTC
+[12:17:52.652] [INFO ] 
+[12:17:52.652] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:17:52.652] [INFO ] ║  📋 SESSION: SCRAPE_20260126_121752_2D5B
+[12:17:52.652] [INFO ] ║  🌐 URL: https://www.linkedin.com/posts/drenyandpartners_cbe-new-regulation-2025-activity-7341483558483460099-QqJ0
+[12:17:52.652] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:17:52.652] [INFO ] ║  ⏰ STARTED: 2026-01-26T12:17:52.652328+02:00 (Egypt Time)
+[12:17:52.652] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:17:52.652] [INFO ] 
+[12:17:52.652] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:17:52.652] [INFO ]     │ Browser:     FIREFOX v121
+[12:17:52.652] [INFO ]     │ User-Agent:  Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firef...
+[12:17:52.652] [INFO ]     │ Viewport:    2560x1440
+[12:17:52.652] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:17:52.652] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:17:52.652] [INFO ]     │ Location:    Brisbane, Australia
+[12:17:52.652] [INFO ]     │ Timezone:    N/A
+[12:17:52.652] [INFO ]     │ Locale:      en-AU
+[12:17:52.652] [INFO ]     │ Geo:         0, 0
+[12:17:52.652] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:17:52.652] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:17:52.652] [INFO ]     │ Referrer:    https://www.google.com/
+[12:17:52.652] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:17:52.652] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:17:52.652] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:17:52.652] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:17:52.652] [INFO ] 
+[12:17:52.652] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:17:52.652] [INFO ]     ├─ Canvas fingerprint noise
+[12:17:52.652] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:17:52.652] [INFO ]     ├─ Hardware concurrency randomization
+[12:17:52.652] [INFO ]     ├─ Device memory randomization
+[12:17:52.652] [INFO ]     ├─ Plugin masking
+[12:17:52.652] [INFO ]     ├─ WebRTC IP leak protection
+[12:17:52.652] [INFO ]     ├─ Network connection spoof
+[12:17:52.652] [INFO ]     └─ Battery API spoof
+[12:17:52.695] [INFO ] 
+[12:17:52.695] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:17:52.695] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:17:52.695] [INFO ]     ├─ Chrome runtime patches
+[12:17:52.695] [INFO ]     ├─ Console patches
+[12:17:52.695] [INFO ]     └─ Permission patches
+[12:17:52.695] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:17:52.695] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:17:52.695] [INFO ] 
+[12:17:52.695] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:17:52.695] [INFO ]     ├─ Canvas fingerprint noise
+[12:17:52.695] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:17:52.695] [INFO ]     ├─ Hardware concurrency randomization
+[12:17:52.695] [INFO ]     ├─ Device memory randomization
+[12:17:52.695] [INFO ]     ├─ Plugin masking
+[12:17:52.695] [INFO ]     ├─ WebRTC IP leak protection
+[12:17:52.695] [INFO ]     ├─ Network connection spoof
+[12:17:52.695] [INFO ]     └─ Battery API spoof
+[12:17:52.695] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:17:52.695] [INFO ] 
+[12:17:52.695] [INFO ]     🔗 NAVIGATING TO URL
+[12:17:52.695] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:17:52.695] [INFO ]     ├─ Timeout:    15.0s
+[12:17:52.695] [INFO ]     └─ Sleep:      1s after load
+[12:17:53.878] [INFO ] 
+[12:17:53.878] [INFO ]     ✅ PAGE LOADED
+[12:17:53.878] [INFO ]     ├─ Final URL:  https://www.linkedin.com/posts/drenyandpartners_cbe-new-regulation-2025-activity-7341483558483460099-QqJ0
+[12:17:53.878] [INFO ]     ├─ Title:      CBE issues fintech regulations in Egypt | Dreny and Partners posted on the topic | LinkedIn
+[12:17:53.878] [INFO ]     └─ Load Time:  1.18s
+[12:17:55.282] [INFO ] 🧑 Human behavior simulation...
+[12:18:00.302] [INFO ] 🖱️ Mouse: 3 moves in 2560x1440
+[12:18:00.302] [INFO ] 🖱️ Mouse completed: 3 moves
+[12:18:00.302] [INFO ] 📜 Scroll: page height, viewport=1440px
+[12:18:00.302] [INFO ] 📜 Scroll completed: 2 scrolls
+[12:18:00.302] [INFO ] 🧑 Human behavior completed in 5.0s ✓
+[12:18:00.302] [INFO ] 
+[12:18:00.302] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:18:00.302] [INFO ]     ├─ Mouse Movements: 3
+[12:18:00.302] [INFO ]     ├─ Scroll Actions:  2
+[12:18:00.302] [INFO ]     └─ Time Spent:      5.02s
+[12:18:00.572] [INFO ] 
+[12:18:00.572] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:18:00.572] [INFO ]     │ Title:            CBE issues fintech regulations in Egypt | Dreny an
+[12:18:00.572] [INFO ]     │ Final URL:        https://www.linkedin.com/posts/drenyandpartners_cbe-new-regulation-2025-activity-7341483558483460099-QqJ0
+[12:18:00.572] [INFO ]     │ HTML Size:        279,469 bytes
+[12:18:00.572] [INFO ]     │ Text Size:        9,860 chars
+[12:18:00.572] [INFO ]     │ Word Count:       ~1459 words
+[12:18:00.572] [INFO ]     │ Extraction:       trafilatura
+[12:18:00.572] [INFO ]     │ Has Article:      ✅ Yes
+[12:18:00.572] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:18:00.604] [INFO ] 
+[12:18:00.604] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:18:00.604] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_121752_2D5B
+[12:18:00.604] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:18:00.604] [INFO ] 
+[12:18:00.604] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:18:00.604] [INFO ]     │ Browser Launch:      0.06s
+[12:18:00.604] [INFO ]     │ Page Load:           1.18s
+[12:18:00.604] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:18:00.604] [INFO ]     │ Human Simulation:    5.02s
+[12:18:00.604] [INFO ]     │
+[12:18:00.604] [INFO ]     │ Content Extraction:  0.12s
+[12:18:00.604] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:18:00.604] [INFO ]     │ TOTAL TIME:          6.38s
+[12:18:00.604] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:18:00.604] [INFO ] 
+[12:18:00.604] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:18:00.604] [INFO ]     │ Title:            CBE issues fintech regulations in Egypt | Dreny an
+[12:18:00.604] [INFO ]     │ Final URL:        https://www.linkedin.com/posts/drenyandpartners_cbe-new-regulation-2025-activity-7341483558483460099-QqJ0
+[12:18:00.604] [INFO ]     │ HTML Size:        279,469 bytes
+[12:18:00.604] [INFO ]     │ Text Size:        9,860 chars
+[12:18:00.604] [INFO ]     │ Word Count:       ~1459 words
+[12:18:00.604] [INFO ]     │ Extraction:       trafilatura
+[12:18:00.604] [INFO ]     │ Has Article:      ✅ Yes
+[12:18:00.604] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:18:00.604] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:18:00.604] [INFO ] ║  📊 SESSION STATS
+[12:18:00.604] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:18:00.604] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:18:00.604] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:18:00.604] [INFO ] ║  └─ Proxy Used:         Direct
+[12:18:00.604] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:18:00.604] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.32s
+ENDED: 2026-01-26T12:18:00.604931+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

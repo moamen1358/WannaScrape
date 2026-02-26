@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://trustarc.com/regulations/egypt-pdpl/
+Started: 2026-01-29 16:41:43
+Session ID: SCRAPE_20260129_164143_A346
+================================================================================
+[16:41:43.763] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_164143_trustarc.com.log
+[16:41:43.763] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[16:41:44.109] [INFO ] 
+[16:41:44.109] [INFO ]     🚀 BROWSER LAUNCHED
+[16:41:44.110] [INFO ]     ├─ Mode:       Headless
+[16:41:44.110] [INFO ]     ├─ Slow Mo:    58ms
+[16:41:44.110] [INFO ]     ├─ Launch Time: 0.06s
+[16:41:44.110] [INFO ]     └─ Args:       Anti-automation flags enabled
+[16:41:44.127] [DEBUG] Browser profile: viewport={'width': 1600, 'height': 900}, locale=en-US, tz=UTC
+[16:41:44.127] [INFO ] 
+[16:41:44.127] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[16:41:44.127] [INFO ] ║  📋 SESSION: SCRAPE_20260129_164143_A346
+[16:41:44.127] [INFO ] ║  🌐 URL: https://trustarc.com/regulations/egypt-pdpl/
+[16:41:44.127] [INFO ] ║  🔄 ATTEMPT: 1/2
+[16:41:44.127] [INFO ] ║  ⏰ STARTED: 2026-01-29T16:41:44.127763+02:00 (Egypt Time)
+[16:41:44.127] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[16:41:44.127] [INFO ] 
+[16:41:44.127] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[16:41:44.127] [INFO ]     │ Browser:     CHROME v120
+[16:41:44.127] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[16:41:44.127] [INFO ]     │ Viewport:    1600x900
+[16:41:44.127] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[16:41:44.127] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[16:41:44.127] [INFO ]     │ Location:    Miami, USA
+[16:41:44.127] [INFO ]     │ Timezone:    N/A
+[16:41:44.127] [INFO ]     │ Locale:      en-US
+[16:41:44.127] [INFO ]     │ Geo:         0, 0
+[16:41:44.127] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[16:41:44.127] [INFO ]     │ Proxy:       Direct (no proxy)
+[16:41:44.127] [INFO ]     │ Referrer:    https://www.google.com/
+[16:41:44.127] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[16:41:44.127] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[16:41:44.127] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[16:41:44.127] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[16:41:44.127] [INFO ] 
+[16:41:44.127] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[16:41:44.127] [INFO ]     ├─ Canvas fingerprint noise
+[16:41:44.127] [INFO ]     ├─ WebGL renderer/vendor spoof
+[16:41:44.127] [INFO ]     ├─ Hardware concurrency randomization
+[16:41:44.127] [INFO ]     ├─ Device memory randomization
+[16:41:44.127] [INFO ]     ├─ Plugin masking
+[16:41:44.127] [INFO ]     ├─ WebRTC IP leak protection
+[16:41:44.127] [INFO ]     ├─ Network connection spoof
+[16:41:44.127] [INFO ]     └─ Battery API spoof
+[16:41:44.169] [INFO ] 
+[16:41:44.169] [INFO ]     🥷 STEALTH MODE APPLIED
+[16:41:44.169] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[16:41:44.170] [INFO ]     ├─ Chrome runtime patches
+[16:41:44.170] [INFO ]     ├─ Console patches
+[16:41:44.170] [INFO ]     └─ Permission patches
+[16:41:44.170] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[16:41:44.170] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[16:41:44.170] [INFO ] 
+[16:41:44.170] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[16:41:44.170] [INFO ]     ├─ Canvas fingerprint noise
+[16:41:44.170] [INFO ]     ├─ WebGL renderer/vendor spoof
+[16:41:44.170] [INFO ]     ├─ Hardware concurrency randomization
+[16:41:44.170] [INFO ]     ├─ Device memory randomization
+[16:41:44.170] [INFO ]     ├─ Plugin masking
+[16:41:44.170] [INFO ]     ├─ WebRTC IP leak protection
+[16:41:44.170] [INFO ]     ├─ Network connection spoof
+[16:41:44.170] [INFO ]     └─ Battery API spoof
+[16:41:44.170] [DEBUG] Enabled resource blocking (images, media, fonts)
+[16:41:44.170] [INFO ] 
+[16:41:44.170] [INFO ]     🔗 NAVIGATING TO URL
+[16:41:44.170] [INFO ]     ├─ Strategy:   domcontentloaded
+[16:41:44.170] [INFO ]     ├─ Timeout:    15.0s
+[16:41:44.170] [INFO ]     └─ Sleep:      1s after load
+[16:41:45.339] [INFO ] 
+[16:41:45.339] [INFO ]     ✅ PAGE LOADED
+[16:41:45.339] [INFO ]     ├─ Final URL:  https://trustarc.com/regulations/egypt-pdpl/
+[16:41:45.339] [INFO ]     ├─ Title:      Personal Data Protection Law (PDPL) - Egypt | TrustArc
+[16:41:45.339] [INFO ]     └─ Load Time:  1.17s
+[16:41:47.536] [INFO ] 🧑 Human behavior simulation...
+[16:41:52.704] [INFO ] 🖱️ Mouse: 3 moves in 1600x900
+[16:41:52.704] [INFO ] 🖱️ Mouse completed: 3 moves
+[16:41:52.704] [INFO ] 📜 Scroll: page height, viewport=900px
+[16:41:52.704] [INFO ] 📜 Scroll completed: 1 scrolls
+[16:41:52.704] [INFO ] 🧑 Human behavior completed in 5.2s ✓
+[16:41:52.704] [INFO ] 
+[16:41:52.704] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[16:41:52.704] [INFO ]     ├─ Mouse Movements: 3
+[16:41:52.704] [INFO ]     ├─ Scroll Actions:  1
+[16:41:52.704] [INFO ]     └─ Time Spent:      5.17s
+[16:41:52.852] [INFO ] 
+[16:41:52.852] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[16:41:52.852] [INFO ]     │ Title:            Personal Data Protection Law (PDPL) - Egypt | Trus
+[16:41:52.852] [INFO ]     │ Final URL:        https://trustarc.com/regulations/egypt-pdpl/
+[16:41:52.852] [INFO ]     │ HTML Size:        78,266 bytes
+[16:41:52.852] [INFO ]     │ Text Size:        3,048 chars
+[16:41:52.852] [INFO ]     │ Word Count:       ~432 words
+[16:41:52.852] [INFO ]     │ Extraction:       trafilatura
+[16:41:52.852] [INFO ]     │ Has Article:      ✅ Yes
+[16:41:52.852] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[16:41:52.886] [INFO ] 
+[16:41:52.886] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[16:41:52.886] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_164143_A346
+[16:41:52.886] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[16:41:52.886] [INFO ] 
+[16:41:52.886] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[16:41:52.886] [INFO ]     │ Browser Launch:      0.06s
+[16:41:52.886] [INFO ]     │ Page Load:           1.17s
+[16:41:52.886] [INFO ]     │ Cloudflare Wait:     0.00s
+[16:41:52.886] [INFO ]     │ Human Simulation:    5.17s
+[16:41:52.886] [INFO ]     │
+[16:41:52.886] [INFO ]     │ Content Extraction:  0.05s
+[16:41:52.886] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[16:41:52.886] [INFO ]     │ TOTAL TIME:          6.45s
+[16:41:52.886] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[16:41:52.886] [INFO ] 
+[16:41:52.886] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[16:41:52.886] [INFO ]     │ Title:            Personal Data Protection Law (PDPL) - Egypt | Trus
+[16:41:52.886] [INFO ]     │ Final URL:        https://trustarc.com/regulations/egypt-pdpl/
+[16:41:52.886] [INFO ]     │ HTML Size:        78,266 bytes
+[16:41:52.886] [INFO ]     │ Text Size:        3,048 chars
+[16:41:52.886] [INFO ]     │ Word Count:       ~432 words
+[16:41:52.886] [INFO ]     │ Extraction:       trafilatura
+[16:41:52.886] [INFO ]     │ Has Article:      ✅ Yes
+[16:41:52.886] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[16:41:52.886] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[16:41:52.886] [INFO ] ║  📊 SESSION STATS
+[16:41:52.886] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[16:41:52.886] [INFO ] ║  ├─ Popups Dismissed:   0
+[16:41:52.886] [INFO ] ║  ├─ Cloudflare:         Not detected
+[16:41:52.886] [INFO ] ║  └─ Proxy Used:         Direct
+[16:41:52.886] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[16:41:52.886] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 9.12s
+ENDED: 2026-01-29T16:41:52.886905+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

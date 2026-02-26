@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.clydeco.com/en/insights/2020/10/egypt-s-data-protection-law-enters-into-force
+Started: 2026-01-30 00:07:01
+Session ID: SCRAPE_20260130_000701_91C4
+================================================================================
+[00:07:01.616] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_000701_clydeco.com.log
+[00:07:01.616] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[00:07:01.963] [INFO ] 
+[00:07:01.963] [INFO ]     🚀 BROWSER LAUNCHED
+[00:07:01.963] [INFO ]     ├─ Mode:       Headless
+[00:07:01.963] [INFO ]     ├─ Slow Mo:    60ms
+[00:07:01.963] [INFO ]     ├─ Launch Time: 0.06s
+[00:07:01.963] [INFO ]     └─ Args:       Anti-automation flags enabled
+[00:07:01.981] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-IE, tz=UTC
+[00:07:01.981] [INFO ] 
+[00:07:01.981] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:07:01.981] [INFO ] ║  📋 SESSION: SCRAPE_20260130_000701_91C4
+[00:07:01.981] [INFO ] ║  🌐 URL: https://www.clydeco.com/en/insights/2020/10/egypt-s-data-protection-law-enters-into-force
+[00:07:01.981] [INFO ] ║  🔄 ATTEMPT: 1/2
+[00:07:01.981] [INFO ] ║  ⏰ STARTED: 2026-01-30T00:07:01.981792+02:00 (Egypt Time)
+[00:07:01.981] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:07:01.981] [INFO ] 
+[00:07:01.981] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[00:07:01.981] [INFO ]     │ Browser:     EDGE v120
+[00:07:01.981] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[00:07:01.981] [INFO ]     │ Viewport:    1366x768
+[00:07:01.981] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[00:07:01.981] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[00:07:01.981] [INFO ]     │ Location:    Dublin, Ireland
+[00:07:01.981] [INFO ]     │ Timezone:    N/A
+[00:07:01.981] [INFO ]     │ Locale:      en-IE
+[00:07:01.981] [INFO ]     │ Geo:         0, 0
+[00:07:01.981] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[00:07:01.981] [INFO ]     │ Proxy:       Direct (no proxy)
+[00:07:01.981] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+clydeco+com
+[00:07:01.981] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:07:01.981] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:07:01.981] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[00:07:01.981] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:07:01.981] [INFO ] 
+[00:07:01.981] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[00:07:01.981] [INFO ]     ├─ Canvas fingerprint noise
+[00:07:01.981] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:07:01.981] [INFO ]     ├─ Hardware concurrency randomization
+[00:07:01.981] [INFO ]     ├─ Device memory randomization
+[00:07:01.981] [INFO ]     ├─ Plugin masking
+[00:07:01.981] [INFO ]     ├─ WebRTC IP leak protection
+[00:07:01.981] [INFO ]     ├─ Network connection spoof
+[00:07:01.981] [INFO ]     └─ Battery API spoof
+[00:07:02.024] [INFO ] 
+[00:07:02.024] [INFO ]     🥷 STEALTH MODE APPLIED
+[00:07:02.024] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[00:07:02.024] [INFO ]     ├─ Chrome runtime patches
+[00:07:02.024] [INFO ]     ├─ Console patches
+[00:07:02.024] [INFO ]     └─ Permission patches
+[00:07:02.024] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[00:07:02.024] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:07:02.024] [INFO ] 
+[00:07:02.024] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[00:07:02.024] [INFO ]     ├─ Canvas fingerprint noise
+[00:07:02.024] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:07:02.024] [INFO ]     ├─ Hardware concurrency randomization
+[00:07:02.024] [INFO ]     ├─ Device memory randomization
+[00:07:02.024] [INFO ]     ├─ Plugin masking
+[00:07:02.024] [INFO ]     ├─ WebRTC IP leak protection
+[00:07:02.024] [INFO ]     ├─ Network connection spoof
+[00:07:02.024] [INFO ]     └─ Battery API spoof
+[00:07:02.024] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:07:02.024] [INFO ] 
+[00:07:02.024] [INFO ]     🔗 NAVIGATING TO URL
+[00:07:02.024] [INFO ]     ├─ Strategy:   domcontentloaded
+[00:07:02.024] [INFO ]     ├─ Timeout:    15.0s
+[00:07:02.024] [INFO ]     └─ Sleep:      1s after load
+[00:07:03.794] [INFO ] 
+[00:07:03.794] [INFO ]     ✅ PAGE LOADED
+[00:07:03.794] [INFO ]     ├─ Final URL:  https://www.clydeco.com/en/insights/2020/10/egypt-s-data-protection-law-enters-into-force
+[00:07:03.794] [INFO ]     ├─ Title:      Egypt’s Data Protection Law enters into force : Clyde & Co
+[00:07:03.794] [INFO ]     └─ Load Time:  1.77s
+[00:07:06.085] [INFO ] 🧑 Human behavior simulation...
+[00:07:14.783] [INFO ] 🖱️ Mouse: 3 moves in 1366x768
+[00:07:14.783] [INFO ] 🖱️ Mouse completed: 3 moves
+[00:07:14.783] [INFO ] 📜 Scroll: page height, viewport=768px
+[00:07:14.783] [INFO ] 📜 Scroll completed: 3 scrolls
+[00:07:14.783] [INFO ] 🧑 Human behavior completed in 8.7s ✓
+[00:07:14.783] [INFO ] 
+[00:07:14.783] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[00:07:14.783] [INFO ]     ├─ Mouse Movements: 3
+[00:07:14.783] [INFO ]     ├─ Scroll Actions:  3
+[00:07:14.783] [INFO ]     └─ Time Spent:      8.70s
+[00:07:15.054] [INFO ] 
+[00:07:15.054] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[00:07:15.054] [INFO ]     │ Title:            Egypt’s Data Protection Law enters into force : Cl
+[00:07:15.054] [INFO ]     │ Final URL:        https://www.clydeco.com/en/insights/2020/10/egypt-s-data-protection-law-enters-into-force
+[00:07:15.054] [INFO ]     │ HTML Size:        325,383 bytes
+[00:07:15.054] [INFO ]     │ Text Size:        15,891 chars
+[00:07:15.054] [INFO ]     │ Word Count:       ~2546 words
+[00:07:15.054] [INFO ]     │ Extraction:       trafilatura
+[00:07:15.054] [INFO ]     │ Has Article:      ✅ Yes
+[00:07:15.054] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:07:15.079] [INFO ] 
+[00:07:15.079] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:07:15.079] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260130_000701_91C4
+[00:07:15.079] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:07:15.079] [INFO ] 
+[00:07:15.079] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[00:07:15.079] [INFO ]     │ Browser Launch:      0.06s
+[00:07:15.079] [INFO ]     │ Page Load:           1.77s
+[00:07:15.079] [INFO ]     │ Cloudflare Wait:     0.00s
+[00:07:15.079] [INFO ]     │ Human Simulation:    8.70s
+[00:07:15.079] [INFO ]     │
+[00:07:15.079] [INFO ]     │ Content Extraction:  0.15s
+[00:07:15.079] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[00:07:15.079] [INFO ]     │ TOTAL TIME:          10.68s
+[00:07:15.079] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:07:15.079] [INFO ] 
+[00:07:15.079] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[00:07:15.079] [INFO ]     │ Title:            Egypt’s Data Protection Law enters into force : Cl
+[00:07:15.079] [INFO ]     │ Final URL:        https://www.clydeco.com/en/insights/2020/10/egypt-s-data-protection-law-enters-into-force
+[00:07:15.079] [INFO ]     │ HTML Size:        325,383 bytes
+[00:07:15.079] [INFO ]     │ Text Size:        15,891 chars
+[00:07:15.079] [INFO ]     │ Word Count:       ~2546 words
+[00:07:15.079] [INFO ]     │ Extraction:       trafilatura
+[00:07:15.079] [INFO ]     │ Has Article:      ✅ Yes
+[00:07:15.079] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:07:15.079] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:07:15.079] [INFO ] ║  📊 SESSION STATS
+[00:07:15.079] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[00:07:15.079] [INFO ] ║  ├─ Popups Dismissed:   0
+[00:07:15.079] [INFO ] ║  ├─ Cloudflare:         Not detected
+[00:07:15.079] [INFO ] ║  └─ Proxy Used:         Direct
+[00:07:15.079] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:07:15.079] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 13.46s
+ENDED: 2026-01-30T00:07:15.079940+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

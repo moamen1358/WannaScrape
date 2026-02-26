@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.veave.in/soc2-certification-in-cairo.html
+Started: 2026-01-29 19:03:54
+Session ID: SCRAPE_20260129_190354_CB0C
+================================================================================
+[19:03:54.904] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_190354_veave.in.log
+[19:03:54.904] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[19:03:55.246] [INFO ] 
+[19:03:55.246] [INFO ]     🚀 BROWSER LAUNCHED
+[19:03:55.246] [INFO ]     ├─ Mode:       Headless
+[19:03:55.246] [INFO ]     ├─ Slow Mo:    48ms
+[19:03:55.246] [INFO ]     ├─ Launch Time: 0.05s
+[19:03:55.246] [INFO ]     └─ Args:       Anti-automation flags enabled
+[19:03:55.264] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-IE, tz=UTC
+[19:03:55.264] [INFO ] 
+[19:03:55.264] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:03:55.264] [INFO ] ║  📋 SESSION: SCRAPE_20260129_190354_CB0C
+[19:03:55.264] [INFO ] ║  🌐 URL: https://www.veave.in/soc2-certification-in-cairo.html
+[19:03:55.264] [INFO ] ║  🔄 ATTEMPT: 1/2
+[19:03:55.264] [INFO ] ║  ⏰ STARTED: 2026-01-29T19:03:55.264415+02:00 (Egypt Time)
+[19:03:55.264] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:03:55.264] [INFO ] 
+[19:03:55.264] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[19:03:55.264] [INFO ]     │ Browser:     OPERA v105
+[19:03:55.264] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[19:03:55.264] [INFO ]     │ Viewport:    2560x1440
+[19:03:55.264] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[19:03:55.264] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[19:03:55.264] [INFO ]     │ Location:    Dublin, Ireland
+[19:03:55.264] [INFO ]     │ Timezone:    N/A
+[19:03:55.264] [INFO ]     │ Locale:      en-IE
+[19:03:55.264] [INFO ]     │ Geo:         0, 0
+[19:03:55.264] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[19:03:55.264] [INFO ]     │ Proxy:       Direct (no proxy)
+[19:03:55.264] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+veave+in
+[19:03:55.264] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:03:55.264] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:03:55.264] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[19:03:55.264] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:03:55.264] [INFO ] 
+[19:03:55.264] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[19:03:55.264] [INFO ]     ├─ Canvas fingerprint noise
+[19:03:55.264] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:03:55.264] [INFO ]     ├─ Hardware concurrency randomization
+[19:03:55.264] [INFO ]     ├─ Device memory randomization
+[19:03:55.264] [INFO ]     ├─ Plugin masking
+[19:03:55.264] [INFO ]     ├─ WebRTC IP leak protection
+[19:03:55.264] [INFO ]     ├─ Network connection spoof
+[19:03:55.264] [INFO ]     └─ Battery API spoof
+[19:03:55.305] [INFO ] 
+[19:03:55.305] [INFO ]     🥷 STEALTH MODE APPLIED
+[19:03:55.305] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[19:03:55.305] [INFO ]     ├─ Chrome runtime patches
+[19:03:55.305] [INFO ]     ├─ Console patches
+[19:03:55.305] [INFO ]     └─ Permission patches
+[19:03:55.305] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[19:03:55.305] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:03:55.305] [INFO ] 
+[19:03:55.305] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[19:03:55.305] [INFO ]     ├─ Canvas fingerprint noise
+[19:03:55.305] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:03:55.305] [INFO ]     ├─ Hardware concurrency randomization
+[19:03:55.305] [INFO ]     ├─ Device memory randomization
+[19:03:55.305] [INFO ]     ├─ Plugin masking
+[19:03:55.305] [INFO ]     ├─ WebRTC IP leak protection
+[19:03:55.305] [INFO ]     ├─ Network connection spoof
+[19:03:55.305] [INFO ]     └─ Battery API spoof
+[19:03:55.305] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:03:55.305] [INFO ] 
+[19:03:55.305] [INFO ]     🔗 NAVIGATING TO URL
+[19:03:55.305] [INFO ]     ├─ Strategy:   domcontentloaded
+[19:03:55.305] [INFO ]     ├─ Timeout:    15.0s
+[19:03:55.305] [INFO ]     └─ Sleep:      1s after load
+[19:03:59.487] [INFO ] 
+[19:03:59.487] [INFO ]     ✅ PAGE LOADED
+[19:03:59.487] [INFO ]     ├─ Final URL:  https://www.veave.in/soc2-certification-in-cairo.html
+[19:03:59.487] [INFO ]     ├─ Title:      SOC 2 Certification in Cairo | Type I & II Compliance Experts
+[19:03:59.487] [INFO ]     └─ Load Time:  4.18s
+[19:04:00.755] [INFO ] 🧑 Human behavior simulation...
+[19:04:03.218] [INFO ] 🖱️ Mouse: 1 moves in 2560x1440
+[19:04:03.218] [INFO ] 🖱️ Mouse completed: 1 moves
+[19:04:03.218] [INFO ] 📜 Scroll: page height, viewport=1440px
+[19:04:03.218] [INFO ] 📜 Scroll completed: 2 scrolls
+[19:04:03.218] [INFO ] 🧑 Human behavior completed in 2.5s ✓
+[19:04:03.218] [INFO ] 
+[19:04:03.218] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[19:04:03.218] [INFO ]     ├─ Mouse Movements: 1
+[19:04:03.218] [INFO ]     ├─ Scroll Actions:  2
+[19:04:03.218] [INFO ]     └─ Time Spent:      2.46s
+[19:04:03.607] [INFO ] 
+[19:04:03.607] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:04:03.607] [INFO ]     │ Title:            SOC 2 Certification in Cairo
+[19:04:03.607] [INFO ]     │ Final URL:        https://www.veave.in/soc2-certification-in-cairo.html
+[19:04:03.607] [INFO ]     │ HTML Size:        146,354 bytes
+[19:04:03.607] [INFO ]     │ Text Size:        10,595 chars
+[19:04:03.607] [INFO ]     │ Word Count:       ~1498 words
+[19:04:03.607] [INFO ]     │ Extraction:       trafilatura
+[19:04:03.607] [INFO ]     │ Has Article:      ✅ Yes
+[19:04:03.607] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:04:03.638] [INFO ] 
+[19:04:03.638] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:04:03.638] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_190354_CB0C
+[19:04:03.638] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:04:03.638] [INFO ] 
+[19:04:03.638] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[19:04:03.638] [INFO ]     │ Browser Launch:      0.05s
+[19:04:03.638] [INFO ]     │ Page Load:           4.18s
+[19:04:03.638] [INFO ]     │ Cloudflare Wait:     0.00s
+[19:04:03.638] [INFO ]     │ Human Simulation:    2.46s
+[19:04:03.638] [INFO ]     │
+[19:04:03.638] [INFO ]     │ Content Extraction:  0.30s
+[19:04:03.638] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[19:04:03.638] [INFO ]     │ TOTAL TIME:          7.00s
+[19:04:03.638] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:04:03.638] [INFO ] 
+[19:04:03.638] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:04:03.638] [INFO ]     │ Title:            SOC 2 Certification in Cairo
+[19:04:03.638] [INFO ]     │ Final URL:        https://www.veave.in/soc2-certification-in-cairo.html
+[19:04:03.638] [INFO ]     │ HTML Size:        146,354 bytes
+[19:04:03.638] [INFO ]     │ Text Size:        10,595 chars
+[19:04:03.638] [INFO ]     │ Word Count:       ~1498 words
+[19:04:03.638] [INFO ]     │ Extraction:       trafilatura
+[19:04:03.638] [INFO ]     │ Has Article:      ✅ Yes
+[19:04:03.638] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:04:03.638] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:04:03.638] [INFO ] ║  📊 SESSION STATS
+[19:04:03.638] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[19:04:03.638] [INFO ] ║  ├─ Popups Dismissed:   0
+[19:04:03.638] [INFO ] ║  ├─ Cloudflare:         Not detected
+[19:04:03.638] [INFO ] ║  └─ Proxy Used:         Direct
+[19:04:03.638] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:04:03.638] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.73s
+ENDED: 2026-01-29T19:04:03.638770+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

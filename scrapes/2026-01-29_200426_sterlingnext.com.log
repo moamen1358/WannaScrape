@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.sterlingnext.com/course/iso-iec-27005-risk-manager-certification-training/cairo
+Started: 2026-01-29 20:04:26
+Session ID: SCRAPE_20260129_200426_ED6D
+================================================================================
+[20:04:26.115] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_200426_sterlingnext.com.log
+[20:04:26.115] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[20:04:26.455] [INFO ] 
+[20:04:26.455] [INFO ]     🚀 BROWSER LAUNCHED
+[20:04:26.455] [INFO ]     ├─ Mode:       Headless
+[20:04:26.455] [INFO ]     ├─ Slow Mo:    54ms
+[20:04:26.455] [INFO ]     ├─ Launch Time: 0.05s
+[20:04:26.455] [INFO ]     └─ Args:       Anti-automation flags enabled
+[20:04:26.475] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-US, tz=UTC
+[20:04:26.475] [INFO ] 
+[20:04:26.475] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:04:26.475] [INFO ] ║  📋 SESSION: SCRAPE_20260129_200426_ED6D
+[20:04:26.475] [INFO ] ║  🌐 URL: https://www.sterlingnext.com/course/iso-iec-27005-risk-manager-certification-training/cairo
+[20:04:26.475] [INFO ] ║  🔄 ATTEMPT: 1/2
+[20:04:26.475] [INFO ] ║  ⏰ STARTED: 2026-01-29T20:04:26.475470+02:00 (Egypt Time)
+[20:04:26.475] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:04:26.475] [INFO ] 
+[20:04:26.475] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[20:04:26.475] [INFO ]     │ Browser:     CHROME v122
+[20:04:26.475] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[20:04:26.475] [INFO ]     │ Viewport:    1920x1080
+[20:04:26.475] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[20:04:26.475] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[20:04:26.475] [INFO ]     │ Location:    Houston, USA
+[20:04:26.475] [INFO ]     │ Timezone:    N/A
+[20:04:26.475] [INFO ]     │ Locale:      en-US
+[20:04:26.475] [INFO ]     │ Geo:         0, 0
+[20:04:26.475] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[20:04:26.475] [INFO ]     │ Proxy:       Direct (no proxy)
+[20:04:26.475] [INFO ]     │ Referrer:    None
+[20:04:26.475] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:04:26.475] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:04:26.475] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[20:04:26.475] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:04:26.475] [INFO ] 
+[20:04:26.475] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[20:04:26.475] [INFO ]     ├─ Canvas fingerprint noise
+[20:04:26.475] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:04:26.475] [INFO ]     ├─ Hardware concurrency randomization
+[20:04:26.475] [INFO ]     ├─ Device memory randomization
+[20:04:26.475] [INFO ]     ├─ Plugin masking
+[20:04:26.475] [INFO ]     ├─ WebRTC IP leak protection
+[20:04:26.475] [INFO ]     ├─ Network connection spoof
+[20:04:26.475] [INFO ]     └─ Battery API spoof
+[20:04:26.517] [INFO ] 
+[20:04:26.517] [INFO ]     🥷 STEALTH MODE APPLIED
+[20:04:26.517] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[20:04:26.517] [INFO ]     ├─ Chrome runtime patches
+[20:04:26.517] [INFO ]     ├─ Console patches
+[20:04:26.517] [INFO ]     └─ Permission patches
+[20:04:26.517] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[20:04:26.517] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:04:26.517] [INFO ] 
+[20:04:26.517] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[20:04:26.517] [INFO ]     ├─ Canvas fingerprint noise
+[20:04:26.517] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:04:26.517] [INFO ]     ├─ Hardware concurrency randomization
+[20:04:26.517] [INFO ]     ├─ Device memory randomization
+[20:04:26.517] [INFO ]     ├─ Plugin masking
+[20:04:26.517] [INFO ]     ├─ WebRTC IP leak protection
+[20:04:26.517] [INFO ]     ├─ Network connection spoof
+[20:04:26.517] [INFO ]     └─ Battery API spoof
+[20:04:26.517] [DEBUG] Enabled resource blocking (images, media, fonts)
+[20:04:26.517] [INFO ] 
+[20:04:26.517] [INFO ]     🔗 NAVIGATING TO URL
+[20:04:26.517] [INFO ]     ├─ Strategy:   domcontentloaded
+[20:04:26.517] [INFO ]     ├─ Timeout:    15.0s
+[20:04:26.517] [INFO ]     └─ Sleep:      1s after load
+[20:04:28.002] [INFO ] 
+[20:04:28.002] [INFO ]     ✅ PAGE LOADED
+[20:04:28.002] [INFO ]     ├─ Final URL:  https://www.sterlingnext.com/course/iso-iec-27005-risk-manager-certification-training/cairo
+[20:04:28.002] [INFO ]     ├─ Title:      ISO 27005 Risk Manager Training in Cairo
+[20:04:28.002] [INFO ]     └─ Load Time:  1.49s
+[20:04:29.633] [INFO ] 🧑 Human behavior simulation...
+[20:04:38.620] [INFO ] 🖱️ Mouse: 5 moves in 1920x1080
+[20:04:38.620] [INFO ] 🖱️ Mouse completed: 5 moves
+[20:04:38.620] [INFO ] 📜 Scroll: page height, viewport=1080px
+[20:04:38.620] [INFO ] 📜 Scroll completed: 1 scrolls
+[20:04:38.620] [INFO ] 🧑 Human behavior completed in 9.0s ✓
+[20:04:38.620] [INFO ] 
+[20:04:38.620] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[20:04:38.620] [INFO ]     ├─ Mouse Movements: 5
+[20:04:38.620] [INFO ]     ├─ Scroll Actions:  1
+[20:04:38.620] [INFO ]     └─ Time Spent:      8.99s
+[20:04:39.284] [INFO ] 
+[20:04:39.284] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:04:39.284] [INFO ]     │ Title:            ISO 27005 Risk Manager Training in Cairo
+[20:04:39.284] [INFO ]     │ Final URL:        https://www.sterlingnext.com/course/iso-iec-27005-risk-manager-certification-training/cairo
+[20:04:39.284] [INFO ]     │ HTML Size:        544,067 bytes
+[20:04:39.284] [INFO ]     │ Text Size:        14,293 chars
+[20:04:39.284] [INFO ]     │ Word Count:       ~2272 words
+[20:04:39.284] [INFO ]     │ Extraction:       trafilatura
+[20:04:39.284] [INFO ]     │ Has Article:      ✅ Yes
+[20:04:39.284] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:04:39.313] [INFO ] 
+[20:04:39.313] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:04:39.314] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_200426_ED6D
+[20:04:39.314] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:04:39.314] [INFO ] 
+[20:04:39.314] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[20:04:39.314] [INFO ]     │ Browser Launch:      0.05s
+[20:04:39.314] [INFO ]     │ Page Load:           1.49s
+[20:04:39.314] [INFO ]     │ Cloudflare Wait:     0.00s
+[20:04:39.314] [INFO ]     │ Human Simulation:    8.99s
+[20:04:39.314] [INFO ]     │
+[20:04:39.314] [INFO ]     │ Content Extraction:  0.49s
+[20:04:39.314] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[20:04:39.314] [INFO ]     │ TOTAL TIME:          11.02s
+[20:04:39.314] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:04:39.314] [INFO ] 
+[20:04:39.314] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:04:39.314] [INFO ]     │ Title:            ISO 27005 Risk Manager Training in Cairo
+[20:04:39.314] [INFO ]     │ Final URL:        https://www.sterlingnext.com/course/iso-iec-27005-risk-manager-certification-training/cairo
+[20:04:39.314] [INFO ]     │ HTML Size:        544,067 bytes
+[20:04:39.314] [INFO ]     │ Text Size:        14,293 chars
+[20:04:39.314] [INFO ]     │ Word Count:       ~2272 words
+[20:04:39.314] [INFO ]     │ Extraction:       trafilatura
+[20:04:39.314] [INFO ]     │ Has Article:      ✅ Yes
+[20:04:39.314] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:04:39.314] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:04:39.314] [INFO ] ║  📊 SESSION STATS
+[20:04:39.314] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[20:04:39.314] [INFO ] ║  ├─ Popups Dismissed:   0
+[20:04:39.314] [INFO ] ║  ├─ Cloudflare:         Not detected
+[20:04:39.314] [INFO ] ║  └─ Proxy Used:         Direct
+[20:04:39.314] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:04:39.314] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 13.20s
+ENDED: 2026-01-29T20:04:39.314415+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

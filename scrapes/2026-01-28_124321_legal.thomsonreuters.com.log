@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://legal.thomsonreuters.com/en/insights/articles/top-five-concerns-gdpr-compliance
+Started: 2026-01-28 12:43:21
+Session ID: SCRAPE_20260128_124321_F81B
+================================================================================
+[12:43:21.966] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-28_124321_legal.thomsonreuters.com.log
+[12:43:21.966] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:43:22.308] [INFO ] 
+[12:43:22.308] [INFO ]     🚀 BROWSER LAUNCHED
+[12:43:22.308] [INFO ]     ├─ Mode:       Headless
+[12:43:22.308] [INFO ]     ├─ Slow Mo:    42ms
+[12:43:22.308] [INFO ]     ├─ Launch Time: 0.05s
+[12:43:22.308] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:43:22.329] [DEBUG] Browser profile: viewport={'width': 1600, 'height': 900}, locale=en-GB, tz=UTC
+[12:43:22.329] [INFO ] 
+[12:43:22.329] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:43:22.329] [INFO ] ║  📋 SESSION: SCRAPE_20260128_124321_F81B
+[12:43:22.329] [INFO ] ║  🌐 URL: https://legal.thomsonreuters.com/en/insights/articles/top-five-concerns-gdpr-compliance
+[12:43:22.329] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:43:22.329] [INFO ] ║  ⏰ STARTED: 2026-01-28T12:43:22.329169+02:00 (Egypt Time)
+[12:43:22.329] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:43:22.329] [INFO ] 
+[12:43:22.329] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:43:22.329] [INFO ]     │ Browser:     CHROME v120
+[12:43:22.329] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[12:43:22.329] [INFO ]     │ Viewport:    1600x900
+[12:43:22.329] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:43:22.329] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:43:22.329] [INFO ]     │ Location:    Birmingham, UK
+[12:43:22.329] [INFO ]     │ Timezone:    N/A
+[12:43:22.329] [INFO ]     │ Locale:      en-GB
+[12:43:22.329] [INFO ]     │ Geo:         0, 0
+[12:43:22.329] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:43:22.329] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:43:22.329] [INFO ]     │ Referrer:    https://www.google.com/
+[12:43:22.329] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:43:22.329] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:43:22.329] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:43:22.329] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:43:22.329] [INFO ] 
+[12:43:22.329] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:43:22.329] [INFO ]     ├─ Canvas fingerprint noise
+[12:43:22.329] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:43:22.329] [INFO ]     ├─ Hardware concurrency randomization
+[12:43:22.329] [INFO ]     ├─ Device memory randomization
+[12:43:22.329] [INFO ]     ├─ Plugin masking
+[12:43:22.329] [INFO ]     ├─ WebRTC IP leak protection
+[12:43:22.329] [INFO ]     ├─ Network connection spoof
+[12:43:22.329] [INFO ]     └─ Battery API spoof
+[12:43:22.370] [INFO ] 
+[12:43:22.370] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:43:22.370] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:43:22.370] [INFO ]     ├─ Chrome runtime patches
+[12:43:22.370] [INFO ]     ├─ Console patches
+[12:43:22.370] [INFO ]     └─ Permission patches
+[12:43:22.370] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:43:22.370] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:43:22.370] [INFO ] 
+[12:43:22.370] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:43:22.370] [INFO ]     ├─ Canvas fingerprint noise
+[12:43:22.370] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:43:22.370] [INFO ]     ├─ Hardware concurrency randomization
+[12:43:22.370] [INFO ]     ├─ Device memory randomization
+[12:43:22.370] [INFO ]     ├─ Plugin masking
+[12:43:22.370] [INFO ]     ├─ WebRTC IP leak protection
+[12:43:22.370] [INFO ]     ├─ Network connection spoof
+[12:43:22.370] [INFO ]     └─ Battery API spoof
+[12:43:22.370] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:43:22.370] [INFO ] 
+[12:43:22.370] [INFO ]     🔗 NAVIGATING TO URL
+[12:43:22.370] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:43:22.370] [INFO ]     ├─ Timeout:    15.0s
+[12:43:22.370] [INFO ]     └─ Sleep:      1s after load
+[12:43:24.269] [INFO ] 
+[12:43:24.269] [INFO ]     ✅ PAGE LOADED
+[12:43:24.269] [INFO ]     ├─ Final URL:  https://legal.thomsonreuters.com/en/insights/articles/top-five-concerns-gdpr-compliance
+[12:43:24.269] [INFO ]     ├─ Title:      Top five concerns with GDPR compliance | Thomson Reuters
+[12:43:24.269] [INFO ]     └─ Load Time:  1.90s
+[12:43:26.195] [INFO ] 🧑 Human behavior simulation...
+[12:43:27.942] [INFO ] 🖱️ Mouse: 1 moves in 1600x900
+[12:43:27.942] [INFO ] 🖱️ Mouse completed: 1 moves
+[12:43:27.942] [INFO ] 📜 Scroll: page height, viewport=900px
+[12:43:27.942] [INFO ] 📜 Scroll completed: 1 scrolls
+[12:43:27.942] [INFO ] 🧑 Human behavior completed in 1.7s ✓
+[12:43:27.942] [INFO ] 
+[12:43:27.942] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:43:27.942] [INFO ]     ├─ Mouse Movements: 1
+[12:43:27.942] [INFO ]     ├─ Scroll Actions:  1
+[12:43:27.942] [INFO ]     └─ Time Spent:      1.75s
+[12:43:28.222] [INFO ] 
+[12:43:28.222] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:43:28.222] [INFO ]     │ Title:            Top five concerns with GDPR compliance
+[12:43:28.222] [INFO ]     │ Final URL:        https://legal.thomsonreuters.com/en/insights/articles/top-five-concerns-gdpr-compliance
+[12:43:28.222] [INFO ]     │ HTML Size:        526,650 bytes
+[12:43:28.222] [INFO ]     │ Text Size:        6,055 chars
+[12:43:28.222] [INFO ]     │ Word Count:       ~935 words
+[12:43:28.222] [INFO ]     │ Extraction:       trafilatura
+[12:43:28.222] [INFO ]     │ Has Article:      ✅ Yes
+[12:43:28.222] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:43:28.248] [INFO ] 
+[12:43:28.248] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:43:28.248] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260128_124321_F81B
+[12:43:28.248] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:43:28.248] [INFO ] 
+[12:43:28.248] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:43:28.248] [INFO ]     │ Browser Launch:      0.05s
+[12:43:28.248] [INFO ]     │ Page Load:           1.90s
+[12:43:28.248] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:43:28.248] [INFO ]     │ Human Simulation:    1.75s
+[12:43:28.248] [INFO ]     │
+[12:43:28.248] [INFO ]     │ Content Extraction:  0.12s
+[12:43:28.248] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:43:28.248] [INFO ]     │ TOTAL TIME:          3.82s
+[12:43:28.248] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:43:28.248] [INFO ] 
+[12:43:28.249] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:43:28.249] [INFO ]     │ Title:            Top five concerns with GDPR compliance
+[12:43:28.249] [INFO ]     │ Final URL:        https://legal.thomsonreuters.com/en/insights/articles/top-five-concerns-gdpr-compliance
+[12:43:28.249] [INFO ]     │ HTML Size:        526,650 bytes
+[12:43:28.249] [INFO ]     │ Text Size:        6,055 chars
+[12:43:28.249] [INFO ]     │ Word Count:       ~935 words
+[12:43:28.249] [INFO ]     │ Extraction:       trafilatura
+[12:43:28.249] [INFO ]     │ Has Article:      ✅ Yes
+[12:43:28.249] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:43:28.249] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:43:28.249] [INFO ] ║  📊 SESSION STATS
+[12:43:28.249] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:43:28.249] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:43:28.249] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:43:28.249] [INFO ] ║  └─ Proxy Used:         Direct
+[12:43:28.249] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:43:28.249] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 6.28s
+ENDED: 2026-01-28T12:43:28.249076+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.fortinet.com/resources/cyberglossary/soc-2-compliance
+Started: 2026-01-29 19:05:54
+Session ID: SCRAPE_20260129_190554_3970
+================================================================================
+[19:05:54.907] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_190554_fortinet.com.log
+[19:05:54.907] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[19:05:55.251] [INFO ] 
+[19:05:55.251] [INFO ]     🚀 BROWSER LAUNCHED
+[19:05:55.251] [INFO ]     ├─ Mode:       Headless
+[19:05:55.251] [INFO ]     ├─ Slow Mo:    56ms
+[19:05:55.251] [INFO ]     ├─ Launch Time: 0.06s
+[19:05:55.251] [INFO ]     └─ Args:       Anti-automation flags enabled
+[19:05:55.267] [DEBUG] Browser profile: viewport={'width': 1536, 'height': 864}, locale=en-CA, tz=UTC
+[19:05:55.267] [INFO ] 
+[19:05:55.267] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:05:55.267] [INFO ] ║  📋 SESSION: SCRAPE_20260129_190554_3970
+[19:05:55.267] [INFO ] ║  🌐 URL: https://www.fortinet.com/resources/cyberglossary/soc-2-compliance
+[19:05:55.267] [INFO ] ║  🔄 ATTEMPT: 1/2
+[19:05:55.267] [INFO ] ║  ⏰ STARTED: 2026-01-29T19:05:55.267457+02:00 (Egypt Time)
+[19:05:55.267] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:05:55.267] [INFO ] 
+[19:05:55.267] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[19:05:55.267] [INFO ]     │ Browser:     FIREFOX v122
+[19:05:55.267] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Fir...
+[19:05:55.267] [INFO ]     │ Viewport:    1536x864
+[19:05:55.267] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[19:05:55.267] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[19:05:55.267] [INFO ]     │ Location:    Toronto, Canada
+[19:05:55.267] [INFO ]     │ Timezone:    N/A
+[19:05:55.267] [INFO ]     │ Locale:      en-CA
+[19:05:55.267] [INFO ]     │ Geo:         0, 0
+[19:05:55.267] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[19:05:55.267] [INFO ]     │ Proxy:       Direct (no proxy)
+[19:05:55.267] [INFO ]     │ Referrer:    None
+[19:05:55.267] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:05:55.267] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:05:55.267] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[19:05:55.267] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:05:55.267] [INFO ] 
+[19:05:55.267] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[19:05:55.267] [INFO ]     ├─ Canvas fingerprint noise
+[19:05:55.267] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:05:55.267] [INFO ]     ├─ Hardware concurrency randomization
+[19:05:55.267] [INFO ]     ├─ Device memory randomization
+[19:05:55.267] [INFO ]     ├─ Plugin masking
+[19:05:55.267] [INFO ]     ├─ WebRTC IP leak protection
+[19:05:55.267] [INFO ]     ├─ Network connection spoof
+[19:05:55.267] [INFO ]     └─ Battery API spoof
+[19:05:55.308] [INFO ] 
+[19:05:55.308] [INFO ]     🥷 STEALTH MODE APPLIED
+[19:05:55.308] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[19:05:55.308] [INFO ]     ├─ Chrome runtime patches
+[19:05:55.308] [INFO ]     ├─ Console patches
+[19:05:55.308] [INFO ]     └─ Permission patches
+[19:05:55.308] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[19:05:55.308] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:05:55.308] [INFO ] 
+[19:05:55.308] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[19:05:55.308] [INFO ]     ├─ Canvas fingerprint noise
+[19:05:55.308] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:05:55.308] [INFO ]     ├─ Hardware concurrency randomization
+[19:05:55.308] [INFO ]     ├─ Device memory randomization
+[19:05:55.308] [INFO ]     ├─ Plugin masking
+[19:05:55.308] [INFO ]     ├─ WebRTC IP leak protection
+[19:05:55.308] [INFO ]     ├─ Network connection spoof
+[19:05:55.308] [INFO ]     └─ Battery API spoof
+[19:05:55.308] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:05:55.308] [INFO ] 
+[19:05:55.308] [INFO ]     🔗 NAVIGATING TO URL
+[19:05:55.308] [INFO ]     ├─ Strategy:   domcontentloaded
+[19:05:55.308] [INFO ]     ├─ Timeout:    15.0s
+[19:05:55.308] [INFO ]     └─ Sleep:      1s after load
+[19:05:57.356] [INFO ] 
+[19:05:57.356] [INFO ]     ✅ PAGE LOADED
+[19:05:57.356] [INFO ]     ├─ Final URL:  https://www.fortinet.com/resources/cyberglossary/soc-2-compliance
+[19:05:57.356] [INFO ]     ├─ Title:      What is SOC 2 Compliance? Guide to SOC 2 Compliance & Certification | Fortinet
+[19:05:57.356] [INFO ]     └─ Load Time:  2.05s
+[19:05:59.405] [INFO ] 🧑 Human behavior simulation...
+[19:06:03.130] [INFO ] 🖱️ Mouse: 3 moves in 1536x864
+[19:06:03.130] [INFO ] 🖱️ Mouse completed: 3 moves
+[19:06:03.130] [INFO ] 📜 Scroll: page height, viewport=864px
+[19:06:03.130] [INFO ] 📜 Scroll completed: 2 scrolls
+[19:06:03.130] [INFO ] 🧑 Human behavior completed in 3.7s ✓
+[19:06:03.130] [INFO ] 
+[19:06:03.130] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[19:06:03.130] [INFO ]     ├─ Mouse Movements: 3
+[19:06:03.130] [INFO ]     ├─ Scroll Actions:  2
+[19:06:03.130] [INFO ]     └─ Time Spent:      3.73s
+[19:06:04.243] [INFO ] 
+[19:06:04.243] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:06:04.243] [INFO ]     │ Title:            What is SOC 2 Compliance? Guide to SOC 2 Complianc
+[19:06:04.243] [INFO ]     │ Final URL:        https://www.fortinet.com/resources/cyberglossary/soc-2-compliance
+[19:06:04.243] [INFO ]     │ HTML Size:        476,114 bytes
+[19:06:04.243] [INFO ]     │ Text Size:        9,098 chars
+[19:06:04.243] [INFO ]     │ Word Count:       ~1382 words
+[19:06:04.243] [INFO ]     │ Extraction:       trafilatura
+[19:06:04.243] [INFO ]     │ Has Article:      ✅ Yes
+[19:06:04.243] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:06:04.280] [INFO ] 
+[19:06:04.280] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:06:04.280] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_190554_3970
+[19:06:04.280] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:06:04.280] [INFO ] 
+[19:06:04.280] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[19:06:04.280] [INFO ]     │ Browser Launch:      0.06s
+[19:06:04.280] [INFO ]     │ Page Load:           2.05s
+[19:06:04.280] [INFO ]     │ Cloudflare Wait:     0.00s
+[19:06:04.280] [INFO ]     │ Human Simulation:    3.73s
+[19:06:04.280] [INFO ]     │
+[19:06:04.280] [INFO ]     │ Content Extraction:  0.83s
+[19:06:04.280] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[19:06:04.280] [INFO ]     │ TOTAL TIME:          6.66s
+[19:06:04.280] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:06:04.280] [INFO ] 
+[19:06:04.280] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:06:04.280] [INFO ]     │ Title:            What is SOC 2 Compliance? Guide to SOC 2 Complianc
+[19:06:04.280] [INFO ]     │ Final URL:        https://www.fortinet.com/resources/cyberglossary/soc-2-compliance
+[19:06:04.280] [INFO ]     │ HTML Size:        476,114 bytes
+[19:06:04.280] [INFO ]     │ Text Size:        9,098 chars
+[19:06:04.280] [INFO ]     │ Word Count:       ~1382 words
+[19:06:04.280] [INFO ]     │ Extraction:       trafilatura
+[19:06:04.280] [INFO ]     │ Has Article:      ✅ Yes
+[19:06:04.280] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:06:04.280] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:06:04.280] [INFO ] ║  📊 SESSION STATS
+[19:06:04.280] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[19:06:04.280] [INFO ] ║  ├─ Popups Dismissed:   0
+[19:06:04.280] [INFO ] ║  ├─ Cloudflare:         Not detected
+[19:06:04.280] [INFO ] ║  └─ Proxy Used:         Direct
+[19:06:04.280] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:06:04.280] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 9.37s
+ENDED: 2026-01-29T19:06:04.280416+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

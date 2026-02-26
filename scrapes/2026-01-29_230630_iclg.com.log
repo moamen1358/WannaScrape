@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://iclg.com/practice-areas/data-protection-laws-and-regulations/egypt
+Started: 2026-01-29 23:06:30
+Session ID: SCRAPE_20260129_230630_7848
+================================================================================
+[23:06:30.196] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_230630_iclg.com.log
+[23:06:30.196] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[23:06:30.542] [INFO ] 
+[23:06:30.542] [INFO ]     🚀 BROWSER LAUNCHED
+[23:06:30.542] [INFO ]     ├─ Mode:       Headless
+[23:06:30.542] [INFO ]     ├─ Slow Mo:    45ms
+[23:06:30.542] [INFO ]     ├─ Launch Time: 0.05s
+[23:06:30.542] [INFO ]     └─ Args:       Anti-automation flags enabled
+[23:06:30.563] [DEBUG] Browser profile: viewport={'width': 1280, 'height': 720}, locale=en-CA, tz=UTC
+[23:06:30.563] [INFO ] 
+[23:06:30.563] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:06:30.563] [INFO ] ║  📋 SESSION: SCRAPE_20260129_230630_7848
+[23:06:30.563] [INFO ] ║  🌐 URL: https://iclg.com/practice-areas/data-protection-laws-and-regulations/egypt
+[23:06:30.563] [INFO ] ║  🔄 ATTEMPT: 1/2
+[23:06:30.563] [INFO ] ║  ⏰ STARTED: 2026-01-29T23:06:30.563782+02:00 (Egypt Time)
+[23:06:30.563] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:06:30.563] [INFO ] 
+[23:06:30.563] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[23:06:30.563] [INFO ]     │ Browser:     CHROME v121
+[23:06:30.563] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[23:06:30.563] [INFO ]     │ Viewport:    1280x720
+[23:06:30.563] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[23:06:30.563] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[23:06:30.563] [INFO ]     │ Location:    Vancouver, Canada
+[23:06:30.563] [INFO ]     │ Timezone:    N/A
+[23:06:30.563] [INFO ]     │ Locale:      en-CA
+[23:06:30.563] [INFO ]     │ Geo:         0, 0
+[23:06:30.563] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[23:06:30.563] [INFO ]     │ Proxy:       Direct (no proxy)
+[23:06:30.563] [INFO ]     │ Referrer:    None
+[23:06:30.563] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:06:30.563] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:06:30.563] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[23:06:30.563] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:06:30.563] [INFO ] 
+[23:06:30.563] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[23:06:30.563] [INFO ]     ├─ Canvas fingerprint noise
+[23:06:30.563] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:06:30.563] [INFO ]     ├─ Hardware concurrency randomization
+[23:06:30.563] [INFO ]     ├─ Device memory randomization
+[23:06:30.563] [INFO ]     ├─ Plugin masking
+[23:06:30.563] [INFO ]     ├─ WebRTC IP leak protection
+[23:06:30.563] [INFO ]     ├─ Network connection spoof
+[23:06:30.563] [INFO ]     └─ Battery API spoof
+[23:06:30.604] [INFO ] 
+[23:06:30.604] [INFO ]     🥷 STEALTH MODE APPLIED
+[23:06:30.604] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[23:06:30.604] [INFO ]     ├─ Chrome runtime patches
+[23:06:30.604] [INFO ]     ├─ Console patches
+[23:06:30.604] [INFO ]     └─ Permission patches
+[23:06:30.604] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[23:06:30.604] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:06:30.604] [INFO ] 
+[23:06:30.604] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[23:06:30.604] [INFO ]     ├─ Canvas fingerprint noise
+[23:06:30.604] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:06:30.604] [INFO ]     ├─ Hardware concurrency randomization
+[23:06:30.604] [INFO ]     ├─ Device memory randomization
+[23:06:30.604] [INFO ]     ├─ Plugin masking
+[23:06:30.604] [INFO ]     ├─ WebRTC IP leak protection
+[23:06:30.604] [INFO ]     ├─ Network connection spoof
+[23:06:30.604] [INFO ]     └─ Battery API spoof
+[23:06:30.604] [DEBUG] Enabled resource blocking (images, media, fonts)
+[23:06:30.604] [INFO ] 
+[23:06:30.604] [INFO ]     🔗 NAVIGATING TO URL
+[23:06:30.604] [INFO ]     ├─ Strategy:   domcontentloaded
+[23:06:30.604] [INFO ]     ├─ Timeout:    15.0s
+[23:06:30.604] [INFO ]     └─ Sleep:      1s after load
+[23:06:32.790] [INFO ] 
+[23:06:32.790] [INFO ]     ✅ PAGE LOADED
+[23:06:32.790] [INFO ]     ├─ Final URL:  https://iclg.com/practice-areas/data-protection-laws-and-regulations/egypt
+[23:06:32.790] [INFO ]     ├─ Title:      Data Protection Laws and Regulations Report 2025-2026 Egypt
+[23:06:32.790] [INFO ]     └─ Load Time:  2.19s
+[23:06:34.645] [INFO ] 🧑 Human behavior simulation...
+[23:06:39.458] [INFO ] 🖱️ Mouse: 3 moves in 1280x720
+[23:06:39.458] [INFO ] 🖱️ Mouse completed: 3 moves
+[23:06:39.458] [INFO ] 📜 Scroll: page height, viewport=720px
+[23:06:39.458] [INFO ] 📜 Scroll completed: 1 scrolls
+[23:06:39.458] [INFO ] 🧑 Human behavior completed in 4.8s ✓
+[23:06:39.458] [INFO ] 
+[23:06:39.458] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[23:06:39.458] [INFO ]     ├─ Mouse Movements: 3
+[23:06:39.458] [INFO ]     ├─ Scroll Actions:  1
+[23:06:39.458] [INFO ]     └─ Time Spent:      4.81s
+[23:06:39.697] [INFO ] 
+[23:06:39.697] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[23:06:39.697] [INFO ]     │ Title:            Data Protection Laws and Regulations Report 2025-2
+[23:06:39.697] [INFO ]     │ Final URL:        https://iclg.com/practice-areas/data-protection-laws-and-regulations/egypt
+[23:06:39.697] [INFO ]     │ HTML Size:        255,018 bytes
+[23:06:39.697] [INFO ]     │ Text Size:        76,163 chars
+[23:06:39.697] [INFO ]     │ Word Count:       ~11188 words
+[23:06:39.697] [INFO ]     │ Extraction:       trafilatura
+[23:06:39.697] [INFO ]     │ Has Article:      ✅ Yes
+[23:06:39.697] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:06:39.720] [INFO ] 
+[23:06:39.720] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:06:39.720] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_230630_7848
+[23:06:39.720] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:06:39.720] [INFO ] 
+[23:06:39.720] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[23:06:39.720] [INFO ]     │ Browser Launch:      0.05s
+[23:06:39.720] [INFO ]     │ Page Load:           2.19s
+[23:06:39.720] [INFO ]     │ Cloudflare Wait:     0.00s
+[23:06:39.720] [INFO ]     │ Human Simulation:    4.81s
+[23:06:39.720] [INFO ]     │
+[23:06:39.720] [INFO ]     │ Content Extraction:  0.18s
+[23:06:39.720] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[23:06:39.720] [INFO ]     │ TOTAL TIME:          7.24s
+[23:06:39.720] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:06:39.720] [INFO ] 
+[23:06:39.721] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[23:06:39.721] [INFO ]     │ Title:            Data Protection Laws and Regulations Report 2025-2
+[23:06:39.721] [INFO ]     │ Final URL:        https://iclg.com/practice-areas/data-protection-laws-and-regulations/egypt
+[23:06:39.721] [INFO ]     │ HTML Size:        255,018 bytes
+[23:06:39.721] [INFO ]     │ Text Size:        76,163 chars
+[23:06:39.721] [INFO ]     │ Word Count:       ~11188 words
+[23:06:39.721] [INFO ]     │ Extraction:       trafilatura
+[23:06:39.721] [INFO ]     │ Has Article:      ✅ Yes
+[23:06:39.721] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:06:39.721] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:06:39.721] [INFO ] ║  📊 SESSION STATS
+[23:06:39.721] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[23:06:39.721] [INFO ] ║  ├─ Popups Dismissed:   0
+[23:06:39.721] [INFO ] ║  ├─ Cloudflare:         Not detected
+[23:06:39.721] [INFO ] ║  └─ Proxy Used:         Direct
+[23:06:39.721] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:06:39.721] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 9.53s
+ENDED: 2026-01-29T23:06:39.721889+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

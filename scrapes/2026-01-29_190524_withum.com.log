@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.withum.com/service/soc-audit-services/soc2-compliance/
+Started: 2026-01-29 19:05:24
+Session ID: SCRAPE_20260129_190524_5620
+================================================================================
+[19:05:24.906] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_190524_withum.com.log
+[19:05:24.906] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[19:05:25.250] [INFO ] 
+[19:05:25.250] [INFO ]     🚀 BROWSER LAUNCHED
+[19:05:25.251] [INFO ]     ├─ Mode:       Headless
+[19:05:25.251] [INFO ]     ├─ Slow Mo:    45ms
+[19:05:25.251] [INFO ]     ├─ Launch Time: 0.06s
+[19:05:25.251] [INFO ]     └─ Args:       Anti-automation flags enabled
+[19:05:25.269] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-US, tz=UTC
+[19:05:25.269] [INFO ] 
+[19:05:25.269] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:05:25.269] [INFO ] ║  📋 SESSION: SCRAPE_20260129_190524_5620
+[19:05:25.269] [INFO ] ║  🌐 URL: https://www.withum.com/service/soc-audit-services/soc2-compliance/
+[19:05:25.269] [INFO ] ║  🔄 ATTEMPT: 1/2
+[19:05:25.269] [INFO ] ║  ⏰ STARTED: 2026-01-29T19:05:25.269707+02:00 (Egypt Time)
+[19:05:25.269] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:05:25.269] [INFO ] 
+[19:05:25.269] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[19:05:25.269] [INFO ]     │ Browser:     CHROME v120
+[19:05:25.269] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[19:05:25.269] [INFO ]     │ Viewport:    2560x1440
+[19:05:25.269] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[19:05:25.269] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[19:05:25.269] [INFO ]     │ Location:    Miami, USA
+[19:05:25.269] [INFO ]     │ Timezone:    N/A
+[19:05:25.269] [INFO ]     │ Locale:      en-US
+[19:05:25.269] [INFO ]     │ Geo:         0, 0
+[19:05:25.269] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[19:05:25.269] [INFO ]     │ Proxy:       Direct (no proxy)
+[19:05:25.269] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+withum+com
+[19:05:25.269] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:05:25.269] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:05:25.269] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[19:05:25.269] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:05:25.269] [INFO ] 
+[19:05:25.269] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[19:05:25.269] [INFO ]     ├─ Canvas fingerprint noise
+[19:05:25.269] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:05:25.269] [INFO ]     ├─ Hardware concurrency randomization
+[19:05:25.269] [INFO ]     ├─ Device memory randomization
+[19:05:25.269] [INFO ]     ├─ Plugin masking
+[19:05:25.269] [INFO ]     ├─ WebRTC IP leak protection
+[19:05:25.269] [INFO ]     ├─ Network connection spoof
+[19:05:25.269] [INFO ]     └─ Battery API spoof
+[19:05:25.311] [INFO ] 
+[19:05:25.311] [INFO ]     🥷 STEALTH MODE APPLIED
+[19:05:25.311] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[19:05:25.311] [INFO ]     ├─ Chrome runtime patches
+[19:05:25.311] [INFO ]     ├─ Console patches
+[19:05:25.311] [INFO ]     └─ Permission patches
+[19:05:25.311] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[19:05:25.311] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:05:25.311] [INFO ] 
+[19:05:25.311] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[19:05:25.311] [INFO ]     ├─ Canvas fingerprint noise
+[19:05:25.311] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:05:25.311] [INFO ]     ├─ Hardware concurrency randomization
+[19:05:25.311] [INFO ]     ├─ Device memory randomization
+[19:05:25.311] [INFO ]     ├─ Plugin masking
+[19:05:25.311] [INFO ]     ├─ WebRTC IP leak protection
+[19:05:25.311] [INFO ]     ├─ Network connection spoof
+[19:05:25.311] [INFO ]     └─ Battery API spoof
+[19:05:25.311] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:05:25.311] [INFO ] 
+[19:05:25.311] [INFO ]     🔗 NAVIGATING TO URL
+[19:05:25.311] [INFO ]     ├─ Strategy:   domcontentloaded
+[19:05:25.311] [INFO ]     ├─ Timeout:    15.0s
+[19:05:25.311] [INFO ]     └─ Sleep:      1s after load
+[19:05:27.000] [INFO ] 
+[19:05:27.000] [INFO ]     ✅ PAGE LOADED
+[19:05:27.000] [INFO ]     ├─ Final URL:  https://www.withum.com/service/risk-advisory-and-assurance-services/soc-audit-services/soc2-compliance/
+[19:05:27.000] [INFO ]     ├─ Title:      SOC 2 Compliance Services: Internal Control Reporting - Withum
+[19:05:27.000] [INFO ]     └─ Load Time:  1.69s
+[19:05:28.408] [INFO ] 🧑 Human behavior simulation...
+[19:05:33.859] [INFO ] 🖱️ Mouse: 3 moves in 2560x1440
+[19:05:33.859] [INFO ] 🖱️ Mouse completed: 3 moves
+[19:05:33.859] [INFO ] 📜 Scroll: page height, viewport=1440px
+[19:05:33.859] [INFO ] 📜 Scroll completed: 3 scrolls
+[19:05:33.859] [INFO ] 🧑 Human behavior completed in 5.5s ✓
+[19:05:33.859] [INFO ] 
+[19:05:33.859] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[19:05:33.859] [INFO ]     ├─ Mouse Movements: 3
+[19:05:33.859] [INFO ]     ├─ Scroll Actions:  3
+[19:05:33.859] [INFO ]     └─ Time Spent:      5.45s
+[19:05:34.196] [INFO ] 
+[19:05:34.196] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:05:34.196] [INFO ]     │ Title:            SOC 2 Compliance Services: Internal Control Report
+[19:05:34.196] [INFO ]     │ Final URL:        https://www.withum.com/service/risk-advisory-and-assurance-services/soc-audit-services/soc2-compliance/
+[19:05:34.196] [INFO ]     │ HTML Size:        668,234 bytes
+[19:05:34.196] [INFO ]     │ Text Size:        3,287 chars
+[19:05:34.196] [INFO ]     │ Word Count:       ~546 words
+[19:05:34.196] [INFO ]     │ Extraction:       trafilatura
+[19:05:34.196] [INFO ]     │ Has Article:      ✅ Yes
+[19:05:34.196] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:05:34.229] [INFO ] 
+[19:05:34.229] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:05:34.229] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_190524_5620
+[19:05:34.229] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:05:34.229] [INFO ] 
+[19:05:34.229] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[19:05:34.229] [INFO ]     │ Browser Launch:      0.06s
+[19:05:34.229] [INFO ]     │ Page Load:           1.69s
+[19:05:34.229] [INFO ]     │ Cloudflare Wait:     0.00s
+[19:05:34.229] [INFO ]     │ Human Simulation:    5.45s
+[19:05:34.229] [INFO ]     │
+[19:05:34.229] [INFO ]     │ Content Extraction:  0.15s
+[19:05:34.229] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[19:05:34.229] [INFO ]     │ TOTAL TIME:          7.34s
+[19:05:34.229] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:05:34.229] [INFO ] 
+[19:05:34.229] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:05:34.229] [INFO ]     │ Title:            SOC 2 Compliance Services: Internal Control Report
+[19:05:34.229] [INFO ]     │ Final URL:        https://www.withum.com/service/risk-advisory-and-assurance-services/soc-audit-services/soc2-compliance/
+[19:05:34.230] [INFO ]     │ HTML Size:        668,234 bytes
+[19:05:34.230] [INFO ]     │ Text Size:        3,287 chars
+[19:05:34.230] [INFO ]     │ Word Count:       ~546 words
+[19:05:34.230] [INFO ]     │ Extraction:       trafilatura
+[19:05:34.230] [INFO ]     │ Has Article:      ✅ Yes
+[19:05:34.230] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:05:34.230] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:05:34.230] [INFO ] ║  📊 SESSION STATS
+[19:05:34.230] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[19:05:34.230] [INFO ] ║  ├─ Popups Dismissed:   0
+[19:05:34.230] [INFO ] ║  ├─ Cloudflare:         Not detected
+[19:05:34.230] [INFO ] ║  └─ Proxy Used:         Direct
+[19:05:34.230] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:05:34.230] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 9.32s
+ENDED: 2026-01-29T19:05:34.230067+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

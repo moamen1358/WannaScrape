@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.cloud4c.com/blogs/sovereign-cloud-transformations-in-middle-east
+Started: 2026-01-29 21:04:27
+Session ID: SCRAPE_20260129_210427_720E
+================================================================================
+[21:04:27.558] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_210427_cloud4c.com.log
+[21:04:27.558] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[21:04:27.897] [INFO ] 
+[21:04:27.897] [INFO ]     🚀 BROWSER LAUNCHED
+[21:04:27.897] [INFO ]     ├─ Mode:       Headless
+[21:04:27.897] [INFO ]     ├─ Slow Mo:    40ms
+[21:04:27.897] [INFO ]     ├─ Launch Time: 0.06s
+[21:04:27.897] [INFO ]     └─ Args:       Anti-automation flags enabled
+[21:04:27.915] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-US, tz=UTC
+[21:04:27.915] [INFO ] 
+[21:04:27.915] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:04:27.915] [INFO ] ║  📋 SESSION: SCRAPE_20260129_210427_720E
+[21:04:27.915] [INFO ] ║  🌐 URL: https://www.cloud4c.com/blogs/sovereign-cloud-transformations-in-middle-east
+[21:04:27.915] [INFO ] ║  🔄 ATTEMPT: 1/2
+[21:04:27.915] [INFO ] ║  ⏰ STARTED: 2026-01-29T21:04:27.915227+02:00 (Egypt Time)
+[21:04:27.915] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:04:27.915] [INFO ] 
+[21:04:27.915] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[21:04:27.915] [INFO ]     │ Browser:     FIREFOX v123
+[21:04:27.915] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Fir...
+[21:04:27.915] [INFO ]     │ Viewport:    1680x1050
+[21:04:27.915] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[21:04:27.915] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[21:04:27.915] [INFO ]     │ Location:    Los Angeles, USA
+[21:04:27.915] [INFO ]     │ Timezone:    N/A
+[21:04:27.915] [INFO ]     │ Locale:      en-US
+[21:04:27.915] [INFO ]     │ Geo:         0, 0
+[21:04:27.915] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[21:04:27.915] [INFO ]     │ Proxy:       Direct (no proxy)
+[21:04:27.915] [INFO ]     │ Referrer:    https://www.google.com/
+[21:04:27.915] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:04:27.915] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:04:27.915] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[21:04:27.915] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:04:27.915] [INFO ] 
+[21:04:27.915] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[21:04:27.915] [INFO ]     ├─ Canvas fingerprint noise
+[21:04:27.915] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:04:27.915] [INFO ]     ├─ Hardware concurrency randomization
+[21:04:27.915] [INFO ]     ├─ Device memory randomization
+[21:04:27.915] [INFO ]     ├─ Plugin masking
+[21:04:27.915] [INFO ]     ├─ WebRTC IP leak protection
+[21:04:27.915] [INFO ]     ├─ Network connection spoof
+[21:04:27.915] [INFO ]     └─ Battery API spoof
+[21:04:27.957] [INFO ] 
+[21:04:27.957] [INFO ]     🥷 STEALTH MODE APPLIED
+[21:04:27.957] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[21:04:27.957] [INFO ]     ├─ Chrome runtime patches
+[21:04:27.957] [INFO ]     ├─ Console patches
+[21:04:27.957] [INFO ]     └─ Permission patches
+[21:04:27.957] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[21:04:27.957] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:04:27.957] [INFO ] 
+[21:04:27.957] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[21:04:27.957] [INFO ]     ├─ Canvas fingerprint noise
+[21:04:27.957] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:04:27.957] [INFO ]     ├─ Hardware concurrency randomization
+[21:04:27.957] [INFO ]     ├─ Device memory randomization
+[21:04:27.957] [INFO ]     ├─ Plugin masking
+[21:04:27.957] [INFO ]     ├─ WebRTC IP leak protection
+[21:04:27.957] [INFO ]     ├─ Network connection spoof
+[21:04:27.957] [INFO ]     └─ Battery API spoof
+[21:04:27.957] [DEBUG] Enabled resource blocking (images, media, fonts)
+[21:04:27.957] [INFO ] 
+[21:04:27.957] [INFO ]     🔗 NAVIGATING TO URL
+[21:04:27.957] [INFO ]     ├─ Strategy:   domcontentloaded
+[21:04:27.957] [INFO ]     ├─ Timeout:    15.0s
+[21:04:27.957] [INFO ]     └─ Sleep:      1s after load
+[21:04:32.497] [INFO ] 
+[21:04:32.497] [INFO ]     ✅ PAGE LOADED
+[21:04:32.497] [INFO ]     ├─ Final URL:  https://www.cloud4c.com/blogs/sovereign-cloud-transformations-in-middle-east
+[21:04:32.497] [INFO ]     ├─ Title:      Sovereign Cloud for Government Agencies in Middle East
+[21:04:32.497] [INFO ]     └─ Load Time:  4.54s
+[21:04:34.994] [INFO ] 🧑 Human behavior simulation...
+[21:04:37.999] [INFO ] 🖱️ Mouse: 1 moves in 1680x1050
+[21:04:37.999] [INFO ] 🖱️ Mouse completed: 1 moves
+[21:04:37.999] [INFO ] 📜 Scroll: page height, viewport=1050px
+[21:04:37.999] [INFO ] 📜 Scroll completed: 2 scrolls
+[21:04:37.999] [INFO ] 🧑 Human behavior completed in 3.0s ✓
+[21:04:37.999] [INFO ] 
+[21:04:37.999] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[21:04:37.999] [INFO ]     ├─ Mouse Movements: 1
+[21:04:37.999] [INFO ]     ├─ Scroll Actions:  2
+[21:04:37.999] [INFO ]     └─ Time Spent:      3.00s
+[21:04:38.574] [INFO ] 
+[21:04:38.574] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:04:38.574] [INFO ]     │ Title:            Sovereign Cloud for Government Agencies in Middle 
+[21:04:38.574] [INFO ]     │ Final URL:        https://www.cloud4c.com/blogs/sovereign-cloud-transformations-in-middle-east
+[21:04:38.574] [INFO ]     │ HTML Size:        149,660 bytes
+[21:04:38.574] [INFO ]     │ Text Size:        20,150 chars
+[21:04:38.574] [INFO ]     │ Word Count:       ~2911 words
+[21:04:38.574] [INFO ]     │ Extraction:       trafilatura
+[21:04:38.574] [INFO ]     │ Has Article:      ✅ Yes
+[21:04:38.574] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:04:38.613] [INFO ] 
+[21:04:38.613] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:04:38.613] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_210427_720E
+[21:04:38.613] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:04:38.613] [INFO ] 
+[21:04:38.613] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[21:04:38.613] [INFO ]     │ Browser Launch:      0.06s
+[21:04:38.613] [INFO ]     │ Page Load:           4.54s
+[21:04:38.613] [INFO ]     │ Cloudflare Wait:     0.00s
+[21:04:38.613] [INFO ]     │ Human Simulation:    3.00s
+[21:04:38.614] [INFO ]     │
+[21:04:38.614] [INFO ]     │ Content Extraction:  0.18s
+[21:04:38.614] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[21:04:38.614] [INFO ]     │ TOTAL TIME:          7.78s
+[21:04:38.614] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:04:38.614] [INFO ] 
+[21:04:38.614] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:04:38.614] [INFO ]     │ Title:            Sovereign Cloud for Government Agencies in Middle 
+[21:04:38.614] [INFO ]     │ Final URL:        https://www.cloud4c.com/blogs/sovereign-cloud-transformations-in-middle-east
+[21:04:38.614] [INFO ]     │ HTML Size:        149,660 bytes
+[21:04:38.614] [INFO ]     │ Text Size:        20,150 chars
+[21:04:38.614] [INFO ]     │ Word Count:       ~2911 words
+[21:04:38.614] [INFO ]     │ Extraction:       trafilatura
+[21:04:38.614] [INFO ]     │ Has Article:      ✅ Yes
+[21:04:38.614] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:04:38.614] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:04:38.614] [INFO ] ║  📊 SESSION STATS
+[21:04:38.614] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[21:04:38.614] [INFO ] ║  ├─ Popups Dismissed:   0
+[21:04:38.614] [INFO ] ║  ├─ Cloudflare:         Not detected
+[21:04:38.614] [INFO ] ║  └─ Proxy Used:         Direct
+[21:04:38.614] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:04:38.614] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 11.06s
+ENDED: 2026-01-29T21:04:38.614604+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

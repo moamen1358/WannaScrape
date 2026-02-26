@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.pwc.com/m1/en/services/consulting/technology/cyber-security/navigating-data-privacy-regulations/egypt-data-protection-law.html
+Started: 2026-01-29 19:32:54
+Session ID: SCRAPE_20260129_193254_2935
+================================================================================
+[19:32:54.835] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_193254_pwc.com.log
+[19:32:54.835] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[19:32:55.172] [INFO ] 
+[19:32:55.172] [INFO ]     🚀 BROWSER LAUNCHED
+[19:32:55.172] [INFO ]     ├─ Mode:       Headless
+[19:32:55.172] [INFO ]     ├─ Slow Mo:    51ms
+[19:32:55.172] [INFO ]     ├─ Launch Time: 0.05s
+[19:32:55.172] [INFO ]     └─ Args:       Anti-automation flags enabled
+[19:32:55.192] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-US, tz=UTC
+[19:32:55.192] [INFO ] 
+[19:32:55.192] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:32:55.192] [INFO ] ║  📋 SESSION: SCRAPE_20260129_193254_2935
+[19:32:55.192] [INFO ] ║  🌐 URL: https://www.pwc.com/m1/en/services/consulting/technology/cyber-security/navigating-data-privacy-regulations/egypt-data-protection-law.html
+[19:32:55.192] [INFO ] ║  🔄 ATTEMPT: 1/2
+[19:32:55.192] [INFO ] ║  ⏰ STARTED: 2026-01-29T19:32:55.192715+02:00 (Egypt Time)
+[19:32:55.192] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:32:55.192] [INFO ] 
+[19:32:55.192] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[19:32:55.192] [INFO ]     │ Browser:     SAFARI v17
+[19:32:55.192] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHT...
+[19:32:55.192] [INFO ]     │ Viewport:    1680x1050
+[19:32:55.192] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[19:32:55.192] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[19:32:55.192] [INFO ]     │ Location:    Houston, USA
+[19:32:55.192] [INFO ]     │ Timezone:    N/A
+[19:32:55.192] [INFO ]     │ Locale:      en-US
+[19:32:55.192] [INFO ]     │ Geo:         0, 0
+[19:32:55.192] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[19:32:55.192] [INFO ]     │ Proxy:       Direct (no proxy)
+[19:32:55.192] [INFO ]     │ Referrer:    https://www.google.com/
+[19:32:55.192] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:32:55.192] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:32:55.192] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[19:32:55.192] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:32:55.192] [INFO ] 
+[19:32:55.192] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[19:32:55.192] [INFO ]     ├─ Canvas fingerprint noise
+[19:32:55.192] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:32:55.192] [INFO ]     ├─ Hardware concurrency randomization
+[19:32:55.192] [INFO ]     ├─ Device memory randomization
+[19:32:55.192] [INFO ]     ├─ Plugin masking
+[19:32:55.192] [INFO ]     ├─ WebRTC IP leak protection
+[19:32:55.192] [INFO ]     ├─ Network connection spoof
+[19:32:55.192] [INFO ]     └─ Battery API spoof
+[19:32:55.233] [INFO ] 
+[19:32:55.233] [INFO ]     🥷 STEALTH MODE APPLIED
+[19:32:55.233] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[19:32:55.233] [INFO ]     ├─ Chrome runtime patches
+[19:32:55.233] [INFO ]     ├─ Console patches
+[19:32:55.233] [INFO ]     └─ Permission patches
+[19:32:55.233] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[19:32:55.233] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:32:55.233] [INFO ] 
+[19:32:55.233] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[19:32:55.233] [INFO ]     ├─ Canvas fingerprint noise
+[19:32:55.233] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:32:55.233] [INFO ]     ├─ Hardware concurrency randomization
+[19:32:55.233] [INFO ]     ├─ Device memory randomization
+[19:32:55.233] [INFO ]     ├─ Plugin masking
+[19:32:55.233] [INFO ]     ├─ WebRTC IP leak protection
+[19:32:55.233] [INFO ]     ├─ Network connection spoof
+[19:32:55.233] [INFO ]     └─ Battery API spoof
+[19:32:55.233] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:32:55.233] [INFO ] 
+[19:32:55.233] [INFO ]     🔗 NAVIGATING TO URL
+[19:32:55.233] [INFO ]     ├─ Strategy:   domcontentloaded
+[19:32:55.233] [INFO ]     ├─ Timeout:    15.0s
+[19:32:55.233] [INFO ]     └─ Sleep:      1s after load
+[19:32:56.586] [INFO ] 
+[19:32:56.586] [INFO ]     ✅ PAGE LOADED
+[19:32:56.586] [INFO ]     ├─ Final URL:  https://www.pwc.com/m1/en/services/consulting/technology/cyber-security/navigating-data-privacy-regulations/egypt-data-protection-law.html
+[19:32:56.586] [INFO ]     ├─ Title:      Egypt Data Protection Law - PwC Middle East
+[19:32:56.586] [INFO ]     └─ Load Time:  1.35s
+[19:32:58.096] [INFO ] 🧑 Human behavior simulation...
+[19:33:01.621] [INFO ] 🖱️ Mouse: 2 moves in 1680x1050
+[19:33:01.621] [INFO ] 🖱️ Mouse completed: 2 moves
+[19:33:01.621] [INFO ] 📜 Scroll: page height, viewport=1050px
+[19:33:01.621] [INFO ] 📜 Scroll completed: 2 scrolls
+[19:33:01.621] [INFO ] 🧑 Human behavior completed in 3.5s ✓
+[19:33:01.621] [INFO ] 
+[19:33:01.621] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[19:33:01.621] [INFO ]     ├─ Mouse Movements: 2
+[19:33:01.621] [INFO ]     ├─ Scroll Actions:  2
+[19:33:01.622] [INFO ]     └─ Time Spent:      3.53s
+[19:33:01.920] [INFO ] 
+[19:33:01.920] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:33:01.920] [INFO ]     │ Title:            Egypt Data Protection Law
+[19:33:01.920] [INFO ]     │ Final URL:        https://www.pwc.com/m1/en/services/consulting/technology/cyber-security/navigating-data-privacy-regulations/egypt-data-protection-law.html
+[19:33:01.920] [INFO ]     │ HTML Size:        331,764 bytes
+[19:33:01.920] [INFO ]     │ Text Size:        1,285 chars
+[19:33:01.920] [INFO ]     │ Word Count:       ~200 words
+[19:33:01.920] [INFO ]     │ Extraction:       trafilatura
+[19:33:01.920] [INFO ]     │ Has Article:      ✅ Yes
+[19:33:01.920] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:33:01.949] [INFO ] 
+[19:33:01.950] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:33:01.950] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_193254_2935
+[19:33:01.950] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:33:01.950] [INFO ] 
+[19:33:01.950] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[19:33:01.950] [INFO ]     │ Browser Launch:      0.05s
+[19:33:01.950] [INFO ]     │ Page Load:           1.35s
+[19:33:01.950] [INFO ]     │ Cloudflare Wait:     0.00s
+[19:33:01.950] [INFO ]     │ Human Simulation:    3.53s
+[19:33:01.950] [INFO ]     │
+[19:33:01.950] [INFO ]     │ Content Extraction:  0.17s
+[19:33:01.950] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[19:33:01.950] [INFO ]     │ TOTAL TIME:          5.11s
+[19:33:01.950] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:33:01.950] [INFO ] 
+[19:33:01.950] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:33:01.950] [INFO ]     │ Title:            Egypt Data Protection Law
+[19:33:01.950] [INFO ]     │ Final URL:        https://www.pwc.com/m1/en/services/consulting/technology/cyber-security/navigating-data-privacy-regulations/egypt-data-protection-law.html
+[19:33:01.950] [INFO ]     │ HTML Size:        331,764 bytes
+[19:33:01.950] [INFO ]     │ Text Size:        1,285 chars
+[19:33:01.950] [INFO ]     │ Word Count:       ~200 words
+[19:33:01.950] [INFO ]     │ Extraction:       trafilatura
+[19:33:01.950] [INFO ]     │ Has Article:      ✅ Yes
+[19:33:01.950] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:33:01.950] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:33:01.950] [INFO ] ║  📊 SESSION STATS
+[19:33:01.950] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[19:33:01.950] [INFO ] ║  ├─ Popups Dismissed:   0
+[19:33:01.950] [INFO ] ║  ├─ Cloudflare:         Not detected
+[19:33:01.950] [INFO ] ║  └─ Proxy Used:         Direct
+[19:33:01.950] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:33:01.950] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.11s
+ENDED: 2026-01-29T19:33:01.950303+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

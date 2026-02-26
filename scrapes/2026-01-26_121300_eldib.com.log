@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://eldib.com/egypts-new-fintech-law-and-regulations/
+Started: 2026-01-26 12:13:00
+Session ID: SCRAPE_20260126_121300_BF50
+================================================================================
+[12:13:00.309] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_121300_eldib.com.log
+[12:13:00.309] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:13:00.649] [INFO ] 
+[12:13:00.649] [INFO ]     🚀 BROWSER LAUNCHED
+[12:13:00.649] [INFO ]     ├─ Mode:       Headless
+[12:13:00.649] [INFO ]     ├─ Slow Mo:    47ms
+[12:13:00.649] [INFO ]     ├─ Launch Time: 0.06s
+[12:13:00.649] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:13:00.667] [DEBUG] Browser profile: viewport={'width': 1280, 'height': 720}, locale=en-GB, tz=UTC
+[12:13:00.667] [INFO ] 
+[12:13:00.667] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:13:00.667] [INFO ] ║  📋 SESSION: SCRAPE_20260126_121300_BF50
+[12:13:00.667] [INFO ] ║  🌐 URL: https://eldib.com/egypts-new-fintech-law-and-regulations/
+[12:13:00.667] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:13:00.667] [INFO ] ║  ⏰ STARTED: 2026-01-26T12:13:00.667451+02:00 (Egypt Time)
+[12:13:00.667] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:13:00.667] [INFO ] 
+[12:13:00.667] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:13:00.667] [INFO ]     │ Browser:     CHROME v122
+[12:13:00.667] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[12:13:00.667] [INFO ]     │ Viewport:    1280x720
+[12:13:00.667] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:13:00.667] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:13:00.667] [INFO ]     │ Location:    Manchester, UK
+[12:13:00.667] [INFO ]     │ Timezone:    N/A
+[12:13:00.667] [INFO ]     │ Locale:      en-GB
+[12:13:00.667] [INFO ]     │ Geo:         0, 0
+[12:13:00.667] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:13:00.667] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:13:00.667] [INFO ]     │ Referrer:    https://www.google.com/search?q=eldib+com
+[12:13:00.667] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:13:00.667] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:13:00.667] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:13:00.667] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:13:00.667] [INFO ] 
+[12:13:00.667] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:13:00.667] [INFO ]     ├─ Canvas fingerprint noise
+[12:13:00.667] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:13:00.667] [INFO ]     ├─ Hardware concurrency randomization
+[12:13:00.667] [INFO ]     ├─ Device memory randomization
+[12:13:00.667] [INFO ]     ├─ Plugin masking
+[12:13:00.667] [INFO ]     ├─ WebRTC IP leak protection
+[12:13:00.667] [INFO ]     ├─ Network connection spoof
+[12:13:00.667] [INFO ]     └─ Battery API spoof
+[12:13:00.709] [INFO ] 
+[12:13:00.709] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:13:00.709] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:13:00.709] [INFO ]     ├─ Chrome runtime patches
+[12:13:00.709] [INFO ]     ├─ Console patches
+[12:13:00.709] [INFO ]     └─ Permission patches
+[12:13:00.709] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:13:00.709] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:13:00.709] [INFO ] 
+[12:13:00.709] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:13:00.709] [INFO ]     ├─ Canvas fingerprint noise
+[12:13:00.709] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:13:00.709] [INFO ]     ├─ Hardware concurrency randomization
+[12:13:00.709] [INFO ]     ├─ Device memory randomization
+[12:13:00.709] [INFO ]     ├─ Plugin masking
+[12:13:00.709] [INFO ]     ├─ WebRTC IP leak protection
+[12:13:00.709] [INFO ]     ├─ Network connection spoof
+[12:13:00.709] [INFO ]     └─ Battery API spoof
+[12:13:00.709] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:13:00.709] [INFO ] 
+[12:13:00.709] [INFO ]     🔗 NAVIGATING TO URL
+[12:13:00.709] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:13:00.709] [INFO ]     ├─ Timeout:    15.0s
+[12:13:00.709] [INFO ]     └─ Sleep:      1s after load
+[12:13:02.192] [INFO ] 
+[12:13:02.192] [INFO ]     ✅ PAGE LOADED
+[12:13:02.192] [INFO ]     ├─ Final URL:  https://eldib.com/egypts-new-fintech-law-and-regulations/
+[12:13:02.192] [INFO ]     ├─ Title:      Egypt’s New Fintech Law and Regulations – ELDIB & CO
+[12:13:02.192] [INFO ]     └─ Load Time:  1.48s
+[12:13:03.601] [INFO ] 🧑 Human behavior simulation...
+[12:13:11.712] [INFO ] 🖱️ Mouse: 5 moves in 1280x720
+[12:13:11.712] [INFO ] 🖱️ Mouse completed: 5 moves
+[12:13:11.712] [INFO ] 📜 Scroll: page height, viewport=720px
+[12:13:11.712] [INFO ] 📜 Scroll completed: 3 scrolls
+[12:13:11.712] [INFO ] 🧑 Human behavior completed in 8.1s ✓
+[12:13:11.712] [INFO ] 
+[12:13:11.712] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:13:11.712] [INFO ]     ├─ Mouse Movements: 5
+[12:13:11.712] [INFO ]     ├─ Scroll Actions:  3
+[12:13:11.712] [INFO ]     └─ Time Spent:      8.11s
+[12:13:11.832] [INFO ] 
+[12:13:11.832] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:13:11.832] [INFO ]     │ Title:            Egypt’s New Fintech Law and Regulations
+[12:13:11.832] [INFO ]     │ Final URL:        https://eldib.com/egypts-new-fintech-law-and-regulations/
+[12:13:11.832] [INFO ]     │ HTML Size:        73,047 bytes
+[12:13:11.832] [INFO ]     │ Text Size:        3,603 chars
+[12:13:11.832] [INFO ]     │ Word Count:       ~564 words
+[12:13:11.832] [INFO ]     │ Extraction:       trafilatura
+[12:13:11.832] [INFO ]     │ Has Article:      ✅ Yes
+[12:13:11.832] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:13:11.858] [INFO ] 
+[12:13:11.859] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:13:11.859] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_121300_BF50
+[12:13:11.859] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:13:11.859] [INFO ] 
+[12:13:11.859] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:13:11.859] [INFO ]     │ Browser Launch:      0.06s
+[12:13:11.859] [INFO ]     │ Page Load:           1.48s
+[12:13:11.859] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:13:11.859] [INFO ]     │ Human Simulation:    8.11s
+[12:13:11.859] [INFO ]     │
+[12:13:11.859] [INFO ]     │ Content Extraction:  0.05s
+[12:13:11.859] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:13:11.859] [INFO ]     │ TOTAL TIME:          9.70s
+[12:13:11.859] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:13:11.859] [INFO ] 
+[12:13:11.859] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:13:11.859] [INFO ]     │ Title:            Egypt’s New Fintech Law and Regulations
+[12:13:11.859] [INFO ]     │ Final URL:        https://eldib.com/egypts-new-fintech-law-and-regulations/
+[12:13:11.859] [INFO ]     │ HTML Size:        73,047 bytes
+[12:13:11.859] [INFO ]     │ Text Size:        3,603 chars
+[12:13:11.859] [INFO ]     │ Word Count:       ~564 words
+[12:13:11.859] [INFO ]     │ Extraction:       trafilatura
+[12:13:11.859] [INFO ]     │ Has Article:      ✅ Yes
+[12:13:11.859] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:13:11.859] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:13:11.859] [INFO ] ║  📊 SESSION STATS
+[12:13:11.859] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:13:11.859] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:13:11.859] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:13:11.859] [INFO ] ║  └─ Proxy Used:         Direct
+[12:13:11.859] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:13:11.859] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 11.55s
+ENDED: 2026-01-26T12:13:11.859230+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

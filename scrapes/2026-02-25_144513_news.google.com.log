@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://news.google.com/rss/articles/CBMiigFBVV95cUxQaktxZXhTcjRtYmdCSXJQVVJoV3c5TlRJeFoySllMZ1NPVFh3YWpXS3F6a25LVTNOb0hxRGxCR3ZPbHp0MWdmV01Sakp3RkRZVFlLT3d2LUR4TnVpX2pLWU95TklzbTVvYlU1TmYxSGljZjNXeWxKdkhnMmNiUUxBbk8wUVNzQW1rRkE?oc=5
+Started: 2026-02-25 14:45:13
+Session ID: SCRAPE_20260225_144513_EE7A
+================================================================================
+[14:45:13.670] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-02-25_144513_news.google.com.log
+[14:45:13.671] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[14:45:14.009] [INFO ] 
+[14:45:14.009] [INFO ]     🚀 BROWSER LAUNCHED
+[14:45:14.009] [INFO ]     ├─ Mode:       Headless
+[14:45:14.009] [INFO ]     ├─ Slow Mo:    57ms
+[14:45:14.009] [INFO ]     ├─ Launch Time: 0.05s
+[14:45:14.009] [INFO ]     └─ Args:       Anti-automation flags enabled
+[14:45:14.025] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-US, tz=UTC
+[14:45:14.025] [INFO ] 
+[14:45:14.025] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[14:45:14.025] [INFO ] ║  📋 SESSION: SCRAPE_20260225_144513_EE7A
+[14:45:14.025] [INFO ] ║  🌐 URL: https://news.google.com/rss/articles/CBMiigFBVV95cUxQaktxZXhTcjRtYmdCSXJQVVJoV3c5TlRJeFoySllMZ1NPVFh3YWpXS3F6a25LVTNOb0hxRGxCR3ZPbHp0MWdmV01Sakp3RkRZVFlLT3d2LUR4TnVpX2pLWU95TklzbTVvYlU1TmYxSGljZjNXeWxKdkhnMmNiUUxBbk8wUVNzQW1rRkE?oc=5
+[14:45:14.025] [INFO ] ║  🔄 ATTEMPT: 1/2
+[14:45:14.025] [INFO ] ║  ⏰ STARTED: 2026-02-25T14:45:14.025315+02:00 (Egypt Time)
+[14:45:14.025] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:45:14.025] [INFO ] 
+[14:45:14.025] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[14:45:14.025] [INFO ]     │ Browser:     OPERA v105
+[14:45:14.025] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[14:45:14.025] [INFO ]     │ Viewport:    1366x768
+[14:45:14.025] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[14:45:14.025] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[14:45:14.025] [INFO ]     │ Location:    Los Angeles, USA
+[14:45:14.025] [INFO ]     │ Timezone:    N/A
+[14:45:14.025] [INFO ]     │ Locale:      en-US
+[14:45:14.025] [INFO ]     │ Geo:         0, 0
+[14:45:14.025] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[14:45:14.025] [INFO ]     │ Proxy:       Direct (no proxy)
+[14:45:14.025] [INFO ]     │ Referrer:    https://www.facebook.com/
+[14:45:14.025] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:45:14.025] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[14:45:14.025] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[14:45:14.025] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[14:45:14.025] [INFO ] 
+[14:45:14.025] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[14:45:14.025] [INFO ]     ├─ Canvas fingerprint noise
+[14:45:14.025] [INFO ]     ├─ WebGL renderer/vendor spoof
+[14:45:14.025] [INFO ]     ├─ Hardware concurrency randomization
+[14:45:14.025] [INFO ]     ├─ Device memory randomization
+[14:45:14.025] [INFO ]     ├─ Plugin masking
+[14:45:14.025] [INFO ]     ├─ WebRTC IP leak protection
+[14:45:14.025] [INFO ]     ├─ Network connection spoof
+[14:45:14.025] [INFO ]     └─ Battery API spoof
+[14:45:14.065] [INFO ] 
+[14:45:14.065] [INFO ]     🥷 STEALTH MODE APPLIED
+[14:45:14.065] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[14:45:14.065] [INFO ]     ├─ Chrome runtime patches
+[14:45:14.065] [INFO ]     ├─ Console patches
+[14:45:14.065] [INFO ]     └─ Permission patches
+[14:45:14.065] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[14:45:14.065] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[14:45:14.065] [INFO ] 
+[14:45:14.065] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[14:45:14.065] [INFO ]     ├─ Canvas fingerprint noise
+[14:45:14.065] [INFO ]     ├─ WebGL renderer/vendor spoof
+[14:45:14.065] [INFO ]     ├─ Hardware concurrency randomization
+[14:45:14.065] [INFO ]     ├─ Device memory randomization
+[14:45:14.065] [INFO ]     ├─ Plugin masking
+[14:45:14.065] [INFO ]     ├─ WebRTC IP leak protection
+[14:45:14.065] [INFO ]     ├─ Network connection spoof
+[14:45:14.065] [INFO ]     └─ Battery API spoof
+[14:45:14.065] [DEBUG] Enabled resource blocking (images, media, fonts)
+[14:45:14.065] [INFO ] 
+[14:45:14.065] [INFO ]     🔗 NAVIGATING TO URL
+[14:45:14.065] [INFO ]     ├─ Strategy:   domcontentloaded
+[14:45:14.065] [INFO ]     ├─ Timeout:    15.0s
+[14:45:14.065] [INFO ]     └─ Sleep:      1s after load
+[14:45:15.607] [INFO ] 
+[14:45:15.607] [INFO ]     ✅ PAGE LOADED
+[14:45:15.607] [INFO ]     ├─ Final URL:  https://news.google.com/rss/articles/CBMiigFBVV95cUxQaktxZXhTcjRtYmdCSXJQVVJoV3c5TlRJeFoySllMZ1NPVFh3YWpXS3F6a25LVTNOb0hxRGxCR3ZPbHp0MWdmV01Sakp3RkRZVFlLT3d2LUR4TnVpX2pLWU95TklzbTVvYlU1TmYxSGljZjNXeWxKdkhnMmNiUUxBbk8wUVNzQW1rRkE?oc=5&hl=en-US&gl=US&ceid=US:en
+[14:45:15.607] [INFO ]     ├─ Title:      Google News
+[14:45:15.607] [INFO ]     └─ Load Time:  1.54s
+[14:45:16.857] [INFO ] 🧑 Human behavior simulation...
+[14:45:20.450] [INFO ] 🖱️ Mouse: 3 moves in 1366x768
+[14:45:20.450] [INFO ] 🖱️ Mouse completed: 3 moves
+[14:45:20.450] [INFO ] 📜 Scroll: page height, viewport=768px
+[14:45:20.450] [INFO ] 📜 Scroll completed: 2 scrolls
+[14:45:20.450] [INFO ] 🧑 Human behavior completed in 3.6s ✓
+[14:45:20.450] [INFO ] 
+[14:45:20.450] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[14:45:20.450] [INFO ]     ├─ Mouse Movements: 3
+[14:45:20.450] [INFO ]     ├─ Scroll Actions:  2
+[14:45:20.450] [INFO ]     └─ Time Spent:      3.59s
+[14:45:20.584] [INFO ] 
+[14:45:20.584] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[14:45:20.584] [INFO ]     │ Title:            Aman securitisation raises USD 13 million - Africa
+[14:45:20.584] [INFO ]     │ Final URL:        https://news.google.com/rss/articles/CBMiigFBVV95cUxQaktxZXhTcjRtYmdCSXJQVVJoV3c5TlRJeFoySllMZ1NPVFh3YWpXS3F6a25LVTNOb0hxRGxCR3ZPbHp0MWdmV01Sakp3RkRZVFlLT3d2LUR4TnVpX2pLWU95TklzbTVvYlU1TmYxSGljZjNXeWxKdkhnMmNiUUxBbk8wUVNzQW1rRkE?oc=5&hl=en-US&gl=US&ceid=US:en
+[14:45:20.584] [INFO ]     │ HTML Size:        222,333 bytes
+[14:45:20.584] [INFO ]     │ Text Size:        1,845 chars
+[14:45:20.584] [INFO ]     │ Word Count:       ~279 words
+[14:45:20.584] [INFO ]     │ Extraction:       trafilatura
+[14:45:20.584] [INFO ]     │ Has Article:      ✅ Yes
+[14:45:20.584] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:45:20.611] [INFO ] 
+[14:45:20.611] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[14:45:20.611] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260225_144513_EE7A
+[14:45:20.611] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:45:20.611] [INFO ] 
+[14:45:20.611] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[14:45:20.611] [INFO ]     │ Browser Launch:      0.05s
+[14:45:20.611] [INFO ]     │ Page Load:           1.54s
+[14:45:20.611] [INFO ]     │ Cloudflare Wait:     0.00s
+[14:45:20.611] [INFO ]     │ Human Simulation:    3.59s
+[14:45:20.611] [INFO ]     │
+[14:45:20.611] [INFO ]     │ Content Extraction:  0.04s
+[14:45:20.611] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[14:45:20.611] [INFO ]     │ TOTAL TIME:          5.23s
+[14:45:20.611] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:45:20.611] [INFO ] 
+[14:45:20.611] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[14:45:20.611] [INFO ]     │ Title:            Aman securitisation raises USD 13 million - Africa
+[14:45:20.611] [INFO ]     │ Final URL:        https://news.google.com/rss/articles/CBMiigFBVV95cUxQaktxZXhTcjRtYmdCSXJQVVJoV3c5TlRJeFoySllMZ1NPVFh3YWpXS3F6a25LVTNOb0hxRGxCR3ZPbHp0MWdmV01Sakp3RkRZVFlLT3d2LUR4TnVpX2pLWU95TklzbTVvYlU1TmYxSGljZjNXeWxKdkhnMmNiUUxBbk8wUVNzQW1rRkE?oc=5&hl=en-US&gl=US&ceid=US:en
+[14:45:20.611] [INFO ]     │ HTML Size:        222,333 bytes
+[14:45:20.611] [INFO ]     │ Text Size:        1,845 chars
+[14:45:20.611] [INFO ]     │ Word Count:       ~279 words
+[14:45:20.611] [INFO ]     │ Extraction:       trafilatura
+[14:45:20.611] [INFO ]     │ Has Article:      ✅ Yes
+[14:45:20.611] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[14:45:20.611] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[14:45:20.611] [INFO ] ║  📊 SESSION STATS
+[14:45:20.611] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[14:45:20.611] [INFO ] ║  ├─ Popups Dismissed:   0
+[14:45:20.611] [INFO ] ║  ├─ Cloudflare:         Not detected
+[14:45:20.611] [INFO ] ║  └─ Proxy Used:         Direct
+[14:45:20.611] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[14:45:20.611] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 6.94s
+ENDED: 2026-02-25T14:45:20.611817+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

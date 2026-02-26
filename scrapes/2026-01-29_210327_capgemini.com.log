@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.capgemini.com/eg-en/research-and-insight/cloud-sovereignty/
+Started: 2026-01-29 21:03:27
+Session ID: SCRAPE_20260129_210327_1896
+================================================================================
+[21:03:27.557] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_210327_capgemini.com.log
+[21:03:27.557] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[21:03:27.895] [INFO ] 
+[21:03:27.895] [INFO ]     🚀 BROWSER LAUNCHED
+[21:03:27.895] [INFO ]     ├─ Mode:       Headless
+[21:03:27.895] [INFO ]     ├─ Slow Mo:    45ms
+[21:03:27.895] [INFO ]     ├─ Launch Time: 0.06s
+[21:03:27.895] [INFO ]     └─ Args:       Anti-automation flags enabled
+[21:03:27.914] [DEBUG] Browser profile: viewport={'width': 1728, 'height': 1117}, locale=en-CA, tz=UTC
+[21:03:27.914] [INFO ] 
+[21:03:27.914] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:03:27.914] [INFO ] ║  📋 SESSION: SCRAPE_20260129_210327_1896
+[21:03:27.914] [INFO ] ║  🌐 URL: https://www.capgemini.com/eg-en/research-and-insight/cloud-sovereignty/
+[21:03:27.914] [INFO ] ║  🔄 ATTEMPT: 1/2
+[21:03:27.914] [INFO ] ║  ⏰ STARTED: 2026-01-29T21:03:27.914136+02:00 (Egypt Time)
+[21:03:27.914] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:03:27.914] [INFO ] 
+[21:03:27.914] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[21:03:27.914] [INFO ]     │ Browser:     OPERA v106
+[21:03:27.914] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[21:03:27.914] [INFO ]     │ Viewport:    1728x1117
+[21:03:27.914] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[21:03:27.914] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[21:03:27.914] [INFO ]     │ Location:    Toronto, Canada
+[21:03:27.914] [INFO ]     │ Timezone:    N/A
+[21:03:27.914] [INFO ]     │ Locale:      en-CA
+[21:03:27.914] [INFO ]     │ Geo:         0, 0
+[21:03:27.914] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[21:03:27.914] [INFO ]     │ Proxy:       Direct (no proxy)
+[21:03:27.914] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+capgemini+com
+[21:03:27.914] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:03:27.914] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:03:27.914] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[21:03:27.914] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:03:27.914] [INFO ] 
+[21:03:27.914] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[21:03:27.914] [INFO ]     ├─ Canvas fingerprint noise
+[21:03:27.914] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:03:27.914] [INFO ]     ├─ Hardware concurrency randomization
+[21:03:27.914] [INFO ]     ├─ Device memory randomization
+[21:03:27.914] [INFO ]     ├─ Plugin masking
+[21:03:27.914] [INFO ]     ├─ WebRTC IP leak protection
+[21:03:27.914] [INFO ]     ├─ Network connection spoof
+[21:03:27.914] [INFO ]     └─ Battery API spoof
+[21:03:27.957] [INFO ] 
+[21:03:27.957] [INFO ]     🥷 STEALTH MODE APPLIED
+[21:03:27.957] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[21:03:27.957] [INFO ]     ├─ Chrome runtime patches
+[21:03:27.957] [INFO ]     ├─ Console patches
+[21:03:27.957] [INFO ]     └─ Permission patches
+[21:03:27.957] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[21:03:27.957] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:03:27.957] [INFO ] 
+[21:03:27.957] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[21:03:27.957] [INFO ]     ├─ Canvas fingerprint noise
+[21:03:27.957] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:03:27.957] [INFO ]     ├─ Hardware concurrency randomization
+[21:03:27.957] [INFO ]     ├─ Device memory randomization
+[21:03:27.957] [INFO ]     ├─ Plugin masking
+[21:03:27.957] [INFO ]     ├─ WebRTC IP leak protection
+[21:03:27.957] [INFO ]     ├─ Network connection spoof
+[21:03:27.957] [INFO ]     └─ Battery API spoof
+[21:03:27.957] [DEBUG] Enabled resource blocking (images, media, fonts)
+[21:03:27.957] [INFO ] 
+[21:03:27.957] [INFO ]     🔗 NAVIGATING TO URL
+[21:03:27.957] [INFO ]     ├─ Strategy:   domcontentloaded
+[21:03:27.957] [INFO ]     ├─ Timeout:    15.0s
+[21:03:27.957] [INFO ]     └─ Sleep:      1s after load
+[21:03:31.509] [INFO ] 
+[21:03:31.509] [INFO ]     ✅ PAGE LOADED
+[21:03:31.509] [INFO ]     ├─ Final URL:  https://www.capgemini.com/eg-en/research-and-insight/cloud-sovereignty/
+[21:03:31.509] [INFO ]     ├─ Title:      Cloud sovereignty: The road ahead - Capgemini Egypt
+[21:03:31.509] [INFO ]     └─ Load Time:  3.55s
+[21:03:33.596] [INFO ] 🧑 Human behavior simulation...
+[21:03:36.555] [INFO ] 🖱️ Mouse: 2 moves in 1728x1117
+[21:03:36.555] [INFO ] 🖱️ Mouse completed: 2 moves
+[21:03:36.555] [INFO ] 📜 Scroll: page height, viewport=1117px
+[21:03:36.555] [INFO ] 📜 Scroll completed: 1 scrolls
+[21:03:36.555] [INFO ] 🧑 Human behavior completed in 3.0s ✓
+[21:03:36.555] [INFO ] 
+[21:03:36.555] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[21:03:36.555] [INFO ]     ├─ Mouse Movements: 2
+[21:03:36.555] [INFO ]     ├─ Scroll Actions:  1
+[21:03:36.555] [INFO ]     └─ Time Spent:      2.96s
+[21:03:36.820] [INFO ] 
+[21:03:36.820] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:03:36.821] [INFO ]     │ Title:            Cloud sovereignty: The road ahead
+[21:03:36.821] [INFO ]     │ Final URL:        https://www.capgemini.com/eg-en/research-and-insight/cloud-sovereignty/
+[21:03:36.821] [INFO ]     │ HTML Size:        673,006 bytes
+[21:03:36.821] [INFO ]     │ Text Size:        2,520 chars
+[21:03:36.821] [INFO ]     │ Word Count:       ~374 words
+[21:03:36.821] [INFO ]     │ Extraction:       trafilatura
+[21:03:36.821] [INFO ]     │ Has Article:      ✅ Yes
+[21:03:36.821] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:03:36.849] [INFO ] 
+[21:03:36.849] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:03:36.849] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_210327_1896
+[21:03:36.849] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:03:36.849] [INFO ] 
+[21:03:36.849] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[21:03:36.849] [INFO ]     │ Browser Launch:      0.06s
+[21:03:36.849] [INFO ]     │ Page Load:           3.55s
+[21:03:36.849] [INFO ]     │ Cloudflare Wait:     0.00s
+[21:03:36.849] [INFO ]     │ Human Simulation:    2.96s
+[21:03:36.849] [INFO ]     │
+[21:03:36.849] [INFO ]     │ Content Extraction:  0.13s
+[21:03:36.849] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[21:03:36.849] [INFO ]     │ TOTAL TIME:          6.70s
+[21:03:36.849] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:03:36.849] [INFO ] 
+[21:03:36.849] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:03:36.849] [INFO ]     │ Title:            Cloud sovereignty: The road ahead
+[21:03:36.849] [INFO ]     │ Final URL:        https://www.capgemini.com/eg-en/research-and-insight/cloud-sovereignty/
+[21:03:36.850] [INFO ]     │ HTML Size:        673,006 bytes
+[21:03:36.850] [INFO ]     │ Text Size:        2,520 chars
+[21:03:36.850] [INFO ]     │ Word Count:       ~374 words
+[21:03:36.850] [INFO ]     │ Extraction:       trafilatura
+[21:03:36.850] [INFO ]     │ Has Article:      ✅ Yes
+[21:03:36.850] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:03:36.850] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:03:36.850] [INFO ] ║  📊 SESSION STATS
+[21:03:36.850] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[21:03:36.850] [INFO ] ║  ├─ Popups Dismissed:   0
+[21:03:36.850] [INFO ] ║  ├─ Cloudflare:         Not detected
+[21:03:36.850] [INFO ] ║  └─ Proxy Used:         Direct
+[21:03:36.850] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:03:36.850] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 9.29s
+ENDED: 2026-01-29T21:03:36.850058+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

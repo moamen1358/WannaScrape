@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://soc2-report.com/soc-2-compliance-in-egypt/
+Started: 2026-01-29 19:03:24
+Session ID: SCRAPE_20260129_190324_2AB6
+================================================================================
+[19:03:24.902] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_190324_soc2-report.com.log
+[19:03:24.902] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[19:03:25.242] [INFO ] 
+[19:03:25.242] [INFO ]     🚀 BROWSER LAUNCHED
+[19:03:25.242] [INFO ]     ├─ Mode:       Headless
+[19:03:25.242] [INFO ]     ├─ Slow Mo:    60ms
+[19:03:25.242] [INFO ]     ├─ Launch Time: 0.05s
+[19:03:25.242] [INFO ]     └─ Args:       Anti-automation flags enabled
+[19:03:25.258] [DEBUG] Browser profile: viewport={'width': 1728, 'height': 1117}, locale=en-IE, tz=UTC
+[19:03:25.258] [INFO ] 
+[19:03:25.258] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:03:25.258] [INFO ] ║  📋 SESSION: SCRAPE_20260129_190324_2AB6
+[19:03:25.258] [INFO ] ║  🌐 URL: https://soc2-report.com/soc-2-compliance-in-egypt/
+[19:03:25.258] [INFO ] ║  🔄 ATTEMPT: 1/2
+[19:03:25.258] [INFO ] ║  ⏰ STARTED: 2026-01-29T19:03:25.258860+02:00 (Egypt Time)
+[19:03:25.258] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:03:25.258] [INFO ] 
+[19:03:25.258] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[19:03:25.258] [INFO ]     │ Browser:     SAFARI v17
+[19:03:25.258] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHT...
+[19:03:25.258] [INFO ]     │ Viewport:    1728x1117
+[19:03:25.258] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[19:03:25.258] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[19:03:25.258] [INFO ]     │ Location:    Dublin, Ireland
+[19:03:25.258] [INFO ]     │ Timezone:    N/A
+[19:03:25.258] [INFO ]     │ Locale:      en-IE
+[19:03:25.258] [INFO ]     │ Geo:         0, 0
+[19:03:25.258] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[19:03:25.258] [INFO ]     │ Proxy:       Direct (no proxy)
+[19:03:25.258] [INFO ]     │ Referrer:    https://www.google.com/
+[19:03:25.258] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:03:25.258] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:03:25.258] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[19:03:25.258] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:03:25.258] [INFO ] 
+[19:03:25.258] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[19:03:25.258] [INFO ]     ├─ Canvas fingerprint noise
+[19:03:25.258] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:03:25.258] [INFO ]     ├─ Hardware concurrency randomization
+[19:03:25.258] [INFO ]     ├─ Device memory randomization
+[19:03:25.258] [INFO ]     ├─ Plugin masking
+[19:03:25.258] [INFO ]     ├─ WebRTC IP leak protection
+[19:03:25.259] [INFO ]     ├─ Network connection spoof
+[19:03:25.259] [INFO ]     └─ Battery API spoof
+[19:03:25.300] [INFO ] 
+[19:03:25.300] [INFO ]     🥷 STEALTH MODE APPLIED
+[19:03:25.300] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[19:03:25.300] [INFO ]     ├─ Chrome runtime patches
+[19:03:25.300] [INFO ]     ├─ Console patches
+[19:03:25.300] [INFO ]     └─ Permission patches
+[19:03:25.300] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[19:03:25.300] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:03:25.300] [INFO ] 
+[19:03:25.300] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[19:03:25.300] [INFO ]     ├─ Canvas fingerprint noise
+[19:03:25.300] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:03:25.300] [INFO ]     ├─ Hardware concurrency randomization
+[19:03:25.300] [INFO ]     ├─ Device memory randomization
+[19:03:25.300] [INFO ]     ├─ Plugin masking
+[19:03:25.300] [INFO ]     ├─ WebRTC IP leak protection
+[19:03:25.300] [INFO ]     ├─ Network connection spoof
+[19:03:25.300] [INFO ]     └─ Battery API spoof
+[19:03:25.300] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:03:25.300] [INFO ] 
+[19:03:25.300] [INFO ]     🔗 NAVIGATING TO URL
+[19:03:25.300] [INFO ]     ├─ Strategy:   domcontentloaded
+[19:03:25.300] [INFO ]     ├─ Timeout:    15.0s
+[19:03:25.300] [INFO ]     └─ Sleep:      1s after load
+[19:03:27.179] [INFO ] 
+[19:03:27.179] [INFO ]     ✅ PAGE LOADED
+[19:03:27.179] [INFO ]     ├─ Final URL:  https://soc2-report.com/soc-2-compliance-in-egypt/
+[19:03:27.179] [INFO ]     ├─ Title:      Top SOC 2 Compliance in Egypt – Enable Global Growth
+[19:03:27.179] [INFO ]     └─ Load Time:  1.88s
+[19:03:29.704] [INFO ] 🧑 Human behavior simulation...
+[19:03:34.773] [INFO ] 🖱️ Mouse: 2 moves in 1728x1117
+[19:03:34.773] [INFO ] 🖱️ Mouse completed: 2 moves
+[19:03:34.773] [INFO ] 📜 Scroll: page height, viewport=1117px
+[19:03:34.773] [INFO ] 📜 Scroll completed: 3 scrolls
+[19:03:34.773] [INFO ] 🧑 Human behavior completed in 5.1s ✓
+[19:03:34.773] [INFO ] 
+[19:03:34.773] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[19:03:34.773] [INFO ]     ├─ Mouse Movements: 2
+[19:03:34.773] [INFO ]     ├─ Scroll Actions:  3
+[19:03:34.773] [INFO ]     └─ Time Spent:      5.07s
+[19:03:34.975] [INFO ] 
+[19:03:34.975] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:03:34.975] [INFO ]     │ Title:            SOC 2 Certification in Lithuania: Conquer Risks, B
+[19:03:34.975] [INFO ]     │ Final URL:        https://soc2-report.com/soc-2-compliance-in-egypt/
+[19:03:34.975] [INFO ]     │ HTML Size:        310,432 bytes
+[19:03:34.975] [INFO ]     │ Text Size:        7,105 chars
+[19:03:34.975] [INFO ]     │ Word Count:       ~1097 words
+[19:03:34.975] [INFO ]     │ Extraction:       trafilatura
+[19:03:34.975] [INFO ]     │ Has Article:      ✅ Yes
+[19:03:34.975] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:03:35.010] [INFO ] 
+[19:03:35.010] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:03:35.010] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_190324_2AB6
+[19:03:35.010] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:03:35.010] [INFO ] 
+[19:03:35.010] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[19:03:35.010] [INFO ]     │ Browser Launch:      0.05s
+[19:03:35.010] [INFO ]     │ Page Load:           1.88s
+[19:03:35.010] [INFO ]     │ Cloudflare Wait:     0.00s
+[19:03:35.010] [INFO ]     │ Human Simulation:    5.07s
+[19:03:35.010] [INFO ]     │
+[19:03:35.010] [INFO ]     │ Content Extraction:  0.09s
+[19:03:35.010] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[19:03:35.010] [INFO ]     │ TOTAL TIME:          7.09s
+[19:03:35.010] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:03:35.010] [INFO ] 
+[19:03:35.010] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:03:35.010] [INFO ]     │ Title:            SOC 2 Certification in Lithuania: Conquer Risks, B
+[19:03:35.010] [INFO ]     │ Final URL:        https://soc2-report.com/soc-2-compliance-in-egypt/
+[19:03:35.010] [INFO ]     │ HTML Size:        310,432 bytes
+[19:03:35.010] [INFO ]     │ Text Size:        7,105 chars
+[19:03:35.010] [INFO ]     │ Word Count:       ~1097 words
+[19:03:35.010] [INFO ]     │ Extraction:       trafilatura
+[19:03:35.010] [INFO ]     │ Has Article:      ✅ Yes
+[19:03:35.010] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:03:35.010] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:03:35.010] [INFO ] ║  📊 SESSION STATS
+[19:03:35.010] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[19:03:35.010] [INFO ] ║  ├─ Popups Dismissed:   0
+[19:03:35.010] [INFO ] ║  ├─ Cloudflare:         Not detected
+[19:03:35.010] [INFO ] ║  └─ Proxy Used:         Direct
+[19:03:35.010] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:03:35.010] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.11s
+ENDED: 2026-01-29T19:03:35.010612+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

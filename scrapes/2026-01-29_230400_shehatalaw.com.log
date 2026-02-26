@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://shehatalaw.com/law-update/addressing-data-breach/
+Started: 2026-01-29 23:04:00
+Session ID: SCRAPE_20260129_230400_BA02
+================================================================================
+[23:04:00.192] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_230400_shehatalaw.com.log
+[23:04:00.192] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[23:04:00.546] [INFO ] 
+[23:04:00.546] [INFO ]     🚀 BROWSER LAUNCHED
+[23:04:00.546] [INFO ]     ├─ Mode:       Headless
+[23:04:00.546] [INFO ]     ├─ Slow Mo:    60ms
+[23:04:00.546] [INFO ]     ├─ Launch Time: 0.06s
+[23:04:00.546] [INFO ]     └─ Args:       Anti-automation flags enabled
+[23:04:00.566] [DEBUG] Browser profile: viewport={'width': 1280, 'height': 720}, locale=en-US, tz=UTC
+[23:04:00.566] [INFO ] 
+[23:04:00.566] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:04:00.566] [INFO ] ║  📋 SESSION: SCRAPE_20260129_230400_BA02
+[23:04:00.566] [INFO ] ║  🌐 URL: https://shehatalaw.com/law-update/addressing-data-breach/
+[23:04:00.566] [INFO ] ║  🔄 ATTEMPT: 1/2
+[23:04:00.566] [INFO ] ║  ⏰ STARTED: 2026-01-29T23:04:00.566208+02:00 (Egypt Time)
+[23:04:00.566] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:04:00.566] [INFO ] 
+[23:04:00.566] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[23:04:00.566] [INFO ]     │ Browser:     CHROME v121
+[23:04:00.566] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[23:04:00.566] [INFO ]     │ Viewport:    1280x720
+[23:04:00.566] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[23:04:00.566] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[23:04:00.566] [INFO ]     │ Location:    Boston, USA
+[23:04:00.566] [INFO ]     │ Timezone:    N/A
+[23:04:00.566] [INFO ]     │ Locale:      en-US
+[23:04:00.566] [INFO ]     │ Geo:         0, 0
+[23:04:00.566] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[23:04:00.566] [INFO ]     │ Proxy:       Direct (no proxy)
+[23:04:00.566] [INFO ]     │ Referrer:    https://www.google.com/search?q=shehatalaw+com
+[23:04:00.566] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:04:00.566] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:04:00.566] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[23:04:00.566] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:04:00.566] [INFO ] 
+[23:04:00.566] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[23:04:00.566] [INFO ]     ├─ Canvas fingerprint noise
+[23:04:00.566] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:04:00.566] [INFO ]     ├─ Hardware concurrency randomization
+[23:04:00.566] [INFO ]     ├─ Device memory randomization
+[23:04:00.566] [INFO ]     ├─ Plugin masking
+[23:04:00.566] [INFO ]     ├─ WebRTC IP leak protection
+[23:04:00.566] [INFO ]     ├─ Network connection spoof
+[23:04:00.566] [INFO ]     └─ Battery API spoof
+[23:04:00.608] [INFO ] 
+[23:04:00.608] [INFO ]     🥷 STEALTH MODE APPLIED
+[23:04:00.608] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[23:04:00.608] [INFO ]     ├─ Chrome runtime patches
+[23:04:00.608] [INFO ]     ├─ Console patches
+[23:04:00.608] [INFO ]     └─ Permission patches
+[23:04:00.608] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[23:04:00.608] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:04:00.608] [INFO ] 
+[23:04:00.608] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[23:04:00.608] [INFO ]     ├─ Canvas fingerprint noise
+[23:04:00.608] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:04:00.608] [INFO ]     ├─ Hardware concurrency randomization
+[23:04:00.608] [INFO ]     ├─ Device memory randomization
+[23:04:00.608] [INFO ]     ├─ Plugin masking
+[23:04:00.608] [INFO ]     ├─ WebRTC IP leak protection
+[23:04:00.608] [INFO ]     ├─ Network connection spoof
+[23:04:00.608] [INFO ]     └─ Battery API spoof
+[23:04:00.608] [DEBUG] Enabled resource blocking (images, media, fonts)
+[23:04:00.608] [INFO ] 
+[23:04:00.608] [INFO ]     🔗 NAVIGATING TO URL
+[23:04:00.608] [INFO ]     ├─ Strategy:   domcontentloaded
+[23:04:00.608] [INFO ]     ├─ Timeout:    15.0s
+[23:04:00.608] [INFO ]     └─ Sleep:      1s after load
+[23:04:03.471] [INFO ] 
+[23:04:03.471] [INFO ]     ✅ PAGE LOADED
+[23:04:03.471] [INFO ]     ├─ Final URL:  https://shehatalaw.com/law-update/addressing-data-breach/
+[23:04:03.471] [INFO ]     ├─ Title:      Data Privacy Laws in Egypt | Shehata & Partners
+[23:04:03.471] [INFO ]     └─ Load Time:  2.86s
+[23:04:05.382] [INFO ] 🧑 Human behavior simulation...
+[23:04:09.699] [INFO ] 🖱️ Mouse: 2 moves in 1280x720
+[23:04:09.699] [INFO ] 🖱️ Mouse completed: 2 moves
+[23:04:09.699] [INFO ] 📜 Scroll: page height, viewport=720px
+[23:04:09.699] [INFO ] 📜 Scroll completed: 2 scrolls
+[23:04:09.699] [INFO ] 🧑 Human behavior completed in 4.3s ✓
+[23:04:09.699] [INFO ] 
+[23:04:09.699] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[23:04:09.699] [INFO ]     ├─ Mouse Movements: 2
+[23:04:09.699] [INFO ]     ├─ Scroll Actions:  2
+[23:04:09.699] [INFO ]     └─ Time Spent:      4.32s
+[23:04:09.961] [INFO ] 
+[23:04:09.961] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[23:04:09.961] [INFO ]     │ Title:            Data Privacy Laws in Egypt | Shehata & Partners
+[23:04:09.961] [INFO ]     │ Final URL:        https://shehatalaw.com/law-update/addressing-data-breach/
+[23:04:09.961] [INFO ]     │ HTML Size:        394,615 bytes
+[23:04:09.961] [INFO ]     │ Text Size:        10,845 chars
+[23:04:09.961] [INFO ]     │ Word Count:       ~1570 words
+[23:04:09.961] [INFO ]     │ Extraction:       trafilatura
+[23:04:09.961] [INFO ]     │ Has Article:      ✅ Yes
+[23:04:09.961] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:04:10.001] [INFO ] 
+[23:04:10.001] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:04:10.001] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_230400_BA02
+[23:04:10.001] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:04:10.001] [INFO ] 
+[23:04:10.001] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[23:04:10.001] [INFO ]     │ Browser Launch:      0.06s
+[23:04:10.001] [INFO ]     │ Page Load:           2.86s
+[23:04:10.001] [INFO ]     │ Cloudflare Wait:     0.00s
+[23:04:10.001] [INFO ]     │ Human Simulation:    4.32s
+[23:04:10.001] [INFO ]     │
+[23:04:10.001] [INFO ]     │ Content Extraction:  0.14s
+[23:04:10.001] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[23:04:10.001] [INFO ]     │ TOTAL TIME:          7.38s
+[23:04:10.001] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:04:10.001] [INFO ] 
+[23:04:10.002] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[23:04:10.002] [INFO ]     │ Title:            Data Privacy Laws in Egypt | Shehata & Partners
+[23:04:10.002] [INFO ]     │ Final URL:        https://shehatalaw.com/law-update/addressing-data-breach/
+[23:04:10.002] [INFO ]     │ HTML Size:        394,615 bytes
+[23:04:10.002] [INFO ]     │ Text Size:        10,845 chars
+[23:04:10.002] [INFO ]     │ Word Count:       ~1570 words
+[23:04:10.002] [INFO ]     │ Extraction:       trafilatura
+[23:04:10.002] [INFO ]     │ Has Article:      ✅ Yes
+[23:04:10.002] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:04:10.002] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:04:10.002] [INFO ] ║  📊 SESSION STATS
+[23:04:10.002] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[23:04:10.002] [INFO ] ║  ├─ Popups Dismissed:   0
+[23:04:10.002] [INFO ] ║  ├─ Cloudflare:         Not detected
+[23:04:10.002] [INFO ] ║  └─ Proxy Used:         Direct
+[23:04:10.002] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:04:10.002] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 9.81s
+ENDED: 2026-01-29T23:04:10.002171+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

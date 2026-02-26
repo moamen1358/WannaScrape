@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://secureframe.com/hub/iso-27001/what-is-iso-27001
+Started: 2026-01-26 13:20:31
+Session ID: SCRAPE_20260126_132031_C99C
+================================================================================
+[13:20:31.350] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_132031_secureframe.com.log
+[13:20:31.350] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[13:20:31.693] [INFO ] 
+[13:20:31.693] [INFO ]     🚀 BROWSER LAUNCHED
+[13:20:31.693] [INFO ]     ├─ Mode:       Headless
+[13:20:31.693] [INFO ]     ├─ Slow Mo:    59ms
+[13:20:31.693] [INFO ]     ├─ Launch Time: 0.05s
+[13:20:31.693] [INFO ]     └─ Args:       Anti-automation flags enabled
+[13:20:31.711] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-US, tz=UTC
+[13:20:31.711] [INFO ] 
+[13:20:31.711] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[13:20:31.711] [INFO ] ║  📋 SESSION: SCRAPE_20260126_132031_C99C
+[13:20:31.711] [INFO ] ║  🌐 URL: https://secureframe.com/hub/iso-27001/what-is-iso-27001
+[13:20:31.711] [INFO ] ║  🔄 ATTEMPT: 1/2
+[13:20:31.711] [INFO ] ║  ⏰ STARTED: 2026-01-26T13:20:31.711608+02:00 (Egypt Time)
+[13:20:31.711] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:20:31.711] [INFO ] 
+[13:20:31.711] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[13:20:31.711] [INFO ]     │ Browser:     CHROME v119
+[13:20:31.711] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/537.36 (KHTML...
+[13:20:31.711] [INFO ]     │ Viewport:    1920x1080
+[13:20:31.711] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[13:20:31.711] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[13:20:31.711] [INFO ]     │ Location:    Seattle, USA
+[13:20:31.711] [INFO ]     │ Timezone:    N/A
+[13:20:31.711] [INFO ]     │ Locale:      en-US
+[13:20:31.711] [INFO ]     │ Geo:         0, 0
+[13:20:31.711] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[13:20:31.711] [INFO ]     │ Proxy:       Direct (no proxy)
+[13:20:31.711] [INFO ]     │ Referrer:    https://www.google.com/search?q=secureframe+com
+[13:20:31.711] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:20:31.711] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[13:20:31.711] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[13:20:31.711] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[13:20:31.711] [INFO ] 
+[13:20:31.711] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[13:20:31.711] [INFO ]     ├─ Canvas fingerprint noise
+[13:20:31.711] [INFO ]     ├─ WebGL renderer/vendor spoof
+[13:20:31.711] [INFO ]     ├─ Hardware concurrency randomization
+[13:20:31.711] [INFO ]     ├─ Device memory randomization
+[13:20:31.711] [INFO ]     ├─ Plugin masking
+[13:20:31.711] [INFO ]     ├─ WebRTC IP leak protection
+[13:20:31.711] [INFO ]     ├─ Network connection spoof
+[13:20:31.711] [INFO ]     └─ Battery API spoof
+[13:20:31.753] [INFO ] 
+[13:20:31.753] [INFO ]     🥷 STEALTH MODE APPLIED
+[13:20:31.753] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[13:20:31.753] [INFO ]     ├─ Chrome runtime patches
+[13:20:31.753] [INFO ]     ├─ Console patches
+[13:20:31.753] [INFO ]     └─ Permission patches
+[13:20:31.753] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[13:20:31.753] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[13:20:31.753] [INFO ] 
+[13:20:31.753] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[13:20:31.753] [INFO ]     ├─ Canvas fingerprint noise
+[13:20:31.753] [INFO ]     ├─ WebGL renderer/vendor spoof
+[13:20:31.753] [INFO ]     ├─ Hardware concurrency randomization
+[13:20:31.753] [INFO ]     ├─ Device memory randomization
+[13:20:31.753] [INFO ]     ├─ Plugin masking
+[13:20:31.753] [INFO ]     ├─ WebRTC IP leak protection
+[13:20:31.753] [INFO ]     ├─ Network connection spoof
+[13:20:31.753] [INFO ]     └─ Battery API spoof
+[13:20:31.753] [DEBUG] Enabled resource blocking (images, media, fonts)
+[13:20:31.753] [INFO ] 
+[13:20:31.753] [INFO ]     🔗 NAVIGATING TO URL
+[13:20:31.753] [INFO ]     ├─ Strategy:   domcontentloaded
+[13:20:31.753] [INFO ]     ├─ Timeout:    15.0s
+[13:20:31.753] [INFO ]     └─ Sleep:      1s after load
+[13:20:32.354] [INFO ] 
+[13:20:32.354] [INFO ]     ✅ PAGE LOADED
+[13:20:32.354] [INFO ]     ├─ Final URL:  https://secureframe.com/hub/iso-27001/what-is-iso-27001
+[13:20:32.354] [INFO ]     ├─ Title:      What is ISO 27001? A Beginners Guide to Certification | Secureframe
+[13:20:32.354] [INFO ]     └─ Load Time:  0.60s
+[13:20:34.979] [INFO ] 🧑 Human behavior simulation...
+[13:20:41.222] [INFO ] 🖱️ Mouse: 3 moves in 1920x1080
+[13:20:41.222] [INFO ] 🖱️ Mouse completed: 3 moves
+[13:20:41.222] [INFO ] 📜 Scroll: page height, viewport=1080px
+[13:20:41.222] [INFO ] 📜 Scroll completed: 1 scrolls
+[13:20:41.222] [INFO ] 🧑 Human behavior completed in 6.2s ✓
+[13:20:41.222] [INFO ] 
+[13:20:41.222] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[13:20:41.222] [INFO ]     ├─ Mouse Movements: 3
+[13:20:41.222] [INFO ]     ├─ Scroll Actions:  1
+[13:20:41.222] [INFO ]     └─ Time Spent:      6.24s
+[13:20:41.578] [INFO ] 
+[13:20:41.578] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[13:20:41.578] [INFO ]     │ Title:            What is ISO 27001? A Beginners Guide to Certificat
+[13:20:41.578] [INFO ]     │ Final URL:        https://secureframe.com/hub/iso-27001/what-is-iso-27001
+[13:20:41.578] [INFO ]     │ HTML Size:        766,182 bytes
+[13:20:41.578] [INFO ]     │ Text Size:        16,342 chars
+[13:20:41.578] [INFO ]     │ Word Count:       ~2485 words
+[13:20:41.578] [INFO ]     │ Extraction:       trafilatura
+[13:20:41.578] [INFO ]     │ Has Article:      ✅ Yes
+[13:20:41.578] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:20:41.608] [INFO ] 
+[13:20:41.608] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[13:20:41.608] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_132031_C99C
+[13:20:41.608] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:20:41.608] [INFO ] 
+[13:20:41.608] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[13:20:41.608] [INFO ]     │ Browser Launch:      0.05s
+[13:20:41.609] [INFO ]     │ Page Load:           0.60s
+[13:20:41.609] [INFO ]     │ Cloudflare Wait:     0.00s
+[13:20:41.609] [INFO ]     │ Human Simulation:    6.24s
+[13:20:41.609] [INFO ]     │
+[13:20:41.609] [INFO ]     │ Content Extraction:  0.18s
+[13:20:41.609] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[13:20:41.609] [INFO ]     │ TOTAL TIME:          7.08s
+[13:20:41.609] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:20:41.609] [INFO ] 
+[13:20:41.609] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[13:20:41.609] [INFO ]     │ Title:            What is ISO 27001? A Beginners Guide to Certificat
+[13:20:41.609] [INFO ]     │ Final URL:        https://secureframe.com/hub/iso-27001/what-is-iso-27001
+[13:20:41.609] [INFO ]     │ HTML Size:        766,182 bytes
+[13:20:41.609] [INFO ]     │ Text Size:        16,342 chars
+[13:20:41.609] [INFO ]     │ Word Count:       ~2485 words
+[13:20:41.609] [INFO ]     │ Extraction:       trafilatura
+[13:20:41.609] [INFO ]     │ Has Article:      ✅ Yes
+[13:20:41.609] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:20:41.609] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:20:41.609] [INFO ] ║  📊 SESSION STATS
+[13:20:41.609] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[13:20:41.609] [INFO ] ║  ├─ Popups Dismissed:   0
+[13:20:41.609] [INFO ] ║  ├─ Cloudflare:         Not detected
+[13:20:41.609] [INFO ] ║  └─ Proxy Used:         Direct
+[13:20:41.609] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[13:20:41.609] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.26s
+ENDED: 2026-01-26T13:20:41.609488+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

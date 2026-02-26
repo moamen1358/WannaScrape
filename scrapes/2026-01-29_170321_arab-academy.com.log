@@ -1,0 +1,142 @@
+================================================================================
+SCRAPE LOG: https://www.arab-academy.com/en/iso-27001-information-security-management-system/
+Started: 2026-01-29 17:03:21
+Session ID: SCRAPE_20260129_170321_0979
+================================================================================
+[17:03:21.338] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_170321_arab-academy.com.log
+[17:03:21.338] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[17:03:21.680] [INFO ] 
+[17:03:21.680] [INFO ]     🚀 BROWSER LAUNCHED
+[17:03:21.680] [INFO ]     ├─ Mode:       Headless
+[17:03:21.680] [INFO ]     ├─ Slow Mo:    59ms
+[17:03:21.680] [INFO ]     ├─ Launch Time: 0.06s
+[17:03:21.680] [INFO ]     └─ Args:       Anti-automation flags enabled
+[17:03:21.698] [DEBUG] Browser profile: viewport={'width': 1728, 'height': 1117}, locale=en-US, tz=UTC
+[17:03:21.698] [INFO ] 
+[17:03:21.698] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:03:21.698] [INFO ] ║  📋 SESSION: SCRAPE_20260129_170321_0979
+[17:03:21.698] [INFO ] ║  🌐 URL: https://www.arab-academy.com/en/iso-27001-information-security-management-system/
+[17:03:21.698] [INFO ] ║  🔄 ATTEMPT: 1/2
+[17:03:21.698] [INFO ] ║  ⏰ STARTED: 2026-01-29T17:03:21.698754+02:00 (Egypt Time)
+[17:03:21.698] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:03:21.698] [INFO ] 
+[17:03:21.698] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[17:03:21.698] [INFO ]     │ Browser:     CHROME v120
+[17:03:21.698] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[17:03:21.698] [INFO ]     │ Viewport:    1728x1117
+[17:03:21.698] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[17:03:21.698] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[17:03:21.698] [INFO ]     │ Location:    Houston, USA
+[17:03:21.698] [INFO ]     │ Timezone:    N/A
+[17:03:21.698] [INFO ]     │ Locale:      en-US
+[17:03:21.698] [INFO ]     │ Geo:         0, 0
+[17:03:21.698] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[17:03:21.698] [INFO ]     │ Proxy:       Direct (no proxy)
+[17:03:21.698] [INFO ]     │ Referrer:    https://news.google.com/
+[17:03:21.698] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:03:21.698] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:03:21.698] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[17:03:21.698] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:03:21.698] [INFO ] 
+[17:03:21.698] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[17:03:21.698] [INFO ]     ├─ Canvas fingerprint noise
+[17:03:21.698] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:03:21.698] [INFO ]     ├─ Hardware concurrency randomization
+[17:03:21.698] [INFO ]     ├─ Device memory randomization
+[17:03:21.698] [INFO ]     ├─ Plugin masking
+[17:03:21.698] [INFO ]     ├─ WebRTC IP leak protection
+[17:03:21.698] [INFO ]     ├─ Network connection spoof
+[17:03:21.698] [INFO ]     └─ Battery API spoof
+[17:03:21.740] [INFO ] 
+[17:03:21.740] [INFO ]     🥷 STEALTH MODE APPLIED
+[17:03:21.740] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[17:03:21.740] [INFO ]     ├─ Chrome runtime patches
+[17:03:21.740] [INFO ]     ├─ Console patches
+[17:03:21.740] [INFO ]     └─ Permission patches
+[17:03:21.740] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[17:03:21.740] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:03:21.740] [INFO ] 
+[17:03:21.740] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[17:03:21.740] [INFO ]     ├─ Canvas fingerprint noise
+[17:03:21.740] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:03:21.740] [INFO ]     ├─ Hardware concurrency randomization
+[17:03:21.740] [INFO ]     ├─ Device memory randomization
+[17:03:21.740] [INFO ]     ├─ Plugin masking
+[17:03:21.740] [INFO ]     ├─ WebRTC IP leak protection
+[17:03:21.740] [INFO ]     ├─ Network connection spoof
+[17:03:21.740] [INFO ]     └─ Battery API spoof
+[17:03:21.740] [DEBUG] Enabled resource blocking (images, media, fonts)
+[17:03:21.740] [INFO ] 
+[17:03:21.740] [INFO ]     🔗 NAVIGATING TO URL
+[17:03:21.740] [INFO ]     ├─ Strategy:   domcontentloaded
+[17:03:21.740] [INFO ]     ├─ Timeout:    15.0s
+[17:03:21.740] [INFO ]     └─ Sleep:      1s after load
+[17:03:25.318] [INFO ] 
+[17:03:25.318] [INFO ]     ✅ PAGE LOADED
+[17:03:25.318] [INFO ]     ├─ Final URL:  https://www.arab-academy.com/en/iso-27001-information-security-management-system/
+[17:03:25.318] [INFO ]     ├─ Title:      ISO/IEC 27001 Information Security | ISO 27001 certification requirements
+[17:03:25.318] [INFO ]     └─ Load Time:  3.58s
+[17:04:57.116] [INFO ] ☁️ Cloudflare detected, waiting 0.0s...
+[17:04:57.116] [DEBUG] Enabled resource blocking (images, media, fonts)
+[17:04:57.116] [INFO ] 
+[17:04:57.116] [INFO ]     🔗 NAVIGATING TO URL
+[17:04:57.116] [INFO ]     ├─ Strategy:   load
+[17:04:57.116] [INFO ]     ├─ Timeout:    20.0s
+[17:04:57.116] [INFO ]     └─ Sleep:      1s after load
+[17:04:59.837] [INFO ] 
+[17:04:59.837] [INFO ]     ✅ PAGE LOADED
+[17:04:59.837] [INFO ]     ├─ Final URL:  https://www.arab-academy.com/en/iso-27001-information-security-management-system/
+[17:04:59.837] [INFO ]     ├─ Title:      ISO/IEC 27001 Information Security | ISO 27001 certification requirements
+[17:04:59.837] [INFO ]     └─ Load Time:  2.72s
+[17:04:59.873] [INFO ] 
+[17:04:59.873] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:04:59.874] [INFO ] ║  ⚠️  ERROR DETECTED
+[17:04:59.874] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:04:59.874] [INFO ] 
+[17:04:59.874] [INFO ]     ┌─ ERROR DETAILS ───────────────────────────────────────────────┐
+[17:04:59.874] [INFO ]     │ Error Type:       timeout
+[17:04:59.874] [INFO ]     │ Message:          Scrape timed out after 98.5s at stage: page_loaded...
+[17:04:59.874] [INFO ]     │
+[17:04:59.874] [INFO ]     │ Likely Ban:       ✅ No
+[17:04:59.874] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:04:59.874] [INFO ] 
+[17:04:59.874] [INFO ]     ┌─ PAGE STATE AT ERROR ────────────────────────────────────────┐
+[17:04:59.874] [INFO ]     │ Page URL:         https://www.arab-academy.com/en/iso-27001-information-s
+[17:04:59.874] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:04:59.874] [INFO ] 
+[17:04:59.874] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:04:59.874] [INFO ] 
+[17:04:59.874] [ERROR] ❌ timeout: Scrape timed out after 98.5s at stage: page_loaded
+[17:04:59.874] [INFO ] 
+[17:04:59.874] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:04:59.874] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260129_170321_0979
+[17:04:59.874] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:04:59.874] [INFO ] 
+[17:04:59.874] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[17:04:59.874] [INFO ]     │ URL:              https://www.arab-academy.com/en/iso-27001-information-s
+[17:04:59.874] [INFO ]     │ Error Type:       timeout
+[17:04:59.874] [INFO ]     │ Likely Ban:       ❌ No
+[17:04:59.874] [INFO ]     │ Retries Used:     0
+[17:04:59.874] [INFO ]     │
+[17:04:59.874] [INFO ]     │ Error Message:
+[17:04:59.874] [INFO ]     │   Scrape timed out after 98.5s at stage: page_loaded
+[17:04:59.874] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:04:59.874] [INFO ] 
+[17:04:59.874] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[17:04:59.874] [INFO ]     │ Browser Launch:     0.06s
+[17:04:59.874] [INFO ]     │ Page Load:          2.72s
+[17:04:59.874] [INFO ]     │ Cloudflare Wait:    0.00s
+[17:04:59.874] [INFO ]     │ Human Simulation:   0.00s
+[17:04:59.874] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[17:04:59.874] [INFO ]     │ FAILED AT:          2.78s
+[17:04:59.874] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:04:59.874] [INFO ] 
+[17:04:59.874] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:04:59.874] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 98.54s
+ENDED: 2026-01-29T17:04:59.874304+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

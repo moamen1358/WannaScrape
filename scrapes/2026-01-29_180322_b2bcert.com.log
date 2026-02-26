@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.b2bcert.com/hipaa-certification-in-egypt/
+Started: 2026-01-29 18:03:22
+Session ID: SCRAPE_20260129_180322_9F31
+================================================================================
+[18:03:22.664] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_180322_b2bcert.com.log
+[18:03:22.664] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[18:03:23.007] [INFO ] 
+[18:03:23.007] [INFO ]     🚀 BROWSER LAUNCHED
+[18:03:23.007] [INFO ]     ├─ Mode:       Headless
+[18:03:23.007] [INFO ]     ├─ Slow Mo:    58ms
+[18:03:23.007] [INFO ]     ├─ Launch Time: 0.06s
+[18:03:23.007] [INFO ]     └─ Args:       Anti-automation flags enabled
+[18:03:23.025] [DEBUG] Browser profile: viewport={'width': 1728, 'height': 1117}, locale=en-US, tz=UTC
+[18:03:23.025] [INFO ] 
+[18:03:23.025] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:03:23.025] [INFO ] ║  📋 SESSION: SCRAPE_20260129_180322_9F31
+[18:03:23.025] [INFO ] ║  🌐 URL: https://www.b2bcert.com/hipaa-certification-in-egypt/
+[18:03:23.025] [INFO ] ║  🔄 ATTEMPT: 1/2
+[18:03:23.025] [INFO ] ║  ⏰ STARTED: 2026-01-29T18:03:23.025274+02:00 (Egypt Time)
+[18:03:23.025] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:03:23.025] [INFO ] 
+[18:03:23.025] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[18:03:23.025] [INFO ]     │ Browser:     CHROME v120
+[18:03:23.025] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36 (KHTML...
+[18:03:23.025] [INFO ]     │ Viewport:    1728x1117
+[18:03:23.025] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[18:03:23.025] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[18:03:23.025] [INFO ]     │ Location:    Miami, USA
+[18:03:23.025] [INFO ]     │ Timezone:    N/A
+[18:03:23.025] [INFO ]     │ Locale:      en-US
+[18:03:23.025] [INFO ]     │ Geo:         0, 0
+[18:03:23.025] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[18:03:23.025] [INFO ]     │ Proxy:       Direct (no proxy)
+[18:03:23.025] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+b2bcert+com
+[18:03:23.025] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:03:23.025] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:03:23.025] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[18:03:23.025] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:03:23.025] [INFO ] 
+[18:03:23.025] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[18:03:23.025] [INFO ]     ├─ Canvas fingerprint noise
+[18:03:23.025] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:03:23.025] [INFO ]     ├─ Hardware concurrency randomization
+[18:03:23.025] [INFO ]     ├─ Device memory randomization
+[18:03:23.025] [INFO ]     ├─ Plugin masking
+[18:03:23.025] [INFO ]     ├─ WebRTC IP leak protection
+[18:03:23.025] [INFO ]     ├─ Network connection spoof
+[18:03:23.025] [INFO ]     └─ Battery API spoof
+[18:03:23.067] [INFO ] 
+[18:03:23.067] [INFO ]     🥷 STEALTH MODE APPLIED
+[18:03:23.067] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[18:03:23.067] [INFO ]     ├─ Chrome runtime patches
+[18:03:23.067] [INFO ]     ├─ Console patches
+[18:03:23.067] [INFO ]     └─ Permission patches
+[18:03:23.067] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[18:03:23.067] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:03:23.067] [INFO ] 
+[18:03:23.067] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[18:03:23.067] [INFO ]     ├─ Canvas fingerprint noise
+[18:03:23.067] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:03:23.067] [INFO ]     ├─ Hardware concurrency randomization
+[18:03:23.067] [INFO ]     ├─ Device memory randomization
+[18:03:23.067] [INFO ]     ├─ Plugin masking
+[18:03:23.067] [INFO ]     ├─ WebRTC IP leak protection
+[18:03:23.067] [INFO ]     ├─ Network connection spoof
+[18:03:23.067] [INFO ]     └─ Battery API spoof
+[18:03:23.067] [DEBUG] Enabled resource blocking (images, media, fonts)
+[18:03:23.067] [INFO ] 
+[18:03:23.067] [INFO ]     🔗 NAVIGATING TO URL
+[18:03:23.067] [INFO ]     ├─ Strategy:   domcontentloaded
+[18:03:23.067] [INFO ]     ├─ Timeout:    15.0s
+[18:03:23.067] [INFO ]     └─ Sleep:      1s after load
+[18:03:29.662] [INFO ] 
+[18:03:29.662] [INFO ]     ✅ PAGE LOADED
+[18:03:29.662] [INFO ]     ├─ Final URL:  https://www.b2bcert.com/hipaa-certification-in-egypt/
+[18:03:29.662] [INFO ]     ├─ Title:      HIPAA Certification in Egypt | Top 10 HIPAA Consultants in Egypt
+[18:03:29.662] [INFO ]     └─ Load Time:  6.60s
+[18:03:31.681] [INFO ] 🧑 Human behavior simulation...
+[18:03:36.417] [INFO ] 🖱️ Mouse: 4 moves in 1728x1117
+[18:03:36.417] [INFO ] 🖱️ Mouse completed: 4 moves
+[18:03:36.417] [INFO ] 📜 Scroll: page height, viewport=1117px
+[18:03:36.417] [INFO ] 📜 Scroll completed: 2 scrolls
+[18:03:36.417] [INFO ] 🧑 Human behavior completed in 4.7s ✓
+[18:03:36.417] [INFO ] 
+[18:03:36.417] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[18:03:36.417] [INFO ]     ├─ Mouse Movements: 4
+[18:03:36.417] [INFO ]     ├─ Scroll Actions:  2
+[18:03:36.417] [INFO ]     └─ Time Spent:      4.74s
+[18:03:37.214] [INFO ] 
+[18:03:37.214] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:03:37.214] [INFO ]     │ Title:            HIPAA Certification in Egypt
+[18:03:37.214] [INFO ]     │ Final URL:        https://www.b2bcert.com/hipaa-certification-in-egypt/
+[18:03:37.214] [INFO ]     │ HTML Size:        473,610 bytes
+[18:03:37.214] [INFO ]     │ Text Size:        25,359 chars
+[18:03:37.214] [INFO ]     │ Word Count:       ~3670 words
+[18:03:37.214] [INFO ]     │ Extraction:       trafilatura
+[18:03:37.214] [INFO ]     │ Has Article:      ✅ Yes
+[18:03:37.214] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:03:37.255] [INFO ] 
+[18:03:37.255] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:03:37.255] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_180322_9F31
+[18:03:37.255] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:03:37.255] [INFO ] 
+[18:03:37.255] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[18:03:37.255] [INFO ]     │ Browser Launch:      0.06s
+[18:03:37.255] [INFO ]     │ Page Load:           6.60s
+[18:03:37.255] [INFO ]     │ Cloudflare Wait:     0.00s
+[18:03:37.255] [INFO ]     │ Human Simulation:    4.74s
+[18:03:37.255] [INFO ]     │
+[18:03:37.255] [INFO ]     │ Content Extraction:  0.63s
+[18:03:37.255] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[18:03:37.255] [INFO ]     │ TOTAL TIME:          12.01s
+[18:03:37.255] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:03:37.255] [INFO ] 
+[18:03:37.255] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:03:37.255] [INFO ]     │ Title:            HIPAA Certification in Egypt
+[18:03:37.255] [INFO ]     │ Final URL:        https://www.b2bcert.com/hipaa-certification-in-egypt/
+[18:03:37.255] [INFO ]     │ HTML Size:        473,610 bytes
+[18:03:37.255] [INFO ]     │ Text Size:        25,359 chars
+[18:03:37.255] [INFO ]     │ Word Count:       ~3670 words
+[18:03:37.255] [INFO ]     │ Extraction:       trafilatura
+[18:03:37.255] [INFO ]     │ Has Article:      ✅ Yes
+[18:03:37.255] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:03:37.255] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:03:37.255] [INFO ] ║  📊 SESSION STATS
+[18:03:37.255] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[18:03:37.255] [INFO ] ║  ├─ Popups Dismissed:   0
+[18:03:37.255] [INFO ] ║  ├─ Cloudflare:         Not detected
+[18:03:37.255] [INFO ] ║  └─ Proxy Used:         Direct
+[18:03:37.255] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:03:37.255] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 14.59s
+ENDED: 2026-01-29T18:03:37.255940+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

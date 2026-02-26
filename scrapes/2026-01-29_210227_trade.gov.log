@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.trade.gov/market-intelligence/egypt-data-centers
+Started: 2026-01-29 21:02:27
+Session ID: SCRAPE_20260129_210227_5EE8
+================================================================================
+[21:02:27.555] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_210227_trade.gov.log
+[21:02:27.555] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[21:02:27.896] [INFO ] 
+[21:02:27.896] [INFO ]     🚀 BROWSER LAUNCHED
+[21:02:27.896] [INFO ]     ├─ Mode:       Headless
+[21:02:27.896] [INFO ]     ├─ Slow Mo:    56ms
+[21:02:27.896] [INFO ]     ├─ Launch Time: 0.06s
+[21:02:27.896] [INFO ]     └─ Args:       Anti-automation flags enabled
+[21:02:27.914] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-US, tz=UTC
+[21:02:27.914] [INFO ] 
+[21:02:27.914] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:02:27.914] [INFO ] ║  📋 SESSION: SCRAPE_20260129_210227_5EE8
+[21:02:27.914] [INFO ] ║  🌐 URL: https://www.trade.gov/market-intelligence/egypt-data-centers
+[21:02:27.914] [INFO ] ║  🔄 ATTEMPT: 1/2
+[21:02:27.914] [INFO ] ║  ⏰ STARTED: 2026-01-29T21:02:27.914277+02:00 (Egypt Time)
+[21:02:27.914] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:02:27.914] [INFO ] 
+[21:02:27.914] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[21:02:27.914] [INFO ]     │ Browser:     CHROME v124
+[21:02:27.914] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[21:02:27.914] [INFO ]     │ Viewport:    2560x1440
+[21:02:27.914] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[21:02:27.914] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[21:02:27.914] [INFO ]     │ Location:    New York, USA
+[21:02:27.914] [INFO ]     │ Timezone:    N/A
+[21:02:27.914] [INFO ]     │ Locale:      en-US
+[21:02:27.914] [INFO ]     │ Geo:         0, 0
+[21:02:27.914] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[21:02:27.914] [INFO ]     │ Proxy:       Direct (no proxy)
+[21:02:27.914] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+trade+gov
+[21:02:27.914] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:02:27.914] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:02:27.914] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[21:02:27.914] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:02:27.914] [INFO ] 
+[21:02:27.914] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[21:02:27.914] [INFO ]     ├─ Canvas fingerprint noise
+[21:02:27.914] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:02:27.914] [INFO ]     ├─ Hardware concurrency randomization
+[21:02:27.914] [INFO ]     ├─ Device memory randomization
+[21:02:27.914] [INFO ]     ├─ Plugin masking
+[21:02:27.914] [INFO ]     ├─ WebRTC IP leak protection
+[21:02:27.914] [INFO ]     ├─ Network connection spoof
+[21:02:27.914] [INFO ]     └─ Battery API spoof
+[21:02:27.955] [INFO ] 
+[21:02:27.955] [INFO ]     🥷 STEALTH MODE APPLIED
+[21:02:27.955] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[21:02:27.955] [INFO ]     ├─ Chrome runtime patches
+[21:02:27.955] [INFO ]     ├─ Console patches
+[21:02:27.955] [INFO ]     └─ Permission patches
+[21:02:27.955] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[21:02:27.955] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:02:27.955] [INFO ] 
+[21:02:27.955] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[21:02:27.955] [INFO ]     ├─ Canvas fingerprint noise
+[21:02:27.955] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:02:27.955] [INFO ]     ├─ Hardware concurrency randomization
+[21:02:27.955] [INFO ]     ├─ Device memory randomization
+[21:02:27.955] [INFO ]     ├─ Plugin masking
+[21:02:27.955] [INFO ]     ├─ WebRTC IP leak protection
+[21:02:27.955] [INFO ]     ├─ Network connection spoof
+[21:02:27.955] [INFO ]     └─ Battery API spoof
+[21:02:27.955] [DEBUG] Enabled resource blocking (images, media, fonts)
+[21:02:27.955] [INFO ] 
+[21:02:27.955] [INFO ]     🔗 NAVIGATING TO URL
+[21:02:27.955] [INFO ]     ├─ Strategy:   domcontentloaded
+[21:02:27.955] [INFO ]     ├─ Timeout:    15.0s
+[21:02:27.955] [INFO ]     └─ Sleep:      1s after load
+[21:02:29.742] [INFO ] 
+[21:02:29.742] [INFO ]     ✅ PAGE LOADED
+[21:02:29.742] [INFO ]     ├─ Final URL:  https://www.trade.gov/market-intelligence/egypt-data-centers
+[21:02:29.742] [INFO ]     ├─ Title:      Egypt Data Centers
+[21:02:29.742] [INFO ]     └─ Load Time:  1.79s
+[21:02:31.103] [INFO ] 🧑 Human behavior simulation...
+[21:02:35.442] [INFO ] 🖱️ Mouse: 2 moves in 2560x1440
+[21:02:35.442] [INFO ] 🖱️ Mouse completed: 2 moves
+[21:02:35.442] [INFO ] 📜 Scroll: page height, viewport=1440px
+[21:02:35.442] [INFO ] 📜 Scroll completed: 1 scrolls
+[21:02:35.442] [INFO ] 🧑 Human behavior completed in 4.3s ✓
+[21:02:35.442] [INFO ] 
+[21:02:35.442] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[21:02:35.442] [INFO ]     ├─ Mouse Movements: 2
+[21:02:35.442] [INFO ]     ├─ Scroll Actions:  1
+[21:02:35.442] [INFO ]     └─ Time Spent:      4.34s
+[21:02:35.598] [INFO ] 
+[21:02:35.598] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:02:35.598] [INFO ]     │ Title:            Egypt Data Centers
+[21:02:35.598] [INFO ]     │ Final URL:        https://www.trade.gov/market-intelligence/egypt-data-centers
+[21:02:35.598] [INFO ]     │ HTML Size:        271,635 bytes
+[21:02:35.598] [INFO ]     │ Text Size:        2,223 chars
+[21:02:35.598] [INFO ]     │ Word Count:       ~302 words
+[21:02:35.598] [INFO ]     │ Extraction:       trafilatura
+[21:02:35.598] [INFO ]     │ Has Article:      ✅ Yes
+[21:02:35.598] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:02:35.626] [INFO ] 
+[21:02:35.626] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:02:35.626] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_210227_5EE8
+[21:02:35.626] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:02:35.626] [INFO ] 
+[21:02:35.626] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[21:02:35.626] [INFO ]     │ Browser Launch:      0.06s
+[21:02:35.626] [INFO ]     │ Page Load:           1.79s
+[21:02:35.626] [INFO ]     │ Cloudflare Wait:     0.00s
+[21:02:35.626] [INFO ]     │ Human Simulation:    4.34s
+[21:02:35.626] [INFO ]     │
+[21:02:35.626] [INFO ]     │ Content Extraction:  0.10s
+[21:02:35.626] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[21:02:35.626] [INFO ]     │ TOTAL TIME:          6.28s
+[21:02:35.626] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:02:35.626] [INFO ] 
+[21:02:35.626] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:02:35.626] [INFO ]     │ Title:            Egypt Data Centers
+[21:02:35.626] [INFO ]     │ Final URL:        https://www.trade.gov/market-intelligence/egypt-data-centers
+[21:02:35.626] [INFO ]     │ HTML Size:        271,635 bytes
+[21:02:35.626] [INFO ]     │ Text Size:        2,223 chars
+[21:02:35.626] [INFO ]     │ Word Count:       ~302 words
+[21:02:35.626] [INFO ]     │ Extraction:       trafilatura
+[21:02:35.626] [INFO ]     │ Has Article:      ✅ Yes
+[21:02:35.626] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:02:35.626] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:02:35.626] [INFO ] ║  📊 SESSION STATS
+[21:02:35.626] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[21:02:35.626] [INFO ] ║  ├─ Popups Dismissed:   0
+[21:02:35.626] [INFO ] ║  ├─ Cloudflare:         Not detected
+[21:02:35.626] [INFO ] ║  └─ Proxy Used:         Direct
+[21:02:35.626] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:02:35.626] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.07s
+ENDED: 2026-01-29T21:02:35.626537+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

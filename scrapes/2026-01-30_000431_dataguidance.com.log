@@ -1,0 +1,142 @@
+================================================================================
+SCRAPE LOG: https://www.dataguidance.com/jurisdictions/egypt
+Started: 2026-01-30 00:04:31
+Session ID: SCRAPE_20260130_000431_AA94
+================================================================================
+[00:04:31.613] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_000431_dataguidance.com.log
+[00:04:31.613] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[00:04:31.954] [INFO ] 
+[00:04:31.954] [INFO ]     🚀 BROWSER LAUNCHED
+[00:04:31.954] [INFO ]     ├─ Mode:       Headless
+[00:04:31.954] [INFO ]     ├─ Slow Mo:    42ms
+[00:04:31.955] [INFO ]     ├─ Launch Time: 0.06s
+[00:04:31.955] [INFO ]     └─ Args:       Anti-automation flags enabled
+[00:04:31.976] [DEBUG] Browser profile: viewport={'width': 1600, 'height': 900}, locale=en-GB, tz=UTC
+[00:04:31.976] [INFO ] 
+[00:04:31.976] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:04:31.976] [INFO ] ║  📋 SESSION: SCRAPE_20260130_000431_AA94
+[00:04:31.976] [INFO ] ║  🌐 URL: https://www.dataguidance.com/jurisdictions/egypt
+[00:04:31.976] [INFO ] ║  🔄 ATTEMPT: 1/2
+[00:04:31.976] [INFO ] ║  ⏰ STARTED: 2026-01-30T00:04:31.976245+02:00 (Egypt Time)
+[00:04:31.976] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:04:31.976] [INFO ] 
+[00:04:31.976] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[00:04:31.976] [INFO ]     │ Browser:     CHROME v119
+[00:04:31.976] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[00:04:31.976] [INFO ]     │ Viewport:    1600x900
+[00:04:31.976] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[00:04:31.976] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[00:04:31.976] [INFO ]     │ Location:    Birmingham, UK
+[00:04:31.976] [INFO ]     │ Timezone:    N/A
+[00:04:31.976] [INFO ]     │ Locale:      en-GB
+[00:04:31.976] [INFO ]     │ Geo:         0, 0
+[00:04:31.976] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[00:04:31.976] [INFO ]     │ Proxy:       Direct (no proxy)
+[00:04:31.976] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+dataguidance+com
+[00:04:31.976] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:04:31.976] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:04:31.976] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[00:04:31.976] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:04:31.976] [INFO ] 
+[00:04:31.976] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[00:04:31.976] [INFO ]     ├─ Canvas fingerprint noise
+[00:04:31.976] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:04:31.976] [INFO ]     ├─ Hardware concurrency randomization
+[00:04:31.976] [INFO ]     ├─ Device memory randomization
+[00:04:31.976] [INFO ]     ├─ Plugin masking
+[00:04:31.976] [INFO ]     ├─ WebRTC IP leak protection
+[00:04:31.976] [INFO ]     ├─ Network connection spoof
+[00:04:31.976] [INFO ]     └─ Battery API spoof
+[00:04:32.017] [INFO ] 
+[00:04:32.017] [INFO ]     🥷 STEALTH MODE APPLIED
+[00:04:32.017] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[00:04:32.017] [INFO ]     ├─ Chrome runtime patches
+[00:04:32.017] [INFO ]     ├─ Console patches
+[00:04:32.017] [INFO ]     └─ Permission patches
+[00:04:32.017] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[00:04:32.017] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:04:32.017] [INFO ] 
+[00:04:32.017] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[00:04:32.017] [INFO ]     ├─ Canvas fingerprint noise
+[00:04:32.017] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:04:32.017] [INFO ]     ├─ Hardware concurrency randomization
+[00:04:32.017] [INFO ]     ├─ Device memory randomization
+[00:04:32.017] [INFO ]     ├─ Plugin masking
+[00:04:32.017] [INFO ]     ├─ WebRTC IP leak protection
+[00:04:32.017] [INFO ]     ├─ Network connection spoof
+[00:04:32.017] [INFO ]     └─ Battery API spoof
+[00:04:32.017] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:04:32.017] [INFO ] 
+[00:04:32.017] [INFO ]     🔗 NAVIGATING TO URL
+[00:04:32.017] [INFO ]     ├─ Strategy:   domcontentloaded
+[00:04:32.017] [INFO ]     ├─ Timeout:    15.0s
+[00:04:32.018] [INFO ]     └─ Sleep:      1s after load
+[00:04:33.148] [INFO ] 
+[00:04:33.148] [INFO ]     ✅ PAGE LOADED
+[00:04:33.148] [INFO ]     ├─ Final URL:  https://www.dataguidance.com/jurisdictions/egypt
+[00:04:33.148] [INFO ]     ├─ Title:      DataGuidance
+[00:04:33.148] [INFO ]     └─ Load Time:  1.13s
+[00:06:06.688] [INFO ] ☁️ Cloudflare detected, waiting 0.0s...
+[00:06:06.688] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:06:06.688] [INFO ] 
+[00:06:06.688] [INFO ]     🔗 NAVIGATING TO URL
+[00:06:06.688] [INFO ]     ├─ Strategy:   load
+[00:06:06.688] [INFO ]     ├─ Timeout:    20.0s
+[00:06:06.688] [INFO ]     └─ Sleep:      1s after load
+[00:06:07.246] [INFO ] 
+[00:06:07.246] [INFO ]     ✅ PAGE LOADED
+[00:06:07.246] [INFO ]     ├─ Final URL:  https://www.dataguidance.com/jurisdictions/egypt
+[00:06:07.246] [INFO ]     ├─ Title:      DataGuidance
+[00:06:07.246] [INFO ]     └─ Load Time:  0.56s
+[00:06:07.281] [INFO ] 
+[00:06:07.281] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:06:07.281] [INFO ] ║  ⚠️  ERROR DETECTED
+[00:06:07.281] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:06:07.281] [INFO ] 
+[00:06:07.281] [INFO ]     ┌─ ERROR DETAILS ───────────────────────────────────────────────┐
+[00:06:07.281] [INFO ]     │ Error Type:       timeout
+[00:06:07.281] [INFO ]     │ Message:          Scrape timed out after 95.6s at stage: page_loaded...
+[00:06:07.281] [INFO ]     │
+[00:06:07.281] [INFO ]     │ Likely Ban:       ✅ No
+[00:06:07.281] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:06:07.281] [INFO ] 
+[00:06:07.281] [INFO ]     ┌─ PAGE STATE AT ERROR ────────────────────────────────────────┐
+[00:06:07.281] [INFO ]     │ Page URL:         https://www.dataguidance.com/jurisdictions/egypt
+[00:06:07.281] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:06:07.281] [INFO ] 
+[00:06:07.281] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:06:07.281] [INFO ] 
+[00:06:07.281] [ERROR] ❌ timeout: Scrape timed out after 95.6s at stage: page_loaded
+[00:06:07.281] [INFO ] 
+[00:06:07.281] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:06:07.281] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260130_000431_AA94
+[00:06:07.281] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:06:07.281] [INFO ] 
+[00:06:07.281] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[00:06:07.281] [INFO ]     │ URL:              https://www.dataguidance.com/jurisdictions/egypt
+[00:06:07.281] [INFO ]     │ Error Type:       timeout
+[00:06:07.281] [INFO ]     │ Likely Ban:       ❌ No
+[00:06:07.281] [INFO ]     │ Retries Used:     0
+[00:06:07.281] [INFO ]     │
+[00:06:07.281] [INFO ]     │ Error Message:
+[00:06:07.281] [INFO ]     │   Scrape timed out after 95.6s at stage: page_loaded
+[00:06:07.281] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:06:07.281] [INFO ] 
+[00:06:07.281] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[00:06:07.281] [INFO ]     │ Browser Launch:     0.06s
+[00:06:07.281] [INFO ]     │ Page Load:          0.56s
+[00:06:07.281] [INFO ]     │ Cloudflare Wait:    0.00s
+[00:06:07.281] [INFO ]     │ Human Simulation:   0.00s
+[00:06:07.281] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[00:06:07.281] [INFO ]     │ FAILED AT:          0.61s
+[00:06:07.281] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:06:07.281] [INFO ] 
+[00:06:07.281] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:06:07.281] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 95.67s
+ENDED: 2026-01-30T00:06:07.281650+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

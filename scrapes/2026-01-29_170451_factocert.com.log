@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://factocert.com/iso-27001-certification-egypt-for-information/
+Started: 2026-01-29 17:04:51
+Session ID: SCRAPE_20260129_170451_20F1
+================================================================================
+[17:04:51.341] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_170451_factocert.com.log
+[17:04:51.341] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[17:04:51.679] [INFO ] 
+[17:04:51.679] [INFO ]     🚀 BROWSER LAUNCHED
+[17:04:51.679] [INFO ]     ├─ Mode:       Headless
+[17:04:51.679] [INFO ]     ├─ Slow Mo:    54ms
+[17:04:51.679] [INFO ]     ├─ Launch Time: 0.06s
+[17:04:51.679] [INFO ]     └─ Args:       Anti-automation flags enabled
+[17:04:51.698] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-US, tz=UTC
+[17:04:51.698] [INFO ] 
+[17:04:51.698] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:04:51.698] [INFO ] ║  📋 SESSION: SCRAPE_20260129_170451_20F1
+[17:04:51.698] [INFO ] ║  🌐 URL: https://factocert.com/iso-27001-certification-egypt-for-information/
+[17:04:51.698] [INFO ] ║  🔄 ATTEMPT: 1/2
+[17:04:51.698] [INFO ] ║  ⏰ STARTED: 2026-01-29T17:04:51.698885+02:00 (Egypt Time)
+[17:04:51.698] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:04:51.698] [INFO ] 
+[17:04:51.698] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[17:04:51.698] [INFO ]     │ Browser:     CHROME v121
+[17:04:51.698] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_1) AppleWebKit/537.36 (KHTML...
+[17:04:51.698] [INFO ]     │ Viewport:    1920x1080
+[17:04:51.698] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[17:04:51.698] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[17:04:51.698] [INFO ]     │ Location:    New York, USA
+[17:04:51.698] [INFO ]     │ Timezone:    N/A
+[17:04:51.698] [INFO ]     │ Locale:      en-US
+[17:04:51.698] [INFO ]     │ Geo:         0, 0
+[17:04:51.698] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[17:04:51.698] [INFO ]     │ Proxy:       Direct (no proxy)
+[17:04:51.698] [INFO ]     │ Referrer:    https://www.google.com/search?q=factocert+com
+[17:04:51.698] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:04:51.698] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:04:51.698] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[17:04:51.698] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:04:51.698] [INFO ] 
+[17:04:51.698] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[17:04:51.698] [INFO ]     ├─ Canvas fingerprint noise
+[17:04:51.699] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:04:51.699] [INFO ]     ├─ Hardware concurrency randomization
+[17:04:51.699] [INFO ]     ├─ Device memory randomization
+[17:04:51.699] [INFO ]     ├─ Plugin masking
+[17:04:51.699] [INFO ]     ├─ WebRTC IP leak protection
+[17:04:51.699] [INFO ]     ├─ Network connection spoof
+[17:04:51.699] [INFO ]     └─ Battery API spoof
+[17:04:51.741] [INFO ] 
+[17:04:51.741] [INFO ]     🥷 STEALTH MODE APPLIED
+[17:04:51.741] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[17:04:51.741] [INFO ]     ├─ Chrome runtime patches
+[17:04:51.741] [INFO ]     ├─ Console patches
+[17:04:51.741] [INFO ]     └─ Permission patches
+[17:04:51.741] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[17:04:51.741] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:04:51.741] [INFO ] 
+[17:04:51.741] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[17:04:51.741] [INFO ]     ├─ Canvas fingerprint noise
+[17:04:51.741] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:04:51.741] [INFO ]     ├─ Hardware concurrency randomization
+[17:04:51.741] [INFO ]     ├─ Device memory randomization
+[17:04:51.741] [INFO ]     ├─ Plugin masking
+[17:04:51.741] [INFO ]     ├─ WebRTC IP leak protection
+[17:04:51.741] [INFO ]     ├─ Network connection spoof
+[17:04:51.741] [INFO ]     └─ Battery API spoof
+[17:04:51.741] [DEBUG] Enabled resource blocking (images, media, fonts)
+[17:04:51.741] [INFO ] 
+[17:04:51.741] [INFO ]     🔗 NAVIGATING TO URL
+[17:04:51.741] [INFO ]     ├─ Strategy:   domcontentloaded
+[17:04:51.741] [INFO ]     ├─ Timeout:    15.0s
+[17:04:51.741] [INFO ]     └─ Sleep:      1s after load
+[17:04:52.974] [INFO ] 
+[17:04:52.974] [INFO ]     ✅ PAGE LOADED
+[17:04:52.974] [INFO ]     ├─ Final URL:  https://factocert.com/iso-27001-certification-egypt-for-information/
+[17:04:52.974] [INFO ]     ├─ Title:      best ISO 27001 certification in Egypt
+[17:04:52.974] [INFO ]     └─ Load Time:  1.23s
+[17:04:54.419] [INFO ] 🧑 Human behavior simulation...
+[17:04:57.908] [INFO ] 🖱️ Mouse: 2 moves in 1920x1080
+[17:04:57.908] [INFO ] 🖱️ Mouse completed: 2 moves
+[17:04:57.908] [INFO ] 📜 Scroll: page height, viewport=1080px
+[17:04:57.908] [INFO ] 📜 Scroll completed: 3 scrolls
+[17:04:57.908] [INFO ] 🧑 Human behavior completed in 3.5s ✓
+[17:04:57.908] [INFO ] 
+[17:04:57.908] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[17:04:57.908] [INFO ]     ├─ Mouse Movements: 2
+[17:04:57.908] [INFO ]     ├─ Scroll Actions:  3
+[17:04:57.908] [INFO ]     └─ Time Spent:      3.49s
+[17:04:58.135] [INFO ] 
+[17:04:58.135] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[17:04:58.135] [INFO ]     │ Title:            best ISO 27001 certification in Egypt
+[17:04:58.135] [INFO ]     │ Final URL:        https://factocert.com/iso-27001-certification-egypt-for-information/
+[17:04:58.135] [INFO ]     │ HTML Size:        551,781 bytes
+[17:04:58.135] [INFO ]     │ Text Size:        5,708 chars
+[17:04:58.135] [INFO ]     │ Word Count:       ~857 words
+[17:04:58.135] [INFO ]     │ Extraction:       trafilatura
+[17:04:58.135] [INFO ]     │ Has Article:      ✅ Yes
+[17:04:58.135] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:04:58.162] [INFO ] 
+[17:04:58.162] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:04:58.162] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_170451_20F1
+[17:04:58.162] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:04:58.162] [INFO ] 
+[17:04:58.162] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[17:04:58.162] [INFO ]     │ Browser Launch:      0.06s
+[17:04:58.162] [INFO ]     │ Page Load:           1.23s
+[17:04:58.162] [INFO ]     │ Cloudflare Wait:     0.00s
+[17:04:58.162] [INFO ]     │ Human Simulation:    3.49s
+[17:04:58.162] [INFO ]     │
+[17:04:58.162] [INFO ]     │ Content Extraction:  0.11s
+[17:04:58.162] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[17:04:58.162] [INFO ]     │ TOTAL TIME:          4.89s
+[17:04:58.162] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:04:58.162] [INFO ] 
+[17:04:58.162] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[17:04:58.162] [INFO ]     │ Title:            best ISO 27001 certification in Egypt
+[17:04:58.162] [INFO ]     │ Final URL:        https://factocert.com/iso-27001-certification-egypt-for-information/
+[17:04:58.162] [INFO ]     │ HTML Size:        551,781 bytes
+[17:04:58.162] [INFO ]     │ Text Size:        5,708 chars
+[17:04:58.162] [INFO ]     │ Word Count:       ~857 words
+[17:04:58.162] [INFO ]     │ Extraction:       trafilatura
+[17:04:58.162] [INFO ]     │ Has Article:      ✅ Yes
+[17:04:58.162] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:04:58.163] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:04:58.163] [INFO ] ║  📊 SESSION STATS
+[17:04:58.163] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[17:04:58.163] [INFO ] ║  ├─ Popups Dismissed:   0
+[17:04:58.163] [INFO ] ║  ├─ Cloudflare:         Not detected
+[17:04:58.163] [INFO ] ║  └─ Proxy Used:         Direct
+[17:04:58.163] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:04:58.163] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 6.82s
+ENDED: 2026-01-29T17:04:58.163059+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

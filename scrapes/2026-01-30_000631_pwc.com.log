@@ -1,0 +1,207 @@
+================================================================================
+SCRAPE LOG: https://www.pwc.com/m1/en/services/assurance/risk-assurance/documents/webcast-data-privacy-egypt-what-you-need-know.pdf
+Started: 2026-01-30 00:06:31
+Session ID: SCRAPE_20260130_000631_C062
+================================================================================
+[00:06:31.615] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_000631_pwc.com.log
+[00:06:31.615] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[00:06:31.959] [INFO ] 
+[00:06:31.959] [INFO ]     🚀 BROWSER LAUNCHED
+[00:06:31.959] [INFO ]     ├─ Mode:       Headless
+[00:06:31.959] [INFO ]     ├─ Slow Mo:    46ms
+[00:06:31.959] [INFO ]     ├─ Launch Time: 0.06s
+[00:06:31.959] [INFO ]     └─ Args:       Anti-automation flags enabled
+[00:06:31.980] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-CA, tz=UTC
+[00:06:31.980] [INFO ] 
+[00:06:31.980] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:06:31.980] [INFO ] ║  📋 SESSION: SCRAPE_20260130_000631_C062
+[00:06:31.980] [INFO ] ║  🌐 URL: https://www.pwc.com/m1/en/services/assurance/risk-assurance/documents/webcast-data-privacy-egypt-what-you-need-know.pdf
+[00:06:31.980] [INFO ] ║  🔄 ATTEMPT: 1/2
+[00:06:31.980] [INFO ] ║  ⏰ STARTED: 2026-01-30T00:06:31.980302+02:00 (Egypt Time)
+[00:06:31.980] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:06:31.980] [INFO ] 
+[00:06:31.980] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[00:06:31.980] [INFO ]     │ Browser:     CHROME v122
+[00:06:31.980] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[00:06:31.980] [INFO ]     │ Viewport:    2560x1440
+[00:06:31.980] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[00:06:31.980] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[00:06:31.980] [INFO ]     │ Location:    Toronto, Canada
+[00:06:31.980] [INFO ]     │ Timezone:    N/A
+[00:06:31.980] [INFO ]     │ Locale:      en-CA
+[00:06:31.980] [INFO ]     │ Geo:         0, 0
+[00:06:31.980] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[00:06:31.980] [INFO ]     │ Proxy:       Direct (no proxy)
+[00:06:31.980] [INFO ]     │ Referrer:    https://news.google.com/
+[00:06:31.980] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:06:31.980] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:06:31.980] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[00:06:31.980] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:06:31.980] [INFO ] 
+[00:06:31.980] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[00:06:31.980] [INFO ]     ├─ Canvas fingerprint noise
+[00:06:31.980] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:06:31.980] [INFO ]     ├─ Hardware concurrency randomization
+[00:06:31.980] [INFO ]     ├─ Device memory randomization
+[00:06:31.980] [INFO ]     ├─ Plugin masking
+[00:06:31.980] [INFO ]     ├─ WebRTC IP leak protection
+[00:06:31.980] [INFO ]     ├─ Network connection spoof
+[00:06:31.980] [INFO ]     └─ Battery API spoof
+[00:06:32.022] [INFO ] 
+[00:06:32.022] [INFO ]     🥷 STEALTH MODE APPLIED
+[00:06:32.022] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[00:06:32.022] [INFO ]     ├─ Chrome runtime patches
+[00:06:32.022] [INFO ]     ├─ Console patches
+[00:06:32.022] [INFO ]     └─ Permission patches
+[00:06:32.022] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[00:06:32.022] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:06:32.022] [INFO ] 
+[00:06:32.022] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[00:06:32.022] [INFO ]     ├─ Canvas fingerprint noise
+[00:06:32.022] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:06:32.022] [INFO ]     ├─ Hardware concurrency randomization
+[00:06:32.023] [INFO ]     ├─ Device memory randomization
+[00:06:32.023] [INFO ]     ├─ Plugin masking
+[00:06:32.023] [INFO ]     ├─ WebRTC IP leak protection
+[00:06:32.023] [INFO ]     ├─ Network connection spoof
+[00:06:32.023] [INFO ]     └─ Battery API spoof
+[00:06:32.023] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:06:32.023] [INFO ] 
+[00:06:32.023] [INFO ]     🔗 NAVIGATING TO URL
+[00:06:32.023] [INFO ]     ├─ Strategy:   domcontentloaded
+[00:06:32.023] [INFO ]     ├─ Timeout:    15.0s
+[00:06:32.023] [INFO ]     └─ Sleep:      1s after load
+[00:06:32.628] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:06:32.628] [INFO ] 
+[00:06:32.628] [INFO ]     🔗 NAVIGATING TO URL
+[00:06:32.628] [INFO ]     ├─ Strategy:   load
+[00:06:32.628] [INFO ]     ├─ Timeout:    20.0s
+[00:06:32.628] [INFO ]     └─ Sleep:      1s after load
+[00:06:33.049] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:06:33.049] [INFO ] 
+[00:06:33.049] [INFO ]     🔗 NAVIGATING TO URL
+[00:06:33.049] [INFO ]     ├─ Strategy:   networkidle
+[00:06:33.049] [INFO ]     ├─ Timeout:    25.0s
+[00:06:33.049] [INFO ]     └─ Sleep:      1s after load
+[00:06:38.455] [INFO ] 
+[00:06:38.456] [INFO ]     🚀 BROWSER LAUNCHED
+[00:06:38.456] [INFO ]     ├─ Mode:       Headless
+[00:06:38.456] [INFO ]     ├─ Slow Mo:    56ms
+[00:06:38.456] [INFO ]     ├─ Launch Time: 0.06s
+[00:06:38.456] [INFO ]     └─ Args:       Anti-automation flags enabled
+[00:06:38.476] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-US, tz=UTC
+[00:06:38.476] [INFO ] 
+[00:06:38.476] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:06:38.476] [INFO ] ║  📋 SESSION: SCRAPE_20260130_000631_C062
+[00:06:38.476] [INFO ] ║  🌐 URL: https://www.pwc.com/m1/en/services/assurance/risk-assurance/documents/webcast-data-privacy-egypt-what-you-need-know.pdf
+[00:06:38.476] [INFO ] ║  🔄 ATTEMPT: 2/2
+[00:06:38.476] [INFO ] ║  ⏰ STARTED: 2026-01-30T00:06:38.476300+02:00 (Egypt Time)
+[00:06:38.476] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:06:38.476] [INFO ] 
+[00:06:38.476] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[00:06:38.476] [INFO ]     │ Browser:     EDGE v120
+[00:06:38.476] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[00:06:38.476] [INFO ]     │ Viewport:    1920x1080
+[00:06:38.476] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[00:06:38.476] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[00:06:38.476] [INFO ]     │ Location:    Phoenix, USA
+[00:06:38.476] [INFO ]     │ Timezone:    N/A
+[00:06:38.476] [INFO ]     │ Locale:      en-US
+[00:06:38.476] [INFO ]     │ Geo:         0, 0
+[00:06:38.476] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[00:06:38.476] [INFO ]     │ Proxy:       Direct (no proxy)
+[00:06:38.476] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+pwc+com
+[00:06:38.476] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:06:38.476] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:06:38.476] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[00:06:38.476] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:06:38.476] [INFO ] 
+[00:06:38.476] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[00:06:38.476] [INFO ]     ├─ Canvas fingerprint noise
+[00:06:38.476] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:06:38.476] [INFO ]     ├─ Hardware concurrency randomization
+[00:06:38.476] [INFO ]     ├─ Device memory randomization
+[00:06:38.476] [INFO ]     ├─ Plugin masking
+[00:06:38.476] [INFO ]     ├─ WebRTC IP leak protection
+[00:06:38.476] [INFO ]     ├─ Network connection spoof
+[00:06:38.476] [INFO ]     └─ Battery API spoof
+[00:06:38.518] [INFO ] 
+[00:06:38.518] [INFO ]     🥷 STEALTH MODE APPLIED
+[00:06:38.518] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[00:06:38.518] [INFO ]     ├─ Chrome runtime patches
+[00:06:38.518] [INFO ]     ├─ Console patches
+[00:06:38.518] [INFO ]     └─ Permission patches
+[00:06:38.518] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[00:06:38.518] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:06:38.518] [INFO ] 
+[00:06:38.518] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[00:06:38.518] [INFO ]     ├─ Canvas fingerprint noise
+[00:06:38.518] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:06:38.518] [INFO ]     ├─ Hardware concurrency randomization
+[00:06:38.518] [INFO ]     ├─ Device memory randomization
+[00:06:38.518] [INFO ]     ├─ Plugin masking
+[00:06:38.518] [INFO ]     ├─ WebRTC IP leak protection
+[00:06:38.518] [INFO ]     ├─ Network connection spoof
+[00:06:38.518] [INFO ]     └─ Battery API spoof
+[00:06:38.518] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:06:38.518] [INFO ] 
+[00:06:38.518] [INFO ]     🔗 NAVIGATING TO URL
+[00:06:38.518] [INFO ]     ├─ Strategy:   domcontentloaded
+[00:06:38.518] [INFO ]     ├─ Timeout:    15.0s
+[00:06:38.518] [INFO ]     └─ Sleep:      1s after load
+[00:06:38.890] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:06:38.890] [INFO ] 
+[00:06:38.890] [INFO ]     🔗 NAVIGATING TO URL
+[00:06:38.890] [INFO ]     ├─ Strategy:   load
+[00:06:38.890] [INFO ]     ├─ Timeout:    20.0s
+[00:06:38.890] [INFO ]     └─ Sleep:      1s after load
+[00:06:39.245] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:06:39.245] [INFO ] 
+[00:06:39.245] [INFO ]     🔗 NAVIGATING TO URL
+[00:06:39.245] [INFO ]     ├─ Strategy:   networkidle
+[00:06:39.245] [INFO ]     ├─ Timeout:    25.0s
+[00:06:39.245] [INFO ]     └─ Sleep:      1s after load
+[00:06:39.532] [INFO ] 
+[00:06:39.532] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:06:39.532] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260130_000631_C062
+[00:06:39.532] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:06:39.532] [INFO ] 
+[00:06:39.532] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[00:06:39.532] [INFO ]     │ URL:              https://www.pwc.com/m1/en/services/assurance/risk-assur
+[00:06:39.532] [INFO ]     │ Error Type:       network
+[00:06:39.532] [INFO ]     │ Likely Ban:       ❌ No
+[00:06:39.532] [INFO ]     │ Retries Used:     2
+[00:06:39.532] [INFO ]     │
+[00:06:39.532] [INFO ]     │ Error Message:
+[00:06:39.532] [INFO ]     │   Failed after 2 attempts. Last error: Page.goto: Download
+[00:06:39.532] [INFO ]     │    is starting
+Call log:
+  - navigating to "https://www.pw
+[00:06:39.532] [INFO ]     │   c.com/m1/en/services/assurance/risk-assurance/documents/
+[00:06:39.532] [INFO ]     │   webcast-data-privacy-egypt-what-you-need-know.pdf", wait
+[00:06:39.532] [INFO ]     │   ing until "networkidle"
+
+[00:06:39.532] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:06:39.532] [INFO ] 
+[00:06:39.532] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[00:06:39.532] [INFO ]     │ Browser Launch:     0.06s
+[00:06:39.532] [INFO ]     │ Page Load:          0.00s
+[00:06:39.532] [INFO ]     │ Cloudflare Wait:    0.00s
+[00:06:39.532] [INFO ]     │ Human Simulation:   0.00s
+[00:06:39.532] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[00:06:39.532] [INFO ]     │ FAILED AT:          0.06s
+[00:06:39.532] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:06:39.532] [INFO ] 
+[00:06:39.532] [INFO ]     ┌─ RECOMMENDATION ─────────────────────────────────────────────┐
+[00:06:39.532] [INFO ]     │ 💡 Network connection issue
+[00:06:39.532] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:06:39.532] [INFO ] 
+[00:06:39.532] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:06:39.532] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 7.92s
+ENDED: 2026-01-30T00:06:39.532191+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

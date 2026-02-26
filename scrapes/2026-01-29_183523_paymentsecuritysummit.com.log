@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://paymentsecuritysummit.com/egypt/
+Started: 2026-01-29 18:35:23
+Session ID: SCRAPE_20260129_183523_754C
+================================================================================
+[18:35:23.108] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_183523_paymentsecuritysummit.com.log
+[18:35:23.108] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[18:35:23.457] [INFO ] 
+[18:35:23.457] [INFO ]     🚀 BROWSER LAUNCHED
+[18:35:23.457] [INFO ]     ├─ Mode:       Headless
+[18:35:23.457] [INFO ]     ├─ Slow Mo:    47ms
+[18:35:23.457] [INFO ]     ├─ Launch Time: 0.06s
+[18:35:23.457] [INFO ]     └─ Args:       Anti-automation flags enabled
+[18:35:23.471] [DEBUG] Browser profile: viewport={'width': 1512, 'height': 982}, locale=en-SG, tz=UTC
+[18:35:23.471] [INFO ] 
+[18:35:23.471] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:35:23.471] [INFO ] ║  📋 SESSION: SCRAPE_20260129_183523_754C
+[18:35:23.471] [INFO ] ║  🌐 URL: https://paymentsecuritysummit.com/egypt/
+[18:35:23.471] [INFO ] ║  🔄 ATTEMPT: 1/2
+[18:35:23.471] [INFO ] ║  ⏰ STARTED: 2026-01-29T18:35:23.471745+02:00 (Egypt Time)
+[18:35:23.471] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:35:23.471] [INFO ] 
+[18:35:23.471] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[18:35:23.471] [INFO ]     │ Browser:     CHROME v119
+[18:35:23.471] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 13_5) AppleWebKit/537.36 (KHTML...
+[18:35:23.471] [INFO ]     │ Viewport:    1512x982
+[18:35:23.471] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[18:35:23.471] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[18:35:23.471] [INFO ]     │ Location:    Singapore
+[18:35:23.471] [INFO ]     │ Timezone:    N/A
+[18:35:23.471] [INFO ]     │ Locale:      en-SG
+[18:35:23.471] [INFO ]     │ Geo:         0, 0
+[18:35:23.471] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[18:35:23.471] [INFO ]     │ Proxy:       Direct (no proxy)
+[18:35:23.471] [INFO ]     │ Referrer:    https://www.google.com/search?q=paymentsecuritysummit+com
+[18:35:23.471] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:35:23.471] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:35:23.471] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[18:35:23.471] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:35:23.471] [INFO ] 
+[18:35:23.471] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[18:35:23.471] [INFO ]     ├─ Canvas fingerprint noise
+[18:35:23.471] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:35:23.471] [INFO ]     ├─ Hardware concurrency randomization
+[18:35:23.471] [INFO ]     ├─ Device memory randomization
+[18:35:23.471] [INFO ]     ├─ Plugin masking
+[18:35:23.471] [INFO ]     ├─ WebRTC IP leak protection
+[18:35:23.471] [INFO ]     ├─ Network connection spoof
+[18:35:23.471] [INFO ]     └─ Battery API spoof
+[18:35:23.513] [INFO ] 
+[18:35:23.513] [INFO ]     🥷 STEALTH MODE APPLIED
+[18:35:23.513] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[18:35:23.513] [INFO ]     ├─ Chrome runtime patches
+[18:35:23.513] [INFO ]     ├─ Console patches
+[18:35:23.513] [INFO ]     └─ Permission patches
+[18:35:23.513] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[18:35:23.513] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:35:23.513] [INFO ] 
+[18:35:23.513] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[18:35:23.513] [INFO ]     ├─ Canvas fingerprint noise
+[18:35:23.513] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:35:23.513] [INFO ]     ├─ Hardware concurrency randomization
+[18:35:23.513] [INFO ]     ├─ Device memory randomization
+[18:35:23.513] [INFO ]     ├─ Plugin masking
+[18:35:23.513] [INFO ]     ├─ WebRTC IP leak protection
+[18:35:23.513] [INFO ]     ├─ Network connection spoof
+[18:35:23.513] [INFO ]     └─ Battery API spoof
+[18:35:23.513] [DEBUG] Enabled resource blocking (images, media, fonts)
+[18:35:23.513] [INFO ] 
+[18:35:23.513] [INFO ]     🔗 NAVIGATING TO URL
+[18:35:23.513] [INFO ]     ├─ Strategy:   domcontentloaded
+[18:35:23.513] [INFO ]     ├─ Timeout:    15.0s
+[18:35:23.513] [INFO ]     └─ Sleep:      1s after load
+[18:35:27.799] [INFO ] 
+[18:35:27.799] [INFO ]     ✅ PAGE LOADED
+[18:35:27.799] [INFO ]     ├─ Final URL:  https://paymentsecuritysummit.com/egypt/
+[18:35:27.799] [INFO ]     ├─ Title:      Payment Security Summit Egypt | 23rd September, 2025 I Cairo
+[18:35:27.799] [INFO ]     └─ Load Time:  4.29s
+[18:35:30.027] [INFO ] 🧑 Human behavior simulation...
+[18:35:33.878] [INFO ] 🖱️ Mouse: 2 moves in 1512x982
+[18:35:33.878] [INFO ] 🖱️ Mouse completed: 2 moves
+[18:35:33.878] [INFO ] 📜 Scroll: page height, viewport=982px
+[18:35:33.878] [INFO ] 📜 Scroll completed: 3 scrolls
+[18:35:33.879] [INFO ] 🧑 Human behavior completed in 3.9s ✓
+[18:35:33.879] [INFO ] 
+[18:35:33.879] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[18:35:33.879] [INFO ]     ├─ Mouse Movements: 2
+[18:35:33.879] [INFO ]     ├─ Scroll Actions:  3
+[18:35:33.879] [INFO ]     └─ Time Spent:      3.85s
+[18:35:34.525] [INFO ] 
+[18:35:34.525] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:35:34.525] [INFO ]     │ Title:            Payment Security Summit Egypt | 23rd September, 20
+[18:35:34.525] [INFO ]     │ Final URL:        https://paymentsecuritysummit.com/egypt/
+[18:35:34.525] [INFO ]     │ HTML Size:        651,954 bytes
+[18:35:34.525] [INFO ]     │ Text Size:        17,637 chars
+[18:35:34.525] [INFO ]     │ Word Count:       ~2618 words
+[18:35:34.525] [INFO ]     │ Extraction:       trafilatura
+[18:35:34.525] [INFO ]     │ Has Article:      ✅ Yes
+[18:35:34.525] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:35:34.558] [INFO ] 
+[18:35:34.558] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:35:34.558] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_183523_754C
+[18:35:34.558] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:35:34.558] [INFO ] 
+[18:35:34.558] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[18:35:34.558] [INFO ]     │ Browser Launch:      0.06s
+[18:35:34.558] [INFO ]     │ Page Load:           4.29s
+[18:35:34.558] [INFO ]     │ Cloudflare Wait:     0.00s
+[18:35:34.558] [INFO ]     │ Human Simulation:    3.85s
+[18:35:34.558] [INFO ]     │
+[18:35:34.558] [INFO ]     │ Content Extraction:  0.46s
+[18:35:34.558] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[18:35:34.558] [INFO ]     │ TOTAL TIME:          8.66s
+[18:35:34.558] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:35:34.558] [INFO ] 
+[18:35:34.559] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:35:34.559] [INFO ]     │ Title:            Payment Security Summit Egypt | 23rd September, 20
+[18:35:34.559] [INFO ]     │ Final URL:        https://paymentsecuritysummit.com/egypt/
+[18:35:34.559] [INFO ]     │ HTML Size:        651,954 bytes
+[18:35:34.559] [INFO ]     │ Text Size:        17,637 chars
+[18:35:34.559] [INFO ]     │ Word Count:       ~2618 words
+[18:35:34.559] [INFO ]     │ Extraction:       trafilatura
+[18:35:34.559] [INFO ]     │ Has Article:      ✅ Yes
+[18:35:34.559] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:35:34.559] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:35:34.559] [INFO ] ║  📊 SESSION STATS
+[18:35:34.559] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[18:35:34.559] [INFO ] ║  ├─ Popups Dismissed:   0
+[18:35:34.559] [INFO ] ║  ├─ Cloudflare:         Not detected
+[18:35:34.559] [INFO ] ║  └─ Proxy Used:         Direct
+[18:35:34.559] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:35:34.559] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 11.45s
+ENDED: 2026-01-29T18:35:34.559463+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

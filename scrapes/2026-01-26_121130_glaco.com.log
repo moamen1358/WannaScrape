@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.glaco.com/blog/nbf-fintech-startups-incorporation-and-licensing-a-more-specific-take-by-the-fra/
+Started: 2026-01-26 12:11:30
+Session ID: SCRAPE_20260126_121130_7C70
+================================================================================
+[12:11:30.305] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_121130_glaco.com.log
+[12:11:30.305] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:11:30.650] [INFO ] 
+[12:11:30.650] [INFO ]     🚀 BROWSER LAUNCHED
+[12:11:30.650] [INFO ]     ├─ Mode:       Headless
+[12:11:30.650] [INFO ]     ├─ Slow Mo:    46ms
+[12:11:30.650] [INFO ]     ├─ Launch Time: 0.06s
+[12:11:30.650] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:11:30.666] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-CA, tz=UTC
+[12:11:30.666] [INFO ] 
+[12:11:30.666] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:11:30.666] [INFO ] ║  📋 SESSION: SCRAPE_20260126_121130_7C70
+[12:11:30.666] [INFO ] ║  🌐 URL: https://www.glaco.com/blog/nbf-fintech-startups-incorporation-and-licensing-a-more-specific-take-by-the-fra/
+[12:11:30.666] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:11:30.666] [INFO ] ║  ⏰ STARTED: 2026-01-26T12:11:30.666615+02:00 (Egypt Time)
+[12:11:30.666] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:11:30.666] [INFO ] 
+[12:11:30.666] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:11:30.666] [INFO ]     │ Browser:     CHROME v119
+[12:11:30.666] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[12:11:30.666] [INFO ]     │ Viewport:    1680x1050
+[12:11:30.666] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:11:30.666] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:11:30.666] [INFO ]     │ Location:    Toronto, Canada
+[12:11:30.666] [INFO ]     │ Timezone:    N/A
+[12:11:30.666] [INFO ]     │ Locale:      en-CA
+[12:11:30.666] [INFO ]     │ Geo:         0, 0
+[12:11:30.666] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:11:30.666] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:11:30.666] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+glaco+com
+[12:11:30.666] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:11:30.666] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:11:30.666] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:11:30.666] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:11:30.666] [INFO ] 
+[12:11:30.666] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:11:30.666] [INFO ]     ├─ Canvas fingerprint noise
+[12:11:30.666] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:11:30.666] [INFO ]     ├─ Hardware concurrency randomization
+[12:11:30.666] [INFO ]     ├─ Device memory randomization
+[12:11:30.666] [INFO ]     ├─ Plugin masking
+[12:11:30.666] [INFO ]     ├─ WebRTC IP leak protection
+[12:11:30.666] [INFO ]     ├─ Network connection spoof
+[12:11:30.666] [INFO ]     └─ Battery API spoof
+[12:11:30.709] [INFO ] 
+[12:11:30.709] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:11:30.709] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:11:30.709] [INFO ]     ├─ Chrome runtime patches
+[12:11:30.709] [INFO ]     ├─ Console patches
+[12:11:30.709] [INFO ]     └─ Permission patches
+[12:11:30.709] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:11:30.709] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:11:30.709] [INFO ] 
+[12:11:30.709] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:11:30.709] [INFO ]     ├─ Canvas fingerprint noise
+[12:11:30.709] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:11:30.709] [INFO ]     ├─ Hardware concurrency randomization
+[12:11:30.709] [INFO ]     ├─ Device memory randomization
+[12:11:30.709] [INFO ]     ├─ Plugin masking
+[12:11:30.709] [INFO ]     ├─ WebRTC IP leak protection
+[12:11:30.709] [INFO ]     ├─ Network connection spoof
+[12:11:30.709] [INFO ]     └─ Battery API spoof
+[12:11:30.709] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:11:30.709] [INFO ] 
+[12:11:30.709] [INFO ]     🔗 NAVIGATING TO URL
+[12:11:30.709] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:11:30.709] [INFO ]     ├─ Timeout:    15.0s
+[12:11:30.709] [INFO ]     └─ Sleep:      1s after load
+[12:11:32.685] [INFO ] 
+[12:11:32.685] [INFO ]     ✅ PAGE LOADED
+[12:11:32.685] [INFO ]     ├─ Final URL:  https://www.glaco.com/blog/nbf-fintech-startups-incorporation-and-licensing-a-more-specific-take-by-the-fra/
+[12:11:32.685] [INFO ]     ├─ Title:      NBF FinTech Startups Incorporation and Licensing – A More Specific Take By The FRA - GLA & Company
+[12:11:32.685] [INFO ]     └─ Load Time:  1.98s
+[12:11:33.876] [INFO ] 🧑 Human behavior simulation...
+[12:11:37.785] [INFO ] 🖱️ Mouse: 2 moves in 1680x1050
+[12:11:37.785] [INFO ] 🖱️ Mouse completed: 2 moves
+[12:11:37.785] [INFO ] 📜 Scroll: page height, viewport=1050px
+[12:11:37.785] [INFO ] 📜 Scroll completed: 1 scrolls
+[12:11:37.785] [INFO ] 🧑 Human behavior completed in 3.9s ✓
+[12:11:37.785] [INFO ] 
+[12:11:37.785] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:11:37.785] [INFO ]     ├─ Mouse Movements: 2
+[12:11:37.785] [INFO ]     ├─ Scroll Actions:  1
+[12:11:37.785] [INFO ]     └─ Time Spent:      3.91s
+[12:11:37.839] [INFO ] 
+[12:11:37.840] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:11:37.840] [INFO ]     │ Title:            NBF FinTech Startups Incorporation and Licensing –
+[12:11:37.840] [INFO ]     │ Final URL:        https://www.glaco.com/blog/nbf-fintech-startups-incorporation-and-licensing-a-more-specific-take-by-the-fra/
+[12:11:37.840] [INFO ]     │ HTML Size:        58,747 bytes
+[12:11:37.840] [INFO ]     │ Text Size:        4,881 chars
+[12:11:37.840] [INFO ]     │ Word Count:       ~718 words
+[12:11:37.840] [INFO ]     │ Extraction:       trafilatura
+[12:11:37.840] [INFO ]     │ Has Article:      ✅ Yes
+[12:11:37.840] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:11:37.868] [INFO ] 
+[12:11:37.868] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:11:37.868] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_121130_7C70
+[12:11:37.868] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:11:37.868] [INFO ] 
+[12:11:37.868] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:11:37.868] [INFO ]     │ Browser Launch:      0.06s
+[12:11:37.868] [INFO ]     │ Page Load:           1.98s
+[12:11:37.868] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:11:37.868] [INFO ]     │ Human Simulation:    3.91s
+[12:11:37.868] [INFO ]     │
+[12:11:37.868] [INFO ]     │ Content Extraction:  0.03s
+[12:11:37.868] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:11:37.868] [INFO ]     │ TOTAL TIME:          5.98s
+[12:11:37.868] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:11:37.868] [INFO ] 
+[12:11:37.868] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:11:37.868] [INFO ]     │ Title:            NBF FinTech Startups Incorporation and Licensing –
+[12:11:37.868] [INFO ]     │ Final URL:        https://www.glaco.com/blog/nbf-fintech-startups-incorporation-and-licensing-a-more-specific-take-by-the-fra/
+[12:11:37.868] [INFO ]     │ HTML Size:        58,747 bytes
+[12:11:37.868] [INFO ]     │ Text Size:        4,881 chars
+[12:11:37.868] [INFO ]     │ Word Count:       ~718 words
+[12:11:37.868] [INFO ]     │ Extraction:       trafilatura
+[12:11:37.868] [INFO ]     │ Has Article:      ✅ Yes
+[12:11:37.868] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:11:37.868] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:11:37.868] [INFO ] ║  📊 SESSION STATS
+[12:11:37.868] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:11:37.868] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:11:37.868] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:11:37.868] [INFO ] ║  └─ Proxy Used:         Direct
+[12:11:37.868] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:11:37.868] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.56s
+ENDED: 2026-01-26T12:11:37.868810+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

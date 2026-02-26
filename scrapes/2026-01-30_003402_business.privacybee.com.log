@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://business.privacybee.com/resource-center/guide-to-egypts-personal-data-protection-law-pdpl/
+Started: 2026-01-30 00:34:02
+Session ID: SCRAPE_20260130_003402_F133
+================================================================================
+[00:34:02.111] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_003402_business.privacybee.com.log
+[00:34:02.111] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[00:34:02.464] [INFO ] 
+[00:34:02.464] [INFO ]     🚀 BROWSER LAUNCHED
+[00:34:02.464] [INFO ]     ├─ Mode:       Headless
+[00:34:02.464] [INFO ]     ├─ Slow Mo:    40ms
+[00:34:02.464] [INFO ]     ├─ Launch Time: 0.06s
+[00:34:02.464] [INFO ]     └─ Args:       Anti-automation flags enabled
+[00:34:02.484] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-CA, tz=UTC
+[00:34:02.484] [INFO ] 
+[00:34:02.484] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:34:02.484] [INFO ] ║  📋 SESSION: SCRAPE_20260130_003402_F133
+[00:34:02.484] [INFO ] ║  🌐 URL: https://business.privacybee.com/resource-center/guide-to-egypts-personal-data-protection-law-pdpl/
+[00:34:02.484] [INFO ] ║  🔄 ATTEMPT: 1/2
+[00:34:02.484] [INFO ] ║  ⏰ STARTED: 2026-01-30T00:34:02.484234+02:00 (Egypt Time)
+[00:34:02.484] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:34:02.484] [INFO ] 
+[00:34:02.484] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[00:34:02.484] [INFO ]     │ Browser:     CHROME v122
+[00:34:02.484] [INFO ]     │ User-Agent:  Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)...
+[00:34:02.484] [INFO ]     │ Viewport:    1920x1080
+[00:34:02.484] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[00:34:02.484] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[00:34:02.484] [INFO ]     │ Location:    Toronto, Canada
+[00:34:02.484] [INFO ]     │ Timezone:    N/A
+[00:34:02.484] [INFO ]     │ Locale:      en-CA
+[00:34:02.484] [INFO ]     │ Geo:         0, 0
+[00:34:02.484] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[00:34:02.484] [INFO ]     │ Proxy:       Direct (no proxy)
+[00:34:02.484] [INFO ]     │ Referrer:    https://news.google.com/
+[00:34:02.484] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:34:02.484] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:34:02.484] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[00:34:02.484] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:34:02.484] [INFO ] 
+[00:34:02.484] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[00:34:02.484] [INFO ]     ├─ Canvas fingerprint noise
+[00:34:02.484] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:34:02.484] [INFO ]     ├─ Hardware concurrency randomization
+[00:34:02.484] [INFO ]     ├─ Device memory randomization
+[00:34:02.484] [INFO ]     ├─ Plugin masking
+[00:34:02.484] [INFO ]     ├─ WebRTC IP leak protection
+[00:34:02.484] [INFO ]     ├─ Network connection spoof
+[00:34:02.484] [INFO ]     └─ Battery API spoof
+[00:34:02.526] [INFO ] 
+[00:34:02.526] [INFO ]     🥷 STEALTH MODE APPLIED
+[00:34:02.526] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[00:34:02.526] [INFO ]     ├─ Chrome runtime patches
+[00:34:02.526] [INFO ]     ├─ Console patches
+[00:34:02.526] [INFO ]     └─ Permission patches
+[00:34:02.526] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[00:34:02.526] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:34:02.526] [INFO ] 
+[00:34:02.526] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[00:34:02.526] [INFO ]     ├─ Canvas fingerprint noise
+[00:34:02.526] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:34:02.526] [INFO ]     ├─ Hardware concurrency randomization
+[00:34:02.526] [INFO ]     ├─ Device memory randomization
+[00:34:02.526] [INFO ]     ├─ Plugin masking
+[00:34:02.526] [INFO ]     ├─ WebRTC IP leak protection
+[00:34:02.526] [INFO ]     ├─ Network connection spoof
+[00:34:02.526] [INFO ]     └─ Battery API spoof
+[00:34:02.526] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:34:02.526] [INFO ] 
+[00:34:02.526] [INFO ]     🔗 NAVIGATING TO URL
+[00:34:02.526] [INFO ]     ├─ Strategy:   domcontentloaded
+[00:34:02.526] [INFO ]     ├─ Timeout:    15.0s
+[00:34:02.526] [INFO ]     └─ Sleep:      1s after load
+[00:34:04.385] [INFO ] 
+[00:34:04.385] [INFO ]     ✅ PAGE LOADED
+[00:34:04.385] [INFO ]     ├─ Final URL:  https://business.privacybee.com/resource-center/guide-to-egypts-personal-data-protection-law-pdpl/
+[00:34:04.385] [INFO ]     ├─ Title:      Guide to Egypt's Personal Data Protection Law (PDPL) | Privacy Bee for Business
+[00:34:04.385] [INFO ]     └─ Load Time:  1.86s
+[00:34:05.693] [INFO ] 🧑 Human behavior simulation...
+[00:34:12.845] [INFO ] 🖱️ Mouse: 5 moves in 1920x1080
+[00:34:12.845] [INFO ] 🖱️ Mouse completed: 5 moves
+[00:34:12.845] [INFO ] 📜 Scroll: page height, viewport=1080px
+[00:34:12.845] [INFO ] 📜 Scroll completed: 3 scrolls
+[00:34:12.845] [INFO ] 🧑 Human behavior completed in 7.2s ✓
+[00:34:12.845] [INFO ] 
+[00:34:12.845] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[00:34:12.845] [INFO ]     ├─ Mouse Movements: 5
+[00:34:12.845] [INFO ]     ├─ Scroll Actions:  3
+[00:34:12.845] [INFO ]     └─ Time Spent:      7.15s
+[00:34:13.026] [INFO ] 
+[00:34:13.026] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[00:34:13.026] [INFO ]     │ Title:            Guide to Egypt's Personal Data Protection Law (PDP
+[00:34:13.026] [INFO ]     │ Final URL:        https://business.privacybee.com/resource-center/guide-to-egypts-personal-data-protection-law-pdpl/
+[00:34:13.026] [INFO ]     │ HTML Size:        397,854 bytes
+[00:34:13.026] [INFO ]     │ Text Size:        11,525 chars
+[00:34:13.026] [INFO ]     │ Word Count:       ~1736 words
+[00:34:13.026] [INFO ]     │ Extraction:       trafilatura
+[00:34:13.026] [INFO ]     │ Has Article:      ✅ Yes
+[00:34:13.026] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:34:13.055] [INFO ] 
+[00:34:13.055] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:34:13.055] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260130_003402_F133
+[00:34:13.055] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:34:13.055] [INFO ] 
+[00:34:13.055] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[00:34:13.055] [INFO ]     │ Browser Launch:      0.06s
+[00:34:13.055] [INFO ]     │ Page Load:           1.86s
+[00:34:13.055] [INFO ]     │ Cloudflare Wait:     0.00s
+[00:34:13.055] [INFO ]     │ Human Simulation:    7.15s
+[00:34:13.055] [INFO ]     │
+[00:34:13.055] [INFO ]     │ Content Extraction:  0.10s
+[00:34:13.055] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[00:34:13.055] [INFO ]     │ TOTAL TIME:          9.17s
+[00:34:13.055] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:34:13.055] [INFO ] 
+[00:34:13.055] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[00:34:13.055] [INFO ]     │ Title:            Guide to Egypt's Personal Data Protection Law (PDP
+[00:34:13.055] [INFO ]     │ Final URL:        https://business.privacybee.com/resource-center/guide-to-egypts-personal-data-protection-law-pdpl/
+[00:34:13.055] [INFO ]     │ HTML Size:        397,854 bytes
+[00:34:13.055] [INFO ]     │ Text Size:        11,525 chars
+[00:34:13.055] [INFO ]     │ Word Count:       ~1736 words
+[00:34:13.055] [INFO ]     │ Extraction:       trafilatura
+[00:34:13.055] [INFO ]     │ Has Article:      ✅ Yes
+[00:34:13.055] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:34:13.055] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:34:13.055] [INFO ] ║  📊 SESSION STATS
+[00:34:13.055] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[00:34:13.055] [INFO ] ║  ├─ Popups Dismissed:   0
+[00:34:13.055] [INFO ] ║  ├─ Cloudflare:         Not detected
+[00:34:13.055] [INFO ] ║  └─ Proxy Used:         Direct
+[00:34:13.055] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:34:13.055] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.94s
+ENDED: 2026-01-30T00:34:13.055596+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

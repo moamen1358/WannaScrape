@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://pro-vad.com/media-center/blog-5/why-cybersecurity-is-more-crucial-than-ever-for-businesses-in-egypt-23
+Started: 2026-01-29 23:35:30
+Session ID: SCRAPE_20260129_233530_6DFB
+================================================================================
+[23:35:30.992] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_233530_pro-vad.com.log
+[23:35:30.992] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[23:35:31.335] [INFO ] 
+[23:35:31.335] [INFO ]     🚀 BROWSER LAUNCHED
+[23:35:31.335] [INFO ]     ├─ Mode:       Headless
+[23:35:31.335] [INFO ]     ├─ Slow Mo:    44ms
+[23:35:31.335] [INFO ]     ├─ Launch Time: 0.05s
+[23:35:31.335] [INFO ]     └─ Args:       Anti-automation flags enabled
+[23:35:31.355] [DEBUG] Browser profile: viewport={'width': 1280, 'height': 720}, locale=en-AU, tz=UTC
+[23:35:31.355] [INFO ] 
+[23:35:31.355] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:35:31.355] [INFO ] ║  📋 SESSION: SCRAPE_20260129_233530_6DFB
+[23:35:31.355] [INFO ] ║  🌐 URL: https://pro-vad.com/media-center/blog-5/why-cybersecurity-is-more-crucial-than-ever-for-businesses-in-egypt-23
+[23:35:31.355] [INFO ] ║  🔄 ATTEMPT: 1/2
+[23:35:31.355] [INFO ] ║  ⏰ STARTED: 2026-01-29T23:35:31.355435+02:00 (Egypt Time)
+[23:35:31.355] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:35:31.355] [INFO ] 
+[23:35:31.355] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[23:35:31.355] [INFO ]     │ Browser:     OPERA v106
+[23:35:31.355] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[23:35:31.355] [INFO ]     │ Viewport:    1280x720
+[23:35:31.355] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[23:35:31.355] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[23:35:31.355] [INFO ]     │ Location:    Brisbane, Australia
+[23:35:31.355] [INFO ]     │ Timezone:    N/A
+[23:35:31.355] [INFO ]     │ Locale:      en-AU
+[23:35:31.355] [INFO ]     │ Geo:         0, 0
+[23:35:31.355] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[23:35:31.355] [INFO ]     │ Proxy:       Direct (no proxy)
+[23:35:31.355] [INFO ]     │ Referrer:    https://www.google.com/search?q=pro-vad+com
+[23:35:31.355] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:35:31.355] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:35:31.355] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[23:35:31.355] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:35:31.355] [INFO ] 
+[23:35:31.355] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[23:35:31.355] [INFO ]     ├─ Canvas fingerprint noise
+[23:35:31.355] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:35:31.355] [INFO ]     ├─ Hardware concurrency randomization
+[23:35:31.355] [INFO ]     ├─ Device memory randomization
+[23:35:31.355] [INFO ]     ├─ Plugin masking
+[23:35:31.355] [INFO ]     ├─ WebRTC IP leak protection
+[23:35:31.355] [INFO ]     ├─ Network connection spoof
+[23:35:31.355] [INFO ]     └─ Battery API spoof
+[23:35:31.398] [INFO ] 
+[23:35:31.398] [INFO ]     🥷 STEALTH MODE APPLIED
+[23:35:31.398] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[23:35:31.398] [INFO ]     ├─ Chrome runtime patches
+[23:35:31.398] [INFO ]     ├─ Console patches
+[23:35:31.398] [INFO ]     └─ Permission patches
+[23:35:31.398] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[23:35:31.398] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:35:31.398] [INFO ] 
+[23:35:31.398] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[23:35:31.398] [INFO ]     ├─ Canvas fingerprint noise
+[23:35:31.398] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:35:31.398] [INFO ]     ├─ Hardware concurrency randomization
+[23:35:31.398] [INFO ]     ├─ Device memory randomization
+[23:35:31.398] [INFO ]     ├─ Plugin masking
+[23:35:31.398] [INFO ]     ├─ WebRTC IP leak protection
+[23:35:31.398] [INFO ]     ├─ Network connection spoof
+[23:35:31.398] [INFO ]     └─ Battery API spoof
+[23:35:31.398] [DEBUG] Enabled resource blocking (images, media, fonts)
+[23:35:31.398] [INFO ] 
+[23:35:31.398] [INFO ]     🔗 NAVIGATING TO URL
+[23:35:31.398] [INFO ]     ├─ Strategy:   domcontentloaded
+[23:35:31.398] [INFO ]     ├─ Timeout:    15.0s
+[23:35:31.398] [INFO ]     └─ Sleep:      1s after load
+[23:35:33.391] [INFO ] 
+[23:35:33.391] [INFO ]     ✅ PAGE LOADED
+[23:35:33.391] [INFO ]     ├─ Final URL:  https://pro-vad.com/media-center/blog-5/why-cybersecurity-is-more-crucial-than-ever-for-businesses-in-egypt-23
+[23:35:33.391] [INFO ]     ├─ Title:      Cybersecurity in Egypt: How Businesses Can Stay Safe
+[23:35:33.391] [INFO ]     └─ Load Time:  1.99s
+[23:35:34.652] [INFO ] 🧑 Human behavior simulation...
+[23:35:39.460] [INFO ] 🖱️ Mouse: 3 moves in 1280x720
+[23:35:39.460] [INFO ] 🖱️ Mouse completed: 3 moves
+[23:35:39.460] [INFO ] 📜 Scroll: page height, viewport=720px
+[23:35:39.460] [INFO ] 📜 Scroll completed: 2 scrolls
+[23:35:39.460] [INFO ] 🧑 Human behavior completed in 4.8s ✓
+[23:35:39.460] [INFO ] 
+[23:35:39.460] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[23:35:39.460] [INFO ]     ├─ Mouse Movements: 3
+[23:35:39.460] [INFO ]     ├─ Scroll Actions:  2
+[23:35:39.460] [INFO ]     └─ Time Spent:      4.81s
+[23:35:39.550] [INFO ] 
+[23:35:39.550] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[23:35:39.550] [INFO ]     │ Title:            Cybersecurity in Egypt: How Businesses Can Stay Sa
+[23:35:39.550] [INFO ]     │ Final URL:        https://pro-vad.com/media-center/blog-5/why-cybersecurity-is-more-crucial-than-ever-for-businesses-in-egypt-23
+[23:35:39.550] [INFO ]     │ HTML Size:        188,446 bytes
+[23:35:39.550] [INFO ]     │ Text Size:        2,399 chars
+[23:35:39.550] [INFO ]     │ Word Count:       ~329 words
+[23:35:39.550] [INFO ]     │ Extraction:       trafilatura
+[23:35:39.550] [INFO ]     │ Has Article:      ✅ Yes
+[23:35:39.550] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:35:39.576] [INFO ] 
+[23:35:39.576] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:35:39.576] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_233530_6DFB
+[23:35:39.576] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:35:39.576] [INFO ] 
+[23:35:39.576] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[23:35:39.576] [INFO ]     │ Browser Launch:      0.05s
+[23:35:39.576] [INFO ]     │ Page Load:           1.99s
+[23:35:39.576] [INFO ]     │ Cloudflare Wait:     0.00s
+[23:35:39.576] [INFO ]     │ Human Simulation:    4.81s
+[23:35:39.576] [INFO ]     │
+[23:35:39.576] [INFO ]     │ Content Extraction:  0.05s
+[23:35:39.576] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[23:35:39.576] [INFO ]     │ TOTAL TIME:          6.90s
+[23:35:39.576] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:35:39.576] [INFO ] 
+[23:35:39.576] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[23:35:39.576] [INFO ]     │ Title:            Cybersecurity in Egypt: How Businesses Can Stay Sa
+[23:35:39.576] [INFO ]     │ Final URL:        https://pro-vad.com/media-center/blog-5/why-cybersecurity-is-more-crucial-than-ever-for-businesses-in-egypt-23
+[23:35:39.576] [INFO ]     │ HTML Size:        188,446 bytes
+[23:35:39.576] [INFO ]     │ Text Size:        2,399 chars
+[23:35:39.576] [INFO ]     │ Word Count:       ~329 words
+[23:35:39.576] [INFO ]     │ Extraction:       trafilatura
+[23:35:39.576] [INFO ]     │ Has Article:      ✅ Yes
+[23:35:39.576] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:35:39.576] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:35:39.576] [INFO ] ║  📊 SESSION STATS
+[23:35:39.576] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[23:35:39.576] [INFO ] ║  ├─ Popups Dismissed:   0
+[23:35:39.576] [INFO ] ║  ├─ Cloudflare:         Not detected
+[23:35:39.576] [INFO ] ║  └─ Proxy Used:         Direct
+[23:35:39.576] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:35:39.576] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.58s
+ENDED: 2026-01-29T23:35:39.576892+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

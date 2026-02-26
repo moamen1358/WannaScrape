@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.linkedin.com/pulse/fintech-licensing-egypt-new-frontier-real-estate-construction-wyhmf
+Started: 2026-01-25 15:57:46
+Session ID: SCRAPE_20260125_155746_25C0
+================================================================================
+[15:57:46.640] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-25_155746_linkedin.com.log
+[15:57:46.640] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[15:57:46.980] [INFO ] 
+[15:57:46.980] [INFO ]     🚀 BROWSER LAUNCHED
+[15:57:46.980] [INFO ]     ├─ Mode:       Headless
+[15:57:46.980] [INFO ]     ├─ Slow Mo:    48ms
+[15:57:46.980] [INFO ]     ├─ Launch Time: 0.05s
+[15:57:46.980] [INFO ]     └─ Args:       Anti-automation flags enabled
+[15:57:47.000] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-GB, tz=UTC
+[15:57:47.000] [INFO ] 
+[15:57:47.000] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[15:57:47.000] [INFO ] ║  📋 SESSION: SCRAPE_20260125_155746_25C0
+[15:57:47.000] [INFO ] ║  🌐 URL: https://www.linkedin.com/pulse/fintech-licensing-egypt-new-frontier-real-estate-construction-wyhmf
+[15:57:47.000] [INFO ] ║  🔄 ATTEMPT: 1/2
+[15:57:47.000] [INFO ] ║  ⏰ STARTED: 2026-01-25T15:57:47.000438+02:00 (Egypt Time)
+[15:57:47.000] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[15:57:47.000] [INFO ] 
+[15:57:47.000] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[15:57:47.000] [INFO ]     │ Browser:     OPERA v105
+[15:57:47.000] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[15:57:47.000] [INFO ]     │ Viewport:    1920x1080
+[15:57:47.000] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[15:57:47.000] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[15:57:47.000] [INFO ]     │ Location:    Manchester, UK
+[15:57:47.000] [INFO ]     │ Timezone:    N/A
+[15:57:47.000] [INFO ]     │ Locale:      en-GB
+[15:57:47.000] [INFO ]     │ Geo:         0, 0
+[15:57:47.000] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[15:57:47.000] [INFO ]     │ Proxy:       Direct (no proxy)
+[15:57:47.000] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+linkedin+com
+[15:57:47.000] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[15:57:47.000] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[15:57:47.000] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[15:57:47.000] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[15:57:47.000] [INFO ] 
+[15:57:47.000] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[15:57:47.000] [INFO ]     ├─ Canvas fingerprint noise
+[15:57:47.000] [INFO ]     ├─ WebGL renderer/vendor spoof
+[15:57:47.000] [INFO ]     ├─ Hardware concurrency randomization
+[15:57:47.000] [INFO ]     ├─ Device memory randomization
+[15:57:47.000] [INFO ]     ├─ Plugin masking
+[15:57:47.000] [INFO ]     ├─ WebRTC IP leak protection
+[15:57:47.000] [INFO ]     ├─ Network connection spoof
+[15:57:47.000] [INFO ]     └─ Battery API spoof
+[15:57:47.041] [INFO ] 
+[15:57:47.041] [INFO ]     🥷 STEALTH MODE APPLIED
+[15:57:47.041] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[15:57:47.041] [INFO ]     ├─ Chrome runtime patches
+[15:57:47.041] [INFO ]     ├─ Console patches
+[15:57:47.041] [INFO ]     └─ Permission patches
+[15:57:47.041] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[15:57:47.041] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[15:57:47.041] [INFO ] 
+[15:57:47.041] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[15:57:47.041] [INFO ]     ├─ Canvas fingerprint noise
+[15:57:47.041] [INFO ]     ├─ WebGL renderer/vendor spoof
+[15:57:47.041] [INFO ]     ├─ Hardware concurrency randomization
+[15:57:47.041] [INFO ]     ├─ Device memory randomization
+[15:57:47.041] [INFO ]     ├─ Plugin masking
+[15:57:47.041] [INFO ]     ├─ WebRTC IP leak protection
+[15:57:47.041] [INFO ]     ├─ Network connection spoof
+[15:57:47.041] [INFO ]     └─ Battery API spoof
+[15:57:47.041] [DEBUG] Enabled resource blocking (images, media, fonts)
+[15:57:47.041] [INFO ] 
+[15:57:47.041] [INFO ]     🔗 NAVIGATING TO URL
+[15:57:47.041] [INFO ]     ├─ Strategy:   domcontentloaded
+[15:57:47.041] [INFO ]     ├─ Timeout:    15.0s
+[15:57:47.041] [INFO ]     └─ Sleep:      1s after load
+[15:57:47.945] [INFO ] 
+[15:57:47.945] [INFO ]     ✅ PAGE LOADED
+[15:57:47.945] [INFO ]     ├─ Final URL:  https://www.linkedin.com/pulse/fintech-licensing-egypt-new-frontier-real-estate-construction-wyhmf
+[15:57:47.945] [INFO ]     ├─ Title:      Fintech Licensing in Egypt: A New Frontier for Real Estate and Construction Financing
+[15:57:47.945] [INFO ]     └─ Load Time:  0.90s
+[15:57:49.205] [INFO ] 🧑 Human behavior simulation...
+[15:57:53.199] [INFO ] 🖱️ Mouse: 3 moves in 1920x1080
+[15:57:53.199] [INFO ] 🖱️ Mouse completed: 3 moves
+[15:57:53.199] [INFO ] 📜 Scroll: page height, viewport=1080px
+[15:57:53.199] [INFO ] 📜 Scroll completed: 2 scrolls
+[15:57:53.199] [INFO ] 🧑 Human behavior completed in 4.0s ✓
+[15:57:53.199] [INFO ] 
+[15:57:53.199] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[15:57:53.199] [INFO ]     ├─ Mouse Movements: 3
+[15:57:53.199] [INFO ]     ├─ Scroll Actions:  2
+[15:57:53.199] [INFO ]     └─ Time Spent:      3.99s
+[15:57:53.334] [INFO ] 
+[15:57:53.334] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[15:57:53.334] [INFO ]     │ Title:            Fintech Licensing in Egypt: A New Frontier for Rea
+[15:57:53.334] [INFO ]     │ Final URL:        https://www.linkedin.com/pulse/fintech-licensing-egypt-new-frontier-real-estate-construction-wyhmf
+[15:57:53.334] [INFO ]     │ HTML Size:        218,437 bytes
+[15:57:53.334] [INFO ]     │ Text Size:        7,744 chars
+[15:57:53.334] [INFO ]     │ Word Count:       ~1130 words
+[15:57:53.334] [INFO ]     │ Extraction:       trafilatura
+[15:57:53.334] [INFO ]     │ Has Article:      ✅ Yes
+[15:57:53.334] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[15:57:53.362] [INFO ] 
+[15:57:53.362] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[15:57:53.362] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260125_155746_25C0
+[15:57:53.362] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[15:57:53.363] [INFO ] 
+[15:57:53.363] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[15:57:53.363] [INFO ]     │ Browser Launch:      0.05s
+[15:57:53.363] [INFO ]     │ Page Load:           0.90s
+[15:57:53.363] [INFO ]     │ Cloudflare Wait:     0.00s
+[15:57:53.363] [INFO ]     │ Human Simulation:    3.99s
+[15:57:53.363] [INFO ]     │
+[15:57:53.363] [INFO ]     │ Content Extraction:  0.08s
+[15:57:53.363] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[15:57:53.363] [INFO ]     │ TOTAL TIME:          5.04s
+[15:57:53.363] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[15:57:53.363] [INFO ] 
+[15:57:53.363] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[15:57:53.363] [INFO ]     │ Title:            Fintech Licensing in Egypt: A New Frontier for Rea
+[15:57:53.363] [INFO ]     │ Final URL:        https://www.linkedin.com/pulse/fintech-licensing-egypt-new-frontier-real-estate-construction-wyhmf
+[15:57:53.363] [INFO ]     │ HTML Size:        218,437 bytes
+[15:57:53.363] [INFO ]     │ Text Size:        7,744 chars
+[15:57:53.363] [INFO ]     │ Word Count:       ~1130 words
+[15:57:53.363] [INFO ]     │ Extraction:       trafilatura
+[15:57:53.363] [INFO ]     │ Has Article:      ✅ Yes
+[15:57:53.363] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[15:57:53.363] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[15:57:53.363] [INFO ] ║  📊 SESSION STATS
+[15:57:53.363] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[15:57:53.363] [INFO ] ║  ├─ Popups Dismissed:   0
+[15:57:53.363] [INFO ] ║  ├─ Cloudflare:         Not detected
+[15:57:53.363] [INFO ] ║  └─ Proxy Used:         Direct
+[15:57:53.363] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[15:57:53.363] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 6.72s
+ENDED: 2026-01-25T15:57:53.363412+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

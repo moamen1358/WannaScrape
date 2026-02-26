@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.neumetric.com/egypt-personal-data-protection-law-compliance-2037/
+Started: 2026-01-29 16:43:13
+Session ID: SCRAPE_20260129_164313_F5DB
+================================================================================
+[16:43:13.764] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_164313_neumetric.com.log
+[16:43:13.764] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[16:43:14.123] [INFO ] 
+[16:43:14.123] [INFO ]     🚀 BROWSER LAUNCHED
+[16:43:14.124] [INFO ]     ├─ Mode:       Headless
+[16:43:14.124] [INFO ]     ├─ Slow Mo:    44ms
+[16:43:14.124] [INFO ]     ├─ Launch Time: 0.06s
+[16:43:14.124] [INFO ]     └─ Args:       Anti-automation flags enabled
+[16:43:14.140] [DEBUG] Browser profile: viewport={'width': 1728, 'height': 1117}, locale=en-CA, tz=UTC
+[16:43:14.140] [INFO ] 
+[16:43:14.140] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[16:43:14.140] [INFO ] ║  📋 SESSION: SCRAPE_20260129_164313_F5DB
+[16:43:14.140] [INFO ] ║  🌐 URL: https://www.neumetric.com/egypt-personal-data-protection-law-compliance-2037/
+[16:43:14.140] [INFO ] ║  🔄 ATTEMPT: 1/2
+[16:43:14.140] [INFO ] ║  ⏰ STARTED: 2026-01-29T16:43:14.140330+02:00 (Egypt Time)
+[16:43:14.140] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[16:43:14.140] [INFO ] 
+[16:43:14.140] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[16:43:14.140] [INFO ]     │ Browser:     SAFARI v17
+[16:43:14.140] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (...
+[16:43:14.140] [INFO ]     │ Viewport:    1728x1117
+[16:43:14.140] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[16:43:14.140] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[16:43:14.140] [INFO ]     │ Location:    Vancouver, Canada
+[16:43:14.140] [INFO ]     │ Timezone:    N/A
+[16:43:14.140] [INFO ]     │ Locale:      en-CA
+[16:43:14.140] [INFO ]     │ Geo:         0, 0
+[16:43:14.140] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[16:43:14.140] [INFO ]     │ Proxy:       Direct (no proxy)
+[16:43:14.140] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+neumetric+com
+[16:43:14.140] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[16:43:14.140] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[16:43:14.140] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[16:43:14.140] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[16:43:14.140] [INFO ] 
+[16:43:14.140] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[16:43:14.140] [INFO ]     ├─ Canvas fingerprint noise
+[16:43:14.140] [INFO ]     ├─ WebGL renderer/vendor spoof
+[16:43:14.140] [INFO ]     ├─ Hardware concurrency randomization
+[16:43:14.140] [INFO ]     ├─ Device memory randomization
+[16:43:14.140] [INFO ]     ├─ Plugin masking
+[16:43:14.140] [INFO ]     ├─ WebRTC IP leak protection
+[16:43:14.140] [INFO ]     ├─ Network connection spoof
+[16:43:14.140] [INFO ]     └─ Battery API spoof
+[16:43:14.182] [INFO ] 
+[16:43:14.182] [INFO ]     🥷 STEALTH MODE APPLIED
+[16:43:14.182] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[16:43:14.182] [INFO ]     ├─ Chrome runtime patches
+[16:43:14.182] [INFO ]     ├─ Console patches
+[16:43:14.182] [INFO ]     └─ Permission patches
+[16:43:14.182] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[16:43:14.182] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[16:43:14.182] [INFO ] 
+[16:43:14.182] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[16:43:14.182] [INFO ]     ├─ Canvas fingerprint noise
+[16:43:14.182] [INFO ]     ├─ WebGL renderer/vendor spoof
+[16:43:14.182] [INFO ]     ├─ Hardware concurrency randomization
+[16:43:14.182] [INFO ]     ├─ Device memory randomization
+[16:43:14.182] [INFO ]     ├─ Plugin masking
+[16:43:14.182] [INFO ]     ├─ WebRTC IP leak protection
+[16:43:14.182] [INFO ]     ├─ Network connection spoof
+[16:43:14.182] [INFO ]     └─ Battery API spoof
+[16:43:14.182] [DEBUG] Enabled resource blocking (images, media, fonts)
+[16:43:14.182] [INFO ] 
+[16:43:14.182] [INFO ]     🔗 NAVIGATING TO URL
+[16:43:14.182] [INFO ]     ├─ Strategy:   domcontentloaded
+[16:43:14.182] [INFO ]     ├─ Timeout:    15.0s
+[16:43:14.182] [INFO ]     └─ Sleep:      1s after load
+[16:43:15.807] [INFO ] 
+[16:43:15.807] [INFO ]     ✅ PAGE LOADED
+[16:43:15.807] [INFO ]     ├─ Final URL:  https://www.neumetric.com/egypt-personal-data-protection-law-compliance-2037/
+[16:43:15.807] [INFO ]     ├─ Title:      Egypt Personal Data Protection Law Compliance for Businesses
+[16:43:15.807] [INFO ]     └─ Load Time:  1.63s
+[16:43:17.154] [INFO ] 🧑 Human behavior simulation...
+[16:43:22.349] [INFO ] 🖱️ Mouse: 3 moves in 1728x1117
+[16:43:22.349] [INFO ] 🖱️ Mouse completed: 3 moves
+[16:43:22.349] [INFO ] 📜 Scroll: page height, viewport=1117px
+[16:43:22.349] [INFO ] 📜 Scroll completed: 3 scrolls
+[16:43:22.349] [INFO ] 🧑 Human behavior completed in 5.2s ✓
+[16:43:22.349] [INFO ] 
+[16:43:22.349] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[16:43:22.349] [INFO ]     ├─ Mouse Movements: 3
+[16:43:22.349] [INFO ]     ├─ Scroll Actions:  3
+[16:43:22.349] [INFO ]     └─ Time Spent:      5.19s
+[16:43:22.598] [INFO ] 
+[16:43:22.598] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[16:43:22.598] [INFO ]     │ Title:            Egypt Personal Data Protection Law Compliance for 
+[16:43:22.598] [INFO ]     │ Final URL:        https://www.neumetric.com/egypt-personal-data-protection-law-compliance-2037/
+[16:43:22.598] [INFO ]     │ HTML Size:        376,007 bytes
+[16:43:22.598] [INFO ]     │ Text Size:        7,364 chars
+[16:43:22.598] [INFO ]     │ Word Count:       ~1031 words
+[16:43:22.598] [INFO ]     │ Extraction:       trafilatura
+[16:43:22.598] [INFO ]     │ Has Article:      ✅ Yes
+[16:43:22.598] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[16:43:22.626] [INFO ] 
+[16:43:22.626] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[16:43:22.626] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_164313_F5DB
+[16:43:22.626] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[16:43:22.626] [INFO ] 
+[16:43:22.626] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[16:43:22.626] [INFO ]     │ Browser Launch:      0.06s
+[16:43:22.626] [INFO ]     │ Page Load:           1.63s
+[16:43:22.626] [INFO ]     │ Cloudflare Wait:     0.00s
+[16:43:22.626] [INFO ]     │ Human Simulation:    5.19s
+[16:43:22.626] [INFO ]     │
+[16:43:22.626] [INFO ]     │ Content Extraction:  0.12s
+[16:43:22.626] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[16:43:22.626] [INFO ]     │ TOTAL TIME:          7.00s
+[16:43:22.626] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[16:43:22.626] [INFO ] 
+[16:43:22.626] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[16:43:22.626] [INFO ]     │ Title:            Egypt Personal Data Protection Law Compliance for 
+[16:43:22.626] [INFO ]     │ Final URL:        https://www.neumetric.com/egypt-personal-data-protection-law-compliance-2037/
+[16:43:22.626] [INFO ]     │ HTML Size:        376,007 bytes
+[16:43:22.626] [INFO ]     │ Text Size:        7,364 chars
+[16:43:22.626] [INFO ]     │ Word Count:       ~1031 words
+[16:43:22.626] [INFO ]     │ Extraction:       trafilatura
+[16:43:22.626] [INFO ]     │ Has Article:      ✅ Yes
+[16:43:22.626] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[16:43:22.626] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[16:43:22.626] [INFO ] ║  📊 SESSION STATS
+[16:43:22.626] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[16:43:22.626] [INFO ] ║  ├─ Popups Dismissed:   0
+[16:43:22.626] [INFO ] ║  ├─ Cloudflare:         Not detected
+[16:43:22.626] [INFO ] ║  └─ Proxy Used:         Direct
+[16:43:22.626] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[16:43:22.626] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 8.86s
+ENDED: 2026-01-29T16:43:22.626997+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

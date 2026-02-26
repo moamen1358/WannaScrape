@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://prescientsecurity.com/soc-services
+Started: 2026-01-29 19:06:24
+Session ID: SCRAPE_20260129_190624_9007
+================================================================================
+[19:06:24.908] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_190624_prescientsecurity.com.log
+[19:06:24.908] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[19:06:25.250] [INFO ] 
+[19:06:25.250] [INFO ]     🚀 BROWSER LAUNCHED
+[19:06:25.250] [INFO ]     ├─ Mode:       Headless
+[19:06:25.250] [INFO ]     ├─ Slow Mo:    49ms
+[19:06:25.250] [INFO ]     ├─ Launch Time: 0.06s
+[19:06:25.250] [INFO ]     └─ Args:       Anti-automation flags enabled
+[19:06:25.266] [DEBUG] Browser profile: viewport={'width': 1512, 'height': 982}, locale=en-IE, tz=UTC
+[19:06:25.266] [INFO ] 
+[19:06:25.266] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:06:25.266] [INFO ] ║  📋 SESSION: SCRAPE_20260129_190624_9007
+[19:06:25.266] [INFO ] ║  🌐 URL: https://prescientsecurity.com/soc-services
+[19:06:25.266] [INFO ] ║  🔄 ATTEMPT: 1/2
+[19:06:25.266] [INFO ] ║  ⏰ STARTED: 2026-01-29T19:06:25.266670+02:00 (Egypt Time)
+[19:06:25.266] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:06:25.266] [INFO ] 
+[19:06:25.266] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[19:06:25.266] [INFO ]     │ Browser:     FIREFOX v122
+[19:06:25.266] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101...
+[19:06:25.266] [INFO ]     │ Viewport:    1512x982
+[19:06:25.266] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[19:06:25.266] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[19:06:25.266] [INFO ]     │ Location:    Dublin, Ireland
+[19:06:25.266] [INFO ]     │ Timezone:    N/A
+[19:06:25.266] [INFO ]     │ Locale:      en-IE
+[19:06:25.266] [INFO ]     │ Geo:         0, 0
+[19:06:25.266] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[19:06:25.266] [INFO ]     │ Proxy:       Direct (no proxy)
+[19:06:25.266] [INFO ]     │ Referrer:    https://www.google.com/
+[19:06:25.266] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:06:25.266] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:06:25.266] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[19:06:25.266] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:06:25.266] [INFO ] 
+[19:06:25.266] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[19:06:25.266] [INFO ]     ├─ Canvas fingerprint noise
+[19:06:25.266] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:06:25.266] [INFO ]     ├─ Hardware concurrency randomization
+[19:06:25.266] [INFO ]     ├─ Device memory randomization
+[19:06:25.266] [INFO ]     ├─ Plugin masking
+[19:06:25.266] [INFO ]     ├─ WebRTC IP leak protection
+[19:06:25.266] [INFO ]     ├─ Network connection spoof
+[19:06:25.266] [INFO ]     └─ Battery API spoof
+[19:06:25.309] [INFO ] 
+[19:06:25.309] [INFO ]     🥷 STEALTH MODE APPLIED
+[19:06:25.309] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[19:06:25.309] [INFO ]     ├─ Chrome runtime patches
+[19:06:25.309] [INFO ]     ├─ Console patches
+[19:06:25.309] [INFO ]     └─ Permission patches
+[19:06:25.309] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[19:06:25.309] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:06:25.309] [INFO ] 
+[19:06:25.309] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[19:06:25.309] [INFO ]     ├─ Canvas fingerprint noise
+[19:06:25.309] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:06:25.309] [INFO ]     ├─ Hardware concurrency randomization
+[19:06:25.309] [INFO ]     ├─ Device memory randomization
+[19:06:25.309] [INFO ]     ├─ Plugin masking
+[19:06:25.309] [INFO ]     ├─ WebRTC IP leak protection
+[19:06:25.309] [INFO ]     ├─ Network connection spoof
+[19:06:25.309] [INFO ]     └─ Battery API spoof
+[19:06:25.309] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:06:25.309] [INFO ] 
+[19:06:25.309] [INFO ]     🔗 NAVIGATING TO URL
+[19:06:25.309] [INFO ]     ├─ Strategy:   domcontentloaded
+[19:06:25.309] [INFO ]     ├─ Timeout:    15.0s
+[19:06:25.309] [INFO ]     └─ Sleep:      1s after load
+[19:06:26.831] [INFO ] 
+[19:06:26.831] [INFO ]     ✅ PAGE LOADED
+[19:06:26.831] [INFO ]     ├─ Final URL:  https://prescientsecurity.com/soc-services
+[19:06:26.831] [INFO ]     ├─ Title:      Prescient Security - SOC Services
+[19:06:26.831] [INFO ]     └─ Load Time:  1.52s
+[19:06:29.271] [INFO ] 🧑 Human behavior simulation...
+[19:06:34.001] [INFO ] 🖱️ Mouse: 3 moves in 1512x982
+[19:06:34.001] [INFO ] 🖱️ Mouse completed: 3 moves
+[19:06:34.001] [INFO ] 📜 Scroll: page height, viewport=982px
+[19:06:34.001] [INFO ] 📜 Scroll completed: 1 scrolls
+[19:06:34.001] [INFO ] 🧑 Human behavior completed in 4.7s ✓
+[19:06:34.001] [INFO ] 
+[19:06:34.001] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[19:06:34.001] [INFO ]     ├─ Mouse Movements: 3
+[19:06:34.001] [INFO ]     ├─ Scroll Actions:  1
+[19:06:34.001] [INFO ]     └─ Time Spent:      4.73s
+[19:06:34.559] [INFO ] 
+[19:06:34.559] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:06:34.559] [INFO ]     │ Title:            Prescient Security - SOC Services
+[19:06:34.559] [INFO ]     │ Final URL:        https://prescientsecurity.com/soc-services
+[19:06:34.559] [INFO ]     │ HTML Size:        258,897 bytes
+[19:06:34.559] [INFO ]     │ Text Size:        3,865 chars
+[19:06:34.559] [INFO ]     │ Word Count:       ~564 words
+[19:06:34.559] [INFO ]     │ Extraction:       trafilatura
+[19:06:34.559] [INFO ]     │ Has Article:      ✅ Yes
+[19:06:34.559] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:06:34.595] [INFO ] 
+[19:06:34.595] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:06:34.595] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_190624_9007
+[19:06:34.595] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:06:34.595] [INFO ] 
+[19:06:34.595] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[19:06:34.595] [INFO ]     │ Browser Launch:      0.06s
+[19:06:34.595] [INFO ]     │ Page Load:           1.52s
+[19:06:34.595] [INFO ]     │ Cloudflare Wait:     0.00s
+[19:06:34.595] [INFO ]     │ Human Simulation:    4.73s
+[19:06:34.595] [INFO ]     │
+[19:06:34.595] [INFO ]     │ Content Extraction:  0.42s
+[19:06:34.595] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[19:06:34.595] [INFO ]     │ TOTAL TIME:          6.73s
+[19:06:34.595] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:06:34.595] [INFO ] 
+[19:06:34.595] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:06:34.595] [INFO ]     │ Title:            Prescient Security - SOC Services
+[19:06:34.595] [INFO ]     │ Final URL:        https://prescientsecurity.com/soc-services
+[19:06:34.595] [INFO ]     │ HTML Size:        258,897 bytes
+[19:06:34.595] [INFO ]     │ Text Size:        3,865 chars
+[19:06:34.595] [INFO ]     │ Word Count:       ~564 words
+[19:06:34.595] [INFO ]     │ Extraction:       trafilatura
+[19:06:34.595] [INFO ]     │ Has Article:      ✅ Yes
+[19:06:34.595] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:06:34.595] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:06:34.595] [INFO ] ║  📊 SESSION STATS
+[19:06:34.595] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[19:06:34.595] [INFO ] ║  ├─ Popups Dismissed:   0
+[19:06:34.595] [INFO ] ║  ├─ Cloudflare:         Not detected
+[19:06:34.595] [INFO ] ║  └─ Proxy Used:         Direct
+[19:06:34.595] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:06:34.595] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 9.69s
+ENDED: 2026-01-29T19:06:34.595871+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.ibm.com/products/cloud/compliance/iso-27001
+Started: 2026-01-26 13:03:48
+Session ID: SCRAPE_20260126_130348_03E4
+================================================================================
+[13:03:48.637] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_130348_ibm.com.log
+[13:03:48.637] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[13:03:48.983] [INFO ] 
+[13:03:48.984] [INFO ]     🚀 BROWSER LAUNCHED
+[13:03:48.984] [INFO ]     ├─ Mode:       Headless
+[13:03:48.984] [INFO ]     ├─ Slow Mo:    40ms
+[13:03:48.984] [INFO ]     ├─ Launch Time: 0.05s
+[13:03:48.984] [INFO ]     └─ Args:       Anti-automation flags enabled
+[13:03:49.003] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-IE, tz=UTC
+[13:03:49.003] [INFO ] 
+[13:03:49.003] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[13:03:49.003] [INFO ] ║  📋 SESSION: SCRAPE_20260126_130348_03E4
+[13:03:49.003] [INFO ] ║  🌐 URL: https://www.ibm.com/products/cloud/compliance/iso-27001
+[13:03:49.003] [INFO ] ║  🔄 ATTEMPT: 1/2
+[13:03:49.003] [INFO ] ║  ⏰ STARTED: 2026-01-26T13:03:49.003733+02:00 (Egypt Time)
+[13:03:49.003] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:03:49.003] [INFO ] 
+[13:03:49.003] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[13:03:49.003] [INFO ]     │ Browser:     CHROME v121
+[13:03:49.003] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_1) AppleWebKit/537.36 (KHTML...
+[13:03:49.003] [INFO ]     │ Viewport:    2560x1440
+[13:03:49.003] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[13:03:49.003] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[13:03:49.003] [INFO ]     │ Location:    Dublin, Ireland
+[13:03:49.003] [INFO ]     │ Timezone:    N/A
+[13:03:49.003] [INFO ]     │ Locale:      en-IE
+[13:03:49.003] [INFO ]     │ Geo:         0, 0
+[13:03:49.003] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[13:03:49.003] [INFO ]     │ Proxy:       Direct (no proxy)
+[13:03:49.003] [INFO ]     │ Referrer:    None
+[13:03:49.003] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:03:49.003] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[13:03:49.003] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[13:03:49.003] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[13:03:49.003] [INFO ] 
+[13:03:49.003] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[13:03:49.003] [INFO ]     ├─ Canvas fingerprint noise
+[13:03:49.003] [INFO ]     ├─ WebGL renderer/vendor spoof
+[13:03:49.003] [INFO ]     ├─ Hardware concurrency randomization
+[13:03:49.003] [INFO ]     ├─ Device memory randomization
+[13:03:49.003] [INFO ]     ├─ Plugin masking
+[13:03:49.003] [INFO ]     ├─ WebRTC IP leak protection
+[13:03:49.003] [INFO ]     ├─ Network connection spoof
+[13:03:49.003] [INFO ]     └─ Battery API spoof
+[13:03:49.048] [INFO ] 
+[13:03:49.048] [INFO ]     🥷 STEALTH MODE APPLIED
+[13:03:49.048] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[13:03:49.048] [INFO ]     ├─ Chrome runtime patches
+[13:03:49.048] [INFO ]     ├─ Console patches
+[13:03:49.048] [INFO ]     └─ Permission patches
+[13:03:49.048] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[13:03:49.048] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[13:03:49.048] [INFO ] 
+[13:03:49.048] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[13:03:49.048] [INFO ]     ├─ Canvas fingerprint noise
+[13:03:49.048] [INFO ]     ├─ WebGL renderer/vendor spoof
+[13:03:49.048] [INFO ]     ├─ Hardware concurrency randomization
+[13:03:49.048] [INFO ]     ├─ Device memory randomization
+[13:03:49.048] [INFO ]     ├─ Plugin masking
+[13:03:49.048] [INFO ]     ├─ WebRTC IP leak protection
+[13:03:49.048] [INFO ]     ├─ Network connection spoof
+[13:03:49.048] [INFO ]     └─ Battery API spoof
+[13:03:49.048] [DEBUG] Enabled resource blocking (images, media, fonts)
+[13:03:49.048] [INFO ] 
+[13:03:49.048] [INFO ]     🔗 NAVIGATING TO URL
+[13:03:49.048] [INFO ]     ├─ Strategy:   domcontentloaded
+[13:03:49.048] [INFO ]     ├─ Timeout:    15.0s
+[13:03:49.048] [INFO ]     └─ Sleep:      1s after load
+[13:03:54.539] [INFO ] 
+[13:03:54.539] [INFO ]     ✅ PAGE LOADED
+[13:03:54.539] [INFO ]     ├─ Final URL:  https://www.ibm.com/products/cloud/compliance/iso-27001
+[13:03:54.539] [INFO ]     ├─ Title:      What is ISO/IEC 27001? | IBM
+[13:03:54.539] [INFO ]     └─ Load Time:  5.49s
+[13:03:57.234] [INFO ] 🧑 Human behavior simulation...
+[13:04:02.026] [INFO ] 🖱️ Mouse: 3 moves in 2560x1440
+[13:04:02.026] [INFO ] 🖱️ Mouse completed: 3 moves
+[13:04:02.026] [INFO ] 📜 Scroll: page height, viewport=1440px
+[13:04:02.026] [INFO ] 📜 Scroll completed: 1 scrolls
+[13:04:02.026] [INFO ] 🧑 Human behavior completed in 4.8s ✓
+[13:04:02.026] [INFO ] 
+[13:04:02.026] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[13:04:02.026] [INFO ]     ├─ Mouse Movements: 3
+[13:04:02.026] [INFO ]     ├─ Scroll Actions:  1
+[13:04:02.026] [INFO ]     └─ Time Spent:      4.79s
+[13:04:02.816] [INFO ] 
+[13:04:02.816] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[13:04:02.816] [INFO ]     │ Title:            What is ISO/IEC 27001? | IBM
+[13:04:02.816] [INFO ]     │ Final URL:        https://www.ibm.com/products/cloud/compliance/iso-27001
+[13:04:02.816] [INFO ]     │ HTML Size:        1,909,339 bytes
+[13:04:02.816] [INFO ]     │ Text Size:        5,354 chars
+[13:04:02.816] [INFO ]     │ Word Count:       ~756 words
+[13:04:02.816] [INFO ]     │ Extraction:       trafilatura
+[13:04:02.816] [INFO ]     │ Has Article:      ✅ Yes
+[13:04:02.816] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:04:02.880] [INFO ] 
+[13:04:02.880] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[13:04:02.880] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_130348_03E4
+[13:04:02.880] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:04:02.880] [INFO ] 
+[13:04:02.880] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[13:04:02.880] [INFO ]     │ Browser Launch:      0.05s
+[13:04:02.880] [INFO ]     │ Page Load:           5.49s
+[13:04:02.880] [INFO ]     │ Cloudflare Wait:     0.00s
+[13:04:02.880] [INFO ]     │ Human Simulation:    4.79s
+[13:04:02.880] [INFO ]     │
+[13:04:02.880] [INFO ]     │ Content Extraction:  0.29s
+[13:04:02.880] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[13:04:02.880] [INFO ]     │ TOTAL TIME:          10.63s
+[13:04:02.880] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:04:02.880] [INFO ] 
+[13:04:02.880] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[13:04:02.880] [INFO ]     │ Title:            What is ISO/IEC 27001? | IBM
+[13:04:02.880] [INFO ]     │ Final URL:        https://www.ibm.com/products/cloud/compliance/iso-27001
+[13:04:02.880] [INFO ]     │ HTML Size:        1,909,339 bytes
+[13:04:02.880] [INFO ]     │ Text Size:        5,354 chars
+[13:04:02.880] [INFO ]     │ Word Count:       ~756 words
+[13:04:02.880] [INFO ]     │ Extraction:       trafilatura
+[13:04:02.880] [INFO ]     │ Has Article:      ✅ Yes
+[13:04:02.880] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[13:04:02.880] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[13:04:02.880] [INFO ] ║  📊 SESSION STATS
+[13:04:02.880] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[13:04:02.880] [INFO ] ║  ├─ Popups Dismissed:   0
+[13:04:02.880] [INFO ] ║  ├─ Cloudflare:         Not detected
+[13:04:02.880] [INFO ] ║  └─ Proxy Used:         Direct
+[13:04:02.880] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[13:04:02.880] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 14.24s
+ENDED: 2026-01-26T13:04:02.880568+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

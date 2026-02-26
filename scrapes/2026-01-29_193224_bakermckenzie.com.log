@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.bakermckenzie.com/en/insight/publications/2026/01/egypt-important-data-protection-update
+Started: 2026-01-29 19:32:24
+Session ID: SCRAPE_20260129_193224_4BC2
+================================================================================
+[19:32:24.835] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_193224_bakermckenzie.com.log
+[19:32:24.835] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[19:32:25.171] [INFO ] 
+[19:32:25.171] [INFO ]     🚀 BROWSER LAUNCHED
+[19:32:25.171] [INFO ]     ├─ Mode:       Headless
+[19:32:25.171] [INFO ]     ├─ Slow Mo:    43ms
+[19:32:25.171] [INFO ]     ├─ Launch Time: 0.05s
+[19:32:25.171] [INFO ]     └─ Args:       Anti-automation flags enabled
+[19:32:25.191] [DEBUG] Browser profile: viewport={'width': 1280, 'height': 720}, locale=en-AU, tz=UTC
+[19:32:25.191] [INFO ] 
+[19:32:25.191] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:32:25.191] [INFO ] ║  📋 SESSION: SCRAPE_20260129_193224_4BC2
+[19:32:25.191] [INFO ] ║  🌐 URL: https://www.bakermckenzie.com/en/insight/publications/2026/01/egypt-important-data-protection-update
+[19:32:25.191] [INFO ] ║  🔄 ATTEMPT: 1/2
+[19:32:25.191] [INFO ] ║  ⏰ STARTED: 2026-01-29T19:32:25.191744+02:00 (Egypt Time)
+[19:32:25.191] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:32:25.191] [INFO ] 
+[19:32:25.191] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[19:32:25.191] [INFO ]     │ Browser:     CHROME v121
+[19:32:25.191] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[19:32:25.191] [INFO ]     │ Viewport:    1280x720
+[19:32:25.191] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[19:32:25.191] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[19:32:25.191] [INFO ]     │ Location:    Brisbane, Australia
+[19:32:25.191] [INFO ]     │ Timezone:    N/A
+[19:32:25.191] [INFO ]     │ Locale:      en-AU
+[19:32:25.191] [INFO ]     │ Geo:         0, 0
+[19:32:25.191] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[19:32:25.191] [INFO ]     │ Proxy:       Direct (no proxy)
+[19:32:25.191] [INFO ]     │ Referrer:    https://www.google.com/
+[19:32:25.191] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:32:25.191] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:32:25.191] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[19:32:25.191] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:32:25.191] [INFO ] 
+[19:32:25.191] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[19:32:25.191] [INFO ]     ├─ Canvas fingerprint noise
+[19:32:25.191] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:32:25.191] [INFO ]     ├─ Hardware concurrency randomization
+[19:32:25.191] [INFO ]     ├─ Device memory randomization
+[19:32:25.191] [INFO ]     ├─ Plugin masking
+[19:32:25.191] [INFO ]     ├─ WebRTC IP leak protection
+[19:32:25.191] [INFO ]     ├─ Network connection spoof
+[19:32:25.191] [INFO ]     └─ Battery API spoof
+[19:32:25.236] [INFO ] 
+[19:32:25.236] [INFO ]     🥷 STEALTH MODE APPLIED
+[19:32:25.236] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[19:32:25.236] [INFO ]     ├─ Chrome runtime patches
+[19:32:25.236] [INFO ]     ├─ Console patches
+[19:32:25.236] [INFO ]     └─ Permission patches
+[19:32:25.236] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[19:32:25.236] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:32:25.236] [INFO ] 
+[19:32:25.236] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[19:32:25.236] [INFO ]     ├─ Canvas fingerprint noise
+[19:32:25.236] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:32:25.236] [INFO ]     ├─ Hardware concurrency randomization
+[19:32:25.236] [INFO ]     ├─ Device memory randomization
+[19:32:25.236] [INFO ]     ├─ Plugin masking
+[19:32:25.236] [INFO ]     ├─ WebRTC IP leak protection
+[19:32:25.236] [INFO ]     ├─ Network connection spoof
+[19:32:25.236] [INFO ]     └─ Battery API spoof
+[19:32:25.236] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:32:25.236] [INFO ] 
+[19:32:25.236] [INFO ]     🔗 NAVIGATING TO URL
+[19:32:25.236] [INFO ]     ├─ Strategy:   domcontentloaded
+[19:32:25.236] [INFO ]     ├─ Timeout:    15.0s
+[19:32:25.236] [INFO ]     └─ Sleep:      1s after load
+[19:32:27.811] [INFO ] 
+[19:32:27.811] [INFO ]     ✅ PAGE LOADED
+[19:32:27.811] [INFO ]     ├─ Final URL:  https://www.bakermckenzie.com/en/insight/publications/2026/01/egypt-important-data-protection-update
+[19:32:27.811] [INFO ]     ├─ Title:      Egypt: Important Data Protection Update | Insight | Baker McKenzie
+[19:32:27.811] [INFO ]     └─ Load Time:  2.58s
+[19:32:28.994] [INFO ] 🧑 Human behavior simulation...
+[19:32:32.542] [INFO ] 🖱️ Mouse: 3 moves in 1280x720
+[19:32:32.542] [INFO ] 🖱️ Mouse completed: 3 moves
+[19:32:32.542] [INFO ] 📜 Scroll: page height, viewport=720px
+[19:32:32.542] [INFO ] 📜 Scroll completed: 1 scrolls
+[19:32:32.542] [INFO ] 🧑 Human behavior completed in 3.5s ✓
+[19:32:32.542] [INFO ] 
+[19:32:32.542] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[19:32:32.542] [INFO ]     ├─ Mouse Movements: 3
+[19:32:32.542] [INFO ]     ├─ Scroll Actions:  1
+[19:32:32.542] [INFO ]     └─ Time Spent:      3.55s
+[19:32:32.597] [INFO ] 
+[19:32:32.597] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:32:32.597] [INFO ]     │ Title:            Egypt: Important Data Protection Update | Insight 
+[19:32:32.597] [INFO ]     │ Final URL:        https://www.bakermckenzie.com/en/insight/publications/2026/01/egypt-important-data-protection-update
+[19:32:32.598] [INFO ]     │ HTML Size:        55,744 bytes
+[19:32:32.598] [INFO ]     │ Text Size:        1,311 chars
+[19:32:32.598] [INFO ]     │ Word Count:       ~203 words
+[19:32:32.598] [INFO ]     │ Extraction:       trafilatura
+[19:32:32.598] [INFO ]     │ Has Article:      ✅ Yes
+[19:32:32.598] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:32:32.624] [INFO ] 
+[19:32:32.624] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:32:32.624] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_193224_4BC2
+[19:32:32.624] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:32:32.624] [INFO ] 
+[19:32:32.624] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[19:32:32.624] [INFO ]     │ Browser Launch:      0.05s
+[19:32:32.624] [INFO ]     │ Page Load:           2.58s
+[19:32:32.624] [INFO ]     │ Cloudflare Wait:     0.00s
+[19:32:32.624] [INFO ]     │ Human Simulation:    3.55s
+[19:32:32.624] [INFO ]     │
+[19:32:32.624] [INFO ]     │ Content Extraction:  0.04s
+[19:32:32.624] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[19:32:32.624] [INFO ]     │ TOTAL TIME:          6.22s
+[19:32:32.624] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:32:32.624] [INFO ] 
+[19:32:32.624] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:32:32.624] [INFO ]     │ Title:            Egypt: Important Data Protection Update | Insight 
+[19:32:32.624] [INFO ]     │ Final URL:        https://www.bakermckenzie.com/en/insight/publications/2026/01/egypt-important-data-protection-update
+[19:32:32.624] [INFO ]     │ HTML Size:        55,744 bytes
+[19:32:32.624] [INFO ]     │ Text Size:        1,311 chars
+[19:32:32.624] [INFO ]     │ Word Count:       ~203 words
+[19:32:32.624] [INFO ]     │ Extraction:       trafilatura
+[19:32:32.624] [INFO ]     │ Has Article:      ✅ Yes
+[19:32:32.624] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:32:32.624] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:32:32.624] [INFO ] ║  📊 SESSION STATS
+[19:32:32.624] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[19:32:32.624] [INFO ] ║  ├─ Popups Dismissed:   0
+[19:32:32.624] [INFO ] ║  ├─ Cloudflare:         Not detected
+[19:32:32.624] [INFO ] ║  └─ Proxy Used:         Direct
+[19:32:32.624] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:32:32.624] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.79s
+ENDED: 2026-01-29T19:32:32.624617+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

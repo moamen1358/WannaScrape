@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.cbe.org.eg/en/news-publications/news/2023/cbe-receives-iso-certification-in-business-continuity-management
+Started: 2026-01-29 22:32:59
+Session ID: SCRAPE_20260129_223259_568C
+================================================================================
+[22:32:59.577] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_223259_cbe.org.eg.log
+[22:32:59.577] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[22:32:59.915] [INFO ] 
+[22:32:59.915] [INFO ]     🚀 BROWSER LAUNCHED
+[22:32:59.915] [INFO ]     ├─ Mode:       Headless
+[22:32:59.915] [INFO ]     ├─ Slow Mo:    51ms
+[22:32:59.915] [INFO ]     ├─ Launch Time: 0.05s
+[22:32:59.915] [INFO ]     └─ Args:       Anti-automation flags enabled
+[22:32:59.933] [DEBUG] Browser profile: viewport={'width': 1728, 'height': 1117}, locale=en-US, tz=UTC
+[22:32:59.933] [INFO ] 
+[22:32:59.933] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:32:59.933] [INFO ] ║  📋 SESSION: SCRAPE_20260129_223259_568C
+[22:32:59.933] [INFO ] ║  🌐 URL: https://www.cbe.org.eg/en/news-publications/news/2023/cbe-receives-iso-certification-in-business-continuity-management
+[22:32:59.933] [INFO ] ║  🔄 ATTEMPT: 1/2
+[22:32:59.933] [INFO ] ║  ⏰ STARTED: 2026-01-29T22:32:59.933402+02:00 (Egypt Time)
+[22:32:59.933] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:32:59.933] [INFO ] 
+[22:32:59.933] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[22:32:59.933] [INFO ]     │ Browser:     SAFARI v17
+[22:32:59.933] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (...
+[22:32:59.933] [INFO ]     │ Viewport:    1728x1117
+[22:32:59.933] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[22:32:59.933] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[22:32:59.933] [INFO ]     │ Location:    Houston, USA
+[22:32:59.933] [INFO ]     │ Timezone:    N/A
+[22:32:59.933] [INFO ]     │ Locale:      en-US
+[22:32:59.933] [INFO ]     │ Geo:         0, 0
+[22:32:59.933] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[22:32:59.933] [INFO ]     │ Proxy:       Direct (no proxy)
+[22:32:59.933] [INFO ]     │ Referrer:    https://www.google.com/
+[22:32:59.933] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:32:59.933] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:32:59.933] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[22:32:59.933] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:32:59.933] [INFO ] 
+[22:32:59.933] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[22:32:59.933] [INFO ]     ├─ Canvas fingerprint noise
+[22:32:59.933] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:32:59.933] [INFO ]     ├─ Hardware concurrency randomization
+[22:32:59.933] [INFO ]     ├─ Device memory randomization
+[22:32:59.933] [INFO ]     ├─ Plugin masking
+[22:32:59.933] [INFO ]     ├─ WebRTC IP leak protection
+[22:32:59.933] [INFO ]     ├─ Network connection spoof
+[22:32:59.933] [INFO ]     └─ Battery API spoof
+[22:32:59.974] [INFO ] 
+[22:32:59.974] [INFO ]     🥷 STEALTH MODE APPLIED
+[22:32:59.974] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[22:32:59.974] [INFO ]     ├─ Chrome runtime patches
+[22:32:59.974] [INFO ]     ├─ Console patches
+[22:32:59.974] [INFO ]     └─ Permission patches
+[22:32:59.974] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[22:32:59.974] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:32:59.974] [INFO ] 
+[22:32:59.974] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[22:32:59.974] [INFO ]     ├─ Canvas fingerprint noise
+[22:32:59.974] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:32:59.974] [INFO ]     ├─ Hardware concurrency randomization
+[22:32:59.974] [INFO ]     ├─ Device memory randomization
+[22:32:59.974] [INFO ]     ├─ Plugin masking
+[22:32:59.974] [INFO ]     ├─ WebRTC IP leak protection
+[22:32:59.974] [INFO ]     ├─ Network connection spoof
+[22:32:59.974] [INFO ]     └─ Battery API spoof
+[22:32:59.974] [DEBUG] Enabled resource blocking (images, media, fonts)
+[22:32:59.974] [INFO ] 
+[22:32:59.974] [INFO ]     🔗 NAVIGATING TO URL
+[22:32:59.974] [INFO ]     ├─ Strategy:   domcontentloaded
+[22:32:59.974] [INFO ]     ├─ Timeout:    15.0s
+[22:32:59.974] [INFO ]     └─ Sleep:      1s after load
+[22:33:01.930] [INFO ] 
+[22:33:01.930] [INFO ]     ✅ PAGE LOADED
+[22:33:01.930] [INFO ]     ├─ Final URL:  https://www.cbe.org.eg/en/news-publications/news/2023/cbe-receives-iso-certification-in-business-continuity-management
+[22:33:01.930] [INFO ]     ├─ Title:      The Central Bank of Egypt Receives "ISO" 22301:2019 Certification in Business Continuity Management (BCM)
+[22:33:01.930] [INFO ]     └─ Load Time:  1.96s
+[22:33:03.189] [INFO ] 🧑 Human behavior simulation...
+[22:33:05.669] [INFO ] 🖱️ Mouse: 1 moves in 1728x1117
+[22:33:05.669] [INFO ] 🖱️ Mouse completed: 1 moves
+[22:33:05.669] [INFO ] 📜 Scroll: page height, viewport=1117px
+[22:33:05.669] [INFO ] 📜 Scroll completed: 2 scrolls
+[22:33:05.669] [INFO ] 🧑 Human behavior completed in 2.5s ✓
+[22:33:05.669] [INFO ] 
+[22:33:05.669] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[22:33:05.669] [INFO ]     ├─ Mouse Movements: 1
+[22:33:05.669] [INFO ]     ├─ Scroll Actions:  2
+[22:33:05.669] [INFO ]     └─ Time Spent:      2.48s
+[22:33:05.784] [INFO ] 
+[22:33:05.784] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:33:05.784] [INFO ]     │ Title:            The Central Bank of Egypt Receives "ISO" 22301:201
+[22:33:05.784] [INFO ]     │ Final URL:        https://www.cbe.org.eg/en/news-publications/news/2023/cbe-receives-iso-certification-in-business-continuity-management
+[22:33:05.784] [INFO ]     │ HTML Size:        201,955 bytes
+[22:33:05.784] [INFO ]     │ Text Size:        1,858 chars
+[22:33:05.784] [INFO ]     │ Word Count:       ~263 words
+[22:33:05.784] [INFO ]     │ Extraction:       trafilatura
+[22:33:05.784] [INFO ]     │ Has Article:      ✅ Yes
+[22:33:05.784] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:33:05.811] [INFO ] 
+[22:33:05.811] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:33:05.811] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_223259_568C
+[22:33:05.811] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:33:05.811] [INFO ] 
+[22:33:05.811] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[22:33:05.811] [INFO ]     │ Browser Launch:      0.05s
+[22:33:05.811] [INFO ]     │ Page Load:           1.96s
+[22:33:05.811] [INFO ]     │ Cloudflare Wait:     0.00s
+[22:33:05.811] [INFO ]     │ Human Simulation:    2.48s
+[22:33:05.811] [INFO ]     │
+[22:33:05.811] [INFO ]     │ Content Extraction:  0.07s
+[22:33:05.811] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[22:33:05.811] [INFO ]     │ TOTAL TIME:          4.56s
+[22:33:05.811] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:33:05.811] [INFO ] 
+[22:33:05.811] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:33:05.811] [INFO ]     │ Title:            The Central Bank of Egypt Receives "ISO" 22301:201
+[22:33:05.811] [INFO ]     │ Final URL:        https://www.cbe.org.eg/en/news-publications/news/2023/cbe-receives-iso-certification-in-business-continuity-management
+[22:33:05.811] [INFO ]     │ HTML Size:        201,955 bytes
+[22:33:05.811] [INFO ]     │ Text Size:        1,858 chars
+[22:33:05.811] [INFO ]     │ Word Count:       ~263 words
+[22:33:05.811] [INFO ]     │ Extraction:       trafilatura
+[22:33:05.811] [INFO ]     │ Has Article:      ✅ Yes
+[22:33:05.811] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:33:05.811] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:33:05.811] [INFO ] ║  📊 SESSION STATS
+[22:33:05.811] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[22:33:05.811] [INFO ] ║  ├─ Popups Dismissed:   0
+[22:33:05.811] [INFO ] ║  ├─ Cloudflare:         Not detected
+[22:33:05.811] [INFO ] ║  └─ Proxy Used:         Direct
+[22:33:05.811] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:33:05.811] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 6.23s
+ENDED: 2026-01-29T22:33:05.811321+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

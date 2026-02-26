@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://eg.andersen.com/data-protection-egypt-law/
+Started: 2026-01-29 22:06:28
+Session ID: SCRAPE_20260129_220628_D1C3
+================================================================================
+[22:06:28.618] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_220628_eg.andersen.com.log
+[22:06:28.618] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[22:06:28.957] [INFO ] 
+[22:06:28.957] [INFO ]     🚀 BROWSER LAUNCHED
+[22:06:28.957] [INFO ]     ├─ Mode:       Headless
+[22:06:28.957] [INFO ]     ├─ Slow Mo:    45ms
+[22:06:28.957] [INFO ]     ├─ Launch Time: 0.05s
+[22:06:28.957] [INFO ]     └─ Args:       Anti-automation flags enabled
+[22:06:28.975] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-GB, tz=UTC
+[22:06:28.975] [INFO ] 
+[22:06:28.975] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:06:28.975] [INFO ] ║  📋 SESSION: SCRAPE_20260129_220628_D1C3
+[22:06:28.975] [INFO ] ║  🌐 URL: https://eg.andersen.com/data-protection-egypt-law/
+[22:06:28.975] [INFO ] ║  🔄 ATTEMPT: 1/2
+[22:06:28.975] [INFO ] ║  ⏰ STARTED: 2026-01-29T22:06:28.975508+02:00 (Egypt Time)
+[22:06:28.975] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:06:28.975] [INFO ] 
+[22:06:28.975] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[22:06:28.975] [INFO ]     │ Browser:     CHROME v122
+[22:06:28.975] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[22:06:28.975] [INFO ]     │ Viewport:    1366x768
+[22:06:28.975] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[22:06:28.975] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[22:06:28.975] [INFO ]     │ Location:    London, UK
+[22:06:28.975] [INFO ]     │ Timezone:    N/A
+[22:06:28.975] [INFO ]     │ Locale:      en-GB
+[22:06:28.975] [INFO ]     │ Geo:         0, 0
+[22:06:28.975] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[22:06:28.975] [INFO ]     │ Proxy:       Direct (no proxy)
+[22:06:28.975] [INFO ]     │ Referrer:    https://www.google.com/search?q=eg+andersen+com
+[22:06:28.975] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:06:28.975] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:06:28.975] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[22:06:28.975] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:06:28.975] [INFO ] 
+[22:06:28.975] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[22:06:28.975] [INFO ]     ├─ Canvas fingerprint noise
+[22:06:28.975] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:06:28.975] [INFO ]     ├─ Hardware concurrency randomization
+[22:06:28.975] [INFO ]     ├─ Device memory randomization
+[22:06:28.975] [INFO ]     ├─ Plugin masking
+[22:06:28.975] [INFO ]     ├─ WebRTC IP leak protection
+[22:06:28.975] [INFO ]     ├─ Network connection spoof
+[22:06:28.975] [INFO ]     └─ Battery API spoof
+[22:06:29.015] [INFO ] 
+[22:06:29.015] [INFO ]     🥷 STEALTH MODE APPLIED
+[22:06:29.015] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[22:06:29.015] [INFO ]     ├─ Chrome runtime patches
+[22:06:29.015] [INFO ]     ├─ Console patches
+[22:06:29.015] [INFO ]     └─ Permission patches
+[22:06:29.015] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[22:06:29.015] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:06:29.015] [INFO ] 
+[22:06:29.015] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[22:06:29.015] [INFO ]     ├─ Canvas fingerprint noise
+[22:06:29.015] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:06:29.015] [INFO ]     ├─ Hardware concurrency randomization
+[22:06:29.015] [INFO ]     ├─ Device memory randomization
+[22:06:29.015] [INFO ]     ├─ Plugin masking
+[22:06:29.015] [INFO ]     ├─ WebRTC IP leak protection
+[22:06:29.015] [INFO ]     ├─ Network connection spoof
+[22:06:29.015] [INFO ]     └─ Battery API spoof
+[22:06:29.015] [DEBUG] Enabled resource blocking (images, media, fonts)
+[22:06:29.015] [INFO ] 
+[22:06:29.015] [INFO ]     🔗 NAVIGATING TO URL
+[22:06:29.015] [INFO ]     ├─ Strategy:   domcontentloaded
+[22:06:29.015] [INFO ]     ├─ Timeout:    15.0s
+[22:06:29.015] [INFO ]     └─ Sleep:      1s after load
+[22:06:30.157] [INFO ] 
+[22:06:30.157] [INFO ]     ✅ PAGE LOADED
+[22:06:30.157] [INFO ]     ├─ Final URL:  https://eg.andersen.com/data-protection-egypt-law/
+[22:06:30.157] [INFO ]     ├─ Title:      Data Protection in Egypt: PDPL Law and Cybersecurity Rules
+[22:06:30.157] [INFO ]     └─ Load Time:  1.14s
+[22:06:31.467] [INFO ] 🧑 Human behavior simulation...
+[22:06:35.002] [INFO ] 🖱️ Mouse: 3 moves in 1366x768
+[22:06:35.002] [INFO ] 🖱️ Mouse completed: 3 moves
+[22:06:35.002] [INFO ] 📜 Scroll: page height, viewport=768px
+[22:06:35.002] [INFO ] 📜 Scroll completed: 3 scrolls
+[22:06:35.002] [INFO ] 🧑 Human behavior completed in 3.5s ✓
+[22:06:35.002] [INFO ] 
+[22:06:35.002] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[22:06:35.002] [INFO ]     ├─ Mouse Movements: 3
+[22:06:35.002] [INFO ]     ├─ Scroll Actions:  3
+[22:06:35.002] [INFO ]     └─ Time Spent:      3.53s
+[22:06:35.164] [INFO ] 
+[22:06:35.164] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:06:35.164] [INFO ]     │ Title:            Data Protection in Egypt: PDPL Law and Cybersecuri
+[22:06:35.164] [INFO ]     │ Final URL:        https://eg.andersen.com/data-protection-egypt-law/
+[22:06:35.164] [INFO ]     │ HTML Size:        233,619 bytes
+[22:06:35.164] [INFO ]     │ Text Size:        8,485 chars
+[22:06:35.164] [INFO ]     │ Word Count:       ~1252 words
+[22:06:35.164] [INFO ]     │ Extraction:       trafilatura
+[22:06:35.164] [INFO ]     │ Has Article:      ✅ Yes
+[22:06:35.164] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:06:35.187] [INFO ] 
+[22:06:35.187] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:06:35.187] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_220628_D1C3
+[22:06:35.187] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:06:35.187] [INFO ] 
+[22:06:35.187] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[22:06:35.187] [INFO ]     │ Browser Launch:      0.05s
+[22:06:35.187] [INFO ]     │ Page Load:           1.14s
+[22:06:35.187] [INFO ]     │ Cloudflare Wait:     0.00s
+[22:06:35.187] [INFO ]     │ Human Simulation:    3.53s
+[22:06:35.187] [INFO ]     │
+[22:06:35.187] [INFO ]     │ Content Extraction:  0.08s
+[22:06:35.187] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[22:06:35.187] [INFO ]     │ TOTAL TIME:          4.81s
+[22:06:35.187] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:06:35.187] [INFO ] 
+[22:06:35.187] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:06:35.187] [INFO ]     │ Title:            Data Protection in Egypt: PDPL Law and Cybersecuri
+[22:06:35.187] [INFO ]     │ Final URL:        https://eg.andersen.com/data-protection-egypt-law/
+[22:06:35.187] [INFO ]     │ HTML Size:        233,619 bytes
+[22:06:35.187] [INFO ]     │ Text Size:        8,485 chars
+[22:06:35.187] [INFO ]     │ Word Count:       ~1252 words
+[22:06:35.187] [INFO ]     │ Extraction:       trafilatura
+[22:06:35.187] [INFO ]     │ Has Article:      ✅ Yes
+[22:06:35.187] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:06:35.187] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:06:35.187] [INFO ] ║  📊 SESSION STATS
+[22:06:35.187] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[22:06:35.187] [INFO ] ║  ├─ Popups Dismissed:   0
+[22:06:35.187] [INFO ] ║  ├─ Cloudflare:         Not detected
+[22:06:35.187] [INFO ] ║  └─ Proxy Used:         Direct
+[22:06:35.187] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:06:35.187] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 6.57s
+ENDED: 2026-01-29T22:06:35.187895+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

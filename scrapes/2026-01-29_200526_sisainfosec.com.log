@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.sisainfosec.com/blogs/comparison-between-iso-27005-octave-nist-sp-800-30-sisa-blog/
+Started: 2026-01-29 20:05:26
+Session ID: SCRAPE_20260129_200526_DAC5
+================================================================================
+[20:05:26.116] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_200526_sisainfosec.com.log
+[20:05:26.116] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[20:05:26.459] [INFO ] 
+[20:05:26.459] [INFO ]     🚀 BROWSER LAUNCHED
+[20:05:26.459] [INFO ]     ├─ Mode:       Headless
+[20:05:26.459] [INFO ]     ├─ Slow Mo:    48ms
+[20:05:26.459] [INFO ]     ├─ Launch Time: 0.06s
+[20:05:26.459] [INFO ]     └─ Args:       Anti-automation flags enabled
+[20:05:26.477] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-US, tz=UTC
+[20:05:26.477] [INFO ] 
+[20:05:26.477] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:05:26.477] [INFO ] ║  📋 SESSION: SCRAPE_20260129_200526_DAC5
+[20:05:26.477] [INFO ] ║  🌐 URL: https://www.sisainfosec.com/blogs/comparison-between-iso-27005-octave-nist-sp-800-30-sisa-blog/
+[20:05:26.477] [INFO ] ║  🔄 ATTEMPT: 1/2
+[20:05:26.477] [INFO ] ║  ⏰ STARTED: 2026-01-29T20:05:26.477368+02:00 (Egypt Time)
+[20:05:26.477] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:05:26.477] [INFO ] 
+[20:05:26.477] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[20:05:26.477] [INFO ]     │ Browser:     CHROME v121
+[20:05:26.477] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[20:05:26.477] [INFO ]     │ Viewport:    1366x768
+[20:05:26.477] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[20:05:26.477] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[20:05:26.477] [INFO ]     │ Location:    Phoenix, USA
+[20:05:26.477] [INFO ]     │ Timezone:    N/A
+[20:05:26.477] [INFO ]     │ Locale:      en-US
+[20:05:26.477] [INFO ]     │ Geo:         0, 0
+[20:05:26.477] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[20:05:26.477] [INFO ]     │ Proxy:       Direct (no proxy)
+[20:05:26.477] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+sisainfosec+com
+[20:05:26.477] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:05:26.477] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:05:26.477] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[20:05:26.477] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:05:26.477] [INFO ] 
+[20:05:26.477] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[20:05:26.477] [INFO ]     ├─ Canvas fingerprint noise
+[20:05:26.477] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:05:26.477] [INFO ]     ├─ Hardware concurrency randomization
+[20:05:26.477] [INFO ]     ├─ Device memory randomization
+[20:05:26.477] [INFO ]     ├─ Plugin masking
+[20:05:26.477] [INFO ]     ├─ WebRTC IP leak protection
+[20:05:26.477] [INFO ]     ├─ Network connection spoof
+[20:05:26.477] [INFO ]     └─ Battery API spoof
+[20:05:26.518] [INFO ] 
+[20:05:26.518] [INFO ]     🥷 STEALTH MODE APPLIED
+[20:05:26.518] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[20:05:26.518] [INFO ]     ├─ Chrome runtime patches
+[20:05:26.518] [INFO ]     ├─ Console patches
+[20:05:26.518] [INFO ]     └─ Permission patches
+[20:05:26.518] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[20:05:26.518] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:05:26.518] [INFO ] 
+[20:05:26.518] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[20:05:26.518] [INFO ]     ├─ Canvas fingerprint noise
+[20:05:26.518] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:05:26.518] [INFO ]     ├─ Hardware concurrency randomization
+[20:05:26.518] [INFO ]     ├─ Device memory randomization
+[20:05:26.518] [INFO ]     ├─ Plugin masking
+[20:05:26.518] [INFO ]     ├─ WebRTC IP leak protection
+[20:05:26.518] [INFO ]     ├─ Network connection spoof
+[20:05:26.518] [INFO ]     └─ Battery API spoof
+[20:05:26.518] [DEBUG] Enabled resource blocking (images, media, fonts)
+[20:05:26.518] [INFO ] 
+[20:05:26.518] [INFO ]     🔗 NAVIGATING TO URL
+[20:05:26.518] [INFO ]     ├─ Strategy:   domcontentloaded
+[20:05:26.518] [INFO ]     ├─ Timeout:    15.0s
+[20:05:26.518] [INFO ]     └─ Sleep:      1s after load
+[20:05:28.862] [INFO ] 
+[20:05:28.862] [INFO ]     ✅ PAGE LOADED
+[20:05:28.862] [INFO ]     ├─ Final URL:  https://www.sisainfosec.com/blogs/comparison-between-iso-27005-octave-nist-sp-800-30-sisa-blog/
+[20:05:28.862] [INFO ]     ├─ Title:      Comparison between ISO 27005, OCTAVE & NIST SP 800-30 | SISA Blog
+[20:05:28.862] [INFO ]     └─ Load Time:  2.34s
+[20:05:33.115] [INFO ] 🧑 Human behavior simulation...
+[20:05:36.406] [INFO ] 🖱️ Mouse: 2 moves in 1366x768
+[20:05:36.406] [INFO ] 🖱️ Mouse completed: 2 moves
+[20:05:36.406] [INFO ] 📜 Scroll: page height, viewport=768px
+[20:05:36.406] [INFO ] 📜 Scroll completed: 2 scrolls
+[20:05:36.406] [INFO ] 🧑 Human behavior completed in 3.3s ✓
+[20:05:36.406] [INFO ] 
+[20:05:36.406] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[20:05:36.406] [INFO ]     ├─ Mouse Movements: 2
+[20:05:36.406] [INFO ]     ├─ Scroll Actions:  2
+[20:05:36.406] [INFO ]     └─ Time Spent:      3.29s
+[20:05:36.750] [INFO ] 
+[20:05:36.750] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:05:36.750] [INFO ]     │ Title:            Comparison between ISO 27005, OCTAVE & NIST SP 800
+[20:05:36.750] [INFO ]     │ Final URL:        https://www.sisainfosec.com/blogs/comparison-between-iso-27005-octave-nist-sp-800-30-sisa-blog/
+[20:05:36.750] [INFO ]     │ HTML Size:        660,804 bytes
+[20:05:36.750] [INFO ]     │ Text Size:        11,145 chars
+[20:05:36.750] [INFO ]     │ Word Count:       ~1657 words
+[20:05:36.750] [INFO ]     │ Extraction:       trafilatura
+[20:05:36.750] [INFO ]     │ Has Article:      ✅ Yes
+[20:05:36.750] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:05:36.785] [INFO ] 
+[20:05:36.785] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:05:36.785] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_200526_DAC5
+[20:05:36.785] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:05:36.785] [INFO ] 
+[20:05:36.785] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[20:05:36.785] [INFO ]     │ Browser Launch:      0.06s
+[20:05:36.785] [INFO ]     │ Page Load:           2.34s
+[20:05:36.785] [INFO ]     │ Cloudflare Wait:     0.00s
+[20:05:36.785] [INFO ]     │ Human Simulation:    3.29s
+[20:05:36.785] [INFO ]     │
+[20:05:36.785] [INFO ]     │ Content Extraction:  0.13s
+[20:05:36.785] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[20:05:36.785] [INFO ]     │ TOTAL TIME:          5.82s
+[20:05:36.785] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:05:36.785] [INFO ] 
+[20:05:36.785] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:05:36.785] [INFO ]     │ Title:            Comparison between ISO 27005, OCTAVE & NIST SP 800
+[20:05:36.785] [INFO ]     │ Final URL:        https://www.sisainfosec.com/blogs/comparison-between-iso-27005-octave-nist-sp-800-30-sisa-blog/
+[20:05:36.785] [INFO ]     │ HTML Size:        660,804 bytes
+[20:05:36.785] [INFO ]     │ Text Size:        11,145 chars
+[20:05:36.785] [INFO ]     │ Word Count:       ~1657 words
+[20:05:36.785] [INFO ]     │ Extraction:       trafilatura
+[20:05:36.785] [INFO ]     │ Has Article:      ✅ Yes
+[20:05:36.785] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:05:36.785] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:05:36.785] [INFO ] ║  📊 SESSION STATS
+[20:05:36.785] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[20:05:36.785] [INFO ] ║  ├─ Popups Dismissed:   0
+[20:05:36.785] [INFO ] ║  ├─ Cloudflare:         Not detected
+[20:05:36.785] [INFO ] ║  └─ Proxy Used:         Direct
+[20:05:36.785] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:05:36.785] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.67s
+ENDED: 2026-01-29T20:05:36.785644+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

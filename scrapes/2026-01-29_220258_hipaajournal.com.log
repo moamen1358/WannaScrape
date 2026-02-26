@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.hipaajournal.com/egyptian-health-department-cyberattack-affects-up-to-100000-individuals/
+Started: 2026-01-29 22:02:58
+Session ID: SCRAPE_20260129_220258_26AE
+================================================================================
+[22:02:58.612] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_220258_hipaajournal.com.log
+[22:02:58.612] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[22:02:58.952] [INFO ] 
+[22:02:58.952] [INFO ]     🚀 BROWSER LAUNCHED
+[22:02:58.952] [INFO ]     ├─ Mode:       Headless
+[22:02:58.952] [INFO ]     ├─ Slow Mo:    53ms
+[22:02:58.952] [INFO ]     ├─ Launch Time: 0.05s
+[22:02:58.952] [INFO ]     └─ Args:       Anti-automation flags enabled
+[22:02:58.970] [DEBUG] Browser profile: viewport={'width': 1728, 'height': 1117}, locale=en-GB, tz=UTC
+[22:02:58.970] [INFO ] 
+[22:02:58.970] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:02:58.970] [INFO ] ║  📋 SESSION: SCRAPE_20260129_220258_26AE
+[22:02:58.970] [INFO ] ║  🌐 URL: https://www.hipaajournal.com/egyptian-health-department-cyberattack-affects-up-to-100000-individuals/
+[22:02:58.970] [INFO ] ║  🔄 ATTEMPT: 1/2
+[22:02:58.970] [INFO ] ║  ⏰ STARTED: 2026-01-29T22:02:58.970572+02:00 (Egypt Time)
+[22:02:58.970] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:02:58.970] [INFO ] 
+[22:02:58.970] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[22:02:58.970] [INFO ]     │ Browser:     CHROME v120
+[22:02:58.970] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36 (KHTML...
+[22:02:58.970] [INFO ]     │ Viewport:    1728x1117
+[22:02:58.970] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[22:02:58.970] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[22:02:58.970] [INFO ]     │ Location:    London, UK
+[22:02:58.970] [INFO ]     │ Timezone:    N/A
+[22:02:58.970] [INFO ]     │ Locale:      en-GB
+[22:02:58.970] [INFO ]     │ Geo:         0, 0
+[22:02:58.970] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[22:02:58.970] [INFO ]     │ Proxy:       Direct (no proxy)
+[22:02:58.970] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+hipaajournal+com
+[22:02:58.970] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:02:58.970] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:02:58.970] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[22:02:58.970] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:02:58.970] [INFO ] 
+[22:02:58.970] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[22:02:58.970] [INFO ]     ├─ Canvas fingerprint noise
+[22:02:58.970] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:02:58.970] [INFO ]     ├─ Hardware concurrency randomization
+[22:02:58.970] [INFO ]     ├─ Device memory randomization
+[22:02:58.970] [INFO ]     ├─ Plugin masking
+[22:02:58.970] [INFO ]     ├─ WebRTC IP leak protection
+[22:02:58.970] [INFO ]     ├─ Network connection spoof
+[22:02:58.970] [INFO ]     └─ Battery API spoof
+[22:02:59.011] [INFO ] 
+[22:02:59.011] [INFO ]     🥷 STEALTH MODE APPLIED
+[22:02:59.011] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[22:02:59.011] [INFO ]     ├─ Chrome runtime patches
+[22:02:59.011] [INFO ]     ├─ Console patches
+[22:02:59.011] [INFO ]     └─ Permission patches
+[22:02:59.011] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[22:02:59.011] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[22:02:59.011] [INFO ] 
+[22:02:59.011] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[22:02:59.011] [INFO ]     ├─ Canvas fingerprint noise
+[22:02:59.011] [INFO ]     ├─ WebGL renderer/vendor spoof
+[22:02:59.011] [INFO ]     ├─ Hardware concurrency randomization
+[22:02:59.011] [INFO ]     ├─ Device memory randomization
+[22:02:59.011] [INFO ]     ├─ Plugin masking
+[22:02:59.011] [INFO ]     ├─ WebRTC IP leak protection
+[22:02:59.011] [INFO ]     ├─ Network connection spoof
+[22:02:59.011] [INFO ]     └─ Battery API spoof
+[22:02:59.011] [DEBUG] Enabled resource blocking (images, media, fonts)
+[22:02:59.011] [INFO ] 
+[22:02:59.011] [INFO ]     🔗 NAVIGATING TO URL
+[22:02:59.011] [INFO ]     ├─ Strategy:   domcontentloaded
+[22:02:59.011] [INFO ]     ├─ Timeout:    15.0s
+[22:02:59.011] [INFO ]     └─ Sleep:      1s after load
+[22:03:01.864] [INFO ] 
+[22:03:01.864] [INFO ]     ✅ PAGE LOADED
+[22:03:01.864] [INFO ]     ├─ Final URL:  https://www.hipaajournal.com/egyptian-health-department-cyberattack-affects-up-to-100000-individuals/
+[22:03:01.864] [INFO ]     ├─ Title:      Egyptian Health Department Cyberattack Affects Up to 100,000 Individuals
+[22:03:01.864] [INFO ]     └─ Load Time:  2.85s
+[22:03:03.158] [INFO ] 🧑 Human behavior simulation...
+[22:03:05.823] [INFO ] 🖱️ Mouse: 1 moves in 1728x1117
+[22:03:05.823] [INFO ] 🖱️ Mouse completed: 1 moves
+[22:03:05.823] [INFO ] 📜 Scroll: page height, viewport=1117px
+[22:03:05.823] [INFO ] 📜 Scroll completed: 2 scrolls
+[22:03:05.823] [INFO ] 🧑 Human behavior completed in 2.7s ✓
+[22:03:05.823] [INFO ] 
+[22:03:05.823] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[22:03:05.823] [INFO ]     ├─ Mouse Movements: 1
+[22:03:05.823] [INFO ]     ├─ Scroll Actions:  2
+[22:03:05.823] [INFO ]     └─ Time Spent:      2.66s
+[22:03:06.008] [INFO ] 
+[22:03:06.008] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:03:06.008] [INFO ]     │ Title:            Egyptian Health Department Cyberattack Affects Up 
+[22:03:06.008] [INFO ]     │ Final URL:        https://www.hipaajournal.com/egyptian-health-department-cyberattack-affects-up-to-100000-individuals/
+[22:03:06.008] [INFO ]     │ HTML Size:        327,625 bytes
+[22:03:06.008] [INFO ]     │ Text Size:        5,470 chars
+[22:03:06.008] [INFO ]     │ Word Count:       ~801 words
+[22:03:06.008] [INFO ]     │ Extraction:       trafilatura
+[22:03:06.008] [INFO ]     │ Has Article:      ✅ Yes
+[22:03:06.008] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:03:06.035] [INFO ] 
+[22:03:06.035] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[22:03:06.035] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_220258_26AE
+[22:03:06.035] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:03:06.035] [INFO ] 
+[22:03:06.035] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[22:03:06.035] [INFO ]     │ Browser Launch:      0.05s
+[22:03:06.035] [INFO ]     │ Page Load:           2.85s
+[22:03:06.035] [INFO ]     │ Cloudflare Wait:     0.00s
+[22:03:06.035] [INFO ]     │ Human Simulation:    2.66s
+[22:03:06.035] [INFO ]     │
+[22:03:06.035] [INFO ]     │ Content Extraction:  0.07s
+[22:03:06.035] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[22:03:06.035] [INFO ]     │ TOTAL TIME:          5.64s
+[22:03:06.035] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:03:06.035] [INFO ] 
+[22:03:06.036] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[22:03:06.036] [INFO ]     │ Title:            Egyptian Health Department Cyberattack Affects Up 
+[22:03:06.036] [INFO ]     │ Final URL:        https://www.hipaajournal.com/egyptian-health-department-cyberattack-affects-up-to-100000-individuals/
+[22:03:06.036] [INFO ]     │ HTML Size:        327,625 bytes
+[22:03:06.036] [INFO ]     │ Text Size:        5,470 chars
+[22:03:06.036] [INFO ]     │ Word Count:       ~801 words
+[22:03:06.036] [INFO ]     │ Extraction:       trafilatura
+[22:03:06.036] [INFO ]     │ Has Article:      ✅ Yes
+[22:03:06.036] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[22:03:06.036] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[22:03:06.036] [INFO ] ║  📊 SESSION STATS
+[22:03:06.036] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[22:03:06.036] [INFO ] ║  ├─ Popups Dismissed:   0
+[22:03:06.036] [INFO ] ║  ├─ Cloudflare:         Not detected
+[22:03:06.036] [INFO ] ║  └─ Proxy Used:         Direct
+[22:03:06.036] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[22:03:06.036] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.42s
+ENDED: 2026-01-29T22:03:06.036247+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.globallegalinsights.com/practice-areas/fintech-laws-and-regulations/egypt/
+Started: 2026-01-26 12:19:52
+Session ID: SCRAPE_20260126_121952_BC14
+================================================================================
+[12:19:52.289] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_121952_globallegalinsights.com.log
+[12:19:52.289] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:19:52.631] [INFO ] 
+[12:19:52.631] [INFO ]     🚀 BROWSER LAUNCHED
+[12:19:52.631] [INFO ]     ├─ Mode:       Headless
+[12:19:52.631] [INFO ]     ├─ Slow Mo:    56ms
+[12:19:52.631] [INFO ]     ├─ Launch Time: 0.06s
+[12:19:52.631] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:19:52.648] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-CA, tz=UTC
+[12:19:52.648] [INFO ] 
+[12:19:52.648] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:19:52.648] [INFO ] ║  📋 SESSION: SCRAPE_20260126_121952_BC14
+[12:19:52.648] [INFO ] ║  🌐 URL: https://www.globallegalinsights.com/practice-areas/fintech-laws-and-regulations/egypt/
+[12:19:52.648] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:19:52.648] [INFO ] ║  ⏰ STARTED: 2026-01-26T12:19:52.648225+02:00 (Egypt Time)
+[12:19:52.648] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:19:52.648] [INFO ] 
+[12:19:52.648] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:19:52.648] [INFO ]     │ Browser:     CHROME v122
+[12:19:52.648] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[12:19:52.648] [INFO ]     │ Viewport:    1680x1050
+[12:19:52.648] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:19:52.648] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:19:52.648] [INFO ]     │ Location:    Toronto, Canada
+[12:19:52.648] [INFO ]     │ Timezone:    N/A
+[12:19:52.648] [INFO ]     │ Locale:      en-CA
+[12:19:52.648] [INFO ]     │ Geo:         0, 0
+[12:19:52.648] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:19:52.648] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:19:52.648] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+globallegalinsights+com
+[12:19:52.648] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:19:52.648] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:19:52.648] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:19:52.648] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:19:52.648] [INFO ] 
+[12:19:52.648] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:19:52.648] [INFO ]     ├─ Canvas fingerprint noise
+[12:19:52.648] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:19:52.648] [INFO ]     ├─ Hardware concurrency randomization
+[12:19:52.648] [INFO ]     ├─ Device memory randomization
+[12:19:52.648] [INFO ]     ├─ Plugin masking
+[12:19:52.648] [INFO ]     ├─ WebRTC IP leak protection
+[12:19:52.648] [INFO ]     ├─ Network connection spoof
+[12:19:52.648] [INFO ]     └─ Battery API spoof
+[12:19:52.689] [INFO ] 
+[12:19:52.689] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:19:52.689] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:19:52.689] [INFO ]     ├─ Chrome runtime patches
+[12:19:52.689] [INFO ]     ├─ Console patches
+[12:19:52.689] [INFO ]     └─ Permission patches
+[12:19:52.689] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:19:52.689] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:19:52.689] [INFO ] 
+[12:19:52.689] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:19:52.689] [INFO ]     ├─ Canvas fingerprint noise
+[12:19:52.689] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:19:52.689] [INFO ]     ├─ Hardware concurrency randomization
+[12:19:52.689] [INFO ]     ├─ Device memory randomization
+[12:19:52.689] [INFO ]     ├─ Plugin masking
+[12:19:52.689] [INFO ]     ├─ WebRTC IP leak protection
+[12:19:52.689] [INFO ]     ├─ Network connection spoof
+[12:19:52.689] [INFO ]     └─ Battery API spoof
+[12:19:52.689] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:19:52.689] [INFO ] 
+[12:19:52.689] [INFO ]     🔗 NAVIGATING TO URL
+[12:19:52.689] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:19:52.689] [INFO ]     ├─ Timeout:    15.0s
+[12:19:52.689] [INFO ]     └─ Sleep:      1s after load
+[12:19:54.854] [INFO ] 
+[12:19:54.854] [INFO ]     ✅ PAGE LOADED
+[12:19:54.854] [INFO ]     ├─ Final URL:  https://www.globallegalinsights.com/practice-areas/fintech-laws-and-regulations/egypt/
+[12:19:54.854] [INFO ]     ├─ Title:      Egypt - ARCHIVED CHAPTER | Fintech Laws and Regulations 2023
+[12:19:54.854] [INFO ]     └─ Load Time:  2.16s
+[12:19:56.789] [INFO ] 🧑 Human behavior simulation...
+[12:20:03.067] [INFO ] 🖱️ Mouse: 4 moves in 1680x1050
+[12:20:03.067] [INFO ] 🖱️ Mouse completed: 4 moves
+[12:20:03.067] [INFO ] 📜 Scroll: page height, viewport=1050px
+[12:20:03.067] [INFO ] 📜 Scroll completed: 3 scrolls
+[12:20:03.067] [INFO ] 🧑 Human behavior completed in 6.3s ✓
+[12:20:03.067] [INFO ] 
+[12:20:03.067] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:20:03.067] [INFO ]     ├─ Mouse Movements: 4
+[12:20:03.067] [INFO ]     ├─ Scroll Actions:  3
+[12:20:03.067] [INFO ]     └─ Time Spent:      6.28s
+[12:20:03.219] [INFO ] 
+[12:20:03.219] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:20:03.219] [INFO ]     │ Title:            Egypt - ARCHIVED CHAPTER | Fintech Laws and Regula
+[12:20:03.219] [INFO ]     │ Final URL:        https://www.globallegalinsights.com/practice-areas/fintech-laws-and-regulations/egypt/
+[12:20:03.219] [INFO ]     │ HTML Size:        319,755 bytes
+[12:20:03.219] [INFO ]     │ Text Size:        4,155 chars
+[12:20:03.219] [INFO ]     │ Word Count:       ~622 words
+[12:20:03.219] [INFO ]     │ Extraction:       trafilatura
+[12:20:03.219] [INFO ]     │ Has Article:      ✅ Yes
+[12:20:03.219] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:03.249] [INFO ] 
+[12:20:03.249] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:20:03.249] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_121952_BC14
+[12:20:03.249] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:20:03.249] [INFO ] 
+[12:20:03.249] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:20:03.249] [INFO ]     │ Browser Launch:      0.06s
+[12:20:03.249] [INFO ]     │ Page Load:           2.16s
+[12:20:03.249] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:20:03.249] [INFO ]     │ Human Simulation:    6.28s
+[12:20:03.249] [INFO ]     │
+[12:20:03.249] [INFO ]     │ Content Extraction:  0.08s
+[12:20:03.249] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:20:03.249] [INFO ]     │ TOTAL TIME:          8.58s
+[12:20:03.249] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:03.249] [INFO ] 
+[12:20:03.249] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:20:03.249] [INFO ]     │ Title:            Egypt - ARCHIVED CHAPTER | Fintech Laws and Regula
+[12:20:03.249] [INFO ]     │ Final URL:        https://www.globallegalinsights.com/practice-areas/fintech-laws-and-regulations/egypt/
+[12:20:03.249] [INFO ]     │ HTML Size:        319,755 bytes
+[12:20:03.249] [INFO ]     │ Text Size:        4,155 chars
+[12:20:03.249] [INFO ]     │ Word Count:       ~622 words
+[12:20:03.249] [INFO ]     │ Extraction:       trafilatura
+[12:20:03.249] [INFO ]     │ Has Article:      ✅ Yes
+[12:20:03.249] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:03.249] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:20:03.249] [INFO ] ║  📊 SESSION STATS
+[12:20:03.249] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:20:03.249] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:20:03.249] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:20:03.249] [INFO ] ║  └─ Proxy Used:         Direct
+[12:20:03.249] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:20:03.249] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.96s
+ENDED: 2026-01-26T12:20:03.249698+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

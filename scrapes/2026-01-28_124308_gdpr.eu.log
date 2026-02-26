@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://gdpr.eu/compliance/
+Started: 2026-01-28 12:43:08
+Session ID: SCRAPE_20260128_124308_4C04
+================================================================================
+[12:43:08.332] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-28_124308_gdpr.eu.log
+[12:43:08.332] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:43:08.671] [INFO ] 
+[12:43:08.671] [INFO ]     🚀 BROWSER LAUNCHED
+[12:43:08.671] [INFO ]     ├─ Mode:       Headless
+[12:43:08.671] [INFO ]     ├─ Slow Mo:    56ms
+[12:43:08.671] [INFO ]     ├─ Launch Time: 0.06s
+[12:43:08.671] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:43:08.690] [DEBUG] Browser profile: viewport={'width': 1600, 'height': 900}, locale=en-US, tz=UTC
+[12:43:08.690] [INFO ] 
+[12:43:08.690] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:43:08.690] [INFO ] ║  📋 SESSION: SCRAPE_20260128_124308_4C04
+[12:43:08.690] [INFO ] ║  🌐 URL: https://gdpr.eu/compliance/
+[12:43:08.690] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:43:08.690] [INFO ] ║  ⏰ STARTED: 2026-01-28T12:43:08.690648+02:00 (Egypt Time)
+[12:43:08.690] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:43:08.690] [INFO ] 
+[12:43:08.690] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:43:08.690] [INFO ]     │ Browser:     CHROME v124
+[12:43:08.690] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[12:43:08.690] [INFO ]     │ Viewport:    1600x900
+[12:43:08.690] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:43:08.690] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:43:08.690] [INFO ]     │ Location:    San Francisco, USA
+[12:43:08.690] [INFO ]     │ Timezone:    N/A
+[12:43:08.690] [INFO ]     │ Locale:      en-US
+[12:43:08.690] [INFO ]     │ Geo:         0, 0
+[12:43:08.690] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:43:08.690] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:43:08.690] [INFO ]     │ Referrer:    https://news.google.com/
+[12:43:08.690] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:43:08.690] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:43:08.690] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:43:08.690] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:43:08.690] [INFO ] 
+[12:43:08.690] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:43:08.690] [INFO ]     ├─ Canvas fingerprint noise
+[12:43:08.690] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:43:08.690] [INFO ]     ├─ Hardware concurrency randomization
+[12:43:08.690] [INFO ]     ├─ Device memory randomization
+[12:43:08.690] [INFO ]     ├─ Plugin masking
+[12:43:08.690] [INFO ]     ├─ WebRTC IP leak protection
+[12:43:08.690] [INFO ]     ├─ Network connection spoof
+[12:43:08.690] [INFO ]     └─ Battery API spoof
+[12:43:08.741] [INFO ] 
+[12:43:08.741] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:43:08.741] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:43:08.741] [INFO ]     ├─ Chrome runtime patches
+[12:43:08.741] [INFO ]     ├─ Console patches
+[12:43:08.741] [INFO ]     └─ Permission patches
+[12:43:08.741] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:43:08.741] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:43:08.741] [INFO ] 
+[12:43:08.741] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:43:08.741] [INFO ]     ├─ Canvas fingerprint noise
+[12:43:08.741] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:43:08.741] [INFO ]     ├─ Hardware concurrency randomization
+[12:43:08.741] [INFO ]     ├─ Device memory randomization
+[12:43:08.741] [INFO ]     ├─ Plugin masking
+[12:43:08.741] [INFO ]     ├─ WebRTC IP leak protection
+[12:43:08.742] [INFO ]     ├─ Network connection spoof
+[12:43:08.742] [INFO ]     └─ Battery API spoof
+[12:43:08.742] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:43:08.742] [INFO ] 
+[12:43:08.742] [INFO ]     🔗 NAVIGATING TO URL
+[12:43:08.742] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:43:08.742] [INFO ]     ├─ Timeout:    15.0s
+[12:43:08.742] [INFO ]     └─ Sleep:      1s after load
+[12:43:09.484] [INFO ] 
+[12:43:09.485] [INFO ]     ✅ PAGE LOADED
+[12:43:09.485] [INFO ]     ├─ Final URL:  https://gdpr.eu/compliance/
+[12:43:09.485] [INFO ]     ├─ Title:      Everything you need to know about GDPR compliance - GDPR.eu
+[12:43:09.485] [INFO ]     └─ Load Time:  0.74s
+[12:43:10.679] [INFO ] 🧑 Human behavior simulation...
+[12:43:12.992] [INFO ] 🖱️ Mouse: 1 moves in 1600x900
+[12:43:12.992] [INFO ] 🖱️ Mouse completed: 1 moves
+[12:43:12.992] [INFO ] 📜 Scroll: page height, viewport=900px
+[12:43:12.992] [INFO ] 📜 Scroll completed: 1 scrolls
+[12:43:12.992] [INFO ] 🧑 Human behavior completed in 2.3s ✓
+[12:43:12.992] [INFO ] 
+[12:43:12.992] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:43:12.992] [INFO ]     ├─ Mouse Movements: 1
+[12:43:12.992] [INFO ]     ├─ Scroll Actions:  1
+[12:43:12.992] [INFO ]     └─ Time Spent:      2.31s
+[12:43:13.032] [INFO ] 
+[12:43:13.032] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:43:13.032] [INFO ]     │ Title:            Everything you need to know about GDPR compliance 
+[12:43:13.032] [INFO ]     │ Final URL:        https://gdpr.eu/compliance/
+[12:43:13.032] [INFO ]     │ HTML Size:        41,049 bytes
+[12:43:13.032] [INFO ]     │ Text Size:        3,976 chars
+[12:43:13.032] [INFO ]     │ Word Count:       ~635 words
+[12:43:13.032] [INFO ]     │ Extraction:       trafilatura
+[12:43:13.032] [INFO ]     │ Has Article:      ✅ Yes
+[12:43:13.032] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:43:13.059] [INFO ] 
+[12:43:13.059] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:43:13.059] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260128_124308_4C04
+[12:43:13.059] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:43:13.059] [INFO ] 
+[12:43:13.059] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:43:13.059] [INFO ]     │ Browser Launch:      0.06s
+[12:43:13.059] [INFO ]     │ Page Load:           0.74s
+[12:43:13.059] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:43:13.059] [INFO ]     │ Human Simulation:    2.31s
+[12:43:13.059] [INFO ]     │
+[12:43:13.059] [INFO ]     │ Content Extraction:  0.02s
+[12:43:13.059] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:43:13.059] [INFO ]     │ TOTAL TIME:          3.14s
+[12:43:13.059] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:43:13.059] [INFO ] 
+[12:43:13.059] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:43:13.059] [INFO ]     │ Title:            Everything you need to know about GDPR compliance 
+[12:43:13.059] [INFO ]     │ Final URL:        https://gdpr.eu/compliance/
+[12:43:13.059] [INFO ]     │ HTML Size:        41,049 bytes
+[12:43:13.059] [INFO ]     │ Text Size:        3,976 chars
+[12:43:13.059] [INFO ]     │ Word Count:       ~635 words
+[12:43:13.059] [INFO ]     │ Extraction:       trafilatura
+[12:43:13.059] [INFO ]     │ Has Article:      ✅ Yes
+[12:43:13.059] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:43:13.059] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:43:13.059] [INFO ] ║  📊 SESSION STATS
+[12:43:13.059] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:43:13.059] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:43:13.059] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:43:13.059] [INFO ] ║  └─ Proxy Used:         Direct
+[12:43:13.059] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:43:13.059] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 4.73s
+ENDED: 2026-01-28T12:43:13.059934+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

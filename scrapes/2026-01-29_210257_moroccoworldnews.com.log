@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.moroccoworldnews.com/2026/01/276365/egypt-to-lead-regional-charge-towards-ai-sovereignty-at-ai-everything-mea/
+Started: 2026-01-29 21:02:57
+Session ID: SCRAPE_20260129_210257_DCF7
+================================================================================
+[21:02:57.556] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_210257_moroccoworldnews.com.log
+[21:02:57.556] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[21:02:57.895] [INFO ] 
+[21:02:57.895] [INFO ]     🚀 BROWSER LAUNCHED
+[21:02:57.895] [INFO ]     ├─ Mode:       Headless
+[21:02:57.895] [INFO ]     ├─ Slow Mo:    50ms
+[21:02:57.895] [INFO ]     ├─ Launch Time: 0.06s
+[21:02:57.895] [INFO ]     └─ Args:       Anti-automation flags enabled
+[21:02:57.915] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-US, tz=UTC
+[21:02:57.915] [INFO ] 
+[21:02:57.915] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:02:57.915] [INFO ] ║  📋 SESSION: SCRAPE_20260129_210257_DCF7
+[21:02:57.915] [INFO ] ║  🌐 URL: https://www.moroccoworldnews.com/2026/01/276365/egypt-to-lead-regional-charge-towards-ai-sovereignty-at-ai-everything-mea/
+[21:02:57.915] [INFO ] ║  🔄 ATTEMPT: 1/2
+[21:02:57.915] [INFO ] ║  ⏰ STARTED: 2026-01-29T21:02:57.915513+02:00 (Egypt Time)
+[21:02:57.915] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:02:57.915] [INFO ] 
+[21:02:57.915] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[21:02:57.915] [INFO ]     │ Browser:     FIREFOX v120
+[21:02:57.915] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 13.6; rv:120.0) Gecko/20100101 ...
+[21:02:57.915] [INFO ]     │ Viewport:    2560x1440
+[21:02:57.915] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[21:02:57.915] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[21:02:57.915] [INFO ]     │ Location:    New York, USA
+[21:02:57.915] [INFO ]     │ Timezone:    N/A
+[21:02:57.915] [INFO ]     │ Locale:      en-US
+[21:02:57.915] [INFO ]     │ Geo:         0, 0
+[21:02:57.915] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[21:02:57.915] [INFO ]     │ Proxy:       Direct (no proxy)
+[21:02:57.915] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+moroccoworldnews+com
+[21:02:57.915] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:02:57.915] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:02:57.915] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[21:02:57.915] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:02:57.915] [INFO ] 
+[21:02:57.915] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[21:02:57.915] [INFO ]     ├─ Canvas fingerprint noise
+[21:02:57.915] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:02:57.915] [INFO ]     ├─ Hardware concurrency randomization
+[21:02:57.915] [INFO ]     ├─ Device memory randomization
+[21:02:57.915] [INFO ]     ├─ Plugin masking
+[21:02:57.915] [INFO ]     ├─ WebRTC IP leak protection
+[21:02:57.915] [INFO ]     ├─ Network connection spoof
+[21:02:57.915] [INFO ]     └─ Battery API spoof
+[21:02:57.957] [INFO ] 
+[21:02:57.957] [INFO ]     🥷 STEALTH MODE APPLIED
+[21:02:57.957] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[21:02:57.957] [INFO ]     ├─ Chrome runtime patches
+[21:02:57.957] [INFO ]     ├─ Console patches
+[21:02:57.957] [INFO ]     └─ Permission patches
+[21:02:57.958] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[21:02:57.958] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:02:57.958] [INFO ] 
+[21:02:57.958] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[21:02:57.958] [INFO ]     ├─ Canvas fingerprint noise
+[21:02:57.958] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:02:57.958] [INFO ]     ├─ Hardware concurrency randomization
+[21:02:57.958] [INFO ]     ├─ Device memory randomization
+[21:02:57.958] [INFO ]     ├─ Plugin masking
+[21:02:57.958] [INFO ]     ├─ WebRTC IP leak protection
+[21:02:57.958] [INFO ]     ├─ Network connection spoof
+[21:02:57.958] [INFO ]     └─ Battery API spoof
+[21:02:57.958] [DEBUG] Enabled resource blocking (images, media, fonts)
+[21:02:57.958] [INFO ] 
+[21:02:57.958] [INFO ]     🔗 NAVIGATING TO URL
+[21:02:57.958] [INFO ]     ├─ Strategy:   domcontentloaded
+[21:02:57.958] [INFO ]     ├─ Timeout:    15.0s
+[21:02:57.958] [INFO ]     └─ Sleep:      1s after load
+[21:03:00.663] [INFO ] 
+[21:03:00.663] [INFO ]     ✅ PAGE LOADED
+[21:03:00.663] [INFO ]     ├─ Final URL:  https://www.moroccoworldnews.com/2026/01/276365/egypt-to-lead-regional-charge-towards-ai-sovereignty-at-ai-everything-mea/
+[21:03:00.663] [INFO ]     ├─ Title:      Egypt to Lead Regional Charge Towards AI Sovereignty at Ai Everything MEA
+[21:03:00.663] [INFO ]     └─ Load Time:  2.71s
+[21:03:01.948] [INFO ] 🧑 Human behavior simulation...
+[21:03:07.170] [INFO ] 🖱️ Mouse: 3 moves in 2560x1440
+[21:03:07.170] [INFO ] 🖱️ Mouse completed: 3 moves
+[21:03:07.170] [INFO ] 📜 Scroll: page height, viewport=1440px
+[21:03:07.170] [INFO ] 📜 Scroll completed: 1 scrolls
+[21:03:07.170] [INFO ] 🧑 Human behavior completed in 5.2s ✓
+[21:03:07.170] [INFO ] 
+[21:03:07.170] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[21:03:07.170] [INFO ]     ├─ Mouse Movements: 3
+[21:03:07.170] [INFO ]     ├─ Scroll Actions:  1
+[21:03:07.170] [INFO ]     └─ Time Spent:      5.22s
+[21:03:07.362] [INFO ] 
+[21:03:07.362] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:03:07.362] [INFO ]     │ Title:            Egypt to Lead Regional Charge Towards AI Sovereign
+[21:03:07.362] [INFO ]     │ Final URL:        https://www.moroccoworldnews.com/2026/01/276365/egypt-to-lead-regional-charge-towards-ai-sovereignty-at-ai-everything-mea/
+[21:03:07.362] [INFO ]     │ HTML Size:        291,149 bytes
+[21:03:07.362] [INFO ]     │ Text Size:        4,292 chars
+[21:03:07.362] [INFO ]     │ Word Count:       ~611 words
+[21:03:07.362] [INFO ]     │ Extraction:       trafilatura
+[21:03:07.362] [INFO ]     │ Has Article:      ✅ Yes
+[21:03:07.362] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:03:07.394] [INFO ] 
+[21:03:07.394] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:03:07.394] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_210257_DCF7
+[21:03:07.394] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:03:07.394] [INFO ] 
+[21:03:07.394] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[21:03:07.394] [INFO ]     │ Browser Launch:      0.06s
+[21:03:07.394] [INFO ]     │ Page Load:           2.71s
+[21:03:07.394] [INFO ]     │ Cloudflare Wait:     0.00s
+[21:03:07.394] [INFO ]     │ Human Simulation:    5.22s
+[21:03:07.394] [INFO ]     │
+[21:03:07.394] [INFO ]     │ Content Extraction:  0.07s
+[21:03:07.395] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[21:03:07.395] [INFO ]     │ TOTAL TIME:          8.05s
+[21:03:07.395] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:03:07.395] [INFO ] 
+[21:03:07.395] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:03:07.395] [INFO ]     │ Title:            Egypt to Lead Regional Charge Towards AI Sovereign
+[21:03:07.395] [INFO ]     │ Final URL:        https://www.moroccoworldnews.com/2026/01/276365/egypt-to-lead-regional-charge-towards-ai-sovereignty-at-ai-everything-mea/
+[21:03:07.395] [INFO ]     │ HTML Size:        291,149 bytes
+[21:03:07.395] [INFO ]     │ Text Size:        4,292 chars
+[21:03:07.395] [INFO ]     │ Word Count:       ~611 words
+[21:03:07.395] [INFO ]     │ Extraction:       trafilatura
+[21:03:07.395] [INFO ]     │ Has Article:      ✅ Yes
+[21:03:07.395] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:03:07.395] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:03:07.395] [INFO ] ║  📊 SESSION STATS
+[21:03:07.395] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[21:03:07.395] [INFO ] ║  ├─ Popups Dismissed:   0
+[21:03:07.395] [INFO ] ║  ├─ Cloudflare:         Not detected
+[21:03:07.395] [INFO ] ║  └─ Proxy Used:         Direct
+[21:03:07.395] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:03:07.395] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 9.84s
+ENDED: 2026-01-29T21:03:07.395221+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

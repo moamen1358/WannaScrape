@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://chambers.com/articles/a-first-look-at-egypt-s-personal-data-protection-executive-regulations
+Started: 2026-01-30 00:34:32
+Session ID: SCRAPE_20260130_003432_3198
+================================================================================
+[00:34:32.111] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_003432_chambers.com.log
+[00:34:32.111] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[00:34:32.455] [INFO ] 
+[00:34:32.455] [INFO ]     🚀 BROWSER LAUNCHED
+[00:34:32.455] [INFO ]     ├─ Mode:       Headless
+[00:34:32.455] [INFO ]     ├─ Slow Mo:    55ms
+[00:34:32.455] [INFO ]     ├─ Launch Time: 0.06s
+[00:34:32.455] [INFO ]     └─ Args:       Anti-automation flags enabled
+[00:34:32.470] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-GB, tz=UTC
+[00:34:32.470] [INFO ] 
+[00:34:32.470] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:34:32.470] [INFO ] ║  📋 SESSION: SCRAPE_20260130_003432_3198
+[00:34:32.470] [INFO ] ║  🌐 URL: https://chambers.com/articles/a-first-look-at-egypt-s-personal-data-protection-executive-regulations
+[00:34:32.470] [INFO ] ║  🔄 ATTEMPT: 1/2
+[00:34:32.470] [INFO ] ║  ⏰ STARTED: 2026-01-30T00:34:32.470977+02:00 (Egypt Time)
+[00:34:32.470] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:34:32.470] [INFO ] 
+[00:34:32.471] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[00:34:32.471] [INFO ]     │ Browser:     CHROME v120
+[00:34:32.471] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[00:34:32.471] [INFO ]     │ Viewport:    1920x1080
+[00:34:32.471] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[00:34:32.471] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[00:34:32.471] [INFO ]     │ Location:    Birmingham, UK
+[00:34:32.471] [INFO ]     │ Timezone:    N/A
+[00:34:32.471] [INFO ]     │ Locale:      en-GB
+[00:34:32.471] [INFO ]     │ Geo:         0, 0
+[00:34:32.471] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[00:34:32.471] [INFO ]     │ Proxy:       Direct (no proxy)
+[00:34:32.471] [INFO ]     │ Referrer:    https://www.google.com/search?q=chambers+com
+[00:34:32.471] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:34:32.471] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:34:32.471] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[00:34:32.471] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:34:32.471] [INFO ] 
+[00:34:32.471] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[00:34:32.471] [INFO ]     ├─ Canvas fingerprint noise
+[00:34:32.471] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:34:32.471] [INFO ]     ├─ Hardware concurrency randomization
+[00:34:32.471] [INFO ]     ├─ Device memory randomization
+[00:34:32.471] [INFO ]     ├─ Plugin masking
+[00:34:32.471] [INFO ]     ├─ WebRTC IP leak protection
+[00:34:32.471] [INFO ]     ├─ Network connection spoof
+[00:34:32.471] [INFO ]     └─ Battery API spoof
+[00:34:32.514] [INFO ] 
+[00:34:32.514] [INFO ]     🥷 STEALTH MODE APPLIED
+[00:34:32.514] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[00:34:32.514] [INFO ]     ├─ Chrome runtime patches
+[00:34:32.514] [INFO ]     ├─ Console patches
+[00:34:32.514] [INFO ]     └─ Permission patches
+[00:34:32.514] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[00:34:32.514] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:34:32.514] [INFO ] 
+[00:34:32.514] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[00:34:32.514] [INFO ]     ├─ Canvas fingerprint noise
+[00:34:32.514] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:34:32.514] [INFO ]     ├─ Hardware concurrency randomization
+[00:34:32.514] [INFO ]     ├─ Device memory randomization
+[00:34:32.514] [INFO ]     ├─ Plugin masking
+[00:34:32.514] [INFO ]     ├─ WebRTC IP leak protection
+[00:34:32.514] [INFO ]     ├─ Network connection spoof
+[00:34:32.514] [INFO ]     └─ Battery API spoof
+[00:34:32.514] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:34:32.514] [INFO ] 
+[00:34:32.514] [INFO ]     🔗 NAVIGATING TO URL
+[00:34:32.514] [INFO ]     ├─ Strategy:   domcontentloaded
+[00:34:32.514] [INFO ]     ├─ Timeout:    15.0s
+[00:34:32.514] [INFO ]     └─ Sleep:      1s after load
+[00:34:34.142] [INFO ] 
+[00:34:34.142] [INFO ]     ✅ PAGE LOADED
+[00:34:34.142] [INFO ]     ├─ Final URL:  https://chambers.com/articles/a-first-look-at-egypt-s-personal-data-protection-executive-regulations
+[00:34:34.142] [INFO ]     ├─ Title:      A First Look at Egypt’s Personal Data Protection Executive Regulations | Article | Chambers and Partners
+[00:34:34.142] [INFO ]     └─ Load Time:  1.63s
+[00:34:36.134] [INFO ] 🧑 Human behavior simulation...
+[00:34:43.159] [INFO ] 🖱️ Mouse: 5 moves in 1920x1080
+[00:34:43.159] [INFO ] 🖱️ Mouse completed: 5 moves
+[00:34:43.159] [INFO ] 📜 Scroll: page height, viewport=1080px
+[00:34:43.159] [INFO ] 📜 Scroll completed: 3 scrolls
+[00:34:43.159] [INFO ] 🧑 Human behavior completed in 7.0s ✓
+[00:34:43.159] [INFO ] 
+[00:34:43.159] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[00:34:43.159] [INFO ]     ├─ Mouse Movements: 5
+[00:34:43.159] [INFO ]     ├─ Scroll Actions:  3
+[00:34:43.159] [INFO ]     └─ Time Spent:      7.02s
+[00:34:43.317] [INFO ] 
+[00:34:43.317] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[00:34:43.317] [INFO ]     │ Title:            A First Look at Egypt’s Personal Data Protection E
+[00:34:43.317] [INFO ]     │ Final URL:        https://chambers.com/articles/a-first-look-at-egypt-s-personal-data-protection-executive-regulations
+[00:34:43.317] [INFO ]     │ HTML Size:        298,931 bytes
+[00:34:43.317] [INFO ]     │ Text Size:        6,468 chars
+[00:34:43.317] [INFO ]     │ Word Count:       ~945 words
+[00:34:43.317] [INFO ]     │ Extraction:       trafilatura
+[00:34:43.317] [INFO ]     │ Has Article:      ✅ Yes
+[00:34:43.317] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:34:43.343] [INFO ] 
+[00:34:43.343] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:34:43.343] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260130_003432_3198
+[00:34:43.343] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:34:43.343] [INFO ] 
+[00:34:43.343] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[00:34:43.343] [INFO ]     │ Browser Launch:      0.06s
+[00:34:43.343] [INFO ]     │ Page Load:           1.63s
+[00:34:43.343] [INFO ]     │ Cloudflare Wait:     0.00s
+[00:34:43.343] [INFO ]     │ Human Simulation:    7.02s
+[00:34:43.343] [INFO ]     │
+[00:34:43.343] [INFO ]     │ Content Extraction:  0.09s
+[00:34:43.343] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[00:34:43.343] [INFO ]     │ TOTAL TIME:          8.80s
+[00:34:43.343] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:34:43.343] [INFO ] 
+[00:34:43.343] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[00:34:43.343] [INFO ]     │ Title:            A First Look at Egypt’s Personal Data Protection E
+[00:34:43.343] [INFO ]     │ Final URL:        https://chambers.com/articles/a-first-look-at-egypt-s-personal-data-protection-executive-regulations
+[00:34:43.343] [INFO ]     │ HTML Size:        298,931 bytes
+[00:34:43.343] [INFO ]     │ Text Size:        6,468 chars
+[00:34:43.343] [INFO ]     │ Word Count:       ~945 words
+[00:34:43.343] [INFO ]     │ Extraction:       trafilatura
+[00:34:43.343] [INFO ]     │ Has Article:      ✅ Yes
+[00:34:43.343] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:34:43.343] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:34:43.343] [INFO ] ║  📊 SESSION STATS
+[00:34:43.343] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[00:34:43.343] [INFO ] ║  ├─ Popups Dismissed:   0
+[00:34:43.343] [INFO ] ║  ├─ Cloudflare:         Not detected
+[00:34:43.343] [INFO ] ║  └─ Proxy Used:         Direct
+[00:34:43.343] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:34:43.343] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 11.23s
+ENDED: 2026-01-30T00:34:43.343851+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

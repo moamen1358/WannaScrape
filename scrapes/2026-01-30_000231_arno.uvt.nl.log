@@ -1,0 +1,205 @@
+================================================================================
+SCRAPE LOG: http://arno.uvt.nl/show.cgi?fid=162919
+Started: 2026-01-30 00:02:31
+Session ID: SCRAPE_20260130_000231_BD77
+================================================================================
+[00:02:31.611] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_000231_arno.uvt.nl.log
+[00:02:31.611] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[00:02:31.953] [INFO ] 
+[00:02:31.953] [INFO ]     🚀 BROWSER LAUNCHED
+[00:02:31.953] [INFO ]     ├─ Mode:       Headless
+[00:02:31.953] [INFO ]     ├─ Slow Mo:    50ms
+[00:02:31.953] [INFO ]     ├─ Launch Time: 0.05s
+[00:02:31.953] [INFO ]     └─ Args:       Anti-automation flags enabled
+[00:02:31.972] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-AU, tz=UTC
+[00:02:31.972] [INFO ] 
+[00:02:31.972] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:02:31.972] [INFO ] ║  📋 SESSION: SCRAPE_20260130_000231_BD77
+[00:02:31.972] [INFO ] ║  🌐 URL: http://arno.uvt.nl/show.cgi?fid=162919
+[00:02:31.972] [INFO ] ║  🔄 ATTEMPT: 1/2
+[00:02:31.972] [INFO ] ║  ⏰ STARTED: 2026-01-30T00:02:31.972938+02:00 (Egypt Time)
+[00:02:31.972] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:02:31.972] [INFO ] 
+[00:02:31.972] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[00:02:31.972] [INFO ]     │ Browser:     OPERA v106
+[00:02:31.972] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[00:02:31.972] [INFO ]     │ Viewport:    1680x1050
+[00:02:31.972] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[00:02:31.972] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[00:02:31.972] [INFO ]     │ Location:    Brisbane, Australia
+[00:02:31.972] [INFO ]     │ Timezone:    N/A
+[00:02:31.972] [INFO ]     │ Locale:      en-AU
+[00:02:31.972] [INFO ]     │ Geo:         0, 0
+[00:02:31.972] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[00:02:31.973] [INFO ]     │ Proxy:       Direct (no proxy)
+[00:02:31.973] [INFO ]     │ Referrer:    https://news.google.com/
+[00:02:31.973] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:02:31.973] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:02:31.973] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[00:02:31.973] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:02:31.973] [INFO ] 
+[00:02:31.973] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[00:02:31.973] [INFO ]     ├─ Canvas fingerprint noise
+[00:02:31.973] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:02:31.973] [INFO ]     ├─ Hardware concurrency randomization
+[00:02:31.973] [INFO ]     ├─ Device memory randomization
+[00:02:31.973] [INFO ]     ├─ Plugin masking
+[00:02:31.973] [INFO ]     ├─ WebRTC IP leak protection
+[00:02:31.973] [INFO ]     ├─ Network connection spoof
+[00:02:31.973] [INFO ]     └─ Battery API spoof
+[00:02:32.016] [INFO ] 
+[00:02:32.016] [INFO ]     🥷 STEALTH MODE APPLIED
+[00:02:32.017] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[00:02:32.017] [INFO ]     ├─ Chrome runtime patches
+[00:02:32.017] [INFO ]     ├─ Console patches
+[00:02:32.017] [INFO ]     └─ Permission patches
+[00:02:32.017] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[00:02:32.017] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:02:32.017] [INFO ] 
+[00:02:32.017] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[00:02:32.017] [INFO ]     ├─ Canvas fingerprint noise
+[00:02:32.017] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:02:32.017] [INFO ]     ├─ Hardware concurrency randomization
+[00:02:32.017] [INFO ]     ├─ Device memory randomization
+[00:02:32.017] [INFO ]     ├─ Plugin masking
+[00:02:32.017] [INFO ]     ├─ WebRTC IP leak protection
+[00:02:32.017] [INFO ]     ├─ Network connection spoof
+[00:02:32.017] [INFO ]     └─ Battery API spoof
+[00:02:32.017] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:02:32.017] [INFO ] 
+[00:02:32.017] [INFO ]     🔗 NAVIGATING TO URL
+[00:02:32.017] [INFO ]     ├─ Strategy:   domcontentloaded
+[00:02:32.017] [INFO ]     ├─ Timeout:    15.0s
+[00:02:32.017] [INFO ]     └─ Sleep:      1s after load
+[00:02:32.953] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:02:32.953] [INFO ] 
+[00:02:32.953] [INFO ]     🔗 NAVIGATING TO URL
+[00:02:32.953] [INFO ]     ├─ Strategy:   load
+[00:02:32.953] [INFO ]     ├─ Timeout:    20.0s
+[00:02:32.953] [INFO ]     └─ Sleep:      1s after load
+[00:02:33.331] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:02:33.331] [INFO ] 
+[00:02:33.331] [INFO ]     🔗 NAVIGATING TO URL
+[00:02:33.331] [INFO ]     ├─ Strategy:   networkidle
+[00:02:33.331] [INFO ]     ├─ Timeout:    25.0s
+[00:02:33.331] [INFO ]     └─ Sleep:      1s after load
+[00:02:39.254] [INFO ] 
+[00:02:39.254] [INFO ]     🚀 BROWSER LAUNCHED
+[00:02:39.254] [INFO ]     ├─ Mode:       Headless
+[00:02:39.254] [INFO ]     ├─ Slow Mo:    54ms
+[00:02:39.254] [INFO ]     ├─ Launch Time: 0.06s
+[00:02:39.254] [INFO ]     └─ Args:       Anti-automation flags enabled
+[00:02:39.271] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-US, tz=UTC
+[00:02:39.271] [INFO ] 
+[00:02:39.271] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:02:39.271] [INFO ] ║  📋 SESSION: SCRAPE_20260130_000231_BD77
+[00:02:39.271] [INFO ] ║  🌐 URL: http://arno.uvt.nl/show.cgi?fid=162919
+[00:02:39.271] [INFO ] ║  🔄 ATTEMPT: 2/2
+[00:02:39.271] [INFO ] ║  ⏰ STARTED: 2026-01-30T00:02:39.271419+02:00 (Egypt Time)
+[00:02:39.271] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:02:39.271] [INFO ] 
+[00:02:39.271] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[00:02:39.271] [INFO ]     │ Browser:     FIREFOX v121
+[00:02:39.271] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101...
+[00:02:39.271] [INFO ]     │ Viewport:    1920x1080
+[00:02:39.271] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[00:02:39.271] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[00:02:39.271] [INFO ]     │ Location:    Phoenix, USA
+[00:02:39.271] [INFO ]     │ Timezone:    N/A
+[00:02:39.271] [INFO ]     │ Locale:      en-US
+[00:02:39.271] [INFO ]     │ Geo:         0, 0
+[00:02:39.271] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[00:02:39.271] [INFO ]     │ Proxy:       Direct (no proxy)
+[00:02:39.271] [INFO ]     │ Referrer:    https://news.google.com/
+[00:02:39.271] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:02:39.271] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:02:39.271] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[00:02:39.271] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:02:39.271] [INFO ] 
+[00:02:39.271] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[00:02:39.271] [INFO ]     ├─ Canvas fingerprint noise
+[00:02:39.271] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:02:39.271] [INFO ]     ├─ Hardware concurrency randomization
+[00:02:39.271] [INFO ]     ├─ Device memory randomization
+[00:02:39.271] [INFO ]     ├─ Plugin masking
+[00:02:39.271] [INFO ]     ├─ WebRTC IP leak protection
+[00:02:39.271] [INFO ]     ├─ Network connection spoof
+[00:02:39.271] [INFO ]     └─ Battery API spoof
+[00:02:39.314] [INFO ] 
+[00:02:39.314] [INFO ]     🥷 STEALTH MODE APPLIED
+[00:02:39.314] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[00:02:39.314] [INFO ]     ├─ Chrome runtime patches
+[00:02:39.314] [INFO ]     ├─ Console patches
+[00:02:39.314] [INFO ]     └─ Permission patches
+[00:02:39.314] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[00:02:39.314] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:02:39.314] [INFO ] 
+[00:02:39.314] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[00:02:39.314] [INFO ]     ├─ Canvas fingerprint noise
+[00:02:39.314] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:02:39.314] [INFO ]     ├─ Hardware concurrency randomization
+[00:02:39.314] [INFO ]     ├─ Device memory randomization
+[00:02:39.314] [INFO ]     ├─ Plugin masking
+[00:02:39.314] [INFO ]     ├─ WebRTC IP leak protection
+[00:02:39.314] [INFO ]     ├─ Network connection spoof
+[00:02:39.314] [INFO ]     └─ Battery API spoof
+[00:02:39.314] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:02:39.314] [INFO ] 
+[00:02:39.314] [INFO ]     🔗 NAVIGATING TO URL
+[00:02:39.314] [INFO ]     ├─ Strategy:   domcontentloaded
+[00:02:39.314] [INFO ]     ├─ Timeout:    15.0s
+[00:02:39.314] [INFO ]     └─ Sleep:      1s after load
+[00:02:39.719] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:02:39.719] [INFO ] 
+[00:02:39.719] [INFO ]     🔗 NAVIGATING TO URL
+[00:02:39.719] [INFO ]     ├─ Strategy:   load
+[00:02:39.719] [INFO ]     ├─ Timeout:    20.0s
+[00:02:39.719] [INFO ]     └─ Sleep:      1s after load
+[00:02:40.105] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:02:40.105] [INFO ] 
+[00:02:40.105] [INFO ]     🔗 NAVIGATING TO URL
+[00:02:40.105] [INFO ]     ├─ Strategy:   networkidle
+[00:02:40.105] [INFO ]     ├─ Timeout:    25.0s
+[00:02:40.105] [INFO ]     └─ Sleep:      1s after load
+[00:02:40.547] [INFO ] 
+[00:02:40.547] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:02:40.547] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260130_000231_BD77
+[00:02:40.547] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:02:40.547] [INFO ] 
+[00:02:40.547] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[00:02:40.547] [INFO ]     │ URL:              http://arno.uvt.nl/show.cgi?fid=162919
+[00:02:40.547] [INFO ]     │ Error Type:       network
+[00:02:40.547] [INFO ]     │ Likely Ban:       ❌ No
+[00:02:40.547] [INFO ]     │ Retries Used:     2
+[00:02:40.547] [INFO ]     │
+[00:02:40.547] [INFO ]     │ Error Message:
+[00:02:40.547] [INFO ]     │   Failed after 2 attempts. Last error: Page.goto: Download
+[00:02:40.547] [INFO ]     │    is starting
+Call log:
+  - navigating to "http://arno.uv
+[00:02:40.547] [INFO ]     │   t.nl/show.cgi?fid=162919", waiting until "networkidle"
+
+[00:02:40.547] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:02:40.547] [INFO ] 
+[00:02:40.547] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[00:02:40.547] [INFO ]     │ Browser Launch:     0.06s
+[00:02:40.547] [INFO ]     │ Page Load:          0.00s
+[00:02:40.547] [INFO ]     │ Cloudflare Wait:    0.00s
+[00:02:40.547] [INFO ]     │ Human Simulation:   0.00s
+[00:02:40.547] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[00:02:40.547] [INFO ]     │ FAILED AT:          0.06s
+[00:02:40.547] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:02:40.547] [INFO ] 
+[00:02:40.547] [INFO ]     ┌─ RECOMMENDATION ─────────────────────────────────────────────┐
+[00:02:40.547] [INFO ]     │ 💡 Network connection issue
+[00:02:40.547] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:02:40.547] [INFO ] 
+[00:02:40.547] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:02:40.547] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 8.94s
+ENDED: 2026-01-30T00:02:40.547439+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

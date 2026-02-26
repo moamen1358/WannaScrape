@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.chubb.com/us-en/individuals-families/products/cyber.html
+Started: 2026-01-30 01:04:02
+Session ID: SCRAPE_20260130_010402_96FD
+================================================================================
+[01:04:02.924] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_010402_chubb.com.log
+[01:04:02.924] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[01:04:03.269] [INFO ] 
+[01:04:03.269] [INFO ]     🚀 BROWSER LAUNCHED
+[01:04:03.269] [INFO ]     ├─ Mode:       Headless
+[01:04:03.269] [INFO ]     ├─ Slow Mo:    59ms
+[01:04:03.269] [INFO ]     ├─ Launch Time: 0.06s
+[01:04:03.269] [INFO ]     └─ Args:       Anti-automation flags enabled
+[01:04:03.289] [DEBUG] Browser profile: viewport={'width': 1280, 'height': 720}, locale=en-AU, tz=UTC
+[01:04:03.289] [INFO ] 
+[01:04:03.289] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:04:03.289] [INFO ] ║  📋 SESSION: SCRAPE_20260130_010402_96FD
+[01:04:03.289] [INFO ] ║  🌐 URL: https://www.chubb.com/us-en/individuals-families/products/cyber.html
+[01:04:03.289] [INFO ] ║  🔄 ATTEMPT: 1/2
+[01:04:03.289] [INFO ] ║  ⏰ STARTED: 2026-01-30T01:04:03.289898+02:00 (Egypt Time)
+[01:04:03.289] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:04:03.289] [INFO ] 
+[01:04:03.289] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[01:04:03.289] [INFO ]     │ Browser:     CHROME v121
+[01:04:03.289] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[01:04:03.289] [INFO ]     │ Viewport:    1280x720
+[01:04:03.289] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[01:04:03.289] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[01:04:03.289] [INFO ]     │ Location:    Sydney, Australia
+[01:04:03.289] [INFO ]     │ Timezone:    N/A
+[01:04:03.289] [INFO ]     │ Locale:      en-AU
+[01:04:03.289] [INFO ]     │ Geo:         0, 0
+[01:04:03.289] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[01:04:03.289] [INFO ]     │ Proxy:       Direct (no proxy)
+[01:04:03.289] [INFO ]     │ Referrer:    https://news.google.com/
+[01:04:03.289] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:04:03.289] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:04:03.289] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[01:04:03.289] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:04:03.290] [INFO ] 
+[01:04:03.290] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[01:04:03.290] [INFO ]     ├─ Canvas fingerprint noise
+[01:04:03.290] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:04:03.290] [INFO ]     ├─ Hardware concurrency randomization
+[01:04:03.290] [INFO ]     ├─ Device memory randomization
+[01:04:03.290] [INFO ]     ├─ Plugin masking
+[01:04:03.290] [INFO ]     ├─ WebRTC IP leak protection
+[01:04:03.290] [INFO ]     ├─ Network connection spoof
+[01:04:03.290] [INFO ]     └─ Battery API spoof
+[01:04:03.331] [INFO ] 
+[01:04:03.331] [INFO ]     🥷 STEALTH MODE APPLIED
+[01:04:03.331] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[01:04:03.331] [INFO ]     ├─ Chrome runtime patches
+[01:04:03.331] [INFO ]     ├─ Console patches
+[01:04:03.331] [INFO ]     └─ Permission patches
+[01:04:03.331] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[01:04:03.331] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:04:03.331] [INFO ] 
+[01:04:03.331] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[01:04:03.331] [INFO ]     ├─ Canvas fingerprint noise
+[01:04:03.331] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:04:03.331] [INFO ]     ├─ Hardware concurrency randomization
+[01:04:03.331] [INFO ]     ├─ Device memory randomization
+[01:04:03.331] [INFO ]     ├─ Plugin masking
+[01:04:03.331] [INFO ]     ├─ WebRTC IP leak protection
+[01:04:03.331] [INFO ]     ├─ Network connection spoof
+[01:04:03.331] [INFO ]     └─ Battery API spoof
+[01:04:03.331] [DEBUG] Enabled resource blocking (images, media, fonts)
+[01:04:03.331] [INFO ] 
+[01:04:03.331] [INFO ]     🔗 NAVIGATING TO URL
+[01:04:03.331] [INFO ]     ├─ Strategy:   domcontentloaded
+[01:04:03.331] [INFO ]     ├─ Timeout:    15.0s
+[01:04:03.331] [INFO ]     └─ Sleep:      1s after load
+[01:04:05.686] [INFO ] 
+[01:04:05.686] [INFO ]     ✅ PAGE LOADED
+[01:04:05.686] [INFO ]     ├─ Final URL:  https://www.chubb.com/us-en/individuals-families/products/cyber.html
+[01:04:05.686] [INFO ]     ├─ Title:      Cyber Insurance & Protection | Chubb
+[01:04:05.686] [INFO ]     └─ Load Time:  2.35s
+[01:04:07.188] [INFO ] 🧑 Human behavior simulation...
+[01:04:12.289] [INFO ] 🖱️ Mouse: 2 moves in 1280x720
+[01:04:12.289] [INFO ] 🖱️ Mouse completed: 2 moves
+[01:04:12.289] [INFO ] 📜 Scroll: page height, viewport=720px
+[01:04:12.289] [INFO ] 📜 Scroll completed: 3 scrolls
+[01:04:12.289] [INFO ] 🧑 Human behavior completed in 5.1s ✓
+[01:04:12.289] [INFO ] 
+[01:04:12.289] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[01:04:12.289] [INFO ]     ├─ Mouse Movements: 2
+[01:04:12.289] [INFO ]     ├─ Scroll Actions:  3
+[01:04:12.289] [INFO ]     └─ Time Spent:      5.10s
+[01:04:12.730] [INFO ] 
+[01:04:12.730] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[01:04:12.730] [INFO ]     │ Title:            Cyber Insurance & Protection | Chubb
+[01:04:12.730] [INFO ]     │ Final URL:        https://www.chubb.com/us-en/individuals-families/products/cyber.html
+[01:04:12.730] [INFO ]     │ HTML Size:        333,160 bytes
+[01:04:12.730] [INFO ]     │ Text Size:        4,937 chars
+[01:04:12.730] [INFO ]     │ Word Count:       ~804 words
+[01:04:12.730] [INFO ]     │ Extraction:       trafilatura
+[01:04:12.730] [INFO ]     │ Has Article:      ✅ Yes
+[01:04:12.730] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:04:12.753] [INFO ] 
+[01:04:12.753] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:04:12.753] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260130_010402_96FD
+[01:04:12.753] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:04:12.753] [INFO ] 
+[01:04:12.753] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[01:04:12.753] [INFO ]     │ Browser Launch:      0.06s
+[01:04:12.754] [INFO ]     │ Page Load:           2.35s
+[01:04:12.754] [INFO ]     │ Cloudflare Wait:     0.00s
+[01:04:12.754] [INFO ]     │ Human Simulation:    5.10s
+[01:04:12.754] [INFO ]     │
+[01:04:12.754] [INFO ]     │ Content Extraction:  0.31s
+[01:04:12.754] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[01:04:12.754] [INFO ]     │ TOTAL TIME:          7.82s
+[01:04:12.754] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:04:12.754] [INFO ] 
+[01:04:12.754] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[01:04:12.754] [INFO ]     │ Title:            Cyber Insurance & Protection | Chubb
+[01:04:12.754] [INFO ]     │ Final URL:        https://www.chubb.com/us-en/individuals-families/products/cyber.html
+[01:04:12.754] [INFO ]     │ HTML Size:        333,160 bytes
+[01:04:12.754] [INFO ]     │ Text Size:        4,937 chars
+[01:04:12.754] [INFO ]     │ Word Count:       ~804 words
+[01:04:12.754] [INFO ]     │ Extraction:       trafilatura
+[01:04:12.754] [INFO ]     │ Has Article:      ✅ Yes
+[01:04:12.754] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:04:12.754] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:04:12.754] [INFO ] ║  📊 SESSION STATS
+[01:04:12.754] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[01:04:12.754] [INFO ] ║  ├─ Popups Dismissed:   0
+[01:04:12.754] [INFO ] ║  ├─ Cloudflare:         Not detected
+[01:04:12.754] [INFO ] ║  └─ Proxy Used:         Direct
+[01:04:12.754] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:04:12.754] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 9.83s
+ENDED: 2026-01-30T01:04:12.754223+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

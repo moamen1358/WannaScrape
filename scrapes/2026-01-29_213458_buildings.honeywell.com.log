@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://buildings.honeywell.com/pl/en/brands/our-brands/security/solutions/cybersecurity/network-information-security-directive-2-nis2
+Started: 2026-01-29 21:34:58
+Session ID: SCRAPE_20260129_213458_E56B
+================================================================================
+[21:34:58.248] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_213458_buildings.honeywell.com.log
+[21:34:58.248] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[21:34:58.597] [INFO ] 
+[21:34:58.597] [INFO ]     🚀 BROWSER LAUNCHED
+[21:34:58.597] [INFO ]     ├─ Mode:       Headless
+[21:34:58.597] [INFO ]     ├─ Slow Mo:    49ms
+[21:34:58.597] [INFO ]     ├─ Launch Time: 0.06s
+[21:34:58.597] [INFO ]     └─ Args:       Anti-automation flags enabled
+[21:34:58.614] [DEBUG] Browser profile: viewport={'width': 1536, 'height': 864}, locale=en-AU, tz=UTC
+[21:34:58.614] [INFO ] 
+[21:34:58.614] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:34:58.614] [INFO ] ║  📋 SESSION: SCRAPE_20260129_213458_E56B
+[21:34:58.614] [INFO ] ║  🌐 URL: https://buildings.honeywell.com/pl/en/brands/our-brands/security/solutions/cybersecurity/network-information-security-directive-2-nis2
+[21:34:58.614] [INFO ] ║  🔄 ATTEMPT: 1/2
+[21:34:58.615] [INFO ] ║  ⏰ STARTED: 2026-01-29T21:34:58.615003+02:00 (Egypt Time)
+[21:34:58.615] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:34:58.615] [INFO ] 
+[21:34:58.615] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[21:34:58.615] [INFO ]     │ Browser:     CHROME v121
+[21:34:58.615] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[21:34:58.615] [INFO ]     │ Viewport:    1536x864
+[21:34:58.615] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[21:34:58.615] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[21:34:58.615] [INFO ]     │ Location:    Sydney, Australia
+[21:34:58.615] [INFO ]     │ Timezone:    N/A
+[21:34:58.615] [INFO ]     │ Locale:      en-AU
+[21:34:58.615] [INFO ]     │ Geo:         0, 0
+[21:34:58.615] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[21:34:58.615] [INFO ]     │ Proxy:       Direct (no proxy)
+[21:34:58.615] [INFO ]     │ Referrer:    https://www.google.com/
+[21:34:58.615] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:34:58.615] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:34:58.615] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[21:34:58.615] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:34:58.615] [INFO ] 
+[21:34:58.615] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[21:34:58.615] [INFO ]     ├─ Canvas fingerprint noise
+[21:34:58.615] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:34:58.615] [INFO ]     ├─ Hardware concurrency randomization
+[21:34:58.615] [INFO ]     ├─ Device memory randomization
+[21:34:58.615] [INFO ]     ├─ Plugin masking
+[21:34:58.615] [INFO ]     ├─ WebRTC IP leak protection
+[21:34:58.615] [INFO ]     ├─ Network connection spoof
+[21:34:58.615] [INFO ]     └─ Battery API spoof
+[21:34:58.659] [INFO ] 
+[21:34:58.659] [INFO ]     🥷 STEALTH MODE APPLIED
+[21:34:58.659] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[21:34:58.659] [INFO ]     ├─ Chrome runtime patches
+[21:34:58.659] [INFO ]     ├─ Console patches
+[21:34:58.659] [INFO ]     └─ Permission patches
+[21:34:58.659] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[21:34:58.659] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:34:58.659] [INFO ] 
+[21:34:58.659] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[21:34:58.659] [INFO ]     ├─ Canvas fingerprint noise
+[21:34:58.659] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:34:58.659] [INFO ]     ├─ Hardware concurrency randomization
+[21:34:58.659] [INFO ]     ├─ Device memory randomization
+[21:34:58.659] [INFO ]     ├─ Plugin masking
+[21:34:58.659] [INFO ]     ├─ WebRTC IP leak protection
+[21:34:58.659] [INFO ]     ├─ Network connection spoof
+[21:34:58.659] [INFO ]     └─ Battery API spoof
+[21:34:58.659] [DEBUG] Enabled resource blocking (images, media, fonts)
+[21:34:58.659] [INFO ] 
+[21:34:58.659] [INFO ]     🔗 NAVIGATING TO URL
+[21:34:58.659] [INFO ]     ├─ Strategy:   domcontentloaded
+[21:34:58.659] [INFO ]     ├─ Timeout:    15.0s
+[21:34:58.659] [INFO ]     └─ Sleep:      1s after load
+[21:35:01.444] [INFO ] 
+[21:35:01.444] [INFO ]     ✅ PAGE LOADED
+[21:35:01.444] [INFO ]     ├─ Final URL:  https://buildings.honeywell.com/pl/en/brands/our-brands/security/solutions/cybersecurity/network-information-security-directive-2-nis2
+[21:35:01.444] [INFO ]     ├─ Title:      Network and Information Security Directive 2 (NIS2)
+[21:35:01.444] [INFO ]     └─ Load Time:  2.79s
+[21:35:02.813] [INFO ] 🧑 Human behavior simulation...
+[21:35:07.727] [INFO ] 🖱️ Mouse: 3 moves in 1536x864
+[21:35:07.727] [INFO ] 🖱️ Mouse completed: 3 moves
+[21:35:07.727] [INFO ] 📜 Scroll: page height, viewport=864px
+[21:35:07.727] [INFO ] 📜 Scroll completed: 1 scrolls
+[21:35:07.727] [INFO ] 🧑 Human behavior completed in 4.9s ✓
+[21:35:07.727] [INFO ] 
+[21:35:07.727] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[21:35:07.727] [INFO ]     ├─ Mouse Movements: 3
+[21:35:07.727] [INFO ]     ├─ Scroll Actions:  1
+[21:35:07.727] [INFO ]     └─ Time Spent:      4.91s
+[21:35:08.252] [INFO ] 
+[21:35:08.252] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:35:08.252] [INFO ]     │ Title:            Network and Information Security Directive 2 (NIS2
+[21:35:08.252] [INFO ]     │ Final URL:        https://buildings.honeywell.com/pl/en/brands/our-brands/security/solutions/cybersecurity/network-information-security-directive-2-nis2
+[21:35:08.252] [INFO ]     │ HTML Size:        304,987 bytes
+[21:35:08.252] [INFO ]     │ Text Size:        7,419 chars
+[21:35:08.252] [INFO ]     │ Word Count:       ~1039 words
+[21:35:08.252] [INFO ]     │ Extraction:       trafilatura
+[21:35:08.252] [INFO ]     │ Has Article:      ✅ Yes
+[21:35:08.252] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:35:08.289] [INFO ] 
+[21:35:08.289] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:35:08.289] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_213458_E56B
+[21:35:08.289] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:35:08.289] [INFO ] 
+[21:35:08.289] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[21:35:08.289] [INFO ]     │ Browser Launch:      0.06s
+[21:35:08.289] [INFO ]     │ Page Load:           2.79s
+[21:35:08.289] [INFO ]     │ Cloudflare Wait:     0.00s
+[21:35:08.289] [INFO ]     │ Human Simulation:    4.91s
+[21:35:08.289] [INFO ]     │
+[21:35:08.289] [INFO ]     │ Content Extraction:  0.37s
+[21:35:08.289] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[21:35:08.289] [INFO ]     │ TOTAL TIME:          8.13s
+[21:35:08.289] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:35:08.289] [INFO ] 
+[21:35:08.289] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:35:08.289] [INFO ]     │ Title:            Network and Information Security Directive 2 (NIS2
+[21:35:08.289] [INFO ]     │ Final URL:        https://buildings.honeywell.com/pl/en/brands/our-brands/security/solutions/cybersecurity/network-information-security-directive-2-nis2
+[21:35:08.289] [INFO ]     │ HTML Size:        304,987 bytes
+[21:35:08.289] [INFO ]     │ Text Size:        7,419 chars
+[21:35:08.289] [INFO ]     │ Word Count:       ~1039 words
+[21:35:08.289] [INFO ]     │ Extraction:       trafilatura
+[21:35:08.289] [INFO ]     │ Has Article:      ✅ Yes
+[21:35:08.289] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:35:08.289] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:35:08.289] [INFO ] ║  📊 SESSION STATS
+[21:35:08.289] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[21:35:08.289] [INFO ] ║  ├─ Popups Dismissed:   0
+[21:35:08.289] [INFO ] ║  ├─ Cloudflare:         Not detected
+[21:35:08.289] [INFO ] ║  └─ Proxy Used:         Direct
+[21:35:08.289] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:35:08.289] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.04s
+ENDED: 2026-01-29T21:35:08.289653+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

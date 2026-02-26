@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.cbe.org.eg/en/cybersecurity
+Started: 2026-01-29 17:36:22
+Session ID: SCRAPE_20260129_173622_DD81
+================================================================================
+[17:36:22.131] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_173622_cbe.org.eg.log
+[17:36:22.131] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[17:36:22.479] [INFO ] 
+[17:36:22.479] [INFO ]     🚀 BROWSER LAUNCHED
+[17:36:22.479] [INFO ]     ├─ Mode:       Headless
+[17:36:22.479] [INFO ]     ├─ Slow Mo:    40ms
+[17:36:22.479] [INFO ]     ├─ Launch Time: 0.06s
+[17:36:22.479] [INFO ]     └─ Args:       Anti-automation flags enabled
+[17:36:22.501] [DEBUG] Browser profile: viewport={'width': 1280, 'height': 720}, locale=en-US, tz=UTC
+[17:36:22.501] [INFO ] 
+[17:36:22.501] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:36:22.501] [INFO ] ║  📋 SESSION: SCRAPE_20260129_173622_DD81
+[17:36:22.501] [INFO ] ║  🌐 URL: https://www.cbe.org.eg/en/cybersecurity
+[17:36:22.501] [INFO ] ║  🔄 ATTEMPT: 1/2
+[17:36:22.501] [INFO ] ║  ⏰ STARTED: 2026-01-29T17:36:22.501194+02:00 (Egypt Time)
+[17:36:22.501] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:36:22.501] [INFO ] 
+[17:36:22.501] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[17:36:22.501] [INFO ]     │ Browser:     OPERA v105
+[17:36:22.501] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[17:36:22.501] [INFO ]     │ Viewport:    1280x720
+[17:36:22.501] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[17:36:22.501] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[17:36:22.501] [INFO ]     │ Location:    New York, USA
+[17:36:22.501] [INFO ]     │ Timezone:    N/A
+[17:36:22.501] [INFO ]     │ Locale:      en-US
+[17:36:22.501] [INFO ]     │ Geo:         0, 0
+[17:36:22.501] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[17:36:22.501] [INFO ]     │ Proxy:       Direct (no proxy)
+[17:36:22.501] [INFO ]     │ Referrer:    https://www.google.com/
+[17:36:22.501] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:36:22.501] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:36:22.501] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[17:36:22.501] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:36:22.501] [INFO ] 
+[17:36:22.501] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[17:36:22.501] [INFO ]     ├─ Canvas fingerprint noise
+[17:36:22.501] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:36:22.501] [INFO ]     ├─ Hardware concurrency randomization
+[17:36:22.501] [INFO ]     ├─ Device memory randomization
+[17:36:22.501] [INFO ]     ├─ Plugin masking
+[17:36:22.501] [INFO ]     ├─ WebRTC IP leak protection
+[17:36:22.501] [INFO ]     ├─ Network connection spoof
+[17:36:22.501] [INFO ]     └─ Battery API spoof
+[17:36:22.543] [INFO ] 
+[17:36:22.543] [INFO ]     🥷 STEALTH MODE APPLIED
+[17:36:22.543] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[17:36:22.543] [INFO ]     ├─ Chrome runtime patches
+[17:36:22.543] [INFO ]     ├─ Console patches
+[17:36:22.543] [INFO ]     └─ Permission patches
+[17:36:22.543] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[17:36:22.543] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:36:22.543] [INFO ] 
+[17:36:22.543] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[17:36:22.543] [INFO ]     ├─ Canvas fingerprint noise
+[17:36:22.543] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:36:22.543] [INFO ]     ├─ Hardware concurrency randomization
+[17:36:22.543] [INFO ]     ├─ Device memory randomization
+[17:36:22.543] [INFO ]     ├─ Plugin masking
+[17:36:22.543] [INFO ]     ├─ WebRTC IP leak protection
+[17:36:22.543] [INFO ]     ├─ Network connection spoof
+[17:36:22.543] [INFO ]     └─ Battery API spoof
+[17:36:22.543] [DEBUG] Enabled resource blocking (images, media, fonts)
+[17:36:22.543] [INFO ] 
+[17:36:22.543] [INFO ]     🔗 NAVIGATING TO URL
+[17:36:22.543] [INFO ]     ├─ Strategy:   domcontentloaded
+[17:36:22.543] [INFO ]     ├─ Timeout:    15.0s
+[17:36:22.543] [INFO ]     └─ Sleep:      1s after load
+[17:36:25.021] [INFO ] 
+[17:36:25.021] [INFO ]     ✅ PAGE LOADED
+[17:36:25.021] [INFO ]     ├─ Final URL:  https://www.cbe.org.eg/en/cybersecurity
+[17:36:25.021] [INFO ]     ├─ Title:      Cybersecurity
+[17:36:25.021] [INFO ]     └─ Load Time:  2.48s
+[17:36:26.243] [INFO ] 🧑 Human behavior simulation...
+[17:36:27.775] [INFO ] 🖱️ Mouse: 1 moves in 1280x720
+[17:36:27.775] [INFO ] 🖱️ Mouse completed: 1 moves
+[17:36:27.775] [INFO ] 📜 Scroll: page height, viewport=720px
+[17:36:27.775] [INFO ] 📜 Scroll completed: 1 scrolls
+[17:36:27.775] [INFO ] 🧑 Human behavior completed in 1.5s ✓
+[17:36:27.775] [INFO ] 
+[17:36:27.775] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[17:36:27.775] [INFO ]     ├─ Mouse Movements: 1
+[17:36:27.775] [INFO ]     ├─ Scroll Actions:  1
+[17:36:27.775] [INFO ]     └─ Time Spent:      1.53s
+[17:36:27.892] [INFO ] 
+[17:36:27.892] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[17:36:27.892] [INFO ]     │ Title:            Cybersecurity
+[17:36:27.892] [INFO ]     │ Final URL:        https://www.cbe.org.eg/en/cybersecurity
+[17:36:27.892] [INFO ]     │ HTML Size:        214,537 bytes
+[17:36:27.892] [INFO ]     │ Text Size:        3,138 chars
+[17:36:27.892] [INFO ]     │ Word Count:       ~440 words
+[17:36:27.892] [INFO ]     │ Extraction:       trafilatura
+[17:36:27.892] [INFO ]     │ Has Article:      ✅ Yes
+[17:36:27.892] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:36:27.916] [INFO ] 
+[17:36:27.916] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:36:27.916] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_173622_DD81
+[17:36:27.916] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:36:27.916] [INFO ] 
+[17:36:27.916] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[17:36:27.916] [INFO ]     │ Browser Launch:      0.06s
+[17:36:27.916] [INFO ]     │ Page Load:           2.48s
+[17:36:27.916] [INFO ]     │ Cloudflare Wait:     0.00s
+[17:36:27.916] [INFO ]     │ Human Simulation:    1.53s
+[17:36:27.916] [INFO ]     │
+[17:36:27.916] [INFO ]     │ Content Extraction:  0.07s
+[17:36:27.916] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[17:36:27.916] [INFO ]     │ TOTAL TIME:          4.14s
+[17:36:27.916] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:36:27.916] [INFO ] 
+[17:36:27.916] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[17:36:27.916] [INFO ]     │ Title:            Cybersecurity
+[17:36:27.916] [INFO ]     │ Final URL:        https://www.cbe.org.eg/en/cybersecurity
+[17:36:27.916] [INFO ]     │ HTML Size:        214,537 bytes
+[17:36:27.916] [INFO ]     │ Text Size:        3,138 chars
+[17:36:27.916] [INFO ]     │ Word Count:       ~440 words
+[17:36:27.916] [INFO ]     │ Extraction:       trafilatura
+[17:36:27.916] [INFO ]     │ Has Article:      ✅ Yes
+[17:36:27.916] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:36:27.916] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:36:27.916] [INFO ] ║  📊 SESSION STATS
+[17:36:27.916] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[17:36:27.916] [INFO ] ║  ├─ Popups Dismissed:   0
+[17:36:27.916] [INFO ] ║  ├─ Cloudflare:         Not detected
+[17:36:27.916] [INFO ] ║  └─ Proxy Used:         Direct
+[17:36:27.916] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:36:27.916] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 5.78s
+ENDED: 2026-01-29T17:36:27.916236+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

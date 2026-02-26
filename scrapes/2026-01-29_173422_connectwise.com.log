@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.connectwise.com/cybersecurity-center/glossary/nist-cybersecurity-framework
+Started: 2026-01-29 17:34:22
+Session ID: SCRAPE_20260129_173422_1243
+================================================================================
+[17:34:22.128] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_173422_connectwise.com.log
+[17:34:22.128] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[17:34:22.471] [INFO ] 
+[17:34:22.471] [INFO ]     🚀 BROWSER LAUNCHED
+[17:34:22.471] [INFO ]     ├─ Mode:       Headless
+[17:34:22.471] [INFO ]     ├─ Slow Mo:    55ms
+[17:34:22.471] [INFO ]     ├─ Launch Time: 0.06s
+[17:34:22.471] [INFO ]     └─ Args:       Anti-automation flags enabled
+[17:34:22.490] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-US, tz=UTC
+[17:34:22.490] [INFO ] 
+[17:34:22.490] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:34:22.490] [INFO ] ║  📋 SESSION: SCRAPE_20260129_173422_1243
+[17:34:22.490] [INFO ] ║  🌐 URL: https://www.connectwise.com/cybersecurity-center/glossary/nist-cybersecurity-framework
+[17:34:22.490] [INFO ] ║  🔄 ATTEMPT: 1/2
+[17:34:22.490] [INFO ] ║  ⏰ STARTED: 2026-01-29T17:34:22.490166+02:00 (Egypt Time)
+[17:34:22.490] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:34:22.490] [INFO ] 
+[17:34:22.490] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[17:34:22.490] [INFO ]     │ Browser:     EDGE v121
+[17:34:22.490] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[17:34:22.490] [INFO ]     │ Viewport:    2560x1440
+[17:34:22.490] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[17:34:22.490] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[17:34:22.490] [INFO ]     │ Location:    New York, USA
+[17:34:22.490] [INFO ]     │ Timezone:    N/A
+[17:34:22.490] [INFO ]     │ Locale:      en-US
+[17:34:22.490] [INFO ]     │ Geo:         0, 0
+[17:34:22.490] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[17:34:22.490] [INFO ]     │ Proxy:       Direct (no proxy)
+[17:34:22.490] [INFO ]     │ Referrer:    https://www.google.com/
+[17:34:22.490] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:34:22.490] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:34:22.490] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[17:34:22.490] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:34:22.490] [INFO ] 
+[17:34:22.490] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[17:34:22.490] [INFO ]     ├─ Canvas fingerprint noise
+[17:34:22.490] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:34:22.490] [INFO ]     ├─ Hardware concurrency randomization
+[17:34:22.490] [INFO ]     ├─ Device memory randomization
+[17:34:22.490] [INFO ]     ├─ Plugin masking
+[17:34:22.490] [INFO ]     ├─ WebRTC IP leak protection
+[17:34:22.490] [INFO ]     ├─ Network connection spoof
+[17:34:22.490] [INFO ]     └─ Battery API spoof
+[17:34:22.538] [INFO ] 
+[17:34:22.538] [INFO ]     🥷 STEALTH MODE APPLIED
+[17:34:22.538] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[17:34:22.538] [INFO ]     ├─ Chrome runtime patches
+[17:34:22.538] [INFO ]     ├─ Console patches
+[17:34:22.538] [INFO ]     └─ Permission patches
+[17:34:22.538] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[17:34:22.538] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:34:22.538] [INFO ] 
+[17:34:22.538] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[17:34:22.538] [INFO ]     ├─ Canvas fingerprint noise
+[17:34:22.538] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:34:22.538] [INFO ]     ├─ Hardware concurrency randomization
+[17:34:22.538] [INFO ]     ├─ Device memory randomization
+[17:34:22.538] [INFO ]     ├─ Plugin masking
+[17:34:22.538] [INFO ]     ├─ WebRTC IP leak protection
+[17:34:22.538] [INFO ]     ├─ Network connection spoof
+[17:34:22.538] [INFO ]     └─ Battery API spoof
+[17:34:22.538] [DEBUG] Enabled resource blocking (images, media, fonts)
+[17:34:22.538] [INFO ] 
+[17:34:22.538] [INFO ]     🔗 NAVIGATING TO URL
+[17:34:22.538] [INFO ]     ├─ Strategy:   domcontentloaded
+[17:34:22.538] [INFO ]     ├─ Timeout:    15.0s
+[17:34:22.538] [INFO ]     └─ Sleep:      1s after load
+[17:34:25.009] [INFO ] 
+[17:34:25.009] [INFO ]     ✅ PAGE LOADED
+[17:34:25.009] [INFO ]     ├─ Final URL:  https://www.connectwise.com/cybersecurity-center/glossary/nist-cybersecurity-framework
+[17:34:25.009] [INFO ]     ├─ Title:      What is the NIST Cybersecurity Framework? | ConnectWise
+[17:34:25.009] [INFO ]     └─ Load Time:  2.47s
+[17:34:26.747] [INFO ] 🧑 Human behavior simulation...
+[17:34:30.934] [INFO ] 🖱️ Mouse: 2 moves in 2560x1440
+[17:34:30.934] [INFO ] 🖱️ Mouse completed: 2 moves
+[17:34:30.934] [INFO ] 📜 Scroll: page height, viewport=1440px
+[17:34:30.934] [INFO ] 📜 Scroll completed: 1 scrolls
+[17:34:30.934] [INFO ] 🧑 Human behavior completed in 4.2s ✓
+[17:34:30.934] [INFO ] 
+[17:34:30.934] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[17:34:30.934] [INFO ]     ├─ Mouse Movements: 2
+[17:34:30.934] [INFO ]     ├─ Scroll Actions:  1
+[17:34:30.934] [INFO ]     └─ Time Spent:      4.19s
+[17:34:31.423] [INFO ] 
+[17:34:31.423] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[17:34:31.423] [INFO ]     │ Title:            What is the NIST Cybersecurity Framework? | Connec
+[17:34:31.423] [INFO ]     │ Final URL:        https://www.connectwise.com/cybersecurity-center/glossary/nist-cybersecurity-framework
+[17:34:31.423] [INFO ]     │ HTML Size:        178,836 bytes
+[17:34:31.423] [INFO ]     │ Text Size:        7,335 chars
+[17:34:31.423] [INFO ]     │ Word Count:       ~1124 words
+[17:34:31.423] [INFO ]     │ Extraction:       trafilatura
+[17:34:31.423] [INFO ]     │ Has Article:      ✅ Yes
+[17:34:31.423] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:34:31.465] [INFO ] 
+[17:34:31.465] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:34:31.465] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_173422_1243
+[17:34:31.465] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:34:31.465] [INFO ] 
+[17:34:31.465] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[17:34:31.465] [INFO ]     │ Browser Launch:      0.06s
+[17:34:31.465] [INFO ]     │ Page Load:           2.47s
+[17:34:31.465] [INFO ]     │ Cloudflare Wait:     0.00s
+[17:34:31.465] [INFO ]     │ Human Simulation:    4.19s
+[17:34:31.465] [INFO ]     │
+[17:34:31.465] [INFO ]     │ Content Extraction:  0.34s
+[17:34:31.465] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[17:34:31.465] [INFO ]     │ TOTAL TIME:          7.06s
+[17:34:31.465] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:34:31.465] [INFO ] 
+[17:34:31.466] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[17:34:31.466] [INFO ]     │ Title:            What is the NIST Cybersecurity Framework? | Connec
+[17:34:31.466] [INFO ]     │ Final URL:        https://www.connectwise.com/cybersecurity-center/glossary/nist-cybersecurity-framework
+[17:34:31.466] [INFO ]     │ HTML Size:        178,836 bytes
+[17:34:31.466] [INFO ]     │ Text Size:        7,335 chars
+[17:34:31.466] [INFO ]     │ Word Count:       ~1124 words
+[17:34:31.466] [INFO ]     │ Extraction:       trafilatura
+[17:34:31.466] [INFO ]     │ Has Article:      ✅ Yes
+[17:34:31.466] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:34:31.466] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:34:31.466] [INFO ] ║  📊 SESSION STATS
+[17:34:31.466] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[17:34:31.466] [INFO ] ║  ├─ Popups Dismissed:   0
+[17:34:31.466] [INFO ] ║  ├─ Cloudflare:         Not detected
+[17:34:31.466] [INFO ] ║  └─ Proxy Used:         Direct
+[17:34:31.466] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:34:31.466] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 9.34s
+ENDED: 2026-01-29T17:34:31.466157+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

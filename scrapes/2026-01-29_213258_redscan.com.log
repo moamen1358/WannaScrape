@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.redscan.com/services/nis-directive-and-nis-regulations/
+Started: 2026-01-29 21:32:58
+Session ID: SCRAPE_20260129_213258_C0DA
+================================================================================
+[21:32:58.245] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_213258_redscan.com.log
+[21:32:58.245] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[21:32:58.599] [INFO ] 
+[21:32:58.599] [INFO ]     🚀 BROWSER LAUNCHED
+[21:32:58.599] [INFO ]     ├─ Mode:       Headless
+[21:32:58.599] [INFO ]     ├─ Slow Mo:    52ms
+[21:32:58.599] [INFO ]     ├─ Launch Time: 0.06s
+[21:32:58.599] [INFO ]     └─ Args:       Anti-automation flags enabled
+[21:32:58.614] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-IE, tz=UTC
+[21:32:58.614] [INFO ] 
+[21:32:58.614] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:32:58.614] [INFO ] ║  📋 SESSION: SCRAPE_20260129_213258_C0DA
+[21:32:58.614] [INFO ] ║  🌐 URL: https://www.redscan.com/services/nis-directive-and-nis-regulations/
+[21:32:58.614] [INFO ] ║  🔄 ATTEMPT: 1/2
+[21:32:58.614] [INFO ] ║  ⏰ STARTED: 2026-01-29T21:32:58.614179+02:00 (Egypt Time)
+[21:32:58.614] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:32:58.614] [INFO ] 
+[21:32:58.614] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[21:32:58.614] [INFO ]     │ Browser:     CHROME v121
+[21:32:58.614] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[21:32:58.614] [INFO ]     │ Viewport:    1920x1080
+[21:32:58.614] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[21:32:58.614] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[21:32:58.614] [INFO ]     │ Location:    Dublin, Ireland
+[21:32:58.614] [INFO ]     │ Timezone:    N/A
+[21:32:58.614] [INFO ]     │ Locale:      en-IE
+[21:32:58.614] [INFO ]     │ Geo:         0, 0
+[21:32:58.614] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[21:32:58.614] [INFO ]     │ Proxy:       Direct (no proxy)
+[21:32:58.614] [INFO ]     │ Referrer:    https://www.google.com/
+[21:32:58.614] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:32:58.614] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:32:58.614] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[21:32:58.614] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:32:58.614] [INFO ] 
+[21:32:58.614] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[21:32:58.614] [INFO ]     ├─ Canvas fingerprint noise
+[21:32:58.614] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:32:58.614] [INFO ]     ├─ Hardware concurrency randomization
+[21:32:58.614] [INFO ]     ├─ Device memory randomization
+[21:32:58.614] [INFO ]     ├─ Plugin masking
+[21:32:58.614] [INFO ]     ├─ WebRTC IP leak protection
+[21:32:58.614] [INFO ]     ├─ Network connection spoof
+[21:32:58.614] [INFO ]     └─ Battery API spoof
+[21:32:58.656] [INFO ] 
+[21:32:58.656] [INFO ]     🥷 STEALTH MODE APPLIED
+[21:32:58.656] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[21:32:58.656] [INFO ]     ├─ Chrome runtime patches
+[21:32:58.656] [INFO ]     ├─ Console patches
+[21:32:58.656] [INFO ]     └─ Permission patches
+[21:32:58.656] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[21:32:58.656] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[21:32:58.656] [INFO ] 
+[21:32:58.656] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[21:32:58.656] [INFO ]     ├─ Canvas fingerprint noise
+[21:32:58.656] [INFO ]     ├─ WebGL renderer/vendor spoof
+[21:32:58.656] [INFO ]     ├─ Hardware concurrency randomization
+[21:32:58.656] [INFO ]     ├─ Device memory randomization
+[21:32:58.656] [INFO ]     ├─ Plugin masking
+[21:32:58.656] [INFO ]     ├─ WebRTC IP leak protection
+[21:32:58.656] [INFO ]     ├─ Network connection spoof
+[21:32:58.656] [INFO ]     └─ Battery API spoof
+[21:32:58.656] [DEBUG] Enabled resource blocking (images, media, fonts)
+[21:32:58.656] [INFO ] 
+[21:32:58.656] [INFO ]     🔗 NAVIGATING TO URL
+[21:32:58.656] [INFO ]     ├─ Strategy:   domcontentloaded
+[21:32:58.656] [INFO ]     ├─ Timeout:    15.0s
+[21:32:58.656] [INFO ]     └─ Sleep:      1s after load
+[21:32:59.381] [INFO ] 
+[21:32:59.381] [INFO ]     ✅ PAGE LOADED
+[21:32:59.381] [INFO ]     ├─ Final URL:  https://www.redscan.com/services/nis-directive-and-nis-regulations/
+[21:32:59.381] [INFO ]     ├─ Title:      Verifying Your Connection
+[21:32:59.381] [INFO ]     └─ Load Time:  0.72s
+[21:33:01.461] [INFO ] 🧑 Human behavior simulation...
+[21:33:08.690] [INFO ] 🖱️ Mouse: 4 moves in 1920x1080
+[21:33:08.690] [INFO ] 🖱️ Mouse completed: 4 moves
+[21:33:08.690] [INFO ] 📜 Scroll: page height, viewport=1080px
+[21:33:08.690] [INFO ] 📜 Scroll completed: 3 scrolls
+[21:33:08.690] [INFO ] 🧑 Human behavior completed in 7.2s ✓
+[21:33:08.690] [INFO ] 
+[21:33:08.690] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[21:33:08.690] [INFO ]     ├─ Mouse Movements: 4
+[21:33:08.690] [INFO ]     ├─ Scroll Actions:  3
+[21:33:08.690] [INFO ]     └─ Time Spent:      7.23s
+[21:33:08.852] [INFO ] 
+[21:33:08.852] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:33:08.852] [INFO ]     │ Title:            NIS Directive & NIS Regulations | Redscan
+[21:33:08.852] [INFO ]     │ Final URL:        https://www.redscan.com/services/nis-directive-and-nis-regulations/
+[21:33:08.852] [INFO ]     │ HTML Size:        236,786 bytes
+[21:33:08.852] [INFO ]     │ Text Size:        8,152 chars
+[21:33:08.852] [INFO ]     │ Word Count:       ~1263 words
+[21:33:08.852] [INFO ]     │ Extraction:       trafilatura
+[21:33:08.852] [INFO ]     │ Has Article:      ✅ Yes
+[21:33:08.852] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:33:08.876] [INFO ] 
+[21:33:08.876] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[21:33:08.876] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_213258_C0DA
+[21:33:08.876] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:33:08.876] [INFO ] 
+[21:33:08.876] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[21:33:08.876] [INFO ]     │ Browser Launch:      0.06s
+[21:33:08.876] [INFO ]     │ Page Load:           0.72s
+[21:33:08.876] [INFO ]     │ Cloudflare Wait:     0.00s
+[21:33:08.876] [INFO ]     │ Human Simulation:    7.23s
+[21:33:08.876] [INFO ]     │
+[21:33:08.876] [INFO ]     │ Content Extraction:  0.11s
+[21:33:08.876] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[21:33:08.876] [INFO ]     │ TOTAL TIME:          8.12s
+[21:33:08.876] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:33:08.876] [INFO ] 
+[21:33:08.877] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[21:33:08.877] [INFO ]     │ Title:            NIS Directive & NIS Regulations | Redscan
+[21:33:08.877] [INFO ]     │ Final URL:        https://www.redscan.com/services/nis-directive-and-nis-regulations/
+[21:33:08.877] [INFO ]     │ HTML Size:        236,786 bytes
+[21:33:08.877] [INFO ]     │ Text Size:        8,152 chars
+[21:33:08.877] [INFO ]     │ Word Count:       ~1263 words
+[21:33:08.877] [INFO ]     │ Extraction:       trafilatura
+[21:33:08.877] [INFO ]     │ Has Article:      ✅ Yes
+[21:33:08.877] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[21:33:08.877] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[21:33:08.877] [INFO ] ║  📊 SESSION STATS
+[21:33:08.877] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[21:33:08.877] [INFO ] ║  ├─ Popups Dismissed:   0
+[21:33:08.877] [INFO ] ║  ├─ Cloudflare:         Not detected
+[21:33:08.877] [INFO ] ║  └─ Proxy Used:         Direct
+[21:33:08.877] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[21:33:08.877] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.63s
+ENDED: 2026-01-29T21:33:08.877213+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

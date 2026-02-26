@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://origami.ms/hipaa-compliance-and-origami/
+Started: 2026-01-29 18:06:22
+Session ID: SCRAPE_20260129_180622_42B3
+================================================================================
+[18:06:22.666] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_180622_origami.ms.log
+[18:06:22.666] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[18:06:23.013] [INFO ] 
+[18:06:23.013] [INFO ]     🚀 BROWSER LAUNCHED
+[18:06:23.013] [INFO ]     ├─ Mode:       Headless
+[18:06:23.013] [INFO ]     ├─ Slow Mo:    44ms
+[18:06:23.013] [INFO ]     ├─ Launch Time: 0.06s
+[18:06:23.013] [INFO ]     └─ Args:       Anti-automation flags enabled
+[18:06:23.030] [DEBUG] Browser profile: viewport={'width': 1440, 'height': 900}, locale=en-US, tz=UTC
+[18:06:23.030] [INFO ] 
+[18:06:23.030] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:06:23.030] [INFO ] ║  📋 SESSION: SCRAPE_20260129_180622_42B3
+[18:06:23.030] [INFO ] ║  🌐 URL: https://origami.ms/hipaa-compliance-and-origami/
+[18:06:23.030] [INFO ] ║  🔄 ATTEMPT: 1/2
+[18:06:23.031] [INFO ] ║  ⏰ STARTED: 2026-01-29T18:06:23.030993+02:00 (Egypt Time)
+[18:06:23.031] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:06:23.031] [INFO ] 
+[18:06:23.031] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[18:06:23.031] [INFO ]     │ Browser:     SAFARI v17
+[18:06:23.031] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_1) AppleWebKit/605.1.15 (KHT...
+[18:06:23.031] [INFO ]     │ Viewport:    1440x900
+[18:06:23.031] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[18:06:23.031] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[18:06:23.031] [INFO ]     │ Location:    Los Angeles, USA
+[18:06:23.031] [INFO ]     │ Timezone:    N/A
+[18:06:23.031] [INFO ]     │ Locale:      en-US
+[18:06:23.031] [INFO ]     │ Geo:         0, 0
+[18:06:23.031] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[18:06:23.031] [INFO ]     │ Proxy:       Direct (no proxy)
+[18:06:23.031] [INFO ]     │ Referrer:    https://www.google.com/
+[18:06:23.031] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:06:23.031] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:06:23.031] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[18:06:23.031] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:06:23.031] [INFO ] 
+[18:06:23.031] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[18:06:23.031] [INFO ]     ├─ Canvas fingerprint noise
+[18:06:23.031] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:06:23.031] [INFO ]     ├─ Hardware concurrency randomization
+[18:06:23.031] [INFO ]     ├─ Device memory randomization
+[18:06:23.031] [INFO ]     ├─ Plugin masking
+[18:06:23.031] [INFO ]     ├─ WebRTC IP leak protection
+[18:06:23.031] [INFO ]     ├─ Network connection spoof
+[18:06:23.031] [INFO ]     └─ Battery API spoof
+[18:06:23.072] [INFO ] 
+[18:06:23.072] [INFO ]     🥷 STEALTH MODE APPLIED
+[18:06:23.072] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[18:06:23.072] [INFO ]     ├─ Chrome runtime patches
+[18:06:23.072] [INFO ]     ├─ Console patches
+[18:06:23.072] [INFO ]     └─ Permission patches
+[18:06:23.072] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[18:06:23.072] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[18:06:23.072] [INFO ] 
+[18:06:23.072] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[18:06:23.072] [INFO ]     ├─ Canvas fingerprint noise
+[18:06:23.072] [INFO ]     ├─ WebGL renderer/vendor spoof
+[18:06:23.072] [INFO ]     ├─ Hardware concurrency randomization
+[18:06:23.072] [INFO ]     ├─ Device memory randomization
+[18:06:23.072] [INFO ]     ├─ Plugin masking
+[18:06:23.072] [INFO ]     ├─ WebRTC IP leak protection
+[18:06:23.072] [INFO ]     ├─ Network connection spoof
+[18:06:23.072] [INFO ]     └─ Battery API spoof
+[18:06:23.072] [DEBUG] Enabled resource blocking (images, media, fonts)
+[18:06:23.072] [INFO ] 
+[18:06:23.072] [INFO ]     🔗 NAVIGATING TO URL
+[18:06:23.072] [INFO ]     ├─ Strategy:   domcontentloaded
+[18:06:23.072] [INFO ]     ├─ Timeout:    15.0s
+[18:06:23.072] [INFO ]     └─ Sleep:      1s after load
+[18:06:24.690] [INFO ] 
+[18:06:24.690] [INFO ]     ✅ PAGE LOADED
+[18:06:24.690] [INFO ]     ├─ Final URL:  https://origami.ms/hipaa-compliance-and-origami/
+[18:06:24.690] [INFO ]     ├─ Title:      HIPAA Compliance and Origami - Origami
+[18:06:24.690] [INFO ]     └─ Load Time:  1.62s
+[18:06:26.477] [INFO ] 🧑 Human behavior simulation...
+[18:06:28.699] [INFO ] 🖱️ Mouse: 1 moves in 1440x900
+[18:06:28.699] [INFO ] 🖱️ Mouse completed: 1 moves
+[18:06:28.699] [INFO ] 📜 Scroll: page height, viewport=900px
+[18:06:28.699] [INFO ] 📜 Scroll completed: 1 scrolls
+[18:06:28.699] [INFO ] 🧑 Human behavior completed in 2.2s ✓
+[18:06:28.699] [INFO ] 
+[18:06:28.699] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[18:06:28.699] [INFO ]     ├─ Mouse Movements: 1
+[18:06:28.700] [INFO ]     ├─ Scroll Actions:  1
+[18:06:28.700] [INFO ]     └─ Time Spent:      2.22s
+[18:06:28.840] [INFO ] 
+[18:06:28.840] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:06:28.840] [INFO ]     │ Title:            HIPAA Compliance and Origami - Origami
+[18:06:28.840] [INFO ]     │ Final URL:        https://origami.ms/hipaa-compliance-and-origami/
+[18:06:28.840] [INFO ]     │ HTML Size:        132,025 bytes
+[18:06:28.840] [INFO ]     │ Text Size:        3,417 chars
+[18:06:28.840] [INFO ]     │ Word Count:       ~487 words
+[18:06:28.840] [INFO ]     │ Extraction:       trafilatura
+[18:06:28.840] [INFO ]     │ Has Article:      ✅ Yes
+[18:06:28.840] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:06:28.865] [INFO ] 
+[18:06:28.865] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[18:06:28.865] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_180622_42B3
+[18:06:28.865] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:06:28.865] [INFO ] 
+[18:06:28.865] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[18:06:28.865] [INFO ]     │ Browser Launch:      0.06s
+[18:06:28.865] [INFO ]     │ Page Load:           1.62s
+[18:06:28.865] [INFO ]     │ Cloudflare Wait:     0.00s
+[18:06:28.865] [INFO ]     │ Human Simulation:    2.22s
+[18:06:28.865] [INFO ]     │
+[18:06:28.865] [INFO ]     │ Content Extraction:  0.05s
+[18:06:28.865] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[18:06:28.865] [INFO ]     │ TOTAL TIME:          3.95s
+[18:06:28.865] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:06:28.865] [INFO ] 
+[18:06:28.865] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[18:06:28.865] [INFO ]     │ Title:            HIPAA Compliance and Origami - Origami
+[18:06:28.865] [INFO ]     │ Final URL:        https://origami.ms/hipaa-compliance-and-origami/
+[18:06:28.865] [INFO ]     │ HTML Size:        132,025 bytes
+[18:06:28.865] [INFO ]     │ Text Size:        3,417 chars
+[18:06:28.865] [INFO ]     │ Word Count:       ~487 words
+[18:06:28.865] [INFO ]     │ Extraction:       trafilatura
+[18:06:28.865] [INFO ]     │ Has Article:      ✅ Yes
+[18:06:28.865] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[18:06:28.865] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[18:06:28.865] [INFO ] ║  📊 SESSION STATS
+[18:06:28.865] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[18:06:28.865] [INFO ] ║  ├─ Popups Dismissed:   0
+[18:06:28.865] [INFO ] ║  ├─ Cloudflare:         Not detected
+[18:06:28.865] [INFO ] ║  └─ Proxy Used:         Direct
+[18:06:28.865] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[18:06:28.865] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 6.20s
+ENDED: 2026-01-29T18:06:28.865633+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

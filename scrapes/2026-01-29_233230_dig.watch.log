@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://dig.watch/resource/the-national-cybersecurity-strategy-of-egypt-2023-2027
+Started: 2026-01-29 23:32:30
+Session ID: SCRAPE_20260129_233230_7815
+================================================================================
+[23:32:30.990] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_233230_dig.watch.log
+[23:32:30.990] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[23:32:31.336] [INFO ] 
+[23:32:31.336] [INFO ]     🚀 BROWSER LAUNCHED
+[23:32:31.336] [INFO ]     ├─ Mode:       Headless
+[23:32:31.336] [INFO ]     ├─ Slow Mo:    44ms
+[23:32:31.336] [INFO ]     ├─ Launch Time: 0.05s
+[23:32:31.336] [INFO ]     └─ Args:       Anti-automation flags enabled
+[23:32:31.354] [DEBUG] Browser profile: viewport={'width': 1512, 'height': 982}, locale=en-US, tz=UTC
+[23:32:31.354] [INFO ] 
+[23:32:31.354] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:32:31.354] [INFO ] ║  📋 SESSION: SCRAPE_20260129_233230_7815
+[23:32:31.354] [INFO ] ║  🌐 URL: https://dig.watch/resource/the-national-cybersecurity-strategy-of-egypt-2023-2027
+[23:32:31.354] [INFO ] ║  🔄 ATTEMPT: 1/2
+[23:32:31.354] [INFO ] ║  ⏰ STARTED: 2026-01-29T23:32:31.354790+02:00 (Egypt Time)
+[23:32:31.354] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:32:31.354] [INFO ] 
+[23:32:31.354] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[23:32:31.354] [INFO ]     │ Browser:     CHROME v121
+[23:32:31.354] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[23:32:31.354] [INFO ]     │ Viewport:    1512x982
+[23:32:31.354] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[23:32:31.354] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[23:32:31.354] [INFO ]     │ Location:    San Francisco, USA
+[23:32:31.354] [INFO ]     │ Timezone:    N/A
+[23:32:31.354] [INFO ]     │ Locale:      en-US
+[23:32:31.354] [INFO ]     │ Geo:         0, 0
+[23:32:31.354] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[23:32:31.354] [INFO ]     │ Proxy:       Direct (no proxy)
+[23:32:31.354] [INFO ]     │ Referrer:    https://www.google.com/
+[23:32:31.354] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:32:31.354] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:32:31.354] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[23:32:31.354] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:32:31.354] [INFO ] 
+[23:32:31.354] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[23:32:31.354] [INFO ]     ├─ Canvas fingerprint noise
+[23:32:31.354] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:32:31.354] [INFO ]     ├─ Hardware concurrency randomization
+[23:32:31.354] [INFO ]     ├─ Device memory randomization
+[23:32:31.354] [INFO ]     ├─ Plugin masking
+[23:32:31.354] [INFO ]     ├─ WebRTC IP leak protection
+[23:32:31.354] [INFO ]     ├─ Network connection spoof
+[23:32:31.354] [INFO ]     └─ Battery API spoof
+[23:32:31.397] [INFO ] 
+[23:32:31.397] [INFO ]     🥷 STEALTH MODE APPLIED
+[23:32:31.397] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[23:32:31.397] [INFO ]     ├─ Chrome runtime patches
+[23:32:31.397] [INFO ]     ├─ Console patches
+[23:32:31.397] [INFO ]     └─ Permission patches
+[23:32:31.397] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[23:32:31.397] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:32:31.397] [INFO ] 
+[23:32:31.397] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[23:32:31.397] [INFO ]     ├─ Canvas fingerprint noise
+[23:32:31.397] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:32:31.397] [INFO ]     ├─ Hardware concurrency randomization
+[23:32:31.397] [INFO ]     ├─ Device memory randomization
+[23:32:31.397] [INFO ]     ├─ Plugin masking
+[23:32:31.397] [INFO ]     ├─ WebRTC IP leak protection
+[23:32:31.397] [INFO ]     ├─ Network connection spoof
+[23:32:31.397] [INFO ]     └─ Battery API spoof
+[23:32:31.397] [DEBUG] Enabled resource blocking (images, media, fonts)
+[23:32:31.397] [INFO ] 
+[23:32:31.397] [INFO ]     🔗 NAVIGATING TO URL
+[23:32:31.397] [INFO ]     ├─ Strategy:   domcontentloaded
+[23:32:31.397] [INFO ]     ├─ Timeout:    15.0s
+[23:32:31.397] [INFO ]     └─ Sleep:      1s after load
+[23:32:33.291] [INFO ] 
+[23:32:33.291] [INFO ]     ✅ PAGE LOADED
+[23:32:33.291] [INFO ]     ├─ Final URL:  https://dig.watch/resource/the-national-cybersecurity-strategy-of-egypt-2023-2027
+[23:32:33.291] [INFO ]     ├─ Title:      The National Cybersecurity Strategy of Egypt (2023-2027) | Digital Watch Observatory
+[23:32:33.291] [INFO ]     └─ Load Time:  1.89s
+[23:32:34.508] [INFO ] 🧑 Human behavior simulation...
+[23:32:37.565] [INFO ] 🖱️ Mouse: 2 moves in 1512x982
+[23:32:37.565] [INFO ] 🖱️ Mouse completed: 2 moves
+[23:32:37.565] [INFO ] 📜 Scroll: page height, viewport=982px
+[23:32:37.565] [INFO ] 📜 Scroll completed: 2 scrolls
+[23:32:37.565] [INFO ] 🧑 Human behavior completed in 3.1s ✓
+[23:32:37.565] [INFO ] 
+[23:32:37.565] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[23:32:37.565] [INFO ]     ├─ Mouse Movements: 2
+[23:32:37.565] [INFO ]     ├─ Scroll Actions:  2
+[23:32:37.565] [INFO ]     └─ Time Spent:      3.06s
+[23:32:37.714] [INFO ] 
+[23:32:37.714] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[23:32:37.714] [INFO ]     │ Title:            The National Cybersecurity Strategy of Egypt (2023
+[23:32:37.714] [INFO ]     │ Final URL:        https://dig.watch/resource/the-national-cybersecurity-strategy-of-egypt-2023-2027
+[23:32:37.714] [INFO ]     │ HTML Size:        153,387 bytes
+[23:32:37.714] [INFO ]     │ Text Size:        4,611 chars
+[23:32:37.714] [INFO ]     │ Word Count:       ~609 words
+[23:32:37.714] [INFO ]     │ Extraction:       trafilatura
+[23:32:37.714] [INFO ]     │ Has Article:      ✅ Yes
+[23:32:37.714] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:32:37.740] [INFO ] 
+[23:32:37.740] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:32:37.740] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_233230_7815
+[23:32:37.740] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:32:37.740] [INFO ] 
+[23:32:37.740] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[23:32:37.740] [INFO ]     │ Browser Launch:      0.05s
+[23:32:37.740] [INFO ]     │ Page Load:           1.89s
+[23:32:37.740] [INFO ]     │ Cloudflare Wait:     0.00s
+[23:32:37.740] [INFO ]     │ Human Simulation:    3.06s
+[23:32:37.740] [INFO ]     │
+[23:32:37.740] [INFO ]     │ Content Extraction:  0.06s
+[23:32:37.740] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[23:32:37.740] [INFO ]     │ TOTAL TIME:          5.07s
+[23:32:37.740] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:32:37.740] [INFO ] 
+[23:32:37.740] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[23:32:37.740] [INFO ]     │ Title:            The National Cybersecurity Strategy of Egypt (2023
+[23:32:37.740] [INFO ]     │ Final URL:        https://dig.watch/resource/the-national-cybersecurity-strategy-of-egypt-2023-2027
+[23:32:37.740] [INFO ]     │ HTML Size:        153,387 bytes
+[23:32:37.740] [INFO ]     │ Text Size:        4,611 chars
+[23:32:37.740] [INFO ]     │ Word Count:       ~609 words
+[23:32:37.740] [INFO ]     │ Extraction:       trafilatura
+[23:32:37.740] [INFO ]     │ Has Article:      ✅ Yes
+[23:32:37.740] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:32:37.740] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:32:37.740] [INFO ] ║  📊 SESSION STATS
+[23:32:37.740] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[23:32:37.740] [INFO ] ║  ├─ Popups Dismissed:   0
+[23:32:37.740] [INFO ] ║  ├─ Cloudflare:         Not detected
+[23:32:37.740] [INFO ] ║  └─ Proxy Used:         Direct
+[23:32:37.740] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:32:37.740] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 6.75s
+ENDED: 2026-01-29T23:32:37.740897+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

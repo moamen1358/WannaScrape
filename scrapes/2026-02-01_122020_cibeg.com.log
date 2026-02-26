@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.cibeg.com/en/newsroom/news/cibxpci-certification
+Started: 2026-02-01 12:20:20
+Session ID: SCRAPE_20260201_122020_AD2A
+================================================================================
+[12:20:20.645] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-02-01_122020_cibeg.com.log
+[12:20:20.645] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:20:20.988] [INFO ] 
+[12:20:20.988] [INFO ]     🚀 BROWSER LAUNCHED
+[12:20:20.988] [INFO ]     ├─ Mode:       Headless
+[12:20:20.988] [INFO ]     ├─ Slow Mo:    42ms
+[12:20:20.988] [INFO ]     ├─ Launch Time: 0.06s
+[12:20:20.988] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:20:21.004] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-AU, tz=UTC
+[12:20:21.004] [INFO ] 
+[12:20:21.004] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:20:21.004] [INFO ] ║  📋 SESSION: SCRAPE_20260201_122020_AD2A
+[12:20:21.004] [INFO ] ║  🌐 URL: https://www.cibeg.com/en/newsroom/news/cibxpci-certification
+[12:20:21.004] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:20:21.004] [INFO ] ║  ⏰ STARTED: 2026-02-01T12:20:21.004941+02:00 (Egypt Time)
+[12:20:21.004] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:20:21.004] [INFO ] 
+[12:20:21.004] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:20:21.004] [INFO ]     │ Browser:     FIREFOX v122
+[12:20:21.004] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Fir...
+[12:20:21.004] [INFO ]     │ Viewport:    1680x1050
+[12:20:21.004] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:20:21.004] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:20:21.004] [INFO ]     │ Location:    Brisbane, Australia
+[12:20:21.004] [INFO ]     │ Timezone:    N/A
+[12:20:21.004] [INFO ]     │ Locale:      en-AU
+[12:20:21.005] [INFO ]     │ Geo:         0, 0
+[12:20:21.005] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:20:21.005] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:20:21.005] [INFO ]     │ Referrer:    https://www.facebook.com/
+[12:20:21.005] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:21.005] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:20:21.005] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:20:21.005] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:20:21.005] [INFO ] 
+[12:20:21.005] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:20:21.005] [INFO ]     ├─ Canvas fingerprint noise
+[12:20:21.005] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:20:21.005] [INFO ]     ├─ Hardware concurrency randomization
+[12:20:21.005] [INFO ]     ├─ Device memory randomization
+[12:20:21.005] [INFO ]     ├─ Plugin masking
+[12:20:21.005] [INFO ]     ├─ WebRTC IP leak protection
+[12:20:21.005] [INFO ]     ├─ Network connection spoof
+[12:20:21.005] [INFO ]     └─ Battery API spoof
+[12:20:21.047] [INFO ] 
+[12:20:21.047] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:20:21.047] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:20:21.047] [INFO ]     ├─ Chrome runtime patches
+[12:20:21.047] [INFO ]     ├─ Console patches
+[12:20:21.047] [INFO ]     └─ Permission patches
+[12:20:21.047] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:20:21.047] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:20:21.047] [INFO ] 
+[12:20:21.047] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:20:21.047] [INFO ]     ├─ Canvas fingerprint noise
+[12:20:21.047] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:20:21.047] [INFO ]     ├─ Hardware concurrency randomization
+[12:20:21.047] [INFO ]     ├─ Device memory randomization
+[12:20:21.047] [INFO ]     ├─ Plugin masking
+[12:20:21.047] [INFO ]     ├─ WebRTC IP leak protection
+[12:20:21.047] [INFO ]     ├─ Network connection spoof
+[12:20:21.047] [INFO ]     └─ Battery API spoof
+[12:20:21.047] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:20:21.047] [INFO ] 
+[12:20:21.047] [INFO ]     🔗 NAVIGATING TO URL
+[12:20:21.047] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:20:21.047] [INFO ]     ├─ Timeout:    15.0s
+[12:20:21.047] [INFO ]     └─ Sleep:      1s after load
+[12:20:23.318] [INFO ] 
+[12:20:23.318] [INFO ]     ✅ PAGE LOADED
+[12:20:23.318] [INFO ]     ├─ Final URL:  https://www.cibeg.com/en/newsroom/news/cibxpci-certification
+[12:20:23.318] [INFO ]     ├─ Title:      Commercial International Bank (CIB) Successfully Upgrades its Payment Card Industry Data Security Standard (PCI DSS) Certification Cycle to the Latest Version 4.1
+[12:20:23.318] [INFO ]     └─ Load Time:  2.27s
+[12:20:24.640] [INFO ] 🧑 Human behavior simulation...
+[12:20:31.054] [INFO ] 🖱️ Mouse: 4 moves in 1680x1050
+[12:20:31.054] [INFO ] 🖱️ Mouse completed: 4 moves
+[12:20:31.054] [INFO ] 📜 Scroll: page height, viewport=1050px
+[12:20:31.054] [INFO ] 📜 Scroll completed: 2 scrolls
+[12:20:31.054] [INFO ] 🧑 Human behavior completed in 6.4s ✓
+[12:20:31.054] [INFO ] 
+[12:20:31.054] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:20:31.054] [INFO ]     ├─ Mouse Movements: 4
+[12:20:31.054] [INFO ]     ├─ Scroll Actions:  2
+[12:20:31.054] [INFO ]     └─ Time Spent:      6.41s
+[12:20:31.490] [INFO ] 
+[12:20:31.490] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:20:31.490] [INFO ]     │ Title:            NEWS Commercial International Bank (CIB) Successfu
+[12:20:31.490] [INFO ]     │ Final URL:        https://www.cibeg.com/en/newsroom/news/cibxpci-certification
+[12:20:31.490] [INFO ]     │ HTML Size:        670,876 bytes
+[12:20:31.490] [INFO ]     │ Text Size:        785 chars
+[12:20:31.490] [INFO ]     │ Word Count:       ~139 words
+[12:20:31.490] [INFO ]     │ Extraction:       trafilatura
+[12:20:31.490] [INFO ]     │ Has Article:      ✅ Yes
+[12:20:31.490] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:31.524] [INFO ] 
+[12:20:31.524] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:20:31.524] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260201_122020_AD2A
+[12:20:31.524] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:20:31.524] [INFO ] 
+[12:20:31.524] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:20:31.524] [INFO ]     │ Browser Launch:      0.06s
+[12:20:31.524] [INFO ]     │ Page Load:           2.27s
+[12:20:31.524] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:20:31.524] [INFO ]     │ Human Simulation:    6.41s
+[12:20:31.524] [INFO ]     │
+[12:20:31.524] [INFO ]     │ Content Extraction:  0.18s
+[12:20:31.524] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:20:31.524] [INFO ]     │ TOTAL TIME:          8.93s
+[12:20:31.524] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:31.524] [INFO ] 
+[12:20:31.524] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:20:31.524] [INFO ]     │ Title:            NEWS Commercial International Bank (CIB) Successfu
+[12:20:31.524] [INFO ]     │ Final URL:        https://www.cibeg.com/en/newsroom/news/cibxpci-certification
+[12:20:31.524] [INFO ]     │ HTML Size:        670,876 bytes
+[12:20:31.524] [INFO ]     │ Text Size:        785 chars
+[12:20:31.524] [INFO ]     │ Word Count:       ~139 words
+[12:20:31.524] [INFO ]     │ Extraction:       trafilatura
+[12:20:31.524] [INFO ]     │ Has Article:      ✅ Yes
+[12:20:31.524] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:20:31.524] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:20:31.524] [INFO ] ║  📊 SESSION STATS
+[12:20:31.524] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:20:31.524] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:20:31.524] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:20:31.524] [INFO ] ║  └─ Proxy Used:         Direct
+[12:20:31.524] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:20:31.524] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.88s
+ENDED: 2026-02-01T12:20:31.524784+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

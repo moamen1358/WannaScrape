@@ -1,0 +1,206 @@
+================================================================================
+SCRAPE LOG: https://www.iiisci.org/journal/pdv/sci/pdfs/SA867CS19.pdf
+Started: 2026-01-29 23:37:00
+Session ID: SCRAPE_20260129_233700_F6E9
+================================================================================
+[23:37:00.995] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_233700_iiisci.org.log
+[23:37:00.995] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[23:37:01.341] [INFO ] 
+[23:37:01.342] [INFO ]     🚀 BROWSER LAUNCHED
+[23:37:01.342] [INFO ]     ├─ Mode:       Headless
+[23:37:01.342] [INFO ]     ├─ Slow Mo:    57ms
+[23:37:01.342] [INFO ]     ├─ Launch Time: 0.06s
+[23:37:01.342] [INFO ]     └─ Args:       Anti-automation flags enabled
+[23:37:01.359] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-US, tz=UTC
+[23:37:01.359] [INFO ] 
+[23:37:01.359] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:37:01.359] [INFO ] ║  📋 SESSION: SCRAPE_20260129_233700_F6E9
+[23:37:01.359] [INFO ] ║  🌐 URL: https://www.iiisci.org/journal/pdv/sci/pdfs/SA867CS19.pdf
+[23:37:01.359] [INFO ] ║  🔄 ATTEMPT: 1/2
+[23:37:01.359] [INFO ] ║  ⏰ STARTED: 2026-01-29T23:37:01.359843+02:00 (Egypt Time)
+[23:37:01.359] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:37:01.359] [INFO ] 
+[23:37:01.359] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[23:37:01.359] [INFO ]     │ Browser:     FIREFOX v124
+[23:37:01.359] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Fir...
+[23:37:01.359] [INFO ]     │ Viewport:    1366x768
+[23:37:01.359] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[23:37:01.359] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[23:37:01.359] [INFO ]     │ Location:    Chicago, USA
+[23:37:01.359] [INFO ]     │ Timezone:    N/A
+[23:37:01.359] [INFO ]     │ Locale:      en-US
+[23:37:01.359] [INFO ]     │ Geo:         0, 0
+[23:37:01.359] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[23:37:01.359] [INFO ]     │ Proxy:       Direct (no proxy)
+[23:37:01.359] [INFO ]     │ Referrer:    https://www.facebook.com/
+[23:37:01.359] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:37:01.359] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:37:01.359] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[23:37:01.359] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:37:01.359] [INFO ] 
+[23:37:01.359] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[23:37:01.359] [INFO ]     ├─ Canvas fingerprint noise
+[23:37:01.359] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:37:01.359] [INFO ]     ├─ Hardware concurrency randomization
+[23:37:01.359] [INFO ]     ├─ Device memory randomization
+[23:37:01.359] [INFO ]     ├─ Plugin masking
+[23:37:01.359] [INFO ]     ├─ WebRTC IP leak protection
+[23:37:01.359] [INFO ]     ├─ Network connection spoof
+[23:37:01.359] [INFO ]     └─ Battery API spoof
+[23:37:01.402] [INFO ] 
+[23:37:01.402] [INFO ]     🥷 STEALTH MODE APPLIED
+[23:37:01.402] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[23:37:01.402] [INFO ]     ├─ Chrome runtime patches
+[23:37:01.402] [INFO ]     ├─ Console patches
+[23:37:01.402] [INFO ]     └─ Permission patches
+[23:37:01.402] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[23:37:01.402] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:37:01.402] [INFO ] 
+[23:37:01.402] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[23:37:01.402] [INFO ]     ├─ Canvas fingerprint noise
+[23:37:01.402] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:37:01.402] [INFO ]     ├─ Hardware concurrency randomization
+[23:37:01.402] [INFO ]     ├─ Device memory randomization
+[23:37:01.402] [INFO ]     ├─ Plugin masking
+[23:37:01.402] [INFO ]     ├─ WebRTC IP leak protection
+[23:37:01.402] [INFO ]     ├─ Network connection spoof
+[23:37:01.402] [INFO ]     └─ Battery API spoof
+[23:37:01.402] [DEBUG] Enabled resource blocking (images, media, fonts)
+[23:37:01.402] [INFO ] 
+[23:37:01.402] [INFO ]     🔗 NAVIGATING TO URL
+[23:37:01.402] [INFO ]     ├─ Strategy:   domcontentloaded
+[23:37:01.402] [INFO ]     ├─ Timeout:    15.0s
+[23:37:01.402] [INFO ]     └─ Sleep:      1s after load
+[23:37:02.386] [DEBUG] Enabled resource blocking (images, media, fonts)
+[23:37:02.386] [INFO ] 
+[23:37:02.386] [INFO ]     🔗 NAVIGATING TO URL
+[23:37:02.386] [INFO ]     ├─ Strategy:   load
+[23:37:02.386] [INFO ]     ├─ Timeout:    20.0s
+[23:37:02.386] [INFO ]     └─ Sleep:      1s after load
+[23:37:02.986] [DEBUG] Enabled resource blocking (images, media, fonts)
+[23:37:02.986] [INFO ] 
+[23:37:02.986] [INFO ]     🔗 NAVIGATING TO URL
+[23:37:02.986] [INFO ]     ├─ Strategy:   networkidle
+[23:37:02.986] [INFO ]     ├─ Timeout:    25.0s
+[23:37:02.986] [INFO ]     └─ Sleep:      1s after load
+[23:37:11.277] [INFO ] 
+[23:37:11.277] [INFO ]     🚀 BROWSER LAUNCHED
+[23:37:11.277] [INFO ]     ├─ Mode:       Headless
+[23:37:11.277] [INFO ]     ├─ Slow Mo:    42ms
+[23:37:11.277] [INFO ]     ├─ Launch Time: 0.06s
+[23:37:11.277] [INFO ]     └─ Args:       Anti-automation flags enabled
+[23:37:11.297] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-GB, tz=UTC
+[23:37:11.297] [INFO ] 
+[23:37:11.297] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:37:11.297] [INFO ] ║  📋 SESSION: SCRAPE_20260129_233700_F6E9
+[23:37:11.297] [INFO ] ║  🌐 URL: https://www.iiisci.org/journal/pdv/sci/pdfs/SA867CS19.pdf
+[23:37:11.297] [INFO ] ║  🔄 ATTEMPT: 2/2
+[23:37:11.297] [INFO ] ║  ⏰ STARTED: 2026-01-29T23:37:11.297887+02:00 (Egypt Time)
+[23:37:11.297] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:37:11.297] [INFO ] 
+[23:37:11.297] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[23:37:11.297] [INFO ]     │ Browser:     CHROME v120
+[23:37:11.297] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[23:37:11.297] [INFO ]     │ Viewport:    1680x1050
+[23:37:11.297] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[23:37:11.297] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[23:37:11.297] [INFO ]     │ Location:    London, UK
+[23:37:11.297] [INFO ]     │ Timezone:    N/A
+[23:37:11.297] [INFO ]     │ Locale:      en-GB
+[23:37:11.297] [INFO ]     │ Geo:         0, 0
+[23:37:11.297] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[23:37:11.297] [INFO ]     │ Proxy:       Direct (no proxy)
+[23:37:11.297] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+iiisci+org
+[23:37:11.297] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:37:11.297] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:37:11.297] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[23:37:11.298] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:37:11.298] [INFO ] 
+[23:37:11.298] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[23:37:11.298] [INFO ]     ├─ Canvas fingerprint noise
+[23:37:11.298] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:37:11.298] [INFO ]     ├─ Hardware concurrency randomization
+[23:37:11.298] [INFO ]     ├─ Device memory randomization
+[23:37:11.298] [INFO ]     ├─ Plugin masking
+[23:37:11.298] [INFO ]     ├─ WebRTC IP leak protection
+[23:37:11.298] [INFO ]     ├─ Network connection spoof
+[23:37:11.298] [INFO ]     └─ Battery API spoof
+[23:37:11.339] [INFO ] 
+[23:37:11.339] [INFO ]     🥷 STEALTH MODE APPLIED
+[23:37:11.339] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[23:37:11.339] [INFO ]     ├─ Chrome runtime patches
+[23:37:11.339] [INFO ]     ├─ Console patches
+[23:37:11.339] [INFO ]     └─ Permission patches
+[23:37:11.339] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[23:37:11.339] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[23:37:11.339] [INFO ] 
+[23:37:11.339] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[23:37:11.339] [INFO ]     ├─ Canvas fingerprint noise
+[23:37:11.339] [INFO ]     ├─ WebGL renderer/vendor spoof
+[23:37:11.339] [INFO ]     ├─ Hardware concurrency randomization
+[23:37:11.339] [INFO ]     ├─ Device memory randomization
+[23:37:11.339] [INFO ]     ├─ Plugin masking
+[23:37:11.339] [INFO ]     ├─ WebRTC IP leak protection
+[23:37:11.339] [INFO ]     ├─ Network connection spoof
+[23:37:11.339] [INFO ]     └─ Battery API spoof
+[23:37:11.339] [DEBUG] Enabled resource blocking (images, media, fonts)
+[23:37:11.339] [INFO ] 
+[23:37:11.339] [INFO ]     🔗 NAVIGATING TO URL
+[23:37:11.339] [INFO ]     ├─ Strategy:   domcontentloaded
+[23:37:11.339] [INFO ]     ├─ Timeout:    15.0s
+[23:37:11.339] [INFO ]     └─ Sleep:      1s after load
+[23:37:12.035] [DEBUG] Enabled resource blocking (images, media, fonts)
+[23:37:12.035] [INFO ] 
+[23:37:12.035] [INFO ]     🔗 NAVIGATING TO URL
+[23:37:12.035] [INFO ]     ├─ Strategy:   load
+[23:37:12.035] [INFO ]     ├─ Timeout:    20.0s
+[23:37:12.035] [INFO ]     └─ Sleep:      1s after load
+[23:37:12.871] [DEBUG] Enabled resource blocking (images, media, fonts)
+[23:37:12.871] [INFO ] 
+[23:37:12.871] [INFO ]     🔗 NAVIGATING TO URL
+[23:37:12.871] [INFO ]     ├─ Strategy:   networkidle
+[23:37:12.871] [INFO ]     ├─ Timeout:    25.0s
+[23:37:12.871] [INFO ]     └─ Sleep:      1s after load
+[23:37:13.166] [INFO ] 
+[23:37:13.166] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[23:37:13.166] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260129_233700_F6E9
+[23:37:13.166] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[23:37:13.166] [INFO ] 
+[23:37:13.166] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[23:37:13.166] [INFO ]     │ URL:              https://www.iiisci.org/journal/pdv/sci/pdfs/SA867CS19.p
+[23:37:13.166] [INFO ]     │ Error Type:       network
+[23:37:13.166] [INFO ]     │ Likely Ban:       ❌ No
+[23:37:13.166] [INFO ]     │ Retries Used:     2
+[23:37:13.166] [INFO ]     │
+[23:37:13.166] [INFO ]     │ Error Message:
+[23:37:13.166] [INFO ]     │   Failed after 2 attempts. Last error: Page.goto: Download
+[23:37:13.166] [INFO ]     │    is starting
+Call log:
+  - navigating to "https://www.ii
+[23:37:13.166] [INFO ]     │   isci.org/journal/pdv/sci/pdfs/SA867CS19.pdf", waiting un
+[23:37:13.166] [INFO ]     │   til "networkidle"
+
+[23:37:13.166] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:37:13.166] [INFO ] 
+[23:37:13.166] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[23:37:13.166] [INFO ]     │ Browser Launch:     0.06s
+[23:37:13.166] [INFO ]     │ Page Load:          0.00s
+[23:37:13.166] [INFO ]     │ Cloudflare Wait:    0.00s
+[23:37:13.166] [INFO ]     │ Human Simulation:   0.00s
+[23:37:13.166] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[23:37:13.166] [INFO ]     │ FAILED AT:          0.06s
+[23:37:13.166] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:37:13.166] [INFO ] 
+[23:37:13.166] [INFO ]     ┌─ RECOMMENDATION ─────────────────────────────────────────────┐
+[23:37:13.166] [INFO ]     │ 💡 Network connection issue
+[23:37:13.166] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[23:37:13.166] [INFO ] 
+[23:37:13.166] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[23:37:13.166] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 12.17s
+ENDED: 2026-01-29T23:37:13.166254+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

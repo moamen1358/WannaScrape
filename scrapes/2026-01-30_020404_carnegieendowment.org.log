@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://carnegieendowment.org/research/2025/03/egypts-challenges-and-opportunities-in-climate-related-finance-and-governance
+Started: 2026-01-30 02:04:04
+Session ID: SCRAPE_20260130_020404_4A1B
+================================================================================
+[02:04:04.262] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_020404_carnegieendowment.org.log
+[02:04:04.262] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[02:04:04.611] [INFO ] 
+[02:04:04.611] [INFO ]     🚀 BROWSER LAUNCHED
+[02:04:04.611] [INFO ]     ├─ Mode:       Headless
+[02:04:04.611] [INFO ]     ├─ Slow Mo:    58ms
+[02:04:04.611] [INFO ]     ├─ Launch Time: 0.06s
+[02:04:04.611] [INFO ]     └─ Args:       Anti-automation flags enabled
+[02:04:04.629] [DEBUG] Browser profile: viewport={'width': 1728, 'height': 1117}, locale=en-US, tz=UTC
+[02:04:04.629] [INFO ] 
+[02:04:04.629] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[02:04:04.629] [INFO ] ║  📋 SESSION: SCRAPE_20260130_020404_4A1B
+[02:04:04.629] [INFO ] ║  🌐 URL: https://carnegieendowment.org/research/2025/03/egypts-challenges-and-opportunities-in-climate-related-finance-and-governance
+[02:04:04.629] [INFO ] ║  🔄 ATTEMPT: 1/2
+[02:04:04.629] [INFO ] ║  ⏰ STARTED: 2026-01-30T02:04:04.629719+02:00 (Egypt Time)
+[02:04:04.629] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:04:04.629] [INFO ] 
+[02:04:04.629] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[02:04:04.629] [INFO ]     │ Browser:     CHROME v120
+[02:04:04.629] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[02:04:04.629] [INFO ]     │ Viewport:    1728x1117
+[02:04:04.629] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[02:04:04.629] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[02:04:04.629] [INFO ]     │ Location:    New York, USA
+[02:04:04.629] [INFO ]     │ Timezone:    N/A
+[02:04:04.629] [INFO ]     │ Locale:      en-US
+[02:04:04.629] [INFO ]     │ Geo:         0, 0
+[02:04:04.629] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[02:04:04.629] [INFO ]     │ Proxy:       Direct (no proxy)
+[02:04:04.629] [INFO ]     │ Referrer:    None
+[02:04:04.629] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:04:04.629] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[02:04:04.629] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[02:04:04.629] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[02:04:04.629] [INFO ] 
+[02:04:04.629] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[02:04:04.629] [INFO ]     ├─ Canvas fingerprint noise
+[02:04:04.629] [INFO ]     ├─ WebGL renderer/vendor spoof
+[02:04:04.629] [INFO ]     ├─ Hardware concurrency randomization
+[02:04:04.629] [INFO ]     ├─ Device memory randomization
+[02:04:04.629] [INFO ]     ├─ Plugin masking
+[02:04:04.629] [INFO ]     ├─ WebRTC IP leak protection
+[02:04:04.629] [INFO ]     ├─ Network connection spoof
+[02:04:04.629] [INFO ]     └─ Battery API spoof
+[02:04:04.670] [INFO ] 
+[02:04:04.670] [INFO ]     🥷 STEALTH MODE APPLIED
+[02:04:04.670] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[02:04:04.670] [INFO ]     ├─ Chrome runtime patches
+[02:04:04.670] [INFO ]     ├─ Console patches
+[02:04:04.670] [INFO ]     └─ Permission patches
+[02:04:04.670] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[02:04:04.670] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[02:04:04.670] [INFO ] 
+[02:04:04.670] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[02:04:04.670] [INFO ]     ├─ Canvas fingerprint noise
+[02:04:04.670] [INFO ]     ├─ WebGL renderer/vendor spoof
+[02:04:04.670] [INFO ]     ├─ Hardware concurrency randomization
+[02:04:04.670] [INFO ]     ├─ Device memory randomization
+[02:04:04.670] [INFO ]     ├─ Plugin masking
+[02:04:04.670] [INFO ]     ├─ WebRTC IP leak protection
+[02:04:04.670] [INFO ]     ├─ Network connection spoof
+[02:04:04.670] [INFO ]     └─ Battery API spoof
+[02:04:04.670] [DEBUG] Enabled resource blocking (images, media, fonts)
+[02:04:04.670] [INFO ] 
+[02:04:04.670] [INFO ]     🔗 NAVIGATING TO URL
+[02:04:04.670] [INFO ]     ├─ Strategy:   domcontentloaded
+[02:04:04.670] [INFO ]     ├─ Timeout:    15.0s
+[02:04:04.670] [INFO ]     └─ Sleep:      1s after load
+[02:04:05.121] [INFO ] 
+[02:04:05.121] [INFO ]     ✅ PAGE LOADED
+[02:04:05.121] [INFO ]     ├─ Final URL:  https://carnegieendowment.org/research/2025/03/egypts-challenges-and-opportunities-in-climate-related-finance-and-governance
+[02:04:05.121] [INFO ]     ├─ Title:      Egypt’s Challenges and Opportunities in Climate-Related Finance and Governance | Carnegie Endowment for International Peace
+[02:04:05.121] [INFO ]     └─ Load Time:  0.45s
+[02:04:06.666] [INFO ] 🧑 Human behavior simulation...
+[02:04:11.111] [INFO ] 🖱️ Mouse: 2 moves in 1728x1117
+[02:04:11.111] [INFO ] 🖱️ Mouse completed: 2 moves
+[02:04:11.111] [INFO ] 📜 Scroll: page height, viewport=1117px
+[02:04:11.111] [INFO ] 📜 Scroll completed: 2 scrolls
+[02:04:11.111] [INFO ] 🧑 Human behavior completed in 4.4s ✓
+[02:04:11.111] [INFO ] 
+[02:04:11.111] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[02:04:11.111] [INFO ]     ├─ Mouse Movements: 2
+[02:04:11.111] [INFO ]     ├─ Scroll Actions:  2
+[02:04:11.111] [INFO ]     └─ Time Spent:      4.45s
+[02:04:11.436] [INFO ] 
+[02:04:11.436] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[02:04:11.436] [INFO ]     │ Title:            Egypt’s Challenges and Opportunities in Climate-Re
+[02:04:11.436] [INFO ]     │ Final URL:        https://carnegieendowment.org/research/2025/03/egypts-challenges-and-opportunities-in-climate-related-finance-and-governance
+[02:04:11.436] [INFO ]     │ HTML Size:        304,305 bytes
+[02:04:11.436] [INFO ]     │ Text Size:        49,279 chars
+[02:04:11.436] [INFO ]     │ Word Count:       ~7104 words
+[02:04:11.436] [INFO ]     │ Extraction:       trafilatura
+[02:04:11.436] [INFO ]     │ Has Article:      ✅ Yes
+[02:04:11.436] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:04:11.464] [INFO ] 
+[02:04:11.464] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[02:04:11.464] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260130_020404_4A1B
+[02:04:11.464] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:04:11.464] [INFO ] 
+[02:04:11.464] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[02:04:11.464] [INFO ]     │ Browser Launch:      0.06s
+[02:04:11.464] [INFO ]     │ Page Load:           0.45s
+[02:04:11.464] [INFO ]     │ Cloudflare Wait:     0.00s
+[02:04:11.464] [INFO ]     │ Human Simulation:    4.45s
+[02:04:11.464] [INFO ]     │
+[02:04:11.464] [INFO ]     │ Content Extraction:  0.18s
+[02:04:11.464] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[02:04:11.464] [INFO ]     │ TOTAL TIME:          5.13s
+[02:04:11.464] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:04:11.464] [INFO ] 
+[02:04:11.465] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[02:04:11.465] [INFO ]     │ Title:            Egypt’s Challenges and Opportunities in Climate-Re
+[02:04:11.465] [INFO ]     │ Final URL:        https://carnegieendowment.org/research/2025/03/egypts-challenges-and-opportunities-in-climate-related-finance-and-governance
+[02:04:11.465] [INFO ]     │ HTML Size:        304,305 bytes
+[02:04:11.465] [INFO ]     │ Text Size:        49,279 chars
+[02:04:11.465] [INFO ]     │ Word Count:       ~7104 words
+[02:04:11.465] [INFO ]     │ Extraction:       trafilatura
+[02:04:11.465] [INFO ]     │ Has Article:      ✅ Yes
+[02:04:11.465] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[02:04:11.465] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[02:04:11.465] [INFO ] ║  📊 SESSION STATS
+[02:04:11.465] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[02:04:11.465] [INFO ] ║  ├─ Popups Dismissed:   0
+[02:04:11.465] [INFO ] ║  ├─ Cloudflare:         Not detected
+[02:04:11.465] [INFO ] ║  └─ Proxy Used:         Direct
+[02:04:11.465] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[02:04:11.465] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.20s
+ENDED: 2026-01-30T02:04:11.465758+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

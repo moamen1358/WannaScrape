@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.megasoft.com.eg/risk-iso-27005
+Started: 2026-01-29 20:03:26
+Session ID: SCRAPE_20260129_200326_E241
+================================================================================
+[20:03:26.113] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_200326_megasoft.com.eg.log
+[20:03:26.113] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[20:03:26.459] [INFO ] 
+[20:03:26.459] [INFO ]     🚀 BROWSER LAUNCHED
+[20:03:26.459] [INFO ]     ├─ Mode:       Headless
+[20:03:26.459] [INFO ]     ├─ Slow Mo:    45ms
+[20:03:26.459] [INFO ]     ├─ Launch Time: 0.06s
+[20:03:26.459] [INFO ]     └─ Args:       Anti-automation flags enabled
+[20:03:26.476] [DEBUG] Browser profile: viewport={'width': 2560, 'height': 1440}, locale=en-US, tz=UTC
+[20:03:26.476] [INFO ] 
+[20:03:26.476] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:03:26.476] [INFO ] ║  📋 SESSION: SCRAPE_20260129_200326_E241
+[20:03:26.476] [INFO ] ║  🌐 URL: https://www.megasoft.com.eg/risk-iso-27005
+[20:03:26.476] [INFO ] ║  🔄 ATTEMPT: 1/2
+[20:03:26.476] [INFO ] ║  ⏰ STARTED: 2026-01-29T20:03:26.476745+02:00 (Egypt Time)
+[20:03:26.476] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:03:26.476] [INFO ] 
+[20:03:26.476] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[20:03:26.476] [INFO ]     │ Browser:     SAFARI v16
+[20:03:26.476] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/605.1.15 (KHT...
+[20:03:26.476] [INFO ]     │ Viewport:    2560x1440
+[20:03:26.476] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[20:03:26.476] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[20:03:26.476] [INFO ]     │ Location:    New York, USA
+[20:03:26.476] [INFO ]     │ Timezone:    N/A
+[20:03:26.476] [INFO ]     │ Locale:      en-US
+[20:03:26.476] [INFO ]     │ Geo:         0, 0
+[20:03:26.476] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[20:03:26.476] [INFO ]     │ Proxy:       Direct (no proxy)
+[20:03:26.476] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+megasoft+com+eg
+[20:03:26.476] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:03:26.476] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:03:26.476] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[20:03:26.476] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:03:26.476] [INFO ] 
+[20:03:26.476] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[20:03:26.476] [INFO ]     ├─ Canvas fingerprint noise
+[20:03:26.476] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:03:26.476] [INFO ]     ├─ Hardware concurrency randomization
+[20:03:26.476] [INFO ]     ├─ Device memory randomization
+[20:03:26.476] [INFO ]     ├─ Plugin masking
+[20:03:26.476] [INFO ]     ├─ WebRTC IP leak protection
+[20:03:26.476] [INFO ]     ├─ Network connection spoof
+[20:03:26.476] [INFO ]     └─ Battery API spoof
+[20:03:26.517] [INFO ] 
+[20:03:26.518] [INFO ]     🥷 STEALTH MODE APPLIED
+[20:03:26.518] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[20:03:26.518] [INFO ]     ├─ Chrome runtime patches
+[20:03:26.518] [INFO ]     ├─ Console patches
+[20:03:26.518] [INFO ]     └─ Permission patches
+[20:03:26.518] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[20:03:26.518] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[20:03:26.518] [INFO ] 
+[20:03:26.518] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[20:03:26.518] [INFO ]     ├─ Canvas fingerprint noise
+[20:03:26.518] [INFO ]     ├─ WebGL renderer/vendor spoof
+[20:03:26.518] [INFO ]     ├─ Hardware concurrency randomization
+[20:03:26.518] [INFO ]     ├─ Device memory randomization
+[20:03:26.518] [INFO ]     ├─ Plugin masking
+[20:03:26.518] [INFO ]     ├─ WebRTC IP leak protection
+[20:03:26.518] [INFO ]     ├─ Network connection spoof
+[20:03:26.518] [INFO ]     └─ Battery API spoof
+[20:03:26.518] [DEBUG] Enabled resource blocking (images, media, fonts)
+[20:03:26.518] [INFO ] 
+[20:03:26.518] [INFO ]     🔗 NAVIGATING TO URL
+[20:03:26.518] [INFO ]     ├─ Strategy:   domcontentloaded
+[20:03:26.518] [INFO ]     ├─ Timeout:    15.0s
+[20:03:26.518] [INFO ]     └─ Sleep:      1s after load
+[20:03:29.131] [INFO ] 
+[20:03:29.131] [INFO ]     ✅ PAGE LOADED
+[20:03:29.131] [INFO ]     ├─ Final URL:  https://www.megasoft.com.eg/risk-iso-27005
+[20:03:29.131] [INFO ]     ├─ Title:      MegaSoft IT Consulting & Training
+[20:03:29.131] [INFO ]     └─ Load Time:  2.61s
+[20:03:30.609] [INFO ] 🧑 Human behavior simulation...
+[20:03:32.880] [INFO ] 🖱️ Mouse: 1 moves in 2560x1440
+[20:03:32.880] [INFO ] 🖱️ Mouse completed: 1 moves
+[20:03:32.880] [INFO ] 📜 Scroll: page height, viewport=1440px
+[20:03:32.880] [INFO ] 📜 Scroll completed: 2 scrolls
+[20:03:32.880] [INFO ] 🧑 Human behavior completed in 2.3s ✓
+[20:03:32.880] [INFO ] 
+[20:03:32.880] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[20:03:32.880] [INFO ]     ├─ Mouse Movements: 1
+[20:03:32.880] [INFO ]     ├─ Scroll Actions:  2
+[20:03:32.880] [INFO ]     └─ Time Spent:      2.27s
+[20:03:33.840] [INFO ] 
+[20:03:33.840] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:03:33.840] [INFO ]     │ Title:            MegaSoft IT Consulting & Training
+[20:03:33.840] [INFO ]     │ Final URL:        https://www.megasoft.com.eg/risk-iso-27005
+[20:03:33.840] [INFO ]     │ HTML Size:        598,870 bytes
+[20:03:33.840] [INFO ]     │ Text Size:        1,058 chars
+[20:03:33.840] [INFO ]     │ Word Count:       ~145 words
+[20:03:33.840] [INFO ]     │ Extraction:       trafilatura
+[20:03:33.840] [INFO ]     │ Has Article:      ✅ Yes
+[20:03:33.840] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:03:33.871] [INFO ] 
+[20:03:33.871] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[20:03:33.871] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_200326_E241
+[20:03:33.871] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:03:33.871] [INFO ] 
+[20:03:33.871] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[20:03:33.871] [INFO ]     │ Browser Launch:      0.06s
+[20:03:33.871] [INFO ]     │ Page Load:           2.61s
+[20:03:33.871] [INFO ]     │ Cloudflare Wait:     0.00s
+[20:03:33.871] [INFO ]     │ Human Simulation:    2.27s
+[20:03:33.871] [INFO ]     │
+[20:03:33.871] [INFO ]     │ Content Extraction:  0.84s
+[20:03:33.871] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[20:03:33.871] [INFO ]     │ TOTAL TIME:          5.78s
+[20:03:33.871] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:03:33.871] [INFO ] 
+[20:03:33.871] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[20:03:33.871] [INFO ]     │ Title:            MegaSoft IT Consulting & Training
+[20:03:33.871] [INFO ]     │ Final URL:        https://www.megasoft.com.eg/risk-iso-27005
+[20:03:33.871] [INFO ]     │ HTML Size:        598,870 bytes
+[20:03:33.871] [INFO ]     │ Text Size:        1,058 chars
+[20:03:33.871] [INFO ]     │ Word Count:       ~145 words
+[20:03:33.871] [INFO ]     │ Extraction:       trafilatura
+[20:03:33.871] [INFO ]     │ Has Article:      ✅ Yes
+[20:03:33.871] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[20:03:33.871] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[20:03:33.871] [INFO ] ║  📊 SESSION STATS
+[20:03:33.871] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[20:03:33.871] [INFO ] ║  ├─ Popups Dismissed:   0
+[20:03:33.871] [INFO ] ║  ├─ Cloudflare:         Not detected
+[20:03:33.871] [INFO ] ║  └─ Proxy Used:         Direct
+[20:03:33.871] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[20:03:33.871] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.76s
+ENDED: 2026-01-29T20:03:33.871606+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.cgcompliance.com/services/soc2
+Started: 2026-01-29 19:04:54
+Session ID: SCRAPE_20260129_190454_4AB1
+================================================================================
+[19:04:54.906] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_190454_cgcompliance.com.log
+[19:04:54.906] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[19:04:55.247] [INFO ] 
+[19:04:55.247] [INFO ]     🚀 BROWSER LAUNCHED
+[19:04:55.247] [INFO ]     ├─ Mode:       Headless
+[19:04:55.247] [INFO ]     ├─ Slow Mo:    52ms
+[19:04:55.247] [INFO ]     ├─ Launch Time: 0.05s
+[19:04:55.247] [INFO ]     └─ Args:       Anti-automation flags enabled
+[19:04:55.265] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-IE, tz=UTC
+[19:04:55.265] [INFO ] 
+[19:04:55.265] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:04:55.265] [INFO ] ║  📋 SESSION: SCRAPE_20260129_190454_4AB1
+[19:04:55.265] [INFO ] ║  🌐 URL: https://www.cgcompliance.com/services/soc2
+[19:04:55.265] [INFO ] ║  🔄 ATTEMPT: 1/2
+[19:04:55.265] [INFO ] ║  ⏰ STARTED: 2026-01-29T19:04:55.265696+02:00 (Egypt Time)
+[19:04:55.265] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:04:55.265] [INFO ] 
+[19:04:55.265] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[19:04:55.265] [INFO ]     │ Browser:     SAFARI v17
+[19:04:55.265] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_1) AppleWebKit/605.1.15 (KHT...
+[19:04:55.265] [INFO ]     │ Viewport:    1920x1080
+[19:04:55.265] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[19:04:55.265] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[19:04:55.265] [INFO ]     │ Location:    Dublin, Ireland
+[19:04:55.265] [INFO ]     │ Timezone:    N/A
+[19:04:55.265] [INFO ]     │ Locale:      en-IE
+[19:04:55.265] [INFO ]     │ Geo:         0, 0
+[19:04:55.265] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[19:04:55.265] [INFO ]     │ Proxy:       Direct (no proxy)
+[19:04:55.265] [INFO ]     │ Referrer:    https://www.facebook.com/
+[19:04:55.265] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:04:55.265] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:04:55.265] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[19:04:55.265] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:04:55.265] [INFO ] 
+[19:04:55.265] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[19:04:55.265] [INFO ]     ├─ Canvas fingerprint noise
+[19:04:55.265] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:04:55.265] [INFO ]     ├─ Hardware concurrency randomization
+[19:04:55.265] [INFO ]     ├─ Device memory randomization
+[19:04:55.265] [INFO ]     ├─ Plugin masking
+[19:04:55.265] [INFO ]     ├─ WebRTC IP leak protection
+[19:04:55.265] [INFO ]     ├─ Network connection spoof
+[19:04:55.265] [INFO ]     └─ Battery API spoof
+[19:04:55.307] [INFO ] 
+[19:04:55.307] [INFO ]     🥷 STEALTH MODE APPLIED
+[19:04:55.307] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[19:04:55.307] [INFO ]     ├─ Chrome runtime patches
+[19:04:55.307] [INFO ]     ├─ Console patches
+[19:04:55.307] [INFO ]     └─ Permission patches
+[19:04:55.307] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[19:04:55.307] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:04:55.307] [INFO ] 
+[19:04:55.307] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[19:04:55.307] [INFO ]     ├─ Canvas fingerprint noise
+[19:04:55.307] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:04:55.307] [INFO ]     ├─ Hardware concurrency randomization
+[19:04:55.307] [INFO ]     ├─ Device memory randomization
+[19:04:55.307] [INFO ]     ├─ Plugin masking
+[19:04:55.307] [INFO ]     ├─ WebRTC IP leak protection
+[19:04:55.307] [INFO ]     ├─ Network connection spoof
+[19:04:55.307] [INFO ]     └─ Battery API spoof
+[19:04:55.307] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:04:55.307] [INFO ] 
+[19:04:55.307] [INFO ]     🔗 NAVIGATING TO URL
+[19:04:55.307] [INFO ]     ├─ Strategy:   domcontentloaded
+[19:04:55.307] [INFO ]     ├─ Timeout:    15.0s
+[19:04:55.307] [INFO ]     └─ Sleep:      1s after load
+[19:04:58.490] [INFO ] 
+[19:04:58.490] [INFO ]     ✅ PAGE LOADED
+[19:04:58.490] [INFO ]     ├─ Final URL:  https://www.cgcompliance.com/services/soc2
+[19:04:58.490] [INFO ]     ├─ Title:      SOC 2 l Services l CyberGuard Advantage
+[19:04:58.490] [INFO ]     └─ Load Time:  3.18s
+[19:04:59.885] [INFO ] 🧑 Human behavior simulation...
+[19:05:07.111] [INFO ] 🖱️ Mouse: 5 moves in 1920x1080
+[19:05:07.111] [INFO ] 🖱️ Mouse completed: 5 moves
+[19:05:07.111] [INFO ] 📜 Scroll: page height, viewport=1080px
+[19:05:07.111] [INFO ] 📜 Scroll completed: 2 scrolls
+[19:05:07.111] [INFO ] 🧑 Human behavior completed in 7.2s ✓
+[19:05:07.111] [INFO ] 
+[19:05:07.111] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[19:05:07.111] [INFO ]     ├─ Mouse Movements: 5
+[19:05:07.111] [INFO ]     ├─ Scroll Actions:  2
+[19:05:07.111] [INFO ]     └─ Time Spent:      7.23s
+[19:05:07.736] [INFO ] 
+[19:05:07.736] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:05:07.736] [INFO ]     │ Title:            SOC 2 l Services l CyberGuard Advantage
+[19:05:07.736] [INFO ]     │ Final URL:        https://www.cgcompliance.com/services/soc2
+[19:05:07.736] [INFO ]     │ HTML Size:        237,989 bytes
+[19:05:07.736] [INFO ]     │ Text Size:        6,240 chars
+[19:05:07.736] [INFO ]     │ Word Count:       ~877 words
+[19:05:07.736] [INFO ]     │ Extraction:       trafilatura
+[19:05:07.736] [INFO ]     │ Has Article:      ✅ Yes
+[19:05:07.736] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:05:07.780] [INFO ] 
+[19:05:07.780] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:05:07.780] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260129_190454_4AB1
+[19:05:07.780] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:05:07.780] [INFO ] 
+[19:05:07.780] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[19:05:07.780] [INFO ]     │ Browser Launch:      0.05s
+[19:05:07.780] [INFO ]     │ Page Load:           3.18s
+[19:05:07.780] [INFO ]     │ Cloudflare Wait:     0.00s
+[19:05:07.780] [INFO ]     │ Human Simulation:    7.23s
+[19:05:07.780] [INFO ]     │
+[19:05:07.780] [INFO ]     │ Content Extraction:  0.38s
+[19:05:07.780] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[19:05:07.780] [INFO ]     │ TOTAL TIME:          10.85s
+[19:05:07.780] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:05:07.780] [INFO ] 
+[19:05:07.780] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[19:05:07.780] [INFO ]     │ Title:            SOC 2 l Services l CyberGuard Advantage
+[19:05:07.780] [INFO ]     │ Final URL:        https://www.cgcompliance.com/services/soc2
+[19:05:07.780] [INFO ]     │ HTML Size:        237,989 bytes
+[19:05:07.780] [INFO ]     │ Text Size:        6,240 chars
+[19:05:07.780] [INFO ]     │ Word Count:       ~877 words
+[19:05:07.780] [INFO ]     │ Extraction:       trafilatura
+[19:05:07.780] [INFO ]     │ Has Article:      ✅ Yes
+[19:05:07.780] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:05:07.780] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:05:07.780] [INFO ] ║  📊 SESSION STATS
+[19:05:07.780] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[19:05:07.780] [INFO ] ║  ├─ Popups Dismissed:   0
+[19:05:07.780] [INFO ] ║  ├─ Cloudflare:         Not detected
+[19:05:07.780] [INFO ] ║  └─ Proxy Used:         Direct
+[19:05:07.780] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:05:07.780] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 12.87s
+ENDED: 2026-01-29T19:05:07.780976+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

@@ -21,9 +21,9 @@ When the user asks you to add a new bot detection system to WannaScrape, follow 
 
 Create a new file at `app/detections/{detection_name}.py`
 
-Example for Akamai:
+Example for Kasada:
 ```bash
-touch app/detections/akamai.py
+touch app/detections/kasada.py
 ```
 
 ### Step 2: Use This Template
@@ -264,8 +264,8 @@ class {DetectionName}Detection(BaseDetection):
 ### Step 3: Customize the Template
 
 Replace these placeholders:
-- `{DetectionName}` → `Akamai`, `Incapsula`, etc. (PascalCase)
-- `{detection_name}` → `akamai`, `incapsula`, etc. (lowercase)
+- `{DetectionName}` → `Kasada`, `Incapsula`, etc. (PascalCase)
+- `{detection_name}` → `kasada`, `incapsula`, etc. (lowercase)
 
 Fill in:
 1. **Selectors**: CSS selectors that identify this detection
@@ -384,7 +384,7 @@ Choose the appropriate `SolveMethod`:
 
 ## Common Detection Patterns
 
-### Akamai Bot Manager
+### Akamai Bot Manager ✅ (Already implemented: `app/detections/akamai.py`)
 ```python
 selectors = [
     "#ak-challenge",
@@ -394,6 +394,7 @@ selectors = [
 content_indicators = [
     "akamai",
     "ak_bmsc",
+    "errors.edgesuite.net",
     "/_sec/",
 ]
 ```
@@ -433,13 +434,13 @@ content_indicators = [
 
 ---
 
-## Example: Complete Akamai Detection
+## Example: Complete Kasada Detection
 
 ```python
 """
-Akamai Bot Manager Detection Plugin
-===================================
-Detects Akamai Bot Manager protection.
+Kasada Detection Plugin
+=======================
+Detects Kasada bot protection.
 """
 
 import time
@@ -453,27 +454,24 @@ from .base import (
     SolveMethod
 )
 
-logger = logging.getLogger("scraper.detections.akamai")
+logger = logging.getLogger("scraper.detections.kasada")
 
 
-class AkamaiDetection(BaseDetection):
-    name = "akamai"
-    priority = 25
+class KasadaDetection(BaseDetection):
+    name = "kasada"
+    priority = 30
     category = DetectionCategory.CHALLENGE
-    description = "Akamai Bot Manager"
+    description = "Kasada Bot Protection"
     requires_api = False
     solve_timeout = 30
 
     selectors = [
-        "#ak-challenge",
-        "#akamai-challenge-js",
-        "script[src*='akamaized']",
+        "#kasada-challenge",
     ]
 
     content_indicators = [
-        "akamai",
-        "ak_bmsc",
-        "/_sec/cp_challenge",
+        "kasada",
+        "x-kpsdk",
     ]
 
     def detect(self, page: Page, url: str) -> DetectionResult:
@@ -500,7 +498,7 @@ class AkamaiDetection(BaseDetection):
         return DetectionResult(detected=False, detection_type=self.name)
 
     def solve(self, page: Page, url: str, detection_result: DetectionResult) -> bool:
-        logger.info("Akamai challenge detected, waiting...")
+        logger.info("Kasada challenge detected, waiting...")
 
         for i in range(10):
             time.sleep(3)

@@ -1,0 +1,207 @@
+================================================================================
+SCRAPE LOG: https://www.acc.com/sites/default/files/program-materials/upload/Data%20Protection%20Law%20-%20Egypt%20-%20EN%20-%20MBH.PDF
+Started: 2026-01-29 19:36:24
+Session ID: SCRAPE_20260129_193624_466B
+================================================================================
+[19:36:24.843] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_193624_acc.com.log
+[19:36:24.843] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[19:36:25.183] [INFO ] 
+[19:36:25.183] [INFO ]     🚀 BROWSER LAUNCHED
+[19:36:25.183] [INFO ]     ├─ Mode:       Headless
+[19:36:25.183] [INFO ]     ├─ Slow Mo:    49ms
+[19:36:25.183] [INFO ]     ├─ Launch Time: 0.06s
+[19:36:25.183] [INFO ]     └─ Args:       Anti-automation flags enabled
+[19:36:25.199] [DEBUG] Browser profile: viewport={'width': 1536, 'height': 864}, locale=en-US, tz=UTC
+[19:36:25.199] [INFO ] 
+[19:36:25.199] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:36:25.199] [INFO ] ║  📋 SESSION: SCRAPE_20260129_193624_466B
+[19:36:25.199] [INFO ] ║  🌐 URL: https://www.acc.com/sites/default/files/program-materials/upload/Data%20Protection%20Law%20-%20Egypt%20-%20EN%20-%20MBH.PDF
+[19:36:25.199] [INFO ] ║  🔄 ATTEMPT: 1/2
+[19:36:25.199] [INFO ] ║  ⏰ STARTED: 2026-01-29T19:36:25.199199+02:00 (Egypt Time)
+[19:36:25.199] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:36:25.199] [INFO ] 
+[19:36:25.199] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[19:36:25.199] [INFO ]     │ Browser:     FIREFOX v125
+[19:36:25.199] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Fir...
+[19:36:25.199] [INFO ]     │ Viewport:    1536x864
+[19:36:25.199] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[19:36:25.199] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[19:36:25.199] [INFO ]     │ Location:    Denver, USA
+[19:36:25.199] [INFO ]     │ Timezone:    N/A
+[19:36:25.199] [INFO ]     │ Locale:      en-US
+[19:36:25.199] [INFO ]     │ Geo:         0, 0
+[19:36:25.199] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[19:36:25.199] [INFO ]     │ Proxy:       Direct (no proxy)
+[19:36:25.199] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+acc+com
+[19:36:25.199] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:36:25.199] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:36:25.199] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[19:36:25.199] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:36:25.199] [INFO ] 
+[19:36:25.199] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[19:36:25.199] [INFO ]     ├─ Canvas fingerprint noise
+[19:36:25.199] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:36:25.199] [INFO ]     ├─ Hardware concurrency randomization
+[19:36:25.199] [INFO ]     ├─ Device memory randomization
+[19:36:25.199] [INFO ]     ├─ Plugin masking
+[19:36:25.199] [INFO ]     ├─ WebRTC IP leak protection
+[19:36:25.199] [INFO ]     ├─ Network connection spoof
+[19:36:25.199] [INFO ]     └─ Battery API spoof
+[19:36:25.239] [INFO ] 
+[19:36:25.239] [INFO ]     🥷 STEALTH MODE APPLIED
+[19:36:25.239] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[19:36:25.239] [INFO ]     ├─ Chrome runtime patches
+[19:36:25.239] [INFO ]     ├─ Console patches
+[19:36:25.239] [INFO ]     └─ Permission patches
+[19:36:25.239] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[19:36:25.239] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:36:25.239] [INFO ] 
+[19:36:25.239] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[19:36:25.239] [INFO ]     ├─ Canvas fingerprint noise
+[19:36:25.239] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:36:25.239] [INFO ]     ├─ Hardware concurrency randomization
+[19:36:25.239] [INFO ]     ├─ Device memory randomization
+[19:36:25.239] [INFO ]     ├─ Plugin masking
+[19:36:25.239] [INFO ]     ├─ WebRTC IP leak protection
+[19:36:25.239] [INFO ]     ├─ Network connection spoof
+[19:36:25.239] [INFO ]     └─ Battery API spoof
+[19:36:25.239] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:36:25.239] [INFO ] 
+[19:36:25.239] [INFO ]     🔗 NAVIGATING TO URL
+[19:36:25.239] [INFO ]     ├─ Strategy:   domcontentloaded
+[19:36:25.239] [INFO ]     ├─ Timeout:    15.0s
+[19:36:25.239] [INFO ]     └─ Sleep:      1s after load
+[19:36:25.828] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:36:25.828] [INFO ] 
+[19:36:25.828] [INFO ]     🔗 NAVIGATING TO URL
+[19:36:25.828] [INFO ]     ├─ Strategy:   load
+[19:36:25.828] [INFO ]     ├─ Timeout:    20.0s
+[19:36:25.828] [INFO ]     └─ Sleep:      1s after load
+[19:36:25.909] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:36:25.909] [INFO ] 
+[19:36:25.909] [INFO ]     🔗 NAVIGATING TO URL
+[19:36:25.909] [INFO ]     ├─ Strategy:   networkidle
+[19:36:25.909] [INFO ]     ├─ Timeout:    25.0s
+[19:36:25.909] [INFO ]     └─ Sleep:      1s after load
+[19:36:32.521] [INFO ] 
+[19:36:32.521] [INFO ]     🚀 BROWSER LAUNCHED
+[19:36:32.521] [INFO ]     ├─ Mode:       Headless
+[19:36:32.521] [INFO ]     ├─ Slow Mo:    54ms
+[19:36:32.521] [INFO ]     ├─ Launch Time: 0.06s
+[19:36:32.521] [INFO ]     └─ Args:       Anti-automation flags enabled
+[19:36:32.542] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-US, tz=UTC
+[19:36:32.542] [INFO ] 
+[19:36:32.542] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:36:32.542] [INFO ] ║  📋 SESSION: SCRAPE_20260129_193624_466B
+[19:36:32.542] [INFO ] ║  🌐 URL: https://www.acc.com/sites/default/files/program-materials/upload/Data%20Protection%20Law%20-%20Egypt%20-%20EN%20-%20MBH.PDF
+[19:36:32.542] [INFO ] ║  🔄 ATTEMPT: 2/2
+[19:36:32.542] [INFO ] ║  ⏰ STARTED: 2026-01-29T19:36:32.542076+02:00 (Egypt Time)
+[19:36:32.542] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:36:32.542] [INFO ] 
+[19:36:32.542] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[19:36:32.542] [INFO ]     │ Browser:     EDGE v120
+[19:36:32.542] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[19:36:32.542] [INFO ]     │ Viewport:    1366x768
+[19:36:32.542] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[19:36:32.542] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[19:36:32.542] [INFO ]     │ Location:    Boston, USA
+[19:36:32.542] [INFO ]     │ Timezone:    N/A
+[19:36:32.542] [INFO ]     │ Locale:      en-US
+[19:36:32.542] [INFO ]     │ Geo:         0, 0
+[19:36:32.542] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[19:36:32.542] [INFO ]     │ Proxy:       Direct (no proxy)
+[19:36:32.542] [INFO ]     │ Referrer:    None
+[19:36:32.542] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:36:32.542] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:36:32.542] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[19:36:32.542] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:36:32.542] [INFO ] 
+[19:36:32.542] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[19:36:32.542] [INFO ]     ├─ Canvas fingerprint noise
+[19:36:32.542] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:36:32.542] [INFO ]     ├─ Hardware concurrency randomization
+[19:36:32.542] [INFO ]     ├─ Device memory randomization
+[19:36:32.542] [INFO ]     ├─ Plugin masking
+[19:36:32.542] [INFO ]     ├─ WebRTC IP leak protection
+[19:36:32.542] [INFO ]     ├─ Network connection spoof
+[19:36:32.542] [INFO ]     └─ Battery API spoof
+[19:36:32.583] [INFO ] 
+[19:36:32.583] [INFO ]     🥷 STEALTH MODE APPLIED
+[19:36:32.583] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[19:36:32.583] [INFO ]     ├─ Chrome runtime patches
+[19:36:32.584] [INFO ]     ├─ Console patches
+[19:36:32.584] [INFO ]     └─ Permission patches
+[19:36:32.584] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[19:36:32.584] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[19:36:32.584] [INFO ] 
+[19:36:32.584] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[19:36:32.584] [INFO ]     ├─ Canvas fingerprint noise
+[19:36:32.584] [INFO ]     ├─ WebGL renderer/vendor spoof
+[19:36:32.584] [INFO ]     ├─ Hardware concurrency randomization
+[19:36:32.584] [INFO ]     ├─ Device memory randomization
+[19:36:32.584] [INFO ]     ├─ Plugin masking
+[19:36:32.584] [INFO ]     ├─ WebRTC IP leak protection
+[19:36:32.584] [INFO ]     ├─ Network connection spoof
+[19:36:32.584] [INFO ]     └─ Battery API spoof
+[19:36:32.584] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:36:32.584] [INFO ] 
+[19:36:32.584] [INFO ]     🔗 NAVIGATING TO URL
+[19:36:32.584] [INFO ]     ├─ Strategy:   domcontentloaded
+[19:36:32.584] [INFO ]     ├─ Timeout:    15.0s
+[19:36:32.584] [INFO ]     └─ Sleep:      1s after load
+[19:36:32.706] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:36:32.706] [INFO ] 
+[19:36:32.706] [INFO ]     🔗 NAVIGATING TO URL
+[19:36:32.706] [INFO ]     ├─ Strategy:   load
+[19:36:32.706] [INFO ]     ├─ Timeout:    20.0s
+[19:36:32.706] [INFO ]     └─ Sleep:      1s after load
+[19:36:32.803] [DEBUG] Enabled resource blocking (images, media, fonts)
+[19:36:32.803] [INFO ] 
+[19:36:32.803] [INFO ]     🔗 NAVIGATING TO URL
+[19:36:32.803] [INFO ]     ├─ Strategy:   networkidle
+[19:36:32.803] [INFO ]     ├─ Timeout:    25.0s
+[19:36:32.803] [INFO ]     └─ Sleep:      1s after load
+[19:36:32.923] [INFO ] 
+[19:36:32.923] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[19:36:32.923] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260129_193624_466B
+[19:36:32.923] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[19:36:32.923] [INFO ] 
+[19:36:32.923] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[19:36:32.923] [INFO ]     │ URL:              https://www.acc.com/sites/default/files/program-materia
+[19:36:32.923] [INFO ]     │ Error Type:       network
+[19:36:32.923] [INFO ]     │ Likely Ban:       ❌ No
+[19:36:32.923] [INFO ]     │ Retries Used:     2
+[19:36:32.923] [INFO ]     │
+[19:36:32.923] [INFO ]     │ Error Message:
+[19:36:32.923] [INFO ]     │   Failed after 2 attempts. Last error: Page.goto: Download
+[19:36:32.923] [INFO ]     │    is starting
+Call log:
+  - navigating to "https://www.ac
+[19:36:32.923] [INFO ]     │   c.com/sites/default/files/program-materials/upload/Data%
+[19:36:32.923] [INFO ]     │   20Protection%20Law%20-%20Egypt%20-%20EN%20-%20MBH.PDF", 
+[19:36:32.923] [INFO ]     │   waiting until "networkidle"
+
+[19:36:32.923] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:36:32.923] [INFO ] 
+[19:36:32.923] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[19:36:32.923] [INFO ]     │ Browser Launch:     0.06s
+[19:36:32.923] [INFO ]     │ Page Load:          0.00s
+[19:36:32.923] [INFO ]     │ Cloudflare Wait:    0.00s
+[19:36:32.923] [INFO ]     │ Human Simulation:   0.00s
+[19:36:32.923] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[19:36:32.923] [INFO ]     │ FAILED AT:          0.06s
+[19:36:32.923] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:36:32.923] [INFO ] 
+[19:36:32.923] [INFO ]     ┌─ RECOMMENDATION ─────────────────────────────────────────────┐
+[19:36:32.923] [INFO ]     │ 💡 Network connection issue
+[19:36:32.923] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[19:36:32.923] [INFO ] 
+[19:36:32.923] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[19:36:32.923] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 8.08s
+ENDED: 2026-01-29T19:36:32.923303+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

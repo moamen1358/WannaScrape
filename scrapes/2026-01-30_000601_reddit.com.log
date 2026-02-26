@@ -1,0 +1,204 @@
+================================================================================
+SCRAPE LOG: https://www.reddit.com/r/Egypt/comments/9k36gl/general_data_protection_regulation_gdpr_not_yet/
+Started: 2026-01-30 00:06:01
+Session ID: SCRAPE_20260130_000601_4383
+================================================================================
+[00:06:01.614] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_000601_reddit.com.log
+[00:06:01.614] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[00:06:01.961] [INFO ] 
+[00:06:01.961] [INFO ]     🚀 BROWSER LAUNCHED
+[00:06:01.961] [INFO ]     ├─ Mode:       Headless
+[00:06:01.961] [INFO ]     ├─ Slow Mo:    42ms
+[00:06:01.961] [INFO ]     ├─ Launch Time: 0.06s
+[00:06:01.961] [INFO ]     └─ Args:       Anti-automation flags enabled
+[00:06:01.983] [DEBUG] Browser profile: viewport={'width': 1366, 'height': 768}, locale=en-US, tz=UTC
+[00:06:01.983] [INFO ] 
+[00:06:01.983] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:06:01.983] [INFO ] ║  📋 SESSION: SCRAPE_20260130_000601_4383
+[00:06:01.983] [INFO ] ║  🌐 URL: https://www.reddit.com/r/Egypt/comments/9k36gl/general_data_protection_regulation_gdpr_not_yet/
+[00:06:01.983] [INFO ] ║  🔄 ATTEMPT: 1/2
+[00:06:01.983] [INFO ] ║  ⏰ STARTED: 2026-01-30T00:06:01.983644+02:00 (Egypt Time)
+[00:06:01.983] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:06:01.983] [INFO ] 
+[00:06:01.983] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[00:06:01.983] [INFO ]     │ Browser:     OPERA v106
+[00:06:01.983] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[00:06:01.983] [INFO ]     │ Viewport:    1366x768
+[00:06:01.983] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[00:06:01.983] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[00:06:01.983] [INFO ]     │ Location:    Denver, USA
+[00:06:01.983] [INFO ]     │ Timezone:    N/A
+[00:06:01.983] [INFO ]     │ Locale:      en-US
+[00:06:01.983] [INFO ]     │ Geo:         0, 0
+[00:06:01.983] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[00:06:01.983] [INFO ]     │ Proxy:       Direct (no proxy)
+[00:06:01.983] [INFO ]     │ Referrer:    https://t.co/
+[00:06:01.983] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:06:01.983] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:06:01.983] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[00:06:01.983] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:06:01.983] [INFO ] 
+[00:06:01.983] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[00:06:01.983] [INFO ]     ├─ Canvas fingerprint noise
+[00:06:01.983] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:06:01.983] [INFO ]     ├─ Hardware concurrency randomization
+[00:06:01.983] [INFO ]     ├─ Device memory randomization
+[00:06:01.983] [INFO ]     ├─ Plugin masking
+[00:06:01.983] [INFO ]     ├─ WebRTC IP leak protection
+[00:06:01.983] [INFO ]     ├─ Network connection spoof
+[00:06:01.983] [INFO ]     └─ Battery API spoof
+[00:06:02.027] [INFO ] 
+[00:06:02.027] [INFO ]     🥷 STEALTH MODE APPLIED
+[00:06:02.027] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[00:06:02.027] [INFO ]     ├─ Chrome runtime patches
+[00:06:02.027] [INFO ]     ├─ Console patches
+[00:06:02.027] [INFO ]     └─ Permission patches
+[00:06:02.027] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[00:06:02.027] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:06:02.027] [INFO ] 
+[00:06:02.027] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[00:06:02.027] [INFO ]     ├─ Canvas fingerprint noise
+[00:06:02.027] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:06:02.027] [INFO ]     ├─ Hardware concurrency randomization
+[00:06:02.027] [INFO ]     ├─ Device memory randomization
+[00:06:02.027] [INFO ]     ├─ Plugin masking
+[00:06:02.027] [INFO ]     ├─ WebRTC IP leak protection
+[00:06:02.027] [INFO ]     ├─ Network connection spoof
+[00:06:02.027] [INFO ]     └─ Battery API spoof
+[00:06:02.027] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:06:02.027] [INFO ] 
+[00:06:02.027] [INFO ]     🔗 NAVIGATING TO URL
+[00:06:02.027] [INFO ]     ├─ Strategy:   domcontentloaded
+[00:06:02.027] [INFO ]     ├─ Timeout:    15.0s
+[00:06:02.027] [INFO ]     └─ Sleep:      1s after load
+[00:06:02.644] [INFO ] 
+[00:06:02.644] [INFO ]     ✅ PAGE LOADED
+[00:06:02.644] [INFO ]     ├─ Final URL:  https://www.reddit.com/r/Egypt/comments/9k36gl/general_data_protection_regulation_gdpr_not_yet/
+[00:06:02.644] [INFO ]     ├─ Title:      
+[00:06:02.644] [INFO ]     └─ Load Time:  0.62s
+[00:06:03.849] [INFO ] 🧑 Human behavior simulation...
+[00:06:06.340] [INFO ] 🖱️ Mouse: 2 moves in 1366x768
+[00:06:06.340] [INFO ] 🖱️ Mouse completed: 2 moves
+[00:06:06.340] [INFO ] 📜 Scroll: page height, viewport=768px
+[00:06:06.340] [INFO ] 📜 Scroll completed: 3 scrolls
+[00:06:06.340] [INFO ] 🧑 Human behavior completed in 2.5s ✓
+[00:06:06.340] [INFO ] 
+[00:06:06.340] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[00:06:06.340] [INFO ]     ├─ Mouse Movements: 2
+[00:06:06.340] [INFO ]     ├─ Scroll Actions:  3
+[00:06:06.340] [INFO ]     └─ Time Spent:      2.49s
+[00:06:14.771] [INFO ] 
+[00:06:14.771] [INFO ]     🚀 BROWSER LAUNCHED
+[00:06:14.771] [INFO ]     ├─ Mode:       Headless
+[00:06:14.771] [INFO ]     ├─ Slow Mo:    57ms
+[00:06:14.771] [INFO ]     ├─ Launch Time: 0.06s
+[00:06:14.771] [INFO ]     └─ Args:       Anti-automation flags enabled
+[00:06:14.788] [DEBUG] Browser profile: viewport={'width': 1920, 'height': 1080}, locale=en-US, tz=UTC
+[00:06:14.788] [INFO ] 
+[00:06:14.788] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:06:14.788] [INFO ] ║  📋 SESSION: SCRAPE_20260130_000601_4383
+[00:06:14.788] [INFO ] ║  🌐 URL: https://www.reddit.com/r/Egypt/comments/9k36gl/general_data_protection_regulation_gdpr_not_yet/
+[00:06:14.788] [INFO ] ║  🔄 ATTEMPT: 2/2
+[00:06:14.788] [INFO ] ║  ⏰ STARTED: 2026-01-30T00:06:14.788108+02:00 (Egypt Time)
+[00:06:14.788] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:06:14.788] [INFO ] 
+[00:06:14.788] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[00:06:14.788] [INFO ]     │ Browser:     CHROME v120
+[00:06:14.788] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML...
+[00:06:14.788] [INFO ]     │ Viewport:    1920x1080
+[00:06:14.788] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[00:06:14.788] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[00:06:14.788] [INFO ]     │ Location:    Phoenix, USA
+[00:06:14.788] [INFO ]     │ Timezone:    N/A
+[00:06:14.788] [INFO ]     │ Locale:      en-US
+[00:06:14.788] [INFO ]     │ Geo:         0, 0
+[00:06:14.788] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[00:06:14.788] [INFO ]     │ Proxy:       Direct (no proxy)
+[00:06:14.788] [INFO ]     │ Referrer:    https://news.google.com/
+[00:06:14.788] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:06:14.788] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:06:14.788] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[00:06:14.788] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:06:14.788] [INFO ] 
+[00:06:14.788] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[00:06:14.788] [INFO ]     ├─ Canvas fingerprint noise
+[00:06:14.788] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:06:14.788] [INFO ]     ├─ Hardware concurrency randomization
+[00:06:14.788] [INFO ]     ├─ Device memory randomization
+[00:06:14.788] [INFO ]     ├─ Plugin masking
+[00:06:14.788] [INFO ]     ├─ WebRTC IP leak protection
+[00:06:14.788] [INFO ]     ├─ Network connection spoof
+[00:06:14.788] [INFO ]     └─ Battery API spoof
+[00:06:14.829] [INFO ] 
+[00:06:14.829] [INFO ]     🥷 STEALTH MODE APPLIED
+[00:06:14.829] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[00:06:14.829] [INFO ]     ├─ Chrome runtime patches
+[00:06:14.829] [INFO ]     ├─ Console patches
+[00:06:14.829] [INFO ]     └─ Permission patches
+[00:06:14.829] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[00:06:14.829] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[00:06:14.829] [INFO ] 
+[00:06:14.829] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[00:06:14.829] [INFO ]     ├─ Canvas fingerprint noise
+[00:06:14.829] [INFO ]     ├─ WebGL renderer/vendor spoof
+[00:06:14.829] [INFO ]     ├─ Hardware concurrency randomization
+[00:06:14.829] [INFO ]     ├─ Device memory randomization
+[00:06:14.829] [INFO ]     ├─ Plugin masking
+[00:06:14.829] [INFO ]     ├─ WebRTC IP leak protection
+[00:06:14.829] [INFO ]     ├─ Network connection spoof
+[00:06:14.829] [INFO ]     └─ Battery API spoof
+[00:06:14.829] [DEBUG] Enabled resource blocking (images, media, fonts)
+[00:06:14.829] [INFO ] 
+[00:06:14.829] [INFO ]     🔗 NAVIGATING TO URL
+[00:06:14.829] [INFO ]     ├─ Strategy:   domcontentloaded
+[00:06:14.829] [INFO ]     ├─ Timeout:    15.0s
+[00:06:14.830] [INFO ]     └─ Sleep:      1s after load
+[00:06:15.441] [INFO ] 
+[00:06:15.441] [INFO ]     ✅ PAGE LOADED
+[00:06:15.441] [INFO ]     ├─ Final URL:  https://www.reddit.com/r/Egypt/comments/9k36gl/general_data_protection_regulation_gdpr_not_yet/
+[00:06:15.441] [INFO ]     ├─ Title:      
+[00:06:15.441] [INFO ]     └─ Load Time:  0.61s
+[00:06:16.658] [INFO ] 🧑 Human behavior simulation...
+[00:06:21.196] [INFO ] 🖱️ Mouse: 2 moves in 1920x1080
+[00:06:21.196] [INFO ] 🖱️ Mouse completed: 2 moves
+[00:06:21.196] [INFO ] 📜 Scroll: page height, viewport=1080px
+[00:06:21.196] [INFO ] 📜 Scroll completed: 3 scrolls
+[00:06:21.196] [INFO ] 🧑 Human behavior completed in 4.5s ✓
+[00:06:21.196] [INFO ] 
+[00:06:21.196] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[00:06:21.196] [INFO ]     ├─ Mouse Movements: 2
+[00:06:21.196] [INFO ]     ├─ Scroll Actions:  3
+[00:06:21.196] [INFO ]     └─ Time Spent:      4.54s
+[00:06:21.531] [INFO ] 
+[00:06:21.531] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[00:06:21.531] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260130_000601_4383
+[00:06:21.531] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[00:06:21.531] [INFO ] 
+[00:06:21.531] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[00:06:21.531] [INFO ]     │ URL:              https://www.reddit.com/r/Egypt/comments/9k36gl/general_
+[00:06:21.531] [INFO ]     │ Error Type:       unknown
+[00:06:21.531] [INFO ]     │ Likely Ban:       ❌ No
+[00:06:21.531] [INFO ]     │ Retries Used:     2
+[00:06:21.531] [INFO ]     │
+[00:06:21.531] [INFO ]     │ Error Message:
+[00:06:21.531] [INFO ]     │   Failed after 2 attempts. Last error: Unknown error
+[00:06:21.531] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:06:21.531] [INFO ] 
+[00:06:21.531] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[00:06:21.531] [INFO ]     │ Browser Launch:     0.06s
+[00:06:21.531] [INFO ]     │ Page Load:          0.61s
+[00:06:21.531] [INFO ]     │ Cloudflare Wait:    0.00s
+[00:06:21.531] [INFO ]     │ Human Simulation:   4.54s
+[00:06:21.531] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[00:06:21.531] [INFO ]     │ FAILED AT:          5.21s
+[00:06:21.531] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[00:06:21.531] [INFO ] 
+[00:06:21.531] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[00:06:21.531] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 19.92s
+ENDED: 2026-01-30T00:06:21.531912+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

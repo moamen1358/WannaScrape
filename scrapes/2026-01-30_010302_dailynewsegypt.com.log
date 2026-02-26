@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.dailynewsegypt.com/2025/06/18/egypts-fra-issues-new-website-and-cybersecurity-rules-for-insurance-sector/
+Started: 2026-01-30 01:03:02
+Session ID: SCRAPE_20260130_010302_F110
+================================================================================
+[01:03:02.921] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-30_010302_dailynewsegypt.com.log
+[01:03:02.921] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[01:03:03.265] [INFO ] 
+[01:03:03.265] [INFO ]     🚀 BROWSER LAUNCHED
+[01:03:03.265] [INFO ]     ├─ Mode:       Headless
+[01:03:03.265] [INFO ]     ├─ Slow Mo:    46ms
+[01:03:03.265] [INFO ]     ├─ Launch Time: 0.06s
+[01:03:03.265] [INFO ]     └─ Args:       Anti-automation flags enabled
+[01:03:03.284] [DEBUG] Browser profile: viewport={'width': 1680, 'height': 1050}, locale=en-CA, tz=UTC
+[01:03:03.284] [INFO ] 
+[01:03:03.284] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:03:03.284] [INFO ] ║  📋 SESSION: SCRAPE_20260130_010302_F110
+[01:03:03.284] [INFO ] ║  🌐 URL: https://www.dailynewsegypt.com/2025/06/18/egypts-fra-issues-new-website-and-cybersecurity-rules-for-insurance-sector/
+[01:03:03.284] [INFO ] ║  🔄 ATTEMPT: 1/2
+[01:03:03.284] [INFO ] ║  ⏰ STARTED: 2026-01-30T01:03:03.284087+02:00 (Egypt Time)
+[01:03:03.284] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:03:03.284] [INFO ] 
+[01:03:03.284] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[01:03:03.284] [INFO ]     │ Browser:     FIREFOX v122
+[01:03:03.284] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Fir...
+[01:03:03.284] [INFO ]     │ Viewport:    1680x1050
+[01:03:03.284] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[01:03:03.284] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[01:03:03.284] [INFO ]     │ Location:    Toronto, Canada
+[01:03:03.284] [INFO ]     │ Timezone:    N/A
+[01:03:03.284] [INFO ]     │ Locale:      en-CA
+[01:03:03.284] [INFO ]     │ Geo:         0, 0
+[01:03:03.284] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[01:03:03.284] [INFO ]     │ Proxy:       Direct (no proxy)
+[01:03:03.284] [INFO ]     │ Referrer:    None
+[01:03:03.284] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:03:03.284] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:03:03.284] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[01:03:03.284] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:03:03.284] [INFO ] 
+[01:03:03.284] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[01:03:03.284] [INFO ]     ├─ Canvas fingerprint noise
+[01:03:03.284] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:03:03.284] [INFO ]     ├─ Hardware concurrency randomization
+[01:03:03.284] [INFO ]     ├─ Device memory randomization
+[01:03:03.284] [INFO ]     ├─ Plugin masking
+[01:03:03.284] [INFO ]     ├─ WebRTC IP leak protection
+[01:03:03.284] [INFO ]     ├─ Network connection spoof
+[01:03:03.284] [INFO ]     └─ Battery API spoof
+[01:03:03.326] [INFO ] 
+[01:03:03.326] [INFO ]     🥷 STEALTH MODE APPLIED
+[01:03:03.326] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[01:03:03.326] [INFO ]     ├─ Chrome runtime patches
+[01:03:03.326] [INFO ]     ├─ Console patches
+[01:03:03.326] [INFO ]     └─ Permission patches
+[01:03:03.326] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[01:03:03.326] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[01:03:03.326] [INFO ] 
+[01:03:03.326] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[01:03:03.326] [INFO ]     ├─ Canvas fingerprint noise
+[01:03:03.326] [INFO ]     ├─ WebGL renderer/vendor spoof
+[01:03:03.326] [INFO ]     ├─ Hardware concurrency randomization
+[01:03:03.326] [INFO ]     ├─ Device memory randomization
+[01:03:03.326] [INFO ]     ├─ Plugin masking
+[01:03:03.326] [INFO ]     ├─ WebRTC IP leak protection
+[01:03:03.326] [INFO ]     ├─ Network connection spoof
+[01:03:03.326] [INFO ]     └─ Battery API spoof
+[01:03:03.326] [DEBUG] Enabled resource blocking (images, media, fonts)
+[01:03:03.326] [INFO ] 
+[01:03:03.326] [INFO ]     🔗 NAVIGATING TO URL
+[01:03:03.326] [INFO ]     ├─ Strategy:   domcontentloaded
+[01:03:03.326] [INFO ]     ├─ Timeout:    15.0s
+[01:03:03.326] [INFO ]     └─ Sleep:      1s after load
+[01:03:05.742] [INFO ] 
+[01:03:05.742] [INFO ]     ✅ PAGE LOADED
+[01:03:05.742] [INFO ]     ├─ Final URL:  https://www.dailynewsegypt.com/2025/06/18/egypts-fra-issues-new-website-and-cybersecurity-rules-for-insurance-sector/
+[01:03:05.742] [INFO ]     ├─ Title:      Egypt’s FRA issues new website and cybersecurity rules for insurance sector - Dailynewsegypt
+[01:03:05.742] [INFO ]     └─ Load Time:  2.42s
+[01:03:06.947] [INFO ] 🧑 Human behavior simulation...
+[01:03:13.131] [INFO ] 🖱️ Mouse: 4 moves in 1680x1050
+[01:03:13.131] [INFO ] 🖱️ Mouse completed: 4 moves
+[01:03:13.131] [INFO ] 📜 Scroll: page height, viewport=1050px
+[01:03:13.131] [INFO ] 📜 Scroll completed: 3 scrolls
+[01:03:13.131] [INFO ] 🧑 Human behavior completed in 6.2s ✓
+[01:03:13.131] [INFO ] 
+[01:03:13.131] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[01:03:13.131] [INFO ]     ├─ Mouse Movements: 4
+[01:03:13.131] [INFO ]     ├─ Scroll Actions:  3
+[01:03:13.131] [INFO ]     └─ Time Spent:      6.18s
+[01:03:13.205] [INFO ] 
+[01:03:13.205] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[01:03:13.205] [INFO ]     │ Title:            Egypt’s FRA issues new website and cybersecurity r
+[01:03:13.205] [INFO ]     │ Final URL:        https://www.dailynewsegypt.com/2025/06/18/egypts-fra-issues-new-website-and-cybersecurity-rules-for-insurance-sector/
+[01:03:13.205] [INFO ]     │ HTML Size:        120,279 bytes
+[01:03:13.205] [INFO ]     │ Text Size:        4,317 chars
+[01:03:13.205] [INFO ]     │ Word Count:       ~623 words
+[01:03:13.205] [INFO ]     │ Extraction:       trafilatura
+[01:03:13.205] [INFO ]     │ Has Article:      ✅ Yes
+[01:03:13.205] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:03:13.230] [INFO ] 
+[01:03:13.230] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[01:03:13.230] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260130_010302_F110
+[01:03:13.230] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:03:13.230] [INFO ] 
+[01:03:13.230] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[01:03:13.230] [INFO ]     │ Browser Launch:      0.06s
+[01:03:13.230] [INFO ]     │ Page Load:           2.42s
+[01:03:13.230] [INFO ]     │ Cloudflare Wait:     0.00s
+[01:03:13.230] [INFO ]     │ Human Simulation:    6.18s
+[01:03:13.230] [INFO ]     │
+[01:03:13.230] [INFO ]     │ Content Extraction:  0.04s
+[01:03:13.230] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[01:03:13.230] [INFO ]     │ TOTAL TIME:          8.70s
+[01:03:13.230] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:03:13.230] [INFO ] 
+[01:03:13.230] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[01:03:13.230] [INFO ]     │ Title:            Egypt’s FRA issues new website and cybersecurity r
+[01:03:13.230] [INFO ]     │ Final URL:        https://www.dailynewsegypt.com/2025/06/18/egypts-fra-issues-new-website-and-cybersecurity-rules-for-insurance-sector/
+[01:03:13.230] [INFO ]     │ HTML Size:        120,279 bytes
+[01:03:13.230] [INFO ]     │ Text Size:        4,317 chars
+[01:03:13.230] [INFO ]     │ Word Count:       ~623 words
+[01:03:13.230] [INFO ]     │ Extraction:       trafilatura
+[01:03:13.230] [INFO ]     │ Has Article:      ✅ Yes
+[01:03:13.230] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[01:03:13.230] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[01:03:13.230] [INFO ] ║  📊 SESSION STATS
+[01:03:13.230] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[01:03:13.230] [INFO ] ║  ├─ Popups Dismissed:   0
+[01:03:13.230] [INFO ] ║  ├─ Cloudflare:         Not detected
+[01:03:13.230] [INFO ] ║  └─ Proxy Used:         Direct
+[01:03:13.230] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[01:03:13.230] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 10.31s
+ENDED: 2026-01-30T01:03:13.230715+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

@@ -1,0 +1,204 @@
+================================================================================
+SCRAPE LOG: https://egcert.eg/cybersecurity-frameworks-and-standards/
+Started: 2026-01-29 17:35:52
+Session ID: SCRAPE_20260129_173552_A7DC
+================================================================================
+[17:35:52.129] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-29_173552_egcert.eg.log
+[17:35:52.129] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[17:35:52.465] [INFO ] 
+[17:35:52.465] [INFO ]     🚀 BROWSER LAUNCHED
+[17:35:52.465] [INFO ]     ├─ Mode:       Headless
+[17:35:52.465] [INFO ]     ├─ Slow Mo:    50ms
+[17:35:52.465] [INFO ]     ├─ Launch Time: 0.05s
+[17:35:52.465] [INFO ]     └─ Args:       Anti-automation flags enabled
+[17:35:52.484] [DEBUG] Browser profile: viewport={'width': 1536, 'height': 864}, locale=en-US, tz=UTC
+[17:35:52.484] [INFO ] 
+[17:35:52.484] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:35:52.484] [INFO ] ║  📋 SESSION: SCRAPE_20260129_173552_A7DC
+[17:35:52.484] [INFO ] ║  🌐 URL: https://egcert.eg/cybersecurity-frameworks-and-standards/
+[17:35:52.484] [INFO ] ║  🔄 ATTEMPT: 1/2
+[17:35:52.484] [INFO ] ║  ⏰ STARTED: 2026-01-29T17:35:52.484314+02:00 (Egypt Time)
+[17:35:52.484] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:35:52.484] [INFO ] 
+[17:35:52.484] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[17:35:52.484] [INFO ]     │ Browser:     CHROME v122
+[17:35:52.484] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[17:35:52.484] [INFO ]     │ Viewport:    1536x864
+[17:35:52.484] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[17:35:52.484] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[17:35:52.484] [INFO ]     │ Location:    Houston, USA
+[17:35:52.484] [INFO ]     │ Timezone:    N/A
+[17:35:52.484] [INFO ]     │ Locale:      en-US
+[17:35:52.484] [INFO ]     │ Geo:         0, 0
+[17:35:52.484] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[17:35:52.484] [INFO ]     │ Proxy:       Direct (no proxy)
+[17:35:52.484] [INFO ]     │ Referrer:    https://www.google.com/search?q=egcert+eg
+[17:35:52.484] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:35:52.484] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:35:52.484] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[17:35:52.484] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:35:52.484] [INFO ] 
+[17:35:52.484] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[17:35:52.484] [INFO ]     ├─ Canvas fingerprint noise
+[17:35:52.484] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:35:52.484] [INFO ]     ├─ Hardware concurrency randomization
+[17:35:52.484] [INFO ]     ├─ Device memory randomization
+[17:35:52.484] [INFO ]     ├─ Plugin masking
+[17:35:52.484] [INFO ]     ├─ WebRTC IP leak protection
+[17:35:52.484] [INFO ]     ├─ Network connection spoof
+[17:35:52.484] [INFO ]     └─ Battery API spoof
+[17:35:52.525] [INFO ] 
+[17:35:52.525] [INFO ]     🥷 STEALTH MODE APPLIED
+[17:35:52.525] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[17:35:52.525] [INFO ]     ├─ Chrome runtime patches
+[17:35:52.525] [INFO ]     ├─ Console patches
+[17:35:52.525] [INFO ]     └─ Permission patches
+[17:35:52.525] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[17:35:52.525] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:35:52.525] [INFO ] 
+[17:35:52.525] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[17:35:52.525] [INFO ]     ├─ Canvas fingerprint noise
+[17:35:52.525] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:35:52.525] [INFO ]     ├─ Hardware concurrency randomization
+[17:35:52.525] [INFO ]     ├─ Device memory randomization
+[17:35:52.525] [INFO ]     ├─ Plugin masking
+[17:35:52.525] [INFO ]     ├─ WebRTC IP leak protection
+[17:35:52.525] [INFO ]     ├─ Network connection spoof
+[17:35:52.525] [INFO ]     └─ Battery API spoof
+[17:35:52.525] [DEBUG] Enabled resource blocking (images, media, fonts)
+[17:35:52.525] [INFO ] 
+[17:35:52.525] [INFO ]     🔗 NAVIGATING TO URL
+[17:35:52.525] [INFO ]     ├─ Strategy:   domcontentloaded
+[17:35:52.525] [INFO ]     ├─ Timeout:    15.0s
+[17:35:52.525] [INFO ]     └─ Sleep:      1s after load
+[17:35:56.885] [INFO ] 
+[17:35:56.885] [INFO ]     ✅ PAGE LOADED
+[17:35:56.885] [INFO ]     ├─ Final URL:  https://egcert.eg/cybersecurity-frameworks-and-standards/
+[17:35:56.885] [INFO ]     ├─ Title:      CYBERSECURITY FRAMEWORKS AND STANDARDS - EG-CERT
+[17:35:56.885] [INFO ]     └─ Load Time:  4.36s
+[17:35:58.083] [INFO ] 🧑 Human behavior simulation...
+[17:36:04.758] [INFO ] 🖱️ Mouse: 5 moves in 1536x864
+[17:36:04.758] [INFO ] 🖱️ Mouse completed: 5 moves
+[17:36:04.758] [INFO ] 📜 Scroll: page height, viewport=864px
+[17:36:04.758] [INFO ] 📜 Scroll completed: 2 scrolls
+[17:36:04.758] [INFO ] 🧑 Human behavior completed in 6.7s ✓
+[17:36:04.758] [INFO ] 
+[17:36:04.758] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[17:36:04.758] [INFO ]     ├─ Mouse Movements: 5
+[17:36:04.758] [INFO ]     ├─ Scroll Actions:  2
+[17:36:04.758] [INFO ]     └─ Time Spent:      6.68s
+[17:36:08.315] [INFO ] 
+[17:36:08.315] [INFO ]     🚀 BROWSER LAUNCHED
+[17:36:08.315] [INFO ]     ├─ Mode:       Headless
+[17:36:08.315] [INFO ]     ├─ Slow Mo:    58ms
+[17:36:08.315] [INFO ]     ├─ Launch Time: 0.06s
+[17:36:08.315] [INFO ]     └─ Args:       Anti-automation flags enabled
+[17:36:08.333] [DEBUG] Browser profile: viewport={'width': 1280, 'height': 720}, locale=en-SG, tz=UTC
+[17:36:08.333] [INFO ] 
+[17:36:08.333] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:36:08.333] [INFO ] ║  📋 SESSION: SCRAPE_20260129_173552_A7DC
+[17:36:08.333] [INFO ] ║  🌐 URL: https://egcert.eg/cybersecurity-frameworks-and-standards/
+[17:36:08.333] [INFO ] ║  🔄 ATTEMPT: 2/2
+[17:36:08.333] [INFO ] ║  ⏰ STARTED: 2026-01-29T17:36:08.333464+02:00 (Egypt Time)
+[17:36:08.333] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:36:08.333] [INFO ] 
+[17:36:08.333] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[17:36:08.333] [INFO ]     │ Browser:     OPERA v105
+[17:36:08.333] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[17:36:08.333] [INFO ]     │ Viewport:    1280x720
+[17:36:08.333] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[17:36:08.333] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[17:36:08.333] [INFO ]     │ Location:    Singapore
+[17:36:08.333] [INFO ]     │ Timezone:    N/A
+[17:36:08.333] [INFO ]     │ Locale:      en-SG
+[17:36:08.333] [INFO ]     │ Geo:         0, 0
+[17:36:08.333] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[17:36:08.333] [INFO ]     │ Proxy:       Direct (no proxy)
+[17:36:08.333] [INFO ]     │ Referrer:    https://www.google.com/search?q=egcert+eg
+[17:36:08.333] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:36:08.333] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:36:08.333] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[17:36:08.333] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:36:08.333] [INFO ] 
+[17:36:08.333] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[17:36:08.333] [INFO ]     ├─ Canvas fingerprint noise
+[17:36:08.333] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:36:08.333] [INFO ]     ├─ Hardware concurrency randomization
+[17:36:08.333] [INFO ]     ├─ Device memory randomization
+[17:36:08.333] [INFO ]     ├─ Plugin masking
+[17:36:08.333] [INFO ]     ├─ WebRTC IP leak protection
+[17:36:08.333] [INFO ]     ├─ Network connection spoof
+[17:36:08.333] [INFO ]     └─ Battery API spoof
+[17:36:08.374] [INFO ] 
+[17:36:08.374] [INFO ]     🥷 STEALTH MODE APPLIED
+[17:36:08.374] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[17:36:08.374] [INFO ]     ├─ Chrome runtime patches
+[17:36:08.374] [INFO ]     ├─ Console patches
+[17:36:08.374] [INFO ]     └─ Permission patches
+[17:36:08.374] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[17:36:08.374] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[17:36:08.374] [INFO ] 
+[17:36:08.374] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[17:36:08.374] [INFO ]     ├─ Canvas fingerprint noise
+[17:36:08.374] [INFO ]     ├─ WebGL renderer/vendor spoof
+[17:36:08.374] [INFO ]     ├─ Hardware concurrency randomization
+[17:36:08.374] [INFO ]     ├─ Device memory randomization
+[17:36:08.374] [INFO ]     ├─ Plugin masking
+[17:36:08.374] [INFO ]     ├─ WebRTC IP leak protection
+[17:36:08.374] [INFO ]     ├─ Network connection spoof
+[17:36:08.374] [INFO ]     └─ Battery API spoof
+[17:36:08.374] [DEBUG] Enabled resource blocking (images, media, fonts)
+[17:36:08.374] [INFO ] 
+[17:36:08.374] [INFO ]     🔗 NAVIGATING TO URL
+[17:36:08.374] [INFO ]     ├─ Strategy:   domcontentloaded
+[17:36:08.374] [INFO ]     ├─ Timeout:    15.0s
+[17:36:08.374] [INFO ]     └─ Sleep:      1s after load
+[17:36:11.310] [INFO ] 
+[17:36:11.310] [INFO ]     ✅ PAGE LOADED
+[17:36:11.310] [INFO ]     ├─ Final URL:  https://egcert.eg/cybersecurity-frameworks-and-standards/
+[17:36:11.310] [INFO ]     ├─ Title:      CYBERSECURITY FRAMEWORKS AND STANDARDS - EG-CERT
+[17:36:11.310] [INFO ]     └─ Load Time:  2.94s
+[17:36:12.514] [INFO ] 🧑 Human behavior simulation...
+[17:36:16.415] [INFO ] 🖱️ Mouse: 3 moves in 1280x720
+[17:36:16.415] [INFO ] 🖱️ Mouse completed: 3 moves
+[17:36:16.415] [INFO ] 📜 Scroll: page height, viewport=720px
+[17:36:16.415] [INFO ] 📜 Scroll completed: 2 scrolls
+[17:36:16.415] [INFO ] 🧑 Human behavior completed in 3.9s ✓
+[17:36:16.415] [INFO ] 
+[17:36:16.415] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[17:36:16.415] [INFO ]     ├─ Mouse Movements: 3
+[17:36:16.415] [INFO ]     ├─ Scroll Actions:  2
+[17:36:16.415] [INFO ]     └─ Time Spent:      3.90s
+[17:36:16.510] [INFO ] 
+[17:36:16.510] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[17:36:16.510] [INFO ] ║  ❌ SCRAPE FAILED - SCRAPE_20260129_173552_A7DC
+[17:36:16.510] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[17:36:16.510] [INFO ] 
+[17:36:16.510] [INFO ]     ┌─ FAILURE SUMMARY ────────────────────────────────────────────┐
+[17:36:16.510] [INFO ]     │ URL:              https://egcert.eg/cybersecurity-frameworks-and-standard
+[17:36:16.510] [INFO ]     │ Error Type:       unknown
+[17:36:16.510] [INFO ]     │ Likely Ban:       ❌ No
+[17:36:16.510] [INFO ]     │ Retries Used:     2
+[17:36:16.510] [INFO ]     │
+[17:36:16.510] [INFO ]     │ Error Message:
+[17:36:16.510] [INFO ]     │   Failed after 2 attempts. Last error: Unknown error
+[17:36:16.510] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:36:16.510] [INFO ] 
+[17:36:16.510] [INFO ]     ┌─ TIMING AT FAILURE ──────────────────────────────────────────┐
+[17:36:16.510] [INFO ]     │ Browser Launch:     0.06s
+[17:36:16.510] [INFO ]     │ Page Load:          2.94s
+[17:36:16.510] [INFO ]     │ Cloudflare Wait:    0.00s
+[17:36:16.510] [INFO ]     │ Human Simulation:   3.90s
+[17:36:16.510] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[17:36:16.510] [INFO ]     │ FAILED AT:          6.89s
+[17:36:16.510] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[17:36:16.510] [INFO ] 
+[17:36:16.510] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[17:36:16.510] [INFO ] 
+
+================================================================================
+STATUS: FAILED
+TOTAL TIME: 24.38s
+ENDED: 2026-01-29T17:36:16.510191+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

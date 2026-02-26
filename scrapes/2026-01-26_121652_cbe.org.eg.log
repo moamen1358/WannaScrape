@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.cbe.org.eg/en/financial-technology
+Started: 2026-01-26 12:16:52
+Session ID: SCRAPE_20260126_121652_A9A7
+================================================================================
+[12:16:52.285] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_121652_cbe.org.eg.log
+[12:16:52.285] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:16:52.629] [INFO ] 
+[12:16:52.629] [INFO ]     🚀 BROWSER LAUNCHED
+[12:16:52.629] [INFO ]     ├─ Mode:       Headless
+[12:16:52.629] [INFO ]     ├─ Slow Mo:    44ms
+[12:16:52.629] [INFO ]     ├─ Launch Time: 0.06s
+[12:16:52.629] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:16:52.652] [DEBUG] Browser profile: viewport={'width': 1728, 'height': 1117}, locale=en-US, tz=UTC
+[12:16:52.652] [INFO ] 
+[12:16:52.652] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:16:52.652] [INFO ] ║  📋 SESSION: SCRAPE_20260126_121652_A9A7
+[12:16:52.652] [INFO ] ║  🌐 URL: https://www.cbe.org.eg/en/financial-technology
+[12:16:52.652] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:16:52.652] [INFO ] ║  ⏰ STARTED: 2026-01-26T12:16:52.652139+02:00 (Egypt Time)
+[12:16:52.652] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:16:52.652] [INFO ] 
+[12:16:52.652] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:16:52.652] [INFO ]     │ Browser:     CHROME v120
+[12:16:52.652] [INFO ]     │ User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KH...
+[12:16:52.652] [INFO ]     │ Viewport:    1728x1117
+[12:16:52.652] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:16:52.652] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:16:52.652] [INFO ]     │ Location:    Houston, USA
+[12:16:52.652] [INFO ]     │ Timezone:    N/A
+[12:16:52.652] [INFO ]     │ Locale:      en-US
+[12:16:52.652] [INFO ]     │ Geo:         0, 0
+[12:16:52.652] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:16:52.652] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:16:52.652] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+cbe+org+eg
+[12:16:52.652] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:16:52.652] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:16:52.652] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:16:52.652] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:16:52.652] [INFO ] 
+[12:16:52.652] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:16:52.652] [INFO ]     ├─ Canvas fingerprint noise
+[12:16:52.652] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:16:52.652] [INFO ]     ├─ Hardware concurrency randomization
+[12:16:52.652] [INFO ]     ├─ Device memory randomization
+[12:16:52.652] [INFO ]     ├─ Plugin masking
+[12:16:52.652] [INFO ]     ├─ WebRTC IP leak protection
+[12:16:52.652] [INFO ]     ├─ Network connection spoof
+[12:16:52.652] [INFO ]     └─ Battery API spoof
+[12:16:52.698] [INFO ] 
+[12:16:52.698] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:16:52.698] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:16:52.698] [INFO ]     ├─ Chrome runtime patches
+[12:16:52.698] [INFO ]     ├─ Console patches
+[12:16:52.698] [INFO ]     └─ Permission patches
+[12:16:52.698] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:16:52.698] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:16:52.698] [INFO ] 
+[12:16:52.698] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:16:52.698] [INFO ]     ├─ Canvas fingerprint noise
+[12:16:52.698] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:16:52.698] [INFO ]     ├─ Hardware concurrency randomization
+[12:16:52.698] [INFO ]     ├─ Device memory randomization
+[12:16:52.698] [INFO ]     ├─ Plugin masking
+[12:16:52.698] [INFO ]     ├─ WebRTC IP leak protection
+[12:16:52.698] [INFO ]     ├─ Network connection spoof
+[12:16:52.698] [INFO ]     └─ Battery API spoof
+[12:16:52.698] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:16:52.698] [INFO ] 
+[12:16:52.698] [INFO ]     🔗 NAVIGATING TO URL
+[12:16:52.698] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:16:52.698] [INFO ]     ├─ Timeout:    15.0s
+[12:16:52.698] [INFO ]     └─ Sleep:      1s after load
+[12:16:54.706] [INFO ] 
+[12:16:54.706] [INFO ]     ✅ PAGE LOADED
+[12:16:54.706] [INFO ]     ├─ Final URL:  https://www.cbe.org.eg/en/financial-technology
+[12:16:54.706] [INFO ]     ├─ Title:      Financial Technology
+[12:16:54.706] [INFO ]     └─ Load Time:  2.01s
+[12:16:55.942] [INFO ] 🧑 Human behavior simulation...
+[12:16:59.065] [INFO ] 🖱️ Mouse: 2 moves in 1728x1117
+[12:16:59.065] [INFO ] 🖱️ Mouse completed: 2 moves
+[12:16:59.065] [INFO ] 📜 Scroll: page height, viewport=1117px
+[12:16:59.065] [INFO ] 📜 Scroll completed: 2 scrolls
+[12:16:59.065] [INFO ] 🧑 Human behavior completed in 3.1s ✓
+[12:16:59.065] [INFO ] 
+[12:16:59.065] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:16:59.065] [INFO ]     ├─ Mouse Movements: 2
+[12:16:59.065] [INFO ]     ├─ Scroll Actions:  2
+[12:16:59.065] [INFO ]     └─ Time Spent:      3.12s
+[12:16:59.196] [INFO ] 
+[12:16:59.196] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:16:59.196] [INFO ]     │ Title:            Financial Technology
+[12:16:59.196] [INFO ]     │ Final URL:        https://www.cbe.org.eg/en/financial-technology
+[12:16:59.196] [INFO ]     │ HTML Size:        214,005 bytes
+[12:16:59.196] [INFO ]     │ Text Size:        891 chars
+[12:16:59.196] [INFO ]     │ Word Count:       ~131 words
+[12:16:59.196] [INFO ]     │ Extraction:       trafilatura
+[12:16:59.196] [INFO ]     │ Has Article:      ✅ Yes
+[12:16:59.196] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:16:59.219] [INFO ] 
+[12:16:59.219] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:16:59.219] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_121652_A9A7
+[12:16:59.219] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:16:59.219] [INFO ] 
+[12:16:59.219] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:16:59.219] [INFO ]     │ Browser Launch:      0.06s
+[12:16:59.219] [INFO ]     │ Page Load:           2.01s
+[12:16:59.219] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:16:59.219] [INFO ]     │ Human Simulation:    3.12s
+[12:16:59.219] [INFO ]     │
+[12:16:59.219] [INFO ]     │ Content Extraction:  0.08s
+[12:16:59.219] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:16:59.219] [INFO ]     │ TOTAL TIME:          5.27s
+[12:16:59.219] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:16:59.219] [INFO ] 
+[12:16:59.219] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:16:59.219] [INFO ]     │ Title:            Financial Technology
+[12:16:59.219] [INFO ]     │ Final URL:        https://www.cbe.org.eg/en/financial-technology
+[12:16:59.219] [INFO ]     │ HTML Size:        214,005 bytes
+[12:16:59.219] [INFO ]     │ Text Size:        891 chars
+[12:16:59.219] [INFO ]     │ Word Count:       ~131 words
+[12:16:59.219] [INFO ]     │ Extraction:       trafilatura
+[12:16:59.219] [INFO ]     │ Has Article:      ✅ Yes
+[12:16:59.219] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:16:59.219] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:16:59.219] [INFO ] ║  📊 SESSION STATS
+[12:16:59.219] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:16:59.219] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:16:59.219] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:16:59.219] [INFO ] ║  └─ Proxy Used:         Direct
+[12:16:59.219] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:16:59.219] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 6.93s
+ENDED: 2026-01-26T12:16:59.219730+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

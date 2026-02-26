@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.a-h-g.net/en/fintech-startups/
+Started: 2026-01-26 11:54:17
+Session ID: SCRAPE_20260126_115417_A1CF
+================================================================================
+[11:54:17.456] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_115417_a-h-g.net.log
+[11:54:17.456] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[11:54:17.795] [INFO ] 
+[11:54:17.795] [INFO ]     🚀 BROWSER LAUNCHED
+[11:54:17.795] [INFO ]     ├─ Mode:       Headless
+[11:54:17.795] [INFO ]     ├─ Slow Mo:    47ms
+[11:54:17.795] [INFO ]     ├─ Launch Time: 0.06s
+[11:54:17.795] [INFO ]     └─ Args:       Anti-automation flags enabled
+[11:54:17.811] [DEBUG] Browser profile: viewport={'width': 1536, 'height': 864}, locale=en-IE, tz=UTC
+[11:54:17.811] [INFO ] 
+[11:54:17.811] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[11:54:17.811] [INFO ] ║  📋 SESSION: SCRAPE_20260126_115417_A1CF
+[11:54:17.811] [INFO ] ║  🌐 URL: https://www.a-h-g.net/en/fintech-startups/
+[11:54:17.811] [INFO ] ║  🔄 ATTEMPT: 1/2
+[11:54:17.811] [INFO ] ║  ⏰ STARTED: 2026-01-26T11:54:17.811978+02:00 (Egypt Time)
+[11:54:17.811] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[11:54:17.811] [INFO ] 
+[11:54:17.812] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[11:54:17.812] [INFO ]     │ Browser:     CHROME v124
+[11:54:17.812] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[11:54:17.812] [INFO ]     │ Viewport:    1536x864
+[11:54:17.812] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[11:54:17.812] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[11:54:17.812] [INFO ]     │ Location:    Dublin, Ireland
+[11:54:17.812] [INFO ]     │ Timezone:    N/A
+[11:54:17.812] [INFO ]     │ Locale:      en-IE
+[11:54:17.812] [INFO ]     │ Geo:         0, 0
+[11:54:17.812] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[11:54:17.812] [INFO ]     │ Proxy:       Direct (no proxy)
+[11:54:17.812] [INFO ]     │ Referrer:    https://www.google.com/search?q=www+a-h-g+net
+[11:54:17.812] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[11:54:17.812] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[11:54:17.812] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[11:54:17.812] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[11:54:17.812] [INFO ] 
+[11:54:17.812] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[11:54:17.812] [INFO ]     ├─ Canvas fingerprint noise
+[11:54:17.812] [INFO ]     ├─ WebGL renderer/vendor spoof
+[11:54:17.812] [INFO ]     ├─ Hardware concurrency randomization
+[11:54:17.812] [INFO ]     ├─ Device memory randomization
+[11:54:17.812] [INFO ]     ├─ Plugin masking
+[11:54:17.812] [INFO ]     ├─ WebRTC IP leak protection
+[11:54:17.812] [INFO ]     ├─ Network connection spoof
+[11:54:17.812] [INFO ]     └─ Battery API spoof
+[11:54:17.852] [INFO ] 
+[11:54:17.852] [INFO ]     🥷 STEALTH MODE APPLIED
+[11:54:17.852] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[11:54:17.852] [INFO ]     ├─ Chrome runtime patches
+[11:54:17.852] [INFO ]     ├─ Console patches
+[11:54:17.852] [INFO ]     └─ Permission patches
+[11:54:17.852] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[11:54:17.852] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[11:54:17.852] [INFO ] 
+[11:54:17.852] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[11:54:17.852] [INFO ]     ├─ Canvas fingerprint noise
+[11:54:17.852] [INFO ]     ├─ WebGL renderer/vendor spoof
+[11:54:17.852] [INFO ]     ├─ Hardware concurrency randomization
+[11:54:17.852] [INFO ]     ├─ Device memory randomization
+[11:54:17.852] [INFO ]     ├─ Plugin masking
+[11:54:17.852] [INFO ]     ├─ WebRTC IP leak protection
+[11:54:17.852] [INFO ]     ├─ Network connection spoof
+[11:54:17.852] [INFO ]     └─ Battery API spoof
+[11:54:17.852] [DEBUG] Enabled resource blocking (images, media, fonts)
+[11:54:17.852] [INFO ] 
+[11:54:17.852] [INFO ]     🔗 NAVIGATING TO URL
+[11:54:17.852] [INFO ]     ├─ Strategy:   domcontentloaded
+[11:54:17.852] [INFO ]     ├─ Timeout:    15.0s
+[11:54:17.852] [INFO ]     └─ Sleep:      1s after load
+[11:54:23.403] [INFO ] 
+[11:54:23.403] [INFO ]     ✅ PAGE LOADED
+[11:54:23.403] [INFO ]     ├─ Final URL:  https://www.a-h-g.net/en/fintech-startups/
+[11:54:23.403] [INFO ]     ├─ Title:      Fintech Startups: New & Effective Standards for Establishment and Licensing 2024
+[11:54:23.403] [INFO ]     └─ Load Time:  5.55s
+[11:54:24.613] [INFO ] 🧑 Human behavior simulation...
+[11:54:29.242] [INFO ] 🖱️ Mouse: 3 moves in 1536x864
+[11:54:29.242] [INFO ] 🖱️ Mouse completed: 3 moves
+[11:54:29.242] [INFO ] 📜 Scroll: page height, viewport=864px
+[11:54:29.242] [INFO ] 📜 Scroll completed: 3 scrolls
+[11:54:29.242] [INFO ] 🧑 Human behavior completed in 4.6s ✓
+[11:54:29.242] [INFO ] 
+[11:54:29.242] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[11:54:29.242] [INFO ]     ├─ Mouse Movements: 3
+[11:54:29.242] [INFO ]     ├─ Scroll Actions:  3
+[11:54:29.242] [INFO ]     └─ Time Spent:      4.63s
+[11:54:29.327] [INFO ] 
+[11:54:29.327] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[11:54:29.327] [INFO ]     │ Title:            Fintech Startups: New & Effective Standards for Es
+[11:54:29.327] [INFO ]     │ Final URL:        https://www.a-h-g.net/en/fintech-startups/
+[11:54:29.327] [INFO ]     │ HTML Size:        139,655 bytes
+[11:54:29.327] [INFO ]     │ Text Size:        6,165 chars
+[11:54:29.327] [INFO ]     │ Word Count:       ~927 words
+[11:54:29.327] [INFO ]     │ Extraction:       trafilatura
+[11:54:29.327] [INFO ]     │ Has Article:      ✅ Yes
+[11:54:29.327] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[11:54:29.357] [INFO ] 
+[11:54:29.357] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[11:54:29.357] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_115417_A1CF
+[11:54:29.357] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[11:54:29.357] [INFO ] 
+[11:54:29.357] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[11:54:29.357] [INFO ]     │ Browser Launch:      0.06s
+[11:54:29.357] [INFO ]     │ Page Load:           5.55s
+[11:54:29.357] [INFO ]     │ Cloudflare Wait:     0.00s
+[11:54:29.357] [INFO ]     │ Human Simulation:    4.63s
+[11:54:29.357] [INFO ]     │
+[11:54:29.357] [INFO ]     │ Content Extraction:  0.05s
+[11:54:29.357] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[11:54:29.357] [INFO ]     │ TOTAL TIME:          10.29s
+[11:54:29.357] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[11:54:29.357] [INFO ] 
+[11:54:29.357] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[11:54:29.357] [INFO ]     │ Title:            Fintech Startups: New & Effective Standards for Es
+[11:54:29.357] [INFO ]     │ Final URL:        https://www.a-h-g.net/en/fintech-startups/
+[11:54:29.357] [INFO ]     │ HTML Size:        139,655 bytes
+[11:54:29.357] [INFO ]     │ Text Size:        6,165 chars
+[11:54:29.357] [INFO ]     │ Word Count:       ~927 words
+[11:54:29.357] [INFO ]     │ Extraction:       trafilatura
+[11:54:29.357] [INFO ]     │ Has Article:      ✅ Yes
+[11:54:29.357] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[11:54:29.357] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[11:54:29.357] [INFO ] ║  📊 SESSION STATS
+[11:54:29.357] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[11:54:29.357] [INFO ] ║  ├─ Popups Dismissed:   0
+[11:54:29.357] [INFO ] ║  ├─ Cloudflare:         Not detected
+[11:54:29.357] [INFO ] ║  └─ Proxy Used:         Direct
+[11:54:29.357] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[11:54:29.357] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 11.90s
+ENDED: 2026-01-26T11:54:29.357893+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================

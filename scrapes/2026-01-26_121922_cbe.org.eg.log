@@ -1,0 +1,139 @@
+================================================================================
+SCRAPE LOG: https://www.cbe.org.eg/en/laws-regulations/regulations/overview
+Started: 2026-01-26 12:19:22
+Session ID: SCRAPE_20260126_121922_A434
+================================================================================
+[12:19:22.288] [INFO ] 📝 Scrape log: /app/data/logs/scrapes/2026-01-26_121922_cbe.org.eg.log
+[12:19:22.288] [DEBUG] ⏱️ Timeout set to 45s for this scrape
+[12:19:22.629] [INFO ] 
+[12:19:22.629] [INFO ]     🚀 BROWSER LAUNCHED
+[12:19:22.629] [INFO ]     ├─ Mode:       Headless
+[12:19:22.629] [INFO ]     ├─ Slow Mo:    58ms
+[12:19:22.629] [INFO ]     ├─ Launch Time: 0.06s
+[12:19:22.629] [INFO ]     └─ Args:       Anti-automation flags enabled
+[12:19:22.650] [DEBUG] Browser profile: viewport={'width': 1600, 'height': 900}, locale=en-US, tz=UTC
+[12:19:22.650] [INFO ] 
+[12:19:22.650] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:19:22.650] [INFO ] ║  📋 SESSION: SCRAPE_20260126_121922_A434
+[12:19:22.650] [INFO ] ║  🌐 URL: https://www.cbe.org.eg/en/laws-regulations/regulations/overview
+[12:19:22.650] [INFO ] ║  🔄 ATTEMPT: 1/2
+[12:19:22.650] [INFO ] ║  ⏰ STARTED: 2026-01-26T12:19:22.650966+02:00 (Egypt Time)
+[12:19:22.650] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:19:22.650] [INFO ] 
+[12:19:22.650] [INFO ]     ┌─ BROWSER FINGERPRINT ────────────────────────────────────────┐
+[12:19:22.650] [INFO ]     │ Browser:     CHROME v123
+[12:19:22.651] [INFO ]     │ User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, l...
+[12:19:22.651] [INFO ]     │ Viewport:    1600x900
+[12:19:22.651] [INFO ]     │ Sec-CH-UA:   (not applicable)...
+[12:19:22.651] [INFO ]     ├─ LOCATION PROFILE ───────────────────────────────────────────┤
+[12:19:22.651] [INFO ]     │ Location:    San Francisco, USA
+[12:19:22.651] [INFO ]     │ Timezone:    N/A
+[12:19:22.651] [INFO ]     │ Locale:      en-US
+[12:19:22.651] [INFO ]     │ Geo:         0, 0
+[12:19:22.651] [INFO ]     ├─ NETWORK ────────────────────────────────────────────────────┤
+[12:19:22.651] [INFO ]     │ Proxy:       Direct (no proxy)
+[12:19:22.651] [INFO ]     │ Referrer:    https://www.google.com/
+[12:19:22.651] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:19:22.651] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:19:22.651] [INFO ] 🛡️ Injected anti-detection scripts at context level
+[12:19:22.651] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:19:22.651] [INFO ] 
+[12:19:22.651] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (CONTEXT level)
+[12:19:22.651] [INFO ]     ├─ Canvas fingerprint noise
+[12:19:22.651] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:19:22.651] [INFO ]     ├─ Hardware concurrency randomization
+[12:19:22.651] [INFO ]     ├─ Device memory randomization
+[12:19:22.651] [INFO ]     ├─ Plugin masking
+[12:19:22.651] [INFO ]     ├─ WebRTC IP leak protection
+[12:19:22.651] [INFO ]     ├─ Network connection spoof
+[12:19:22.651] [INFO ]     └─ Battery API spoof
+[12:19:22.693] [INFO ] 
+[12:19:22.693] [INFO ]     🥷 STEALTH MODE APPLIED
+[12:19:22.693] [INFO ]     ├─ Navigator patches (webdriver, plugins, languages)
+[12:19:22.693] [INFO ]     ├─ Chrome runtime patches
+[12:19:22.693] [INFO ]     ├─ Console patches
+[12:19:22.693] [INFO ]     └─ Permission patches
+[12:19:22.693] [INFO ] 🛡️ Injected anti-detection scripts at page level
+[12:19:22.693] [DEBUG]    └─ Canvas noise, WebGL spoof, Browser patches
+[12:19:22.693] [INFO ] 
+[12:19:22.693] [INFO ]     🛡️ ANTI-DETECTION SCRIPTS INJECTED (PAGE level)
+[12:19:22.693] [INFO ]     ├─ Canvas fingerprint noise
+[12:19:22.693] [INFO ]     ├─ WebGL renderer/vendor spoof
+[12:19:22.693] [INFO ]     ├─ Hardware concurrency randomization
+[12:19:22.693] [INFO ]     ├─ Device memory randomization
+[12:19:22.693] [INFO ]     ├─ Plugin masking
+[12:19:22.693] [INFO ]     ├─ WebRTC IP leak protection
+[12:19:22.693] [INFO ]     ├─ Network connection spoof
+[12:19:22.693] [INFO ]     └─ Battery API spoof
+[12:19:22.693] [DEBUG] Enabled resource blocking (images, media, fonts)
+[12:19:22.693] [INFO ] 
+[12:19:22.693] [INFO ]     🔗 NAVIGATING TO URL
+[12:19:22.693] [INFO ]     ├─ Strategy:   domcontentloaded
+[12:19:22.693] [INFO ]     ├─ Timeout:    15.0s
+[12:19:22.693] [INFO ]     └─ Sleep:      1s after load
+[12:19:24.519] [INFO ] 
+[12:19:24.519] [INFO ]     ✅ PAGE LOADED
+[12:19:24.519] [INFO ]     ├─ Final URL:  https://www.cbe.org.eg/en/laws-regulations/regulations/overview
+[12:19:24.519] [INFO ]     ├─ Title:      Overview
+[12:19:24.519] [INFO ]     └─ Load Time:  1.83s
+[12:19:25.765] [INFO ] 🧑 Human behavior simulation...
+[12:19:29.930] [INFO ] 🖱️ Mouse: 2 moves in 1600x900
+[12:19:29.930] [INFO ] 🖱️ Mouse completed: 2 moves
+[12:19:29.930] [INFO ] 📜 Scroll: page height, viewport=900px
+[12:19:29.930] [INFO ] 📜 Scroll completed: 3 scrolls
+[12:19:29.930] [INFO ] 🧑 Human behavior completed in 4.2s ✓
+[12:19:29.930] [INFO ] 
+[12:19:29.930] [INFO ]     🧑 HUMAN BEHAVIOR SIMULATED
+[12:19:29.930] [INFO ]     ├─ Mouse Movements: 2
+[12:19:29.930] [INFO ]     ├─ Scroll Actions:  3
+[12:19:29.930] [INFO ]     └─ Time Spent:      4.17s
+[12:19:30.066] [INFO ] 
+[12:19:30.066] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:19:30.066] [INFO ]     │ Title:            Overview
+[12:19:30.066] [INFO ]     │ Final URL:        https://www.cbe.org.eg/en/laws-regulations/regulations/overview
+[12:19:30.066] [INFO ]     │ HTML Size:        212,591 bytes
+[12:19:30.066] [INFO ]     │ Text Size:        8,973 chars
+[12:19:30.066] [INFO ]     │ Word Count:       ~1320 words
+[12:19:30.066] [INFO ]     │ Extraction:       trafilatura
+[12:19:30.066] [INFO ]     │ Has Article:      ✅ Yes
+[12:19:30.066] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:19:30.095] [INFO ] 
+[12:19:30.095] [INFO ] ╔══════════════════════════════════════════════════════════════════════════╗
+[12:19:30.095] [INFO ] ║  ✅ SCRAPE SUCCESSFUL - SCRAPE_20260126_121922_A434
+[12:19:30.095] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:19:30.095] [INFO ] 
+[12:19:30.095] [INFO ]     ┌─ TIMING BREAKDOWN ───────────────────────────────────────────┐
+[12:19:30.095] [INFO ]     │ Browser Launch:      0.06s
+[12:19:30.095] [INFO ]     │ Page Load:           1.83s
+[12:19:30.095] [INFO ]     │ Cloudflare Wait:     0.00s
+[12:19:30.095] [INFO ]     │ Human Simulation:    4.17s
+[12:19:30.095] [INFO ]     │
+[12:19:30.095] [INFO ]     │ Content Extraction:  0.09s
+[12:19:30.095] [INFO ]     │ ─────────────────────────────────────────────────────────────
+[12:19:30.095] [INFO ]     │ TOTAL TIME:          6.14s
+[12:19:30.095] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:19:30.095] [INFO ] 
+[12:19:30.095] [INFO ]     ┌─ CONTENT METRICS ────────────────────────────────────────────┐
+[12:19:30.095] [INFO ]     │ Title:            Overview
+[12:19:30.095] [INFO ]     │ Final URL:        https://www.cbe.org.eg/en/laws-regulations/regulations/overview
+[12:19:30.095] [INFO ]     │ HTML Size:        212,591 bytes
+[12:19:30.095] [INFO ]     │ Text Size:        8,973 chars
+[12:19:30.095] [INFO ]     │ Word Count:       ~1320 words
+[12:19:30.095] [INFO ]     │ Extraction:       trafilatura
+[12:19:30.095] [INFO ]     │ Has Article:      ✅ Yes
+[12:19:30.095] [INFO ]     └──────────────────────────────────────────────────────────────┘
+[12:19:30.095] [INFO ] ╠══════════════════════════════════════════════════════════════════════════╣
+[12:19:30.095] [INFO ] ║  📊 SESSION STATS
+[12:19:30.095] [INFO ] ║  ├─ Strategies Tried:   domcontentloaded
+[12:19:30.095] [INFO ] ║  ├─ Popups Dismissed:   0
+[12:19:30.095] [INFO ] ║  ├─ Cloudflare:         Not detected
+[12:19:30.095] [INFO ] ║  └─ Proxy Used:         Direct
+[12:19:30.095] [INFO ] ╚══════════════════════════════════════════════════════════════════════════╝
+[12:19:30.095] [INFO ] 
+
+================================================================================
+STATUS: SUCCESS
+TOTAL TIME: 7.81s
+ENDED: 2026-01-26T12:19:30.095620+02:00 (Egypt Time)
+END OF SCRAPE LOG
+================================================================================
