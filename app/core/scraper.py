@@ -26,6 +26,7 @@ from tenacity import retry, stop_after_attempt, wait_exponential
 from app.core.captcha_solver import CaptchaSolver
 from app.core.browser_manager import BrowserManager
 from app.core.content_extractor import ContentExtractor, check_expired_link
+from app.core.cookie_dismisser import dismiss_cookie_banner, dismiss_cookie_banner_aggressive
 from app.utils.proxy_manager import ProxyManager, load_proxies_from_file, mask_proxy
 from app.utils.human_behavior import simulate_human_behavior
 from app.utils.helpers import classify_error, save_failure_screenshot, load_config
@@ -166,14 +167,24 @@ class WebScraper:
     def _dismiss_popups(self, page) -> int:
         """Attempt to dismiss common popups and cookie banners."""
         dismissed = 0
+
+        # First try the specialized cookie dismisser (fastest, most reliable)
+        try:
+            if dismiss_cookie_banner(page):
+                dismissed += 1
+        except Exception:
+            pass
+
+        # Then try generic popup selectors
         for selector in POPUP_SELECTORS:
             try:
                 button = page.locator(selector).first
-                if button.is_visible(timeout=1000):
-                    button.click(timeout=2000)
-                    page.wait_for_timeout(500)
+                if button.is_visible(timeout=500):
+                    button.click(timeout=1500)
+                    page.wait_for_timeout(300)
                     dismissed += 1
                     logger.debug(f"Dismissed popup: {selector}")
+                    break  # One is usually enough
             except Exception:
                 continue
 

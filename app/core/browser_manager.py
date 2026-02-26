@@ -17,6 +17,7 @@ from app.config.constants import (
 )
 from app.services.user_agents import UserAgentManager
 from app.utils.helpers import get_referrer
+from app.core.fingerprint_manager import FingerprintManager
 
 logger = logging.getLogger("scraper.browser")
 
@@ -29,7 +30,17 @@ class BrowserManager:
     def __init__(self, config: dict):
         self.config = config
         self.ua_manager = UserAgentManager()
-        logger.info(f"Initialized with {self.ua_manager.get_total_user_agents()} user agents")
+
+        # Initialize fingerprint manager
+        fp_config = config.get("fingerprint", {})
+        fp_enabled = fp_config.get("enabled", True)
+        self.fingerprint_manager = FingerprintManager(enabled=fp_enabled)
+        self.use_fingerprint_rotation = fp_enabled
+
+        logger.info(
+            f"Initialized with {self.ua_manager.get_total_user_agents()} user agents, "
+            f"fingerprint rotation: {'ON' if fp_enabled else 'OFF'}"
+        )
 
     def get_launch_args(self) -> list:
         """Get browser launch arguments for anti-detection."""
@@ -39,6 +50,9 @@ class BrowserManager:
             '--no-sandbox',
             '--disable-web-security',
             '--disable-features=IsolateOrigins,site-per-process',
+            '--disable-site-isolation-trials',
+            '--disable-features=CrossSiteDocumentBlockingIfIsolating',
+            '--ignore-certificate-errors',
         ]
 
     def get_slow_mo(self) -> int:
@@ -59,27 +73,49 @@ class BrowserManager:
         Returns:
             Tuple of (BrowserContext, profile_info dict)
         """
-        # Get a complete browser profile with consistent fingerprint
-        browser_profile = self.ua_manager.get_random_profile()
-        user_agent = browser_profile.user_agent
+        fingerprint = None
 
-        # Get OS-matching viewport
-        viewport = self.ua_manager.get_matching_viewport(browser_profile)
-        location = self.ua_manager.get_random_location(prefer_english=True)
+        if self.use_fingerprint_rotation:
+            # Use fingerprint manager for a consistent, rotating fingerprint
+            fingerprint = self.fingerprint_manager.get_fingerprint()
+            user_agent = fingerprint.user_agent
+            viewport = fingerprint.viewport
+            location = self.ua_manager.get_random_location(prefer_english=True)
+
+            # Override location timezone with fingerprint timezone for consistency
+            location["timezone_id"] = fingerprint.timezone
+
+            # Get browser profile that matches the user agent (for logging)
+            browser_profile = self.ua_manager.get_random_profile()
+            browser_profile.user_agent = user_agent
+
+            # Build context options from fingerprint
+            context_options: Dict[str, Any] = {
+                **self.fingerprint_manager.get_context_options(fingerprint),
+                "geolocation": location["geo"],
+                "permissions": ['geolocation'],
+                "ignore_https_errors": True,
+            }
+        else:
+            # Legacy mode: use UserAgentManager
+            browser_profile = self.ua_manager.get_random_profile()
+            user_agent = browser_profile.user_agent
+            viewport = self.ua_manager.get_matching_viewport(browser_profile)
+            location = self.ua_manager.get_random_location(prefer_english=True)
+
+            context_options: Dict[str, Any] = {
+                "user_agent": user_agent,
+                "viewport": viewport,
+                "locale": location["locale"],
+                "timezone_id": location["timezone_id"],
+                "geolocation": location["geo"],
+                "permissions": ['geolocation'],
+                "ignore_https_errors": True,
+            }
 
         # Get matching HTTP headers
         http_headers = self.ua_manager.get_matching_headers(browser_profile)
-
-        # Build context options
-        context_options: Dict[str, Any] = {
-            "user_agent": user_agent,
-            "viewport": viewport,
-            "locale": location["locale"],
-            "timezone_id": location["timezone_id"],
-            "geolocation": location["geo"],
-            "permissions": ['geolocation'],
-            "extra_http_headers": http_headers,
-        }
+        context_options["extra_http_headers"] = http_headers
 
         # Add referrer
         referrer = get_referrer(url)
@@ -100,18 +136,25 @@ class BrowserManager:
                 "password": proxy.get("password"),
             }
 
-        logger.debug(f"Browser profile: viewport={viewport}, locale={location['locale']}, tz={location['timezone_id']}")
+        logger.debug(f"Browser profile: viewport={viewport}, locale={location.get('locale', 'en-US')}, tz={location.get('timezone_id', 'UTC')}")
 
         context = browser.new_context(**context_options)
 
         # Inject anti-detection scripts at context level
         self.inject_anti_detection_scripts(context, is_context=True)
 
+        # Inject fingerprint overrides if using fingerprint rotation
+        if fingerprint:
+            override_script = self.fingerprint_manager.get_override_script(fingerprint)
+            context.add_init_script(override_script)
+            logger.debug("Injected fingerprint override scripts")
+
         profile_info = {
             "browser_profile": browser_profile,
             "viewport": viewport,
             "location": location,
             "referrer": referrer,
+            "fingerprint": fingerprint,
         }
 
         return context, profile_info
@@ -131,7 +174,8 @@ class BrowserManager:
         self.inject_anti_detection_scripts(page, is_context=False)
 
         # Block unnecessary resources
-        self._setup_resource_blocking(page)
+        block_list = self.config.get("anti_detection", {}).get("block_resources", ["image", "media", "font"])
+        self._setup_resource_blocking(page, block_list)
 
         return page
 
@@ -161,17 +205,37 @@ class BrowserManager:
         except Exception as e:
             logger.warning(f"Failed to inject anti-detection scripts: {e}")
 
-    def _setup_resource_blocking(self, page: Page):
-        """Block images, media, and fonts to save bandwidth."""
+    def _setup_resource_blocking(self, page: Page, block_list: list = None):
+        """Block specified resource types to save bandwidth and speed up loading."""
+        if block_list is None:
+            block_list = ['image', 'media', 'font']
+
+        # Also block known tracking/analytics domains for speed
+        tracking_domains = [
+            'google-analytics.com', 'googletagmanager.com',
+            'facebook.net', 'doubleclick.net', 'hotjar.com',
+            'newrelic.com', 'sentry.io', 'segment.io',
+        ]
+
         def block_resources(route):
             resource_type = route.request.resource_type
-            if resource_type in ['image', 'media', 'font']:
+            url = route.request.url
+
+            # Block by resource type
+            if resource_type in block_list:
                 route.abort()
-            else:
-                route.continue_()
+                return
+
+            # Block tracking/analytics domains for speed
+            for domain in tracking_domains:
+                if domain in url:
+                    route.abort()
+                    return
+
+            route.continue_()
 
         page.route("**/*", block_resources)
-        logger.debug("Resource blocking enabled (images, media, fonts)")
+        logger.debug(f"Resource blocking enabled: {block_list} + tracking domains")
 
 
 def get_random_viewport() -> dict:

@@ -1,11 +1,15 @@
 {
     "proxies": {
         "enabled": false,
-        "proxy_file": "proxies.txt"
+        "proxy_file": "proxies.txt",
+        "rotating_proxy_url": "",
+        "proxy_username": "",
+        "proxy_password": "",
+        "proxy_list": []
     },
     "browser": {
         "headless": false,
-        "slow_mo": 50,
+        "slow_mo": 20,
         "timeout": 30000
     },
     "retry": {
@@ -15,8 +19,8 @@
     },
     "rate_limiting": {
         "max_requests_per_domain_per_hour": 60,
-        "min_delay_between_requests": 2,
-        "max_delay_between_requests": 8,
+        "min_delay_between_requests": 1,
+        "max_delay_between_requests": 4,
         "cooling_period_after_ban": 180
     },
     "user_agents": [
@@ -72,13 +76,17 @@
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 OPR/105.0.0.0",
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0"
     ],
+    "fingerprint": {
+        "enabled": true,
+        "rotate_per_request": true
+    },
     "strategies": [
         {"wait": "domcontentloaded", "timeout": 15000, "sleep": 1},
         {"wait": "load", "timeout": 20000, "sleep": 1},
         {"wait": "networkidle", "timeout": 25000, "sleep": 1}
     ],
     "anti_detection": {
-        "min_request_interval": 2,
+        "min_request_interval": 1,
         "simulate_human_behavior": true,
         "randomize_viewport": true,
         "randomize_timezone": true,
@@ -88,13 +96,18 @@
         "log_user_agent_selection": true
     },
     "human_behavior": {
-        "mouse_movements": {"min": 2, "max": 3},
-        "scroll_actions": {"min": 2, "max": 3},
-        "movement_speed": 0.008,
-        "pause_between_actions": {"min": 0.1, "max": 0.3}
+        "speed": "fast",
+        "mouse_movements": {"min": 1, "max": 2},
+        "scroll_actions": {"min": 1, "max": 2},
+        "movement_speed": 0.005,
+        "pause_between_actions": {"min": 0.05, "max": 0.15}
+    },
+    "cookie_dismisser": {
+        "enabled": true,
+        "aggressive": false
     },
     "proxy_manager": {
-        "min_proxy_interval": 15,
+        "min_proxy_interval": 10,
         "max_failures_before_cooldown": 3,
         "cooldown_seconds": 60
     },

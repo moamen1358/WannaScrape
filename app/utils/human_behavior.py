@@ -375,7 +375,7 @@ class AdvancedScrollSimulator:
             self.smooth_scroll(target - self.current_position, duration=0.1)
 
 
-def simulate_human_behavior(page, config: dict = None) -> dict:
+def simulate_human_behavior(page, config: dict = None, speed: str = None) -> dict:
     """
     Advanced human behavior simulation.
     
@@ -385,8 +385,20 @@ def simulate_human_behavior(page, config: dict = None) -> dict:
     3. Scroll to content
     4. Reading behavior with pauses
     5. Occasional back-scroll
+    
+    Args:
+        page: Playwright page object
+        config: Scraper config dict
+        speed: Override speed — "fast", "normal", or "stealth". 
+               "fast" = minimal simulation (~1s), 
+               "normal" = standard (~3-5s), 
+               "stealth" = thorough (~5-8s)
     """
     stats = {"mouse_moves": 0, "scrolls": 0, "behavior_type": "mixed"}
+
+    # Determine speed mode
+    if speed is None:
+        speed = (config or {}).get("human_behavior", {}).get("speed", "fast")
 
     try:
         start_time = time.time()
@@ -403,6 +415,21 @@ def simulate_human_behavior(page, config: dict = None) -> dict:
 
         mouse = AdvancedMouseSimulator(page, width, height)
         scroll = AdvancedScrollSimulator(page)
+
+        # ── FAST MODE: minimal simulation for speed ──
+        if speed == "fast":
+            behavior = random.choice(list(BehaviorType))
+            stats["behavior_type"] = behavior.value
+            logger.info("🎭 Behavior: FAST mode (minimal)")
+            # Just 1 mouse move + 1 scroll — enough to look human
+            mouse.random_movement()
+            stats["mouse_moves"] = 1
+            time.sleep(random.uniform(0.05, 0.15))
+            scroll.scroll_to_content()
+            stats["scrolls"] = 1
+            elapsed = time.time() - start_time
+            logger.info(f"✅ Human behavior (fast): {elapsed:.2f}s")
+            return stats
 
         behavior = random.choice(list(BehaviorType))
         stats["behavior_type"] = behavior.value
