@@ -99,7 +99,7 @@ def save_scraped_content(result: dict, url: str, save_dir: str = "data/scraped")
             json.dump(save_data, f, indent=2, ensure_ascii=False)
 
         return str(filepath)
-    except Exception as e:
+    except Exception:
         return None
 
 
