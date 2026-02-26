@@ -10,13 +10,16 @@ Production-ready web scraper with advanced anti-detection features and a plugin-
 
 | Feature | Description |
 |---------|-------------|
-| 🎭 **55+ User Agents** | Rotating browser fingerprints (Chrome, Firefox, Safari, Edge, Opera) |
+| 🎭 **Fingerprint Rotation** | 10 realistic browser fingerprints with consistent UA ↔ viewport ↔ platform ↔ WebGL ↔ hardware profiles |
 | 🌍 **30+ Locations** | Geographic profiles with matching timezones and locales |
-| 🛡️ **Anti-Detection** | Canvas noise, WebGL spoofing, WebRTC protection |
-| 🤖 **Human Behavior** | Bezier curve mouse movements, variable scrolling (1-3 actions) |
+| 🛡️ **Anti-Detection** | Canvas noise, WebGL spoofing, WebRTC protection, navigator patches |
+| 🤖 **Human Behavior** | Bezier curve mouse movements, variable scrolling — fast / normal / stealth modes |
 | 🔌 **Bot Detection Plugins** | Auto-detecting Cloudflare, Akamai, PerimeterX, DataDome, reCAPTCHA, hCaptcha |
 | 🔐 **CAPTCHA Solving** | Support for 2captcha and Capsolver services |
-| 🔄 **Proxy Rotation** | Smart proxy management with health tracking |
+| 🍪 **Cookie Banner Dismisser** | Auto-dismisses OneTrust, Cookiebot, Osano, TrustArc, Quantcast, Amazon SP + 30 generic selectors |
+| 🔄 **Proxy Rotation** | Smart proxy management with health tracking — file-based, rotating URL, or proxy list |
+| ⚡ **Speed Optimized** | Resource & tracker blocking, fast human behavior mode (~0.2s), reduced delays, early HTML snapshots |
+| 💾 **Auto-Save Content** | Scraped articles saved to `data/scraped/` as JSON (configurable, `--no-save` to disable) |
 | 💾 **Session Persistence** | Cookie management for returning visitor simulation |
 | 📡 **Dual Interface** | CLI + REST API |
 | 🔑 **API Authentication** | Optional API key protection |
@@ -151,19 +154,47 @@ Edit `config/config.json` for advanced settings:
 {
   "browser": {
     "headless": true,
-    "slow_mo": 50,
+    "slow_mo": 20,
     "timeout": 30000
   },
   "rate_limiting": {
-    "min_delay_between_requests": 5,
-    "max_delay_between_requests": 15
+    "min_delay_between_requests": 1,
+    "max_delay_between_requests": 4
+  },
+  "fingerprint": {
+    "enabled": true,
+    "rotate_per_request": true
+  },
+  "human_behavior": {
+    "speed": "fast"
+  },
+  "cookie_dismisser": {
+    "enabled": true,
+    "aggressive": false
   },
   "proxies": {
     "enabled": false,
-    "proxy_file": "config/proxies.txt"
+    "proxy_file": "proxies.txt",
+    "rotating_proxy_url": "",
+    "proxy_username": "",
+    "proxy_password": "",
+    "proxy_list": []
   }
 }
 ```
+
+### Configuration Reference
+
+| Section | Key | Default | Description |
+|---------|-----|---------|-------------|
+| `fingerprint` | `enabled` | `true` | Rotate browser fingerprints (UA, viewport, platform, WebGL, hardware) |
+| `fingerprint` | `rotate_per_request` | `true` | Use a new fingerprint for each request |
+| `human_behavior` | `speed` | `"fast"` | `"fast"` (~0.2s), `"normal"` (~3-5s), or `"stealth"` (~5-7s) |
+| `cookie_dismisser` | `enabled` | `true` | Auto-dismiss cookie consent banners |
+| `cookie_dismisser` | `aggressive` | `false` | Try reject/close buttons if accept fails |
+| `browser` | `slow_mo` | `20` | Milliseconds between browser actions |
+| `proxies` | `rotating_proxy_url` | `""` | URL for rotating proxy service (e.g., BrightData, Oxylabs) |
+| `proxies` | `proxy_list` | `[]` | Inline list of proxy URLs |
 
 ## 📁 Project Structure
 
@@ -171,12 +202,14 @@ Edit `config/config.json` for advanced settings:
 WannaScrape/
 ├── app/
 │   ├── api/              # FastAPI endpoints
-│   ├── cli/              # Typer CLI commands  
+│   ├── cli/              # Typer CLI commands (--save, --save-dir)
 │   ├── config/           # Settings, constants
 │   ├── core/             # Main scraper logic
-│   │   ├── scraper.py    # WebScraper class
-│   │   ├── browser_manager.py
-│   │   ├── content_extractor.py
+│   │   ├── scraper.py    # WebScraper class (orchestrator)
+│   │   ├── browser_manager.py  # Browser setup, fingerprint integration, tracker blocking
+│   │   ├── content_extractor.py # Trafilatura + fallback extraction
+│   │   ├── fingerprint_manager.py # 🆕 10 realistic fingerprint profiles + rotation
+│   │   ├── cookie_dismisser.py    # 🆕 Cookie banner auto-dismisser (30+ selectors)
 │   │   ├── captcha_solver.py
 │   │   ├── rate_limiter.py
 │   │   ├── session_manager.py
@@ -194,15 +227,15 @@ WannaScrape/
 │   ├── logging/          # Custom logger
 │   ├── monitoring/       # Prometheus metrics
 │   ├── services/         # Anti-detection, user agents
-│   └── utils/            # Helpers, human behavior
+│   └── utils/            # Helpers, human behavior (fast/normal/stealth)
 ├── config/               # JSON config, proxies
 ├── data/                 # Runtime data
-│   ├── scraped/          # Saved article content (JSON)
+│   ├── scraped/          # 💾 Auto-saved article content (JSON)
 │   ├── logs/scrapes/     # Scrape logs
 │   ├── screenshots/      # Failure screenshots
 │   └── sessions/         # Browser sessions
 ├── docs/                 # Documentation
-├── tests/                # Unit tests
+├── tests/                # Unit tests (120 tests)
 ├── main.py               # CLI entry point
 ├── requirements.txt
 ├── Dockerfile
@@ -212,7 +245,7 @@ WannaScrape/
 ## 🧪 Testing
 
 ```bash
-# Run all tests
+# Run all tests (120 tests)
 pytest tests/ -v
 
 # Run with coverage
@@ -233,14 +266,19 @@ pytest tests/test_api.py -v
 
 | Feature | Description |
 |---------|-------------|
-| Canvas Fingerprinting | Adds noise to canvas operations |
-| WebGL Spoofing | Randomizes renderer/vendor info |
-| WebRTC Protection | Prevents IP leaks |
-| Navigator Patches | Hides webdriver property |
-| Hardware Randomization | Random CPU cores, memory |
-| Mouse Simulation | Bezier curves, tremor, variable speed |
-| Scroll Simulation | Read/skim/back scroll patterns |
-| Behavior Types | READER, SKIMMER, SEARCHER modes |
+| 🎭 Fingerprint Rotation | 10 consistent profiles (UA ↔ viewport ↔ platform ↔ WebGL ↔ hardware), avoids last 3 used |
+| 🖼️ Canvas Fingerprinting | Adds noise to canvas operations |
+| 🎮 WebGL Spoofing | Randomizes renderer/vendor per fingerprint profile |
+| 🌐 WebRTC Protection | Prevents IP leaks |
+| 🧭 Navigator Patches | Hides webdriver property, consistent platform |
+| 💻 Hardware Randomization | Per-fingerprint CPU cores, memory, device pixel ratio |
+| 🖱️ Mouse Simulation | Bezier curves, tremor, variable speed |
+| 📜 Scroll Simulation | Read/skim/back scroll patterns |
+| 🎭 Behavior Modes | Fast (~0.2s), Normal (~3-5s), Stealth (~5-7s) |
+| 🍪 Cookie Banner Dismissal | OneTrust, Cookiebot, Osano, TrustArc, Quantcast, Amazon SP + generics |
+| 🚫 Tracker Blocking | Blocks google-analytics, facebook.net, hotjar, doubleclick, etc. |
+| 📸 Early HTML Snapshot | Captures content before JS crashes can blank the page |
+| 🔄 Multi-Strategy Fallback | domcontentloaded → load → networkidle with auto-retry |
 
 ## 📝 Logging
 

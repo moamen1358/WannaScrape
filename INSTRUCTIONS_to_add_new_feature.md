@@ -9,12 +9,14 @@
 ```
 app/
 ├── api/              # REST API endpoints (FastAPI)
-├── cli/              # CLI commands (Typer)
+├── cli/              # CLI commands (Typer) — --save, --save-dir flags
 ├── config/           # Configuration constants
 ├── core/             # Core business logic
 │   ├── scraper.py    # Main WebScraper class (orchestrates everything)
-│   ├── browser_manager.py
-│   ├── content_extractor.py
+│   ├── browser_manager.py     # Browser setup, fingerprint integration, tracker blocking
+│   ├── content_extractor.py   # Trafilatura + fallback extraction
+│   ├── fingerprint_manager.py # 🆕 10 fingerprint profiles, rotation, JS overrides
+│   ├── cookie_dismisser.py    # 🆕 Cookie banner auto-dismissal (30+ selectors)
 │   ├── captcha_solver.py
 │   ├── rate_limiter.py
 │   ├── session_manager.py
@@ -27,7 +29,7 @@ app/
 ├── logging/          # Logging system
 ├── monitoring/       # Prometheus metrics
 ├── services/         # External services (anti-detection scripts, user agents)
-└── utils/            # Pure utility functions
+└── utils/            # Pure utility functions, human behavior (fast/normal/stealth)
 ```
 
 ---
@@ -306,11 +308,16 @@ enabled = your_config.get("enabled", False)
 | File | Purpose | When to Modify |
 |------|---------|----------------|
 | `app/core/scraper.py` | Main orchestrator | Rarely - only for core flow changes |
-| `app/core/browser_manager.py` | Browser setup | Adding anti-detection scripts |
+| `app/core/browser_manager.py` | Browser setup, fingerprints, tracker blocking | Adding anti-detection scripts |
+| `app/core/fingerprint_manager.py` | Fingerprint rotation (10 profiles) | Adding new fingerprint profiles |
+| `app/core/cookie_dismisser.py` | Cookie banner auto-dismissal | Adding new consent framework selectors |
+| `app/core/content_extractor.py` | Article extraction (Trafilatura + fallback) | Adding new CSS selectors for content |
 | `app/detections/*.py` | Bot detection | Adding new detection (create new file) |
 | `app/api/scraper_api.py` | /scrape endpoint | Changing scrape API behavior |
-| `app/cli/commands.py` | CLI commands | Adding new commands |
+| `app/cli/commands.py` | CLI commands (--save, --save-dir) | Adding new commands |
 | `app/config/constants.py` | Constants | Adding popup selectors, etc. |
+| `app/utils/human_behavior.py` | Human simulation (fast/normal/stealth) | Changing behavior modes |
+| `config/config.json` | Runtime configuration | Adding new config options |
 | `requirements.txt` | Dependencies | Adding new packages |
 
 ---

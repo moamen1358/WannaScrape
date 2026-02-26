@@ -399,6 +399,38 @@ content_indicators = [
 ]
 ```
 
+---
+
+## Other Core Modules (Not Detection Plugins)
+
+These files are NOT detection plugins — they are core scraper modules.
+
+### Fingerprint Manager (`app/core/fingerprint_manager.py`)
+- 10 realistic browser fingerprints with consistent UA ↔ viewport ↔ platform ↔ WebGL ↔ hardware
+- Rotation avoids repeating last 3 used fingerprints
+- Generates Playwright context options and JS override scripts
+- Enabled via `config.fingerprint.enabled` and `config.fingerprint.rotate_per_request`
+- Integrated in `browser_manager.py` → `create_context()`
+
+### Cookie Banner Dismisser (`app/core/cookie_dismisser.py`)
+- Handles OneTrust, Cookiebot, Osano, TrustArc, Quantcast, Amazon SP
+- 30+ generic CSS selectors for accept/agree/consent buttons
+- Fast-fail approach (500ms timeout per selector)
+- Aggressive mode with reject/close fallbacks
+- Enabled via `config.cookie_dismisser.enabled` and `config.cookie_dismisser.aggressive`
+- Integrated in `scraper.py` → `_dismiss_popups()`
+
+### Human Behavior Speed Modes (`app/utils/human_behavior.py`)
+- `"fast"` — 1 mouse move + 1 scroll (~0.2s)
+- `"normal"` — standard behavior (~3-5s)
+- `"stealth"` — extended behavior (~5-7s)
+- Configured via `config.human_behavior.speed`
+
+### Browser Manager Enhancements (`app/core/browser_manager.py`)
+- Tracker/analytics domain blocking (google-analytics, facebook.net, hotjar, etc.)
+- `ignore_https_errors` on browser contexts
+- Launch args: `--ignore-certificate-errors`, `--disable-site-isolation-trials`
+
 ### Incapsula/Imperva
 ```python
 selectors = [
