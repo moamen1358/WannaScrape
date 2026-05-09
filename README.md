@@ -63,7 +63,6 @@ Request:
 ```bash
 curl -X POST http://localhost:8000/scrape \
   -H "Content-Type: application/json" \
-  -H "X-API-Key: $SCRAPER_API_KEY" \
   -d '{"url": "https://example.com/article", "company_name": "Example Corp"}'
 ```
 
@@ -92,7 +91,6 @@ Locate the source URL of a text fragment:
 ```bash
 curl -X POST http://localhost:8000/search \
   -H "Content-Type: application/json" \
-  -H "X-API-Key: $SCRAPER_API_KEY" \
   -d '{"text": "sample text to find source", "num_results": 3}'
 ```
 
@@ -103,6 +101,16 @@ curl -X POST http://localhost:8000/search \
 | `GET` | `/health` | `{"status": "ok"}` |
 | `GET` | `/stats` | Lifetime scrape counts and success rate |
 | `GET` | `/metrics` | Prometheus metrics |
+
+### Authentication (optional)
+
+By default the API is open. If you set the `SCRAPER_API_KEY`
+environment variable before starting the server, every endpoint then
+requires the matching header:
+
+```bash
+curl ... -H "X-API-Key: $SCRAPER_API_KEY" ...
+```
 
 ## Configuration
 
