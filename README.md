@@ -43,21 +43,66 @@ Run `python main.py --help` for the rest (`--no-save`, `-o json`,
 
 ## HTTP API
 
-```bash
-python main.py serve
+Start the server:
 
-# Scrape
+```bash
+python main.py serve --port 8000
+```
+
+### POST `/scrape`
+
+Request:
+
+```json
+{
+  "url": "https://example.com/article",
+  "company_name": "Example Corp"
+}
+```
+
+```bash
 curl -X POST http://localhost:8000/scrape \
   -H "Content-Type: application/json" \
   -H "X-API-Key: $SCRAPER_API_KEY" \
   -d '{"url": "https://example.com/article", "company_name": "Example Corp"}'
 ```
 
-Returns an article object with `title`, `text`, `date`, `source`,
-`final_url`, plus diagnostic fields (`scrape_duration`,
-`user_agent_used`, `location_used`).
+Response (one article object per call):
 
-Other endpoints: `GET /health`, `GET /stats`, `POST /search`.
+```json
+[
+  {
+    "company_name": "Example Corp",
+    "title": "Article Title",
+    "date": "2026-01-15",
+    "source": "https://example.com/article",
+    "text": "Full article content...",
+    "scrape_duration": 5.23,
+    "user_agent_used": "Mozilla/5.0...",
+    "location_used": "New York, USA",
+    "final_url": "https://example.com/article"
+  }
+]
+```
+
+### POST `/search`
+
+Locate the source URL of a text fragment:
+
+```bash
+curl -X POST http://localhost:8000/search \
+  -H "Content-Type: application/json" \
+  -H "X-API-Key: $SCRAPER_API_KEY" \
+  -d '{"text": "sample text to find source", "num_results": 3}'
+```
+
+### Other endpoints
+
+| Method | Path | Returns |
+|---|---|---|
+| `GET` | `/health` | `{"status": "ok"}` |
+| `GET` | `/stats` | Lifetime scrape counts and success rate |
+| `GET` | `/metrics` | Prometheus metrics |
 
 ## Configuration
 
