@@ -13,13 +13,13 @@ Prometheus metrics.
 
 ## Capabilities
 
-- Fingerprint rotation across 10 consistent browser profiles (user-agent,
+- Fingerprint rotation across 11 consistent browser profiles (user-agent,
   viewport, platform, WebGL, hardware all aligned)
-- 30+ geographic profiles with matching timezones and locales
+- 33 geographic profiles with matching timezones and locales
 - Anti-detection: canvas noise, WebGL spoofing, WebRTC leak protection,
   navigator-property patches
 - Human-behavior simulation with Bezier-curve mouse movement and three
-  speed modes (`fast` ~0.2 s, `normal` ~3-5 s, `stealth` ~5-7 s)
+  speed modes (`fast` ~1 s, `normal` ~3-5 s, `stealth` ~5-8 s)
 - Bot-detection plugins for Cloudflare, Akamai, PerimeterX, DataDome,
   reCAPTCHA, hCaptcha; auto-discovered via the registry
 - CAPTCHA solving via 2captcha or Capsolver
@@ -128,14 +128,15 @@ Environment variables:
 
 | Variable | Default | Description |
 |---|---|---|
-| `SCRAPER_HEADLESS` | `true` | Run browser in headless mode |
-| `SCRAPER_API_KEY` | unset | API key for HTTP authentication |
-| `SCRAPER_PROXY_ENABLED` | `false` | Enable proxy rotation |
-| `SCRAPER_CAPTCHA_ENABLED` | `false` | Enable CAPTCHA solving |
+| `SCRAPER_API_KEY` | unset | API key for HTTP authentication; when unset the API is open |
 | `LOG_LEVEL` | `INFO` | `DEBUG`, `INFO`, `WARNING`, `ERROR` |
 | `LOG_FORMAT` | `console` | `console` or `json` |
+| `WANNASCRAPE_DATA_DIR` | `data` | Directory for scraped articles, logs, screenshots, sessions |
+| `WANNASCRAPE_CONFIG_DIR` | `config` | Directory for `config.json` and proxy lists |
 
-Advanced settings live in `config/config.json`. Notable keys:
+Operational settings (headless, proxies, CAPTCHA, fingerprinting, rate
+limits) are configured in `config/config.json`, not via environment
+variables. Notable keys:
 
 | Section | Key | Default | Description |
 |---|---|---|---|
