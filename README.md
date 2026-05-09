@@ -1,121 +1,110 @@
-# 🕷️ WannaScrape
+# WannaScrape
 
-[![CI](https://github.com/moamen1358/Search_news_and_scrape_them/actions/workflows/ci.yml/badge.svg)](https://github.com/moamen1358/Search_news_and_scrape_them/actions/workflows/ci.yml)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+WannaScrape is a Python web scraper for article content with anti-detection
+and a plugin-based bot-detection system. It extracts clean article text
+from arbitrary websites while detecting and routing around common bot
+protection products (Cloudflare, Akamai, PerimeterX, DataDome, reCAPTCHA,
+hCaptcha).
 
-Production-ready web scraper with advanced anti-detection features and a plugin-based bot detection system. Extract clean article content from any website while automatically detecting and bypassing bot protection systems.
+The scraper is delivered as both a CLI and a FastAPI HTTP service. It
+ships with a Playwright-based browser, fingerprint rotation, cookie-banner
+dismissal, optional CAPTCHA solving, optional proxy rotation, and
+Prometheus metrics.
 
-## ✨ Features
+## Capabilities
 
-| Feature | Description |
-|---------|-------------|
-| 🎭 **Fingerprint Rotation** | 10 realistic browser fingerprints with consistent UA ↔ viewport ↔ platform ↔ WebGL ↔ hardware profiles |
-| 🌍 **30+ Locations** | Geographic profiles with matching timezones and locales |
-| 🛡️ **Anti-Detection** | Canvas noise, WebGL spoofing, WebRTC protection, navigator patches |
-| 🤖 **Human Behavior** | Bezier curve mouse movements, variable scrolling — fast / normal / stealth modes |
-| 🔌 **Bot Detection Plugins** | Auto-detecting Cloudflare, Akamai, PerimeterX, DataDome, reCAPTCHA, hCaptcha |
-| 🔐 **CAPTCHA Solving** | Support for 2captcha and Capsolver services |
-| 🍪 **Cookie Banner Dismisser** | Auto-dismisses OneTrust, Cookiebot, Osano, TrustArc, Quantcast, Amazon SP + 30 generic selectors |
-| 🔄 **Proxy Rotation** | Smart proxy management with health tracking — file-based, rotating URL, or proxy list |
-| ⚡ **Speed Optimized** | Resource & tracker blocking, fast human behavior mode (~0.2s), reduced delays, early HTML snapshots |
-| 💾 **Auto-Save Content** | Scraped articles saved to `data/scraped/` as JSON (configurable, `--no-save` to disable) |
-| 💾 **Session Persistence** | Cookie management for returning visitor simulation |
-| 📡 **Dual Interface** | CLI + REST API |
-| 🔑 **API Authentication** | Optional API key protection |
-| 📊 **Structured Logging** | JSON format option for production |
-| 📈 **Prometheus Metrics** | Built-in monitoring and observability |
+- Fingerprint rotation across 10 consistent browser profiles (user-agent,
+  viewport, platform, WebGL, hardware all aligned)
+- 30+ geographic profiles with matching timezones and locales
+- Anti-detection: canvas noise, WebGL spoofing, WebRTC leak protection,
+  navigator-property patches
+- Human-behavior simulation with Bezier-curve mouse movement and three
+  speed modes (`fast` ~0.2 s, `normal` ~3-5 s, `stealth` ~5-7 s)
+- Bot-detection plugins for Cloudflare, Akamai, PerimeterX, DataDome,
+  reCAPTCHA, hCaptcha; auto-discovered via the registry
+- CAPTCHA solving via 2captcha or Capsolver
+- Cookie-banner dismissal for OneTrust, Cookiebot, Osano, TrustArc,
+  Quantcast, Amazon SP, plus 30 generic selectors
+- Proxy rotation with health tracking (file-based, rotating-URL, or
+  inline proxy list)
+- Tracker and resource blocking, early HTML snapshots before
+  JS-induced page wipes
+- Scraped articles auto-saved to `data/scraped/` as JSON (configurable,
+  `--no-save` to disable)
+- Cookie persistence for returning-visitor simulation
+- Optional API-key authentication, structured JSON logging, Prometheus
+  metrics endpoint
 
-## 🚀 Quick Start
-
-### Installation
+## Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/moamen1358/Search_news_and_scrape_them.git
-cd Search_news_and_scrape_them
+git clone https://github.com/moamen1358/WannaScrape.git
+cd WannaScrape
 
-# Create virtual environment (recommended)
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# or: conda activate scraper_env
+source venv/bin/activate
 
-# Install dependencies
 pip install -r requirements.txt
-
-# Install Playwright browsers
 playwright install chromium
 ```
 
-### Docker
+For a containerized run:
 
 ```bash
-# Build and run
 docker compose up -d
-
-# View logs
 docker compose logs -f
-
-# Stop
-docker compose down
 ```
 
-## 📖 Usage
-
-### CLI Commands
+## CLI
 
 ```bash
-# Scrape an article (content auto-saved to data/scraped/)
+# Scrape a single article (auto-saved to data/scraped/)
 python main.py scrape https://example.com/article
 
-# Scrape with visible browser (for debugging)
+# Visible browser for debugging
 python main.py scrape https://example.com/article --no-headless
 
-# Scrape without saving content
+# Skip auto-save
 python main.py scrape https://example.com --no-save
 
-# JSON output format
+# JSON output
 python main.py scrape https://example.com -o json
 
-# Save to custom directory
+# Custom save directory
 python main.py scrape https://example.com --save-dir output/articles
 
-# Start API server
+# Start the HTTP server
 python main.py serve --port 8000
 
 # Show statistics
 python main.py stats
-
-# Show version
-python main.py version
 ```
 
-### REST API
+## HTTP API
 
 ```bash
-# Start the server
 python main.py serve
 
-# Health check (no auth required)
+# Health
 curl http://localhost:8000/health
 
-# Scrape an article (with API key if configured)
+# Scrape (with API key if SCRAPER_API_KEY is set)
 curl -X POST http://localhost:8000/scrape \
   -H "Content-Type: application/json" \
   -H "X-API-Key: your-api-key" \
   -d '{"url": "https://example.com/article", "company_name": "Example Corp"}'
 
-# Search for text source
+# Locate the source of a text fragment
 curl -X POST http://localhost:8000/search \
   -H "Content-Type: application/json" \
   -H "X-API-Key: your-api-key" \
   -d '{"text": "sample text to find source", "num_results": 3}'
 
-# Get statistics
+# Statistics
 curl http://localhost:8000/stats
 ```
 
-### API Response Example
+Response shape:
 
 ```json
 [
@@ -133,180 +122,97 @@ curl http://localhost:8000/stats
 ]
 ```
 
-## ⚙️ Configuration
+## Configuration
 
-### Environment Variables
+Environment variables:
 
 | Variable | Default | Description |
-|----------|---------|-------------|
+|---|---|---|
 | `SCRAPER_HEADLESS` | `true` | Run browser in headless mode |
-| `SCRAPER_API_KEY` | `None` | API key for authentication (optional) |
+| `SCRAPER_API_KEY` | unset | API key for HTTP authentication |
 | `SCRAPER_PROXY_ENABLED` | `false` | Enable proxy rotation |
 | `SCRAPER_CAPTCHA_ENABLED` | `false` | Enable CAPTCHA solving |
-| `LOG_LEVEL` | `INFO` | Logging level (DEBUG, INFO, WARNING, ERROR) |
-| `LOG_FORMAT` | `console` | Log format (`console` or `json`) |
+| `LOG_LEVEL` | `INFO` | `DEBUG`, `INFO`, `WARNING`, `ERROR` |
+| `LOG_FORMAT` | `console` | `console` or `json` |
 
-### Config File
-
-Edit `config/config.json` for advanced settings:
-
-```json
-{
-  "browser": {
-    "headless": true,
-    "slow_mo": 20,
-    "timeout": 30000
-  },
-  "rate_limiting": {
-    "min_delay_between_requests": 1,
-    "max_delay_between_requests": 4
-  },
-  "fingerprint": {
-    "enabled": true,
-    "rotate_per_request": true
-  },
-  "human_behavior": {
-    "speed": "fast"
-  },
-  "cookie_dismisser": {
-    "enabled": true,
-    "aggressive": false
-  },
-  "proxies": {
-    "enabled": false,
-    "proxy_file": "proxies.txt",
-    "rotating_proxy_url": "",
-    "proxy_username": "",
-    "proxy_password": "",
-    "proxy_list": []
-  }
-}
-```
-
-### Configuration Reference
+Advanced settings live in `config/config.json`. Notable keys:
 
 | Section | Key | Default | Description |
-|---------|-----|---------|-------------|
-| `fingerprint` | `enabled` | `true` | Rotate browser fingerprints (UA, viewport, platform, WebGL, hardware) |
-| `fingerprint` | `rotate_per_request` | `true` | Use a new fingerprint for each request |
-| `human_behavior` | `speed` | `"fast"` | `"fast"` (~0.2s), `"normal"` (~3-5s), or `"stealth"` (~5-7s) |
-| `cookie_dismisser` | `enabled` | `true` | Auto-dismiss cookie consent banners |
-| `cookie_dismisser` | `aggressive` | `false` | Try reject/close buttons if accept fails |
+|---|---|---|---|
+| `fingerprint` | `enabled` | `true` | Rotate browser fingerprints |
+| `fingerprint` | `rotate_per_request` | `true` | New fingerprint per request |
+| `human_behavior` | `speed` | `fast` | `fast`, `normal`, `stealth` |
+| `cookie_dismisser` | `enabled` | `true` | Auto-dismiss cookie banners |
+| `cookie_dismisser` | `aggressive` | `false` | Try reject/close if accept fails |
 | `browser` | `slow_mo` | `20` | Milliseconds between browser actions |
-| `proxies` | `rotating_proxy_url` | `""` | URL for rotating proxy service (e.g., BrightData, Oxylabs) |
+| `proxies` | `rotating_proxy_url` | `""` | URL for rotating-proxy service |
 | `proxies` | `proxy_list` | `[]` | Inline list of proxy URLs |
 
-## 📁 Project Structure
+## Project structure
 
 ```
 WannaScrape/
 ├── app/
-│   ├── api/              # FastAPI endpoints
-│   ├── cli/              # Typer CLI commands (--save, --save-dir)
-│   ├── config/           # Settings, constants
-│   ├── core/             # Main scraper logic
-│   │   ├── scraper.py    # WebScraper class (orchestrator)
-│   │   ├── browser_manager.py  # Browser setup, fingerprint integration, tracker blocking
-│   │   ├── content_extractor.py # Trafilatura + fallback extraction
-│   │   ├── fingerprint_manager.py # 🆕 10 realistic fingerprint profiles + rotation
-│   │   ├── cookie_dismisser.py    # 🆕 Cookie banner auto-dismisser (30+ selectors)
+│   ├── api/                # FastAPI endpoints
+│   ├── cli/                # Typer CLI commands
+│   ├── config/             # Settings, constants
+│   ├── core/               # Main scraper logic
+│   │   ├── scraper.py
+│   │   ├── browser_manager.py
+│   │   ├── content_extractor.py    # Trafilatura plus fallback
+│   │   ├── fingerprint_manager.py
+│   │   ├── cookie_dismisser.py
 │   │   ├── captcha_solver.py
 │   │   ├── rate_limiter.py
 │   │   ├── session_manager.py
-│   │   └── exceptions.py # Custom exceptions
-│   ├── detections/       # 🔌 Bot detection plugin system
-│   │   ├── base.py       # BaseDetection abstract class
-│   │   ├── registry.py   # Auto-discovery engine
-│   │   ├── handler.py    # Interface for scraper.py
-│   │   ├── cloudflare.py # Cloudflare WAF
-│   │   ├── akamai.py     # Akamai Bot Manager
-│   │   ├── perimeterx.py # PerimeterX (HUMAN)
-│   │   ├── datadome.py   # DataDome
-│   │   ├── recaptcha.py  # Google reCAPTCHA
-│   │   └── hcaptcha.py   # hCaptcha
-│   ├── logging/          # Custom logger
-│   ├── monitoring/       # Prometheus metrics
-│   ├── services/         # Anti-detection, user agents
-│   └── utils/            # Helpers, human behavior (fast/normal/stealth)
-├── config/               # JSON config, proxies
-├── data/                 # Runtime data
-│   ├── scraped/          # 💾 Auto-saved article content (JSON)
-│   ├── logs/scrapes/     # Scrape logs
-│   ├── screenshots/      # Failure screenshots
-│   └── sessions/         # Browser sessions
-├── docs/                 # Documentation
-├── tests/                # Unit tests (120 tests)
-├── main.py               # CLI entry point
-├── requirements.txt
+│   │   └── exceptions.py
+│   ├── detections/         # Bot-detection plugin system
+│   │   ├── base.py
+│   │   ├── registry.py
+│   │   ├── handler.py
+│   │   ├── cloudflare.py
+│   │   ├── akamai.py
+│   │   ├── perimeterx.py
+│   │   ├── datadome.py
+│   │   ├── recaptcha.py
+│   │   └── hcaptcha.py
+│   ├── logging/
+│   ├── monitoring/         # Prometheus metrics
+│   ├── services/           # Anti-detection, user agents
+│   └── utils/
+├── config/                 # JSON config, proxies
+├── data/
+│   ├── scraped/            # Auto-saved article JSON
+│   ├── logs/scrapes/
+│   ├── screenshots/        # Failure captures
+│   └── sessions/
+├── tests/                  # 120 unit tests
+├── main.py                 # CLI entry point
 ├── Dockerfile
 └── docker-compose.yml
 ```
 
-## 🧪 Testing
+## Tests
 
 ```bash
-# Run all tests (120 tests)
 pytest tests/ -v
-
-# Run with coverage
 pytest tests/ -v --cov=app --cov-report=html
-
-# Run specific test file
 pytest tests/test_api.py -v
 ```
 
-## 🔒 Security
+## Logging
 
-- **API Key Authentication**: Set `SCRAPER_API_KEY` environment variable to enable
-- **CORS**: Configured for cross-origin requests (customize in production)
-- **Rate Limiting**: Built-in delays between requests
-- **Data saved locally**: Scraped content saved to `data/scraped/` (use `--no-save` to disable)
+Per-scrape logs land in `data/logs/scrapes/` named
+`YYYY-MM-DD_HHMMSS_host.log`. Set `LOG_FORMAT=json` for structured
+production logging.
 
-## 📊 Anti-Detection Features
+## Built on
 
-| Feature | Description |
-|---------|-------------|
-| 🎭 Fingerprint Rotation | 10 consistent profiles (UA ↔ viewport ↔ platform ↔ WebGL ↔ hardware), avoids last 3 used |
-| 🖼️ Canvas Fingerprinting | Adds noise to canvas operations |
-| 🎮 WebGL Spoofing | Randomizes renderer/vendor per fingerprint profile |
-| 🌐 WebRTC Protection | Prevents IP leaks |
-| 🧭 Navigator Patches | Hides webdriver property, consistent platform |
-| 💻 Hardware Randomization | Per-fingerprint CPU cores, memory, device pixel ratio |
-| 🖱️ Mouse Simulation | Bezier curves, tremor, variable speed |
-| 📜 Scroll Simulation | Read/skim/back scroll patterns |
-| 🎭 Behavior Modes | Fast (~0.2s), Normal (~3-5s), Stealth (~5-7s) |
-| 🍪 Cookie Banner Dismissal | OneTrust, Cookiebot, Osano, TrustArc, Quantcast, Amazon SP + generics |
-| 🚫 Tracker Blocking | Blocks google-analytics, facebook.net, hotjar, doubleclick, etc. |
-| 📸 Early HTML Snapshot | Captures content before JS crashes can blank the page |
-| 🔄 Multi-Strategy Fallback | domcontentloaded → load → networkidle with auto-retry |
+[Playwright](https://playwright.dev/) for browser automation,
+[Trafilatura](https://github.com/adbar/trafilatura) for article
+extraction, [FastAPI](https://fastapi.tiangolo.com/) for the HTTP
+server, [Typer](https://typer.tiangolo.com/) for the CLI.
 
-## 📝 Logging
+## License
 
-Logs are saved to `data/logs/scrapes/` with format:
-```
-2026-01-15_143535_example.com.log
-```
-
-Enable JSON logging for production:
-```bash
-LOG_FORMAT=json python main.py serve
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [Playwright](https://playwright.dev/) - Browser automation
-- [Trafilatura](https://github.com/adbar/trafilatura) - Article extraction
-- [FastAPI](https://fastapi.tiangolo.com/) - API framework
-- [Typer](https://typer.tiangolo.com/) - CLI framework
+MIT.
