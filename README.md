@@ -1,5 +1,7 @@
 # WannaScrape
 
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)](https://playwright.dev/) [![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/) [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 WannaScrape is a Python web scraper for article content with anti-detection
 and a plugin-based bot-detection system. It extracts clean article text from
 arbitrary websites while routing around Cloudflare, Akamai, PerimeterX,
